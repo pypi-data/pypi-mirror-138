@@ -1,0 +1,17 @@
+2022-02-09 19:42:31,947 [MainThread] INFO  commons.py::log_init(@Line:72) Logger init. filename=application.log level=10 mode=a append=False 
+2022-02-09 19:42:31,947 [MainThread] INFO  properties.py::_parse(@Line:144) Successfully loaded 0 properties from:
+	=>/Users/hjunior/GIT-Repository/GitHub/hspylib/src/main/hspylib/resources/application.properties 
+2022-02-09 19:42:31,947 [MainThread] INFO  app_config.py::__init__(@Line:61) 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+AppConfigs
+  |-SourceDir = /Users/hjunior/GIT-Repository/GitHub/hspylib/src/main/hspylib
+  |-ResourceDir = /Users/hjunior/GIT-Repository/GitHub/hspylib/src/main/hspylib/resources
+  |-LogFile = /Users/hjunior/GIT-Repository/GitHub/hspylib/src/main/hspylib/resources/log/application.log
+  |-AppProperties:
+   \-
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+2022-02-09 19:42:31,948 [MainThread] INFO  application.py::run(@Line:89) Run started 2022-02-09 19:42:31.947992 
+2022-02-09 19:42:31,948 [MainThread] DEBUG application.py::_parse_arguments(@Line:204) Invalid argument "widgets" 
+2022-02-09 19:42:43,400 [MainThread] ERROR exceptions.py::__init__(@Line:25) Failed to execute widget :: [Errno 5] Input/output error 
+2022-02-09 19:42:43,401 [MainThread] INFO  application.py::run(@Line:99) Run finished 2022-02-09 19:42:43.401203 
+2022-02-09 19:42:43,401 [MainThread] INFO  application.py::_cleanup(@Line:137) cleanup was not overridden 
