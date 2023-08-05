@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+couscous/__init__.py
+couscous/_nbdev.py
+couscous/core.py
+cousie.egg-info/PKG-INFO
+cousie.egg-info/SOURCES.txt
+cousie.egg-info/dependency_links.txt
+cousie.egg-info/entry_points.txt
+cousie.egg-info/not-zip-safe
+cousie.egg-info/requires.txt
+cousie.egg-info/top_level.txt
