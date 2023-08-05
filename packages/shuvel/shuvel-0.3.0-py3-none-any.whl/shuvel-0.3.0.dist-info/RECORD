@@ -1,0 +1,11 @@
+shuvel/__init__.py,sha256=VZqEguJG4bDFTu7pF2t08H07HPb4nhLMhyr1Pt5nuwc,214
+shuvel/main.py,sha256=XxQGar_oD-jIF_LMIPbY2uIfaG3fjIIy9IBJMIwqTl4,6977
+shuvel/result.py,sha256=W0xtcE06quFSXXtbbFBoHuwdYP7R8GEbnGdo81w3Xxs,349
+shuvel/rule.py,sha256=Lb-qdsdSreKYvkwzBZN9xAFa0jB8PB4Sqz_MFpwgPqI,662
+shuvel/utils.py,sha256=8_DjbepRwLr_NbjCN6NVzLvSiq45DpLg0cpWne5dREg,10454
+shuvel-0.3.0.dist-info/LICENSE,sha256=pAE4wbnVE3kTGuPF-rny_E91WvdbAmffGbvbDXOLPuE,1067
+shuvel-0.3.0.dist-info/METADATA,sha256=uTIkFmwpAgvTRST7Y0YFTfP1aIPFWNUeaDRuweFWxJw,2747
+shuvel-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+shuvel-0.3.0.dist-info/entry_points.txt,sha256=gBcaMs3sXGWq1zHxtPbk7wPukMm86z6WTMmB4ekP0dw,51
+shuvel-0.3.0.dist-info/top_level.txt,sha256=f1HBFyqrolgwIZJjAB_nyZp_hwRRPTIYV6lre-QZ-SY,7
+shuvel-0.3.0.dist-info/RECORD,,
