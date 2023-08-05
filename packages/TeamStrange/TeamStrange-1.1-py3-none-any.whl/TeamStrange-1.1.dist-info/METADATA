@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: TeamStrange
+Version: 1.1
+Summary: A small package for working with time series. Created by Team Strange.
+Home-page: https://git.rwth-aachen.de/swc/teaching/winter-term-21-22/lab-timeseries-synthesizer/team-strange/-/tree/main
+Author: Martin Clever
+Author-email: martin.clever@rwth-aachen.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+
+# TeamStrange Package
+
+This is a small package for working with time series. The package is mainly build around the existing package pandas, 
+however, it focuses on editing specifically time series. The functionalities include import, export, 
+changing values in various ways, getting intervals and single data-points, adding, removing, finding and moving 
+data-points, and finally, creating peaks in the time series.\
+In order to import the TeamStrange Package, just typ "pip install TeamStrange-Martin-Clever" and use "import TimeSeries" 
+at the beginning of the code.
+
