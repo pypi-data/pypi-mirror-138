@@ -1,0 +1,9 @@
+centroid_summarizer/__init__.py,sha256=X6eqQ3Sv_vE0bbJ29LW8-vm7UNy8XyAui-38UYAUZsg,158
+centroid_summarizer/base.py,sha256=RTh2YHiWhs7elAR9EYlAtAgM5Tdpceei65wBWUXFuAA,1905
+centroid_summarizer/centroid_bow.py,sha256=xIYll4fYkCRSrJhwrcDA56sqrMb3uRMMmuGENtzjF5s,2878
+centroid_summarizer/centroid_word_embeddings.py,sha256=PsPO5sNmDuZ_-u_eBZW45Sl8GktLsD1gR8VTSNAhSKs,10663
+centroid_summarizer-0.0.4.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+centroid_summarizer-0.0.4.dist-info/METADATA,sha256=UCc-1SfGM-PCF7qfhIBT1eV0QjcftX0bVAYbkij3GNs,6800
+centroid_summarizer-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+centroid_summarizer-0.0.4.dist-info/top_level.txt,sha256=bWFa8t82Edk8UpCKZSFjXfeyPu-kx8FtVrPyHwVP9VI,20
+centroid_summarizer-0.0.4.dist-info/RECORD,,
