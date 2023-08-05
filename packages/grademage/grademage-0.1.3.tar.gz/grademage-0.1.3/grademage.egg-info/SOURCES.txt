@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+grademage/__init__.py
+grademage/grademage.py
+grademage.egg-info/PKG-INFO
+grademage.egg-info/SOURCES.txt
+grademage.egg-info/dependency_links.txt
+grademage.egg-info/requires.txt
+grademage.egg-info/top_level.txt
