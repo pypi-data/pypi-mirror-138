@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ottoeplitz
+Version: 0.1
+Summary: Toeplitz hashing algorithm for post-processing Quantum Random Number Generation
+Home-page: https://github.com/BYUCamachoLab/ottoeplitz
+Author: Sarah Maia, Sarah Gonzalez
+Author-email: sarahcrismaia@gmail.com, sarahg.3545@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Security :: Cryptography
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+UNKNOWN
+
