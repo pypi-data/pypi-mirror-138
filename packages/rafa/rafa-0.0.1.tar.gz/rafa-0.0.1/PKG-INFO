@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: rafa
+Version: 0.0.1
+Summary: A data transformation tool for analytics teams
+Home-page: UNKNOWN
+Author: Michael Irvine
+Author-email: michael.j.irvine@gmail.com
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+
+Rafa lets you write templated SQL via Python and run it against your data warehouse to create tables for analytics.
+
