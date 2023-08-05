@@ -1,0 +1,85 @@
+# environment.yml
+# Configuration file for creating a Conda Environment with dependencies needed for Tethys Platform.
+# Create the environment by running the following command (after installing Miniconda):
+#   $ conda env create -f environment.yml
+
+name: tethys
+
+channels:
+- tethysplatform
+- tethysplatform/label/dev
+- conda-forge
+- defaults
+
+dependencies:
+- python
+
+# system dependencies
+- pycrypto
+- pyopenssl
+- docker-py
+- distro
+
+# database dependencies
+- postgresql
+- psycopg2<2.9  # remove pin after upgrading to django 3.
+- sqlalchemy
+- geoalchemy2
+
+# plotting dependencies
+- plotly
+- bokeh>=2.0.0*
+
+# external services dependencies
+- tethys_dataset_services>=2.0.0
+- hs_restclient
+- owslib
+- requests
+- social-auth-app-django
+- dask=1.2.*
+- tethys_dask_scheduler>=1.0.2
+- channels=2.*
+- daphne=2.5.*
+- service_identity
+- condorpy
+- siphon
+- python-jose
+- pyjwt<2.0.0
+
+# datetime dependencies
+- arrow
+- isodate
+
+# django/plugin dependencies
+- django=2.2.*
+- django-axes
+- django-filter
+- djangorestframework
+- django-bootstrap3
+- django-model-utils
+- django-guardian
+- django-gravatar2
+- django-termsandconditions
+- django-session-security
+- django-analytical
+- django-simple-captcha
+- django-recaptcha2
+- django-mfa2
+- social-auth-app-django
+
+# tests dependencies
+- requests-mock
+- selenium
+- coverage
+- factory_boy
+
+# for now
+- pillow
+- pip
+- future
+- flake8
+- pbr
+- git
+
+# Conda to allow Python API access to Conda Install
+- conda
