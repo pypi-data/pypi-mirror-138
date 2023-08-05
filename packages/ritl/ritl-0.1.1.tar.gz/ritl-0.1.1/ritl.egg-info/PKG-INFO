@@ -1,0 +1,42 @@
+Metadata-Version: 1.1
+Name: ritl
+Version: 0.1.1
+Summary: Relatives Import Tool
+Home-page: https://github.com/Guitheg/ritl
+Author: Guitheg
+Author-email: UNKNOWN
+License: MIT
+Description: # ritl
+        Relatives Import Tool : How many time I was blocked by relative import problems. This time is over now...
+        
+        # Installation
+        ```
+        pip install ritl
+        ```
+        
+        # Usage
+        
+        We just need to put :
+        ```
+        from ritl import relative_import
+        relative_import.add_rel_imp()
+        ```
+        and we can import easily our modules in the same directory of our file. Wherever you execute it.
+        
+        You can also add more directories, relative to your file directory :
+        ```
+        relative_import.add_rel_imp("../utils")
+        ```
+        
+        This will allow you to relatively import your modules from other directory in utils
+        
+        After this, you just have to import your modules
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Education
