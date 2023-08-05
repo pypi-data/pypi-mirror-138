@@ -1,0 +1,9 @@
+cdktf_cdktf_provider_kubernetes/__init__.py,sha256=f_9lDz6TK-ExmGK_DCj3CwwqooWnSZhkPeuo8gFdcHE,23567578
+cdktf_cdktf_provider_kubernetes/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdktf_cdktf_provider_kubernetes/_jsii/__init__.py,sha256=3I4N5h82x47nKzNamX7hOxzhba6sNNx8KEBzB4pgVnM,391
+cdktf_cdktf_provider_kubernetes/_jsii/provider-kubernetes@0.6.15.jsii.tgz,sha256=EO4amXlzuoGMGr1-wkjeTML2oZH5phymhwM0V1vLbWI,5583978
+cdktf_cdktf_provider_kubernetes-0.6.15.dist-info/LICENSE,sha256=qDABaRGjSKVOib1U8viw2P_96sIK7Puo426784oD9f8,15976
+cdktf_cdktf_provider_kubernetes-0.6.15.dist-info/METADATA,sha256=IoVEp91ZWzwlVcXd_9Brvg7BK-9AiMf1l6PYu3ozG48,4048
+cdktf_cdktf_provider_kubernetes-0.6.15.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cdktf_cdktf_provider_kubernetes-0.6.15.dist-info/top_level.txt,sha256=8mI5pXdCL0P0PXacMChlkP8zJRohfQEFyBfIKNhAhEc,32
+cdktf_cdktf_provider_kubernetes-0.6.15.dist-info/RECORD,,
