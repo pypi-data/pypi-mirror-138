@@ -1,0 +1,13 @@
+unicodeconverter/__init__.py,sha256=nIi2M2qds_dM5fomtuGVX8oDGsNswsXyCs8iKEYsQIg,63
+unicodeconverter/converter.py,sha256=6LzICvTIpec8gKuhQepcGONSE_7U6URSgfOh6WIBt_c,1118
+unicodeconverter/version.txt,sha256=96Zy8TSUFvRP7R8Mt77PKHXXJ2iaDz6uap8emqEhfrM,8
+unicodeconverter/lists/__init__.py,sha256=nvLxsRFItYJBl0g93A68Y8m5hihYsegYgtwjNmeEZW8,394
+unicodeconverter/maps/__init__.py,sha256=eVs7jtX44ygXQv1kyh2uD4kF5rYkGuac9tzQC6TMXkU,6717
+unicodeconverter/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unicodeconverter/utils/checkers.py,sha256=ef7c4f5tfvjmm-0VKekxJ1rfaGki7E3vAiixYT8mU80,3531
+unicodeconverter/utils/rearrange.py,sha256=zKDSF6VBUHo15mxd8ceJKnwTBHa19b5mQt-TvfIfUQU,5532
+unicodeconverter-0.1.0b10.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+unicodeconverter-0.1.0b10.dist-info/METADATA,sha256=873B4o7DR51mIfUE6VTlK7_EHdtdxHwlLo_bRInuea4,1014
+unicodeconverter-0.1.0b10.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+unicodeconverter-0.1.0b10.dist-info/top_level.txt,sha256=OhsMse_jhA4uvH38UssJMjsJGozLAfXydYLSlhciyZ4,17
+unicodeconverter-0.1.0b10.dist-info/RECORD,,

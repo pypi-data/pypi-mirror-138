@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: unicodeconverter
+Version: 0.1.0b10
+Summary: Convert Bangla text from Bijoy to Unicode
+Home-page: https://github.com/shahad-mahmud/unicode_converter
+Author: Md. Shahad Mahmud Chowdhury
+Author-email: shahad9381@gmail.com
+License: UNKNOWN
+Keywords: bangla unicode converter,bijoy to unicode
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Unicode Converter
+A python tool to convert Bangla Bijoy text to Unicode text. 
+
+# Installation
+Unicode Converter can be installed via PyPi. Make sure `pip` is installed and updated. Then simply run the following command:
+    
+    pip install unicodeconverter
+
+
+# how to use
+    import unicodeconverter as uc
+
+    bijoy_text = 'Avwg evsjvq Mvb MvB|'
+    unicode_text = uc.convert_bijoy_to_unicode(bijoy_text)
+
+    print(unicode_text)
+    # >>> আমি বাংলায় গান গাই। 
+
