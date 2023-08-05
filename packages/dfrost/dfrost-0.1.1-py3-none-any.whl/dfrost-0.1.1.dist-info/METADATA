@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dfrost
+Version: 0.1.1
+Summary: 
+Author: tlonny
+Author-email: t@lonny.io
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: boto3 (>=1.20.51,<2.0.0)
+Requires-Dist: cryptography (>=36.0.1,<37.0.0)
+Requires-Dist: pathspec (>=0.9.0,<0.10.0)
