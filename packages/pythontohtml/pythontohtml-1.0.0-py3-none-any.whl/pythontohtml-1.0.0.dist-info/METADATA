@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pythontohtml
+Version: 1.0.0
+Summary: python functions to HTML
+Home-page: https://github.com/hakiKhuva/pythontohtml
+Author: Harkishan Khuva
+Author-email: harkishankhuva02@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+
+pythontohtml : python functions to HTML
+
+USAGE
+=====
+
+```
+from pythontohtml.htmlTags import html, div, header, h1, italic
+
+html(
+    div(
+        header(h1("This is Header",id="main-header",className="header")),
+
+        div(italic(("Let`s try this!"))),
+
+        id="main-container",
+        other_attr={
+            "data-id" : 23
+        },
+    ),
+    title="Testing..."
+)
+```
+
+

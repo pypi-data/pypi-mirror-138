@@ -1,0 +1,1 @@
+_parse_attr = lambda other_attr:' '.join([f' {key}="{val}" ' for key,val in other_attr.items()])
