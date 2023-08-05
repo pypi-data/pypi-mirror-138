@@ -1,0 +1,9 @@
+semver_gitlab/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+semver_gitlab/__main__.py,sha256=vCcowo-yMqGPqNegzkxbHV2iaojfPnLncT_BhVjAaF0,130
+semver_gitlab/cli.py,sha256=siJSJz-v_OLYtaPwfRrovMaOS6ixQcLUd3YabNFwwO8,1755
+semver_gitlab/constants.py,sha256=vuo4SmNkiNMPPZw9QRojmLt8NXmOJk1aczgrThcgz7o,254
+semver_gitlab/semver_dfx.py,sha256=ZzNICxqogKncWluX5EBddX4jZWdTL6jyKljOOfn50Hg,6328
+semver_gitlab-0.0.4.dist-info/METADATA,sha256=jEzslzaJUVQKggg8PMluNHVdOwVnBp694qOMmOnDiao,535
+semver_gitlab-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+semver_gitlab-0.0.4.dist-info/top_level.txt,sha256=Za6H8wYZqpMIJBreDPlMgOAeca7S_jLM6YnKrtZm47w,14
+semver_gitlab-0.0.4.dist-info/RECORD,,
