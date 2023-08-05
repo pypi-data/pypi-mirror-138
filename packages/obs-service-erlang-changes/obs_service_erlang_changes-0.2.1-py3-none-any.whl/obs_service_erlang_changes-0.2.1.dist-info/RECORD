@@ -1,0 +1,15 @@
+erlang_changes/__init__.py,sha256=CBgPBo4cWoi6asMWiu19uMyRGGBYpUujDrcAdaHB6_A,205
+erlang_changes/changes.py,sha256=3exRtufSK-nbLA37mB6ZsQ8KidQOjxXzNOT6HokZDU8,2007
+erlang_changes/cli.py,sha256=ErtU20miBfZdJ7TVpuImZ8IQ9xM8neGLysvdhz4jVm8,2672
+erlang_changes/github.py,sha256=rWtUtpwjMkzrS2jrTn67DwngvQkSQXxenDlcfrn2x5U,516
+erlang_changes/notes_xml.py,sha256=C0Tmiua3743_HnX3D8Q568-ifzcs-lj2dfpCeohUfJM,1545
+erlang_changes/otp_src.py,sha256=j1dqVZjjUdiiJS-cUcqs0pC42ehjrJJlz2k9t-mkfog,2239
+erlang_changes/otp_versions_table.py,sha256=7mZlBwqDXi7G5um9NzvuR41LOMxGyCtpywT55pJFSRg,2004
+erlang_changes/spec.py,sha256=MNGvX4KH2G2Es8D-P8wfaQKZkDI2lp3wbS5VfwbW5so,1195
+usr/lib/obs/service/erlang_changes.service,sha256=bimVS47haWQV9hTmBTbYOVRleugO4GvOG9yuZXqbVmw,176
+obs_service_erlang_changes-0.2.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+obs_service_erlang_changes-0.2.1.dist-info/METADATA,sha256=HX0a6BaVQPzuOebrP9pc0k5LxLfCtMjJMm8QNtDChSw,316
+obs_service_erlang_changes-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+obs_service_erlang_changes-0.2.1.dist-info/entry_points.txt,sha256=TveflC82m1ejOCU7CtAtramFUbTFyxzn-VrRQBHRxpU,80
+obs_service_erlang_changes-0.2.1.dist-info/top_level.txt,sha256=CKDUiQOXioOkiy8Uk929lvSEJ7JRfN8z_34HnLk-6uQ,15
+obs_service_erlang_changes-0.2.1.dist-info/RECORD,,
