@@ -1,0 +1,5 @@
+TODO.md
+*.pyc
+__pycache__/*
+*.egg-info
+
