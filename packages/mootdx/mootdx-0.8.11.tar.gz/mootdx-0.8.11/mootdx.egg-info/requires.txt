@@ -1,0 +1,11 @@
+click>=6.7
+httpx>=0.18.1
+loguru>=0.5.3
+pandas>=0.23.3
+prettytable>=2.2.0
+py_mini_racer>=0.6.0
+pytdx>=1.72
+pyyaml
+tenacity>=8.0.1
+tqdm>=4.37.0
+pytest
