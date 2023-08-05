@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pybgpkit-parser
+Version: 0.0.1
+Summary: BGPKIT Parser Python Binding
+Keywords: bgp,mrt,parser
+Author: Mingwei Zhang <mingwei@bgpkit.com>
+Author-email: Mingwei Zhang <mingwei@bgpkit.com>
+License: MIT
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/bgpkit/bgpkit-parser-py
+
+# bgpkit-parser-py
+
+Python binding for bgpkit-parser
+
+## Develop
+
+`maturin develop` builds local python module and add to the venv.
+
