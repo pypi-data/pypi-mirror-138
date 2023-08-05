@@ -1,0 +1,3 @@
+include README.md
+include LICENSE
+include src/analysishelper/map/metadata/period_dict.csv
