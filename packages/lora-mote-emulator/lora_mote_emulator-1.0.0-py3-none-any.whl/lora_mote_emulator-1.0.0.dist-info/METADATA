@@ -1,0 +1,187 @@
+Metadata-Version: 2.1
+Name: lora-mote-emulator
+Version: 1.0.0
+Summary: Emulate LoRa mote (a.k.a end-device) and gateway.
+Author: Lu Hou
+Author-email: houlu8674@bupt.edu.cn
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: pycryptodome
+Requires-Dist: pyyaml
+
+LoRa Mote Emulator
+==================
+
+|version|
+|python| 
+|license|
+
+This is a useful tool to test LoRa server.
+
+To emulate end devices (a.k.a. Motes in |LoRaWAN(TM)| protocol)
+
+*Support* |LoRaWAN(TM)| *1.0.2 & 1.1 protocol*
+
+**Using Gateways from** |Semtech(TM)|
+
+.. |LoRaWAN(TM)| unicode:: LoRaWAN U+2122
+.. |Semtech(TM)| unicode:: Semtech U+2122
+
+
+System Requirements
+-------------------
+
+- Ubuntu
+- Python(>=3.6, mandatory)
+
+Installtion
+-------------------
+
+PYPI
+************
+
+- Use ``pip`` to install ``lora-mote-emulator``::
+
+    pip install lora-mote-emulator
+
+
+MANUALLY
+************
+
+- Use ``pip`` to install ``pipenv``::
+
+    pip install pipenv
+
+- Clone this repo into a directory::
+
+    git clone https://github.com/houluy/lora-mote-emulator.git
+
+- Use ``pipenv`` to create a virtual Python environment and install all the dependencies::
+
+    pipenv install
+
+- Build the project::
+
+    python -m build 
+  
+Here, if there is not Python 3.6 in your system, a warning will occur, and no package will be installed. It is perfect to install Python 3.6 from `source <https://www.python.org/downloads/release/python-362/>`_. Otherwise, remove the ``Pipfile.lock`` and redo the above command.
+
+- Run the emulator to see the help::
+
+    pipenv run python main.py -h
+
+or by::
+
+    pipenv shell
+    mote -h
+
+
+Usage
+------------------
+
+::
+
+    usage: mote [-h] [-v version] [-c CONFIG] [--model MODEL] {join,app,pull,cmd,rejoin,info,abp} ...
+
+    Tool to emulate LoRa mote (a.k.a end-device) and Gateway, supported command list: ['join', 'app', 'pull', 'cmd', 'rejoin', 'info', 'abp']
+
+    optional arguments:
+      -h, --help            show this help message and exit
+      -v version, --version version
+                            Choose LoRaWAN version, 1.0.2 or 1.1(default)
+      -c CONFIG, --config CONFIG
+                            Specify the directory of config files, default './config'
+      --model MODEL         Specify the directory to save the model file, default './models'
+
+    Supported commands:
+      {join,app,pull,mac,rejoin,info,abp}
+        join                Send join request.
+        app                 Send application data.
+        pull                Send PULL_DATA.
+        mac                 Send MACCommand.
+        rejoin              Send rejoin request.
+        info                Show information of current mote.
+        abp                 Initialize mote in ABP mode.
+			
+Tutorial
+--------
+
+- First, we need to create a ``config`` directory to put config files in. It can be copy from github repo ``config/*.json.tpl`` template files. In the directory, several JSON config files are included.
+    + ``config.json``: Basic configurations.
+    + ``gateway.json``: Gateway EUI.
+    + ``device.json``: Device parameters for OTAA mode.
+    + ``abp.json``: Device parameters for ABP mode.
+
+
+OTAA
+****
+
+- Modify device infomation in ``device.json`` copied. An example: ::
+
+    {
+        "Device": {
+            "JoinEUI": "0000000000000000",
+            "DevEUI": "0000000000000000"
+        },
+        "RootKeys": {
+            "AppKey": "00000000000000000000000000000000",
+            "NwkKey": "00000000000000000000000000000000"
+        }
+    }
+        
+**NOTE**: If you want to emulate LoRaWAN 1.0 device, first set ``JoinEUI`` equal to ``AppEUI`` and set ``NwkKey`` equal to ``AppKey``.
+
+ABP
+***
+
+- Modify device activation information in ``abp.json``. An example: ::
+
+    {
+        "deveui": "0000000000000000",
+        "joineui": "0000000000000000",
+        "devaddr": "00000000",
+        "appkey": "00000000000000000000000000000000",
+        "nwkkey": "00000000000000000000000000000000",
+        "nwksenckey": "00000000000000000000000000000000",
+        "snwksintkey": "00000000000000000000000000000000",
+        "fnwksintkey": "00000000000000000000000000000000",
+        "appskey": "00000000000000000000000000000000",
+        "fcntup": 0,
+        "version": "1.1"
+    }
+	
+- Currently, five kinds of message is supported: pull data, join request, rejoin request, confirmed (or unconfirmed) data up (with or without FOpts) and MAC Commands in FRMPayload field:
+
+**NOTE**: Always remember to ``mote pull`` to keep the gateway alive in server.
+
+::
+
+	mote info
+	mote pull
+	mote abp
+	mote join [-n]
+	mote rejoin 'rejointyp' (0, 1, 2)
+	mote app 'message' (uplink message, will be encoded by UTF-8) [-auf]
+	mote mac 'command' (MAC Commands in FRMPayload field)
+
+Here is the example step of interaction with `ChirpStack <https://www.chirpstack.io>`_:
+
+::
+
+    mote pull
+    mote join -n
+    mote app helloworld -f 0302
+    mote main.py mac 0302
+
+Contribution
+------------
+
+This repo is hosted on https://github.com/houluy/lora-motes-emulator and under MIT license, any contribution or suggestion is welcome. Just open an issue or send a pull request.
+
+
+.. |version| image:: https://img.shields.io/badge/LoRaWAN-1.1-orange.svg?style=plastic
+.. |python| image:: https://img.shields.io/badge/Python-3.6%2C3.7-blue.svg?style=plastic&logo=python
+.. |license| image:: https://img.shields.io/badge/License-MIT-red.svg?style=plastic
+
+
