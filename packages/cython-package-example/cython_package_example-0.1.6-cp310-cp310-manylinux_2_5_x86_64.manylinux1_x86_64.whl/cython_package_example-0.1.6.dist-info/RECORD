@@ -1,0 +1,15 @@
+cython_package_example-0.1.6.dist-info/RECORD,,
+cython_package_example-0.1.6.dist-info/top_level.txt,sha256=XGzYuhyS8q26QR2GkSDr2CfACNTvWNgN8Mbfk1KPxYM,7
+cython_package_example-0.1.6.dist-info/WHEEL,sha256=_CsSu7HhuQEymYd-PWw19OJIyLcZXT1BJUtXOzGDKCc,148
+cython_package_example-0.1.6.dist-info/METADATA,sha256=j0ZDs3iqCqYKfdfYHDwYA1jcZIH01_qQFOVeuHyTrLU,2427
+cython_package_example-0.1.6.dist-info/LICENSE.txt,sha256=fhdKJi556V1VLa-1QQmImMadfaHckqAOv3iPLtM4j-w,1070
+cypack/utils.pxd,sha256=A14DYOq4YYwtp1JkcM7RKpVjd3pqmquSzadI4EuaZHw,35
+cypack/utils.cpython-310-x86_64-linux-gnu.so,sha256=H2Nth8acZ3UySRfN6fFE8BrH6iMrnV10kbEsBtzg1SY,57192
+cypack/fibonacci.cpython-310-x86_64-linux-gnu.so,sha256=HC8CxGD6nHERg_729d9yrqaJiNhRiaW1bIQx3h3LzLY,65536
+cypack/answer.cpython-310-x86_64-linux-gnu.so,sha256=lPEV6q23vZwQ1YeAoe0yPfIwBqNj36YRG61mOxJu5Pc,95552
+cypack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cypack/sub/wrong.cpython-310-x86_64-linux-gnu.so,sha256=IdGLQC2J30Fa42U3mlrHP4yAy7mRmMyt_jXp0gsLuZI,62624
+cypack/sub/helper.pxd,sha256=SLYiIHd7U191VPXTpDEbrGHqBHu0IwuT2J72IsyPfBA,55
+cypack/sub/helper.h,sha256=7GeKHZz3v3ov4B50W1PyCfKnKt0vrIGxZsentpyQ0eQ,29
+cypack/sub/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cypack/data/zen.txt,sha256=sKTeKTUDr3-RJ8zlD7s_gRflwuyKDsPNSJfjmVus8P0,857
