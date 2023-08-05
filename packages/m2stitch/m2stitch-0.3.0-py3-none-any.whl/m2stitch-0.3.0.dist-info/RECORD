@@ -1,0 +1,14 @@
+m2stitch/__init__.py,sha256=-ZstjbHprbWaGQvC_OqRciEk_VtEDIERMNGhbjPvIoA,235
+m2stitch/__main__.py,sha256=oWptjTn1j7YAk0k6x813nA8Byv0Rr_8VDNNppogOaIg,465
+m2stitch/_constrained_refinement.py,sha256=icr9PIFcz48IUCOssBa9cpPcWSQ0HKLzqRsMbZeXhII,3694
+m2stitch/_global_optimization.py,sha256=HdL0u2IOgY0TLpuUy8Ln1IfZRaNgnnj88KeJQij331o,2947
+m2stitch/_stage_model.py,sha256=h8r5ps7007ymEKUGSLg2x7ib3rJjPPMHUMRttKA6edE,10966
+m2stitch/_translation_computation.py,sha256=bjJu2rkchbQpY4PExOT-7rmhseHF8Oe5EXimK2aZXH0,4475
+m2stitch/_typing_utils.py,sha256=Kgg-mBZ_3o6fsfsZzW9PKwrHIzUfyhR7r17_u3pc49A,251
+m2stitch/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+m2stitch/stitching.py,sha256=6-e7Va6uIqh5NXukYHnxWTy_SdIW1REc0p0XDdLLink,6116
+m2stitch-0.3.0.dist-info/entry_points.txt,sha256=xdo0QNyixi8u0950IXVDLLxK25wlfSaYEUwyhnbuT6Q,51
+m2stitch-0.3.0.dist-info/LICENSE.rst,sha256=OWA88AMBhEHkGQkBJdp7XAhqXeKyl_V_dQ_3FFt-VBE,3230
+m2stitch-0.3.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+m2stitch-0.3.0.dist-info/METADATA,sha256=IOl7I3JbN1oPtfhBAcRy6uPhRmvidwlQN6OUHZz_dzk,4505
+m2stitch-0.3.0.dist-info/RECORD,,
