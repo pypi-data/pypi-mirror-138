@@ -1,0 +1,14 @@
+mt/gpu/__init__.py,sha256=3k7JIa1D8n58yNiBOB2aJfWgbiGsA3TQ0DHzq3TWVQk,1990
+mt/gpu/arch.py,sha256=IAYEiN9MmQKyVUYHomg3QgFMvnDV8zu4efXDtYTpsmY,2603
+mt/gpu/arch_amd64_amd.py,sha256=tp7rkq9mtXK3_5u2Y93VCtHWnVtbv3uB9q0MIPrpXdg,1879
+mt/gpu/arch_amd64_cpu.py,sha256=wdavcOtmwgj0i6yWcdX1A3hzpwjOUJ1_9Yg3HcPJq6M,245
+mt/gpu/arch_amd64_nvidia.py,sha256=xhmh-7V0HXTmr851kOpAlggXNkb3mCuMAx7VsKfVZe0,1384
+mt/gpu/arch_rpi.py,sha256=FHzifWhV1YijXMSN4PglMKuLD2bcnFOHVSYmWxZDg2g,462
+mt/gpu/arch_tegra.py,sha256=V_r518x6uW_VL96h0fTWKP8J-0U3hptzot10MjVC1Ss,2063
+mt/gpu/version.py,sha256=dnM0i9tzL8284fMqjvv_EbUqrlZ8pG4dDvC_Ke7I4WA,396
+mtgpu-0.4.202202092106.data/scripts/detect_machine,sha256=7lX1WIVJNSZqsGpnHwJIp6C2EFWl_Ow74cBNc9uZQ0w,87
+mtgpu-0.4.202202092106.dist-info/LICENSE,sha256=PojkRlQzTT5Eg6Nj03XoIVEefN3u8iiIFf1p4rqe_t4,1070
+mtgpu-0.4.202202092106.dist-info/METADATA,sha256=2lZJ25wtH7twDDEYpyey0itE9ssi61SutbZ2KzqL0Xk,443
+mtgpu-0.4.202202092106.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mtgpu-0.4.202202092106.dist-info/top_level.txt,sha256=WcqGFu9cV7iMZg09iam8eNxUvGpLSKKF2Iubf6SJVOo,3
+mtgpu-0.4.202202092106.dist-info/RECORD,,
