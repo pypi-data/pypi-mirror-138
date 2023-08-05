@@ -1,0 +1,30 @@
+# smgantt
+
+Snakemake Gantt
+
+## Install
+
+```shell
+pip install smgantt==0.0.1
+```
+
+## Usage
+
+```
+$ smgantt --help
+usage: smgantt [-h] [-V] [-m METADATA] [-o OUTPUT]
+
+Snakemake Gantt 0.0.1
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -V, --version         show program's version number and exit
+  -m METADATA, --metadata METADATA
+                        Snakemake metadata directory, default: .snakemake/metadata
+  -o OUTPUT, --output OUTPUT
+                        Output image, default: gantt.png
+```
+
+## Example
+
+![image-20220210092315015](https://vs-picgo.oss-cn-zhangjiakou.aliyuncs.com/image-20220210092315015.png)
