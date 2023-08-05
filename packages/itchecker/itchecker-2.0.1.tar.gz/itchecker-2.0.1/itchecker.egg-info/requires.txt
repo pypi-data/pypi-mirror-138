@@ -1,0 +1,6 @@
+Jinja2==3.0.3
+MarkupSafe==2.0.1
+pyodbc==4.0.32
+pywin32==303
+xlwings==0.25.3
+python-docx==0.8.11

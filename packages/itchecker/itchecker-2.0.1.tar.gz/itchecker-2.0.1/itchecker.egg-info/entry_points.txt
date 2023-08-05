@@ -1,0 +1,3 @@
+[console_scripts]
+itchecker = itchecker.console_tool:main
+
