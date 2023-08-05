@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: raimitigations
+Version: 0.0.0
+Summary: Data Balance Analysis and Error mitigation steps on python
+Home-page: UNKNOWN
+Author: Akshara Ramakrishnan
+Author-email: aksharar@microsoft.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: wheel
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: imbalanced-learn
+
+UNKNOWN
+
