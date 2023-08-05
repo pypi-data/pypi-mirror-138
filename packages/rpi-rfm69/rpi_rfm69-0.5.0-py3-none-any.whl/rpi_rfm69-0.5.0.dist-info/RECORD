@@ -1,0 +1,10 @@
+RFM69/__init__.py,sha256=47ItL0_3pUlgtSIp_PSWMrjAaK3JEDUOdJVP5ruZJqw,293
+RFM69/config.py,sha256=j5b5z_HYg1AzKIcrTJUDIkWrI7Rk071egpSL_8Xav7o,3940
+RFM69/packet.py,sha256=GRzi466I-qU4jvimqzF7bqfLhOiYv13qyQcO-YJBZRc,1472
+RFM69/radio.py,sha256=MASIfoQCvAHzBvkHfFtYhmb4VOP_MbrqfJ319v5HqVM,28706
+RFM69/registers.py,sha256=2zKwnUBilbouzEEcKkNQ99T0Qi4x_oo4iSLcbr6BHkI,28508
+rpi_rfm69-0.5.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+rpi_rfm69-0.5.0.dist-info/METADATA,sha256=1Hk9nzSykXhfOcH7olkkbYIJKRmZ28ZzZ9q38BVF_2A,2656
+rpi_rfm69-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rpi_rfm69-0.5.0.dist-info/top_level.txt,sha256=N7Xb5DMHvbl_7j7OuAdODT6iMTVizyUYkNqaARPQ9UQ,6
+rpi_rfm69-0.5.0.dist-info/RECORD,,
