@@ -1,0 +1,6 @@
+torchdevice/__init__.py,sha256=yqCHZY006jiixNzNlf3aX4JeCf7hj9Y6w8DiIYMAXy0,54
+torchdevice/cuda.py,sha256=ANDxGIxsdCAW8th_fpQl0rN4vJ2yrtKDi56QBsvI9bk,1079
+torchdevice-0.1.0.dist-info/METADATA,sha256=Z3f0f43nFha0aBDK91106PqBfR_0VttsWCy-HiEp96s,390
+torchdevice-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+torchdevice-0.1.0.dist-info/top_level.txt,sha256=eHbQzfJspAuZISii4qu5ejHZAwkzIeCTbmPtP-N5goM,12
+torchdevice-0.1.0.dist-info/RECORD,,
