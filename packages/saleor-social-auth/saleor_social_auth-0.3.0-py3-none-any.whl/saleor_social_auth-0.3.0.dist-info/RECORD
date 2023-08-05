@@ -1,0 +1,12 @@
+social_auth/__init__.py,sha256=Ko4HJ1DigiLTwnG2hSOky6kpO3uDhTjM-zuJ70kiLmU,209
+social_auth/apps.py,sha256=JEHIIagplJqqdAvqYhT9IoOisABbXtcRduG0NK_eNSo,2009
+social_auth/plugin.py,sha256=Mgs6PJYTv08HIBaccdHpiAi_Jd88JD08C2d6Vz8edzc,9824
+social_auth/strategy.py,sha256=QsBnDLRUfkvwmBHDMjK925bHzMUZDeJhbmv_vikAE6k,1338
+social_auth/utils.py,sha256=dme9akf2ZfE1OI6jggIXac6gy8q1hfS03ea5GvJ59tE,4015
+saleor_social_auth-0.3.0.dist-info/LICENSE,sha256=PWnvXyL9sY9hvu9e_dPeFpf4t8fIzsNDdmLZcgaNlU0,1064
+saleor_social_auth-0.3.0.dist-info/METADATA,sha256=kUaZeQt5tr0G519IhyowU--EhY3_w2zTO9ARxtcs37Q,2289
+saleor_social_auth-0.3.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+saleor_social_auth-0.3.0.dist-info/entry_points.txt,sha256=Lyn6kKo9BI7dS8fXkqxe3SZJkwyWpb6wLWwD0VSwwQ0,68
+saleor_social_auth-0.3.0.dist-info/top_level.txt,sha256=Pca1KMuGuvWOAaqQ8HpPNAc0YBME425HhJ4_ZZ3V4pE,12
+saleor_social_auth-0.3.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+saleor_social_auth-0.3.0.dist-info/RECORD,,
