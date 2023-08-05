@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+merge_csv/__init__.py
+merge_csv/__main__.py
+merge_csv/merge_dataframes.py
+merge_csv/merge_files.py
+merge_csv_xjg.egg-info/PKG-INFO
+merge_csv_xjg.egg-info/SOURCES.txt
+merge_csv_xjg.egg-info/dependency_links.txt
+merge_csv_xjg.egg-info/entry_points.txt
+merge_csv_xjg.egg-info/requires.txt
+merge_csv_xjg.egg-info/top_level.txt

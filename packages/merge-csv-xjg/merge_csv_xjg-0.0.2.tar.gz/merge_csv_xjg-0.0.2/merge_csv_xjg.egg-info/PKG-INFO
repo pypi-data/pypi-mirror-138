@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: merge-csv-xjg
+Version: 0.0.2
+Summary: Merge two CSV files with pandas
+Home-page: https://github.com/JoaquimXG/csv-merge
+Author: Joaquim Gomez
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Merge CSV
+
+Simple package for merging two CSV files with pandas based on values in a given column. 
+
+This module is required over pd.merge due to proper handling of rows with empty values. 
+
