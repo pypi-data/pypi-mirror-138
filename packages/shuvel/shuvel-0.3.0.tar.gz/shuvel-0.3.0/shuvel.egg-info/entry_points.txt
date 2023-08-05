@@ -1,0 +1,3 @@
+[console_scripts]
+shuvel = shuvel.main:shuvel_cli
+
