@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: rich-demo
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/chemacortes/rich-demo
+License: MIT
+Author: Chema Cortés
+Author-email: dextrem@gmail.com
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Framework :: IPython
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Requires-Dist: rich (>=11.2.0,<12.0.0)
