@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/TeamStrange/TeamStrange.py
+src/TeamStrange/__init__.py
+src/TeamStrange.egg-info/PKG-INFO
+src/TeamStrange.egg-info/SOURCES.txt
+src/TeamStrange.egg-info/dependency_links.txt
+src/TeamStrange.egg-info/requires.txt
+src/TeamStrange.egg-info/top_level.txt
