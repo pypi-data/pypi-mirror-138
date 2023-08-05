@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: yyes
+Version: 0.0.6
+Summary: http
+Home-page: http://www.flexible-world.com:8080
+Author: tjsh
+Author-email: 2438280753@qq.com
+Maintainer: tjsh
+Maintainer-email: 2438280753@qq.com
+License: none
+Platform: ?
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.5.0
+Requires-Dist: requests (>=2.6)
+Requires-Dist: BeautifulSoup4 (>=2.2.1)
+Requires-Dist: lxml (>=4.6.3)
+Requires-Dist: pprint (>=0.0.1pywin32>=301)
+
+none
+
