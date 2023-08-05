@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: TDhelper
+Version: 1.7.7
+Summary: help tools.
+Home-page: https://github.com/TangJing/TDlib
+Author: T.D
+Author-email: yeihizhi@163.com
+License: BSD
+Keywords: pip,TDhelper,featureextraction
+Platform: UNKNOWN
+Requires-Dist: asgiref (==3.4.1)
+Requires-Dist: bleach (==4.1.0)
+Requires-Dist: certifi (==2020.4.5.1)
+Requires-Dist: cffi (==1.14.6)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: crypto (==1.4.1)
+Requires-Dist: cryptography (==3.4.8)
+Requires-Dist: dnspython (==1.16.0)
+Requires-Dist: docutils (==0.17.1)
+Requires-Dist: et-xmlfile (==1.1.0)
+Requires-Dist: gyp-next (==0.4.0)
+Requires-Dist: idna (==2.9)
+Requires-Dist: importlib-metadata (==4.8.1)
+Requires-Dist: jdcal (==1.4.1)
+Requires-Dist: keyring (==23.2.1)
+Requires-Dist: mysql-connector-python (==8.0.19)
+Requires-Dist: Naked (==0.1.31)
+Requires-Dist: openpyxl (==3.0.4)
+Requires-Dist: packaging (==21.0)
+Requires-Dist: pkginfo (==1.7.1)
+Requires-Dist: protobuf (==3.6.1)
+Requires-Dist: pycparser (==2.20)
+Requires-Dist: pycryptodome (==3.9.7)
+Requires-Dist: Pygments (==2.10.0)
+Requires-Dist: pymongo (==3.10.1)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: pytz (==2021.1)
+Requires-Dist: pywin32-ctypes (==0.2.0)
+Requires-Dist: PyYAML (==5.4.1)
+Requires-Dist: readme-renderer (==30.0)
+Requires-Dist: requests (==2.23.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: rfc3986 (==1.5.0)
+Requires-Dist: shellescape (==3.8.1)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: sqlparse (==0.4.1)
+Requires-Dist: tqdm (==4.62.3)
+Requires-Dist: typing-extensions (==3.10.0.2)
+Requires-Dist: urllib3 (==1.25.9)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: xlrd (==1.1.0)
+Requires-Dist: zipp (==3.5.0)
+
+UNKNOWN
+
+
