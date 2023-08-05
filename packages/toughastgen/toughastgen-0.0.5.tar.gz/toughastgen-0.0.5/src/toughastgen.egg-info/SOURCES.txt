@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+setup.py
+src/toughastgen/__init__.py
+src/toughastgen/build_ast.py
+src/toughastgen.egg-info/PKG-INFO
+src/toughastgen.egg-info/SOURCES.txt
+src/toughastgen.egg-info/dependency_links.txt
+src/toughastgen.egg-info/requires.txt
+src/toughastgen.egg-info/top_level.txt
