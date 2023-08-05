@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+pyinspirehep/__init__.py
+pyinspirehep/author.py
+pyinspirehep/client.py
+pyinspirehep/data_models.py
+pyinspirehep/exception.py
+pyinspirehep/utils.py
+pyinspirehep.egg-info/PKG-INFO
+pyinspirehep.egg-info/SOURCES.txt
+pyinspirehep.egg-info/dependency_links.txt
+pyinspirehep.egg-info/requires.txt
+pyinspirehep.egg-info/top_level.txt
