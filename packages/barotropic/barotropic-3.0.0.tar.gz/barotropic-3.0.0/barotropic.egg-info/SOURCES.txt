@@ -1,0 +1,24 @@
+LICENSE
+README.md
+setup.py
+barotropic/__init__.py
+barotropic/constants.py
+barotropic/diagnostics.py
+barotropic/formatting.py
+barotropic/grid.py
+barotropic/init.py
+barotropic/io.py
+barotropic/model.py
+barotropic/plot.py
+barotropic/rhs (copy 1).py
+barotropic/rhs.py
+barotropic/state.py
+barotropic.egg-info/PKG-INFO
+barotropic.egg-info/SOURCES.txt
+barotropic.egg-info/dependency_links.txt
+barotropic.egg-info/requires.txt
+barotropic.egg-info/top_level.txt
+barotropic/tests/__init__.py
+barotropic/tests/test_examples.py
+barotropic/tests/test_grid.py
+barotropic/tests/test_state.py

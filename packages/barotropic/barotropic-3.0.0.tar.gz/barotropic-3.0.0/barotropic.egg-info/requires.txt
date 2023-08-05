@@ -1,0 +1,11 @@
+numpy
+scipy
+pyspharm
+
+[tests]
+pytest
+
+[with-optional]
+matplotlib
+PyWavelets>=1.1.0.dev
+hn2016_falwa
