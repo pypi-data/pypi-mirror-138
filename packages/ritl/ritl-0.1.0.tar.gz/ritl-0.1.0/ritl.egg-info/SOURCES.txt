@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+ritl/__init__.py
+ritl/relative_import.py
+ritl.egg-info/PKG-INFO
+ritl.egg-info/SOURCES.txt
+ritl.egg-info/dependency_links.txt
+ritl.egg-info/top_level.txt
+testdir/__init__.py
+testdir/testscript.py
