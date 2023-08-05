@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mbti_personality_prediction/__init__.py
+src/mbti_personality_prediction.egg-info/PKG-INFO
+src/mbti_personality_prediction.egg-info/SOURCES.txt
+src/mbti_personality_prediction.egg-info/dependency_links.txt
+src/mbti_personality_prediction.egg-info/requires.txt
+src/mbti_personality_prediction.egg-info/top_level.txt
