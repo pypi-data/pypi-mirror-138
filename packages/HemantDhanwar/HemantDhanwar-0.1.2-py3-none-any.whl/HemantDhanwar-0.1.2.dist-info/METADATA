@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: HemantDhanwar
+Version: 0.1.2
+Summary: WORK_ENV
+Author: HemantDhanwar
+Author-email: <ashuhemantsingh@gmail.com>
+License: UNKNOWN
+Keywords: python,Email,directory size,dir size
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+Requires-Dist: os
+Requires-Dist: smtplib
+Requires-Dist: fsspec
+Requires-Dist: getpass
+Requires-Dist: time
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+
+# under testing
+
+	Under construction! still adding more functions!
+
+# Examples of How To Use 
+
+
+
+
+
+from HemantDhanwar import EmailServices as es
+
+
+
+es.disk_usage('D:/','D:/')
+
+
+
+es.email_with_attachhment('HemantDhanwar@lucidmotors.com', 'D:\\H_Work_SPACE\\key.txt', 'HemantDhanwar@lucidmotors.com, kirankumarj@lucidmotors.com, shravankumar@lucidmotors.com', 'D:\\')
+
+
+
+ 
+
