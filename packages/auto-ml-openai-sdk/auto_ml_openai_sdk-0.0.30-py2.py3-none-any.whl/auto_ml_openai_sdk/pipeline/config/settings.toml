@@ -1,0 +1,5 @@
+[default]
+LOCAL_BUCKET = false
+
+[testing]
+LOCAL_BUCKET = true

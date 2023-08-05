@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: auto-ml-openai-sdk
+Version: 0.0.30
+Summary: Async requests
+Home-page: https://github.expedia.biz/AI/auto-ml-openai-sdk
+Author: alchowdhury
+Author-email: alchowdhury@expediagroup.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: twine (>=3.7.1)
+Requires-Dist: pandas (>=1.1.5)
+Requires-Dist: kfp (==1.3.0)
+Requires-Dist: boto3 (==1.17.49)
+Requires-Dist: wget (>=3.2)
+Requires-Dist: dynaconf (>=3.1.5)
+Requires-Dist: openai (>=0.8.0)
+Requires-Dist: nltk (>=3.6.7)
+Requires-Dist: dataclasses-json
+Requires-Dist: requests
+Requires-Dist: types-requests
+
+# auto-ml-openai-sdk
+
+When merged to master, this package will be updloaded to Artylab. The versioning and auto docs are taken care of during the build process after being merged to master as well. After the package is published for the first time a branch called "docs" will be created. Github Pages can be set up by going to settings and selecting the branch "docs" and the folder "docs" under the Github Pages section.
+
+### Build and Dev locally 
+```
+bash scripts/build_local.sh --enter
+```
+This command allows you to build and enter the docker image. All core folders are mounted so any changes made to your code will be reflected inside the image.
+
+### Running Tests and checks
+```
+bash scripts/qc_check.sh
+```
+This command is to be ran inside the image.
+
+
