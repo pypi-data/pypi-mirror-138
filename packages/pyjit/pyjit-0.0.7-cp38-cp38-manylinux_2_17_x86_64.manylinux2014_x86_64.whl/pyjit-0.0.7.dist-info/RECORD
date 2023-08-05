@@ -1,0 +1,9 @@
+grus.cpython-38-x86_64-linux-gnu.so,sha256=yagyjaq5ShkDXzF3-ogAauVO_ATyF76ttTscMdSBW-Q,7910248
+pyjit-0.0.7.data/data/Lib/site-packages/pyjit/Jit_Object.h,sha256=pOIBfV3qgL-6nP2-BehwAaBNgkcqk7JZ5x-yLs1EFnI,7515
+pyjit-0.0.7.data/data/Lib/site-packages/pyjit/Jit_Host.h,sha256=aNkagpjUHo6bW2JvMvipV_dOTKZGF7u4iv19ntsSbWw,1983
+pyjit/__init__.py,sha256=KP0OXku5MQ4o-tv16jhqDBms4OCaYws5B9PWTho4Pnk,32
+pyjit-0.0.7.dist-info/METADATA,sha256=16O8nnezBkLm0aJMLC995mgLKakYedP3BcGIE3Hd-40,701
+pyjit-0.0.7.dist-info/WHEEL,sha256=-ijGDuALlPxm3HbhKntps0QzHsi-DPlXqgerYTTJkFE,148
+pyjit-0.0.7.dist-info/top_level.txt,sha256=OP7hN3Tbf5NC0_SRuZP_t51pfLMRS_-9AGLFv8ippNg,11
+pyjit-0.0.7.dist-info/entry_points.txt,sha256=EDJI4qeBnjmmsGkYciE6smfZjWuCbE0c8EExbYARDsw,38
+pyjit-0.0.7.dist-info/RECORD,,
