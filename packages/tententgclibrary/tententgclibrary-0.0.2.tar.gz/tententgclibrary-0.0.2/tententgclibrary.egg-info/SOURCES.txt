@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+tententgclib/__init__.py
+tententgclibrary.egg-info/PKG-INFO
+tententgclibrary.egg-info/SOURCES.txt
+tententgclibrary.egg-info/dependency_links.txt
+tententgclibrary.egg-info/top_level.txt
