@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ta_cch_axcess
+Version: 0.0.1
+Summary: A pywinauto wrapper for CCH AXCESS
+Home-page: https://www.thoughtfulautomation.com/
+Author: Jacob Brooks
+Author-email: jacob.brooks@thoughtfulautomation.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
