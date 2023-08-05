@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+portilooplot/__init__.py
+portilooplot/jupyter_plot.py
+portilooplot/plot_learning_curve.py
+portilooplot.egg-info/PKG-INFO
+portilooplot.egg-info/SOURCES.txt
+portilooplot.egg-info/dependency_links.txt
+portilooplot.egg-info/not-zip-safe
+portilooplot.egg-info/requires.txt
+portilooplot.egg-info/top_level.txt
