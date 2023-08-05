@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "dataconf"
+version = "v1.3.0"
+description = "Simple dataclasses configuration management for Python with hocon/json/yaml/properties/env-vars/dict support."
+authors = []
+license = "Apache2"
+readme = "README.md"
+repository = "https://github.com/zifeo/dataconf"
+include = [
+    "dataconf", "pyproject.toml"
+]
+classifiers = [
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+]
+
+[tool.poetry.scripts]
+dataconf = 'dataconf.cli:run'
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyhocon = "^0.3.54"
+python-dateutil = "^2.8.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pre-commit = "^2.3.0"
+
+[build-system]
+requires = ["poetry"]
+build-backend = "poetry.masonry.api"
