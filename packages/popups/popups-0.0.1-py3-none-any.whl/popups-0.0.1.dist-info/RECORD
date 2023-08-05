@@ -1,0 +1,12 @@
+popups/__init__.py,sha256=DsAHdxLC16H2VjdFOU5tBx2xT9VnNQ-XbTS24fRCa_w,22
+popups/dismiss.py,sha256=V_34X4eWFDACwAAG9MgCErJozeWlAbAs5U36aQ2nAx8,1027
+popups/settings.py,sha256=QhgUPtuK7P52pMSrLP58I2QmJ19_wBsmPiegqbYJ-N4,205
+popups/img/allow_0.png,sha256=1x6nCj5mKAdSo03zkVnzhPJbkVy9N6opAUeCrXQEXDg,20824
+popups/img/allow_1.png,sha256=y25J_H8-OxxxpzH5UifulOOtDz8obWvY6lwneReG19o,10261
+popups/img/x_0.png,sha256=h1Ka8KYwg3n-4gPkPpoVAWI1Pjq6r2YGqqCyBPpO6RQ,3349
+popups/img/x_1.png,sha256=_E1tGXGG0FiPNtXJpeEQkqhaVQSoUfn6y2NDgCwExFY,6169
+popups-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+popups-0.0.1.dist-info/METADATA,sha256=eLNzl_a4cJkSdnmcKYMkx1CnPrHvf1UNBNPiwd0MZTY,1831
+popups-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+popups-0.0.1.dist-info/top_level.txt,sha256=yIYfaE_K50_VyVFsECjoSAWc8AvVoLu0rMoyqEt1htA,7
+popups-0.0.1.dist-info/RECORD,,
