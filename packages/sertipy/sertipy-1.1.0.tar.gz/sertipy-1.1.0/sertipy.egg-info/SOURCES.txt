@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+sertipy/__init__.py
+sertipy/auth.py
+sertipy/client.py
+sertipy/exceptions.py
+sertipy.egg-info/PKG-INFO
+sertipy.egg-info/SOURCES.txt
+sertipy.egg-info/dependency_links.txt
+sertipy.egg-info/requires.txt
+sertipy.egg-info/top_level.txt
