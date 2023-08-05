@@ -1,0 +1,8 @@
+setup.py
+yyes/__init__.py
+yyes/yyes.py
+yyes.egg-info/PKG-INFO
+yyes.egg-info/SOURCES.txt
+yyes.egg-info/dependency_links.txt
+yyes.egg-info/requires.txt
+yyes.egg-info/top_level.txt
