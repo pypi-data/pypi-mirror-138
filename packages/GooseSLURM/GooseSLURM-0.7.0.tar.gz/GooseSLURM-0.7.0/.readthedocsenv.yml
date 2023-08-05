@@ -1,0 +1,12 @@
+channels:
+- conda-forge
+dependencies:
+- click
+- docopt
+- mergedeep
+- numpy
+- python
+- pyyaml
+- sphinx
+- sphinx_rtd_theme
+- tqdm
