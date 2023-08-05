@@ -1,0 +1,13 @@
+coincidence-0.6.1.dist-info/LICENSE,sha256=TXanB-tJYmHhByFsynyh-UGwh2VdTVVjbZeFz1utSWc,1064
+coincidence-0.6.1.dist-info/METADATA,sha256=xtExKhLFYZ5QsSU9l-qRORGVTLZha6bCWaiNFBmTRqo,7136
+coincidence-0.6.1.dist-info/top_level.txt,sha256=sXdlMZYb4nasfHo_60ywzTZdwN2rILWU3pmNT8OF0FI,12
+coincidence-0.6.1.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coincidence-0.6.1.dist-info/WHEEL,sha256=Z8ApXUcOYK5VMz9yebTyUF13KAMNT6RSnd-lLcivEVA,84
+coincidence/selectors.py,sha256=jvEJio5WtFSy3f31YlyS97G4sI2iQDMlM19UcrsQtoU,7312
+coincidence/utils.py,sha256=mE3M0MIwvZlI5gYvfp5qr4BE56pE2oYXhC8DTfROMVA,6091
+coincidence/params.py,sha256=mnHfFZTe_3EjdU8cvCk_eK2CUs0FoE94zvbBXCEYLUI,8216
+coincidence/fixtures.py,sha256=Ij9gDPpH9L5fKs5G4Mq86m_x685c7pAP8ATMaykLlac,3782
+coincidence/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coincidence/__init__.py,sha256=R0_WP5AAAzmN4ahjIKiwykgrRAZ1kC0tMs28cfQm4CM,2939
+coincidence/regressions.py,sha256=D05G_xhV2pDvSYaIFaLB2tcvlUdLMaUd_YypezxXZqU,12031
+coincidence-0.6.1.dist-info/RECORD,,
