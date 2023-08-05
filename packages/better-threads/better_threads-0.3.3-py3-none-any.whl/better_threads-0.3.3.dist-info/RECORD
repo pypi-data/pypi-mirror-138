@@ -1,0 +1,8 @@
+BetterThreads/ThreadPool.py,sha256=rOsGBqegyFGHeurhFcBIRrj4ky2GuU0HkF_V-00zm-U,4921
+BetterThreads/__init__.py,sha256=_VVcIRNBZT1npmjhc2Q9QQIQHSurYTQf2AyzQeExXC4,138
+BetterThreads/errors/TimeOut.py,sha256=5A_VDC_45kMAxXa0WoPRqAUavbKZfqJSzd9x1r31Dn8,37
+BetterThreads/errors/__init__.py,sha256=LLL0KFmZXl8kk3PWTUuyrK9yzf2BLaHZqCBj5ZKMPJU,61
+better_threads-0.3.3.dist-info/METADATA,sha256=ytEPwyv9WUnJ1X4ctclJUp5YhrMoFU2gVKSwdAldIqw,1233
+better_threads-0.3.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+better_threads-0.3.3.dist-info/top_level.txt,sha256=fk8Gf0w044fyXW9fSa4vH_e_vpTROM-f1hc1F1WThEQ,14
+better_threads-0.3.3.dist-info/RECORD,,
