@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dfir-unfurl
+Version: 20220200
+Summary: Unfurl takes a URL and expands ("unfurls") it into a directed graph
+Home-page: https://github.com/obsidianforensics/unfurl
+Author: Ryan Benson
+Author-email: ryan@dfir.blog
+License: Apache
+Keywords: unfurl,forensics,dfir,reverse-engineering,security
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+

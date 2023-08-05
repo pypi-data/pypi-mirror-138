@@ -1,0 +1,11 @@
+flask
+flask_cors
+maclookup
+networkx
+protobuf
+publicsuffix2
+pycountry
+pymispwarninglists
+Requests
+torf
+ulid-py
