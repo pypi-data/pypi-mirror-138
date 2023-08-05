@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cat-tools
+Version: 1.2.0
+Summary: tool to decode _tex.sc files found in supercell games
+Author: S.B#0056
+License: GPLV3
+Platform: UNKNOWN
+License-File: LICENSE
+
+https://github.com/SB-9838/cat_tools/blob/main/README.md
+
