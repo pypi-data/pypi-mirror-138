@@ -1,0 +1,17 @@
+COPYING
+COPYING.LESSER
+README.md
+pyproject.toml
+setup.py
+aioaseko/__init__.py
+aioaseko/exceptions.py
+aioaseko/mobile.py
+aioaseko/py.typed
+aioaseko/unit.py
+aioaseko/variable.py
+aioaseko/web.py
+aioaseko.egg-info/PKG-INFO
+aioaseko.egg-info/SOURCES.txt
+aioaseko.egg-info/dependency_links.txt
+aioaseko.egg-info/requires.txt
+aioaseko.egg-info/top_level.txt
