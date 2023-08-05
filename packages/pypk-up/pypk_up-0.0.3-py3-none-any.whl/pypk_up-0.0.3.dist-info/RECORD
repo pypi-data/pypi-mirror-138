@@ -1,0 +1,11 @@
+pypk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypk/clear_console.py,sha256=PgStayS472JWZePl6lXYVM9eNi6MyBcpVH8nG_uLthY,174
+pypk/main.py,sha256=FhbNkhkzO7ofynua-1GG7o0Q5ym_-zC9TCA-hS9olKw,620
+pypk/pypi_update.py,sha256=d34slTcwwtvcwnl8Ax0OYTq84Y5bY0mJeQYHFVE39Jc,3693
+pypk/pypi_upload.py,sha256=VGOscjNm0eoH-3z4FAAjE181veDv0ISUYo8-tosPZLc,4108
+pypk_up-0.0.3.dist-info/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+pypk_up-0.0.3.dist-info/METADATA,sha256=iTEGhaCFGMcAfpdMNGOkTi_DhcguCm1h9lgPHj2F-gE,1044
+pypk_up-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pypk_up-0.0.3.dist-info/entry_points.txt,sha256=uvPtSFn--Tz3FA9UdusOAJdKkKHHgcUOVOu_7FTTQAg,43
+pypk_up-0.0.3.dist-info/top_level.txt,sha256=zWXseSirReU2hSegwlNW7rUUNZ1mDodHU9tZ5H1t_sE,5
+pypk_up-0.0.3.dist-info/RECORD,,
