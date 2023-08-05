@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+warp.py
+warp_py.egg-info/PKG-INFO
+warp_py.egg-info/SOURCES.txt
+warp_py.egg-info/dependency_links.txt
+warp_py.egg-info/entry_points.txt
+warp_py.egg-info/requires.txt
+warp_py.egg-info/top_level.txt
