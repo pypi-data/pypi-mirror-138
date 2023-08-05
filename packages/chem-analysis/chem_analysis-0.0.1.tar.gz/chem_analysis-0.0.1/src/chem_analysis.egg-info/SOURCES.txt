@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/chem_analysis/__init__.py
+src/chem_analysis/app.py
+src/chem_analysis/py.typed
+src/chem_analysis/run.py
+src/chem_analysis/server.py
+src/chem_analysis.egg-info/PKG-INFO
+src/chem_analysis.egg-info/SOURCES.txt
+src/chem_analysis.egg-info/dependency_links.txt
+src/chem_analysis.egg-info/not-zip-safe
+src/chem_analysis.egg-info/requires.txt
+src/chem_analysis.egg-info/top_level.txt
