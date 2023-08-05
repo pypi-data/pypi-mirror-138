@@ -1,0 +1,13 @@
+-c requirements.txt
+bandit<1.7.2
+black
+build
+flake8
+flake8-bugbear
+isort
+pre-commit
+pytest
+safety
+setuptools_scm
+twine
+wheel

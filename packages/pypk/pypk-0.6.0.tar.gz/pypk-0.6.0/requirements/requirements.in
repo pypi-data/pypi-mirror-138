@@ -1,0 +1,3 @@
+appdirs
+typer
+importlib-metadata<4.3
