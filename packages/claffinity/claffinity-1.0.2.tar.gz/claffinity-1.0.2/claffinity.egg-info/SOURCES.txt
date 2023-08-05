@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+claffinity/__init__.py
+claffinity/competition_label_affinity.py
+claffinity/high_accuracy_binding_equations.py
+claffinity.egg-info/PKG-INFO
+claffinity.egg-info/SOURCES.txt
+claffinity.egg-info/dependency_links.txt
+claffinity.egg-info/requires.txt
+claffinity.egg-info/top_level.txt
