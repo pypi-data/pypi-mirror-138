@@ -1,0 +1,78 @@
+name: Create HISTORY.md
+
+on:
+  pull_request:
+    branches:
+      - master
+    types: [closed]
+
+jobs:
+  history:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
+    env:
+      TOKEN: ${{ secrets.JP_BIRTHDAY_TOKEN }}
+      ACTOR: ${{ github.actor }}
+      REPOSITORY: $(echo ${{ github.repository }} | sed -e "s#.*/##")
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - uses: fregante/setup-git-user@v1
+
+      - name: Set up Ruby 3.0
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0.0
+
+      - name: update CHANGELOG
+        run: |
+          gem install github_changelog_generator
+          echo ${{ env.TOKEN }}
+          echo ${{ env.REPOSITORY }}
+          echo ${{ env.ACTOR }}
+          
+          rm HISTORY.md
+          github_changelog_generator -u ${{ env.ACTOR }} \
+                                    -p ${{ env.REPOSITORY }} \
+                                    --header-label '# HISTORY' \
+                                    -t ${{ env.TOKEN }} \
+                                    --release-branch master \
+                                    --output HISTORY.md
+
+      - name: convert md to rst HISTORY.
+        run: |
+          sudo apt install pandoc
+
+          pandoc -f markdown -t rst -o README.rst README.md
+          pandoc -f markdown -t rst -o HISTORY.rst HISTORY.md
+
+        # rm HISTORY.md
+
+      - name: update master
+        run: |
+          ls -la
+
+          git config user.email
+          git config user.name
+
+          git add ./
+          git branch
+          git status
+          git commit -m "docs: update HISTORY [$(date --iso-8601=seconds)]"
+          git push
+
+      - name: update develop
+        run: |
+          ls -la
+
+          git fetch origin
+          git pull
+
+          git checkout develop
+          git branch
+          git status
+
+          git merge master
+          git push
