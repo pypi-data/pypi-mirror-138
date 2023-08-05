@@ -1,0 +1,19 @@
+descr: Testplan example, showing how to specify a testcases by testsuites or individually
+descr_long: |
+  Testplans should all contain a short and long description. Keep the short
+  descriptions brief and concise. Reserve details for the long description.
+  Feel free to use as much as possible, listing stuff etc.
+
+  * Something
+  * Very useful
+  * Listed here
+
+  This testplan simply defines the testsuites to run, by name of the testsuite, and by list of
+  testcases
+testsuites:
+  - name: example_all
+  - name: example_all_inline
+    testcases:
+    - example_01_minimal.sh
+    - example_02_commands.sh
+    - example_03_annotation.sh

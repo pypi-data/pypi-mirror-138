@@ -1,0 +1,14 @@
+cijoe_pkg_example-0.2.2.data/data/share/cijoe/envs/example_env.sh,sha256=ewrfXxdujh1UdSvOrY3pj9vMRwUKnE6qvUQBHGTojmA,1016
+cijoe_pkg_example-0.2.2.data/data/share/cijoe/hooks/example_probe_enter.sh,sha256=kY0upzrYryCz9cngVkYmhBcOnc1y_8r0WgqicHIzqTc,433
+cijoe_pkg_example-0.2.2.data/data/share/cijoe/hooks/example_probe_exit.sh,sha256=dmCBPXMAEiF052sWlUgJthdQeUlFuyeYeRe3cSs9PUY,415
+cijoe_pkg_example-0.2.2.data/data/share/cijoe/modules/example.sh,sha256=gPLppjlLkzW1w2d-SYqC4cE5TFa3TBpTRJhGznUgAFE,525
+cijoe_pkg_example-0.2.2.data/data/share/cijoe/testcases/example_01_minimal.sh,sha256=bsz-CTXUb3nk6l-ZIiuoa9DYqw4FWL86Xis-C7kVDdc,1305
+cijoe_pkg_example-0.2.2.data/data/share/cijoe/testcases/example_02_commands.sh,sha256=q77DJEFeSHZb2uGGxnv-501Ia7x7C9hCRe6ZBdXxbvI,1265
+cijoe_pkg_example-0.2.2.data/data/share/cijoe/testcases/example_03_annotation.sh,sha256=IEMXNqfgNRTIVV1nl8NtIJE9UY8mFnfqOJ4QOhrXhgg,1527
+cijoe_pkg_example-0.2.2.data/data/share/cijoe/testplans/example_01.plan,sha256=4h_5dKtiKUCehmlIOn_72jgBhAphW70v5MdaYPJplUs,636
+cijoe_pkg_example-0.2.2.data/data/share/cijoe/testplans/example_02.plan,sha256=6Lea9c9p575paze2ZDZuCK28BVsVv8aDlT-PSoDcO0w,605
+cijoe_pkg_example-0.2.2.data/data/share/cijoe/testsuites/example_all.suite,sha256=HnOdqrldovb8w25TdeOXD9_TSj2a4NnE2HJIxvqwal0,70
+cijoe_pkg_example-0.2.2.dist-info/METADATA,sha256=c-sRBAwj7-ZjNrV1fPNz78LE37-vSeOtJa0ChuE_cMo,1887
+cijoe_pkg_example-0.2.2.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+cijoe_pkg_example-0.2.2.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cijoe_pkg_example-0.2.2.dist-info/RECORD,,
