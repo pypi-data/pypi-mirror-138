@@ -1,0 +1,7 @@
+global_requests/__init__.py,sha256=G_7LCER-fiY63FDnnOm0L6M_EATtJIfXB32d8e6axaA,1513
+global_requests/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_global_requests-1.0.16.dist-info/METADATA,sha256=Kzm0TZ8RJtC8TMBeff6k3pOp1Rw_VneiwqNeXX5UuRU,1229
+django_global_requests-1.0.16.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_global_requests-1.0.16.dist-info/top_level.txt,sha256=VImjmtBEfDlxNxUHmdDNnziEA6ug_UMXCwTvWd1ZEzg,16
+django_global_requests-1.0.16.dist-info/RECORD,,
