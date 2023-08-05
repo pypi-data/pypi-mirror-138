@@ -1,0 +1,7 @@
+numpy
+pandas
+
+[dev]
+check-manifest
+pytest>=3.7
+twine
