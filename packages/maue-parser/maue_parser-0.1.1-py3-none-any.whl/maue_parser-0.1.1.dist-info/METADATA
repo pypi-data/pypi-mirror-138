@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: maue-parser
+Version: 0.1.1
+Summary: parser for maue files version 1.1
+Home-page: https://github.com/code-and-fire/maue-parser
+Author: Calvin Neumann
+License: GNU Affero General Public License, Version 3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# maue-parser
+parser for MAÜ files, which are created and forwarded in rhineland-palatinate by emergency control centers for the transmission of alerting data
+
+Parser für MAÜ Files, welche von den Leitstellen in Rheinland Pfalz zur Alarmdatenweitergabe genutzt werden.
+
+
