@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+sciberia/__init__.py
+sciberia/process.py
+sciberia/reader.py
+sciberia.egg-info/PKG-INFO
+sciberia.egg-info/SOURCES.txt
+sciberia.egg-info/dependency_links.txt
+sciberia.egg-info/requires.txt
+sciberia.egg-info/top_level.txt
