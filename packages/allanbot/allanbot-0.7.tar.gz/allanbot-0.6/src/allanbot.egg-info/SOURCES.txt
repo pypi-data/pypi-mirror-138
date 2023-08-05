@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/allanbot/__init__.py
+src/allanbot/allanbot.py
+src/allanbot.egg-info/PKG-INFO
+src/allanbot.egg-info/SOURCES.txt
+src/allanbot.egg-info/dependency_links.txt
+src/allanbot.egg-info/requires.txt
+src/allanbot.egg-info/top_level.txt
