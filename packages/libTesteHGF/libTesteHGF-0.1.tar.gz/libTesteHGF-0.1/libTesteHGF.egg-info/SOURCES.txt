@@ -1,0 +1,10 @@
+README.md
+setup.py
+libTesteHGF.egg-info/PKG-INFO
+libTesteHGF.egg-info/SOURCES.txt
+libTesteHGF.egg-info/dependency_links.txt
+libTesteHGF.egg-info/not-zip-safe
+libTesteHGF.egg-info/requires.txt
+libTesteHGF.egg-info/top_level.txt
+libpythonpro/__init__.py
+libpythonpro/api_github.py
