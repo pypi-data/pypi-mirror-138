@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+_init_.py
+make.cmd
+pyproject.toml
+setting.py
+setup.py
+showinfo.py
+wai.py
+razo.egg-info/PKG-INFO
+razo.egg-info/SOURCES.txt
+razo.egg-info/dependency_links.txt
+razo.egg-info/top_level.txt

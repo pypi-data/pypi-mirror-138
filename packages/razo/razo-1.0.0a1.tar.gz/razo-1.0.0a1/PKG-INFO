@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: razo
+Version: 1.0.0a1
+Summary: Run command system
+Home-page: https://www.fedora.org
+Author: Fred Dumb
+Author-email: vmuonline@126.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+License-File: LICENSE
+
+Run command system by Python.
+
+Now in alpha.
+
+[1.0.0a1]
+
+1.Usable.
+
+
+
