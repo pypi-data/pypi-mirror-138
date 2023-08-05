@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.py
+aiotba/__init__.py
+aiotba/consts.py
+aiotba/http.py
+aiotba/models.py
+aiotba.egg-info/PKG-INFO
+aiotba.egg-info/SOURCES.txt
+aiotba.egg-info/dependency_links.txt
+aiotba.egg-info/requires.txt
+aiotba.egg-info/top_level.txt
