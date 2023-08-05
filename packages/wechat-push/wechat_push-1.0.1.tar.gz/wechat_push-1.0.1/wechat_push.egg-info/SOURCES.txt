@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+wechat_push/__init__.py
+wechat_push.egg-info/PKG-INFO
+wechat_push.egg-info/SOURCES.txt
+wechat_push.egg-info/dependency_links.txt
+wechat_push.egg-info/requires.txt
+wechat_push.egg-info/top_level.txt
