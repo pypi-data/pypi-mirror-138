@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: python-amazon-advertising-api
+Version: 0.6.0
+Summary: Python wrapper for the Amazon Advertising API
+Home-page: https://github.com/854350999/python-amazon-ad-api
+Author: WT
+Author-email: 854350999@qq.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+Python wrapper for the Amazon Advertising API
+
