@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+polidoro_model/__init__.py
+polidoro_model/base.py
+polidoro_model/commands.py
+polidoro_model.egg-info/PKG-INFO
+polidoro_model.egg-info/SOURCES.txt
+polidoro_model.egg-info/dependency_links.txt
+polidoro_model.egg-info/not-zip-safe
+polidoro_model.egg-info/requires.txt
+polidoro_model.egg-info/top_level.txt
