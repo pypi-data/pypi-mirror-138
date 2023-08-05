@@ -1,0 +1,11 @@
+[default]
+region=us-west-2
+output=json
+
+[personal]
+region=eu-central-1
+output=json
+
+[work]
+region=ap-northeast-3
+output=json

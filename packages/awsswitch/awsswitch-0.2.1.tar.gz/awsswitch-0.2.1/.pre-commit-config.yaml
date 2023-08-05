@@ -1,0 +1,51 @@
+# Note: don't use this config for your own repositories. Instead, see
+# "Version control integration" in README.md.
+default_stages: [commit, push]
+ci:
+  skip: [pylint]
+
+repos:
+
+  - repo: https://github.com/psf/black
+    rev: 22.1.0
+    hooks:
+      - id: black
+        language_version: python3
+
+  - repo: https://github.com/pycqa/isort
+    rev: 5.10.1
+    hooks:
+      - id: isort
+        name: isort (python)
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.1.0 # Use the ref you want to point at
+    hooks:
+      - id: check-ast
+      # - id: no-commit-to-branch
+        # args: [--branch, master, --branch, devel]
+      - id: forbid-new-submodules
+      - id: check-merge-conflict
+      - id: detect-private-key
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+        args: [--fix=lf]
+      - id: trailing-whitespace
+      - id: debug-statements
+      - id: check-toml
+
+  - repo: https://github.com/PyCQA/flake8
+    rev: 4.0.1 # pick a git hash / tag to point to
+    hooks:
+      - id: flake8
+        exclude: (otp)
+        additional_dependencies: [flake8-typing-imports==1.11.0]
+
+  # - repo: local
+  #   hooks:
+  #   -   id: pylint
+  #       name: pylint
+  #       entry: pylint src tests
+  #       language: system
+  #       types: [python]
+  #       require_serial: true
