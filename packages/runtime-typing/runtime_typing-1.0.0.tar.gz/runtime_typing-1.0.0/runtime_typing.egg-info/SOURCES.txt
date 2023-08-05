@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+runtime_typing/__init__.py
+runtime_typing/typed.py
+runtime_typing/typed_function.py
+runtime_typing/utils.py
+runtime_typing/violations.py
+runtime_typing.egg-info/PKG-INFO
+runtime_typing.egg-info/SOURCES.txt
+runtime_typing.egg-info/dependency_links.txt
+runtime_typing.egg-info/top_level.txt

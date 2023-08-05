@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: runtime_typing
+Version: 1.0.0
+Summary: Checking typing type hints at runtime.
+Home-page: https://github.com/jonathan-scholbach/runtime_typing
+Download-URL: https://github.com/jonathan-scholbach/runtime_typing/v1.0.0.tar.gz
+Author: Jonathan Scholbach
+Author-email: j.scholbach@posteo.de
+License: MIT
+Keywords: typing,validation,validate
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE.txt
+
+UNKNOWN
+
