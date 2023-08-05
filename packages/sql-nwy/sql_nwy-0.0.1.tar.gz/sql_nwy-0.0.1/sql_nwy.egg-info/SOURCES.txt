@@ -1,0 +1,8 @@
+MANIFEST.in
+README.txt
+setup.py
+sql_nwy.egg-info/PKG-INFO
+sql_nwy.egg-info/SOURCES.txt
+sql_nwy.egg-info/dependency_links.txt
+sql_nwy.egg-info/requires.txt
+sql_nwy.egg-info/top_level.txt

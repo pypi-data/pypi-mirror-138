@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: sql_nwy
+Version: 0.0.1
+Summary: SQL database connection and query
+Home-page: UNKNOWN
+Author: NAWOONG YOON
+Author-email: nawoong@hotmail.com
+License: MIT
+Description: 
+        
+        Change Log
+        ==========
+        
+        0.0.1 (2022.02.08)
+        ------------------
+        -First Release
+Keywords: SQL
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
