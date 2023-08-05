@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: toeplitzlda
+Version: 0.1.2
+Summary: Implementation of LDA using a block-Toeplitz structured covariance matrix for stationary spatiotemporal data.
+Author: Jan Sosulski
+Author-email: mail@jan-sosulski.de
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: solver
+Requires-Dist: blockmatrix (>=0.1.0,<0.2.0)
+Requires-Dist: mne (>=0.24.1,<0.25.0)
+Requires-Dist: moabb (>=0.4.4,<0.5.0)
+Requires-Dist: numpy (>=1.22.1,<2.0.0)
+Requires-Dist: pandas (>=1.4.0,<2.0.0)
+Requires-Dist: scikit-learn (>=1.0,<2.0)
+Requires-Dist: toeplitz (>=0.3.2,<0.4.0); extra == "solver"
