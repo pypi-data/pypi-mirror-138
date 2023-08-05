@@ -1,0 +1,8 @@
+[console_scripts]
+continue_run=fretlabel.console:continue_run
+fretlabel=fretlabel.console:fretlabel
+multi_run=fretlabel.console:multi_run
+resp_fit=fretlabel.console:resp_fit
+single_run=fretlabel.console:single_run
+solvate=fretlabel.console:solvate
+
