@@ -1,0 +1,14 @@
+boto3
+botocore
+fiona
+ipyleaflet
+ipywidgets>=7.6.0
+matplotlib
+numpy
+pandas
+psycopg2-binary
+rasterio
+rasterstats
+requests
+tqdm
+descartes
