@@ -1,0 +1,15 @@
+slidl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slidl/_version.py,sha256=U0Y7g3AkMLlcnrH1c_H4wss6L3iT-UR0KTVZq9ObkQo,25
+slidl/analysis.py,sha256=5r3Soq7ikbf-vAtNUYc-8mTL_ZVfTFRETySztZE-xjQ,2832
+slidl/annotation.py,sha256=G47hP_0gGBoQ9FsERVYphf9Hhc33OrvwZTMdCSvdF34,1267
+slidl/processor.py,sha256=IJzRTd0fgBOtHX-C113_aoistSD8h-eS-8AAcM0WdB0,2121
+slidl/slide.py,sha256=0T78KW0o5sRLDi_j-7_hs5pzgSrAGXSjcChDmEcCUJU,158910
+slidl/models/deep-tissue-detector_densenet_state-dict.pt,sha256=YJjNI44_5G8Z7ZZ97MHMU6H11YL5lxilcDsqJ0IpdEU,28325919
+slidl/models/tissuedetector.py,sha256=wmtY95JeXqSjDReGqJCM43KIcgeSbaACiDIixgHA6jw,2765
+slidl/utils/torch/WholeSlideImageDataset.py,sha256=KAO_lW7Mv6QY4oC9dEwNQSGt6aecJb3lG1wtj7JBtKY,4568
+slidl/utils/torch/dice_loss.py,sha256=tqwIeeySbNnhc7-HTJqWcGfMxrymPK197BXE-SqAyWY,1338
+slidl-0.1.dev4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+slidl-0.1.dev4.dist-info/METADATA,sha256=44RGsQkqvYd7rEND2OyPwisDd6cNBHKAY_yKM-QLoqI,4026
+slidl-0.1.dev4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+slidl-0.1.dev4.dist-info/top_level.txt,sha256=DH4_OUx5WbPJaedl-2807mgZo-HEptOnazc6_b3beMM,6
+slidl-0.1.dev4.dist-info/RECORD,,
