@@ -1,0 +1,5 @@
+django-rgd==0.2.17
+
+[worker]
+pyntcloud[las]
+pyvista
