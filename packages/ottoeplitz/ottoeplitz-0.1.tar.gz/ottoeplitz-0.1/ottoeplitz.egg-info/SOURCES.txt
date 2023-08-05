@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+ottoeplitz.egg-info/PKG-INFO
+ottoeplitz.egg-info/SOURCES.txt
+ottoeplitz.egg-info/dependency_links.txt
+ottoeplitz.egg-info/not-zip-safe
+ottoeplitz.egg-info/requires.txt
+ottoeplitz.egg-info/top_level.txt
