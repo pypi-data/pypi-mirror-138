@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+mkdocs_pluglet_file_include/__init__.py
+mkdocs_pluglet_file_include.egg-info/PKG-INFO
+mkdocs_pluglet_file_include.egg-info/SOURCES.txt
+mkdocs_pluglet_file_include.egg-info/dependency_links.txt
+mkdocs_pluglet_file_include.egg-info/top_level.txt
