@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: eqsolvcarlover101
+Version: 0.1.5
+Summary: Automatic equation solver
+Home-page: https://github.com/Carlover101/equation-solver
+Author: Zakkai Thomas
+Author-email: zmanmustang2017@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Equation-Solver
+
+This is a project that solves mathematic equations for you!
+
+Types:
+
+1. Quadratic
+    - ***equation.quadsolve()***
+      > To type a square in python, you need to use a carrot **^** or two astrix **. (Ex. 2x^2 -5x +4)
+
+2. Slope Intercept
+    - ***equation.slopeint()***
+      > Put in two points, and output an equation in slope-intercept form.
+
+Types in Development:
+
+1. Perpendicular Lines
+    - ***equation.perpint()***
+      > Put in the slope of a line, and the intersection point, and get the slope-intercept equation of the perpendicular line.
+
+Other Commands:
+
+1. Command List
+    - ***equation.commands()***
+
+
