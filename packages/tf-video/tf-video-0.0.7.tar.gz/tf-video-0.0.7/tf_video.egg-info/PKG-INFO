@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tf-video
+Version: 0.0.7
+Summary: A library providing tools for working with videos in TensorFlow.
+Home-page: https://github.com/jegork/tf-video-preprocessing
+Author: Jegor Kitskerkin
+Author-email: jegor.kitskerkin@gmail.com
+License: MIT License
+Platform: UNKNOWN
+License-File: LICENSE
+
+tf-video provides a convenient interface in the form of native TensorFlow layers to preprocess and augment videos right in your pipeline!
+
