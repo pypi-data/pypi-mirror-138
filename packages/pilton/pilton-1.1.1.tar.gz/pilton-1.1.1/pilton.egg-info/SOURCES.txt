@@ -1,0 +1,11 @@
+README.md
+pilton.py
+setup.py
+.idea/vcs.xml
+pilton.egg-info/PKG-INFO
+pilton.egg-info/SOURCES.txt
+pilton.egg-info/dependency_links.txt
+pilton.egg-info/requires.txt
+pilton.egg-info/top_level.txt
+tests/test_colors.py
+tests/test_pilton.py
