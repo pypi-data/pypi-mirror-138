@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+strdtm/__init__.py
+strdtm/conn.py
+strdtm.egg-info/PKG-INFO
+strdtm.egg-info/SOURCES.txt
+strdtm.egg-info/dependency_links.txt
+strdtm.egg-info/not-zip-safe
+strdtm.egg-info/top_level.txt
