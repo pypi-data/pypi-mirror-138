@@ -1,0 +1,96 @@
+from email.message import Message
+from .credential_handler import _set_email_credentials
+from .errors import GmailLoginException, RecipientNotPresentException
+from .async_decorator import Async
+from notipyer import _get_creds
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.base import MIMEBase
+from email import encoders
+import smtplib
+import os
+
+SMTP_GMAIL_URL = 'smtp.gmail.com'
+
+mail_cred = _get_creds()
+
+
+def _check_valid_string(string):
+    if len(string) > 0:
+        return True
+    return False
+
+
+def set_email_config(email, password, sender_name=''):
+    global mail_cred
+    if _check_valid_string(email) and _check_valid_string(password):
+        _set_email_credentials(mail_cred, email, password, sender_name)
+
+
+@Async
+def send_email(subject, message, to_addr=None, cc_addr=None, bcc_addr=None, attachment_path=None):
+    global mail_cred
+    global SMTP_GMAIL_URL
+
+    to_addr, cc_addr, bcc_addr = _check_recipients(to_addr, cc_addr, bcc_addr)
+
+    client = smtplib.SMTP_SSL(SMTP_GMAIL_URL)
+    client = _login_client(client)
+    recipients, email_body = _build_email(subject, message, to_addr, cc_addr, bcc_addr, attachment_path)
+    client.sendmail(mail_cred.EMAIL_ID, recipients, email_body)
+    client.quit()
+
+
+def _login_client(client):
+    try:
+        client.login(mail_cred.EMAIL_ID, mail_cred.EMAIL_PASS)
+        return client
+    except smtplib.SMTPAuthenticationError:
+        raise GmailLoginException()
+
+
+def _check_recipients(to_addr, cc_addr, bcc_addr):
+    if to_addr is None:
+        to_addr = []
+    if cc_addr is None:
+        cc_addr = []
+    if bcc_addr is None:
+        bcc_addr = []
+
+    if type(to_addr) is str:
+        to_addr = [to_addr]
+    if type(cc_addr) is str:
+        cc_addr = [cc_addr]
+    if type(bcc_addr) is str:
+        bcc_addr = [bcc_addr]
+
+    if len(to_addr + cc_addr + bcc_addr) < 1:
+        raise RecipientNotPresentException()
+
+    return to_addr, cc_addr, bcc_addr
+
+
+def _build_email(subject, text, to_emails, cc_emails, bcc_emails, attachment_path):
+    global mail_cred
+    if len(mail_cred.EMAIL_USER) > 0:
+        sender = mail_cred.EMAIL_USER + ' <' + mail_cred.EMAIL_ID + '>'
+    else:
+        sender = mail_cred.EMAIL_ID
+    message = MIMEMultipart()
+    message['From'] = sender
+    message['To'] = ",".join(to_emails)
+    message['CC'] = ",".join(cc_emails)
+    message['Subject'] = subject
+    message.attach(MIMEText(text, 'plain'))
+
+    if attachment_path is not None:
+        attachment = open(attachment_path, 'rb')
+        filename = os.path.basename(attachment_path)
+        p = MIMEBase('application', 'octet-stream')
+        p.set_payload((attachment).read())
+        encoders.encode_base64(p)
+        p.add_header('Content-Disposition', 'attachment; filename=%s' % filename)
+        message.attach(p)
+
+    toaddrs = to_emails + cc_emails + bcc_emails
+    return toaddrs, message.as_string()
