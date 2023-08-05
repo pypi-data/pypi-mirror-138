@@ -1,0 +1,9 @@
+opensmile >=2.4.0
+jupyter
+jupyter-sphinx
+onnx
+torch
+sphinx
+sphinx-audeering-theme >=1.0.14
+sphinx-autodoc-typehints
+sphinx-copybutton

@@ -1,0 +1,7 @@
+opensmile >=2.3.0
+torch
+pytest
+pytest-flake8
+pytest-doctestplus
+pytest-console-scripts
+pytest-cov
