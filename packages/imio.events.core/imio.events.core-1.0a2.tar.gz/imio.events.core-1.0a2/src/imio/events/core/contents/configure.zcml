@@ -1,0 +1,10 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope">
+
+  <include package=".agenda" />
+  <include package=".entity" />
+  <include package=".event" />
+  <include package=".folder" />
+  <include package=".page" />
+
+</configure>
