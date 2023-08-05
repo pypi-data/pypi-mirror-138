@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: neuralforecast
+Version: 0.0.5
+Summary: Deep Learning for Time Series Forecasting
+Home-page: https://github.com/Nixtla/neuralforecast/tree/main/
+Author: Kin Gutiérrez, Cristian Challú, Federico Garza, Max Mergenthaler, and contributors
+Author-email: fede.garza.ramirez@gmail.com
+License: GNU General Public License v3
+Keywords: time series,forecasting,deep learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DOCUMENTATION
+
+
+
+## <left> Why NeuralForecast </left>
+
+`NeuralForecast` is a time-series forecasting library with deep learning models.
+<br>
+##### Why Deep Learning
+- Highly Accurate Predictions: 
+    - High capacity shared models across panel data time series.
+- Fast and Efficient Models: 
+    - Automatic featurization provided by the networks information processes.
+    - Fast GPU computations.
+
+##### NeuralForecast Features
+- Easy-to-use state-of-the-art models: 
+	- Dataset, dataloader and evaluation utility.
+	- Code organization follows Lightning. Pure PyTorch without boilerplate.
+	- Implementations of high performing forecasting models with minimal entry barriers.
+- High Efficiency and low computation costs:
+	- Fast dataloaders and model optimization.
+	- Scalable to any hardware without changing the models.
+<br>
+
+<br>
+<br>
+
+## <left> Tutorial 1: Installation and Introduction <left>
+
+## <left> Tutorial 2: Time Series DataSets and DataLoaders <left>
+
+## <left> Tutorial 3: Model Training and Evaluation <left>
+
+## <left> Tutorial 4: Production Deployment <left>
+
+## <left> Community <left>
+
+Slack, twitter, something else
+
+
