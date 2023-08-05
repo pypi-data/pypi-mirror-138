@@ -1,0 +1,5 @@
+MODELIFY_API_URL = "https://api.modelify.ai/v1"
+MODELIFY_TOKEN_VALIDATION_URL = MODELIFY_API_URL + "/registry/me"
+MODELIFY_INFO_URL = MODELIFY_API_URL + "/info"
+MODELIFY_DEPLOY_URL =  MODELIFY_API_URL + "/registry/upload"
+MODELIFY_PRESIGNED_URL = MODELIFY_API_URL + "/registry/presigned-url"

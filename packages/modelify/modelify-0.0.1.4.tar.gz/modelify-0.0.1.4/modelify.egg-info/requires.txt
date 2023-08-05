@@ -1,0 +1,9 @@
+numpy
+cloudpickle
+pyminizip
+onnxmltools
+onnxruntime
+skl2onnx
+requests-toolbelt
+tf2onnx
+pydantic
