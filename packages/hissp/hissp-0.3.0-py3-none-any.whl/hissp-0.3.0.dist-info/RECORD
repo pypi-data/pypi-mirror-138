@@ -1,0 +1,14 @@
+hissp/__init__.py,sha256=scUeCd1GoUYXMI7b5RAfAHJVERSF4e3rEYRVyMA4eJo,807
+hissp/__main__.py,sha256=RBgXQ5fC46o0kAkdfDOfNG-uJA45hNA7bEEG5oGlDIs,1881
+hissp/basic.lissp,sha256=QzcqUI3htnrZmMs6j9N6MW9b_wwS57EsXOXKI3UC-CE,16661
+hissp/basic.py,sha256=xO6NU-2e5TUmi3hSyPfyUbht8NOHGIBxIZliwiSwrWg,43218
+hissp/compiler.py,sha256=d38CkPKYHWg5rBWkLgTf5F0wFluADbFc_GjVMuBpi9g,16919
+hissp/munger.py,sha256=OwkS0U4wOKGBXjup-Z8dE0XH1O-nau2SdC41BmaxYxA,5698
+hissp/reader.py,sha256=crTpboWVAF5KdCvrAcKDthuu4r6uI80k_eKIY47RZ24,16481
+hissp/repl.py,sha256=gpS8soKKcJ3aWdXjiEI0733rGlejO84VtmVDqRbBkfM,2703
+hissp-0.3.0.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+hissp-0.3.0.dist-info/METADATA,sha256=CgXIXqCBSID7M0eOCI_MI3uwyDByr_BMAI3EtuD6hjo,18637
+hissp-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hissp-0.3.0.dist-info/entry_points.txt,sha256=NNdJ8cOarw_M804B7AfAYslz5He6EEf6s0tHvojAe94,47
+hissp-0.3.0.dist-info/top_level.txt,sha256=AudQVCWV320G1jGMPjyRmMhcop5FEBodfNyc65R_bh0,6
+hissp-0.3.0.dist-info/RECORD,,
