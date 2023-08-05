@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gdpc
+Version: 4.2.dev0
+Summary: The Generative Design Python Client is a Python-based interface for the Minecraft HTTP Interface mod.
+Home-page: http://github.com/nilsgawlik/gdmc_http_client_python
+Author: Blinkenlights
+Author-email: blinkenlights@pm.me
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
