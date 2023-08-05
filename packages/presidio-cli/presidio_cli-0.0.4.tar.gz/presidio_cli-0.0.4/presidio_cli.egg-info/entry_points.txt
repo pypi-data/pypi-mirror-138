@@ -1,0 +1,3 @@
+[console_scripts]
+presidio = presidio_cli.cli:run
+
