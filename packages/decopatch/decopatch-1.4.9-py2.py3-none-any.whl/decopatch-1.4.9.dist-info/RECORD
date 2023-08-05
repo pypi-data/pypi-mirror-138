@@ -1,0 +1,12 @@
+decopatch/__init__.py,sha256=me3twB-0bl1ntIitKACZZ2Ij7iKyvH04daxEbEBEgAM,1212
+decopatch/_version.py,sha256=2X5fnndr7He18-TlHXlLh36HBSzCCTZfmGPPAN6Pd18,142
+decopatch/main.py,sha256=sfysn6cEC7L_Vq69LYzsKkt7wcCsUXOQYFLCkhI1qtk,17105
+decopatch/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+decopatch/utils_calls.py,sha256=9uPVck9o8sZbd5fPtAT-Hy_S_SE-JVhi9ZxAM9A75OQ,3626
+decopatch/utils_disambiguation.py,sha256=ueR7Cm91-eaTTRqQRNswvNZM5ni6_PP07-u_SabK9SY,12845
+decopatch/utils_modes.py,sha256=SVpzOvFSemYq6VW60hpo73-4TlYO4elZZYY3y-g75QU,15216
+decopatch-1.4.9.dist-info/LICENSE,sha256=AO6oW56vt6zWw7fDShKyWmfJx9Qhg4ztj_OsoYI9EnM,1550
+decopatch-1.4.9.dist-info/METADATA,sha256=_wm9o9sm-ofaI2uD79K13EUNeN5Ob_O3ycwtlwKSwe0,3164
+decopatch-1.4.9.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+decopatch-1.4.9.dist-info/top_level.txt,sha256=xX2QjNva8Jn3HS4CrWsqhL8ZuuRnyTX_KvvnuLHTdgY,10
+decopatch-1.4.9.dist-info/RECORD,,
