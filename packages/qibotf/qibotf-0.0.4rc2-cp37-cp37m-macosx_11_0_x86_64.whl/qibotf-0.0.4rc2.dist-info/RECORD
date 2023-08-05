@@ -1,0 +1,16 @@
+qibotf/__init__.py,sha256=GcrHOr9tG0ure7lgY9twvShUQO2RWJv9oHqm4jsgWyI,119
+qibotf/tests/conftest.py,sha256=_7Rjccngj7qoUuyvyxfxvn_Jn9zQOw8TKdNKA5HMN_c,474
+qibotf/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qibotf/tests/test_ops.py,sha256=sIXP0hXiKzBeBV_MEipUoOtODFxHo_SCHnVkKrCBbns,8660
+qibotf/tests/test_gates.py,sha256=Jw61R0Y9FWB6_1xRinc_V5jSha91WIG9f_lC8Kvxcoc,15894
+qibotf/.dylibs/libomp.dylib,sha256=2MhM9U0sBerbMhPMdUM3INhZg-EZ4OqWrLOjz9Ej9BM,655920
+qibotf/custom_operators/__init__.py,sha256=dZMQqifBNq5mSoTSbUTk6NH3cmWctUx_3PUAaMvQlnY,96
+qibotf/custom_operators/python/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+qibotf/custom_operators/python/ops/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+qibotf/custom_operators/python/ops/qibo_tf_custom_operators.py,sha256=fHZAL5u66PTFrO4oNObruDbiSR_4-a9tzH_cUv7JVvI,10003
+qibotf/custom_operators/python/ops/_qibo_tf_custom_operators.so,sha256=wv1JSWZ6y_2ZW0ZV8cSVSlAy-bYV152LmP5toiTLLZk,240440
+qibotf-0.0.4rc2.dist-info/RECORD,,
+qibotf-0.0.4rc2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+qibotf-0.0.4rc2.dist-info/WHEEL,sha256=Cccg5HtjQGFL9jeYnJ5pUDpslGaf9CMCuPI1-ek6RAo,110
+qibotf-0.0.4rc2.dist-info/top_level.txt,sha256=tmvyQYOrolR6aqTm_fpaKRMjxv1cM1usJ4hVre2kCAo,7
+qibotf-0.0.4rc2.dist-info/METADATA,sha256=G_d7r-lKGOBAcT8aD5reX-57ERFVyVibdbnNma2DgIk,1971
