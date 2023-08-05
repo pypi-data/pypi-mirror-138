@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: mbti-personality-prediction
+Version: 1.0.0
+Summary: Predicts MBTI personality type from one's writing style through Linguistic Inquiry and Word Count
+Home-page: https://github.com/rvmendillo/mbti_personality_prediction
+Author: Rey Victor Mendillo
+Author-email: admin@rvmendillo.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/rvmendillo/mbti_personality_prediction/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Topic :: Text Processing
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: liwc
+Requires-Dist: nltk
+
+# MBTIPersonalityPrediction
+
+It predicts MBTI personality type from one's writing style through Linguistic Inquiry and Word Count.
+
+## Installation
+
+Use the package manager [pip][pip-url] to install mbti-personality-prediction.
+
+```bash
+pip install mbti-personality-prediction
+```
+
+## Usage
+
+```python
+# Imports the MBTIPersonalityPrediction class from the mbti_personality_prediction package
+from mbti_personality_prediction import MBTIPersonalityPrediction
+
+# Instantiates the MBTI model
+app = MBTIPersonalityPrediction()
+
+# Predicts the MBTI personality type based on the writing style of the text input
+mbti_type = app.predict_personality('Insert your writing here. It is recommended that the writing is at least a paragraph for a more accurate prediction.')
+```
+
+## License
+
+[MIT][mit-license]
+
+[pip-url]: https://pip.pypa.io/en/stable/
+[mit-license]: https://choosealicense.com/licenses/mit/
+
+
