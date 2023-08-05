@@ -1,0 +1,4 @@
+[distutils.commands]
+npm_install = setuptools_npm:npm_install
+npm_run = setuptools_npm:npm_run
+
