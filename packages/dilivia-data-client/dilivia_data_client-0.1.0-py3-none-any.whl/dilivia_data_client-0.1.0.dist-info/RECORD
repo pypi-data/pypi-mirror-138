@@ -1,0 +1,10 @@
+dilivia_data_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dilivia_data_client/connexion.py,sha256=NDoc8q9qxl6kQiW3r902XybvTod-5t6HEqItcQ2sfsE,8416
+dilivia_data_client/mapping_dilivia.py,sha256=XVo-HK7GXWxvMvktcExiwpSC8YggDYYYZBYBoHoFkd0,7418
+dilivia_data_client/query.py,sha256=44lNjdo3bSAoW477QtjbQHhu-NKvhUp1JmAra2ubfJs,2948
+dilivia_data_client/script-ci.py,sha256=OftIElt1SYSoGaPc8MmwKbapmVr4aNKr5osMAI1sbic,1054
+dilivia_data_client/version.py,sha256=bDb73d9aNDFQsZYi7ugoBAfFPbTAfof9slo36h96PO8,42
+dilivia_data_client-0.1.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+dilivia_data_client-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+dilivia_data_client-0.1.0.dist-info/METADATA,sha256=Ts7fGGSpbunG_Q-HikgDZC-aifMMi1vo9XlH8YyvvqQ,599
+dilivia_data_client-0.1.0.dist-info/RECORD,,
