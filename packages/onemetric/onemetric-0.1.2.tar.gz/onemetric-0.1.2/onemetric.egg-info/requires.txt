@@ -1,0 +1,10 @@
+Pillow
+numpy
+seaborn
+matplotlib
+dataclasses-json
+
+[tests]
+pytest
+pytest-cov
+coverage
