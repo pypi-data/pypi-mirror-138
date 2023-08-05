@@ -1,0 +1,500 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Flask-Security-Fork Changelog &#8212; Flask-Security-Fork 3.0.2 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/flasky.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="&lt;no title&gt;" href="authors.html" />
+    <link rel="prev" title="API" href="api.html" />
+     
+    
+        <link rel="apple-touch-icon" href="_static/touch-icon.png">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
+
+  </head><body>
+    
+    
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="authors.html" title="&lt;no title&gt;"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="api.html" title="API"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Flask-Security-Fork 3.0.2 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Flask-Security-Fork Changelog</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="flask-security-fork-changelog">
+<h1>Flask-Security-Fork Changelog<a class="headerlink" href="#flask-security-fork-changelog" title="Permalink to this headline">¶</a></h1>
+<p>Here you can see the full list of changes between each Flask-Security-Fork release.</p>
+<section id="version-3-1-0">
+<h2>Version 3.1.0<a class="headerlink" href="#version-3-1-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Removed token and baisc authentication.</p></li>
+<li><p>Removed MongoDB, PonyORM, Peewee support.</p></li>
+<li><p>Removed remember me support.</p></li>
+<li><p>Removed JSON/AJAX support.</p></li>
+<li><p>Removed passwordless login.</p></li>
+<li><p>Added support for single hashing only specific algorithms.</p></li>
+</ul>
+</section>
+<section id="version-3-0-2">
+<h2>Version 3.0.2<a class="headerlink" href="#version-3-0-2" title="Permalink to this headline">¶</a></h2>
+<p>Released April 30th 2019</p>
+<ul class="simple">
+<li><p>(opr #439) HTTP Auth respects SECURITY_USER_IDENTITY_ATTRIBUTES (pnpnpn)</p></li>
+<li><p>(opr #660) csrf_enabled` deprecation fix (abulte)</p></li>
+<li><p>(opr #671) Fix referrer loop in _get_unauthorized_view(). (nfvs)</p></li>
+<li><p>(opr #675) Fix AttributeError in _request_loader (sbagan)</p></li>
+<li><p>(opr #676) Fix timing attack on login form (cript0nauta)</p></li>
+<li><p>(opr #683) Close db connection after running tests (reambus)</p></li>
+<li><p>(opr #691) docs: add password salt to SQLAlchemy app example (KshitijKarthick)</p></li>
+<li><p>(opr #692) utils: fix incorrect email sender type (switowski)</p></li>
+<li><p>(opr #696) Fixed broken Click link (williamhatcher)</p></li>
+<li><p>(opr #722) Fix password recovery confirmation on deleted user (kesara)</p></li>
+<li><p>(opr #747) Update login_user.html (rickwest)</p></li>
+<li><p>(opr #748) i18n: configurable the dirname domain (escudero)</p></li>
+<li><p>(opr #835) adds relevant user to reset password form for validation purposes (fuhrysteve)</p></li>
+</ul>
+<p>These are bug fixes and a couple very small additions.
+No change in behavior and no new functionality.
+‘opr#’ is the original pull request from <a class="reference external" href="https://github.com/mattupstate/flask-security">https://github.com/mattupstate/flask-security</a></p>
+</section>
+<section id="version-3-0-1">
+<h2>Version 3.0.1<a class="headerlink" href="#version-3-0-1" title="Permalink to this headline">¶</a></h2>
+<p>Released April 28th 2019</p>
+<ul class="simple">
+<li><p>Support 3.7 as part of CI</p></li>
+<li><p>Rebrand to this forked repo</p></li>
+<li><p>(#15) Build docs and translations as part of CI</p></li>
+<li><p>(#17) Move to msgcheck from pytest-translations</p></li>
+<li><p>(opr #669) Fix for Read the Docs (jirikuncar)</p></li>
+<li><p>(opr #710) Spanish translation (maukoquiroga)</p></li>
+<li><p>(opr #712) i18n: improvements of German translations (eseifert)</p></li>
+<li><p>(opr #713) i18n: add Portuguese (Brazilian) translation (dinorox)</p></li>
+<li><p>(opr #719) docs: fix anchor links and typos (kesara)</p></li>
+<li><p>(opr #751) i18n: fix missing space (abulte)</p></li>
+<li><p>(opr #762) docs: fixed proxy import (lsmith)</p></li>
+<li><p>(opr #767) Update customizing.rst (allanice001)</p></li>
+<li><p>(opr #776) i18n: add Portuguese (Portugal) translation (micael-grilo)</p></li>
+<li><p>(opr #791) Fix documentation for mattupstate#781 (fmerges)</p></li>
+<li><p>(opr #796) Chinese translations (Steinkuo)</p></li>
+<li><p>(opr #808) Clarify that a commit is needed after login_user (christophertull)</p></li>
+<li><p>(opr #823) Add Turkish translation (Admicos)</p></li>
+<li><p>(opr #831) Catalan translation (miceno)</p></li>
+</ul>
+<p>These are all documentation and i18n changes - NO code changes. All except the last 3 were accepted and reviewed by
+the original Flask-Security team.
+Thanks as always to all the contributors.</p>
+</section>
+<section id="version-3-0-0">
+<h2>Version 3.0.0<a class="headerlink" href="#version-3-0-0" title="Permalink to this headline">¶</a></h2>
+<p>Released May 29th 2017</p>
+<ul class="simple">
+<li><p>Fixed a bug when user clicking confirmation link after confirmation
+and expiration causes confirmation email to resend. (see #556)</p></li>
+<li><p>Added support for I18N.</p></li>
+<li><p>Added options <cite>SECURITY_EMAIL_PLAINTEXT</cite> and <cite>SECURITY_EMAIL_HTML</cite>
+for sending respecively plaintext and HTML version of email.</p></li>
+<li><p>Fixed validation when missing login information.</p></li>
+<li><p>Fixed condition for token extraction from JSON body.</p></li>
+<li><p>Better support for universal bdist wheel.</p></li>
+<li><p>Added port of CLI using Click configurable using options
+<cite>SECURITY_CLI_USERS_NAME</cite> and <cite>SECURITY_CLI_ROLES_NAME</cite>.</p></li>
+<li><p>Added new configuration option <cite>SECURITY_DATETIME_FACTORY</cite> which can
+be used to force default timezone for newly created datetimes.
+(see mattupstate/flask-security#466)</p></li>
+<li><p>Better IP tracking if using Flask 0.12.</p></li>
+<li><p>Renamed deprecated Flask-WFT base form class.</p></li>
+<li><p>Added tests for custom forms configured using app config.</p></li>
+<li><p>Added validation and tests for next argument in logout endpoint. (see #499)</p></li>
+<li><p>Bumped minimal required versions of several packages.</p></li>
+<li><p>Extended test matric on Travis CI for minimal and released package versions.</p></li>
+<li><p>Added of .editorconfig and forced tests for code style.</p></li>
+<li><p>Fixed a security bug when validating a confirmation token, also checks
+if the email that the token was created with matches the user’s current email.</p></li>
+<li><p>Replaced token loader with request loader.</p></li>
+<li><p>Changed trackable behavior of <cite>login_user</cite> when IP can not be detected from a request from ‘untrackable’ to <cite>None</cite> value.</p></li>
+<li><p>Use ProxyFix instead of inspecting X-Forwarded-For header.</p></li>
+<li><p>Fix identical problem with app as with datastore.</p></li>
+<li><p>Removed always-failing assertion.</p></li>
+<li><p>Fixed failure of init_app to set self.datastore.</p></li>
+<li><p>Changed to new style flask imports.</p></li>
+<li><p>Added proper error code when returning JSON response.</p></li>
+<li><p>Changed obsolette Required validator from WTForms to DataRequired. Bumped Flask-WTF to 0.13.</p></li>
+<li><p>Fixed missing <cite>SECURITY_SUBDOMAIN</cite> in config docs.</p></li>
+<li><p>Added cascade delete in PeeweeDatastore.</p></li>
+<li><p>Added notes to docs about <cite>SECURITY_USER_IDENTITY_ATTRIBUTES</cite>.</p></li>
+<li><p>Inspect value of <cite>SECURITY_UNAUTHORIZED_VIEW</cite>.</p></li>
+<li><p>Send password reset instructions if an attempt has expired.</p></li>
+<li><p>Added “Forgot password?” link to LoginForm description.</p></li>
+<li><p>Upgraded passlib, and removed bcrypt version restriction.</p></li>
+<li><p>Removed a duplicate line (‘retype_password’: ‘Retype Password’) in forms.py.</p></li>
+<li><p>Various documentation improvement.</p></li>
+</ul>
+</section>
+<section id="version-1-7-5">
+<h2>Version 1.7.5<a class="headerlink" href="#version-1-7-5" title="Permalink to this headline">¶</a></h2>
+<p>Released December 2nd 2015</p>
+<ul class="simple">
+<li><p>Added <cite>SECURITY_TOKEN_MAX_AGE</cite> configuration setting</p></li>
+<li><p>Fixed calls to <cite>SQLAlchemyUserDatastore.get_user(None)</cite> (this now returns <cite>False</cite> instead of raising a <cite>TypeError</cite></p></li>
+<li><p>Fixed URL generation adding extra slashes in some cases (see GitHub #343)</p></li>
+<li><p>Fixed handling of trackable IP addresses when the <cite>X-Forwarded-For</cite> header contains multiple values</p></li>
+<li><p>Include WWW-Authenticate headers in <cite>&#64;auth_required</cite> authentication checks</p></li>
+<li><p>Fixed error when <cite>check_token</cite> function is used with a json list</p></li>
+<li><p>Added support for custom <cite>AnonymousUser</cite> classes</p></li>
+<li><p>Restricted <cite>forgot_password</cite> endpoint to anonymous users</p></li>
+<li><p>Allowed unauthorized callback to be overridden</p></li>
+<li><p>Fixed issue where passwords cannot be reset if currently set to <cite>None</cite></p></li>
+<li><p>Ensured that password reset tokens are invalidated after use</p></li>
+<li><p>Updated <cite>is_authenticated</cite> and <cite>is_active</cite> functions to support Flask-Login changes</p></li>
+<li><p>Various documentation improvements</p></li>
+</ul>
+</section>
+<section id="version-1-7-4">
+<h2>Version 1.7.4<a class="headerlink" href="#version-1-7-4" title="Permalink to this headline">¶</a></h2>
+<p>Released October 13th 2014</p>
+<ul class="simple">
+<li><p>Fixed a bug related to changing existing passwords from plaintext to hashed</p></li>
+<li><p>Fixed a bug in form validation that did not enforce case insensivitiy</p></li>
+<li><p>Fixed a bug with validating redirects</p></li>
+</ul>
+</section>
+<section id="version-1-7-3">
+<h2>Version 1.7.3<a class="headerlink" href="#version-1-7-3" title="Permalink to this headline">¶</a></h2>
+<p>Released June 10th 2014</p>
+<ul class="simple">
+<li><p>Fixed a bug where redirection to <cite>SECURITY_POST_LOGIN_VIEW</cite> was not respected</p></li>
+<li><p>Fixed string encoding in various places to be friendly to unicode</p></li>
+<li><p>Now using <cite>werkzeug.security.safe_str_cmp</cite> to check tokens</p></li>
+<li><p>Removed user information from JSON output on <cite>/reset</cite> responses</p></li>
+<li><p>Added Python 3.4 support</p></li>
+</ul>
+</section>
+<section id="version-1-7-2">
+<h2>Version 1.7.2<a class="headerlink" href="#version-1-7-2" title="Permalink to this headline">¶</a></h2>
+<p>Released May 6th 2014</p>
+<ul class="simple">
+<li><p>Updated IP tracking to check for <cite>X-Forwarded-For</cite> header</p></li>
+<li><p>Fixed a bug regarding the re-hashing of passwords with a new algorithm</p></li>
+<li><p>Fixed a bug regarding the <cite>password_changed</cite> signal.</p></li>
+</ul>
+</section>
+<section id="version-1-7-1">
+<h2>Version 1.7.1<a class="headerlink" href="#version-1-7-1" title="Permalink to this headline">¶</a></h2>
+<p>Released January 14th 2014</p>
+<ul class="simple">
+<li><p>Fixed a bug where passwords would fail to verify when specifying a password hash algorithm</p></li>
+</ul>
+</section>
+<section id="version-1-7-0">
+<h2>Version 1.7.0<a class="headerlink" href="#version-1-7-0" title="Permalink to this headline">¶</a></h2>
+<p>Released January 10th 2014</p>
+<ul class="simple">
+<li><p>Python 3.3 support!</p></li>
+<li><p>Dependency updates</p></li>
+<li><p>Fixed a bug when <cite>SECURITY_LOGIN_WITHOUT_CONFIRMATION = True</cite> did not allow users to log in</p></li>
+<li><p>Added <cite>SECURITY_SEND_PASSWORD_RESET_NOTICE_EMAIL</cite> configuraiton option to optionally send password reset notice emails</p></li>
+<li><p>Add documentation for <cite>&#64;security.send_mail_task</cite></p></li>
+<li><p>Move to <cite>request.get_json</cite> as <cite>request.json</cite> is now deprecated in Flask</p></li>
+<li><p>Fixed a bug when using AJAX to change a user’s password</p></li>
+<li><p>Added documentation for select functions in the <cite>flask_security.utils</cite> module</p></li>
+<li><p>Fixed a bug in <cite>flask_security.forms.NextFormMixin</cite></p></li>
+<li><p>Added <cite>CHANGE_PASSWORD_TEMPLATE</cite> configuration option to optionally specify a different change password template</p></li>
+<li><p>Added the ability to specify addtional fields on the user model to be used for identifying the user via the <cite>USER_IDENTITY_ATTRIBUTES</cite> configuration option</p></li>
+<li><p>An error is now shown if a user tries to change their password and the password is the same as before. The message can be customed with the <cite>SECURITY_MSG_PASSWORD_IS_SAME</cite> configuration option</p></li>
+<li><p>Fixed a bug in <cite>MongoEngineUserDatastore</cite> where user model would not be updated when using the <cite>add_role_to_user</cite> method</p></li>
+<li><p>Added <cite>SECURITY_SEND_PASSWORD_CHANGE_EMAIL</cite> configuration option to optionally disable password change email from being sent</p></li>
+<li><p>Fixed a bug in the <cite>find_or_create_role</cite> method of the PeeWee datastore</p></li>
+<li><p>Removed pypy tests</p></li>
+<li><p>Fixed some tests</p></li>
+<li><p>Include CHANGES and LICENSE in MANIFEST.in</p></li>
+<li><p>A bit of documentation cleanup</p></li>
+<li><p>A bit of code cleanup including removal of unnecessary utcnow call and simplification of get_max_age method</p></li>
+</ul>
+</section>
+<section id="version-1-6-9">
+<h2>Version 1.6.9<a class="headerlink" href="#version-1-6-9" title="Permalink to this headline">¶</a></h2>
+<p>Released August 20th 2013</p>
+<ul class="simple">
+<li><p>Fix bug in SQLAlchemy datastore’s <cite>get_user</cite> function</p></li>
+<li><p>Fix bug in PeeWee datastore’s <cite>remove_role_from_user</cite> function</p></li>
+<li><p>Fixed import error caused by new Flask-WTF release</p></li>
+</ul>
+</section>
+<section id="version-1-6-8">
+<h2>Version 1.6.8<a class="headerlink" href="#version-1-6-8" title="Permalink to this headline">¶</a></h2>
+<p>Released August 1st 2013</p>
+<ul class="simple">
+<li><p>Fixed bug with case sensitivity of email address during login</p></li>
+<li><p>Code cleanup regarding token_callback</p></li>
+<li><p>Ignore validation errors in find_user function for MongoEngineUserDatastore</p></li>
+</ul>
+</section>
+<section id="version-1-6-7">
+<h2>Version 1.6.7<a class="headerlink" href="#version-1-6-7" title="Permalink to this headline">¶</a></h2>
+<p>Released July 11th 2013</p>
+<ul class="simple">
+<li><p>Made password length form error message configurable</p></li>
+<li><p>Fixed email confirmation bug that prevented logged in users from confirming their email</p></li>
+</ul>
+</section>
+<section id="version-1-6-6">
+<h2>Version 1.6.6<a class="headerlink" href="#version-1-6-6" title="Permalink to this headline">¶</a></h2>
+<p>Released June 28th 2013</p>
+<ul class="simple">
+<li><p>Fixed dependency versions</p></li>
+</ul>
+</section>
+<section id="version-1-6-5">
+<h2>Version 1.6.5<a class="headerlink" href="#version-1-6-5" title="Permalink to this headline">¶</a></h2>
+<p>Released June 20th 2013</p>
+<ul class="simple">
+<li><p>Fixed bug in <cite>flask.ext.security.confirmable.generate_confirmation_link</cite></p></li>
+</ul>
+</section>
+<section id="version-1-6-4">
+<h2>Version 1.6.4<a class="headerlink" href="#version-1-6-4" title="Permalink to this headline">¶</a></h2>
+<p>Released June 18th 2013</p>
+<ul class="simple">
+<li><p>Added <cite>SECURITY_DEFAULT_REMEMBER_ME</cite> configuration value to unify behavior between endpoints</p></li>
+<li><p>Fixed Flask-Login dependency problem</p></li>
+<li><p>Added optional <cite>next</cite> parameter to registration endpoint, similar to that of login</p></li>
+</ul>
+</section>
+<section id="version-1-6-3">
+<h2>Version 1.6.3<a class="headerlink" href="#version-1-6-3" title="Permalink to this headline">¶</a></h2>
+<p>Released May 8th 2013</p>
+<ul class="simple">
+<li><p>Fixed bug in regards to imports with latest version of MongoEngine</p></li>
+</ul>
+</section>
+<section id="version-1-6-2">
+<h2>Version 1.6.2<a class="headerlink" href="#version-1-6-2" title="Permalink to this headline">¶</a></h2>
+<p>Released April 4th 2013</p>
+<ul class="simple">
+<li><p>Fixed bug with http basic auth</p></li>
+</ul>
+</section>
+<section id="version-1-6-1">
+<h2>Version 1.6.1<a class="headerlink" href="#version-1-6-1" title="Permalink to this headline">¶</a></h2>
+<p>Released April 3rd 2013</p>
+<ul class="simple">
+<li><p>Fixed bug with signals</p></li>
+</ul>
+</section>
+<section id="version-1-6-0">
+<h2>Version 1.6.0<a class="headerlink" href="#version-1-6-0" title="Permalink to this headline">¶</a></h2>
+<p>Released March 13th 2013</p>
+<ul class="simple">
+<li><p>Added Flask-Pewee support</p></li>
+<li><p>Password hashing is now more flexible and can be changed to a different type at will</p></li>
+<li><p>Flask-Login messages are configurable</p></li>
+<li><p>AJAX requests must now send a CSRF token for security reasons</p></li>
+<li><p>Form messages are now configurable</p></li>
+<li><p>Forms can now be extended with more fields</p></li>
+<li><p>Added change password endpoint</p></li>
+<li><p>Added the user to the request context when successfully authenticated via http basic and token auth</p></li>
+<li><p>The Flask-Security blueprint subdomain is now configurable</p></li>
+<li><p>Redirects to other domains are now not allowed during requests that may redirect</p></li>
+<li><p>Template paths can be configured</p></li>
+<li><p>The welcome/register email can now optionally be sent to the user</p></li>
+<li><p>Passwords can now contain non-latin characters</p></li>
+<li><p>Fixed a bug when confirming an account but the account has been deleted</p></li>
+</ul>
+</section>
+<section id="version-1-5-4">
+<h2>Version 1.5.4<a class="headerlink" href="#version-1-5-4" title="Permalink to this headline">¶</a></h2>
+<p>Released January 6th 2013</p>
+<ul class="simple">
+<li><p>Fix bug in forms with <cite>csrf_enabled</cite> parameter not accounting attempts to login using JSON data</p></li>
+</ul>
+</section>
+<section id="version-1-5-3">
+<h2>Version 1.5.3<a class="headerlink" href="#version-1-5-3" title="Permalink to this headline">¶</a></h2>
+<p>Released December 23rd 2012</p>
+<ul class="simple">
+<li><p>Change dependency requirement</p></li>
+</ul>
+</section>
+<section id="version-1-5-2">
+<h2>Version 1.5.2<a class="headerlink" href="#version-1-5-2" title="Permalink to this headline">¶</a></h2>
+<p>Released December 11th 2012</p>
+<ul class="simple">
+<li><p>Fix a small bug in <cite>flask_security.utils.login_user</cite> method</p></li>
+</ul>
+</section>
+<section id="version-1-5-1">
+<h2>Version 1.5.1<a class="headerlink" href="#version-1-5-1" title="Permalink to this headline">¶</a></h2>
+<p>Released November 26th 2012</p>
+<ul class="simple">
+<li><p>Fixed bug with <cite>next</cite> form variable</p></li>
+<li><p>Added better documentation regarding Flask-Mail configuration</p></li>
+<li><p>Added ability to configure email subjects</p></li>
+</ul>
+</section>
+<section id="version-1-5-0">
+<h2>Version 1.5.0<a class="headerlink" href="#version-1-5-0" title="Permalink to this headline">¶</a></h2>
+<p>Released October 11th 2012</p>
+<ul class="simple">
+<li><p>Major release. Upgrading from previous versions will require a bit of work to
+accomodate API changes. See documentation for a list of new features and for
+help on how to upgrade.</p></li>
+</ul>
+</section>
+<section id="version-1-2-3">
+<h2>Version 1.2.3<a class="headerlink" href="#version-1-2-3" title="Permalink to this headline">¶</a></h2>
+<p>Released June 12th 2012</p>
+<ul class="simple">
+<li><p>Fixed a bug in the RoleMixin eq/ne functions</p></li>
+</ul>
+</section>
+<section id="version-1-2-2">
+<h2>Version 1.2.2<a class="headerlink" href="#version-1-2-2" title="Permalink to this headline">¶</a></h2>
+<p>Released April 27th 2012</p>
+<ul class="simple">
+<li><p>Fixed bug where <cite>roles_required</cite> and <cite>roles_accepted</cite> did not pass the next
+argument to the login view</p></li>
+</ul>
+</section>
+<section id="version-1-2-1">
+<h2>Version 1.2.1<a class="headerlink" href="#version-1-2-1" title="Permalink to this headline">¶</a></h2>
+<p>Released March 28th 2012</p>
+<ul class="simple">
+<li><p>Added optional user model mixin parameter for datastores</p></li>
+<li><p>Added CreateRoleCommand to available Flask-Script commands</p></li>
+</ul>
+</section>
+<section id="version-1-2-0">
+<h2>Version 1.2.0<a class="headerlink" href="#version-1-2-0" title="Permalink to this headline">¶</a></h2>
+<p>Released March 12th 2012</p>
+<ul class="simple">
+<li><p>Added configuration option <cite>SECURITY_FLASH_MESSAGES</cite> which can be set to a
+boolean value to specify if Flask-Security should flash messages or not.</p></li>
+</ul>
+</section>
+<section id="version-1-1-0">
+<h2>Version 1.1.0<a class="headerlink" href="#version-1-1-0" title="Permalink to this headline">¶</a></h2>
+<p>Initial release</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><p class="logo"><a href="index.html">
+  <img class="logo" src="_static/logo-helmet.png" alt="Logo"/>
+</a></p>
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Flask-Security-Fork Changelog</a><ul>
+<li><a class="reference internal" href="#version-3-1-0">Version 3.1.0</a></li>
+<li><a class="reference internal" href="#version-3-0-2">Version 3.0.2</a></li>
+<li><a class="reference internal" href="#version-3-0-1">Version 3.0.1</a></li>
+<li><a class="reference internal" href="#version-3-0-0">Version 3.0.0</a></li>
+<li><a class="reference internal" href="#version-1-7-5">Version 1.7.5</a></li>
+<li><a class="reference internal" href="#version-1-7-4">Version 1.7.4</a></li>
+<li><a class="reference internal" href="#version-1-7-3">Version 1.7.3</a></li>
+<li><a class="reference internal" href="#version-1-7-2">Version 1.7.2</a></li>
+<li><a class="reference internal" href="#version-1-7-1">Version 1.7.1</a></li>
+<li><a class="reference internal" href="#version-1-7-0">Version 1.7.0</a></li>
+<li><a class="reference internal" href="#version-1-6-9">Version 1.6.9</a></li>
+<li><a class="reference internal" href="#version-1-6-8">Version 1.6.8</a></li>
+<li><a class="reference internal" href="#version-1-6-7">Version 1.6.7</a></li>
+<li><a class="reference internal" href="#version-1-6-6">Version 1.6.6</a></li>
+<li><a class="reference internal" href="#version-1-6-5">Version 1.6.5</a></li>
+<li><a class="reference internal" href="#version-1-6-4">Version 1.6.4</a></li>
+<li><a class="reference internal" href="#version-1-6-3">Version 1.6.3</a></li>
+<li><a class="reference internal" href="#version-1-6-2">Version 1.6.2</a></li>
+<li><a class="reference internal" href="#version-1-6-1">Version 1.6.1</a></li>
+<li><a class="reference internal" href="#version-1-6-0">Version 1.6.0</a></li>
+<li><a class="reference internal" href="#version-1-5-4">Version 1.5.4</a></li>
+<li><a class="reference internal" href="#version-1-5-3">Version 1.5.3</a></li>
+<li><a class="reference internal" href="#version-1-5-2">Version 1.5.2</a></li>
+<li><a class="reference internal" href="#version-1-5-1">Version 1.5.1</a></li>
+<li><a class="reference internal" href="#version-1-5-0">Version 1.5.0</a></li>
+<li><a class="reference internal" href="#version-1-2-3">Version 1.2.3</a></li>
+<li><a class="reference internal" href="#version-1-2-2">Version 1.2.2</a></li>
+<li><a class="reference internal" href="#version-1-2-1">Version 1.2.1</a></li>
+<li><a class="reference internal" href="#version-1-2-0">Version 1.2.0</a></li>
+<li><a class="reference internal" href="#version-1-1-0">Version 1.1.0</a></li>
+</ul>
+</li>
+</ul>
+
+  </div><h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="api.html" title="previous chapter">API</a></li>
+      <li>Next: <a href="authors.html" title="next chapter">&lt;no title&gt;</a></li>
+  </ul></li>
+</ul>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/changelog.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+
+<div class="github">
+    <a href="https://github.com/inveniosoftware/flask-security-fork">
+        <span>Fork me on GitHub</span>
+        <img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub">
+    </a>
+</div>
+
+
+    
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2012-2019, Matt Wright, 2022 CERN.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.4.0.
+    </div>
+    
+
+  </body>
+</html>

@@ -1,0 +1,327 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Customizing Views &#8212; Flask-Security-Fork 3.0.2 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/flasky.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="API" href="api.html" />
+    <link rel="prev" title="Models" href="models.html" />
+     
+    
+        <link rel="apple-touch-icon" href="_static/touch-icon.png">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
+
+  </head><body>
+    
+    
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="api.html" title="API"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="models.html" title="Models"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Flask-Security-Fork 3.0.2 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Customizing Views</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="customizing-views">
+<h1>Customizing Views<a class="headerlink" href="#customizing-views" title="Permalink to this headline">¶</a></h1>
+<p>Flask-Security bootstraps your application with various views for handling its
+configured features to get you up and running as quickly as possible. However,
+you’ll probably want to change the way these views look to be more in line with
+your application’s visual design.</p>
+<section id="views">
+<h2>Views<a class="headerlink" href="#views" title="Permalink to this headline">¶</a></h2>
+<p>Flask-Security is packaged with a default template for each view it presents to
+a user. Templates are located within a subfolder named <code class="docutils literal notranslate"><span class="pre">security</span></code>. The
+following is a list of view templates:</p>
+<ul class="simple">
+<li><p><cite>security/forgot_password.html</cite></p></li>
+<li><p><cite>security/login_user.html</cite></p></li>
+<li><p><cite>security/register_user.html</cite></p></li>
+<li><p><cite>security/reset_password.html</cite></p></li>
+<li><p><cite>security/change_password.html</cite></p></li>
+<li><p><cite>security/send_confirmation.html</cite></p></li>
+<li><p><cite>security/send_login.html</cite></p></li>
+</ul>
+<p>Overriding these templates is simple:</p>
+<ol class="arabic simple">
+<li><p>Create a folder named <code class="docutils literal notranslate"><span class="pre">security</span></code> within your application’s templates folder</p></li>
+<li><p>Create a template with the same name for the template you wish to override</p></li>
+</ol>
+<p>You can also specify custom template file paths in the <a class="reference internal" href="configuration.html"><span class="doc">configuration</span></a>.</p>
+<p>Each template is passed a template context object that includes the following,
+including the objects/values that are passed to the template by the main
+Flask application context processor:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;template_name&gt;_form</span></code>: A form object for the view</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">security</span></code>: The Flask-Security extension object</p></li>
+</ul>
+<p>To add more values to the template context, you can specify a context processor
+for all views or a specific view. For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">security</span> <span class="o">=</span> <span class="n">Security</span><span class="p">(</span><span class="n">app</span><span class="p">,</span> <span class="n">user_datastore</span><span class="p">)</span>
+
+<span class="c1"># This processor is added to all templates</span>
+<span class="nd">@security</span><span class="o">.</span><span class="n">context_processor</span>
+<span class="k">def</span> <span class="nf">security_context_processor</span><span class="p">():</span>
+    <span class="k">return</span> <span class="nb">dict</span><span class="p">(</span><span class="n">hello</span><span class="o">=</span><span class="s2">&quot;world&quot;</span><span class="p">)</span>
+
+<span class="c1"># This processor is added to only the register view</span>
+<span class="nd">@security</span><span class="o">.</span><span class="n">register_context_processor</span>
+<span class="k">def</span> <span class="nf">security_register_processor</span><span class="p">():</span>
+    <span class="k">return</span> <span class="nb">dict</span><span class="p">(</span><span class="n">something</span><span class="o">=</span><span class="s2">&quot;else&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The following is a list of all the available context processor decorators:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">context_processor</span></code>: All views</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">forgot_password_context_processor</span></code>: Forgot password view</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">login_context_processor</span></code>: Login view</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">register_context_processor</span></code>: Register view</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">reset_password_context_processor</span></code>: Reset password view</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">change_password_context_processor</span></code>: Change password view</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">send_confirmation_context_processor</span></code>: Send confirmation view</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">send_login_context_processor</span></code>: Send login view</p></li>
+</ul>
+</section>
+<section id="forms">
+<h2>Forms<a class="headerlink" href="#forms" title="Permalink to this headline">¶</a></h2>
+<p>All forms can be overridden. For each form used, you can specify a
+replacement class. This allows you to add extra fields to the
+register form or override validators:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">flask_security.forms</span> <span class="kn">import</span> <span class="n">RegisterForm</span>
+<span class="kn">from</span> <span class="nn">wtforms</span> <span class="kn">import</span> <span class="n">StringField</span>
+<span class="kn">from</span> <span class="nn">wtforms.validators</span> <span class="kn">import</span> <span class="n">DataRequired</span>
+
+<span class="k">class</span> <span class="nc">ExtendedRegisterForm</span><span class="p">(</span><span class="n">RegisterForm</span><span class="p">):</span>
+    <span class="n">first_name</span> <span class="o">=</span> <span class="n">StringField</span><span class="p">(</span><span class="s1">&#39;First Name&#39;</span><span class="p">,</span> <span class="p">[</span><span class="n">DataRequired</span><span class="p">()])</span>
+    <span class="n">last_name</span> <span class="o">=</span> <span class="n">StringField</span><span class="p">(</span><span class="s1">&#39;Last Name&#39;</span><span class="p">,</span> <span class="p">[</span><span class="n">DataRequired</span><span class="p">()])</span>
+
+<span class="n">security</span> <span class="o">=</span> <span class="n">Security</span><span class="p">(</span><span class="n">app</span><span class="p">,</span> <span class="n">user_datastore</span><span class="p">,</span>
+         <span class="n">register_form</span><span class="o">=</span><span class="n">ExtendedRegisterForm</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>For the <code class="docutils literal notranslate"><span class="pre">register_form</span></code> and <code class="docutils literal notranslate"><span class="pre">confirm_register_form</span></code>, each field is
+passed to the user model (as kwargs) when a user is created. In the
+above case, the <code class="docutils literal notranslate"><span class="pre">first_name</span></code> and <code class="docutils literal notranslate"><span class="pre">last_name</span></code> fields are passed
+directly to the model, so the model should look like:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">User</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">Model</span><span class="p">,</span> <span class="n">UserMixin</span><span class="p">):</span>
+    <span class="nb">id</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">Integer</span><span class="p">,</span> <span class="n">primary_key</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">email</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">String</span><span class="p">(</span><span class="mi">255</span><span class="p">),</span> <span class="n">unique</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">password</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">String</span><span class="p">(</span><span class="mi">255</span><span class="p">))</span>
+    <span class="n">first_name</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">String</span><span class="p">(</span><span class="mi">255</span><span class="p">))</span>
+    <span class="n">last_name</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">String</span><span class="p">(</span><span class="mi">255</span><span class="p">))</span>
+</pre></div>
+</div>
+<p>The following is a list of all the available form overrides:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">login_form</span></code>: Login form</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">confirm_register_form</span></code>: Confirmable register form</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">register_form</span></code>: Register form</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">forgot_password_form</span></code>: Forgot password form</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">reset_password_form</span></code>: Reset password form</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">change_password_form</span></code>: Change password form</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">send_confirmation_form</span></code>: Send confirmation form</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">passwordless_login_form</span></code>: Passwordless login form</p></li>
+</ul>
+</section>
+<section id="emails">
+<h2>Emails<a class="headerlink" href="#emails" title="Permalink to this headline">¶</a></h2>
+<p>Flask-Security is also packaged with a default template for each email that it
+may send. Templates are located within the subfolder named <code class="docutils literal notranslate"><span class="pre">security/email</span></code>.
+The following is a list of email templates:</p>
+<ul class="simple">
+<li><p><cite>security/email/confirmation_instructions.html</cite></p></li>
+<li><p><cite>security/email/confirmation_instructions.txt</cite></p></li>
+<li><p><cite>security/email/login_instructions.html</cite></p></li>
+<li><p><cite>security/email/login_instructions.txt</cite></p></li>
+<li><p><cite>security/email/reset_instructions.html</cite></p></li>
+<li><p><cite>security/email/reset_instructions.txt</cite></p></li>
+<li><p><cite>security/email/reset_notice.html</cite></p></li>
+<li><p><cite>security/email/change_notice.txt</cite></p></li>
+<li><p><cite>security/email/change_notice.html</cite></p></li>
+<li><p><cite>security/email/reset_notice.txt</cite></p></li>
+<li><p><cite>security/email/welcome.html</cite></p></li>
+<li><p><cite>security/email/welcome.txt</cite></p></li>
+</ul>
+<p>Overriding these templates is simple:</p>
+<ol class="arabic simple">
+<li><p>Create a folder named <code class="docutils literal notranslate"><span class="pre">security</span></code> within your application’s templates folder</p></li>
+<li><p>Create a folder named <code class="docutils literal notranslate"><span class="pre">email</span></code> within the <code class="docutils literal notranslate"><span class="pre">security</span></code> folder</p></li>
+<li><p>Create a template with the same name for the template you wish to override</p></li>
+</ol>
+<p>Each template is passed a template context object that includes values for any
+links that are required in the email. If you require more values in the
+templates, you can specify an email context processor with the
+<code class="docutils literal notranslate"><span class="pre">mail_context_processor</span></code> decorator. For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">security</span> <span class="o">=</span> <span class="n">Security</span><span class="p">(</span><span class="n">app</span><span class="p">,</span> <span class="n">user_datastore</span><span class="p">)</span>
+
+<span class="c1"># This processor is added to all emails</span>
+<span class="nd">@security</span><span class="o">.</span><span class="n">mail_context_processor</span>
+<span class="k">def</span> <span class="nf">security_mail_processor</span><span class="p">():</span>
+    <span class="k">return</span> <span class="nb">dict</span><span class="p">(</span><span class="n">hello</span><span class="o">=</span><span class="s2">&quot;world&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="emails-with-celery">
+<h2>Emails with Celery<a class="headerlink" href="#emails-with-celery" title="Permalink to this headline">¶</a></h2>
+<p>Sometimes it makes sense to send emails via a task queue, such as <a class="reference external" href="http://www.celeryproject.org/">Celery</a>.
+To delay the sending of emails, you can use the <code class="docutils literal notranslate"><span class="pre">&#64;security.send_mail_task</span></code>
+decorator like so:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Setup the task</span>
+<span class="nd">@celery</span><span class="o">.</span><span class="n">task</span>
+<span class="k">def</span> <span class="nf">send_security_email</span><span class="p">(</span><span class="n">msg</span><span class="p">):</span>
+    <span class="c1"># Use the Flask-Mail extension instance to send the incoming ``msg`` parameter</span>
+    <span class="c1"># which is an instance of `flask_mail.Message`</span>
+    <span class="n">mail</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+
+<span class="nd">@security</span><span class="o">.</span><span class="n">send_mail_task</span>
+<span class="k">def</span> <span class="nf">delay_security_email</span><span class="p">(</span><span class="n">msg</span><span class="p">):</span>
+    <span class="n">send_security_email</span><span class="o">.</span><span class="n">delay</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>If factory method is going to be used for initialization, use <code class="docutils literal notranslate"><span class="pre">_SecurityState</span></code>
+object returned by <code class="docutils literal notranslate"><span class="pre">init_app</span></code> method to initialize Celery tasks intead of using
+<code class="docutils literal notranslate"><span class="pre">security.send_mail_task</span></code> directly like so:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Flask</span>
+<span class="kn">from</span> <span class="nn">flask_mail</span> <span class="kn">import</span> <span class="n">Mail</span>
+<span class="kn">from</span> <span class="nn">flask_security</span> <span class="kn">import</span> <span class="n">Security</span><span class="p">,</span> <span class="n">SQLAlchemyUserDatastore</span>
+<span class="kn">from</span> <span class="nn">celery</span> <span class="kn">import</span> <span class="n">Celery</span>
+
+<span class="n">mail</span> <span class="o">=</span> <span class="n">Mail</span><span class="p">()</span>
+<span class="n">security</span> <span class="o">=</span> <span class="n">Security</span><span class="p">()</span>
+<span class="n">celery</span> <span class="o">=</span> <span class="n">Celery</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">create_app</span><span class="p">(</span><span class="n">config</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Initialize Flask instance.&quot;&quot;&quot;</span>
+
+    <span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">from_object</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
+
+    <span class="nd">@celery</span><span class="o">.</span><span class="n">task</span>
+    <span class="k">def</span> <span class="nf">send_flask_mail</span><span class="p">(</span><span class="n">msg</span><span class="p">):</span>
+        <span class="n">mail</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+
+    <span class="n">mail</span><span class="o">.</span><span class="n">init_app</span><span class="p">(</span><span class="n">app</span><span class="p">)</span>
+    <span class="n">datastore</span> <span class="o">=</span> <span class="n">SQLAlchemyUserDatastore</span><span class="p">(</span><span class="n">db</span><span class="p">,</span> <span class="n">User</span><span class="p">,</span> <span class="n">Role</span><span class="p">)</span>
+    <span class="n">security_ctx</span> <span class="o">=</span> <span class="n">security</span><span class="o">.</span><span class="n">init_app</span><span class="p">(</span><span class="n">app</span><span class="p">,</span> <span class="n">datastore</span><span class="p">)</span>
+
+    <span class="c1"># Flexible way for defining custom mail sending task.</span>
+    <span class="nd">@security_ctx</span><span class="o">.</span><span class="n">send_mail_task</span>
+    <span class="k">def</span> <span class="nf">delay_flask_security_mail</span><span class="p">(</span><span class="n">msg</span><span class="p">):</span>
+        <span class="n">send_flask_mail</span><span class="o">.</span><span class="n">delay</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+
+    <span class="c1"># A shortcurt.</span>
+    <span class="n">security_ctx</span><span class="o">.</span><span class="n">send_mail_task</span><span class="p">(</span><span class="n">send_flask_mail</span><span class="o">.</span><span class="n">delay</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">app</span>
+</pre></div>
+</div>
+<p>Note that <code class="docutils literal notranslate"><span class="pre">flask_mail.Message</span></code> may not be serialized as an argument passed to
+Celery. The practical way with custom serialization may look like so:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@celery</span><span class="o">.</span><span class="n">task</span>
+<span class="k">def</span> <span class="nf">send_flask_mail</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="n">mail</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="n">Message</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">))</span>
+
+<span class="nd">@security_ctx</span><span class="o">.</span><span class="n">send_mail_task</span>
+<span class="k">def</span> <span class="nf">delay_flask_security_mail</span><span class="p">(</span><span class="n">msg</span><span class="p">):</span>
+    <span class="n">send_flask_mail</span><span class="o">.</span><span class="n">delay</span><span class="p">(</span><span class="n">subject</span><span class="o">=</span><span class="n">msg</span><span class="o">.</span><span class="n">subject</span><span class="p">,</span> <span class="n">sender</span><span class="o">=</span><span class="n">msg</span><span class="o">.</span><span class="n">sender</span><span class="p">,</span>
+                          <span class="n">recipients</span><span class="o">=</span><span class="n">msg</span><span class="o">.</span><span class="n">recipients</span><span class="p">,</span> <span class="n">body</span><span class="o">=</span><span class="n">msg</span><span class="o">.</span><span class="n">body</span><span class="p">,</span>
+                          <span class="n">html</span><span class="o">=</span><span class="n">msg</span><span class="o">.</span><span class="n">html</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><p class="logo"><a href="index.html">
+  <img class="logo" src="_static/logo-helmet.png" alt="Logo"/>
+</a></p>
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Customizing Views</a><ul>
+<li><a class="reference internal" href="#views">Views</a></li>
+<li><a class="reference internal" href="#forms">Forms</a></li>
+<li><a class="reference internal" href="#emails">Emails</a></li>
+<li><a class="reference internal" href="#emails-with-celery">Emails with Celery</a></li>
+</ul>
+</li>
+</ul>
+
+  </div><h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="models.html" title="previous chapter">Models</a></li>
+      <li>Next: <a href="api.html" title="next chapter">API</a></li>
+  </ul></li>
+</ul>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/customizing.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+
+<div class="github">
+    <a href="https://github.com/inveniosoftware/flask-security-fork">
+        <span>Fork me on GitHub</span>
+        <img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub">
+    </a>
+</div>
+
+
+    
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2012-2019, Matt Wright, 2022 CERN.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.4.0.
+    </div>
+    
+
+  </body>
+</html>

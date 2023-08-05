@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Flask-Security-Fork &#8212; Flask-Security-Fork 3.0.2 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/flasky.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Features" href="features.html" />
+     
+    
+        <link rel="apple-touch-icon" href="_static/touch-icon.png">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
+
+  </head><body>
+    
+    <div class=indexwrapper>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="features.html" title="Features"
+             accesskey="N">next</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">Flask-Security-Fork 3.0.2 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Flask-Security-Fork</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="flask-security-fork">
+<h1>Flask-Security-Fork<a class="headerlink" href="#flask-security-fork" title="Permalink to this headline">¶</a></h1>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Please do not use this fork. Use <a class="reference external" href="https://flask-security-too.readthedocs.io/en/stable/">Flask-Security-Too instead</a>.</p>
+</div>
+<p>This is a fork is used exclusively for Invenio Framework. The fork has been
+considerably slimmed down removing unused features to lower the  attack
+surface. In addition, Invenio Framework delegates most authentication to
+identity providers and thus do not need advanced features such as multi factor
+authentication which was added in Flask-Security-Too.</p>
+<p>The following features have been <strong>removed</strong> from the original Flask-Security:</p>
+<ul class="simple">
+<li><p>Basic HTTP authentication</p></li>
+<li><p>Token based authentication</p></li>
+<li><p>JSON/Ajax Support</p></li>
+<li><p>MongoDB, PonyORM and Peewee support.</p></li>
+</ul>
+<p>Flask-Security-Fork uses the following other libraries:</p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://flask-login.readthedocs.org/en/latest/">Flask-Login</a></p></li>
+<li><p><a class="reference external" href="http://packages.python.org/Flask-Mail/">Flask-Mail</a></p></li>
+<li><p><a class="reference external" href="http://packages.python.org/Flask-Principal/">Flask-Principal</a></p></li>
+<li><p><a class="reference external" href="http://packages.python.org/Flask-WTF/">Flask-WTF</a></p></li>
+<li><p><a class="reference external" href="http://packages.python.org/itsdangerous/">itsdangerous</a></p></li>
+<li><p><a class="reference external" href="http://packages.python.org/passlib/">passlib</a></p></li>
+</ol>
+<section id="contents">
+<h2>Contents<a class="headerlink" href="#contents" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="features.html">Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html#basic-sqlalchemy-application">Basic SQLAlchemy Application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html#basic-sqlalchemy-application-with-session">Basic SQLAlchemy Application with session</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html#mail-configuration">Mail Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html#proxy-configuration">Proxy Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="models.html">Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="customizing.html">Customizing Views</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Flask-Security-Fork Changelog</a></li>
+</ul>
+</div>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><h3>About</h3>
+<p>
+  Flask-Security is an opinionated Flask extension which adds basic
+  security and authentication features to your Flask apps quickly
+  and easily. Flask-Social can also be used to add "social" or OAuth
+  login and connection management.
+</p>
+<h3>Useful Links</h3>
+<ul>
+  <li><a href="http://pypi.python.org/pypi/Flask-Security-Too">Flask-Security @ PyPI</a></li>
+  <li><a href="http://github.com/jwag956/flask-security">Flask-Security @ github</a></li>
+  <li><a href="http://github.com/jwag956/flask-security/issues">Issue Tracker</a></li>
+</ul>
+<ul>
+  <li><a href="http://pypi.python.org/pypi/Flask-Social">Flask-Social</a></li>
+  <li><a href="http://github.com/mattupstate/flask-social">Flask-Social @ github</a></li>
+</ul>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+
+<div class="github">
+    <a href="https://github.com/inveniosoftware/flask-security-fork">
+        <span>Fork me on GitHub</span>
+        <img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub">
+    </a>
+</div>
+
+
+    
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2012-2019, Matt Wright, 2022 CERN.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.4.0.
+    </div>
+    </div>
+
+  </body>
+</html>

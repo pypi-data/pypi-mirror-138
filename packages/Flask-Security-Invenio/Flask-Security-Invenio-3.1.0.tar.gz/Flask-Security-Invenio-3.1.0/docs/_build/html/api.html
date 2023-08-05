@@ -1,0 +1,729 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>API &#8212; Flask-Security-Fork 3.0.2 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/flasky.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Flask-Security-Fork Changelog" href="changelog.html" />
+    <link rel="prev" title="Customizing Views" href="customizing.html" />
+     
+    
+        <link rel="apple-touch-icon" href="_static/touch-icon.png">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
+
+  </head><body>
+    
+    
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="changelog.html" title="Flask-Security-Fork Changelog"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="customizing.html" title="Customizing Views"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Flask-Security-Fork 3.0.2 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">API</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="api">
+<h1>API<a class="headerlink" href="#api" title="Permalink to this headline">¶</a></h1>
+<section id="core">
+<h2>Core<a class="headerlink" href="#core" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="flask_security.core.Security">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">flask_security.core.</span></span><span class="sig-name descname"><span class="pre">Security</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">app</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">datastore</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.core.Security" title="Permalink to this definition">¶</a></dt>
+<dd><p>The <a class="reference internal" href="#flask_security.core.Security" title="flask_security.core.Security"><code class="xref py py-class docutils literal notranslate"><span class="pre">Security</span></code></a> class initializes the Flask-Security extension.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>app</strong> – The application.</p></li>
+<li><p><strong>datastore</strong> – An instance of a user datastore.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.core.Security.init_app">
+<span class="sig-name descname"><span class="pre">init_app</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">app</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">datastore</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">register_blueprint</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">login_form</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">confirm_register_form</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">register_form</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">forgot_password_form</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">reset_password_form</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">change_password_form</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">send_confirmation_form</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">anonymous_user</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.core.Security.init_app" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initializes the Flask-Security extension for the specified
+application and datastore implentation.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>app</strong> – The application.</p></li>
+<li><p><strong>datastore</strong> – An instance of a user datastore.</p></li>
+<li><p><strong>register_blueprint</strong> – to register the Security blueprint or not.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="flask_security.core.current_user">
+<span class="sig-prename descclassname"><span class="pre">flask_security.core.</span></span><span class="sig-name descname"><span class="pre">current_user</span></span><a class="headerlink" href="#flask_security.core.current_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>A proxy for the current user.</p>
+</dd></dl>
+
+</section>
+<section id="protecting-views">
+<h2>Protecting Views<a class="headerlink" href="#protecting-views" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="flask_security.decorators.login_required">
+<span class="sig-prename descclassname"><span class="pre">flask_security.decorators.</span></span><span class="sig-name descname"><span class="pre">login_required</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">func</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.decorators.login_required" title="Permalink to this definition">¶</a></dt>
+<dd><p>If you decorate a view with this, it will ensure that the current user is
+logged in and authenticated before calling the actual view. (If they are
+not, it calls the <code class="xref py py-attr docutils literal notranslate"><span class="pre">LoginManager.unauthorized</span></code> callback.) For
+example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/post&#39;</span><span class="p">)</span>
+<span class="nd">@login_required</span>
+<span class="k">def</span> <span class="nf">post</span><span class="p">():</span>
+    <span class="k">pass</span>
+</pre></div>
+</div>
+<p>If there are only certain times you need to require that your user is
+logged in, you can do so with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="ow">not</span> <span class="n">current_user</span><span class="o">.</span><span class="n">is_authenticated</span><span class="p">:</span>
+    <span class="k">return</span> <span class="n">current_app</span><span class="o">.</span><span class="n">login_manager</span><span class="o">.</span><span class="n">unauthorized</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>…which is essentially the code that this function adds to your views.</p>
+<p>It can be convenient to globally turn off authentication when unit testing.
+To enable this, if the application configuration variable <cite>LOGIN_DISABLED</cite>
+is set to <cite>True</cite>, this decorator will be ignored.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Per <a class="reference external" href="http://www.w3.org/TR/cors/#cross-origin-request-with-preflight-0">W3 guidelines for CORS preflight requests</a>,
+HTTP <code class="docutils literal notranslate"><span class="pre">OPTIONS</span></code> requests are exempt from login checks.</p>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>func</strong> (<em>function</em>) – The view function to decorate.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="flask_security.decorators.roles_required">
+<span class="sig-prename descclassname"><span class="pre">flask_security.decorators.</span></span><span class="sig-name descname"><span class="pre">roles_required</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">roles</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.decorators.roles_required" title="Permalink to this definition">¶</a></dt>
+<dd><p>Decorator which specifies that a user must have all the specified roles.
+Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/dashboard&#39;</span><span class="p">)</span>
+<span class="nd">@roles_required</span><span class="p">(</span><span class="s1">&#39;admin&#39;</span><span class="p">,</span> <span class="s1">&#39;editor&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">dashboard</span><span class="p">():</span>
+    <span class="k">return</span> <span class="s1">&#39;Dashboard&#39;</span>
+</pre></div>
+</div>
+<p>The current user must have both the <cite>admin</cite> role and <cite>editor</cite> role in order
+to view the page.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>args</strong> – The required roles.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="flask_security.decorators.roles_accepted">
+<span class="sig-prename descclassname"><span class="pre">flask_security.decorators.</span></span><span class="sig-name descname"><span class="pre">roles_accepted</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">roles</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.decorators.roles_accepted" title="Permalink to this definition">¶</a></dt>
+<dd><p>Decorator which specifies that a user must have at least one of the
+specified roles. Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/create_post&#39;</span><span class="p">)</span>
+<span class="nd">@roles_accepted</span><span class="p">(</span><span class="s1">&#39;editor&#39;</span><span class="p">,</span> <span class="s1">&#39;author&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">create_post</span><span class="p">():</span>
+    <span class="k">return</span> <span class="s1">&#39;Create Post&#39;</span>
+</pre></div>
+</div>
+<p>The current user must have either the <cite>editor</cite> role or <cite>author</cite> role in
+order to view the page.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>args</strong> – The possible roles.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="user-object-helpers">
+<h2>User Object Helpers<a class="headerlink" href="#user-object-helpers" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="flask_security.core.UserMixin">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">flask_security.core.</span></span><span class="sig-name descname"><span class="pre">UserMixin</span></span><a class="headerlink" href="#flask_security.core.UserMixin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Mixin for <cite>User</cite> model definitions</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.core.UserMixin.has_role">
+<span class="sig-name descname"><span class="pre">has_role</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">role</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.core.UserMixin.has_role" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns <cite>True</cite> if the user identifies with the specified role.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>role</strong> – A role name or <cite>Role</cite> instance</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="flask_security.core.UserMixin.is_active">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">is_active</span></span><a class="headerlink" href="#flask_security.core.UserMixin.is_active" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns <cite>True</cite> if the user is active.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="flask_security.core.RoleMixin">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">flask_security.core.</span></span><span class="sig-name descname"><span class="pre">RoleMixin</span></span><a class="headerlink" href="#flask_security.core.RoleMixin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Mixin for <cite>Role</cite> model definitions</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="flask_security.core.AnonymousUser">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">flask_security.core.</span></span><span class="sig-name descname"><span class="pre">AnonymousUser</span></span><a class="headerlink" href="#flask_security.core.AnonymousUser" title="Permalink to this definition">¶</a></dt>
+<dd><p>AnonymousUser definition</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.core.AnonymousUser.has_role">
+<span class="sig-name descname"><span class="pre">has_role</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.core.AnonymousUser.has_role" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns <cite>False</cite></p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="datastores">
+<h2>Datastores<a class="headerlink" href="#datastores" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="flask_security.datastore.UserDatastore">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">flask_security.datastore.</span></span><span class="sig-name descname"><span class="pre">UserDatastore</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user_model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">role_model</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.UserDatastore" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstracted user datastore.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>user_model</strong> – A user model class definition</p></li>
+<li><p><strong>role_model</strong> – A role model class definition</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.UserDatastore.activate_user">
+<span class="sig-name descname"><span class="pre">activate_user</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.UserDatastore.activate_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Activates a specified user. Returns <cite>True</cite> if a change was made.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>user</strong> – The user to activate</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.UserDatastore.add_role_to_user">
+<span class="sig-name descname"><span class="pre">add_role_to_user</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">role</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.UserDatastore.add_role_to_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds a role to a user.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>user</strong> – The user to manipulate</p></li>
+<li><p><strong>role</strong> – The role to add to the user</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.UserDatastore.create_role">
+<span class="sig-name descname"><span class="pre">create_role</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.UserDatastore.create_role" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates and returns a new role from the given parameters.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.UserDatastore.create_user">
+<span class="sig-name descname"><span class="pre">create_user</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.UserDatastore.create_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates and returns a new user from the given parameters.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.UserDatastore.deactivate_user">
+<span class="sig-name descname"><span class="pre">deactivate_user</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.UserDatastore.deactivate_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Deactivates a specified user. Returns <cite>True</cite> if a change was made.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>user</strong> – The user to deactivate</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.UserDatastore.delete_user">
+<span class="sig-name descname"><span class="pre">delete_user</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.UserDatastore.delete_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Deletes the specified user.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>user</strong> – The user to delete</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.UserDatastore.find_or_create_role">
+<span class="sig-name descname"><span class="pre">find_or_create_role</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.UserDatastore.find_or_create_role" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a role matching the given name or creates it with any
+additionally provided parameters.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.UserDatastore.find_role">
+<span class="sig-name descname"><span class="pre">find_role</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.UserDatastore.find_role" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a role matching the provided name.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.UserDatastore.find_user">
+<span class="sig-name descname"><span class="pre">find_user</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.UserDatastore.find_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a user matching the provided parameters.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.UserDatastore.get_user">
+<span class="sig-name descname"><span class="pre">get_user</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id_or_email</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.UserDatastore.get_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a user matching the specified ID or email address.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.UserDatastore.remove_role_from_user">
+<span class="sig-name descname"><span class="pre">remove_role_from_user</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">role</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.UserDatastore.remove_role_from_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Removes a role from a user.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>user</strong> – The user to manipulate</p></li>
+<li><p><strong>role</strong> – The role to remove from the user</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.UserDatastore.toggle_active">
+<span class="sig-name descname"><span class="pre">toggle_active</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.UserDatastore.toggle_active" title="Permalink to this definition">¶</a></dt>
+<dd><p>Toggles a user’s active status. Always returns True.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="flask_security.datastore.SQLAlchemyUserDatastore">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">flask_security.datastore.</span></span><span class="sig-name descname"><span class="pre">SQLAlchemyUserDatastore</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">db</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">user_model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">role_model</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.SQLAlchemyUserDatastore" title="Permalink to this definition">¶</a></dt>
+<dd><p>A SQLAlchemy datastore implementation for Flask-Security that assumes the
+use of the Flask-SQLAlchemy extension.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.SQLAlchemyUserDatastore.activate_user">
+<span class="sig-name descname"><span class="pre">activate_user</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.SQLAlchemyUserDatastore.activate_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Activates a specified user. Returns <cite>True</cite> if a change was made.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>user</strong> – The user to activate</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.SQLAlchemyUserDatastore.add_role_to_user">
+<span class="sig-name descname"><span class="pre">add_role_to_user</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">role</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.SQLAlchemyUserDatastore.add_role_to_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds a role to a user.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>user</strong> – The user to manipulate</p></li>
+<li><p><strong>role</strong> – The role to add to the user</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.SQLAlchemyUserDatastore.create_role">
+<span class="sig-name descname"><span class="pre">create_role</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.SQLAlchemyUserDatastore.create_role" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates and returns a new role from the given parameters.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.SQLAlchemyUserDatastore.create_user">
+<span class="sig-name descname"><span class="pre">create_user</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.SQLAlchemyUserDatastore.create_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates and returns a new user from the given parameters.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.SQLAlchemyUserDatastore.deactivate_user">
+<span class="sig-name descname"><span class="pre">deactivate_user</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.SQLAlchemyUserDatastore.deactivate_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Deactivates a specified user. Returns <cite>True</cite> if a change was made.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>user</strong> – The user to deactivate</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.SQLAlchemyUserDatastore.delete_user">
+<span class="sig-name descname"><span class="pre">delete_user</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.SQLAlchemyUserDatastore.delete_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Deletes the specified user.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>user</strong> – The user to delete</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.SQLAlchemyUserDatastore.find_or_create_role">
+<span class="sig-name descname"><span class="pre">find_or_create_role</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.SQLAlchemyUserDatastore.find_or_create_role" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a role matching the given name or creates it with any
+additionally provided parameters.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.SQLAlchemyUserDatastore.find_role">
+<span class="sig-name descname"><span class="pre">find_role</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">role</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.SQLAlchemyUserDatastore.find_role" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a role matching the provided name.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.SQLAlchemyUserDatastore.find_user">
+<span class="sig-name descname"><span class="pre">find_user</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.SQLAlchemyUserDatastore.find_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a user matching the provided parameters.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.SQLAlchemyUserDatastore.get_user">
+<span class="sig-name descname"><span class="pre">get_user</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">identifier</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.SQLAlchemyUserDatastore.get_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a user matching the specified ID or email address.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.SQLAlchemyUserDatastore.remove_role_from_user">
+<span class="sig-name descname"><span class="pre">remove_role_from_user</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">role</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.SQLAlchemyUserDatastore.remove_role_from_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Removes a role from a user.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>user</strong> – The user to manipulate</p></li>
+<li><p><strong>role</strong> – The role to remove from the user</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flask_security.datastore.SQLAlchemyUserDatastore.toggle_active">
+<span class="sig-name descname"><span class="pre">toggle_active</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.datastore.SQLAlchemyUserDatastore.toggle_active" title="Permalink to this definition">¶</a></dt>
+<dd><p>Toggles a user’s active status. Always returns True.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="utils">
+<h2>Utils<a class="headerlink" href="#utils" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="flask_security.utils.login_user">
+<span class="sig-prename descclassname"><span class="pre">flask_security.utils.</span></span><span class="sig-name descname"><span class="pre">login_user</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.utils.login_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Perform the login routine.</p>
+<p>If SECURITY_TRACKABLE is used, make sure you commit changes after this
+request (i.e. <code class="docutils literal notranslate"><span class="pre">app.security.datastore.commit()</span></code>).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>user</strong> – The user to login</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="flask_security.utils.logout_user">
+<span class="sig-prename descclassname"><span class="pre">flask_security.utils.</span></span><span class="sig-name descname"><span class="pre">logout_user</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.utils.logout_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Logs out the current.</p>
+<p>This will also clean up the remember me cookie if it exists.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="flask_security.utils.get_hmac">
+<span class="sig-prename descclassname"><span class="pre">flask_security.utils.</span></span><span class="sig-name descname"><span class="pre">get_hmac</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">password</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.utils.get_hmac" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a Base64 encoded HMAC+SHA512 of the password signed with
+the salt specified by <code class="docutils literal notranslate"><span class="pre">SECURITY_PASSWORD_SALT</span></code>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>password</strong> – The password to sign</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="flask_security.utils.verify_password">
+<span class="sig-prename descclassname"><span class="pre">flask_security.utils.</span></span><span class="sig-name descname"><span class="pre">verify_password</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">password</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">password_hash</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.utils.verify_password" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns <code class="docutils literal notranslate"><span class="pre">True</span></code> if the password matches the supplied hash.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>password</strong> – A plaintext password to verify</p></li>
+<li><p><strong>password_hash</strong> – The expected hash value of the password
+(usually from your database)</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="flask_security.utils.verify_and_update_password">
+<span class="sig-prename descclassname"><span class="pre">flask_security.utils.</span></span><span class="sig-name descname"><span class="pre">verify_and_update_password</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">password</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">user</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.utils.verify_and_update_password" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns <code class="docutils literal notranslate"><span class="pre">True</span></code> if the password is valid for the specified user.</p>
+<p>Additionally, the hashed password in the database is updated if the
+hashing algorithm happens to have changed.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>password</strong> – A plaintext password to verify</p></li>
+<li><p><strong>user</strong> – The user to verify against</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="flask_security.utils.encrypt_password">
+<span class="sig-prename descclassname"><span class="pre">flask_security.utils.</span></span><span class="sig-name descname"><span class="pre">encrypt_password</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">password</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.utils.encrypt_password" title="Permalink to this definition">¶</a></dt>
+<dd><p>Encrypt the specified plaintext password.</p>
+<p>It uses the configured encryption options.</p>
+<div class="deprecated">
+<p><span class="versionmodified deprecated">Deprecated since version 2.0.2: </span>Use <a class="reference internal" href="#flask_security.utils.hash_password" title="flask_security.utils.hash_password"><code class="xref py py-func docutils literal notranslate"><span class="pre">hash_password()</span></code></a> instead.</p>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>password</strong> – The plaintext password to encrypt</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="flask_security.utils.hash_password">
+<span class="sig-prename descclassname"><span class="pre">flask_security.utils.</span></span><span class="sig-name descname"><span class="pre">hash_password</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">password</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.utils.hash_password" title="Permalink to this definition">¶</a></dt>
+<dd><p>Hash the specified plaintext password.</p>
+<p>It uses the configured hashing options.</p>
+<div class="versionadded">
+<p><span class="versionmodified added">New in version 2.0.2.</span></p>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>password</strong> – The plaintext password to hash</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="flask_security.utils.url_for_security">
+<span class="sig-prename descclassname"><span class="pre">flask_security.utils.</span></span><span class="sig-name descname"><span class="pre">url_for_security</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">endpoint</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">values</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.utils.url_for_security" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a URL for the security blueprint</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>endpoint</strong> – the endpoint of the URL (name of the function)</p></li>
+<li><p><strong>values</strong> – the variable arguments of the URL rule</p></li>
+<li><p><strong>_external</strong> – if set to <cite>True</cite>, an absolute URL is generated. Server
+address can be changed via <cite>SERVER_NAME</cite> configuration variable which
+defaults to <cite>localhost</cite>.</p></li>
+<li><p><strong>_anchor</strong> – if provided this is added as anchor to the URL.</p></li>
+<li><p><strong>_method</strong> – if provided this explicitly specifies an HTTP method.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="flask_security.utils.get_within_delta">
+<span class="sig-prename descclassname"><span class="pre">flask_security.utils.</span></span><span class="sig-name descname"><span class="pre">get_within_delta</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">app</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.utils.get_within_delta" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a timedelta object from the application configuration following
+the internal convention of:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">Amount</span> <span class="n">of</span> <span class="n">Units</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">Type</span> <span class="n">of</span> <span class="n">Units</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>Examples of valid config values:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">5</span> <span class="n">days</span>
+<span class="mi">10</span> <span class="n">minutes</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>key</strong> – The config value key without the <cite>SECURITY_</cite> prefix</p></li>
+<li><p><strong>app</strong> – Optional application to inspect. Defaults to Flask’s
+<cite>current_app</cite></p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="flask_security.utils.send_mail">
+<span class="sig-prename descclassname"><span class="pre">flask_security.utils.</span></span><span class="sig-name descname"><span class="pre">send_mail</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">subject</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">recipient</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">template</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">context</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#flask_security.utils.send_mail" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send an email via the Flask-Mail extension.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>subject</strong> – Email subject</p></li>
+<li><p><strong>recipient</strong> – Email recipient</p></li>
+<li><p><strong>template</strong> – The name of the email template</p></li>
+<li><p><strong>context</strong> – The context to render the template with</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="signals">
+<h2>Signals<a class="headerlink" href="#signals" title="Permalink to this headline">¶</a></h2>
+<p>See the <a class="reference external" href="http://flask.pocoo.org/docs/signals/">Flask documentation on signals</a> for information on how to use these
+signals in your code.</p>
+<p>See the documentation for the signals provided by the Flask-Login and
+Flask-Principal extensions. In addition to those signals, Flask-Security
+sends the following signals.</p>
+<dl class="py data">
+<dt class="sig sig-object py" id="user_registered">
+<span class="sig-name descname"><span class="pre">user_registered</span></span><a class="headerlink" href="#user_registered" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sent when a user registers on the site. In addition to the app (which is the
+sender), it is passed <cite>user</cite> and <cite>confirm_token</cite> arguments.</p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="user_confirmed">
+<span class="sig-name descname"><span class="pre">user_confirmed</span></span><a class="headerlink" href="#user_confirmed" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sent when a user is confirmed. In addition to the app (which is the
+sender), it is passed a <cite>user</cite> argument.</p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="confirm_instructions_sent">
+<span class="sig-name descname"><span class="pre">confirm_instructions_sent</span></span><a class="headerlink" href="#confirm_instructions_sent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sent when a user requests confirmation instructions. In addition to the app
+(which is the sender), it is passed a <cite>user</cite> argument.</p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="login_instructions_sent">
+<span class="sig-name descname"><span class="pre">login_instructions_sent</span></span><a class="headerlink" href="#login_instructions_sent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sent when passwordless login is used and user logs in. In addition to the app
+(which is the sender), it is passed <cite>user</cite> and <cite>login_token</cite> arguments.</p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="password_reset">
+<span class="sig-name descname"><span class="pre">password_reset</span></span><a class="headerlink" href="#password_reset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sent when a user completes a password reset. In addition to the app (which is
+the sender), it is passed a <cite>user</cite> argument.</p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="password_changed">
+<span class="sig-name descname"><span class="pre">password_changed</span></span><a class="headerlink" href="#password_changed" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sent when a user completes a password change. In addition to the app (which is
+the sender), it is passed a <cite>user</cite> argument.</p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="reset_password_instructions_sent">
+<span class="sig-name descname"><span class="pre">reset_password_instructions_sent</span></span><a class="headerlink" href="#reset_password_instructions_sent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sent when a user requests a password reset. In addition to the app (which is
+the sender), it is passed <cite>user</cite> and <cite>token</cite> arguments.</p>
+</dd></dl>
+
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><p class="logo"><a href="index.html">
+  <img class="logo" src="_static/logo-helmet.png" alt="Logo"/>
+</a></p>
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">API</a><ul>
+<li><a class="reference internal" href="#core">Core</a></li>
+<li><a class="reference internal" href="#protecting-views">Protecting Views</a></li>
+<li><a class="reference internal" href="#user-object-helpers">User Object Helpers</a></li>
+<li><a class="reference internal" href="#datastores">Datastores</a></li>
+<li><a class="reference internal" href="#utils">Utils</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+</ul>
+</li>
+</ul>
+
+  </div><h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="customizing.html" title="previous chapter">Customizing Views</a></li>
+      <li>Next: <a href="changelog.html" title="next chapter">Flask-Security-Fork Changelog</a></li>
+  </ul></li>
+</ul>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/api.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+
+<div class="github">
+    <a href="https://github.com/inveniosoftware/flask-security-fork">
+        <span>Fork me on GitHub</span>
+        <img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub">
+    </a>
+</div>
+
+
+    
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2012-2019, Matt Wright, 2022 CERN.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.4.0.
+    </div>
+    
+
+  </body>
+</html>

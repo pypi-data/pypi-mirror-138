@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Features &#8212; Flask-Security-Fork 3.0.2 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/flasky.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Configuration" href="configuration.html" />
+    <link rel="prev" title="Flask-Security-Fork" href="index.html" />
+     
+    
+        <link rel="apple-touch-icon" href="_static/touch-icon.png">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
+
+  </head><body>
+    
+    
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="configuration.html" title="Configuration"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Flask-Security-Fork"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Flask-Security-Fork 3.0.2 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Features</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="features">
+<h1>Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h1>
+<p>Flask-Security allows you to quickly add common security mechanisms to your
+Flask application. They include:</p>
+<section id="session-based-authentication">
+<h2>Session Based Authentication<a class="headerlink" href="#session-based-authentication" title="Permalink to this headline">¶</a></h2>
+<p>Session based authentication is fulfilled entirely by the <a class="reference external" href="https://flask-login.readthedocs.org/en/latest/">Flask-Login</a>
+extension. Flask-Security handles the configuration of Flask-Login automatically
+based on a few of its own configuration values and uses Flask-Login’s
+<a class="reference external" href="https://flask-login.readthedocs.io/en/latest/#alternative-tokens">alternative token</a> feature for remembering users when their session has
+expired.</p>
+</section>
+<section id="role-identity-based-access">
+<h2>Role/Identity Based Access<a class="headerlink" href="#role-identity-based-access" title="Permalink to this headline">¶</a></h2>
+<p>Flask-Security implements very basic role management out of the box. This means
+that you can associate a high level role or multiple roles to any user. For
+instance, you may assign roles such as <cite>Admin</cite>, <cite>Editor</cite>, <cite>SuperUser</cite>, or a
+combination of said roles to a user. Access control is based on the role name
+and all roles should be uniquely named. This feature is implemented using the
+<a class="reference external" href="http://packages.python.org/Flask-Principal/">Flask-Principal</a> extension. If you’d like to implement more granular access
+control, you can refer to the Flask-Principal <a class="reference external" href="http://packages.python.org/Flask-Principal/#granular-resource-protection">documentation on this topic</a>.</p>
+</section>
+<section id="password-hashing">
+<h2>Password Hashing<a class="headerlink" href="#password-hashing" title="Permalink to this headline">¶</a></h2>
+<p>Password hashing is enabled with <a class="reference external" href="http://packages.python.org/passlib/">passlib</a>. Passwords are hashed with the
+<a class="reference external" href="https://en.wikipedia.org/wiki/Bcrypt">bcrypt</a> function by default but you can easily configure the hashing
+algorithm. You should <strong>always use an hashing algorithm</strong> in your production
+environment. You may also specify to use HMAC with a configured salt value in
+addition to the algorithm chosen. Bear in mind passlib does not assume which
+algorithm you will choose and may require additional libraries to be installed.</p>
+</section>
+<section id="email-confirmation">
+<h2>Email Confirmation<a class="headerlink" href="#email-confirmation" title="Permalink to this headline">¶</a></h2>
+<p>If desired you can require that new users confirm their email address.
+Flask-Security will send an email message to any new users with a confirmation
+link. Upon navigating to the confirmation link, the user will be automatically
+logged in. There is also view for resending a confirmation link to a given email
+if the user happens to try to use an expired token or has lost the previous
+email. Confirmation links can be configured to expire after a specified amount
+of time.</p>
+</section>
+<section id="password-reset-recovery">
+<h2>Password Reset/Recovery<a class="headerlink" href="#password-reset-recovery" title="Permalink to this headline">¶</a></h2>
+<p>Password reset and recovery is available for when a user forgets his or her
+password. Flask-Security sends an email to the user with a link to a view which
+they can reset their password. Once the password is reset they are automatically
+logged in and can use the new password from then on. Password reset links  can
+be configured to expire after a specified amount of time.</p>
+</section>
+<section id="user-registration">
+<h2>User Registration<a class="headerlink" href="#user-registration" title="Permalink to this headline">¶</a></h2>
+<p>Flask-Security comes packaged with a basic user registration view. This view is
+very simple and new users need only supply an email address and their password.
+This view can be overridden if your registration process requires more fields.</p>
+</section>
+<section id="login-tracking">
+<h2>Login Tracking<a class="headerlink" href="#login-tracking" title="Permalink to this headline">¶</a></h2>
+<p>Flask-Security can, if configured, keep track of basic login events and
+statistics. They include:</p>
+<ul class="simple">
+<li><p>Last login date</p></li>
+<li><p>Current login date</p></li>
+<li><p>Last login IP address</p></li>
+<li><p>Current login IP address</p></li>
+<li><p>Total login count</p></li>
+</ul>
+</section>
+<section id="command-line-interface">
+<h2>Command Line Interface<a class="headerlink" href="#command-line-interface" title="Permalink to this headline">¶</a></h2>
+<p>Basic <a class="reference external" href="http://click.pocoo.org/">Click</a> commands for managing users and roles are automatically
+registered. They can be completely disabled or their names can be changed.
+Run <code class="docutils literal notranslate"><span class="pre">flask</span> <span class="pre">--help</span></code> and look for users and roles.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><p class="logo"><a href="index.html">
+  <img class="logo" src="_static/logo-helmet.png" alt="Logo"/>
+</a></p>
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Features</a><ul>
+<li><a class="reference internal" href="#session-based-authentication">Session Based Authentication</a></li>
+<li><a class="reference internal" href="#role-identity-based-access">Role/Identity Based Access</a></li>
+<li><a class="reference internal" href="#password-hashing">Password Hashing</a></li>
+<li><a class="reference internal" href="#email-confirmation">Email Confirmation</a></li>
+<li><a class="reference internal" href="#password-reset-recovery">Password Reset/Recovery</a></li>
+<li><a class="reference internal" href="#user-registration">User Registration</a></li>
+<li><a class="reference internal" href="#login-tracking">Login Tracking</a></li>
+<li><a class="reference internal" href="#command-line-interface">Command Line Interface</a></li>
+</ul>
+</li>
+</ul>
+
+  </div><h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Flask-Security-Fork</a></li>
+      <li>Next: <a href="configuration.html" title="next chapter">Configuration</a></li>
+  </ul></li>
+</ul>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/features.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+
+<div class="github">
+    <a href="https://github.com/inveniosoftware/flask-security-fork">
+        <span>Fork me on GitHub</span>
+        <img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub">
+    </a>
+</div>
+
+
+    
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2012-2019, Matt Wright, 2022 CERN.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.4.0.
+    </div>
+    
+
+  </body>
+</html>

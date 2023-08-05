@@ -1,0 +1,608 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Configuration &#8212; Flask-Security-Fork 3.0.2 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/flasky.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Quick Start" href="quickstart.html" />
+    <link rel="prev" title="Features" href="features.html" />
+     
+    
+        <link rel="apple-touch-icon" href="_static/touch-icon.png">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
+
+  </head><body>
+    
+    
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="quickstart.html" title="Quick Start"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="features.html" title="Features"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Flask-Security-Fork 3.0.2 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Configuration</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="configuration">
+<h1>Configuration<a class="headerlink" href="#configuration" title="Permalink to this headline">¶</a></h1>
+<p>The following configuration values are used by Flask-Security:</p>
+<section id="core">
+<h2>Core<a class="headerlink" href="#core" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 48%" />
+<col style="width: 52%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_BLUEPRINT_NAME</span></code></p></td>
+<td><p>Specifies the name for the
+Flask-Security blueprint. Defaults to
+<code class="docutils literal notranslate"><span class="pre">security</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_CLI_USERS_NAME</span></code></p></td>
+<td><p>Specifies the name for the command
+managing users. Disable by setting
+<code class="docutils literal notranslate"><span class="pre">False</span></code>. Defaults to <code class="docutils literal notranslate"><span class="pre">users</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_CLI_ROLES_NAME</span></code></p></td>
+<td><p>Specifies the name for the command
+managing roles. Disable by setting
+<code class="docutils literal notranslate"><span class="pre">False</span></code>. Defaults to <code class="docutils literal notranslate"><span class="pre">roles</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_URL_PREFIX</span></code></p></td>
+<td><p>Specifies the URL prefix for the
+Flask-Security blueprint. Defaults to
+<code class="docutils literal notranslate"><span class="pre">None</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_SUBDOMAIN</span></code></p></td>
+<td><p>Specifies the subdomain for the
+Flask-Security blueprint. Defaults to
+<code class="docutils literal notranslate"><span class="pre">None</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_FLASH_MESSAGES</span></code></p></td>
+<td><p>Specifies whether or not to flash
+messages during security procedures.
+Defaults to <code class="docutils literal notranslate"><span class="pre">True</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_I18N_DOMAIN</span></code></p></td>
+<td><p>Specifies the name for domain
+used for translations.
+Defaults to <code class="docutils literal notranslate"><span class="pre">flask_security</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_I18N_DIRNAME</span></code></p></td>
+<td><p>Specifies the directory containing the
+<code class="docutils literal notranslate"><span class="pre">MO</span></code> files used for translations.
+Defaults to
+<code class="docutils literal notranslate"><span class="pre">[PATH_LIB]/flask_security/translations</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_PASSWORD_HASH</span></code></p></td>
+<td><p>Specifies the password hash algorithm to
+use when hashing passwords. Recommended
+values for production systems are
+<code class="docutils literal notranslate"><span class="pre">bcrypt</span></code>, <code class="docutils literal notranslate"><span class="pre">sha512_crypt</span></code>, or
+<code class="docutils literal notranslate"><span class="pre">pbkdf2_sha512</span></code>. Defaults to
+<code class="docutils literal notranslate"><span class="pre">bcrypt</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_PASSWORD_SALT</span></code></p></td>
+<td><p>Specifies the HMAC salt. Defaults to
+<code class="docutils literal notranslate"><span class="pre">None</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_PASSWORD_SINGLE_HASH</span></code></p></td>
+<td><p>Specifies that passwords should only be
+hashed once. By default, passwords are
+hashed twice, first with
+<code class="docutils literal notranslate"><span class="pre">SECURITY_PASSWORD_SALT</span></code>, and then
+with a random salt. May be useful for
+integrating with other applications.
+Defaults to <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_HASHING_SCHEMES</span></code></p></td>
+<td><p>List of algorithms used for
+creating and validating tokens.
+Defaults to <code class="docutils literal notranslate"><span class="pre">sha256_crypt</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_DEPRECATED_HASHING_SCHEMES</span></code></p></td>
+<td><p>List of deprecated algorithms used for
+creating and validating tokens.
+Defaults to <code class="docutils literal notranslate"><span class="pre">hex_md5</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_PASSWORD_HASH_OPTIONS</span></code></p></td>
+<td><p>Specifies additional options to be passed
+to the hashing method.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_EMAIL_SENDER</span></code></p></td>
+<td><p>Specifies the email address to send
+emails as. Defaults to value set
+to <code class="docutils literal notranslate"><span class="pre">MAIL_DEFAULT_SENDER</span></code> if
+Flask-Mail is used otherwise
+<code class="docutils literal notranslate"><span class="pre">no-reply&#64;localhost</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_TOKEN_AUTHENTICATION_KEY</span></code></p></td>
+<td><p>Specifies the query string parameter to
+read when using token authentication.
+Defaults to <code class="docutils literal notranslate"><span class="pre">auth_token</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_TOKEN_AUTHENTICATION_HEADER</span></code></p></td>
+<td><p>Specifies the HTTP header to read when
+using token authentication. Defaults to
+<code class="docutils literal notranslate"><span class="pre">Authentication-Token</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_TOKEN_MAX_AGE</span></code></p></td>
+<td><p>Specifies the number of seconds before
+an authentication token expires.
+Defaults to None, meaning the token
+never expires.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_DEFAULT_HTTP_AUTH_REALM</span></code></p></td>
+<td><p>Specifies the default authentication
+realm when using basic HTTP auth.
+Defaults to <code class="docutils literal notranslate"><span class="pre">Login</span> <span class="pre">Required</span></code></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="urls-and-views">
+<h2>URLs and Views<a class="headerlink" href="#urls-and-views" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 39%" />
+<col style="width: 61%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_LOGIN_URL</span></code></p></td>
+<td><p>Specifies the login URL. Defaults to <code class="docutils literal notranslate"><span class="pre">/login</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_LOGOUT_URL</span></code></p></td>
+<td><p>Specifies the logout URL. Defaults to
+<code class="docutils literal notranslate"><span class="pre">/logout</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_REGISTER_URL</span></code></p></td>
+<td><p>Specifies the register URL. Defaults to
+<code class="docutils literal notranslate"><span class="pre">/register</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_RESET_URL</span></code></p></td>
+<td><p>Specifies the password reset URL. Defaults to
+<code class="docutils literal notranslate"><span class="pre">/reset</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_CHANGE_URL</span></code></p></td>
+<td><p>Specifies the password change URL. Defaults to
+<code class="docutils literal notranslate"><span class="pre">/change</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_CONFIRM_URL</span></code></p></td>
+<td><p>Specifies the email confirmation URL. Defaults
+to <code class="docutils literal notranslate"><span class="pre">/confirm</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_POST_LOGIN_VIEW</span></code></p></td>
+<td><p>Specifies the default view to redirect to after
+a user logs in. This value can be set to a URL
+or an endpoint name. Defaults to <code class="docutils literal notranslate"><span class="pre">/</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_POST_LOGOUT_VIEW</span></code></p></td>
+<td><p>Specifies the default view to redirect to after
+a user logs out. This value can be set to a URL
+or an endpoint name. Defaults to <code class="docutils literal notranslate"><span class="pre">/</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_CONFIRM_ERROR_VIEW</span></code></p></td>
+<td><p>Specifies the view to redirect to if a
+confirmation error occurs. This value can be set
+to a URL or an endpoint name. If this value is
+<code class="docutils literal notranslate"><span class="pre">None</span></code>, the user is presented the default view
+to resend a confirmation link. Defaults to
+<code class="docutils literal notranslate"><span class="pre">None</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_POST_REGISTER_VIEW</span></code></p></td>
+<td><p>Specifies the view to redirect to after a user
+successfully registers. This value can be set to
+a URL or an endpoint name. If this value is
+<code class="docutils literal notranslate"><span class="pre">None</span></code>, the user is redirected to the value of
+<code class="docutils literal notranslate"><span class="pre">SECURITY_POST_LOGIN_VIEW</span></code>. Defaults to
+<code class="docutils literal notranslate"><span class="pre">None</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_POST_CONFIRM_VIEW</span></code></p></td>
+<td><p>Specifies the view to redirect to after a user
+successfully confirms their email. This value
+can be set to a URL or an endpoint name. If this
+value is <code class="docutils literal notranslate"><span class="pre">None</span></code>, the user is redirected  to the
+value of <code class="docutils literal notranslate"><span class="pre">SECURITY_POST_LOGIN_VIEW</span></code>. Defaults
+to <code class="docutils literal notranslate"><span class="pre">None</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_POST_RESET_VIEW</span></code></p></td>
+<td><p>Specifies the view to redirect to after a user
+successfully resets their password. This value
+can be set to a URL or an endpoint name. If this
+value is <code class="docutils literal notranslate"><span class="pre">None</span></code>, the user is redirected  to the
+value of <code class="docutils literal notranslate"><span class="pre">SECURITY_POST_LOGIN_VIEW</span></code>. Defaults
+to <code class="docutils literal notranslate"><span class="pre">None</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_POST_CHANGE_VIEW</span></code></p></td>
+<td><p>Specifies the view to redirect to after a user
+successfully changes their password. This value
+can be set to a URL or an endpoint name. If this
+value is <code class="docutils literal notranslate"><span class="pre">None</span></code>, the user is redirected  to the
+value of <code class="docutils literal notranslate"><span class="pre">SECURITY_POST_LOGIN_VIEW</span></code>. Defaults
+to <code class="docutils literal notranslate"><span class="pre">None</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_UNAUTHORIZED_VIEW</span></code></p></td>
+<td><p>Specifies the view to redirect to if a user
+attempts to access a URL/endpoint that they do
+not have permission to access. If this value is
+<code class="docutils literal notranslate"><span class="pre">None</span></code>, the user is presented with a default
+HTTP 403 response. Defaults to <code class="docutils literal notranslate"><span class="pre">None</span></code>.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="template-paths">
+<h2>Template Paths<a class="headerlink" href="#template-paths" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 51%" />
+<col style="width: 49%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_FORGOT_PASSWORD_TEMPLATE</span></code></p></td>
+<td><p>Specifies the path to the template for
+the forgot password page. Defaults to
+<code class="docutils literal notranslate"><span class="pre">security/forgot_password.html</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_LOGIN_USER_TEMPLATE</span></code></p></td>
+<td><p>Specifies the path to the template for
+the user login page. Defaults to
+<code class="docutils literal notranslate"><span class="pre">security/login_user.html</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_REGISTER_USER_TEMPLATE</span></code></p></td>
+<td><p>Specifies the path to the template for
+the user registration page. Defaults to
+<code class="docutils literal notranslate"><span class="pre">security/register_user.html</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_RESET_PASSWORD_TEMPLATE</span></code></p></td>
+<td><p>Specifies the path to the template for
+the reset password page. Defaults to
+<code class="docutils literal notranslate"><span class="pre">security/reset_password.html</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_CHANGE_PASSWORD_TEMPLATE</span></code></p></td>
+<td><p>Specifies the path to the template for
+the change password page. Defaults to
+<code class="docutils literal notranslate"><span class="pre">security/change_password.html</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_SEND_CONFIRMATION_TEMPLATE</span></code></p></td>
+<td><p>Specifies the path to the template for
+the resend confirmation instructions
+page. Defaults to
+<code class="docutils literal notranslate"><span class="pre">security/send_confirmation.html</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_SEND_LOGIN_TEMPLATE</span></code></p></td>
+<td><p>Specifies the path to the template for
+the send login instructions page for
+passwordless logins. Defaults to
+<code class="docutils literal notranslate"><span class="pre">security/send_login.html</span></code>.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="feature-flags">
+<h2>Feature Flags<a class="headerlink" href="#feature-flags" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 15%" />
+<col style="width: 85%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_CONFIRMABLE</span></code></p></td>
+<td><p>Specifies if users are required to confirm their email
+address when registering a new account. If this value
+is <cite>True</cite>, Flask-Security creates an endpoint to handle
+confirmations and requests to resend confirmation
+instructions. The URL for this endpoint is specified
+by the <code class="docutils literal notranslate"><span class="pre">SECURITY_CONFIRM_URL</span></code> configuration option.
+Defaults to <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_REGISTERABLE</span></code></p></td>
+<td><p>Specifies if Flask-Security should create a user
+registration endpoint. The URL for this endpoint is
+specified by the <code class="docutils literal notranslate"><span class="pre">SECURITY_REGISTER_URL</span></code>
+configuration option. Defaults to <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_RECOVERABLE</span></code></p></td>
+<td><p>Specifies if Flask-Security should create a password
+reset/recover endpoint. The URL for this endpoint is
+specified by the <code class="docutils literal notranslate"><span class="pre">SECURITY_RESET_URL</span></code> configuration
+option. Defaults to <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_TRACKABLE</span></code></p></td>
+<td><p>Specifies if Flask-Security should track basic user
+login statistics. If set to <code class="docutils literal notranslate"><span class="pre">True</span></code>, ensure your
+models have the required fields/attributes
+and make sure to commit changes after calling
+<code class="docutils literal notranslate"><span class="pre">login_user</span></code>. Be sure to use <a class="reference external" href="http://flask.pocoo.org/docs/0.10/deploying/wsgi-standalone/#proxy-setups">ProxyFix</a> if you are using a proxy.
+Defaults to <code class="docutils literal notranslate"><span class="pre">False</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_CHANGEABLE</span></code></p></td>
+<td><p>Specifies if Flask-Security should enable the
+change password endpoint. The URL for this endpoint is
+specified by the <code class="docutils literal notranslate"><span class="pre">SECURITY_CHANGE_URL</span></code> configuration
+option. Defaults to <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="email">
+<h2>Email<a class="headerlink" href="#email" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 62%" />
+<col style="width: 38%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_EMAIL_SUBJECT_REGISTER</span></code></p></td>
+<td><p>Sets the subject for the
+confirmation email. Defaults
+to <code class="docutils literal notranslate"><span class="pre">Welcome</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_EMAIL_SUBJECT_PASSWORDLESS</span></code></p></td>
+<td><p>Sets the subject for the
+passwordless feature. Defaults
+to <code class="docutils literal notranslate"><span class="pre">Login</span> <span class="pre">instructions</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_EMAIL_SUBJECT_PASSWORD_NOTICE</span></code></p></td>
+<td><p>Sets subject for the password
+notice. Defaults to <code class="docutils literal notranslate"><span class="pre">Your</span>
+<span class="pre">password</span> <span class="pre">has</span> <span class="pre">been</span> <span class="pre">reset</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_EMAIL_SUBJECT_PASSWORD_RESET</span></code></p></td>
+<td><p>Sets the subject for the
+password reset email. Defaults
+to <code class="docutils literal notranslate"><span class="pre">Password</span> <span class="pre">reset</span>
+<span class="pre">instructions</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_EMAIL_SUBJECT_PASSWORD_CHANGE_NOTICE</span></code></p></td>
+<td><p>Sets the subject for the
+password change notice.
+Defaults to <code class="docutils literal notranslate"><span class="pre">Your</span> <span class="pre">password</span>
+<span class="pre">has</span> <span class="pre">been</span> <span class="pre">changed</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_EMAIL_SUBJECT_CONFIRM</span></code></p></td>
+<td><p>Sets the subject for the email
+confirmation message. Defaults
+to <code class="docutils literal notranslate"><span class="pre">Please</span> <span class="pre">confirm</span> <span class="pre">your</span>
+<span class="pre">email</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_EMAIL_PLAINTEXT</span></code></p></td>
+<td><p>Sends email as plaintext using
+<code class="docutils literal notranslate"><span class="pre">*.txt</span></code> template. Defaults
+to <code class="docutils literal notranslate"><span class="pre">True</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_EMAIL_HTML</span></code></p></td>
+<td><p>Sends email as HTML using
+<code class="docutils literal notranslate"><span class="pre">*.html</span></code> template. Defaults
+to <code class="docutils literal notranslate"><span class="pre">True</span></code>.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="miscellaneous">
+<h2>Miscellaneous<a class="headerlink" href="#miscellaneous" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 57%" />
+<col style="width: 43%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_USER_IDENTITY_ATTRIBUTES</span></code></p></td>
+<td><p>Specifies which attributes of the
+user object can be used for login.
+Defaults to <code class="docutils literal notranslate"><span class="pre">['email']</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_SEND_REGISTER_EMAIL</span></code></p></td>
+<td><p>Specifies whether registration
+email is sent. Defaults to
+<code class="docutils literal notranslate"><span class="pre">True</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_SEND_PASSWORD_CHANGE_EMAIL</span></code></p></td>
+<td><p>Specifies whether password change
+email is sent. Defaults to
+<code class="docutils literal notranslate"><span class="pre">True</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_SEND_PASSWORD_RESET_EMAIL</span></code></p></td>
+<td><p>Specifies whether password reset
+email is sent. Defaults to
+<code class="docutils literal notranslate"><span class="pre">True</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_SEND_PASSWORD_RESET_NOTICE_EMAIL</span></code></p></td>
+<td><p>Specifies whether password reset
+notice email is sent. Defaults to
+<code class="docutils literal notranslate"><span class="pre">True</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_CONFIRM_EMAIL_WITHIN</span></code></p></td>
+<td><p>Specifies the amount of time a
+user has before their confirmation
+link expires. Always pluralized
+the time unit for this value.
+Defaults to <code class="docutils literal notranslate"><span class="pre">5</span> <span class="pre">days</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_RESET_PASSWORD_WITHIN</span></code></p></td>
+<td><p>Specifies the amount of time a
+user has before their password
+reset link expires. Always
+pluralized the time unit for this
+value. Defaults to <code class="docutils literal notranslate"><span class="pre">5</span> <span class="pre">days</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_LOGIN_WITHIN</span></code></p></td>
+<td><p>Specifies the amount of time a
+user has before a login link
+expires. This is only used when
+the passwordless login feature is
+enabled. Always pluralized the
+time unit for this value.
+Defaults to <code class="docutils literal notranslate"><span class="pre">1</span> <span class="pre">days</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_LOGIN_WITHOUT_CONFIRMATION</span></code></p></td>
+<td><p>Specifies if a user may login
+before confirming their email when
+the value of
+<code class="docutils literal notranslate"><span class="pre">SECURITY_CONFIRMABLE</span></code> is set to
+<code class="docutils literal notranslate"><span class="pre">True</span></code>. Defaults to <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_CONFIRM_SALT</span></code></p></td>
+<td><p>Specifies the salt value when
+generating confirmation
+links/tokens. Defaults to
+<code class="docutils literal notranslate"><span class="pre">confirm-salt</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_RESET_SALT</span></code></p></td>
+<td><p>Specifies the salt value when
+generating password reset
+links/tokens. Defaults to
+<code class="docutils literal notranslate"><span class="pre">reset-salt</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_LOGIN_SALT</span></code></p></td>
+<td><p>Specifies the salt value when
+generating login links/tokens.
+Defaults to <code class="docutils literal notranslate"><span class="pre">login-salt</span></code>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">SECURITY_DATETIME_FACTORY</span></code></p></td>
+<td><p>Specifies the default datetime
+factory. Defaults to
+<code class="docutils literal notranslate"><span class="pre">datetime.datetime.utcnow</span></code>.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="messages">
+<h2>Messages<a class="headerlink" href="#messages" title="Permalink to this headline">¶</a></h2>
+<p>The following are the messages Flask-Security uses.  They are tuples; the first
+element is the message and the second element is the error level.</p>
+<p>The default messages and error levels can be found in <code class="docutils literal notranslate"><span class="pre">core.py</span></code>.</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_ALREADY_CONFIRMED</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_CONFIRMATION_EXPIRED</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_CONFIRMATION_REQUEST</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_CONFIRMATION_REQUIRED</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_CONFIRM_REGISTRATION</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_DISABLED_ACCOUNT</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_EMAIL_ALREADY_ASSOCIATED</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_EMAIL_CONFIRMED</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_EMAIL_NOT_PROVIDED</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_FORGOT_PASSWORD</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_INVALID_CONFIRMATION_TOKEN</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_INVALID_EMAIL_ADDRESS</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_INVALID_LOGIN_TOKEN</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_INVALID_PASSWORD</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_INVALID_REDIRECT</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_INVALID_RESET_PASSWORD_TOKEN</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_LOGIN</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_LOGIN_EMAIL_SENT</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_LOGIN_EXPIRED</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_PASSWORD_CHANGE</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_PASSWORD_INVALID_LENGTH</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_PASSWORD_IS_THE_SAME</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_PASSWORD_MISMATCH</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_PASSWORD_NOT_PROVIDED</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_PASSWORD_NOT_SET</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_PASSWORD_RESET</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_PASSWORD_RESET_EXPIRED</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_PASSWORD_RESET_REQUEST</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_REFRESH</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_RETYPE_PASSWORD_MISMATCH</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_UNAUTHORIZED</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SECURITY_MSG_USER_DOES_NOT_EXIST</span></code></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><p class="logo"><a href="index.html">
+  <img class="logo" src="_static/logo-helmet.png" alt="Logo"/>
+</a></p>
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Configuration</a><ul>
+<li><a class="reference internal" href="#core">Core</a></li>
+<li><a class="reference internal" href="#urls-and-views">URLs and Views</a></li>
+<li><a class="reference internal" href="#template-paths">Template Paths</a></li>
+<li><a class="reference internal" href="#feature-flags">Feature Flags</a></li>
+<li><a class="reference internal" href="#email">Email</a></li>
+<li><a class="reference internal" href="#miscellaneous">Miscellaneous</a></li>
+<li><a class="reference internal" href="#messages">Messages</a></li>
+</ul>
+</li>
+</ul>
+
+  </div><h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="features.html" title="previous chapter">Features</a></li>
+      <li>Next: <a href="quickstart.html" title="next chapter">Quick Start</a></li>
+  </ul></li>
+</ul>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/configuration.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+
+<div class="github">
+    <a href="https://github.com/inveniosoftware/flask-security-fork">
+        <span>Fork me on GitHub</span>
+        <img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub">
+    </a>
+</div>
+
+
+    
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2012-2019, Matt Wright, 2022 CERN.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.4.0.
+    </div>
+    
+
+  </body>
+</html>

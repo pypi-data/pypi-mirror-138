@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Models &#8212; Flask-Security-Fork 3.0.2 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/flasky.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Customizing Views" href="customizing.html" />
+    <link rel="prev" title="Quick Start" href="quickstart.html" />
+     
+    
+        <link rel="apple-touch-icon" href="_static/touch-icon.png">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
+
+  </head><body>
+    
+    
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="customizing.html" title="Customizing Views"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="quickstart.html" title="Quick Start"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Flask-Security-Fork 3.0.2 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Models</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="models">
+<h1>Models<a class="headerlink" href="#models" title="Permalink to this headline">¶</a></h1>
+<p>Flask-Security assumes you’ll be using libraries such as SQLAlchemy,
+MongoEngine, Peewee or PonyORM to define a data model that includes a <cite>User</cite>
+and <cite>Role</cite> model. The fields on your models must follow a particular convention
+depending on the functionality your app requires. Aside from this, you’re free
+to add any additional fields to your model(s) if you want. At the bare minimum
+your <cite>User</cite> and <cite>Role</cite> model should include the following fields:</p>
+<p><strong>User</strong></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">email</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">password</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">active</span></code></p></li>
+</ul>
+<p><strong>Role</strong></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code></p></li>
+</ul>
+<section id="additional-functionality">
+<h2>Additional Functionality<a class="headerlink" href="#additional-functionality" title="Permalink to this headline">¶</a></h2>
+<p>Depending on the application’s configuration, additional fields may need to be
+added to your <cite>User</cite> model.</p>
+<section id="confirmable">
+<h3>Confirmable<a class="headerlink" href="#confirmable" title="Permalink to this headline">¶</a></h3>
+<p>If you enable account confirmation by setting your application’s
+<cite>SECURITY_CONFIRMABLE</cite> configuration value to <cite>True</cite>, your <cite>User</cite> model will
+require the following additional field:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">confirmed_at</span></code></p></li>
+</ul>
+</section>
+<section id="trackable">
+<h3>Trackable<a class="headerlink" href="#trackable" title="Permalink to this headline">¶</a></h3>
+<p>If you enable user tracking by setting your application’s <cite>SECURITY_TRACKABLE</cite>
+configuration value to <cite>True</cite>, your <cite>User</cite> model will require the following
+additional fields:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">last_login_at</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">current_login_at</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">last_login_ip</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">current_login_ip</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">login_count</span></code></p></li>
+</ul>
+</section>
+<section id="custom-user-payload">
+<h3>Custom User Payload<a class="headerlink" href="#custom-user-payload" title="Permalink to this headline">¶</a></h3>
+<p>If you want a custom payload after Register or Login an user, define
+the method get_security_payload in your User model. The method must return a
+serializable object:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">User</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">Model</span><span class="p">,</span> <span class="n">UserMixin</span><span class="p">):</span>
+    <span class="nb">id</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">Integer</span><span class="p">,</span> <span class="n">primary_key</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">email</span> <span class="o">=</span> <span class="n">TextField</span><span class="p">()</span>
+    <span class="n">password</span> <span class="o">=</span> <span class="n">TextField</span><span class="p">()</span>
+    <span class="n">active</span> <span class="o">=</span> <span class="n">BooleanField</span><span class="p">(</span><span class="n">default</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">confirmed_at</span> <span class="o">=</span> <span class="n">DateTimeField</span><span class="p">(</span><span class="n">null</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">String</span><span class="p">(</span><span class="mi">80</span><span class="p">))</span>
+
+    <span class="c1"># Custom User Payload</span>
+    <span class="k">def</span> <span class="nf">get_security_payload</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">{</span>
+            <span class="s1">&#39;id&#39;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">id</span><span class="p">,</span>
+            <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">,</span>
+            <span class="s1">&#39;email&#39;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">email</span>
+        <span class="p">}</span>
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><p class="logo"><a href="index.html">
+  <img class="logo" src="_static/logo-helmet.png" alt="Logo"/>
+</a></p>
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Models</a><ul>
+<li><a class="reference internal" href="#additional-functionality">Additional Functionality</a><ul>
+<li><a class="reference internal" href="#confirmable">Confirmable</a></li>
+<li><a class="reference internal" href="#trackable">Trackable</a></li>
+<li><a class="reference internal" href="#custom-user-payload">Custom User Payload</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div><h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="quickstart.html" title="previous chapter">Quick Start</a></li>
+      <li>Next: <a href="customizing.html" title="next chapter">Customizing Views</a></li>
+  </ul></li>
+</ul>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/models.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+
+<div class="github">
+    <a href="https://github.com/inveniosoftware/flask-security-fork">
+        <span>Fork me on GitHub</span>
+        <img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub">
+    </a>
+</div>
+
+
+    
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2012-2019, Matt Wright, 2022 CERN.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.4.0.
+    </div>
+    
+
+  </body>
+</html>
