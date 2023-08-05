@@ -1,0 +1,7 @@
+dm_robotics/controllers/libosqp.so,sha256=P4M9UKtOANRJuTOHkODElIBKX-HjXzjSBYb8m3v0G2I,105800
+dm_robotics/controllers/cartesian_6d_to_joint_velocity_mapper.cpython-38-x86_64-linux-gnu.so,sha256=YxvWs0IRrwAWWmo-YlaSmcPhvftZvvKX527el5c85jk,2753416
+dm_robotics/controllers/libqdldl.so,sha256=BPaAIPQoJ_M6EiLfuOssEErOCAOeP5UPoAjOV5PndjA,7688
+dm_robotics_controllers-0.3.0.dist-info/WHEEL,sha256=srZFbgVUqLJykrbW5rj0adojeXrfPk8Bx9-0rvi_tAk,185
+dm_robotics_controllers-0.3.0.dist-info/METADATA,sha256=NBkjyJdZ14ZHy4JvKpW55dm4Os0riNsGgH7zXzfQR0Q,5522
+dm_robotics_controllers-0.3.0.dist-info/RECORD,,
+dm_robotics_controllers-0.3.0.dist-info/top_level.txt,sha256=PwGI6Ojc-tv5_VwqScCiV5qluWJnJMpk36_z824bktM,12
