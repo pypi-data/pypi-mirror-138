@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+NCPrase.egg-info/PKG-INFO
+NCPrase.egg-info/SOURCES.txt
+NCPrase.egg-info/dependency_links.txt
+NCPrase.egg-info/top_level.txt
