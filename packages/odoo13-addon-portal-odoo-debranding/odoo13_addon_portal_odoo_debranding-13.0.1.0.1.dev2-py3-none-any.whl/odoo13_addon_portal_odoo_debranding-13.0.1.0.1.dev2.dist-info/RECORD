@@ -1,0 +1,13 @@
+odoo/addons/portal_odoo_debranding/README.rst,sha256=4xZ7cND7ZVLcDpptnzQGNH4ws_EPcgzm-GxLtwEuGbA,3018
+odoo/addons/portal_odoo_debranding/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/portal_odoo_debranding/__manifest__.py,sha256=cjS74pAaq-Vp6Bq1HLhhcR2LSu_N7NPOHcCzOXaPLys,491
+odoo/addons/portal_odoo_debranding/i18n/portal_odoo_debranding.pot,sha256=DSoZvi3Yi_MHcxFXi2AFQSEsCID4KGLbvwoBM_xL6ik,341
+odoo/addons/portal_odoo_debranding/readme/CONTRIBUTORS.rst,sha256=ZTMfs6Ai3yWgXXFZn2DuHuzPFpKLwWiXBWw6DTsgQmA,136
+odoo/addons/portal_odoo_debranding/readme/DESCRIPTION.rst,sha256=DmJN8_bd5u9zQWtGRhkd7BhrcCputcGK9wK4Y_guH5o,53
+odoo/addons/portal_odoo_debranding/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/portal_odoo_debranding/static/description/index.html,sha256=cuD3rc5AVCwwPpyJ5bRzQU05s93TFbD3A_TEAFf2NVM,12185
+odoo/addons/portal_odoo_debranding/views/portal_templates.xml,sha256=LeGpM5jeGuFDDvFw_WTfTd6b_nUeHzP_T4-q6ojjf-s,558
+odoo13_addon_portal_odoo_debranding-13.0.1.0.1.dev2.dist-info/METADATA,sha256=JEHBUNxgsR6M6hXgNNOYLKodZrBt0e9h4vw_731ta6g,3625
+odoo13_addon_portal_odoo_debranding-13.0.1.0.1.dev2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo13_addon_portal_odoo_debranding-13.0.1.0.1.dev2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_portal_odoo_debranding-13.0.1.0.1.dev2.dist-info/RECORD,,
