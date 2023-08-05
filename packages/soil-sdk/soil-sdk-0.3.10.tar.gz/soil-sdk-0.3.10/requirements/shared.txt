@@ -1,0 +1,5 @@
+requests
+pyyaml==5.4.1
+numpy
+pandas
+PyJWT
