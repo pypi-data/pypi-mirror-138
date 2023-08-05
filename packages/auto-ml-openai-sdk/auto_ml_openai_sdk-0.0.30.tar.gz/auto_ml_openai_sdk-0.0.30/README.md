@@ -1,0 +1,15 @@
+# auto-ml-openai-sdk
+
+When merged to master, this package will be updloaded to Artylab. The versioning and auto docs are taken care of during the build process after being merged to master as well. After the package is published for the first time a branch called "docs" will be created. Github Pages can be set up by going to settings and selecting the branch "docs" and the folder "docs" under the Github Pages section.
+
+### Build and Dev locally 
+```
+bash scripts/build_local.sh --enter
+```
+This command allows you to build and enter the docker image. All core folders are mounted so any changes made to your code will be reflected inside the image.
+
+### Running Tests and checks
+```
+bash scripts/qc_check.sh
+```
+This command is to be ran inside the image.
