@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ftfy
+Version: 6.1.0
+Summary: Fixes mojibake and other problems with Unicode, after the fact
+License: MIT
+Author: Robyn Speer
+Author-email: rspeer@arborelia.net
+Requires-Python: >=3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: wcwidth (>=0.2.5)
