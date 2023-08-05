@@ -1,0 +1,16 @@
+ttfautohint/__init__.py,sha256=U6HnTSJP8mO_DdW5fYC3ejAYIa-NlyoWKGK-i2ATg4Q,5223
+ttfautohint/__main__.py,sha256=NVabl9OzlqntD3REzwWfBf_0orb2f-qxEIhPMnCwYMg,66
+ttfautohint/_compat.py,sha256=rDEogsj497n8mtxGlEfIqEGNNG8IkMcznyuKiYd7i7Q,3648
+ttfautohint/_version.py,sha256=0dJhpW5KYKOvVi9F9pDy0pjpx9jXAt32VMbk5K8FFzE,487
+ttfautohint/cli.py,sha256=CTAZtWPRvVdAXAXg38Ps6reXCZ8K6gjxcwd-ismqP_A,5353
+ttfautohint/errors.py,sha256=rP6nnlXrn5OiMTWor9pAGaUu2Rf5S7krTM1L4CFljxA,5843
+ttfautohint/info.py,sha256=skPnR8gs5OZEJ2gfzC9pPv2imIIolbthukyJjPD7W6Y,10885
+ttfautohint/libttfautohint.dll,sha256=VhGgWB4ubB_z7aK05BONrqSgcfJLN0sjpVSLgYvVGIM,47183985
+ttfautohint/memory.py,sha256=MPCjH_bFvr34h_Rw2nnnhqWhLjPKOFfkJf5FdKWZY18,1259
+ttfautohint/options.py,sha256=m0OE6CdvkGLVff7bGt3MihaIAnfi-LISfcoj3Nmd3Y8,19446
+ttfautohint/progress.py,sha256=MncPQR2INfWU1035ulAo8PtZoZOoSrXRFZ6uR0Wk5-U,1732
+ttfautohint_py-0.5.0.dist-info/LICENSE,sha256=pR6C_VUWvsXZyKwkQkQaaRonxn3kiVal-STuD3CyfQc,1100
+ttfautohint_py-0.5.0.dist-info/METADATA,sha256=0k2pSNz5CWo2BY5M7WqcJiQ-f4qRZQpHJOp4fNNG4xo,3410
+ttfautohint_py-0.5.0.dist-info/WHEEL,sha256=PjPR7B6w7QNhSVh1iCG2LXVkFpTHWCjPk8Lpo058axo,123
+ttfautohint_py-0.5.0.dist-info/top_level.txt,sha256=NAEN-IsBxUrSpd0kKUjed_EXi2GRKReBXXvvmemxNjU,12
+ttfautohint_py-0.5.0.dist-info/RECORD,,
