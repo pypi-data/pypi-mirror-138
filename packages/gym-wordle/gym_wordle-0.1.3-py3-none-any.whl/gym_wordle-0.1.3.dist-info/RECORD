@@ -1,0 +1,12 @@
+gym_wordle/__init__.py,sha256=cZ2YVkbslkG5zsE6w9CiSwyfBmnt8iaWBHoydzmT820,152
+gym_wordle/utils.py,sha256=IYpnWo9rE8TzStYoQh00wsQfv8fmKZsqZyexGp-kfiU,2927
+gym_wordle/wordle.py,sha256=q8XPaHSRm7SL_cwFUfB4XzkPcX2Zi0WhejQlE17jIAY,9735
+gym_wordle/dictionary/guess_list.csv,sha256=QY4jEaKxXmDQt2Re2DYk0OHP22qID5b4YSbkirw7RWc,90802
+gym_wordle/dictionary/guess_list.npy,sha256=i_D0D75NKESdF3DGYqtkZ3QxMhZMIIFkTyESH8x01pY,519008
+gym_wordle/dictionary/solution_list.csv,sha256=OqIcf6ArSNf2pQJbSL_OJAsDqygUPea4LM3-ywLEjJU,16203
+gym_wordle/dictionary/solution_list.npy,sha256=4ALZIKQ7H0Y0je4GB9tkpybQsJ7ZhkgLhosdx4MP5Po,92728
+gym_wordle-0.1.3.dist-info/LICENSE,sha256=MNO2-afMWZwM59I4daR9x0MHinNs6GbwTBWUYxeL8uo,1070
+gym_wordle-0.1.3.dist-info/METADATA,sha256=U88ME5OjbkcPq_s3dpaNhYdUdnF6QIP0awobMuf7JPA,2393
+gym_wordle-0.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gym_wordle-0.1.3.dist-info/top_level.txt,sha256=cIzm_ZNzxQxxN8q9Vrjm1DKcOWEG4vcQCFiAvDXWSE8,11
+gym_wordle-0.1.3.dist-info/RECORD,,
