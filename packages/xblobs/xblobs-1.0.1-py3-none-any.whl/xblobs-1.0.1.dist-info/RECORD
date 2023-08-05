@@ -1,0 +1,7 @@
+xblobs/__init__.py,sha256=iRCGahUJTaZhxfms-U-UIcDca52kw9rSXir4hI1xKes,54
+xblobs/blob.py,sha256=aQ4yCICfceDlXbR3nMDnH4TwY0Fx5yFS86rDNJVAwXU,6065
+xblobs/detect.py,sha256=pLyvbsVa1hO5YGyYwa94nC_sb51Al6_pO5fz99DXyug,4214
+xblobs-1.0.1.dist-info/LICENSE,sha256=OUrPHcuIViUiL749DRjymttJSEdIAjAzANr0dlT7SL8,1076
+xblobs-1.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+xblobs-1.0.1.dist-info/METADATA,sha256=1OIhgtwZ21B0Z3h4Vi90DhENUzlnWwRTIcpi7r-PG7s,683
+xblobs-1.0.1.dist-info/RECORD,,

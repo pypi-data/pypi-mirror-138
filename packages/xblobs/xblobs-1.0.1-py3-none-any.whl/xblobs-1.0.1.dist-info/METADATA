@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: xblobs
+Version: 1.0.1
+Summary: Python tool to detect and analyse coherent structures in turbulence, powered by xarray.
+Home-page: https://github.com/uit-cosmo/xblobs
+License: MIT
+Author: gregordecristoforo
+Author-email: gregor.decristoforo@gmail.com
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: dask-image (>=0.2.0)
+Requires-Dist: numpy (>=1.22.2)
+Requires-Dist: scipy (>=1.2.0)
+Requires-Dist: xarray (>=0.11.2)
