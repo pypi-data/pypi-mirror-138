@@ -1,0 +1,3 @@
+[mt.subcommands]
+github = metapack_github.cli:github
+

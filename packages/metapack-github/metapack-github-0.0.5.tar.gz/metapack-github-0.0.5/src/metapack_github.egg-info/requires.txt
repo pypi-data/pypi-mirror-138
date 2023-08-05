@@ -1,0 +1,7 @@
+metapack
+PyGithub
+gitpython
+
+[testing]
+pytest
+pytest-cov
