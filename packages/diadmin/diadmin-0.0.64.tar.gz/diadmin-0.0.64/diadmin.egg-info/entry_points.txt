@@ -1,0 +1,19 @@
+[console_scripts]
+dibackup = diadmin.dibackup:main
+dicatalog = diadmin.dicatalog:main
+diconnections = diadmin.diconnections:main
+didockerbuild = diadmin.didockerbuild:main
+didownload = diadmin.didownload:main
+didqm = diadmin.didqm:main
+dimock = diadmin.dimock:main
+diopenlog = diadmin.diopenlog:main
+dipmonitor = diadmin.dipmonitor:main
+dipolicy = diadmin.dipolicy:main
+diprepreuse = diadmin.prepreuse:main
+diprettify = diadmin.prettifyJSON:main
+dirun = diadmin.dirun:main
+diupload = diadmin.diupload:main
+diuser = diadmin.diuser:main
+diwsuser = diadmin.diwsuser:main
+s3upload = diadmin.s3upload:main
+
