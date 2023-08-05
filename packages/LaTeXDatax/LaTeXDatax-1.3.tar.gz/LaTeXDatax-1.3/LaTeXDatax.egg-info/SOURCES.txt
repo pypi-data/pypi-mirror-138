@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+Makefile
+README.md
+setup.py
+LaTeXDatax/__init__.py
+LaTeXDatax/datax.py
+LaTeXDatax.egg-info/PKG-INFO
+LaTeXDatax.egg-info/SOURCES.txt
+LaTeXDatax.egg-info/dependency_links.txt
+LaTeXDatax.egg-info/top_level.txt
+tests/__init__.py
+tests/test_LaTeXDatax.py
