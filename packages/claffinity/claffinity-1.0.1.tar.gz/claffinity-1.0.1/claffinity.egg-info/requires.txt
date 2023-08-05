@@ -1,0 +1,5 @@
+matplotlib
+numpy>=1.15
+pandas>=1.2.2
+mpmath>=1.1.0
+progressbar2
