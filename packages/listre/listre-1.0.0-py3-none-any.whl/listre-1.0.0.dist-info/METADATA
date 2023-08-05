@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: listre
+Version: 1.0.0
+Summary: listなre
+Home-page: https://github.com/nattyan-tv/listre/
+Author: NattyanTV
+Author-email: apuazu@yahoo.co.jp
+License: MIT License
+Keywords: list,re
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+
+# Listre
+
+reっていう便利なモジュールあるじゃないですか  
+
+あれにlist対応させたら面白うそうだなーって思って作りました。  
+
+出来心です。()
+
