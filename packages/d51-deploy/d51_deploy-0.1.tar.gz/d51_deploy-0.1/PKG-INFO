@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: d51_deploy
+Version: 0.1
+Summary: On-prem deployment tool
+Home-page: https://github.com/MCVSD51/d51_deploy
+Author: Toby Farley
+Author-email: toby.farley@d51schools.org
+License: MIT
+Keywords: deploy windows on-prem
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Utilities
+Classifier: Topic :: Desktop Environment
+Description-Content-Type: text/markdown
+
+On-Prem deployment tool
+

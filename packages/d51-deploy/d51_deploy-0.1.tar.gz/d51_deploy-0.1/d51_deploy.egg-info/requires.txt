@@ -1,0 +1,3 @@
+d51_dirsync
+requests
+urllib3

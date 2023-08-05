@@ -1,0 +1,3 @@
+[console_scripts]
+d51_deploy = d51_deploy.command_line:main
+
