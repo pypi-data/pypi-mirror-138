@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: manta-lab
+Version: 0.1.1.dev0
+Summary: A CLI and library for interacting with the Manta Engine.
+Home-page: https://github.com/coxwave/manta
+Author: coxwave
+Author-email: support@manta.coxwave.com
+License: MIT license
+Download-URL: https://github.com/coxwave/manta
+Project-URL: Bug Tracker, https://github.com/coxwave/manta/issues
+Project-URL: Source Code, https://github.com/coxwave/manta
+Keywords: deep learning,logging,tracking,automation,AI
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Logging
+Classifier: Topic :: System :: Monitoring
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+

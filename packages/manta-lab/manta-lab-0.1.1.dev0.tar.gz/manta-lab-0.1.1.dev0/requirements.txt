@@ -1,0 +1,9 @@
+click
+psutil
+shortuuid
+pynvml
+
+
+optuna
+pandas
+GitPython

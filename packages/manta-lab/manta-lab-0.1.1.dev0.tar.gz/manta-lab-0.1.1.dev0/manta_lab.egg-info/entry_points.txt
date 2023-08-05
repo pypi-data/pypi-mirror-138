@@ -1,0 +1,4 @@
+[console_scripts]
+manta = manta_lab.cli.entry:cli
+manta-lab = manta_lab.cli.entry:cli
+
