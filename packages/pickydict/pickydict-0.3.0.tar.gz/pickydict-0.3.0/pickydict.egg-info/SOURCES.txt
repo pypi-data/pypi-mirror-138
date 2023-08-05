@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pickydict/PickyDict.py
+pickydict/__init__.py
+pickydict/__version__.py
+pickydict.egg-info/PKG-INFO
+pickydict.egg-info/SOURCES.txt
+pickydict.egg-info/dependency_links.txt
+pickydict.egg-info/not-zip-safe
+pickydict.egg-info/requires.txt
+pickydict.egg-info/top_level.txt
