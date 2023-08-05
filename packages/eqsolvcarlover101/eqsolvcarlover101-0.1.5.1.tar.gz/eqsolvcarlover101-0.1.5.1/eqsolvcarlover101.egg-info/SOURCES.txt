@@ -1,0 +1,4 @@
+eqsolvcarlover101.egg-info/PKG-INFO
+eqsolvcarlover101.egg-info/SOURCES.txt
+eqsolvcarlover101.egg-info/dependency_links.txt
+eqsolvcarlover101.egg-info/top_level.txt
