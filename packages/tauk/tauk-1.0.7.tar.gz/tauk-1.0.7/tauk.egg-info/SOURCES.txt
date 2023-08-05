@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tauk/__init__.py
+tauk/enums.py
+tauk/tauk_appium.py
+tauk/utils.py
+tauk.egg-info/PKG-INFO
+tauk.egg-info/SOURCES.txt
+tauk.egg-info/dependency_links.txt
+tauk.egg-info/requires.txt
+tauk.egg-info/top_level.txt
