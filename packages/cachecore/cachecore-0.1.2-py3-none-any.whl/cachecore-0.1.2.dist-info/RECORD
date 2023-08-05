@@ -1,0 +1,14 @@
+cachecore/__init__.py,sha256=T0XgABzhjCORMt_SoqIMsxnILKYIExieKhCnj7dWBSU,93
+cachecore/serializers.py,sha256=IvnD06sM8VdZYdbA8iLWCkoRgCEA8r-qvLx41JWv1F8,472
+cachecore/utils.py,sha256=_eHmF-IBOY2s9orK51J7yXCqbzqgnrxkim4UflCCMe4,1942
+cachecore/caches/__init__.py,sha256=Tim_Cu5v6sXGA7BA3CrRolL3HPrqncPwBNxVfkJNe6o,230
+cachecore/caches/base.py,sha256=lQ2YNOc1eLi994PKuvQhzNtwxXM76hGSYnfXsA0PcCU,1894
+cachecore/caches/dummy.py,sha256=aOHJUu-240Hp7PrakTbk9xaTqBegPEWLY_bzxc2kXaU,785
+cachecore/caches/file.py,sha256=33P44EMun1UPWrsMgk-nvKDXJTwOriyveLBNm13MPUM,2736
+cachecore/caches/local.py,sha256=fulV_ZD44cNCqasOTLH9miGrDAjr3142lT8XMvZZEa0,2197
+cachecore/caches/redis.py,sha256=Na7vv5QhgbHl5JM0nd450N6GGM7FASkGzn9Ibz2lXCc,2231
+cachecore-0.1.2.dist-info/LICENSE,sha256=q5dfyxCt5N6j4uFS63bNDpPQDpbyNh1zaqeryJkvh94,1067
+cachecore-0.1.2.dist-info/METADATA,sha256=-kobTImM6z8Jl4jc7Ycq2n9f3skdAR4_f4vyE1MpW6w,1825
+cachecore-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cachecore-0.1.2.dist-info/top_level.txt,sha256=z3JnHrfLIVtD2u9Yr4sqaDFi1V37lQPIaKYpMTwjjcI,10
+cachecore-0.1.2.dist-info/RECORD,,
