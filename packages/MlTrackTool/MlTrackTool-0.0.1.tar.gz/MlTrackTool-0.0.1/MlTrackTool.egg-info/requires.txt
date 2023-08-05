@@ -1,0 +1,4 @@
+ipysheet
+scikit-plot
+lime
+Shapely
