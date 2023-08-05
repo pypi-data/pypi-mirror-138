@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/clidle/__init__.py
+src/clidle/__main__.py
+src/clidle/clidle.py
+src/clidle_BlueStag.egg-info/PKG-INFO
+src/clidle_BlueStag.egg-info/SOURCES.txt
+src/clidle_BlueStag.egg-info/dependency_links.txt
+src/clidle_BlueStag.egg-info/top_level.txt

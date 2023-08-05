@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: clidle-BlueStag
+Version: 1.0
+Summary: A Wordle clone for the terminal.
+Author: BlueStag
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console :: Curses
+Classifier: Topic :: Games/Entertainment
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CLIdle
+This is a Wordle clone for the terminal. There are no
+dependencies, except for Windows where you may need
+to install windows-curses. As well as this, there
+is a built-in hard mode that prevents you from
+typing in the wrong letters.
+
+## Screenshot
+![Screenshot](./img/screenshot.png)
+
+
