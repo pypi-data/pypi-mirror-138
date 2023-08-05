@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: dia
+Version: 0.1.0
+Summary: Dia is a work log, letting you easily keep a history of what you worked on.
+Home-page: https://gitlab.com/stavros/dia
+License: AGPL-3.0-or-later
+Author: Stavros Korokithakis
+Author-email: hi@stavros.io
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8,<9)
+Project-URL: Repository, https://gitlab.com/stavros/dia
+Description-Content-Type: text/markdown
+
+Dia
+===
+
+Dia lets you keep a work log.
+
+
+Installation
+------------
+
+Installing Dia is simple. You can use `pipx` (recommended):
+
+```
+$ pipx install dia
+```
+
+Or `pip` (less recommended):
+
+```
+$ pip install dia
+```
+
