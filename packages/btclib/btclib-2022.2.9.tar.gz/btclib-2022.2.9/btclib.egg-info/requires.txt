@@ -1,0 +1,5 @@
+dataclasses_json
+
+[:python_version < "3.7"]
+backports-datetime-fromisoformat>=1.0.0
+dataclasses>=0.8
