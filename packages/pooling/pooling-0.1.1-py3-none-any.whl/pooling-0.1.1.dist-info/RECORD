@@ -1,0 +1,8 @@
+pooling/__init__.py,sha256=Nu_OnxUvZEIER_gNjKk15hsULCNLV2ZLxSQM2aGQdqM,52
+pooling/base.py,sha256=pf8x5xjPDw8NSk2po5vhHYGMDUSkhBTCoMSt-zGRYrM,5230
+pooling/mysql.py,sha256=cTL3RwJNlzvERl4C3fnAw1Pr5L0n3AwULymLa3Ux0NU,1778
+pooling-0.1.1.dist-info/LICENSE,sha256=21FAXX8iSO4jv5T55zF_LCBAO55XDNzyEzkd4Lvl1-8,1067
+pooling-0.1.1.dist-info/METADATA,sha256=Y0r5kcWVOMgcn1vH1ct--lScjGu-9OTVcuvI9tKZUwg,3911
+pooling-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pooling-0.1.1.dist-info/top_level.txt,sha256=tRctB5UCrpGfabjDw8GoAcYVzQCMRbrK6VWxoVK7T_o,8
+pooling-0.1.1.dist-info/RECORD,,
