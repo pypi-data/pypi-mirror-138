@@ -1,0 +1,13 @@
+unimatrix
+
+[all]
+fastapi
+google-cloud-pubsub
+unimatrix.ext.webapi
+
+[fastapi]
+fastapi
+unimatrix.ext.webapi
+
+[google]
+google-cloud-pubsub
