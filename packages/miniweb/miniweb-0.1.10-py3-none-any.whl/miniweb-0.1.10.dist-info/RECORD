@@ -1,0 +1,14 @@
+miniweb/__init__.py,sha256=0lpJrUDVdb030sKaXeSJ3Ej03M81R1a82VkppBTFI5I,325
+miniweb/core.py,sha256=IwBgDspKh5Rl4H48oVwHAQZUoAGlNXJfx8iTs13KUzs,3212
+miniweb/exceptions.py,sha256=_cQDiV4bGZAhSnSzbTdVpbkeIEeHuD0HJ6wxeWbXly4,182
+miniweb/request.py,sha256=Omnm4IvStnKayBxEUvfnh4e_9PTnfvQzcowDLfIFuHA,10001
+miniweb/response.py,sha256=-p_wx0O6VAFAhrWbNWbhcDVWjQkBcMTNl3TU0aJdj7E,13892
+miniweb/router.py,sha256=C2AauHKja-xgW-OBbAHd9eHCnKRFXg0c2rAGArcMOj0,2058
+miniweb/sapi.py,sha256=QMHm-fUaXH4l9_rRfYyZDwDfxAwW5CMQmdc8IKCjor0,4333
+miniweb/contrib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+miniweb/contrib/static_files.py,sha256=7lO1iWNlgfYkcQBt22KjNJWmESlukd6yTde9itLC0lE,2490
+miniweb-0.1.10.dist-info/LICENSE,sha256=21FAXX8iSO4jv5T55zF_LCBAO55XDNzyEzkd4Lvl1-8,1067
+miniweb-0.1.10.dist-info/METADATA,sha256=18iehI6SGcOgTwkfKGCrzVQwzw5hXtsQVXFeUbHPyEQ,5259
+miniweb-0.1.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+miniweb-0.1.10.dist-info/top_level.txt,sha256=GBTACTUMI5r2yo6CoAbaSY3DhsExglxc5bvH-6dhXD8,8
+miniweb-0.1.10.dist-info/RECORD,,
