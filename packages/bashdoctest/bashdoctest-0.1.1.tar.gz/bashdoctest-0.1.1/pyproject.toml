@@ -1,0 +1,11 @@
+[build-system]
+# If 'requires' is changed, update the same in setup.py.
+requires = [
+    "setuptools>=60.5.0",
+    "wheel>=0.27",
+    "setuptools-scm>=6.4.2",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "bashdoctest/_version.py"

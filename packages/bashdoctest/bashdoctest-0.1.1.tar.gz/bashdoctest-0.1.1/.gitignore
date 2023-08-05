@@ -1,0 +1,9 @@
+*.py[co]
+dist
+*.egg-info
+.coverage
+.eggs
+.tox
+bashdoctest/_version.py
+build
+
