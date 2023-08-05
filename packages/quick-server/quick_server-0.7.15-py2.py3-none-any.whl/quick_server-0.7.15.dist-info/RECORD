@@ -1,0 +1,13 @@
+quick_server/__init__.py,sha256=VU8toX-0GtSJnQ9kmrRicGdr-3vptVE0Hq9Z7Woj8-c,122
+quick_server/__main__.py,sha256=uN5B-bSgYAw70qRRk1GojigjeHkljeqm1XiBAfAlf0E,1351
+quick_server/favicon.ico,sha256=QughAeyQJE_rD4jUaBz49MWkJrt9U0oX3-IPbIVdmAU,78
+quick_server/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quick_server/quick_server.py,sha256=UosR3i1bugd0_ZIUgWbVVKAaZHJjnksRBnjnA_rjAQI,133477
+quick_server/worker.js,sha256=OFmKZYixJzrCylEvGU-m3cuawYF3oFyPM8PMbPEtAqA,14053
+quick_server/worker.legacy.js,sha256=A-IhrXginSzm0_Hx0dyMxPew7HNFICwZPScSBy8XNyg,8804
+quick_server/worker_request.py,sha256=dn9Smtq3SDGC4l0dr6mON8esoKS5e_f_dJdS9oOZA_0,3009
+quick_server-0.7.15.dist-info/LICENSE,sha256=zpx5vjOcNAvprL4fvBcpMB2am8GzpLD1jDQ8nxJvM9Q,1079
+quick_server-0.7.15.dist-info/METADATA,sha256=ty4Zvf6i1oci5UG_GeEpl4APc9jTfQRwwkEAwbk5h3E,12851
+quick_server-0.7.15.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+quick_server-0.7.15.dist-info/top_level.txt,sha256=T6zxUl-CThf5tJjgA_JxFKe_eqOkU_HINbCvqYZjeYQ,13
+quick_server-0.7.15.dist-info/RECORD,,
