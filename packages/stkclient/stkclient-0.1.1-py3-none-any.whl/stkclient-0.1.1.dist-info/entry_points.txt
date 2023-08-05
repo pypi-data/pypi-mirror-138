@@ -1,0 +1,3 @@
+[console_scripts]
+stkclient=stkclient.__main__:main
+
