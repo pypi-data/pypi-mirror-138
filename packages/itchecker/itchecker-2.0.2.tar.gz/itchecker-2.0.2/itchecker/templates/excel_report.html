@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Webpage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="container">
+    <h1>
+        Протокол тестування роботи {{ file_name }}
+        <span class="badge bg-primary">{{total_score}} / {{max_score}}</span>
+    </h1>
+    {% for test in tests %}
+    {% set tests_loop = loop %}
+    <div class="card">
+        <div class="card-header">
+            Тест №{{ tests_loop.index }}
+            <span class="badge bg-primary">{{details[tests_loop.index0].score}} / {{test.score}}</span>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Вхідні дані</h5>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        {% for cell in test.inputs %}
+                        <th scope="col">{{ cell }}</th>
+                        {% endfor %}
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        {% for cell in test.inputs %}
+                        {% set value = test.inputs[cell] %}
+                        <td>
+                            {% if value is none %}
+                            {% elif value is mapping %}
+                            {{ value.error }}
+                            {% else %}
+                            {{ value }}
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h5 class="card-title">Вихідні дані</h5>
+            <h6>Система перевіряла наступну характеристику:</h6>
+            <div class="alert alert-primary" role="alert">
+                {{ test.query }}
+            </div>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        {% for cell in test.outputs %}
+                        <th scope="col">{{ cell }}</th>
+                        {% endfor %}
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">Правильний результат:</th>
+                        {% for cell in test.outputs %}
+                        {% set value = test.results[cell] %}
+                        <td>
+                            {% if value is none %}
+                            {% elif value is mapping %}
+                            {{ value.error }}
+                            {% else %}
+                            {{ value }}
+                            {% endif %}
+                            {% endfor %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Результат учасника:</th>
+                        {% for cell in details[tests_loop.index0].results %}
+                        {% set value = details[tests_loop.index0].results[cell] %}
+                        <td class="{% if value == test.results[cell] %}table-success{% else %}table-danger{% endif %}">
+                            {% if value is none %}
+                            {% elif value is mapping %}
+                            {{ value.error }}
+                            {% else %}
+                            {{ value }}
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+</html>
