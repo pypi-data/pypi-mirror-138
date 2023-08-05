@@ -1,0 +1,8 @@
+LICENSE,sha256=3V4H2N8nGaV7aksOwxTeDRU19HMDww4oY0-OnVJSrs8,1076
+echo1_coco_split/__init__.py,sha256=Wzf5T3NBDfhQoTnhnRNHSlAsE0XMqbclXG-M81Vas70,22
+echo1_coco_split/echo1_coco_split.py,sha256=lRRICs1rQom85tdJrU-0Rfn5dkzOm1IhHu6stbCuWZw,4997
+echo1_coco_split-0.1.4.dist-info/entry_points.txt,sha256=E40I1TJKpiTlBbUygFrmfusvnuky2VSpU_2sR2mCfSI,68
+echo1_coco_split-0.1.4.dist-info/LICENSE,sha256=3V4H2N8nGaV7aksOwxTeDRU19HMDww4oY0-OnVJSrs8,1076
+echo1_coco_split-0.1.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+echo1_coco_split-0.1.4.dist-info/METADATA,sha256=CkrSFj1FbIaI1PckJY1jU0DKL8dLPqInTiTGOXhEzMs,1444
+echo1_coco_split-0.1.4.dist-info/RECORD,,
