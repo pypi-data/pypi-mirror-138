@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+popups/__init__.py
+popups/dismiss.py
+popups/settings.py
+popups.egg-info/PKG-INFO
+popups.egg-info/SOURCES.txt
+popups.egg-info/dependency_links.txt
+popups.egg-info/requires.txt
+popups.egg-info/top_level.txt
+popups/img/allow_0.png
+popups/img/allow_1.png
+popups/img/x_0.png
+popups/img/x_1.png
