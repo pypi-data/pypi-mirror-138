@@ -1,0 +1,168 @@
+from bs4 import BeautifulSoup
+import pandas as pd 
+import requests
+
+class Parser:
+
+    default_sites = ['https://классификация-туризм.рф/displayAccommodation/index?Accommodation%5BFullName%5D=&Accommodation%5BRegion%5D=%27%20+%20region%20+%20%27&Accommodation%5BKey%5D=&Accommodation%5BOrganizationId%5D=&Accommodation%5BCertificateNumber%5D=&Accommodation%5BInn%5D=&Accommodation%5BOgrn%5D=&Accommodation%5BSolutionNumber%5D=&yt0=Найти&Accommodation%25BFullName%25D=&AccommodationRegion=%25Москва%25&AccommodationKey=&AccommodationOrganizationId=&AccommodationCertificateNumber=&AccommodationBInn=&AccommodationBOgrn=&AccommodationSolutionNumber=&yt0=Найти&Accommodation_page=1']
+    
+    def __init__(self, site):
+        self._site = site
+    def get_sites(self):
+        self.default_sites.append(self._site)
+        return(self.default_sites)
+
+    def search_string(self, region, url = 'off', status_code = 'off', page = '1',headers = {'User-Agent': \
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36'}):
+    r = requests.get(turism_url, headers = headers)
+    if status_code == 'on':
+        print(r.status_code)
+    #print(r.url)
+    soup = BeautifulSoup(r.text, "html.parser")
+    #tag_lst = soup.find_all(class_ = "page")
+    #max_page_info = tag_lst[-1].findChild("a")['href']
+    #max_page = max_page_info.split('javascript:goToPage')[1][1:-1]
+    max_page_info = soup.select("li.last a")
+    for element in max_page_info:
+        max_page = element.attrs.get('href').split('Accommodation_page=')[1]
+    
+    turism_url_lst = []
+    for page in range(1, int(max_page) + 1):
+        turism_url = turism_url.split('Accommodation_page=')[0]  + 'Accommodation_page=' + str(page)
+        if url == 'on':
+            print(turism_url)
+        turism_url_lst.append(turism_url)
+        
+        
+    return turism_url_lst
+
+    def search_table_url(turism_url_lst, url = 'off', status_code = 'off',headers = {'User-Agent': \
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36'}):
+    hotel_url_lst = []
+    for url in turism_url_lst:
+        r = requests.get(url, headers = headers)
+        if status_code == 'on':
+            print(r.status_code)
+        soup = BeautifulSoup(r.text, "html.parser")
+        regnumberlst = []     
+        for link in soup.find_all('a'):
+            #print(link.get('href'))
+            regnumberlst.append(link.get("href"))
+        for link in regnumberlst:
+            if link != None and link.find('displayAccommodation/') != -1:
+                cnt = 0
+                for i in range(len(link.split('/displayAccommodation/')[1])):
+                    if link.split('/displayAccommodation/')[1][i].isdigit():
+                        cnt += 1
+                if cnt == len(link.split('/displayAccommodation/')[1]):
+                    #print(link)
+                    hotel_url_lst.append(link)
+    hotel_url_lst_ = []
+    for element in set(hotel_url_lst):
+        #print(element)
+        hotel_url_lst_.append(element)
+    for element in range(len(hotel_url_lst_)):
+        hotel_url_lst_[element] = 'https://классификация-туризм.рф' +  hotel_url_lst_[element]
+        if url == 'on':
+            print(hotel_url_lst_[element])
+    return hotel_url_lst_
+
+
+    def hotel_table_get_df(hotel_url_lst, url = 'off', status_code = 'off'):
+    df = pd.DataFrame(columns = ['Порядковый номер в Федеральном перечне', 'Тип','Название гостиницы', 'Название организации', 'ИНН', 'ОГРЭН', 'Регион','Адрес места нахождения', 'Почтовый индекс', 'Сайт','E-mail', 'Телефон', 'Звездность', 'Дата присвоения звёздности', 'Регистрационный номер', 'Регистрационный номер свидетельства', 'Дата выдачи', 'Срок действия до', 'Статус', 'Количество номеров'])
+    headers = {'User-Agent': \
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36'}
+    for url in hotel_url_lst:
+        if url == 'on':
+            print(url)
+        r = requests.get(url, headers = headers)
+        if status_code == 'on':
+            print(r.status_code)
+        soup = BeautifulSoup(r.text, "html.parser")
+        if len(soup.select('div.detail-field')[0].find_all('span', class_ = 'detail-value')) != 0:
+            Serial_number_in_the_Federal_List = soup.select('div.detail-field')[0].find_all('span', class_ = 'detail-value')[0].text
+        else:
+            Serial_number_in_the_Federal_List = None
+        if len(soup.select('div.detail-field')[1].find_all('span', class_ = 'detail-value')) != 0:
+            kind = soup.select('div.detail-field')[1].find_all('span', class_ = 'detail-value')[0].text
+        else:
+            kind = None
+        if len(soup.select('div.detail-field')[3].find_all('span', class_ = 'detail-value')) != 0:
+            name = soup.select('div.detail-field')[3].find_all('span', class_ = 'detail-value')[0].text
+        else:
+            name = None
+        if len(soup.select('div.detail-field')[4].find_all('span', class_ = 'detail-value')) != 0:
+            organization = soup.select('div.detail-field')[4].find_all('span', class_ = 'detail-value')[0].text
+        else:
+            organization = None
+        if len(soup.select('div.detail-field')[5].find_all('span', class_ = 'detail-value')) != 0:
+            region = soup.select('div.detail-field')[5].find_all('span', class_ = 'detail-value')[0].text
+        else:
+            region = None
+        if len(soup.select('div.detail-field')[6].find_all('span', class_ = 'detail-value')) != 0:
+            inn = soup.select('div.detail-field')[6].find_all('span', class_ = 'detail-value')[0].text
+        else:
+            inn = None
+        if len(soup.select('div.detail-field')[7].find_all('span', class_ = 'detail-value')) != 0:
+            ogrn = soup.select('div.detail-field')[7].find_all('span', class_ = 'detail-value')[0].text
+        else:
+            ogrn = None
+        #postcode = None
+        if len(soup.select('div.detail-field')[8].find_all('span', class_ = 'detail-value')[0].text.split(',')) != 0:
+            if len(soup.select('div.detail-field')[8].find_all('span', class_ = 'detail-value')[0].text.split(',')) >= 6:
+                postcode = soup.select('div.detail-field')[8].find_all('span', class_ = 'detail-value')[0].text.split(',')[1]
+            elif len(soup.select('div.detail-field')[8].find_all('span', class_ = 'detail-value')[0].text.split(',')) <= 5:
+                postcode = soup.select('div.detail-field')[8].find_all('span', class_ = 'detail-value')[0].text.split(',')[0] 
+            
+        else:
+            postcode = None
+        if len(soup.select('div.detail-field')[8].find_all('span', class_ = 'detail-value')) != 0:
+            adress = soup.select('div.detail-field')[8].find_all('span', class_ = 'detail-value')[0].text
+        else:
+            adress = None
+        if len(soup.select('div.detail-field')[9].find_all('span', class_ = 'detail-value')) != 0:
+            number = soup.select('div.detail-field')[9].find_all('span', class_ = 'detail-value')[0].text
+        else:
+            number = None
+        if len(soup.select('div.detail-field')[11].find_all('span', class_ = 'detail-value'))!= 0:
+            email = soup.select('div.detail-field')[11].find_all('span', class_ = 'detail-value')[0].text
+        else:
+            email = None
+        if len(soup.select('div.detail-field')[12].find_all('span', class_ = 'detail-value')) != 0:
+            site = soup.select('div.detail-field')[12].find_all('span', class_ = 'detail-value')[0].text
+        else:
+            site = None
+        classification_info = len(soup.select('div.classification-info')) - 1
+        type_of_linces = len(soup.select('div.classification-info')[classification_info])
+        if type_of_linces == 21:
+            stars = soup.select('div.classification-info')[classification_info].find_all('span', class_ = 'detail-value')[0].text
+            stars_data = soup.select('div.classification-info')[classification_info].find_all('span', class_ = 'detail-value')[2].text
+            reg_number = soup.select('div.classification-info')[classification_info].find_all('span', class_ = 'detail-value')[1].text
+            reg_number_sertificat = soup.select('div.classification-info')[classification_info].find_all('span', class_ = 'detail-value')[3].text
+            data_start = soup.select('div.classification-info')[classification_info].find_all('span', class_ = 'detail-value')[4].text
+            data_stop = soup.select('div.classification-info')[classification_info].find_all('span', class_ = 'detail-value')[5].text
+            status = None
+        else:
+            stars = soup.select('div.classification-info')[classification_info].find_all('span', class_ = 'detail-value')[0].text
+            stars_data = soup.select('div.classification-info')[classification_info].find_all('span', class_ = 'detail-value')[2].text
+            reg_number = soup.select('div.classification-info')[classification_info].find_all('span', class_ = 'detail-value')[1].text
+            reg_number_sertificat = soup.select('div.classification-info')[classification_info].find_all('span', class_ = 'detail-value')[3].text
+            data_start = soup.select('div.classification-info')[classification_info].find_all('span', class_ = 'detail-value')[4].text
+            data_stop = soup.select('div.classification-info')[classification_info].find_all('span', class_ = 'detail-value')[5].text
+            status = soup.select('div.classification-info')[classification_info].find_all('span', class_ = 'detail-value')[6].text
+        
+        rooms_index = len(soup.select('table.rooms-output')[0].find_all('td')[3:]) + 2
+        rooms = 0
+        for element in range(4, rooms_index, 3):
+            #print(element)
+            #print(soup.select('table.rooms-output')[0].find_all('td')[element].text)
+            if len(soup.select('table.rooms-output')[0].find_all('td')[element].text) != 0:
+                rooms += int(soup.select('table.rooms-output')[0].find_all('td')[element].text)
+        new_row = {'Порядковый номер в Федеральном перечне': Serial_number_in_the_Federal_List,\
+                  'Тип': kind, 'Название гостиницы': name, 'Название организации': organization,\
+                   'ИНН': inn, 'ОГРЭН': ogrn, 'Регион': region, 'Адрес места нахождения':adress,\
+                  'Почтовый индекс': postcode, 'Сайт':site, 'E-mail':email, 'Телефон': number, 'Звездность':stars,\
+                  'Дата присвоения звёздности':stars_data, 'Регистрационный номер':reg_number, 'Регистрационный номер свидетельства': reg_number_sertificat,\
+                  'Дата выдачи': data_start, 'Срок действия до':data_stop, 'Статус':status, 'Количество номеров':rooms}
+        df = df.append(new_row, ignore_index=True) 
+    return df
