@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: api-interactor
+Version: 0.0.0
+Summary: asdasdasd
+Home-page: UNKNOWN
+License: UNKNOWN
+Project-URL: Source, https://github.com/cowboycodr/interactor
+Platform: UNKNOWN
+Requires-Dist: twine
+Requires-Dist: wheel
+Requires-Dist: flask
+Requires-Dist: requests
+
+UNKNOWN
+
