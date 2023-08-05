@@ -1,0 +1,5 @@
+
+[tests]
+pytest>=5.4.3
+requests
+pytest-cov
