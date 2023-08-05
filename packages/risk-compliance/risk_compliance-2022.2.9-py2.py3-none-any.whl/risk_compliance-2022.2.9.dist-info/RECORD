@@ -1,0 +1,10 @@
+risk_compliance/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+risk_compliance/consul_support.py,sha256=fClKU0YF2mab3vA-fE1-M2RoYE63VaJawH5Z7X6D-z4,3902
+risk_compliance/data_support.py,sha256=ImWJJWvPcR5UQnZi2ItG5TecxnSFxd9T-jWdiO3wxeU,27008
+risk_compliance/email_support.py,sha256=qqP0RHSylqsc_8FsGLGHOknA9giAA86V9afsvcr2chE,33766
+risk_compliance-2022.2.9.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+risk_compliance-2022.2.9.dist-info/METADATA,sha256=5YaHsEwVHmBYFgqmfSa4xNDP8DxMN1HN3gDZBt-Fk1k,261
+risk_compliance-2022.2.9.dist-info/RECORD,,
+risk_compliance-2022.2.9.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+risk_compliance-2022.2.9.dist-info/metadata.json,sha256=p5CbcoX0zqOD3IeKY3D4DCbKlGekGD2lHcUe4cYQolU,412
+risk_compliance-2022.2.9.dist-info/top_level.txt,sha256=YJB6Bn9pUhhE0IJVqFDN43-vtpuXrDT9vV57uK08Zq0,16
