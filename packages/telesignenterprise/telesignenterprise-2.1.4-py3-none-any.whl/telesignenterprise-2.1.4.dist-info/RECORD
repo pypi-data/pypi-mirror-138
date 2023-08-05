@@ -1,0 +1,13 @@
+telesignenterprise/__init__.py,sha256=D8kANX0FKxBD7-a7xQ21xPz3ojM2WAOK8lThGLtDZuE,367
+telesignenterprise/appverify.py,sha256=90wb2tqa3u86gTeF8yn6fay4yiXV4l01ys84ngUpARA,2314
+telesignenterprise/messaging.py,sha256=IPsDaLSTYBMGjomQXf9SqZoZLtrfph8SIlT5_68-E5c,576
+telesignenterprise/phoneid.py,sha256=gXBpz6lqBST4MFiXm4QPv_FCpWmbiscZ-cVR-UtrmXk,3705
+telesignenterprise/score.py,sha256=0mxL-A_qfvG7MyMCwc4JXXmc9LWbUGoH822Y7mqDy0k,421
+telesignenterprise/telebureau.py,sha256=jxg8NggJOhk3Uv187LO4XTHGfvhoYBEEZU-b96fp7T8,2276
+telesignenterprise/verify.py,sha256=ss6ScAgJ5k8Aek00O0rTVnWn6Urnza48rujUymk1qrw,3849
+telesignenterprise/voice.py,sha256=mCNLkhl6J8dslk9iEQME-7XMlAo9kXCh2vIdlSJCxX8,563
+telesignenterprise-2.1.4.dist-info/LICENSE,sha256=CRuAwvVPZzLN5rgvrQjAHLwVkOszW-xK77Iy_v39ApY,1058
+telesignenterprise-2.1.4.dist-info/METADATA,sha256=vUNQhOEZxhoAMXwm_bMOAP0jT4mHxpyiGh_JTaeD-cc,930
+telesignenterprise-2.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+telesignenterprise-2.1.4.dist-info/top_level.txt,sha256=7EojlZHut-JRUg9pdP10e-AKDcRdiu2PIoh0bpXHhlI,19
+telesignenterprise-2.1.4.dist-info/RECORD,,
