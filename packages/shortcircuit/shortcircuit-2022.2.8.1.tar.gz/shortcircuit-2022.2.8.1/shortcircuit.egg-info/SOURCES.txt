@@ -1,0 +1,12 @@
+README.md
+setup.py
+shortcircuit/__init__.py
+shortcircuit.egg-info/PKG-INFO
+shortcircuit.egg-info/SOURCES.txt
+shortcircuit.egg-info/dependency_links.txt
+shortcircuit.egg-info/requires.txt
+shortcircuit.egg-info/top_level.txt
+shortcircuit.egg-info/zip-safe
+shortcircuit/number5/Number5.py
+shortcircuit/number5/Thing.py
+shortcircuit/number5/__init__.py
