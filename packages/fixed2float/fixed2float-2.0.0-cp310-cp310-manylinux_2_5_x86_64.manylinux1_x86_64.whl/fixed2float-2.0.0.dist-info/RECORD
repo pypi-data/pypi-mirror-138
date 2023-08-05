@@ -1,0 +1,5 @@
+fixed2float-2.0.0.dist-info/METADATA,sha256=rnMVdrttiree4hMAAU5Ba6iZ5KKgnw_D_7uLydqQYTI,1699
+fixed2float-2.0.0.dist-info/WHEEL,sha256=qrM1calfJYfW6g2yU4crh96ecvJGWKE1Q6UNmmcYmCE,134
+fixed2float/__init__.py,sha256=PZbTYSOB7b8W0GOqkcaWcOHDH4paONsHf7WEUBnm5YY,321
+fixed2float/fixed2float.cpython-310-x86_64-linux-gnu.so,sha256=_drhAdTMSDmd2KFpaWtbRrAajwL_rJYrVhnasG4CZNA,461200
+fixed2float-2.0.0.dist-info/RECORD,,
