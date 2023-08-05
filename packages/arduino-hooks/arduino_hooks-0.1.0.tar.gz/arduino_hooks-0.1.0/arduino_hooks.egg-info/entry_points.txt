@@ -1,0 +1,3 @@
+[console_scripts]
+arduino-lint-hook = arduino_hooks.arduino_lint:main
+

@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+arduino_hooks/__init__.py
+arduino_hooks/arduino_lint.py
+arduino_hooks.egg-info/PKG-INFO
+arduino_hooks.egg-info/SOURCES.txt
+arduino_hooks.egg-info/dependency_links.txt
+arduino_hooks.egg-info/entry_points.txt
+arduino_hooks.egg-info/requires.txt
+arduino_hooks.egg-info/top_level.txt
