@@ -1,0 +1,7 @@
+defusedxml
+protobuf
+pycryptodomex
+pyogg
+requests
+websocket-client
+zeroconf
