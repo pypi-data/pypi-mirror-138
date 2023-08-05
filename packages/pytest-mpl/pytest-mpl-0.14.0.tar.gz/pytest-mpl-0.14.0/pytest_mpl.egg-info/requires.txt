@@ -1,0 +1,10 @@
+pytest
+matplotlib
+packaging
+Jinja2
+
+[:python_version < "3.8"]
+importlib_resources
+
+[test]
+pytest-cov
