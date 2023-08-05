@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+confetta/__init__.py
+confetta/_docker_ports.py
+confetta/_docker_service.py
+confetta/_git_folder_name.py
+confetta/py.typed
+confetta.egg-info/PKG-INFO
+confetta.egg-info/SOURCES.txt
+confetta.egg-info/dependency_links.txt
+confetta.egg-info/requires.txt
+confetta.egg-info/top_level.txt
