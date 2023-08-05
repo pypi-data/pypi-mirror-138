@@ -1,0 +1,13 @@
+Phemus/Aequitas_Fully_Directed_Sklearn.py,sha256=3HI_MjJeIskfkKlCziNBSNcpH1XI1HckFepT0j0MJps,10197
+Phemus/Dataset.py,sha256=t3sdoiAibcI7QLWKSSfT1eLpaWf4iqSl6g-1Afo1f90,707
+Phemus/Generate_Sklearn_Classifier.py,sha256=0OVOC4sbPrZGSG35jb04GsEWWBMWbaRUwzOqwoeM8dw,2252
+Phemus/Retrain_Sklearn.py,sha256=MCp9-8-Am6tGfNpsmzovUOOBJxMtVmHta2pmzv62odk,5758
+Phemus/Run_Aequitas.py,sha256=wx_5HOEzB5q66YKT7f_j4qfnthBK9VvHd1zEPJAQoro,868
+Phemus/Sklearn_Estimation.py,sha256=cZX4qQ1QJBYHoes6Fh8AXXj8E8dqsS9NN6cFtUPuzzQ,2682
+Phemus/__init__.py,sha256=sA-41qedrtWeJYJcMPEW8LkIr4zFGfsQahnYCAcmX1w,492
+Phemus/mpFully_Direct.py,sha256=uGmG9aeVUslHVI7-Gr6om5mmczbRmjcNXqAMSyzKlTM,1889
+Phemus/utils.py,sha256=nw0bR_GsKIofa7SF0hNbSAb7aYmksZSA7Ws_L0MvMTE,28209
+Phemus-0.1.7.dist-info/METADATA,sha256=YxdeErzTskFC2piQVqyYjJ0KB4qv_yThs80XqA-8ZNA,1070
+Phemus-0.1.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Phemus-0.1.7.dist-info/top_level.txt,sha256=IJomL_igQHLewXRb_jQw990k_Cw4HTArbzl5HvWPiCo,7
+Phemus-0.1.7.dist-info/RECORD,,
