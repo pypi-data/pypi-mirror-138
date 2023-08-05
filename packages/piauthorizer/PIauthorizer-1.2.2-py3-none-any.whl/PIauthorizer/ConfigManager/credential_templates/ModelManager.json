@@ -1,0 +1,21 @@
+{
+    "name": "ModelManager",
+    "displayName": "AI.ModelManager",
+    "configurations": [
+        {
+            "$type": "TextConfiguration",
+            "defaultValue": {
+                "value": "{   \"spacy\":{     \"default\":false,     \"models\":[       {         \"download_scenario\":\"dataservices\",         \"language\":\"nl\",         \"client\":\"research\",         \"version\":\"42628\",         \"device\":\"cpu\"       },       {         \"download_scenario\":\"dataservices\",         \"language\":\"en\",         \"client\":\"research\",         \"version\":\"trf-3-1-0\",         \"device\":\"gpu\"       }     ]   },   \"bertclassifier\":{     \"default\":false,     \"models\":[       {         \"download_scenario\":\"dataservices\",         \"language\":\"en\",         \"client\":\"research\",         \"version\":\"35797\",         \"device\":\"cpu\"       },       {         \"download_scenario\":\"dataservices\",         \"language\":\"nl\",         \"client\":\"research\",         \"version\":\"35797\",         \"device\":\"cpu\"       }     ]   },   \"sentimentclassifier\":{     \"default\":false,     \"models\":[       {         \"download_scenario\":\"dataservices\",         \"language\":\"en\",         \"client\":\"research\",         \"version\":\"1\",         \"device\":\"cpu\"       },       {         \"download_scenario\":\"dataservices\",         \"language\":\"nl\",         \"client\":\"research\",         \"version\":\"1\",         \"device\":\"cpu\"       }     ]   },   \"coref\":{     \"default\":false,     \"models\":[       {         \"download_scenario\":\"dataservices\",         \"language\":\"en\",         \"client\":\"default\",         \"version\":\"trf-3-1-0\",         \"device\":\"gpu\"       },       {         \"download_scenario\":\"dataservices\",         \"language\":\"nl\",         \"client\":\"research\",         \"version\":\"2020-2-27\",         \"device\":\"gpu\"       }     ]   },   \"srl\":{     \"default\":false,     \"models\":[       {         \"download_scenario\":\"dataservices\",         \"language\":\"en\",         \"client\":\"research\",         \"version\":\"2020-12-15\",         \"device\":\"gpu\"       }     ]   },   \"word2vec\":{     \"default\":false,     \"models\":[       {         \"download_scenario\":\"dataservices\",         \"language\":\"en\",         \"client\":\"default\",         \"version\":\"1\",         \"device\":\"cpu\"       },       {         \"download_scenario\":\"dataservices\",         \"language\":\"nl\",         \"client\":\"default\",         \"version\":\"1\",         \"device\":\"cpu\"       }     ]   },   \"sense2vec\":{     \"default\":false,     \"models\":[       {         \"download_scenario\":\"dataservices\",         \"language\":\"en\",         \"client\":\"research\",         \"version\":\"1\",         \"device\":\"cpu\"       },       {         \"download_scenario\":\"dataservices\",         \"language\":\"nl\",         \"client\":\"research\",         \"version\":\"1\",         \"device\":\"cpu\"       }     ]   },   \"sentence2vec\":{     \"default\":false,     \"models\":[       {         \"download_scenario\":\"dataservices\",         \"language\":\"xx\",         \"client\":\"research\",         \"version\":\"1\",         \"device\":\"gpu\"       }     ]   } }"
+            },
+            "required": false,
+            "key": "MODELS_JSON",
+            "name": "Model Configuration JSON",
+            "description": "Model Configuration JSON",
+            "tenants": [
+                "research"
+            ],
+            "audience": "PandoraAdmin",
+            "metadata": []
+        }
+    ]
+}
