@@ -1,0 +1,9 @@
+README.md
+setup.py
+torch_print_summary.egg-info/PKG-INFO
+torch_print_summary.egg-info/SOURCES.txt
+torch_print_summary.egg-info/dependency_links.txt
+torch_print_summary.egg-info/top_level.txt
+torchtools/__init__.py
+torchtools/hooks.py
+torchtools/utils.py
