@@ -1,0 +1,10 @@
+stannum/__init__.py,sha256=w-ZGdS747wOaLyu9o4Jr64Ww4HgSmAQRpHch-fQqPG8,93
+stannum/auxiliary.py,sha256=yNIPhyovDnGv_DFs_9hrb6jW9sc25vi-2WAEAA_Gbp4,2111
+stannum/tin.py,sha256=Kt_3dZSd9sRK0oj6Pf7_88Z4Z7jDoSJIWe_pPq__htY,15966
+stannum/tube.py,sha256=Tb93awZiX1_bCTMbG7DyeG1Vs5YgqXrEhoS6NxLfsWw,32680
+stannum/utils.py,sha256=2NcfoEQWNU1Ph53e_REqpa0mLOClC-1-a-h6LCUMAq8,1563
+stannum-0.4.4b0.dist-info/LICENSE,sha256=pxlSslyGqrpUEwt9QBlS5INiQaDkU_kYwTkMtlR5Qm8,1066
+stannum-0.4.4b0.dist-info/METADATA,sha256=CBa0Gx5crhtP_5uQvxfXv8zlJpNuSUU13-xzF-jgioQ,10385
+stannum-0.4.4b0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+stannum-0.4.4b0.dist-info/top_level.txt,sha256=rxjGETCP67rjHk1HjhSM9OJlvX_YP8Ak_TbI9NBBsio,8
+stannum-0.4.4b0.dist-info/RECORD,,
