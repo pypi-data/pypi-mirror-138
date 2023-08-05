@@ -1,0 +1,14 @@
+headwaters/__init__.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+headwaters/cli.py,sha256=bWs5jUQxabzuYPooXSUPEpbXUi0JzPYBxa-RyUN2OpA,520
+headwaters/jubblydata.json,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+headwaters/moredata.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+headwaters/serverA.py,sha256=Iqp61tR8GDyy3SvLnGp_NrtiU3gLwGyA55e2CqZb8uI,255
+headwaters/serverB.py,sha256=eqkLqrNfJn6_kmea3TVvtpna4CiTGARhLAsPVyGke8M,223
+headwaters/serverC/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+headwaters/serverC/serverC.py,sha256=tNSw0mfpWq0jNEv1elUEb8bwmfjmV9VCCEy-r8Mq8rA,341
+headwaters-0.0.4.dist-info/LICENSE.md,sha256=0WY-qETRJQXi8UJzhqUB0XE8My7itWMkNFoX_wWRzMg,1070
+headwaters-0.0.4.dist-info/METADATA,sha256=gqIJK-XAkWupOt0pe_R3JDkWk1-kR5HrheARwM-kN_8,761
+headwaters-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+headwaters-0.0.4.dist-info/entry_points.txt,sha256=raJZkRIqxQleZ9v5L2BkEUks9CP4z7TTRoLj5FjZ_nE,44
+headwaters-0.0.4.dist-info/top_level.txt,sha256=dYTGA0w4Ydin838nUEkT08Iph_eP1KHT4obnBxB40no,11
+headwaters-0.0.4.dist-info/RECORD,,
