@@ -1,0 +1,3 @@
+[console_scripts]
+rtairegulatory=rtairegulatory.__main__:app
+

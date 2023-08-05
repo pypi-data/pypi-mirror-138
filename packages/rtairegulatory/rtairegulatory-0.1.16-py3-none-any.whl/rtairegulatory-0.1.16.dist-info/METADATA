@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rtairegulatory
+Version: 0.1.16
+Summary: Radiotherapy AI's Regulatory Documentation Manager
+License: Apache-2.0
+Author: Simon Biggs
+Author-email: simon.biggs@radiotherapy.ai
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: jupyter-book (>=0.12.1,<0.13.0)
+Requires-Dist: typer (>=0.4.0,<0.5.0)
