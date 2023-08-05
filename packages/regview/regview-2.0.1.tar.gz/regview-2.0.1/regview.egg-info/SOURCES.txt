@@ -1,0 +1,13 @@
+README.md
+regview
+setup.py
+_regview/__init__.py
+_regview/auth.py
+_regview/docker_registry.py
+_regview/utils.py
+regview.egg-info/PKG-INFO
+regview.egg-info/SOURCES.txt
+regview.egg-info/dependency_links.txt
+regview.egg-info/not-zip-safe
+regview.egg-info/requires.txt
+regview.egg-info/top_level.txt
