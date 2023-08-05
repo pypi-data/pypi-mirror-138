@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: phantasy-machines
+Version: 5.0.6
+Summary: Machine configuration files for PHANTASY
+Home-page: https://github.com/phantasy-project/phantasy-machines
+Author: Tong Zhang
+Author-email: zhangt@frib.msu.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# machines
+Configuration files for both virtual accelerator and physical FRIB accelerator.
+
+### Run with FLAME model engine:
+
+```
+phytool flame-vastart --mach <machine-name> --subm <segment-name> -v
+```
+`machine-name` could be: `FRIB`, `FRIB_VA`, `segment-name` defined in `phantasy.ini` file.
+
+### Model Machine with `phantasy`:
+
+```
+>>> import phantasy
+>>>
+>>> # e.g. machine-name: 'FRIB', segment: 'MEBT' (default if skipped)
+>>> mp = phantasy.MachinePortal(machine='<machine-name>', segment='<segment-name>')
+>>>
+>>> # get all device types
+>>> mp.get_all_types()
+>>>
+>>> # get elements by name/type/location
+>>> mp.get_elements()
+>>>
+>>> # get elements regarding to reference elements
+>>> mp.next_elements()
+>>> lat = mp.work_lattice_conf
+>>>
+>>> # sync settings from accelerator (VA or REAL)
+>>> lat.sync_settings(data_source='control')
+>>>
+>>> # sync settings from model to accelerator
+>>> lat.sync_settings(data_source='model')
+>>>
+>>> # get the FLAME lattice file
+>>> latfile, fm = lat.run()
+>>> # ...
+```
+
+

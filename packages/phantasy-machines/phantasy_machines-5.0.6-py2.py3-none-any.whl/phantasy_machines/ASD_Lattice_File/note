@@ -1,0 +1,34 @@
+About Strip element:
+    1: Add '#stripper' before and after STRIPPER, see PS1
+    2: Treat 'stripper module'/'carbon stripper chamber' as drift
+    3: If only 'stripper module' is used to wrap STRIPPER, replace
+       'stripper module' with '#stripper', see PS2
+
+PS1: other elements are mixed into STRIPPER unit.
+PS2: only STRIPPER element.
+
+Tong Zhang <zhangt@frib.msu.edu>
+2017-08-11 14:16:22 PM EDT
+
+---------------------------------------------------------------------------
+
+FRIB_ES_LatticeFile_F1_20210528.xlsx
+1. Change the length of S, OCT (Q,S,OCT combo) to 0 (column K)
+2. Inherit Device Type of Q for S and OCT (combo), (column F)
+
+Tong Zhang <zhangt@frib.msu.edu>
+2021-06-25 08:32:26 EDT
+
+FRIB_ES_LatticeFile_F1_20210729.xlsx
+1. Change the length of S, OCT (Q,S,OCT combo) to 0 (column K)
+2. Inherit Device Type of Q for S and OCT (combo), (column F)
+
+Tong Zhang <zhangt@frib.msu.edu>
+2021-07-30 13:50:13 EDT
+
+FRIB_ES_LatticeFile_F2_20220112.xlsx
+1. Change the length of S, OCT (Q,S,OCT combo) to 0 (column K)
+2. Inherit Device Type of Q for S and OCT (combo), (column F)
+
+Tong Zhang <zhangt@frib.msu.edu>
+2022-01-19 10:22:40 EST

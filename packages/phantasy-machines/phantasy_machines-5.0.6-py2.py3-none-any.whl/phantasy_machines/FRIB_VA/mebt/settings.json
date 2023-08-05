@@ -1,0 +1,72 @@
+{
+  "FE_MEBT:Q_D1057": {
+    "B2": 21.5
+  }, 
+  "FE_MEBT:Q_D1060": {
+    "B2": -22.2
+  }, 
+  "FE_MEBT:Q_D1062": {
+    "B2": 21.5
+  }, 
+  "FE_MEBT:DCH_D1062": {
+    "TM": 0.0
+  }, 
+  "FE_MEBT:DCV_D1062": {
+    "TM": 0.0
+  }, 
+  "FE_MEBT:CAV_D1066": {
+    "PHASE": -90.0, 
+    "AMPLITUDE": 0.84, 
+    "FREQ": 80500000.0
+  }, 
+  "FE_MEBT:Q_D1074": {
+    "B2": 20.4
+  }, 
+  "FE_MEBT:Q_D1076": {
+    "B2": -19.8
+  }, 
+  "FE_MEBT:Q_D1078": {
+    "B2": 17.1
+  }, 
+  "FE_MEBT:DCH_D1078": {
+    "TM": 0.0
+  }, 
+  "FE_MEBT:DCV_D1078": {
+    "TM": 0.0
+  }, 
+  "FE_MEBT:Q_D1095": {
+    "B2": 17.1
+  }, 
+  "FE_MEBT:Q_D1098": {
+    "B2": -19.0
+  }, 
+  "FE_MEBT:Q_D1100": {
+    "B2": 15.4
+  }, 
+  "FE_MEBT:DCH_D1100": {
+    "TM": 0.0
+  }, 
+  "FE_MEBT:DCV_D1100": {
+    "TM": 0.0
+  }, 
+  "FE_MEBT:CAV_D1107": {
+    "PHASE": -90.0, 
+    "AMPLITUDE": 1.077, 
+    "FREQ": 80500000.0
+  }, 
+  "FE_MEBT:Q_D1113": {
+    "B2": 19.5
+  }, 
+  "FE_MEBT:Q_D1115": {
+    "B2": -20.8
+  }, 
+  "FE_MEBT:Q_D1117": {
+    "B2": 18.4
+  }, 
+  "FE_MEBT:DCH_D1117": {
+    "TM": 0.0
+  }, 
+  "FE_MEBT:DCV_D1117": {
+    "TM": 0.0
+  }
+}

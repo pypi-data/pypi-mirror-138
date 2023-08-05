@@ -1,0 +1,2682 @@
+{
+  "FE_SCS1:SOLR_D0704": {
+    "B": 0.0
+  },
+  "FE_SCS1:DCH_D0709": {
+    "TM": 0.0
+  },
+  "FE_SCS1:DCV_D0709": {
+    "TM": 0.0
+  },
+  "FE_SCS1:DH_D0717": {
+    "B": 0.0,
+    "ANG": 0.0,
+    "ENTANG": 0.0,
+    "EXTANG": 0.0
+  },
+  "FE_SCS1:DCH_D0723": {
+    "TM": 0.0
+  },
+  "FE_SCS1:DCV_D0723": {
+    "TM": 0.0
+  },
+  "FE_SCS1:QHE_D0726": {
+    "VOLT": 0.0
+  },
+  "FE_SCS1:QVE_D0730": {
+    "VOLT": 0.0
+  },
+  "FE_SCS1:QHE_D0733": {
+    "VOLT": 0.0
+  },
+  "FE_SCS1:QHE_D0743": {
+    "VOLT": 0.0
+  },
+  "FE_SCS1:QVE_D0746": {
+    "VOLT": 0.0
+  },
+  "FE_SCS1:QHE_D0749": {
+    "VOLT": 0.0
+  },
+  "FE_LEBT:DH_D0759": {
+    "B": 0.0,
+    "ANG": 0.0,
+    "ENTANG": 0.0,
+    "EXTANG": 0.0
+  },
+  "FE_LEBT:QVE_D0767": {
+    "VOLT": 0.0
+  },
+  "FE_LEBT:QHE_D0770": {
+    "VOLT": 0.0
+  },
+  "FE_LEBT:DCH_D0773": {
+    "TM": 0.0
+  },
+  "FE_LEBT:DCV_D0773": {
+    "TM": 0.0
+  },
+  "FE_LEBT:QHE_D0776": {
+    "VOLT": 0.0
+  },
+  "FE_LEBT:QVE_D0780": {
+    "VOLT": 0.0
+  },
+  "FE_LEBT:SOLR_D0787": {
+    "B": 0.0
+  },
+  "FE_LEBT:DCH_D0790": {
+    "TM": 0.0
+  },
+  "FE_LEBT:DCV_D0790": {
+    "TM": 0.0
+  },
+  "FE_LEBT:SOLR_D0802": {
+    "B": 0.0
+  },
+  "FE_LEBT:DCH_D0805": {
+    "TM": 0.0
+  },
+  "FE_LEBT:DCV_D0805": {
+    "TM": 0.0
+  },
+  "FE_LEBT:SOLR_D0818": {
+    "B": 0.0
+  },
+  "FE_LEBT:DCH_D0821": {
+    "TM": 0.0
+  },
+  "FE_LEBT:DCV_D0821": {
+    "TM": 0.0
+  },
+  "FE_LEBT:DVE_D0833": {
+    "VOLT": 0.0
+  },
+  "FE_LEBT:DCH_D0840": {
+    "TM": 0.0
+  },
+  "FE_LEBT:DCV_D0840": {
+    "TM": 0.0
+  },
+  "FE_LEBT:QHE_D0844": {
+    "VOLT": 0.0
+  },
+  "FE_LEBT:QVE_D0848": {
+    "VOLT": 0.0
+  },
+  "FE_LEBT:QHE_D0851": {
+    "VOLT": 0.0
+  },
+  "FE_LEBT:DCH_D0868": {
+    "TM": 0.0
+  },
+  "FE_LEBT:DCV_D0868": {
+    "TM": 0.0
+  },
+  "FE_LEBT:QVE_D0871": {
+    "VOLT": 0.0
+  },
+  "FE_LEBT:QHE_D0874": {
+    "VOLT": 0.0
+  },
+  "FE_LEBT:QVE_D0878": {
+    "VOLT": 0.0
+  },
+  "FE_LEBT:DCH_D0880": {
+    "TM": 0.0
+  },
+  "FE_LEBT:DCV_D0880": {
+    "TM": 0.0
+  },
+  "FE_LEBT:QVE_D0891": {
+    "VOLT": 0.0
+  },
+  "FE_LEBT:QHE_D0895": {
+    "VOLT": 0.0
+  },
+  "FE_LEBT:QVE_D0898": {
+    "VOLT": 0.0
+  },
+  "FE_LEBT:DCH_D0901": {
+    "TM": 0.0
+  },
+  "FE_LEBT:DCV_D0901": {
+    "TM": 0.0
+  },
+  "FE_LEBT:QHE_D0918": {
+    "VOLT": 0.0
+  },
+  "FE_LEBT:QVE_D0921": {
+    "VOLT": 0.0
+  },
+  "FE_LEBT:QHE_D0924": {
+    "VOLT": 0.0
+  },
+  "FE_LEBT:DCH_D0929": {
+    "TM": 0.0
+  },
+  "FE_LEBT:DCV_D0929": {
+    "TM": 0.0
+  },
+  "FE_LEBT:DVE_D0936": {
+    "VOLT": 0.0
+  },
+  "FE_LEBT:DCH_D0948": {
+    "TM": 0.0
+  },
+  "FE_LEBT:DCV_D0948": {
+    "TM": 0.0
+  },
+  "FE_LEBT:SOLR_D0951": {
+    "B": 0.0
+  },
+  "FE_LEBT:DCH_D0964": {
+    "TM": 0.0
+  },
+  "FE_LEBT:DCV_D0964": {
+    "TM": 0.0
+  },
+  "FE_LEBT:SOLR_D0967": {
+    "B": 0.0
+  },
+  "FE_LEBT:DCH_D0979": {
+    "TM": 0.0
+  },
+  "FE_LEBT:DCV_D0979": {
+    "TM": 0.0
+  },
+  "FE_LEBT:SOLR_D0982": {
+    "B": 0.0
+  },
+  "FE_LEBT:CAV_D0987": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "FE_LEBT:DCH_D0992": {
+    "TM": 0.0
+  },
+  "FE_LEBT:DCV_D0992": {
+    "TM": 0.0
+  },
+  "FE_LEBT:SOLR_D0995": {
+    "B": 0.0
+  },
+  "FE_LEBT:CAV_D0999": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "FE_MEBT:Q_D1057": {
+    "B2": 0.0
+  },
+  "FE_MEBT:Q_D1060": {
+    "B2": 0.0
+  },
+  "FE_MEBT:Q_D1062": {
+    "B2": 0.0
+  },
+  "FE_MEBT:DCH_D1062": {
+    "TM": 0.0
+  },
+  "FE_MEBT:DCV_D1062": {
+    "TM": 0.0
+  },
+  "FE_MEBT:CAV_D1066": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "FE_MEBT:Q_D1074": {
+    "B2": 0.0
+  },
+  "FE_MEBT:Q_D1076": {
+    "B2": 0.0
+  },
+  "FE_MEBT:Q_D1078": {
+    "B2": 0.0
+  },
+  "FE_MEBT:DCH_D1078": {
+    "TM": 0.0
+  },
+  "FE_MEBT:DCV_D1078": {
+    "TM": 0.0
+  },
+  "FE_MEBT:Q_D1095": {
+    "B2": 0.0
+  },
+  "FE_MEBT:Q_D1098": {
+    "B2": 0.0
+  },
+  "FE_MEBT:Q_D1100": {
+    "B2": 0.0
+  },
+  "FE_MEBT:DCH_D1100": {
+    "TM": 0.0
+  },
+  "FE_MEBT:DCV_D1100": {
+    "TM": 0.0
+  },
+  "FE_MEBT:CAV_D1107": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "FE_MEBT:Q_D1113": {
+    "B2": 0.0
+  },
+  "FE_MEBT:Q_D1115": {
+    "B2": 0.0
+  },
+  "FE_MEBT:Q_D1117": {
+    "B2": 0.0
+  },
+  "FE_MEBT:DCH_D1117": {
+    "TM": 0.0
+  },
+  "FE_MEBT:DCV_D1117": {
+    "TM": 0.0
+  },
+  "LS1_CA01:CAV1_D1127": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CA01:SOL1_D1132": {
+    "B": 0.0
+  },
+  "LS1_CA01:DCH_D1132": {
+    "TM": 0.0
+  },
+  "LS1_CA01:DCV_D1132": {
+    "TM": 0.0
+  },
+  "LS1_CA01:CAV2_D1136": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CA01:CAV3_D1142": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CA01:SOL2_D1146": {
+    "B": 0.0
+  },
+  "LS1_CA01:DCH_D1146": {
+    "TM": 0.0
+  },
+  "LS1_CA01:DCV_D1146": {
+    "TM": 0.0
+  },
+  "LS1_CA01:CAV4_D1150": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CA02:CAV1_D1161": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CA02:SOL1_D1165": {
+    "B": 0.0
+  },
+  "LS1_CA02:DCH_D1165": {
+    "TM": 0.0
+  },
+  "LS1_CA02:DCV_D1165": {
+    "TM": 0.0
+  },
+  "LS1_CA02:CAV2_D1169": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CA02:CAV3_D1176": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CA02:SOL2_D1180": {
+    "B": 0.0
+  },
+  "LS1_CA02:DCH_D1180": {
+    "TM": 0.0
+  },
+  "LS1_CA02:DCV_D1180": {
+    "TM": 0.0
+  },
+  "LS1_CA02:CAV4_D1184": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CA03:CAV1_D1195": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CA03:SOL1_D1199": {
+    "B": 0.0
+  },
+  "LS1_CA03:DCH_D1199": {
+    "TM": 0.0
+  },
+  "LS1_CA03:DCV_D1199": {
+    "TM": 0.0
+  },
+  "LS1_CA03:CAV2_D1203": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CA03:CAV3_D1209": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CA03:SOL2_D1214": {
+    "B": 0.0
+  },
+  "LS1_CA03:DCH_D1214": {
+    "TM": 0.0
+  },
+  "LS1_CA03:DCV_D1214": {
+    "TM": 0.0
+  },
+  "LS1_CA03:CAV4_D1218": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB01:CAV1_D1229": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB01:SOL1_D1235": {
+    "B": 0.0
+  },
+  "LS1_CB01:DCH_D1235": {
+    "TM": 0.0
+  },
+  "LS1_CB01:DCV_D1235": {
+    "TM": 0.0
+  },
+  "LS1_CB01:CAV2_D1241": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB01:CAV3_D1245": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB01:CAV4_D1249": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB01:SOL2_D1255": {
+    "B": 0.0
+  },
+  "LS1_CB01:DCH_D1255": {
+    "TM": 0.0
+  },
+  "LS1_CB01:DCV_D1255": {
+    "TM": 0.0
+  },
+  "LS1_CB01:CAV5_D1261": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB01:CAV6_D1265": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB01:CAV7_D1269": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB01:SOL3_D1275": {
+    "B": 0.0
+  },
+  "LS1_CB01:DCH_D1275": {
+    "TM": 0.0
+  },
+  "LS1_CB01:DCV_D1275": {
+    "TM": 0.0
+  },
+  "LS1_CB01:CAV8_D1281": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB02:CAV1_D1293": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB02:SOL1_D1299": {
+    "B": 0.0
+  },
+  "LS1_CB02:DCH_D1299": {
+    "TM": 0.0
+  },
+  "LS1_CB02:DCV_D1299": {
+    "TM": 0.0
+  },
+  "LS1_CB02:CAV2_D1305": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB02:CAV3_D1309": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB02:CAV4_D1313": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB02:SOL2_D1319": {
+    "B": 0.0
+  },
+  "LS1_CB02:DCH_D1319": {
+    "TM": 0.0
+  },
+  "LS1_CB02:DCV_D1319": {
+    "TM": 0.0
+  },
+  "LS1_CB02:CAV5_D1325": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB02:CAV6_D1329": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB02:CAV7_D1333": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB02:SOL3_D1339": {
+    "B": 0.0
+  },
+  "LS1_CB02:DCH_D1339": {
+    "TM": 0.0
+  },
+  "LS1_CB02:DCV_D1339": {
+    "TM": 0.0
+  },
+  "LS1_CB02:CAV8_D1345": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB03:CAV1_D1356": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB03:SOL1_D1363": {
+    "B": 0.0
+  },
+  "LS1_CB03:DCH_D1363": {
+    "TM": 0.0
+  },
+  "LS1_CB03:DCV_D1363": {
+    "TM": 0.0
+  },
+  "LS1_CB03:CAV2_D1368": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB03:CAV3_D1372": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB03:CAV4_D1376": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB03:SOL2_D1383": {
+    "B": 0.0
+  },
+  "LS1_CB03:DCH_D1383": {
+    "TM": 0.0
+  },
+  "LS1_CB03:DCV_D1383": {
+    "TM": 0.0
+  },
+  "LS1_CB03:CAV5_D1388": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB03:CAV6_D1392": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB03:CAV7_D1396": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB03:SOL3_D1403": {
+    "B": 0.0
+  },
+  "LS1_CB03:DCH_D1403": {
+    "TM": 0.0
+  },
+  "LS1_CB03:DCV_D1403": {
+    "TM": 0.0
+  },
+  "LS1_CB03:CAV8_D1408": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB04:CAV1_D1420": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB04:SOL1_D1426": {
+    "B": 0.0
+  },
+  "LS1_CB04:DCH_D1426": {
+    "TM": 0.0
+  },
+  "LS1_CB04:DCV_D1426": {
+    "TM": 0.0
+  },
+  "LS1_CB04:CAV2_D1432": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB04:CAV3_D1436": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB04:CAV4_D1440": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB04:SOL2_D1446": {
+    "B": 0.0
+  },
+  "LS1_CB04:DCH_D1446": {
+    "TM": 0.0
+  },
+  "LS1_CB04:DCV_D1446": {
+    "TM": 0.0
+  },
+  "LS1_CB04:CAV5_D1452": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB04:CAV6_D1456": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB04:CAV7_D1460": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB04:SOL3_D1466": {
+    "B": 0.0
+  },
+  "LS1_CB04:DCH_D1466": {
+    "TM": 0.0
+  },
+  "LS1_CB04:DCV_D1466": {
+    "TM": 0.0
+  },
+  "LS1_CB04:CAV8_D1472": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB05:CAV1_D1484": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB05:SOL1_D1490": {
+    "B": 0.0
+  },
+  "LS1_CB05:DCH_D1490": {
+    "TM": 0.0
+  },
+  "LS1_CB05:DCV_D1490": {
+    "TM": 0.0
+  },
+  "LS1_CB05:CAV2_D1496": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB05:CAV3_D1500": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB05:CAV4_D1504": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB05:SOL2_D1510": {
+    "B": 0.0
+  },
+  "LS1_CB05:DCH_D1510": {
+    "TM": 0.0
+  },
+  "LS1_CB05:DCV_D1510": {
+    "TM": 0.0
+  },
+  "LS1_CB05:CAV5_D1516": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB05:CAV6_D1520": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB05:CAV7_D1524": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB05:SOL3_D1530": {
+    "B": 0.0
+  },
+  "LS1_CB05:DCH_D1530": {
+    "TM": 0.0
+  },
+  "LS1_CB05:DCV_D1530": {
+    "TM": 0.0
+  },
+  "LS1_CB05:CAV8_D1536": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB06:CAV1_D1548": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB06:SOL1_D1554": {
+    "B": 0.0
+  },
+  "LS1_CB06:DCH_D1554": {
+    "TM": 0.0
+  },
+  "LS1_CB06:DCV_D1554": {
+    "TM": 0.0
+  },
+  "LS1_CB06:CAV2_D1560": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB06:CAV3_D1564": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB06:CAV4_D1567": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB06:SOL2_D1574": {
+    "B": 0.0
+  },
+  "LS1_CB06:DCH_D1574": {
+    "TM": 0.0
+  },
+  "LS1_CB06:DCV_D1574": {
+    "TM": 0.0
+  },
+  "LS1_CB06:CAV5_D1580": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB06:CAV6_D1583": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB06:CAV7_D1587": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB06:SOL3_D1594": {
+    "B": 0.0
+  },
+  "LS1_CB06:DCH_D1594": {
+    "TM": 0.0
+  },
+  "LS1_CB06:DCV_D1594": {
+    "TM": 0.0
+  },
+  "LS1_CB06:CAV8_D1599": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB07:CAV1_D1611": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB07:SOL1_D1618": {
+    "B": 0.0
+  },
+  "LS1_CB07:DCH_D1618": {
+    "TM": 0.0
+  },
+  "LS1_CB07:DCV_D1618": {
+    "TM": 0.0
+  },
+  "LS1_CB07:CAV2_D1623": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB07:CAV3_D1627": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB07:CAV4_D1631": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB07:SOL2_D1637": {
+    "B": 0.0
+  },
+  "LS1_CB07:DCH_D1637": {
+    "TM": 0.0
+  },
+  "LS1_CB07:DCV_D1637": {
+    "TM": 0.0
+  },
+  "LS1_CB07:CAV5_D1643": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB07:CAV6_D1647": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB07:CAV7_D1651": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB07:SOL3_D1657": {
+    "B": 0.0
+  },
+  "LS1_CB07:DCH_D1657": {
+    "TM": 0.0
+  },
+  "LS1_CB07:DCV_D1657": {
+    "TM": 0.0
+  },
+  "LS1_CB07:CAV8_D1663": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB08:CAV1_D1675": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB08:SOL1_D1681": {
+    "B": 0.0
+  },
+  "LS1_CB08:DCH_D1681": {
+    "TM": 0.0
+  },
+  "LS1_CB08:DCV_D1681": {
+    "TM": 0.0
+  },
+  "LS1_CB08:CAV2_D1687": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB08:CAV3_D1691": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB08:CAV4_D1695": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB08:SOL2_D1701": {
+    "B": 0.0
+  },
+  "LS1_CB08:DCH_D1701": {
+    "TM": 0.0
+  },
+  "LS1_CB08:DCV_D1701": {
+    "TM": 0.0
+  },
+  "LS1_CB08:CAV5_D1707": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB08:CAV6_D1711": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB08:CAV7_D1715": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB08:SOL3_D1721": {
+    "B": 0.0
+  },
+  "LS1_CB08:DCH_D1721": {
+    "TM": 0.0
+  },
+  "LS1_CB08:DCV_D1721": {
+    "TM": 0.0
+  },
+  "LS1_CB08:CAV8_D1727": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB09:CAV1_D1739": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB09:SOL1_D1745": {
+    "B": 0.0
+  },
+  "LS1_CB09:DCH_D1745": {
+    "TM": 0.0
+  },
+  "LS1_CB09:DCV_D1745": {
+    "TM": 0.0
+  },
+  "LS1_CB09:CAV2_D1751": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB09:CAV3_D1755": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB09:CAV4_D1759": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB09:SOL2_D1765": {
+    "B": 0.0
+  },
+  "LS1_CB09:DCH_D1765": {
+    "TM": 0.0
+  },
+  "LS1_CB09:DCV_D1765": {
+    "TM": 0.0
+  },
+  "LS1_CB09:CAV5_D1771": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB09:CAV6_D1775": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB09:CAV7_D1779": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB09:SOL3_D1785": {
+    "B": 0.0
+  },
+  "LS1_CB09:DCH_D1785": {
+    "TM": 0.0
+  },
+  "LS1_CB09:DCV_D1785": {
+    "TM": 0.0
+  },
+  "LS1_CB09:CAV8_D1791": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB10:CAV1_D1802": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB10:SOL1_D1809": {
+    "B": 0.0
+  },
+  "LS1_CB10:DCH_D1809": {
+    "TM": 0.0
+  },
+  "LS1_CB10:DCV_D1809": {
+    "TM": 0.0
+  },
+  "LS1_CB10:CAV2_D1814": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB10:CAV3_D1818": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB10:CAV4_D1822": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB10:SOL2_D1829": {
+    "B": 0.0
+  },
+  "LS1_CB10:DCH_D1829": {
+    "TM": 0.0
+  },
+  "LS1_CB10:DCV_D1829": {
+    "TM": 0.0
+  },
+  "LS1_CB10:CAV5_D1834": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB10:CAV6_D1838": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB10:CAV7_D1842": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB10:SOL3_D1849": {
+    "B": 0.0
+  },
+  "LS1_CB10:DCH_D1849": {
+    "TM": 0.0
+  },
+  "LS1_CB10:DCV_D1849": {
+    "TM": 0.0
+  },
+  "LS1_CB10:CAV8_D1854": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB11:CAV1_D1866": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB11:SOL1_D1872": {
+    "B": 0.0
+  },
+  "LS1_CB11:DCH_D1872": {
+    "TM": 0.0
+  },
+  "LS1_CB11:DCV_D1872": {
+    "TM": 0.0
+  },
+  "LS1_CB11:CAV2_D1878": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB11:CAV3_D1882": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB11:CAV4_D1886": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB11:SOL2_D1892": {
+    "B": 0.0
+  },
+  "LS1_CB11:DCH_D1892": {
+    "TM": 0.0
+  },
+  "LS1_CB11:DCV_D1892": {
+    "TM": 0.0
+  },
+  "LS1_CB11:CAV5_D1898": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB11:CAV6_D1902": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB11:CAV7_D1906": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_CB11:SOL3_D1912": {
+    "B": 0.0
+  },
+  "LS1_CB11:DCH_D1912": {
+    "TM": 0.0
+  },
+  "LS1_CB11:DCV_D1912": {
+    "TM": 0.0
+  },
+  "LS1_CB11:CAV8_D1918": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS1_BTS:DCH_D1937": {
+    "TM": 0.0
+  },
+  "LS1_BTS:DCV_D1937": {
+    "TM": 0.0
+  },
+  "LS1_BTS:QH_D1942": {
+    "B2": 0.0
+  },
+  "LS1_BTS:QV_D1950": {
+    "B2": 0.0
+  },
+  "LS1_BTS:DCH_D1964": {
+    "TM": 0.0
+  },
+  "LS1_BTS:DCV_D1964": {
+    "TM": 0.0
+  },
+  "LS1_BTS:QH_D1969": {
+    "B2": 0.0
+  },
+  "LS1_BTS:QV_D1976": {
+    "B2": 0.0
+  },
+  "LS1_BTS:DCH_D1997": {
+    "TM": 0.0
+  },
+  "LS1_BTS:DCV_D1997": {
+    "TM": 0.0
+  },
+  "LS1_BTS:QH_D2002": {
+    "B2": 0.0
+  },
+  "LS1_BTS:QV_D2013": {
+    "B2": 0.0
+  },
+  "LS1_BTS:DCH_D2024": {
+    "TM": 0.0
+  },
+  "LS1_BTS:DCV_D2024": {
+    "TM": 0.0
+  },
+  "LS1_BTS:QH_D2029": {
+    "B2": 0.0
+  },
+  "LS1_BTS:QV_D2042": {
+    "B2": 0.0
+  },
+  "LS1_BTS:DCH_D2061": {
+    "TM": 0.0
+  },
+  "LS1_BTS:DCV_D2061": {
+    "TM": 0.0
+  },
+  "LS1_BTS:QV_D2066": {
+    "B2": 0.0
+  },
+  "LS1_BTS:QH_D2073": {
+    "B2": 0.0
+  },
+  "LS1_BTS:DCH_D2114": {
+    "TM": 0.0
+  },
+  "LS1_BTS:DCV_D2114": {
+    "TM": 0.0
+  },
+  "LS1_BTS:QV_D2118": {
+    "B2": 0.0
+  },
+  "LS1_BTS:QH_D2126": {
+    "B2": 0.0
+  },
+  "FS1_CSS:DH_D2163": {
+    "B": 0.0,
+    "ANG": 0.0,
+    "ENTANG": 0.0,
+    "EXTANG": 0.0
+  },
+  "FS1_CSS:DH_D2169": {
+    "B": 0.0,
+    "ANG": 0.0,
+    "ENTANG": 0.0,
+    "EXTANG": 0.0
+  },
+  "FS1_CSS:DH_D2174": {
+    "B": 0.0,
+    "ANG": 0.0,
+    "ENTANG": 0.0,
+    "EXTANG": 0.0
+  },
+  "FS1_CSS:DH_D2180": {
+    "B": 0.0,
+    "ANG": 0.0,
+    "ENTANG": 0.0,
+    "EXTANG": 0.0
+  },
+  "FS1_CSS:DCH_D2189": {
+    "TM": 0.0
+  },
+  "FS1_CSS:DCV_D2189": {
+    "TM": 0.0
+  },
+  "FS1_CSS:QH_D2194": {
+    "B2": 0.0
+  },
+  "FS1_CSS:QV_D2202": {
+    "B2": 0.0
+  },
+  "FS1_CSS:DCH_D2210": {
+    "TM": 0.0
+  },
+  "FS1_CSS:DCV_D2210": {
+    "TM": 0.0
+  },
+  "FS1_CSS:QH_D2215": {
+    "B2": 0.0
+  },
+  "FS1_CSS:QV_D2220": {
+    "B2": 0.0
+  },
+  "FS1_CSS:QV_D2254": {
+    "B2": 0.0
+  },
+  "FS1_CSS:DCH_D2257": {
+    "TM": 0.0
+  },
+  "FS1_CSS:DCV_D2257": {
+    "TM": 0.0
+  },
+  "FS1_CSS:QH_D2260": {
+    "B2": 0.0
+  },
+  "FS1_CSS:QV_D2272": {
+    "B2": 0.0
+  },
+  "FS1_CSS:DCH_D2276": {
+    "TM": 0.0
+  },
+  "FS1_CSS:DCV_D2276": {
+    "TM": 0.0
+  },
+  "FS1_CSS:QH_D2280": {
+    "B2": 0.0
+  },
+  "FS1_MGB01:CAV_D2325": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "FS1_CSS:DCH_D2351": {
+    "TM": 0.0
+  },
+  "FS1_CSS:DCV_D2351": {
+    "TM": 0.0
+  },
+  "FS1_CSS:QH_D2356": {
+    "B2": 0.0
+  },
+  "FS1_CSS:QH_D2362": {
+    "B2": 0.0
+  },
+  "FS1_CSS:DCH_D2367": {
+    "TM": 0.0
+  },
+  "FS1_CSS:DCV_D2367": {
+    "TM": 0.0
+  },
+  "FS1_CSS:QV_D2372": {
+    "B2": 0.0
+  },
+  "FS1_CSS:QH_D2377": {
+    "B2": 0.0
+  },
+  "FS1_CSS:DCH_D2381": {
+    "TM": 0.0
+  },
+  "FS1_CSS:DCV_D2381": {
+    "TM": 0.0
+  },
+  "FS1_BBS:DH_D2394": {
+    "B": 0.0,
+    "ANG": 0.0,
+    "ENTANG": 0.0,
+    "EXTANG": 0.0
+  },
+  "FS1_BBS:DCH_D2412": {
+    "TM": 0.0
+  },
+  "FS1_BBS:DCV_D2412": {
+    "TM": 0.0
+  },
+  "FS1_BBS:QH_D2416": {
+    "B2": 0.0
+  },
+  "FS1_BBS:S_D2419": {
+    "B3": 0.0
+  },
+  "FS1_BBS:QV_D2424": {
+    "B2": 0.0
+  },
+  "FS1_BBS:DH_D2435": {
+    "B": 0.0,
+    "ANG": 0.0,
+    "ENTANG": 0.0,
+    "EXTANG": 0.0
+  },
+  "FS1_BBS:DH_D2453": {
+    "B": 0.0,
+    "ANG": 0.0,
+    "ENTANG": 0.0,
+    "EXTANG": 0.0
+  },
+  "FS1_BBS:QV_D2463": {
+    "B2": 0.0
+  },
+  "FS1_BBS:S_D2469": {
+    "B3": 0.0
+  },
+  "FS1_BBS:QH_D2472": {
+    "B2": 0.0
+  },
+  "FS1_BBS:DCH_D2476": {
+    "TM": 0.0
+  },
+  "FS1_BBS:DCV_D2476": {
+    "TM": 0.0
+  },
+  "FS1_BBS:DH_D2494": {
+    "B": 0.0,
+    "ANG": 0.0,
+    "ENTANG": 0.0,
+    "EXTANG": 0.0
+  },
+  "FS1_BMS:DCH_D2507": {
+    "TM": 0.0
+  },
+  "FS1_BMS:DCV_D2507": {
+    "TM": 0.0
+  },
+  "FS1_BMS:QV_D2511": {
+    "B2": 0.0
+  },
+  "FS1_BMS:QH_D2515": {
+    "B2": 0.0
+  },
+  "FS1_BMS:DCH_D2534": {
+    "TM": 0.0
+  },
+  "FS1_BMS:DCV_D2534": {
+    "TM": 0.0
+  },
+  "FS1_BMS:QV_D2539": {
+    "B2": 0.0
+  },
+  "FS1_BMS:QV_D2563": {
+    "B2": 0.0
+  },
+  "FS1_BMS:DCH_D2584": {
+    "TM": 0.0
+  },
+  "FS1_BMS:DCV_D2584": {
+    "TM": 0.0
+  },
+  "FS1_BMS:QH_D2590": {
+    "B2": 0.0
+  },
+  "FS1_BMS:QV_D2597": {
+    "B2": 0.0
+  },
+  "FS1_MGB02:CAV_D2606": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "FS1_MGB02:CAV_D2609": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "FS1_MGB02:CAV_D2613": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "FS1_MGB02:CAV_D2616": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "FS1_BMS:DCH_D2640": {
+    "TM": 0.0
+  },
+  "FS1_BMS:DCV_D2640": {
+    "TM": 0.0
+  },
+  "FS1_BMS:QH_D2645": {
+    "B2": 0.0
+  },
+  "FS1_BMS:QV_D2654": {
+    "B2": 0.0
+  },
+  "FS1_BMS:DCH_D2662": {
+    "TM": 0.0
+  },
+  "FS1_BMS:DCV_D2662": {
+    "TM": 0.0
+  },
+  "FS1_BMS:QH_D2666": {
+    "B2": 0.0
+  },
+  "FS1_BMS:QV_D2679": {
+    "B2": 0.0
+  },
+  "FS1_BMS:DCH_D2688": {
+    "TM": 0.0
+  },
+  "FS1_BMS:DCV_D2688": {
+    "TM": 0.0
+  },
+  "FS1_BMS:QH_D2693": {
+    "B2": 0.0
+  },
+  "FS1_BMS:QV_D2698": {
+    "B2": 0.0
+  },
+  "LS2_CC01:CAV1_D2706": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC01:CAV2_D2711": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC01:CAV3_D2715": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC01:SOL1_D2723": {
+    "B": 0.0
+  },
+  "LS2_CC01:DCH_D2723": {
+    "TM": 0.0
+  },
+  "LS2_CC01:DCV_D2723": {
+    "TM": 0.0
+  },
+  "LS2_CC01:CAV4_D2726": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC01:CAV5_D2730": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC01:CAV6_D2735": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC02:CAV1_D2746": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC02:CAV2_D2750": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC02:CAV3_D2755": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC02:SOL1_D2762": {
+    "B": 0.0
+  },
+  "LS2_CC02:DCH_D2762": {
+    "TM": 0.0
+  },
+  "LS2_CC02:DCV_D2762": {
+    "TM": 0.0
+  },
+  "LS2_CC02:CAV4_D2766": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC02:CAV5_D2770": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC02:CAV6_D2774": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC03:CAV1_D2786": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC03:CAV2_D2790": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC03:CAV3_D2794": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC03:SOL1_D2802": {
+    "B": 0.0
+  },
+  "LS2_CC03:DCH_D2802": {
+    "TM": 0.0
+  },
+  "LS2_CC03:DCV_D2802": {
+    "TM": 0.0
+  },
+  "LS2_CC03:CAV4_D2806": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC03:CAV5_D2810": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC03:CAV6_D2814": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC04:CAV1_D2825": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC04:CAV2_D2830": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC04:CAV3_D2834": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC04:SOL1_D2842": {
+    "B": 0.0
+  },
+  "LS2_CC04:DCH_D2842": {
+    "TM": 0.0
+  },
+  "LS2_CC04:DCV_D2842": {
+    "TM": 0.0
+  },
+  "LS2_CC04:CAV4_D2845": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC04:CAV5_D2850": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC04:CAV6_D2854": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC05:CAV1_D2865": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC05:CAV2_D2870": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC05:CAV3_D2874": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC05:SOL1_D2882": {
+    "B": 0.0
+  },
+  "LS2_CC05:DCH_D2882": {
+    "TM": 0.0
+  },
+  "LS2_CC05:DCV_D2882": {
+    "TM": 0.0
+  },
+  "LS2_CC05:CAV4_D2885": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC05:CAV5_D2890": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC05:CAV6_D2894": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC06:CAV1_D2905": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC06:CAV2_D2910": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC06:CAV3_D2914": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC06:SOL1_D2922": {
+    "B": 0.0
+  },
+  "LS2_CC06:DCH_D2922": {
+    "TM": 0.0
+  },
+  "LS2_CC06:DCV_D2922": {
+    "TM": 0.0
+  },
+  "LS2_CC06:CAV4_D2925": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC06:CAV5_D2929": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC06:CAV6_D2934": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC07:CAV1_D2945": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC07:CAV2_D2949": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC07:CAV3_D2954": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC07:SOL1_D2961": {
+    "B": 0.0
+  },
+  "LS2_CC07:DCH_D2961": {
+    "TM": 0.0
+  },
+  "LS2_CC07:DCV_D2961": {
+    "TM": 0.0
+  },
+  "LS2_CC07:CAV4_D2965": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC07:CAV5_D2969": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC07:CAV6_D2974": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC08:CAV1_D2985": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC08:CAV2_D2989": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC08:CAV3_D2994": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC08:SOL1_D3001": {
+    "B": 0.0
+  },
+  "LS2_CC08:DCH_D3001": {
+    "TM": 0.0
+  },
+  "LS2_CC08:DCV_D3001": {
+    "TM": 0.0
+  },
+  "LS2_CC08:CAV4_D3005": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC08:CAV5_D3009": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC08:CAV6_D3013": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC09:CAV1_D3025": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC09:CAV2_D3029": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC09:CAV3_D3033": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC09:SOL1_D3041": {
+    "B": 0.0
+  },
+  "LS2_CC09:DCH_D3041": {
+    "TM": 0.0
+  },
+  "LS2_CC09:DCV_D3041": {
+    "TM": 0.0
+  },
+  "LS2_CC09:CAV4_D3044": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC09:CAV5_D3049": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC09:CAV6_D3053": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC10:CAV1_D3064": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC10:CAV2_D3069": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC10:CAV3_D3073": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC10:SOL1_D3081": {
+    "B": 0.0
+  },
+  "LS2_CC10:DCH_D3081": {
+    "TM": 0.0
+  },
+  "LS2_CC10:DCV_D3081": {
+    "TM": 0.0
+  },
+  "LS2_CC10:CAV4_D3084": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC10:CAV5_D3089": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC10:CAV6_D3093": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC11:CAV1_D3104": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC11:CAV2_D3109": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC11:CAV3_D3113": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC11:SOL1_D3121": {
+    "B": 0.0
+  },
+  "LS2_CC11:DCH_D3121": {
+    "TM": 0.0
+  },
+  "LS2_CC11:DCV_D3121": {
+    "TM": 0.0
+  },
+  "LS2_CC11:CAV4_D3124": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC11:CAV5_D3129": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC11:CAV6_D3133": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC12:CAV1_D3144": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC12:CAV2_D3149": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC12:CAV3_D3153": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC12:SOL1_D3161": {
+    "B": 0.0
+  },
+  "LS2_CC12:DCH_D3161": {
+    "TM": 0.0
+  },
+  "LS2_CC12:DCV_D3161": {
+    "TM": 0.0
+  },
+  "LS2_CC12:CAV4_D3164": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC12:CAV5_D3168": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CC12:CAV6_D3173": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD01:CAV1_D3187": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD01:CAV2_D3193": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD01:CAV3_D3199": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD01:CAV4_D3205": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD01:SOL1_D3211": {
+    "B": 0.0
+  },
+  "LS2_CD01:DCH_D3211": {
+    "TM": 0.0
+  },
+  "LS2_CD01:DCV_D3211": {
+    "TM": 0.0
+  },
+  "LS2_CD01:CAV5_D3218": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD01:CAV6_D3224": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD01:CAV7_D3230": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD01:CAV8_D3236": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD02:CAV1_D3249": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD02:CAV2_D3255": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD02:CAV3_D3261": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD02:CAV4_D3267": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD02:SOL1_D3273": {
+    "B": 0.0
+  },
+  "LS2_CD02:DCH_D3273": {
+    "TM": 0.0
+  },
+  "LS2_CD02:DCV_D3273": {
+    "TM": 0.0
+  },
+  "LS2_CD02:CAV5_D3280": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD02:CAV6_D3286": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD02:CAV7_D3292": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD02:CAV8_D3298": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD03:CAV1_D3311": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD03:CAV2_D3317": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD03:CAV3_D3323": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD03:CAV4_D3329": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD03:SOL1_D3336": {
+    "B": 0.0
+  },
+  "LS2_CD03:DCH_D3336": {
+    "TM": 0.0
+  },
+  "LS2_CD03:DCV_D3336": {
+    "TM": 0.0
+  },
+  "LS2_CD03:CAV5_D3342": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD03:CAV6_D3348": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD03:CAV7_D3354": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD03:CAV8_D3360": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD04:CAV1_D3373": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD04:CAV2_D3379": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD04:CAV3_D3385": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD04:CAV4_D3391": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD04:SOL1_D3398": {
+    "B": 0.0
+  },
+  "LS2_CD04:DCH_D3398": {
+    "TM": 0.0
+  },
+  "LS2_CD04:DCV_D3398": {
+    "TM": 0.0
+  },
+  "LS2_CD04:CAV5_D3404": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD04:CAV6_D3410": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD04:CAV7_D3416": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD04:CAV8_D3422": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD05:CAV1_D3435": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD05:CAV2_D3441": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD05:CAV3_D3447": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD05:CAV4_D3453": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD05:SOL1_D3460": {
+    "B": 0.0
+  },
+  "LS2_CD05:DCH_D3460": {
+    "TM": 0.0
+  },
+  "LS2_CD05:DCV_D3460": {
+    "TM": 0.0
+  },
+  "LS2_CD05:CAV5_D3466": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD05:CAV6_D3472": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD05:CAV7_D3478": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD05:CAV8_D3484": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD06:CAV1_D3497": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD06:CAV2_D3503": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD06:CAV3_D3509": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD06:CAV4_D3515": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD06:SOL1_D3522": {
+    "B": 0.0
+  },
+  "LS2_CD06:DCH_D3522": {
+    "TM": 0.0
+  },
+  "LS2_CD06:DCV_D3522": {
+    "TM": 0.0
+  },
+  "LS2_CD06:CAV5_D3528": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD06:CAV6_D3534": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD06:CAV7_D3540": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD06:CAV8_D3546": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD07:CAV1_D3559": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD07:CAV2_D3565": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD07:CAV3_D3571": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD07:CAV4_D3577": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD07:SOL1_D3584": {
+    "B": 0.0
+  },
+  "LS2_CD07:DCH_D3584": {
+    "TM": 0.0
+  },
+  "LS2_CD07:DCV_D3584": {
+    "TM": 0.0
+  },
+  "LS2_CD07:CAV5_D3590": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD07:CAV6_D3596": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD07:CAV7_D3602": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD07:CAV8_D3608": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD08:CAV1_D3621": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD08:CAV2_D3627": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD08:CAV3_D3633": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD08:CAV4_D3639": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD08:SOL1_D3646": {
+    "B": 0.0
+  },
+  "LS2_CD08:DCH_D3646": {
+    "TM": 0.0
+  },
+  "LS2_CD08:DCV_D3646": {
+    "TM": 0.0
+  },
+  "LS2_CD08:CAV5_D3652": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD08:CAV6_D3658": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD08:CAV7_D3664": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD08:CAV8_D3670": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD09:CAV1_D3683": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD09:CAV2_D3689": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD09:CAV3_D3695": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD09:CAV4_D3701": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD09:SOL1_D3708": {
+    "B": 0.0
+  },
+  "LS2_CD09:DCH_D3708": {
+    "TM": 0.0
+  },
+  "LS2_CD09:DCV_D3708": {
+    "TM": 0.0
+  },
+  "LS2_CD09:CAV5_D3714": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD09:CAV6_D3720": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD09:CAV7_D3726": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD09:CAV8_D3732": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD10:CAV1_D3745": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD10:CAV2_D3751": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD10:CAV3_D3757": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD10:CAV4_D3763": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD10:SOL1_D3770": {
+    "B": 0.0
+  },
+  "LS2_CD10:DCH_D3770": {
+    "TM": 0.0
+  },
+  "LS2_CD10:DCV_D3770": {
+    "TM": 0.0
+  },
+  "LS2_CD10:CAV5_D3776": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD10:CAV6_D3782": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD10:CAV7_D3788": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD10:CAV8_D3794": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD11:CAV1_D3807": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD11:CAV2_D3813": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD11:CAV3_D3819": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD11:CAV4_D3825": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD11:SOL1_D3832": {
+    "B": 0.0
+  },
+  "LS2_CD11:DCH_D3832": {
+    "TM": 0.0
+  },
+  "LS2_CD11:DCV_D3832": {
+    "TM": 0.0
+  },
+  "LS2_CD11:CAV5_D3838": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD11:CAV6_D3844": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD11:CAV7_D3850": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD11:CAV8_D3856": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD12:CAV1_D3869": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD12:CAV2_D3875": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD12:CAV3_D3881": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD12:CAV4_D3887": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD12:SOL1_D3894": {
+    "B": 0.0
+  },
+  "LS2_CD12:DCH_D3894": {
+    "TM": 0.0
+  },
+  "LS2_CD12:DCV_D3894": {
+    "TM": 0.0
+  },
+  "LS2_CD12:CAV5_D3900": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD12:CAV6_D3906": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD12:CAV7_D3912": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "LS2_CD12:CAV8_D3918": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "FS2_BTS:DCH_D3930": {
+    "TM": 0.0
+  },
+  "FS2_BTS:DCV_D3930": {
+    "TM": 0.0
+  },
+  "FS2_BTS:QH_D3934": {
+    "B2": 0.0
+  },
+  "FS2_BTS:QV_D3940": {
+    "B2": 0.0
+  },
+  "FS2_BTS:DCH_D3945": {
+    "TM": 0.0
+  },
+  "FS2_BTS:DCV_D3945": {
+    "TM": 0.0
+  },
+  "FS2_BTS:QV_D3950": {
+    "B2": 0.0
+  },
+  "FS2_BTS:QH_D3955": {
+    "B2": 0.0
+  },
+  "FS2_BTS:DCH_D3962": {
+    "TM": 0.0
+  },
+  "FS2_BTS:DCV_D3962": {
+    "TM": 0.0
+  },
+  "FS2_BBS:DH_D3979": {
+    "B": 0.0,
+    "ANG": 0.0,
+    "ENTANG": 0.0,
+    "EXTANG": 0.0
+  },
+  "FS2_BBS:QH_D3996": {
+    "B2": 0.0
+  },
+  "FS2_BBS:S_D4000": {
+    "B3": 0.0
+  },
+  "FS2_BBS:QV_D4004": {
+    "B2": 0.0
+  },
+  "FS2_BBS:S_D4007": {
+    "B3": 0.0
+  },
+  "FS2_BBS:DCH_D4010": {
+    "TM": 0.0
+  },
+  "FS2_BBS:DCV_D4010": {
+    "TM": 0.0
+  },
+  "FS2_BBS:QH_D4014": {
+    "B2": 0.0
+  },
+  "FS2_BBS:DH_D4034": {
+    "B": 0.0,
+    "ANG": 0.0,
+    "ENTANG": 0.0,
+    "EXTANG": 0.0
+  },
+  "FS2_BBS:DCH_D4055": {
+    "TM": 0.0
+  },
+  "FS2_BBS:DCV_D4055": {
+    "TM": 0.0
+  },
+  "FS2_BBS:DH_D4072": {
+    "B": 0.0,
+    "ANG": 0.0,
+    "ENTANG": 0.0,
+    "EXTANG": 0.0
+  },
+  "FS2_BBS:QH_D4092": {
+    "B2": 0.0
+  },
+  "FS2_BBS:DCH_D4096": {
+    "TM": 0.0
+  },
+  "FS2_BBS:DCV_D4096": {
+    "TM": 0.0
+  },
+  "FS2_BBS:S_D4098": {
+    "B3": 0.0
+  },
+  "FS2_BBS:QV_D4102": {
+    "B2": 0.0
+  },
+  "FS2_BBS:S_D4106": {
+    "B3": 0.0
+  },
+  "FS2_BBS:QH_D4109": {
+    "B2": 0.0
+  },
+  "FS2_BBS:DH_D4127": {
+    "B": 0.0,
+    "ANG": 0.0,
+    "ENTANG": 0.0,
+    "EXTANG": 0.0
+  },
+  "FS2_BMS:DCH_D4146": {
+    "TM": 0.0
+  },
+  "FS2_BMS:DCV_D4146": {
+    "TM": 0.0
+  },
+  "FS2_BMS:QH_D4151": {
+    "B2": 0.0
+  },
+  "FS2_BMS:QV_D4156": {
+    "B2": 0.0
+  },
+  "FS2_BMS:DCH_D4161": {
+    "TM": 0.0
+  },
+  "FS2_BMS:DCV_D4161": {
+    "TM": 0.0
+  },
+  "FS2_BMS:QV_D4166": {
+    "B2": 0.0
+  },
+  "FS2_BMS:QH_D4172": {
+    "B2": 0.0
+  },
+  "FS2_CG01:CAV1_D4184": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "FS2_CG01:CAV2_D4190": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "FS2_CG01:CAV3_D4199": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "FS2_CG01:CAV4_D4205": {
+    "PHASE": 0.0,
+    "AMPLITUDE": 0.0,
+    "FREQ": 0.0
+  },
+  "FS2_BMS:DCH_D4213": {
+    "TM": 0.0
+  },
+  "FS2_BMS:DCV_D4213": {
+    "TM": 0.0
+  },
+  "FS2_BMS:QH_D4218": {
+    "B2": 0.0
+  },
+  "FS2_BMS:QV_D4226": {
+    "B2": 0.0
+  },
+  "FS2_BMS:DCH_D4281": {
+    "TM": 0.0
+  },
+  "FS2_BMS:DCV_D4281": {
+    "TM": 0.0
+  },
+  "FS2_BMS:QH_D4286": {
+    "B2": 0.0
+  },
+  "FS2_BMS:QV_D4296": {
+    "B2": 0.0
+  }
+}

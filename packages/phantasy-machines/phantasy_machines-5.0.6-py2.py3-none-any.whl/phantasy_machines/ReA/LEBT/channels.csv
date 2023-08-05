@@ -1,0 +1,214 @@
+PV,elemField_eng,elemField_phy,elemHandle,elemIndex,elemLength,elemName,elemPosition,elemType,machine,physicsName,physicsType,pvPolicy,,,
+REA_BTS10:FC_D0864:BC_RD,I,I,readback,4,0,REA_BTS10:FC_D0864,86.39314036,FC,LIVE,"Faraday Cup, Top",FC,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+#REA_BTS10:FC_D0864:VoltageMeasure,V,V,readback,4,0,REA_BTS10:FC_D0864,86.39314036,FC,LIVE,"Faraday Cup, Top",FC,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+#REA_BTS10:FC_D0864:VoltageSet,V,V,setpoint,4,0,REA_BTS10:FC_D0864,86.39314036,FC,LIVE,"Faraday Cup, Top",FC,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:FC_D0864:XCEN_RD,XCEN,XCEN,readback,4,0,REA_BTS10:FC_D0864,86.39314036,FC,LIVE,"Faraday Cup, Top",FC,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:FC_D0864:YCEN_RD,YCEN,YCEN,readback,4,0,REA_BTS10:FC_D0864,86.39314036,FC,LIVE,"Faraday Cup, Top",FC,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:FC_D0864:XRMS_RD,XRMS,XRMS,readback,4,0,REA_BTS10:FC_D0864,86.39314036,FC,LIVE,"Faraday Cup, Top",FC,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:FC_D0864:YRMS_RD,YRMS,YRMS,readback,4,0,REA_BTS10:FC_D0864,86.39314036,FC,LIVE,"Faraday Cup, Top",FC,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_URL:Stats1:CentroidX_RBV,XCEN,XCEN,readback,8,0,REA_BTS10:VD_D0864,86.37530936,VD,LIVE,"Viewer Plate, Right",VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_URL:Stats1:CentroidY_RBV,YCEN,YCEN,readback,8,0,REA_BTS10:VD_D0864,86.37530936,VD,LIVE,"Viewer Plate, Right",VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_URL:Stats1:SigmaX_RBV,XRMS,XRMS,readback,8,0,REA_BTS10:VD_D0864,86.37530936,VD,LIVE,"Viewer Plate, Right",VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_URL:Stats1:SigmaY_RBV,YRMS,YRMS,readback,8,0,REA_BTS10:VD_D0864,86.37530936,VD,LIVE,"Viewer Plate, Right",VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC2_D0865:V_CSET,V,ANG,setpoint,10,0,REA_BTS10:DCHE_D0865,86.46133916,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC2_D0865:V_RSET,V,ANG,readset,10,0,REA_BTS10:DCHE_D0865,86.46133916,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC2_D0865:V_RD,V,ANG,readback,10,0,REA_BTS10:DCHE_D0865,86.46133916,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC1_D0865:V_CSET,V,ANG,setpoint,10,0,REA_BTS10:DCVE_D0865,86.46133916,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC1_D0865:V_RSET,V,ANG,readset,10,0,REA_BTS10:DCVE_D0865,86.46133916,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC1_D0865:V_RD,V,ANG,readback,10,0,REA_BTS10:DCVE_D0865,86.46133916,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0867:V_CSET,V,V,setpoint,12,0.15,REA_BTS10:QE_D0867,86.78430666,EQUAD,LIVE,"Triplet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0867:V_RSET,V,V,readset,12,0.15,REA_BTS10:QE_D0867,86.78430666,EQUAD,LIVE,"Triplet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0867:V_RD,V,V,readback,12,0.15,REA_BTS10:QE_D0867,86.78430666,EQUAD,LIVE,"Triplet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0869:V_CSET,V,V,setpoint,14,0.15,REA_BTS10:QE_D0869,86.95931266,EQUAD,LIVE,"Triplet, EQuad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0869:V_RSET,V,V,readset,14,0.15,REA_BTS10:QE_D0869,86.95931266,EQUAD,LIVE,"Triplet, EQuad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0869:V_RD,V,V,readback,14,0.15,REA_BTS10:QE_D0869,86.95931266,EQUAD,LIVE,"Triplet, EQuad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC2_D0869:V_CSET,V,ANG,setpoint,15,0,REA_BTS10:DCHE_D0869,86.88431266,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC2_D0869:V_RSET,V,ANG,readset,15,0,REA_BTS10:DCHE_D0869,86.88431266,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC2_D0869:V_RD,V,ANG,readback,15,0,REA_BTS10:DCHE_D0869,86.88431266,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC1_D0869:V_CSET,V,ANG,setpoint,15,0,REA_BTS10:DCVE_D0869,86.88431266,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC1_D0869:V_RSET,V,ANG,readset,15,0,REA_BTS10:DCVE_D0869,86.88431266,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC1_D0869:V_RD,V,ANG,readback,15,0,REA_BTS10:DCVE_D0869,86.88431266,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0871:V_CSET,V,V,setpoint,17,0.15,REA_BTS10:QE_D0871,87.13431866,EQUAD,LIVE,"Triplet, EQuad C",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0871:V_RSET,V,V,readset,17,0.15,REA_BTS10:QE_D0871,87.13431866,EQUAD,LIVE,"Triplet, EQuad C",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0871:V_RD,V,V,readback,17,0.15,REA_BTS10:QE_D0871,87.13431866,EQUAD,LIVE,"Triplet, EQuad C",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS09:DCVE_D0873:V_CSET,V,ANG,setpoint,19,0.138,REA_BTS09:DCVE_D0873,87.36535006,VCOR,LIVE,Kicker66 for EBIT Injection,DCV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS09,ReA
+REA_BTS09:DCVE_D0873:V_RSET,V,ANG,readset,19,0.138,REA_BTS09:DCVE_D0873,87.36535006,VCOR,LIVE,Kicker66 for EBIT Injection,DCV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS09,ReA
+REA_BTS09:DCVE_D0873:V_RD,V,ANG,readback,19,0.138,REA_BTS09:DCVE_D0873,87.36535006,VCOR,LIVE,Kicker66 for EBIT Injection,DCV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS09,ReA
+REA_BTS10:QE_D0884:V_CSET,V,V,setpoint,21,0.15,REA_BTS10:QE_D0884,88.47098096,EQUAD,LIVE,"Triplet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0884:V_RSET,V,V,readset,21,0.15,REA_BTS10:QE_D0884,88.47098096,EQUAD,LIVE,"Triplet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0884:V_RD,V,V,readback,21,0.15,REA_BTS10:QE_D0884,88.47098096,EQUAD,LIVE,"Triplet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0886:V_CSET,V,V,setpoint,23,0.15,REA_BTS10:QE_D0886,88.64598696,EQUAD,LIVE,"Triplet, EQuad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0886:V_RSET,V,V,readset,23,0.15,REA_BTS10:QE_D0886,88.64598696,EQUAD,LIVE,"Triplet, EQuad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0886:V_RD,V,V,readback,23,0.15,REA_BTS10:QE_D0886,88.64598696,EQUAD,LIVE,"Triplet, EQuad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC2_D0886:V_CSET,V,ANG,setpoint,24,0,REA_BTS10:DCHE_D0886,88.57098696,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC2_D0886:V_RSET,V,ANG,readset,24,0,REA_BTS10:DCHE_D0886,88.57098696,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC2_D0886:V_RD,V,ANG,readback,24,0,REA_BTS10:DCHE_D0886,88.57098696,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC1_D0886:V_CSET,V,ANG,setpoint,24,0,REA_BTS10:DCVE_D0886,88.57098696,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC1_D0886:V_RSET,V,ANG,readset,24,0,REA_BTS10:DCVE_D0886,88.57098696,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC1_D0886:V_RD,V,ANG,readback,24,0,REA_BTS10:DCVE_D0886,88.57098696,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0888:V_CSET,V,V,setpoint,26,0.15,REA_BTS10:QE_D0888,88.82099296,EQUAD,LIVE,"Triplet, EQuad C",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0888:V_RSET,V,V,readset,26,0.15,REA_BTS10:QE_D0888,88.82099296,EQUAD,LIVE,"Triplet, EQuad C",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0888:V_RD,V,V,readback,26,0.15,REA_BTS10:QE_D0888,88.82099296,EQUAD,LIVE,"Triplet, EQuad C",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:FCS_D0892:AVG_RD,I,I,readback,31,0,REA_BTS10:FCS_D0892,89.25003076,FC,LIVE,"Faraday Cup, Left",FCS,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+#REA_BTS10:FCS_D0892:VoltageMeasure,V,V,readback,31,0,REA_BTS10:FCS_D0892,89.25003076,FC,LIVE,"Faraday Cup, Left",FCS,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+#REA_BTS10:FCS_D0892:VoltageSet,V,V,setpoint,31,0,REA_BTS10:FCS_D0892,89.25003076,FC,LIVE,"Faraday Cup, Left",FCS,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:FCS_D0892:XCEN_RD,XCEN,XCEN,readback,31,0,REA_BTS10:FCS_D0892,89.25003076,FC,LIVE,"Faraday Cup, Left",FCS,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:FCS_D0892:YCEN_RD,YCEN,YCEN,readback,31,0,REA_BTS10:FCS_D0892,89.25003076,FC,LIVE,"Faraday Cup, Left",FCS,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:FCS_D0892:XRMS_RD,XRMS,XRMS,readback,31,0,REA_BTS10:FCS_D0892,89.25003076,FC,LIVE,"Faraday Cup, Left",FCS,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:FCS_D0892:YRMS_RD,YRMS,YRMS,readback,31,0,REA_BTS10:FCS_D0892,89.25003076,FC,LIVE,"Faraday Cup, Left",FCS,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_URL:Stats1:CentroidX_RBV,XCEN,XCEN,readback,33,0,REA_BTS10:VD_D0892,89.23219976,VD,LIVE,"Viewer Plate, Right",VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_URL:Stats1:CentroidY_RBV,YCEN,YCEN,readback,33,0,REA_BTS10:VD_D0892,89.23219976,VD,LIVE,"Viewer Plate, Right",VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_URL:Stats1:SigmaX_RBV,XRMS,XRMS,readback,33,0,REA_BTS10:VD_D0892,89.23219976,VD,LIVE,"Viewer Plate, Right",VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_URL:Stats1:SigmaY_RBV,YRMS,YRMS,readback,33,0,REA_BTS10:VD_D0892,89.23219976,VD,LIVE,"Viewer Plate, Right",VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC2_D0893:V_CSET,V,ANG,setpoint,35,0,REA_BTS10:DCHE_D0893,89.32011871,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC2_D0893:V_RSET,V,ANG,readset,35,0,REA_BTS10:DCHE_D0893,89.32011871,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC2_D0893:V_RD,V,ANG,readback,35,0,REA_BTS10:DCHE_D0893,89.32011871,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC1_D0893:V_CSET,V,ANG,setpoint,35,0,REA_BTS10:DCVE_D0893,89.32011871,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC1_D0893:V_RSET,V,ANG,readset,35,0,REA_BTS10:DCVE_D0893,89.32011871,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC1_D0893:V_RD,V,ANG,readback,35,0,REA_BTS10:DCVE_D0893,89.32011871,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:DHE_D0900:V_CSET,V,V,setpoint,39,0.534855678,REA_BTS10:DHE_D0900,90.25922784,EBEND,LIVE,"Cyl Dipole Deflector, 45deg, 681mm radius",BEND_DHE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:DHE_D0900:V_RSET,V,V,readset,39,0.534855678,REA_BTS10:DHE_D0900,90.25922784,EBEND,LIVE,"Cyl Dipole Deflector, 45deg, 681mm radius",BEND_DHE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:DHE_D0900:V_RD,V,V,readback,39,0.534855678,REA_BTS10:DHE_D0900,90.25922784,EBEND,LIVE,"Cyl Dipole Deflector, 45deg, 681mm radius",BEND_DHE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0905:V_CSET,V,V,setpoint,41,0.15,REA_BTS10:QE_D0905,90.575,EQUAD,LIVE,"Singlet, Equad, & Y ECorrector",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0905:V_RSET,V,V,readset,41,0.15,REA_BTS10:QE_D0905,90.575,EQUAD,LIVE,"Singlet, Equad, & Y ECorrector",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0905:V_RD,V,V,readback,41,0.15,REA_BTS10:QE_D0905,90.575,EQUAD,LIVE,"Singlet, Equad, & Y ECorrector",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:DCVE_D0905:V_CSET,V,ANG,setpoint,42,0,REA_BTS10:DCVE_D0905,90.5,VCOR,LIVE,"Ecorrector, Y",DCV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:DCVE_D0905:V_RSET,V,ANG,readset,42,0,REA_BTS10:DCVE_D0905,90.5,VCOR,LIVE,"Ecorrector, Y",DCV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:DCVE_D0905:V_RD,V,ANG,readback,42,0,REA_BTS10:DCVE_D0905,90.5,VCOR,LIVE,"Ecorrector, Y",DCV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:DHE_D0910:V_CSET,V,V,setpoint,44,0.534855678,REA_BTS10:DHE_D0910,91.27612784,EBEND,LIVE,"Cyl Dipole Deflector, 45deg, 681mm radius",BEND_DHE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:DHE_D0910:V_RSET,V,V,readset,44,0.534855678,REA_BTS10:DHE_D0910,91.27612784,EBEND,LIVE,"Cyl Dipole Deflector, 45deg, 681mm radius",BEND_DHE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:DHE_D0910:V_RD,V,V,readback,44,0.534855678,REA_BTS10:DHE_D0910,91.27612784,EBEND,LIVE,"Cyl Dipole Deflector, 45deg, 681mm radius",BEND_DHE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:FCS_D0918:BC_RD,I,I,readback,47,0,REA_BTS10:FCS_D0918,91.80476425,FC,LIVE,"Faraday Cup, Left",FCS,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+#REA_BTS10:FCS_D0918:VoltageMeasure,V,V,readback,47,0,REA_BTS10:FCS_D0918,91.80476425,FC,LIVE,"Faraday Cup, Left",FCS,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+#REA_BTS10:FCS_D0918:VoltageSet,V,V,setpoint,47,0,REA_BTS10:FCS_D0918,91.80476425,FC,LIVE,"Faraday Cup, Left",FCS,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:FCS_D0918:XCEN_RD,XCEN,XCEN,readback,47,0,REA_BTS10:FCS_D0918,91.80476425,FC,LIVE,"Faraday Cup, Left",FCS,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:FCS_D0918:YCEN_RD,YCEN,YCEN,readback,47,0,REA_BTS10:FCS_D0918,91.80476425,FC,LIVE,"Faraday Cup, Left",FCS,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:FCS_D0918:XRMS_RD,XRMS,XRMS,readback,47,0,REA_BTS10:FCS_D0918,91.80476425,FC,LIVE,"Faraday Cup, Left",FCS,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:FCS_D0918:YRMS_RD,YRMS,YRMS,readback,47,0,REA_BTS10:FCS_D0918,91.80476425,FC,LIVE,"Faraday Cup, Left",FCS,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_URL:Stats1:CentroidX_RBV,XCEN,XCEN,readback,49,0,REA_BTS10:VD_D0918,91.78693325,VD,LIVE,Viewer Plate,VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_URL:Stats1:CentroidY_RBV,YCEN,YCEN,readback,49,0,REA_BTS10:VD_D0918,91.78693325,VD,LIVE,Viewer Plate,VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_URL:Stats1:SigmaX_RBV,XRMS,XRMS,readback,49,0,REA_BTS10:VD_D0918,91.78693325,VD,LIVE,Viewer Plate,VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_URL:Stats1:SigmaY_RBV,YRMS,YRMS,readback,49,0,REA_BTS10:VD_D0918,91.78693325,VD,LIVE,Viewer Plate,VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC2_D0919:V_CSET,V,ANG,setpoint,55,0,REA_BTS10:DCHE_D0919,91.87296305,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC2_D0919:V_RSET,V,ANG,readset,55,0,REA_BTS10:DCHE_D0919,91.87296305,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC2_D0919:V_RD,V,ANG,readback,55,0,REA_BTS10:DCHE_D0919,91.87296305,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC1_D0919:V_CSET,V,ANG,setpoint,55,0,REA_BTS10:DCVE_D0919,91.87296305,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC1_D0919:V_RSET,V,ANG,readset,55,0,REA_BTS10:DCVE_D0919,91.87296305,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC1_D0919:V_RD,V,ANG,readback,55,0,REA_BTS10:DCVE_D0919,91.87296305,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0921:V_CSET,V,V,setpoint,57,0.15,REA_BTS10:QE_D0921,92.14011195,EQUAD,LIVE,"Doublet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0921:V_RSET,V,V,readset,57,0.15,REA_BTS10:QE_D0921,92.14011195,EQUAD,LIVE,"Doublet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0921:V_RD,V,V,readback,57,0.15,REA_BTS10:QE_D0921,92.14011195,EQUAD,LIVE,"Doublet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0923:V_CSET,V,V,setpoint,59,0.15,REA_BTS10:QE_D0923,92.32045405,EQUAD,LIVE,"Doublet, Equad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0923:V_RSET,V,V,readset,59,0.15,REA_BTS10:QE_D0923,92.32045405,EQUAD,LIVE,"Doublet, Equad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0923:V_RD,V,V,readback,59,0.15,REA_BTS10:QE_D0923,92.32045405,EQUAD,LIVE,"Doublet, Equad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:DH_D0932:I_CSET,I,B,setpoint,61,1.069712299,REA_BTS10:DH_D0932,93.75921022,BEND,LIVE,90deg Bend Magnet,BEND_DH,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:DH_D0932:I_RSET,I,B,readset,61,1.069712299,REA_BTS10:DH_D0932,93.75921022,BEND,LIVE,90deg Bend Magnet,BEND_DH,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:DH_D0932:I_RD,I,B,readback,61,1.069712299,REA_BTS10:DH_D0932,93.75921022,BEND,LIVE,90deg Bend Magnet,BEND_DH,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0942:V_CSET,V,V,setpoint,63,0.15,REA_BTS10:QE_D0942,94.3055843,EQUAD,LIVE,"Doublet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0942:V_RSET,V,V,readset,63,0.15,REA_BTS10:QE_D0942,94.3055843,EQUAD,LIVE,"Doublet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0942:V_RD,V,V,readback,63,0.15,REA_BTS10:QE_D0942,94.3055843,EQUAD,LIVE,"Doublet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC2_D0942:V_CSET,V,ANG,setpoint,64,0,REA_BTS10:DCHE_D0942,94.2305843,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC2_D0942:V_RSET,V,ANG,readset,64,0,REA_BTS10:DCHE_D0942,94.2305843,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC2_D0942:V_RD,V,ANG,readback,64,0,REA_BTS10:DCHE_D0942,94.2305843,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC1_D0942:V_CSET,V,ANG,setpoint,64,0,REA_BTS10:DCVE_D0942,94.2305843,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC1_D0942:V_RSET,V,ANG,readset,64,0,REA_BTS10:DCVE_D0942,94.2305843,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC1_D0942:V_RD,V,ANG,readback,64,0,REA_BTS10:DCVE_D0942,94.2305843,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0944:V_CSET,V,V,setpoint,66,0.15,REA_BTS10:QE_D0944,94.4859264,EQUAD,LIVE,"Doublet, Equad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0944:V_RSET,V,V,readset,66,0.15,REA_BTS10:QE_D0944,94.4859264,EQUAD,LIVE,"Doublet, Equad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0944:V_RD,V,V,readback,66,0.15,REA_BTS10:QE_D0944,94.4859264,EQUAD,LIVE,"Doublet, Equad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_URL:Stats1:CentroidX_RBV,XCEN,XCEN,readback,71,0,REA_BTS10:VD_D0947,94.719471,VD,LIVE,Viewer Plate,VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_URL:Stats1:CentroidY_RBV,YCEN,YCEN,readback,71,0,REA_BTS10:VD_D0947,94.719471,VD,LIVE,Viewer Plate,VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_URL:Stats1:SigmaX_RBV,XRMS,XRMS,readback,71,0,REA_BTS10:VD_D0947,94.719471,VD,LIVE,Viewer Plate,VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_URL:Stats1:SigmaY_RBV,YRMS,YRMS,readback,71,0,REA_BTS10:VD_D0947,94.719471,VD,LIVE,Viewer Plate,VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:FCS_D0947:BC_RD,I,I,readback,73,0,REA_BTS10:FCS_D0947,94.737302,FC,LIVE,"Faraday Cup, Left",FCS,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+#REA_BTS10:FCS_D0947:VoltageMeasure,V,V,readback,73,0,REA_BTS10:FCS_D0947,94.737302,FC,LIVE,"Faraday Cup, Left",FCS,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+#REA_BTS10:FCS_D0947:VoltageSet,V,V,setpoint,73,0,REA_BTS10:FCS_D0947,94.737302,FC,LIVE,"Faraday Cup, Left",FCS,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:FCS_D0947:XCEN_RD,XCEN,XCEN,readback,73,0,REA_BTS10:FCS_D0947,94.737302,FC,LIVE,"Faraday Cup, Left",FCS,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:FCS_D0947:YCEN_RD,YCEN,YCEN,readback,73,0,REA_BTS10:FCS_D0947,94.737302,FC,LIVE,"Faraday Cup, Left",FCS,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:FCS_D0947:XRMS_RD,XRMS,XRMS,readback,73,0,REA_BTS10:FCS_D0947,94.737302,FC,LIVE,"Faraday Cup, Left",FCS,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:FCS_D0947:YRMS_RD,YRMS,YRMS,readback,73,0,REA_BTS10:FCS_D0947,94.737302,FC,LIVE,"Faraday Cup, Left",FCS,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC2_D0948:V_CSET,V,ANG,setpoint,78,0,REA_BTS10:DCHE_D0948,94.8048912,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC2_D0948:V_RSET,V,ANG,readset,78,0,REA_BTS10:DCHE_D0948,94.8048912,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC2_D0948:V_RD,V,ANG,readback,78,0,REA_BTS10:DCHE_D0948,94.8048912,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC1_D0948:V_CSET,V,ANG,setpoint,78,0,REA_BTS10:DCVE_D0948,94.8048912,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC1_D0948:V_RSET,V,ANG,readset,78,0,REA_BTS10:DCVE_D0948,94.8048912,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:PSC1_D0948:V_RD,V,ANG,readback,78,0,REA_BTS10:DCVE_D0948,94.8048912,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0952:V_CSET,V,V,setpoint,82,0.15,REA_BTS10:QE_D0952,95.2389962,EQUAD,LIVE,"Doublet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0952:V_RSET,V,V,readset,82,0.15,REA_BTS10:QE_D0952,95.2389962,EQUAD,LIVE,"Doublet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0952:V_RD,V,V,readback,82,0.15,REA_BTS10:QE_D0952,95.2389962,EQUAD,LIVE,"Doublet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0954:V_CSET,V,V,setpoint,84,0.15,REA_BTS10:QE_D0954,95.4193383,EQUAD,LIVE,"Doublet, Equad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0954:V_RSET,V,V,readset,84,0.15,REA_BTS10:QE_D0954,95.4193383,EQUAD,LIVE,"Doublet, Equad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0954:V_RD,V,V,readback,84,0.15,REA_BTS10:QE_D0954,95.4193383,EQUAD,LIVE,"Doublet, Equad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0958:V_CSET,V,V,setpoint,86,0.15,REA_BTS10:QE_D0958,95.9010472,EQUAD,LIVE,"Doublet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0958:V_RSET,V,V,readset,86,0.15,REA_BTS10:QE_D0958,95.9010472,EQUAD,LIVE,"Doublet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0958:V_RD,V,V,readback,86,0.15,REA_BTS10:QE_D0958,95.9010472,EQUAD,LIVE,"Doublet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0960:V_CSET,V,V,setpoint,88,0.15,REA_BTS10:QE_D0960,96.0813893,EQUAD,LIVE,"Doublet, Equad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0960:V_RSET,V,V,readset,88,0.15,REA_BTS10:QE_D0960,96.0813893,EQUAD,LIVE,"Doublet, Equad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:QE_D0960:V_RD,V,V,readback,88,0.15,REA_BTS10:QE_D0960,96.0813893,EQUAD,LIVE,"Doublet, Equad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:DCHE_D0960:V_CSET,V,ANG,setpoint,89,0,REA_BTS10:DCHE_D0960,96.0063893,HCOR,LIVE,"Ecorrector, X",DCH,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:DCHE_D0960:V_RSET,V,ANG,readset,89,0,REA_BTS10:DCHE_D0960,96.0063893,HCOR,LIVE,"Ecorrector, X",DCH,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS10:DCHE_D0960:V_RD,V,ANG,readback,89,0,REA_BTS10:DCHE_D0960,96.0063893,HCOR,LIVE,"Ecorrector, X",DCH,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS10,ReA
+REA_BTS11:DVE_D0963:V_CSET,V,ANG,setpoint,91,0.19,REA_BTS11:DVE_D0963,96.5314264,EBEND,LIVE,"E-Deflector Plate, 120mm gap",BEND_DVE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS11,ReA
+REA_BTS11:DVE_D0963:V_RSET,V,ANG,readset,91,0.19,REA_BTS11:DVE_D0963,96.5314264,EBEND,LIVE,"E-Deflector Plate, 120mm gap",BEND_DVE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS11,ReA
+REA_BTS11:DVE_D0963:V_RD,V,ANG,readback,91,0.19,REA_BTS11:DVE_D0963,96.5314264,EBEND,LIVE,"E-Deflector Plate, 120mm gap",BEND_DVE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS11,ReA
+REA_BTS19:DCVE_D0970:V_CSET,V,ANG,setpoint,93,0.19,REA_BTS19:DCVE_D0970,97.1240252,VCOR,LIVE,"E-Deflector Plate, 120mm gap",DCV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:DCVE_D0970:V_RSET,V,ANG,readset,93,0.19,REA_BTS19:DCVE_D0970,97.1240252,VCOR,LIVE,"E-Deflector Plate, 120mm gap",DCV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:DCVE_D0970:V_RD,V,ANG,readback,93,0.19,REA_BTS19:DCVE_D0970,97.1240252,VCOR,LIVE,"E-Deflector Plate, 120mm gap",DCV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:QE_D0979:V_CSET,V,V,setpoint,95,0.15,REA_BTS19:QE_D0979,97.571,EQUAD,LIVE,"Doublet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:QE_D0979:V_RSET,V,V,readset,95,0.15,REA_BTS19:QE_D0979,97.571,EQUAD,LIVE,"Doublet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:QE_D0979:V_RD,V,V,readback,95,0.15,REA_BTS19:QE_D0979,97.571,EQUAD,LIVE,"Doublet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:DCHE_D0979:V_CSET,V,ANG,setpoint,96,0,REA_BTS19:DCHE_D0979,97.496,HCOR,LIVE,"Ecorrector, X",DCH,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:DCHE_D0979:V_RSET,V,ANG,readset,96,0,REA_BTS19:DCHE_D0979,97.496,HCOR,LIVE,"Ecorrector, X",DCH,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:DCHE_D0979:V_RD,V,ANG,readback,96,0,REA_BTS19:DCHE_D0979,97.496,HCOR,LIVE,"Ecorrector, X",DCH,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:QE_D0981:V_CSET,V,V,setpoint,98,0.15,REA_BTS19:QE_D0981,97.7513,EQUAD,LIVE,"Doublet, Equad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:QE_D0981:V_RSET,V,V,readset,98,0.15,REA_BTS19:QE_D0981,97.7513,EQUAD,LIVE,"Doublet, Equad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:QE_D0981:V_RD,V,V,readback,98,0.15,REA_BTS19:QE_D0981,97.7513,EQUAD,LIVE,"Doublet, Equad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:FC_D0977:BC_RD,I,I,readback,106,0,REA_BTS19:FC_D0977,98.1142271,FC,LIVE,"Faraday Cup, Top",FC,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+#REA_BTS19:FC_D0977:VoltageMeasure,V,V,readback,106,0,REA_BTS19:FC_D0977,98.1142271,FC,LIVE,"Faraday Cup, Top",FC,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+#REA_BTS19:FC_D0977:VoltageSet,V,V,setpoint,106,0,REA_BTS19:FC_D0977,98.1142271,FC,LIVE,"Faraday Cup, Top",FC,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:FC_D0977:XCEN_RD,XCEN,XCEN,readback,106,0,REA_BTS19:FC_D0977,98.1142271,FC,LIVE,"Faraday Cup, Top",FC,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:FC_D0977:YCEN_RD,YCEN,YCEN,readback,106,0,REA_BTS19:FC_D0977,98.1142271,FC,LIVE,"Faraday Cup, Top",FC,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:FC_D0977:XRMS_RD,XRMS,XRMS,readback,106,0,REA_BTS19:FC_D0977,98.1142271,FC,LIVE,"Faraday Cup, Top",FC,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:FC_D0977:YRMS_RD,YRMS,YRMS,readback,106,0,REA_BTS19:FC_D0977,98.1142271,FC,LIVE,"Faraday Cup, Top",FC,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+#REA_BTS19:CAV_D0983:PHA_CSET,PHA,PHASE,setpoint,108,0,REA_BTS19:CAV_D0983,98.0818171,CAV,LIVE,MultiHarmonic Buncher (16.1MHz),MultiHarmonic Buncher (16.1MHz),DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+#REA_BTS19:CAV_D0983:PHA_RSET,PHA,PHASE,readset,108,0,REA_BTS19:CAV_D0983,98.0818171,CAV,LIVE,MultiHarmonic Buncher (16.1MHz),MultiHarmonic Buncher (16.1MHz),DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+#REA_BTS19:CAV_D0983:PHA_RD_CAVS,PHA,PHASE,readback,108,0,REA_BTS19:CAV_D0983,98.0818171,CAV,LIVE,MultiHarmonic Buncher (16.1MHz),MultiHarmonic Buncher (16.1MHz),DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+#REA_BTS19:CAV_D0983:E_CSET,AMP,AMPLITUDE,setpoint,108,0,REA_BTS19:CAV_D0983,98.0818171,CAV,LIVE,MultiHarmonic Buncher (16.1MHz),MultiHarmonic Buncher (16.1MHz),DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+#REA_BTS19:CAV_D0983:E_RSET,AMP,AMPLITUDE,readset,108,0,REA_BTS19:CAV_D0983,98.0818171,CAV,LIVE,MultiHarmonic Buncher (16.1MHz),MultiHarmonic Buncher (16.1MHz),DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+#REA_BTS19:CAV_D0983:E_RD_CAVS,AMP,AMPLITUDE,readback,108,0,REA_BTS19:CAV_D0983,98.0818171,CAV,LIVE,MultiHarmonic Buncher (16.1MHz),MultiHarmonic Buncher (16.1MHz),DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:QE_D0985:V_CSET,V,V,setpoint,112,0.15,REA_BTS19:QE_D0985,98.6084,EQUAD,LIVE,"Doublet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:QE_D0985:V_RSET,V,V,readset,112,0.15,REA_BTS19:QE_D0985,98.6084,EQUAD,LIVE,"Doublet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:QE_D0985:V_RD,V,V,readback,112,0.15,REA_BTS19:QE_D0985,98.6084,EQUAD,LIVE,"Doublet, EQuad A",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:QE_D0987:V_CSET,V,V,setpoint,114,0.15,REA_BTS19:QE_D0987,98.7887,EQUAD,LIVE,"Doublet, Equad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:QE_D0987:V_RSET,V,V,readset,114,0.15,REA_BTS19:QE_D0987,98.7887,EQUAD,LIVE,"Doublet, Equad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:QE_D0987:V_RD,V,V,readback,114,0.15,REA_BTS19:QE_D0987,98.7887,EQUAD,LIVE,"Doublet, Equad B",QUAD_QE,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:PSC2_D0987:V_CSET,V,ANG,setpoint,115,0,REA_BTS19:DCHE_D0987,98.7137,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:PSC2_D0987:V_RSET,V,ANG,readset,115,0,REA_BTS19:DCHE_D0987,98.7137,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:PSC2_D0987:V_RD,V,ANG,readback,115,0,REA_BTS19:DCHE_D0987,98.7137,HCOR,LIVE,"horiz. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:PSC1_D0987:V_CSET,V,ANG,setpoint,115,0,REA_BTS19:DCVE_D0987,98.7137,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:PSC1_D0987:V_RSET,V,ANG,readset,115,0,REA_BTS19:DCVE_D0987,98.7137,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:PSC1_D0987:V_RD,V,ANG,readback,115,0,REA_BTS19:DCVE_D0987,98.7137,VCOR,LIVE,"vert. corrector, electrostatic",DCHV,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+#REA_BTS19:CAV_D0990:PHA_CSET,PHA,PHASE,setpoint,117,0.2,REA_BTS19:CAV_D0990,99.1541,CAV,LIVE,MultiHarmonic Buncher,MultiHarmonic Buncher,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+#REA_BTS19:CAV_D0990:PHA_RSET,PHA,PHASE,readset,117,0.2,REA_BTS19:CAV_D0990,99.1541,CAV,LIVE,MultiHarmonic Buncher,MultiHarmonic Buncher,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+#REA_BTS19:CAV_D0990:PHA_RD_CAVS,PHA,PHASE,readback,117,0.2,REA_BTS19:CAV_D0990,99.1541,CAV,LIVE,MultiHarmonic Buncher,MultiHarmonic Buncher,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+#REA_BTS19:CAV_D0990:E_CSET,AMP,AMPLITUDE,setpoint,117,0.2,REA_BTS19:CAV_D0990,99.1541,CAV,LIVE,MultiHarmonic Buncher,MultiHarmonic Buncher,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+#REA_BTS19:CAV_D0990:E_RSET,AMP,AMPLITUDE,readset,117,0.2,REA_BTS19:CAV_D0990,99.1541,CAV,LIVE,MultiHarmonic Buncher,MultiHarmonic Buncher,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+#REA_BTS19:CAV_D0990:E_RD_CAVS,AMP,AMPLITUDE,readback,117,0.2,REA_BTS19:CAV_D0990,99.1541,CAV,LIVE,MultiHarmonic Buncher,MultiHarmonic Buncher,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_URL:Stats1:CentroidX_RBV,XCEN,XCEN,readback,120,0,REA_BTS19:VD_D0990,99.3668421,VD,LIVE,"Viewer Plate, Left",VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_URL:Stats1:CentroidY_RBV,YCEN,YCEN,readback,120,0,REA_BTS19:VD_D0990,99.3668421,VD,LIVE,"Viewer Plate, Left",VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_URL:Stats1:SigmaX_RBV,XRMS,XRMS,readback,120,0,REA_BTS19:VD_D0990,99.3668421,VD,LIVE,"Viewer Plate, Left",VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_URL:Stats1:SigmaY_RBV,YRMS,YRMS,readback,120,0,REA_BTS19:VD_D0990,99.3668421,VD,LIVE,"Viewer Plate, Left",VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:SOLR_D0996:I_CSET,I,B,setpoint,122,0.25,REA_BTS19:SOLR_D0996,99.7359,SOL,LIVE,0.7T Solenoid,SOL_SOL,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:SOLR_D0996:I_RSET,I,B,readset,122,0.25,REA_BTS19:SOLR_D0996,99.7359,SOL,LIVE,0.7T Solenoid,SOL_SOL,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:SOLR_D0996:I_RD,I,B,readback,122,0.25,REA_BTS19:SOLR_D0996,99.7359,SOL,LIVE,0.7T Solenoid,SOL_SOL,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:FC_D0999:BC_RD,I,I,readback,126,0,REA_BTS19:FC_D0999,99.88801,FC,LIVE,"Faraday Cup, Top",FC,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+#REA_BTS19:FC_D0999:VoltageMeasure,V,V,readback,126,0,REA_BTS19:FC_D0999,99.88801,FC,LIVE,"Faraday Cup, Top",FC,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+#REA_BTS19:FC_D0999:VoltageSet,V,V,setpoint,126,0,REA_BTS19:FC_D0999,99.88801,FC,LIVE,"Faraday Cup, Top",FC,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:FC_D0999:XCEN_RD,XCEN,XCEN,readback,126,0,REA_BTS19:FC_D0999,99.88801,FC,LIVE,"Faraday Cup, Top",FC,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:FC_D0999:YCEN_RD,YCEN,YCEN,readback,126,0,REA_BTS19:FC_D0999,99.88801,FC,LIVE,"Faraday Cup, Top",FC,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:FC_D0999:XRMS_RD,XRMS,XRMS,readback,126,0,REA_BTS19:FC_D0999,99.88801,FC,LIVE,"Faraday Cup, Top",FC,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_BTS19:FC_D0999:YRMS_RD,YRMS,YRMS,readback,126,0,REA_BTS19:FC_D0999,99.88801,FC,LIVE,"Faraday Cup, Top",FC,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_URL:Stats1:CentroidX_RBV,XCEN,XCEN,readback,128,0,REA_BTS19:VD_D0999,99.8556,VD,LIVE,Viewer Plate,VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_URL:Stats1:CentroidY_RBV,YCEN,YCEN,readback,128,0,REA_BTS19:VD_D0999,99.8556,VD,LIVE,Viewer Plate,VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_URL:Stats1:SigmaX_RBV,XRMS,XRMS,readback,128,0,REA_BTS19:VD_D0999,99.8556,VD,LIVE,Viewer Plate,VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
+REA_URL:Stats1:SigmaY_RBV,YRMS,YRMS,readback,128,0,REA_BTS19:VD_D0999,99.8556,VD,LIVE,Viewer Plate,VD,DEFAULT,phantasy.sys.REA,phantasy.sub.BTS19,ReA
