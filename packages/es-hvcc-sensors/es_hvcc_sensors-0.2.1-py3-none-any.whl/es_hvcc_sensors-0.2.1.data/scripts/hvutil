@@ -1,0 +1,10 @@
+#!python
+
+# -*- coding: utf-8 -*-
+import sys
+
+from hvcc.utils import main
+
+if __name__ == '__main__':
+    sys.exit(main())
+
