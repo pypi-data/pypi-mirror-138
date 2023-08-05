@@ -1,0 +1,16 @@
+plover_clippy_2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plover_clippy_2/actions.py,sha256=LO7Q85EIqxpdy4v9qZSCrmODTn9cP1-FuUPCYHEq5p4,185
+plover_clippy_2/algos.py,sha256=dg4As0iwvi0bfELGZ_RdHNsje4Ti9No4TMnLop-9iUg,75
+plover_clippy_2/builtin.py,sha256=HzvUHQ60DiZTDT01DbBKWmy6rSJS3YZgM8lJ8HX0gSg,2366
+plover_clippy_2/config.py,sha256=G7XPJlw8WJhgD-pPythdVwWISslDB_M8PEzp7uYZb5A,478
+plover_clippy_2/debug.py,sha256=YRhM60BBtDDCom_yEJ3PrRKVr7nEW8JCrIevAzhZlq8,3082
+plover_clippy_2/default.py,sha256=QL6x8-NKFylqeI-rpMpCdVZPfmeh0syL-4E44CHaN90,1799
+plover_clippy_2/state.py,sha256=gyJoxqsfzLqPnIOlWUcPfo9gjUyN1_-uBtzweEl6WIs,1541
+plover_clippy_2/util.py,sha256=jwJtYrWINfpOELWoOiR8ouYi2I41CrJ0tfiPFiQY1ds,348
+plover_clippy_2-0.0.1.dist-info/LICENSE,sha256=ljOS4DjXvqEo5VzGfdaRwgRZPbNScGBmfwyC8PChvmQ,32422
+plover_clippy_2-0.0.1.dist-info/METADATA,sha256=fXAeUi2HyKuFt-tQeGsQpRNcHe8WGm1qHsj8fCJukbQ,6810
+plover_clippy_2-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+plover_clippy_2-0.0.1.dist-info/entry_points.txt,sha256=2clCunE7HC1KENLM6uvIKDZKfeuEOM9-ea5vIj9r1JE,69
+plover_clippy_2-0.0.1.dist-info/top_level.txt,sha256=_m5aS5GLWGhFsUMzbMp8k5l68tMaEPiiG1pR35nvt1I,16
+plover_clippy_2-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+plover_clippy_2-0.0.1.dist-info/RECORD,,
