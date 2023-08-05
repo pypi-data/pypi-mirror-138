@@ -1,0 +1,3 @@
+[console_scripts]
+python_bluesky_taskgraph = python_bluesky_taskgraph.__main__:main
+
