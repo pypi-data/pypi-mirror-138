@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+itscalledsoccer.egg-info/PKG-INFO
+itscalledsoccer.egg-info/SOURCES.txt
+itscalledsoccer.egg-info/dependency_links.txt
+itscalledsoccer.egg-info/top_level.txt
