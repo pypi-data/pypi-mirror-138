@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+HemantDhanwar/EmailServices.py
+HemantDhanwar/__init__.py
+HemantDhanwar.egg-info/PKG-INFO
+HemantDhanwar.egg-info/SOURCES.txt
+HemantDhanwar.egg-info/dependency_links.txt
+HemantDhanwar.egg-info/requires.txt
+HemantDhanwar.egg-info/top_level.txt
