@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: dewr
+Version: 0.0.7
+Summary: A small example package
+Home-page: https://github.com/pypa/sampleproject
+Author: churunmin
+Author-email: churunmin@outlook.com
+License: MIT
+Description: # dewr
+        
+        ## Feature:
+        * Restart job when start or files change.
+        * Kill job when exit.
+        
+        ## Install
+        ```sh
+        pip3 install -U dewr
+        ```
+        
+        ## Usage
+        ```py
+        import logging
+        import dewr
+        logging.basicConfig(
+        	level=logging.INFO, format="%(asctime)s\t%(levelname)s\t%(name)s\t%(message)s"
+        )
+        dewr.WatchRestart(["."], r"\.(?:pid|log)$", ["sh", "sleep66.sh"])
+        
+        ```
+        
+        ```sh
+        dewr -d . /Another/Dir/To/Watch -e "\.(pid|log)$|^(dist|bin|log|node_modules|\.git)(/|$)" -- sleep66.sh
+        ```
+        
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

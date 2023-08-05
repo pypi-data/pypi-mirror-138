@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+dewr/JobControl.py
+dewr/JobControl_posix.py
+dewr/JobControl_win32.py
+dewr/WatchRestart_FSEvents.py
+dewr/WatchRestart_ReadDirectoryChangesW.py
+dewr/WatchRestart_inotify.py
+dewr/__init__.py
+dewr/cli.py
+dewr.egg-info/PKG-INFO
+dewr.egg-info/SOURCES.txt
+dewr.egg-info/dependency_links.txt
+dewr.egg-info/entry_points.txt
+dewr.egg-info/requires.txt
+dewr.egg-info/top_level.txt
