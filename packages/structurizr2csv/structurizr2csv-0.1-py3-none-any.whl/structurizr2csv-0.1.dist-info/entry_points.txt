@@ -1,0 +1,3 @@
+[console_scripts]
+structurizr2csv = structurizr2csv.convert:main
+
