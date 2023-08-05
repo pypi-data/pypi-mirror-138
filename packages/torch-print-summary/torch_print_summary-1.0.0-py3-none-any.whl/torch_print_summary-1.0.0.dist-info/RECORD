@@ -1,0 +1,7 @@
+torchtools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torchtools/hooks.py,sha256=qu0Dfj8sR5V4Y4VfCjBxfLhf1f471D-HWuoa_E4vUag,7726
+torchtools/utils.py,sha256=T3n6QDhgeGepaOYIBUiDeeuLDwIw1UU3bkEANr1d9UY,1058
+torch_print_summary-1.0.0.dist-info/METADATA,sha256=6jCVy7vaSeLV8wQubE9-3cyXC9FWVhzozMnB_T9bcws,7609
+torch_print_summary-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+torch_print_summary-1.0.0.dist-info/top_level.txt,sha256=N0kPRidaX6mMVHPKJ_zyRLdeGCF15pnaKG3xUugZL9U,11
+torch_print_summary-1.0.0.dist-info/RECORD,,
