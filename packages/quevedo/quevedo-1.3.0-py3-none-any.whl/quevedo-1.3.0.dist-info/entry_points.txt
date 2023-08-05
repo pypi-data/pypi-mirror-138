@@ -1,0 +1,3 @@
+[console_scripts]
+quevedo=quevedo.cli:cli
+
