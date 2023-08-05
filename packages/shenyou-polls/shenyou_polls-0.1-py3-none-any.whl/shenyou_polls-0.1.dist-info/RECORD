@@ -1,0 +1,16 @@
+polls/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polls/admin.py,sha256=q--cjxj2BRinLuSBkvtTGO39bbVPKwpq0023Jqz7drw,589
+polls/apps.py,sha256=588Zxy3AzArR6ZFhmv-SH5EPuar99VZfjKjJnj-geqA,148
+polls/models.py,sha256=zkKvmvYLQN4fmqX3Kl15EidIlLd4-g8Gi8PxjoH5to0,921
+polls/test.py,sha256=HF--5ohdUciUjXSK3qTK0Mtbuuykf-dWA5CZjjGW8hU,925
+polls/tests.py,sha256=AGO5QFua6L2-z3RuPrGNE934jVTqkBa99t1KagWFDak,3435
+polls/urls.py,sha256=FDL2J6HtUUBrPBDz1AHkoXIse2i2PNy_IqKi6y0-hT4,348
+polls/views.py,sha256=JqMwuginZRAyVVMJSvC7R4NtN6OSDD52NIMb7g5moUQ,1407
+polls/migrations/0001_initial.py,sha256=V4gcGfDgOiHGL-yWNt6w1BwWl82lZrxfqN5DXZcnc74,1113
+polls/migrations/0002_alter_choice_choice_text_alter_question_pub_date_and_more.py,sha256=CFZUOB1Km0uOdiqsrOJpL9R0m4U0uIiQ1bLKS3YQYbg,791
+polls/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shenyou_polls-0.1.dist-info/LICENSE,sha256=SpuR0miNIPpdLUaU8W8Bw45F2HIq7RkgqtZfOSx3Lis,1090
+shenyou_polls-0.1.dist-info/METADATA,sha256=qNcmsfMJN5D4O-gG-mCQN2OjQPewLSlgW1hCpPE_jEo,938
+shenyou_polls-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+shenyou_polls-0.1.dist-info/top_level.txt,sha256=nFZT9qJU0JMR4qxKFac47WtiOKmzCgOO6US2EbPCAKU,6
+shenyou_polls-0.1.dist-info/RECORD,,

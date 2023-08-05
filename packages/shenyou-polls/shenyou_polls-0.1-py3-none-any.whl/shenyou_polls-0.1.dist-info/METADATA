@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: shenyou-polls
+Version: 0.1
+Summary: A Django app to conduct web-based polls.
+Home-page: https://www.example.com/
+Author: ShenYou
+Author-email: 315578808@qq.com
+License: BSD-3-Clause  # Example license
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: Django (>=4.0)
+
+UNKNOWN
+
