@@ -1,0 +1,4 @@
+addons_installer
+build
+dist
+tests
