@@ -1,0 +1,15 @@
+hiclass/BinaryPolicies.py,sha256=GQ_iOYwRzOcZaviTVOc67_G-yA8sMWHKe2gZkdhdoEU,9759
+hiclass/Classifier.py,sha256=eTfC62V2JFa7tHPYlEIK63oTUC-3qLCu8y9GTQCcE-Q,23225
+hiclass/LocalClassifierPerLevel.py,sha256=ahRdCEf6iRGnBIy43_S1IIpUkyMBJn7O7N_8J1VZsyQ,11830
+hiclass/LocalClassifierPerNode.py,sha256=ZJpob6q-gSJFd3LGbWCOUCi6m8pWEa5SZzbVz7M5nX4,4581
+hiclass/LocalClassifierPerParent.py,sha256=o_Kzjto7ICp2y7m3l5s5tpC2ytfP-0Aijyx2xTmTtlA,6377
+hiclass/__init__.py,sha256=L4O0wzvSbMp5OZofJ9EMeLYyTzcNqf2XsxjI4hFN4so,429
+hiclass/_version.py,sha256=sudTChAEwqY5T4TCkY2ZtZ_N77Tp4BlJBqTKOCIR7xg,498
+hiclass/data.py,sha256=CvQGep-a9SyTTFwUv1rSbaxr6KnSXwJ8UD4EMMDJV1w,7893
+hiclass/metrics.py,sha256=pjWa20N-oFP1ih70B6xaJMTHp_lM1zBkVqRKPAgsfuw,3280
+hiclass-2.0.11.dist-info/LICENSE,sha256=-5g2JNGpBa4JJwtwvCdfpP-8q0QR_Sqrqt5pRHmTMx0,1516
+hiclass-2.0.11.dist-info/METADATA,sha256=kzsCrpUtZsWBV1He-lQdCuVtg9INsHFuHS3fu-6-MSo,3947
+hiclass-2.0.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hiclass-2.0.11.dist-info/entry_points.txt,sha256=BAPLDR5Kk0QA2-iS_IpUdnmjFG93zc_2fb1u0uLeMLY,51
+hiclass-2.0.11.dist-info/top_level.txt,sha256=ZwvbTqDCWATWoXlHxubUYv5M-s0izi0J_X8I1WAiPYk,8
+hiclass-2.0.11.dist-info/RECORD,,
