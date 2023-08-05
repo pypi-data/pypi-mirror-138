@@ -1,0 +1,10 @@
+numpy
+matplotlib
+xarray
+hvplot
+holoviews
+cartopy
+geoviews
+bokeh
+pyviz_comms
+pyproj
