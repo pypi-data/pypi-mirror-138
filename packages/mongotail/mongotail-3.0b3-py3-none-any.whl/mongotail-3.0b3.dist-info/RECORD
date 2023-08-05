@@ -1,0 +1,13 @@
+mongotail/__init__.py,sha256=z9TMZalJQIi2OKsy6E48NB-EfL2GzCwUkUCs-t4QESc,1692
+mongotail/conn.py,sha256=NB5UBxHmkXs5_SLNhuqy25VCOP32WBwFBqq3YD83sno,3454
+mongotail/err.py,sha256=odFI0bdXejhMBxGd_d8OfgXTL8fHqnhcjsr-bXn3Se4,1888
+mongotail/jsondec.py,sha256=PMPxn5ebbX5kHfTaHmUsQjEJc97IwAWOjt8VO7K7Y8Y,4029
+mongotail/mongotail.py,sha256=mJkEJ7dqTxJyqkNaUXeiulnFfGKwEHaHLNwbDc7Ut0I,11916
+mongotail/out.py,sha256=-lBlVhoGpO0rQ_wW6dnKLOqqz_k6K-MpBlRW4ETrXwc,10851
+mongotail-3.0b3.dist-info/AUTHORS.rst,sha256=5rOFqokCwSMYtyAjeVzA1Kr5B69Xegc8bNJzOTBDKr0,859
+mongotail-3.0b3.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+mongotail-3.0b3.dist-info/METADATA,sha256=R_QzgXhg4Z-IwGk-IeE0IaUSPaBtWJ7N0qEVoIlDMS8,10833
+mongotail-3.0b3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mongotail-3.0b3.dist-info/entry_points.txt,sha256=BI-Ab-f7cvd6CjBmhTgy7s4UEbsUfWOTC3ncpKdIr6c,56
+mongotail-3.0b3.dist-info/top_level.txt,sha256=rfulWSN3vVyt1KpKhRMni44jIRGjffEsyM4QjAPyhbQ,10
+mongotail-3.0b3.dist-info/RECORD,,
