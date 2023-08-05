@@ -1,0 +1,76 @@
+[tool.poetry]
+name = "py-synologydsm-api"
+version = "1.0.6"
+description = "Python API for communication with Synology DSM"
+authors = ["Michael Brussk (mib1185)", "Quentin POLLET (Quentame)", "FG van Zeelst (ProtoThis)"]
+license = "MIT"
+readme = "README.rst"
+homepage = "https://github.com/mib1185/py-synologydsm-api"
+repository = "https://github.com/mib1185/py-synologydsm-api"
+documentation = "https://github.com/mib1185/py-synologydsm-api#readme"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Software Development :: Libraries",
+]
+keywords=["synology-dsm", "synology"]
+packages = [
+    { include = "synology_dsm", from = "src" },
+]
+
+[tool.poetry.urls]
+Changelog = "https://github.com/mib1185/py-synologydsm-api/releases"
+
+[tool.poetry.dependencies]
+python = "^3.7.0"
+requests = "^2.24.0"
+urllib3 = "^1.25.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+coverage = {extras = ["toml"], version = "^5.3"}
+safety = "^1.10.3"
+mypy = "^0.931"
+typeguard = "^2.12.1"
+xdoctest = {extras = ["colors"], version = "^0.15.10"}
+sphinx = "^4.3.2"
+sphinx-autobuild = "^2021.3.14"
+pre-commit = "^2.14.0"
+flake8 = "^4.0.1"
+black = "^20.8b1"
+flake8-bandit = "^2.1.2"
+flake8-bugbear = "^21.4.3"
+flake8-docstrings = "^1.6.0"
+flake8-rst-docstrings = "^0.2.3"
+pep8-naming = "^0.12.1"
+darglint = "^1.8.1"
+reorder-python-imports = "^2.5.0"
+pre-commit-hooks = "^3.4.0"
+sphinx-rtd-theme = "^0.5.2"
+Pygments = "^2.8.1"
+
+[tool.poetry.scripts]
+synologydsm-api = "synology_dsm.__main__:main"
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["synology_dsm"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 80
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
