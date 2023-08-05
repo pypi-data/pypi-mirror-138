@@ -1,0 +1,11 @@
+transformers<4.17,>=4.3
+
+[all]
+torch<1.11,>=1.5
+spacy<3.3,>=3.0
+
+[spacy]
+spacy<3.3,>=3.0
+
+[torch]
+torch<1.11,>=1.5
