@@ -1,0 +1,3 @@
+[console_scripts]
+htmlx = htmlx.__main__:run
+
