@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+NOTICE
+README.md
+setup.cfg
+setup.py
+src/synapse_test_helper/__init__.py
+src/synapse_test_helper/_version.py
+src/synapse_test_helper/synapse_test_helper.py
+src/synapse_test_helper.egg-info/PKG-INFO
+src/synapse_test_helper.egg-info/SOURCES.txt
+src/synapse_test_helper.egg-info/dependency_links.txt
+src/synapse_test_helper.egg-info/requires.txt
+src/synapse_test_helper.egg-info/top_level.txt
