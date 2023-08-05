@@ -1,0 +1,4 @@
+[console_scripts]
+autodev=autodev.entrypoints.cli:cli
+clinv=clinv.entrypoints.cli:cli
+
