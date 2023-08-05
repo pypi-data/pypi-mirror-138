@@ -1,0 +1,5 @@
+aiohttp==3.8.1
+aiodns==3.0.0
+cchardet==2.1.7
+pandas==1.4.0
+setuptools==58.1.0
