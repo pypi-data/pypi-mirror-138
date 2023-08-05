@@ -1,0 +1,11 @@
+setup.py
+src10/__init__.py
+src10/config_trans2.py
+src10/config_trans6.py
+src10/configtrans1.py
+src10/configtrans4.py
+src10/test.py
+src10.egg-info/PKG-INFO
+src10.egg-info/SOURCES.txt
+src10.egg-info/dependency_links.txt
+src10.egg-info/top_level.txt
