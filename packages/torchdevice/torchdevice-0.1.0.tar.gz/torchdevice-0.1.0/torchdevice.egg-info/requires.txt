@@ -1,0 +1,6 @@
+torch
+filelock
+
+[dev]
+pytest
+hypothesis
