@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+nbdocs/__init__.py
+nbdocs/version.py
+nbdocs.egg-info/PKG-INFO
+nbdocs.egg-info/SOURCES.txt
+nbdocs.egg-info/dependency_links.txt
+nbdocs.egg-info/requires.txt
+nbdocs.egg-info/top_level.txt
