@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: p2pclient
+Version: 0.2.0
+Summary: The libp2p daemon bindings for Python
+Home-page: https://github.com/mhchia/py-libp2p-daemon-bindings
+Author: Kevin Mai-Hsuan Chia
+Author-email: kevin.mh.chia@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: anyio (<2.0.0,>=1.2.2)
+Requires-Dist: async-exit-stack (<2.0.0,>=1.0.1)
+Requires-Dist: async-generator (<2.0,>=1.10)
+Requires-Dist: base58 (>=1.0.3)
+Requires-Dist: multiaddr (<0.1.0,>=0.0.8)
+Requires-Dist: protobuf (>=3.9.0)
+Requires-Dist: pycryptodome (<4.0.0,>=3.0.0)
+Requires-Dist: pymultihash (>=0.8.2)
+Provides-Extra: dev
+Requires-Dist: mypy (<1.0,>=0.761) ; extra == 'dev'
+Requires-Dist: pytest-cov (<3.0.0,>=2.7.1) ; extra == 'dev'
+Requires-Dist: pytest (<5.0.0,>=4.6.3) ; extra == 'dev'
+Requires-Dist: types-protobuf ; extra == 'dev'
+Requires-Dist: black (>=19.3b0) ; extra == 'dev'
+Requires-Dist: flake8 (<4.0.0,>=3.7.7) ; extra == 'dev'
+Requires-Dist: isort (>=4.3.21) ; extra == 'dev'
+Requires-Dist: mypy-protobuf (>=1.16) ; extra == 'dev'
+Requires-Dist: tox (<4.0.0,>=3.13.2) ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Provides-Extra: lint
+Requires-Dist: black (>=19.3b0) ; extra == 'lint'
+Requires-Dist: flake8 (<4.0.0,>=3.7.7) ; extra == 'lint'
+Requires-Dist: isort (>=4.3.21) ; extra == 'lint'
+Requires-Dist: mypy-protobuf (>=1.16) ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: mypy (<1.0,>=0.761) ; extra == 'test'
+Requires-Dist: pytest-cov (<3.0.0,>=2.7.1) ; extra == 'test'
+Requires-Dist: pytest (<5.0.0,>=4.6.3) ; extra == 'test'
+Requires-Dist: types-protobuf ; extra == 'test'
+
+# py-libp2p-daemon-bindings
+
+[![Unit tests](https://github.com/mhchia/py-libp2p-daemon-bindings/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/mhchia/py-libp2p-daemon-bindings/actions/workflows/unit-tests.yml)
+
+> The [libp2p daemon](https://github.com/libp2p/go-libp2p-daemon) bindings for Python
+
+Provides a client library to interact with the official libp2p daemons.
+Supports the [Go](https://github.com/libp2p/go-libp2p-daemon) and [JavaScript](https://github.com/libp2p/js-libp2p-daemon) daemons.
+
+Features:
+- The `Client` class enables communication with a P2P daemon using its protobuf control protocol.
+- The `Daemon` class allows to spawn a P2P daemon from Python code. This is especially useful for testing.
+
+Tested with the Go daemon v0.2.0 and the JS daemon v0.10.2.
+
+## Supported features (Go daemon)
+
+- [x] `Identify`
+- [x] `Connect`
+- [x] `StreamOpen`
+- [x] `StreamHandler` - Register
+- [x] `StreamHandler` - Inbound stream
+- [x] DHT ops
+- [x] Conn manager ops
+- [x] PubSub ops
+
+## Supported features (JS daemon)
+- [x] `Identify`
+- [x] `Connect`
+- [x] `StreamOpen`
+- [x] `StreamHandler` - Register
+- [x] `StreamHandler` - Inbound stream
+- [ ] DHT ops / most functionalities are bugged and some are not implemented
+- [ ] Conn manager ops
+- [x] PubSub ops
+- [ ] PeerStore
+
+
