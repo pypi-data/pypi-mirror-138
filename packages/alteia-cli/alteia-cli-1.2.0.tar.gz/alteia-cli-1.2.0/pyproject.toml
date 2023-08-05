@@ -1,0 +1,68 @@
+# === Poetry ===
+[tool.poetry]
+name = "alteia-cli"
+version = "1.2.0"  # must match the version in alteia_cli/__init__.py
+license = "MIT"
+readme = "README.md"
+description = "CLI for Alteia"
+authors = ["Alteia Backend Team <backend-team@alteia.com>"]
+keywords = ["cli",
+            "alteia"]
+include = ["custom_analytics/share/*"]
+
+[tool.poetry.scripts]
+alteia = "alteia_cli.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.6.1"
+typer = "^0.4.0"
+click_spinner = "^0.1.8"
+tabulate = "^0.8"
+pyyaml = ">=5.0.0 <7.0.0"
+jsonschema = ">=3.0.0 <5.0.0"
+alteia = ">=1.2.1 <3.0.0"
+pyinquirer= "^1.0.3"
+semver = "^2.13.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+pycodestyle = "*"
+flake8 = "*"
+pylint = "*"
+mypy = "*"
+pre-commit = "*"
+types-click-spinner = "*"
+types-pyyaml = "*"
+types-tabulate = "*"
+
+[[tool.poetry.source]]
+name = "delair-devpi"
+url = "http://srvdev.delair.local:8333/delair-stack/prod/+simple"
+default = true
+
+# === Tox configuration (unit tests) ===
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py36
+isolated_build = True
+
+[testenv]
+commands = pytest
+deps =
+    pytest
+
+[testenv:py36]
+commands =
+    coverage erase
+    pytest --cov alteia_cli --cov-report term --cov-report html
+deps =
+    pytest-cov
+    pytest
+    coverage<5
+"""
+
+# === Build ===
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
