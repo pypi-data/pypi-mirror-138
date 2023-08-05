@@ -1,0 +1,2 @@
+# DON'T YOU LECTURE ME WITH YOUR THIRTY DOLLAR LIBRARY
+## a.k.a Thirty, a library for generating THIRTY DOLLAR WEBSITE songs

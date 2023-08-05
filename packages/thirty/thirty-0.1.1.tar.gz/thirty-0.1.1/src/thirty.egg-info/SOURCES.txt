@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/thirty.egg-info/PKG-INFO
+src/thirty.egg-info/SOURCES.txt
+src/thirty.egg-info/dependency_links.txt
+src/thirty.egg-info/top_level.txt

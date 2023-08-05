@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: thirty
+Version: 0.1.1
+Summary: A library for creating THIRTY DOLLAR WEBSITE songs
+Home-page: UNKNOWN
+Author: SixBeeps
+Author-email: brandononlyu@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DON'T YOU LECTURE ME WITH YOUR THIRTY DOLLAR LIBRARY
+## a.k.a Thirty, a library for generating THIRTY DOLLAR WEBSITE songs
+
