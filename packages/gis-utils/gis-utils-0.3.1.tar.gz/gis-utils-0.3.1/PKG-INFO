@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gis-utils
+Version: 0.3.1
+Summary: Convenience functions for working with geospatial data in python.
+Home-page: https://github.com/aleaf/gisutils
+Author: Andrew Leaf
+Author-email: aleaf@usgs.gov
+License: BSD (3-clause)
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+UNKNOWN
+
