@@ -1,0 +1,10 @@
+mongodb_atlas_api_sdk/__init__.py,sha256=buNXOvULio6Rpy9uiYFq2r9h-FQMO9us3OZHh5GE-Ec,244
+mongodb_atlas_api_sdk/api_key.py,sha256=fl1IKHcimsuAAXhma69xuijzInHIJOD-k8JBZW86BJE,6451
+mongodb_atlas_api_sdk/atlas_api_sdk.py,sha256=NmZEVT2Va3g87RMFfk7vHj6VX_6CYeKc9WPUMzBa5-E,3444
+mongodb_atlas_api_sdk/atlas_project.py,sha256=Sg_3sKs5mkZTHsd7PMT1gU8ppJOi9lHznDiRt1xnU0U,1135
+mongodb_atlas_api_sdk/database_user.py,sha256=iWwjEhb9hRqybBs2hZdj5zTYIkwcd0wfIuAOvH5GN4Q,11649
+mongodb_atlas_api_sdk/errors.py,sha256=LHIhmJmXr7vnzgkXbw7LSd-Ep5I8X8mSAdCnoIMfAII,5040
+mongodb_atlas_api_sdk-0.1.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+mongodb_atlas_api_sdk-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+mongodb_atlas_api_sdk-0.1.0.dist-info/METADATA,sha256=guGyLgRLkRmlh9KtuDU6mXgQNeYDJn8YdBL5SWdO-TU,1023
+mongodb_atlas_api_sdk-0.1.0.dist-info/RECORD,,
