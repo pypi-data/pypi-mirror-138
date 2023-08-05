@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: JsonPreprocessor
+Version: 0.0.7
+Summary: This package provides a preprocessor for json files
+Home-page: https://github.com/test-fullautomation/python-jsonpreprocessor
+Author: Mai Dinh Nam Son
+Author-email: son.maidinhnam@vn.bosch.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+long description
+
