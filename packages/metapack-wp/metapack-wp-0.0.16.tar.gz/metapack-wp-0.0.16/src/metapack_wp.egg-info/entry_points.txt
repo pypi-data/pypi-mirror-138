@@ -1,0 +1,4 @@
+[mt.subcommands]
+aws = metapack_wp.aws:metaaws
+wp = metapack_wp.wp:wp
+
