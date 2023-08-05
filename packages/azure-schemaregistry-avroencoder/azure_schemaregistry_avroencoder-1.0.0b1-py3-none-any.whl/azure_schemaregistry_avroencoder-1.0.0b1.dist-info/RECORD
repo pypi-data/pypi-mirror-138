@@ -1,0 +1,17 @@
+azure/schemaregistry/encoder/__init__.py,sha256=p9kYyRgqaErwics248gmXWh6hiDZVZuwE2WiqpfASpk,1384
+azure/schemaregistry/encoder/avroencoder/__init__.py,sha256=_alf5-HwRSHCSgSNcIVcYceHRtepvj5IUyp0lQa2e44,1555
+azure/schemaregistry/encoder/avroencoder/_abstract_avro_encoder.py,sha256=WiFUdG1JDYwaGmRzKiYwzjtK-8dxmC0FQPiPSavYfMM,2311
+azure/schemaregistry/encoder/avroencoder/_apache_avro_encoder.py,sha256=ZOK8T0s4W8-UI_ElQW68nlvnT72CGvnLyUytWfGBNUQ,3753
+azure/schemaregistry/encoder/avroencoder/_constants.py,sha256=JpWbil_oC35Ldoyj0XZ2XuAcX7GNEoRnyRLGuGBKCWg,1679
+azure/schemaregistry/encoder/avroencoder/_message_protocol.py,sha256=hEt74lCdW6_QQJEKpKXdl6mfrIXcfRO8-bZbqSrHm-k,1316
+azure/schemaregistry/encoder/avroencoder/_schema_registry_avro_encoder.py,sha256=ZWTBxiCXK3ZxOJqkdKl9OjZHOs-Nl0yTIuc-5j8G204,12391
+azure/schemaregistry/encoder/avroencoder/_version.py,sha256=JUqs2ZzFaWhE9r2TJoq65nhIuYLL-kODUAIrZ8t3g-w,1324
+azure/schemaregistry/encoder/avroencoder/exceptions.py,sha256=DVw3tnxj3K0SHTjk0A924uwm2UmDPm27U_8LVspFKnQ,3294
+azure/schemaregistry/encoder/avroencoder/aio/__init__.py,sha256=R7l63CBF4Y4KoTocs5seKo7XhVbrx-ACZUJ0Vi4_P88,1397
+azure/schemaregistry/encoder/avroencoder/aio/_async_lru.py,sha256=FSi2TVWstgLp9mjV9W_RmaLAC95JlZTR5DhhXWniAhI,6753
+azure/schemaregistry/encoder/avroencoder/aio/_schema_registry_avro_encoder_async.py,sha256=meaIqA9ofMEgwVJuWt8gPaVetaJiBvuJtO529kDE7Bg,12467
+azure_schemaregistry_avroencoder-1.0.0b1.dist-info/LICENSE,sha256=_VMkgdgo4ToLE8y1mOAjOKNhd0BnWoYu5r3BVBto6T0,1073
+azure_schemaregistry_avroencoder-1.0.0b1.dist-info/METADATA,sha256=qCsXNn3x28cCI1IXkVwV5W4oQ8bzrhosKNxsRNNFIHE,16056
+azure_schemaregistry_avroencoder-1.0.0b1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+azure_schemaregistry_avroencoder-1.0.0b1.dist-info/top_level.txt,sha256=S7DhWV9m80TBzAhOFjxDUiNbKszzoThbnrSz5MpbHSQ,6
+azure_schemaregistry_avroencoder-1.0.0b1.dist-info/RECORD,,
