@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/google.com.egg-info/PKG-INFO
+src/google.com.egg-info/SOURCES.txt
+src/google.com.egg-info/dependency_links.txt
+src/google.com.egg-info/top_level.txt
