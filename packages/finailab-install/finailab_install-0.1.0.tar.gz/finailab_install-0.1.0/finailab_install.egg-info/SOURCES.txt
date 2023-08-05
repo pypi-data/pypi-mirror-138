@@ -1,0 +1,11 @@
+LICENCE.txt
+README.rst
+setup.py
+version.py
+finailab_install/__init__.py
+finailab_install/remote_user_auth.py
+finailab_install.egg-info/PKG-INFO
+finailab_install.egg-info/SOURCES.txt
+finailab_install.egg-info/dependency_links.txt
+finailab_install.egg-info/requires.txt
+finailab_install.egg-info/top_level.txt
