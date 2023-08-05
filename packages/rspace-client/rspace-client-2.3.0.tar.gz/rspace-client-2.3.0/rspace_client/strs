@@ -1,0 +1,85 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Jan 24 09:00:17 2022
+
+@author: richard
+"""
+import re
+class Id:
+    """
+    Supports integer or string representation of a globalId or
+    numeric ID or a dict / object representation of an Inventory item.
+    If a dict is passed, it must have 'id' and 'globalId' properties
+    """
+
+    Pattern = r"([A-Z]{2})?\d+"
+
+    PREFIX_TO_TYPE = {
+        "IC": "CONTAINER",
+        "SS": "SUBSAMPLE",
+        "SA": "SAMPLE",
+        "IT": "SAMPLE_TEMPLATE",
+    }
+    PREFIX_TO_API = {
+        "IC": "containers",
+        "SS": "subSamples",
+        "SA": "samples",
+        "IT": "sampleTemplates",
+    }
+
+    def __init__(self, value):
+
+        if isinstance(value, str):
+            if re.match(Id.Pattern, value) is None:
+                raise ValueError("incorrect global id format")
+
+            if len(value) > 2 and value[0:2].isalpha():
+                self.prefix = value[0:2]
+                self.id = int(value[2:])
+            else:
+                self.id = int(value)
+    
+        elif isinstance(value, dict):
+            if "id" in value.keys():
+                self.id = value["id"]
+            else:
+                raise TypeError(
+                    "Could not interpet dict as an identifiable Inventory item."
+                )
+
+            if "globalId" in value.keys():
+                self.prefix = value["globalId"][0:2]
+
+        elif isinstance(value, int):
+            self.id = value
+        else:
+            raise TypeError(
+                f"Could not interpet {value} as an identifiable Inventory item."
+            )
+
+    def __repr__(self):
+        rc = str(self.id)
+        if hasattr(self, "prefix"):
+            rc = "'" + self.prefix + rc + "'"
+        return f"{self.__class__.__name__}({rc})"
+
+    def __str__(self):
+        rc = str(self.id)
+        if hasattr(self, "prefix"):
+            rc = self.prefix + rc
+        return rc
+    def __eq__(self, o):
+         if  not isinstance(o, self.__class__):
+            return False
+         if self.id != o.id:
+             return False
+         pref_s = hasattr(self, 'prefix')
+         pref_o = hasattr(o, 'prefix')
+         if (pref_s and pref_o and self.prefix == o.prefix) or (not pref_s and not pref_o):
+             return True
+         return False
+
+
+a= Id(1234)
+b=Id(1234)
