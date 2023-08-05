@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+./league_connection/__init__.py
+./league_connection/connection.py
+./league_connection/exceptions.py
+./league_connection/info.py
+league_connection/__init__.py
+league_connection/connection.py
+league_connection/exceptions.py
+league_connection/info.py
+league_connection.egg-info/PKG-INFO
+league_connection.egg-info/SOURCES.txt
+league_connection.egg-info/dependency_links.txt
+league_connection.egg-info/requires.txt
+league_connection.egg-info/top_level.txt
