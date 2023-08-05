@@ -1,0 +1,4 @@
+numpy==1.22.2
+scikit-image==0.19.1
+humanize==3.14.0
+matplotlib==3.5.1

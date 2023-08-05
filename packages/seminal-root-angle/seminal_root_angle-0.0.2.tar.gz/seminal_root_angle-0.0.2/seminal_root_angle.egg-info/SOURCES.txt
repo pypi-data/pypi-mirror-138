@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+seminal_root_angle/__init__.py
+seminal_root_angle/extract.py
+seminal_root_angle.egg-info/PKG-INFO
+seminal_root_angle.egg-info/SOURCES.txt
+seminal_root_angle.egg-info/dependency_links.txt
+seminal_root_angle.egg-info/requires.txt
+seminal_root_angle.egg-info/top_level.txt
