@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pyrigami
+Version: 0.1.0
+Summary: A library to draw declaratively on PDF/SVG/PNG.
+Home-page: https://gitlab.com/ananthp/pyrigami
+License: MIT
+Author: Ananth P
+Author-email: ananth.pattabiraman@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Multimedia :: Graphics :: Editors
+Classifier: Topic :: Multimedia :: Graphics :: Editors :: Vector-Based
+Requires-Dist: pydantic (>=1.9,<2.0)
+Requires-Dist: qahirah (>=1.1,<2.0)
+Project-URL: Repository, https://gitlab.com/ananthp/pyrigami
+Description-Content-Type: text/markdown
+
+# pyrigami
+
+A library to draw declaratively on PDF/SVG/PNG.
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+
+

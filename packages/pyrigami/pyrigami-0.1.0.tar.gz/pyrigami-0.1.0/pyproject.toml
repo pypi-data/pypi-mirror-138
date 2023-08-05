@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "pyrigami"
+version = "0.1.0"
+description = "A library to draw declaratively on PDF/SVG/PNG."
+authors = ["Ananth P <ananth.pattabiraman@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://gitlab.com/ananthp/pyrigami"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Multimedia :: Graphics :: Editors",
+    "Topic :: Multimedia :: Graphics :: Editors :: Vector-Based",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+qahirah = "^1.1"
+pydantic = "^1.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0"
+pre-commit = "^2.0"
+coverage = "^6.0"
+# to make vim usable while in project venv
+pynvim = "*"
+jedi = "*"
+
+[tools.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
