@@ -1,0 +1,3 @@
+[console_scripts]
+tethys = tethys_cli:tethys_command
+
