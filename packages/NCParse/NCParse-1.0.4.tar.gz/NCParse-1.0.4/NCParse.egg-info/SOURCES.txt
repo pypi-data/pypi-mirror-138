@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+NCParse.egg-info/PKG-INFO
+NCParse.egg-info/SOURCES.txt
+NCParse.egg-info/dependency_links.txt
+NCParse.egg-info/top_level.txt
