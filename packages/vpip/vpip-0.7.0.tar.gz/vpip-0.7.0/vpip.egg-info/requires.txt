@@ -1,0 +1,4 @@
+case-conversion~=2.1
+configupdater~=3.0
+packaging~=21.3
+requests~=2.27
