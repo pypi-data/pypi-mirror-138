@@ -1,0 +1,15 @@
+Sphinx~=4.0
+sphinx-rtd-theme
+nbsphinx
+jupyter
+m2r2
+ray
+
+-e ./core
+-e ./coregistration
+-e ./features
+-e ./geometry
+-e ./io
+-e ./mask
+-e ./ml_tools
+-e ./visualization
