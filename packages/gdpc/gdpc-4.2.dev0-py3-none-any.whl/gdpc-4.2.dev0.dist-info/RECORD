@@ -1,0 +1,16 @@
+gdpc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gdpc/bitarray.py,sha256=yhIMQMZ2x-XhIJkNnEpe2PUDheiI-A-ApTIquTlSe4M,2238
+gdpc/direct_interface.py,sha256=JvXI7WdRvzlj96uyDFwQI8uYORO2v3csY6H9vjcIsqM,3199
+gdpc/example.py,sha256=saDztiJw7ZAAtN9G5L0M_ehVDVKVVSiVXM4oRvezlrk,6243
+gdpc/geometry.py,sha256=sgDqQwesGTyTXqR4ldL15u78IftnIxGnzp8i5GYzboc,18224
+gdpc/interface.py,sha256=jMMac8scU_KptuVKd0HSD00skdCFrusinL53uZNpwPs,13400
+gdpc/lookup.py,sha256=c0FjKzgQmJDU3TJTJXiitcFuHxI6_qaFSNItgD7f9kI,73123
+gdpc/tests.py,sha256=44vTwQ7EAI12d852r59DMkNS2yJy_BHX1vIdJLr-JrY,18454
+gdpc/toolbox.py,sha256=PG3r8CN2GNMmV8FtXrqEVUMvMMUd8MRKDe5zbKOrJj8,17019
+gdpc/visualizeMap.py,sha256=8JF4qtvM8_yVcxwLsNpXOvASz1emD4pbNgyaqH4KqwQ,2490
+gdpc/worldLoader.py,sha256=rUwnlUHBOIBL0GUPAdcd-nLBA1V1fgA_kakcn_LICE4,6590
+gdpc-4.2.dev0.dist-info/LICENSE,sha256=RXUO4l_b2NAqPv_n-nml3ynmzPzKbbGUXc4v0SIEok0,1106
+gdpc-4.2.dev0.dist-info/METADATA,sha256=mGkbm0DTmppfd4CtVW5za7YOn8wUMt6mys-rhNKbloo,345
+gdpc-4.2.dev0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gdpc-4.2.dev0.dist-info/top_level.txt,sha256=7OI5uu0brRVKW0DunD9120etdHJg921w4Ao6JjKaBr8,5
+gdpc-4.2.dev0.dist-info/RECORD,,
