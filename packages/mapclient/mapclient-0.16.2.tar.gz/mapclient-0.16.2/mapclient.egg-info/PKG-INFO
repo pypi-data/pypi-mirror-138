@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mapclient
+Version: 0.16.2
+Summary: A framework for managing and sharing workflows.
+Home-page: https://github.com/MusculoskeletalAtlasProject/mapclient
+Author: MAP Client Developers
+Author-email: mapclient-devs@physiomeproject.org
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+License-File: LICENSE
+License-File: NOTICE
+
+==========
+MAP Client
+==========
+
+MAP Client is an application for running workflows built from MAP Client plugins.
+Documentation for installing and using MAP Client and MAP Client plugins can be found `here <https://map-client.readthedocs.io/>`__.
+
+
+
