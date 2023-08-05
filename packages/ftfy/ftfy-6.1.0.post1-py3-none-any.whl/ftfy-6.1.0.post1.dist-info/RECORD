@@ -1,0 +1,17 @@
+CHANGELOG.md,sha256=Murkf10uYwqC9-8djxLuBHuVB24R7ypkfUpNR9n9T94,21443
+README.md,sha256=PsFX06-vCs5WIHUO_FyuYhiskKo6Jmz-saaNJc4XTNs,5230
+ftfy/__init__.py,sha256=j2mjcu9Etih0xQ094j7iYOsPuwsVCcjtAGChdm3BWY4,27653
+ftfy/bad_codecs/__init__.py,sha256=kNDJXrT7ZZgk5WZG4zIWgkinI27UTXLrubOGfrFk3dc,3234
+ftfy/bad_codecs/sloppy.py,sha256=GO8F9ZNmZbGxsv6zpfpQQ4_bpHawAY4pX3ilGGitVDA,6694
+ftfy/bad_codecs/utf8_variants.py,sha256=Tspd3prlZKQAFoW_PcE7sDK5pMsTcJSUuO0IBOCBvxs,9590
+ftfy/badness.py,sha256=oC2hgI_OcH--WF0ID1U0Rs02XWg-RG3nNngszwAc7oY,14407
+ftfy/chardata.py,sha256=43KWYrjnhNUi-GSYwkndB6_Ptnog26cN9Poekn_Oa1A,11833
+ftfy/cli.py,sha256=V8dsEG5mB5nI6lsuTiruZTzmudXqt_GL2BQUMVuep30,4116
+ftfy/fixes.py,sha256=sM4gGHB33B9rDuF6cCVo-ezjX6Hdgzg9z99B56QniTM,17755
+ftfy/formatting.py,sha256=Pkq_Xf0rbRmrB0WhDvbofeVy92yTe-OIug5HW4ULXLc,5798
+ftfy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ftfy-6.1.0.post1.dist-info/entry_points.txt,sha256=N8flv0M3Cdg0X56vlUPd7R_CdvTG76C8pKhrDS9Ysug,38
+ftfy-6.1.0.post1.dist-info/LICENSE.txt,sha256=Aijte3KmKTQwmjn1kAtNLmk-Dq2I9U5FmzYygkPDvmM,1094
+ftfy-6.1.0.post1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+ftfy-6.1.0.post1.dist-info/METADATA,sha256=ZgV6BLdUbz_aOLtx_VeLYES0hMF2WZU7EJCmjpxGmU8,5822
+ftfy-6.1.0.post1.dist-info/RECORD,,
