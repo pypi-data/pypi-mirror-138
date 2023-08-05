@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/DavidsPrint/AddOne.py
+src/DavidsPrint/__init__.py
+src/DavidsPrint/dp.py
+src/DavidsPrint.egg-info/PKG-INFO
+src/DavidsPrint.egg-info/SOURCES.txt
+src/DavidsPrint.egg-info/dependency_links.txt
+src/DavidsPrint.egg-info/top_level.txt
