@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: openplm
+Version: 0.2.0
+Summary: OpenNLP
+Home-page: https://github.com/autoliuweijie/opennlp
+Author: Weijie Liu
+Author-email: autoliuweijie@163.com
+License: UNKNOWN
+Description: # OpenPLM
+        
+        My personal extention of huggingface/transformers
+        
+        
+        ## Install
+        
+        ```sh
+        pip install openplm
+        ```
+        
+        
+        ## Tree
+        
+        ```sh
+        openplm/          # Python package.
+        ├── constant.py   # Define some constant values.
+        ├── apis          # Some easy-use apis.
+        ├── metrics       # Some metrics.
+        ├── models        # Some transformers-style models, which is an extension of huggingface/transformers.
+        └── utils         # Some utils.
+        
+        docs/             # Some documents.
+        examples/         # Some example projects implemented with transformers or openplm.
+        researchs/        # Some research projects implemented with transformers or openplm.
+        tests/            # Test cases.
+        models/           # Some large-size model files, which are excluded from git, e.g., *.bin
+        data/             # Some datasets.  
+        tmp/              # Tmps.
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
