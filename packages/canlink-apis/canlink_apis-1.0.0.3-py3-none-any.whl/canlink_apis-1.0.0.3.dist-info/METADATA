@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: canlink-apis
+Version: 1.0.0.3
+Summary: HanilProtech CANlink COM Control
+Home-page: http://www.hanilprotech.com/
+Author: HanilProtech
+Author-email: yeoneon.jeong@hanilprotech.com
+License: PSF
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: pywin32 ; platform_system == "Windows"
+
+HanilProtech CANlink COM Control 
+Please contact us for more information
+
