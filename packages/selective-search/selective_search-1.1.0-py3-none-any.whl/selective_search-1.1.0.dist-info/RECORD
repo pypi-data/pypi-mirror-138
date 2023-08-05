@@ -1,0 +1,10 @@
+selective_search/__init__.py,sha256=c4kM13Tok48-qYVQrbV6w7E-EYVcEZNsJUJD2lgfC7k,47
+selective_search/core.py,sha256=6G4fkl4kA1xWygrC5Ag9-zBV8noYA4Q0cQss8J24EiA,3156
+selective_search/measure.py,sha256=hRFA9emzHIrGI-2Uoa4jhbDXD2xnM8mCg-rEHDDC9V8,3338
+selective_search/structure.py,sha256=rCg01I_Ts8q2GNFSbNGdRw8CeV_gKHQIL441hJkwDUM,4235
+selective_search/util.py,sha256=zYEcUH9WuboCkaUEYZzytCEeFjhEmHChxIHax8CeTZ4,2050
+selective_search-1.1.0.dist-info/LICENSE,sha256=kPdKYXF4Fbu30oE07MVszhJHSPqNNqnGct4lJ--hQiI,1067
+selective_search-1.1.0.dist-info/METADATA,sha256=DZrH5XoDtNEo5G1r0HVukBkoVbNHip2hrwIvbgD9yJI,5739
+selective_search-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+selective_search-1.1.0.dist-info/top_level.txt,sha256=ugiTgSLRUqmhzyNp2xdY9K7UDO3KKbdMblVJTsUkR2Q,17
+selective_search-1.1.0.dist-info/RECORD,,
