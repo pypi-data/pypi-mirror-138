@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: confetta
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/2gis-test-labs/confetta
+Author: 2GIS Test Labs
+Author-email: test-labs@2gis.ru
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: docker (<6.0,>=5.0)
+
+# confetta
+
+## Installation
+
+```shell
+$ pip3 install confetta
+```
+
+## Usage
+
+```python
+from confetta import git_folder_name, docker_port
+
+config = {
+    "project_name": git_folder_name(),
+    "app_host": "app",
+    "app_port": docker_port("app", 5000),
+}
+```
+
+

@@ -1,0 +1,10 @@
+confetta/__init__.py,sha256=jkChBYIPg_Lj-aatyPa-wF7EroVMFmr__4FwFFgt840,162
+confetta/_docker_ports.py,sha256=xfDs2h0pGHGJx19nqF3lG6LmZjFLMbJeq_CsnEHyorA,507
+confetta/_docker_service.py,sha256=VxN4LMTTUbowG9IoUohtvtoqMCJSmBiyaoP5Sd1BelA,1064
+confetta/_git_folder_name.py,sha256=IWfUkn9NEt-W93EzK-2AaWwILxPe5IzT00SaxhTG108,617
+confetta/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+confetta-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+confetta-0.1.0.dist-info/METADATA,sha256=OQtvB-v3lPTN1jnXbhfLOlai64A9S6P4mYauAzu43zQ,862
+confetta-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+confetta-0.1.0.dist-info/top_level.txt,sha256=i10jpQ5rFka0KraT1xOitfRtLzs7O0bewMlpdiB2FA0,9
+confetta-0.1.0.dist-info/RECORD,,
