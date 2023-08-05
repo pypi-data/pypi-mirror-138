@@ -1,0 +1,7 @@
+django
+
+[allauth]
+django-allauth
+
+[oauth-toolkit]
+django-oauth-toolkit
