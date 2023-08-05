@@ -1,0 +1,6 @@
+requests>=2.16.0
+unicodecsv==0.14.1
+urllib3>=1.26.0
+
+[pandas]
+pandas>=0.24.0
