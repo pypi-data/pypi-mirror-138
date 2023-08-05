@@ -1,0 +1,13 @@
+dcorelib>=0.6
+h5py!=2.10.0
+numpy
+scipy
+sympy
+toml>=0.10
+
+[dev]
+matplotlib
+pytest
+sphinx
+versioneer
+wild_sphinx_theme
