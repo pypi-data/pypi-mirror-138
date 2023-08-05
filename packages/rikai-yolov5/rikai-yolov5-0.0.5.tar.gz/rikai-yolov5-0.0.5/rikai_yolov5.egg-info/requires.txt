@@ -1,0 +1,9 @@
+rikai>=0.1.2
+yolov5<7.0.0,>=6.0.0
+
+[dev]
+black
+isort
+pytest
+mlflow
+rikai-torchhub

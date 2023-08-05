@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+rikai/contrib/__init__.py
+rikai/contrib/torchhub/__init__.py
+rikai/contrib/torchhub/ultralytics/__init__.py
+rikai/contrib/torchhub/ultralytics/yolov5/__init__.py
+rikai/contrib/torchhub/ultralytics/yolov5/yolov5.py
+rikai/contrib/yolov5/__init__.py
+rikai/contrib/yolov5/codegen.py
+rikai_yolov5.egg-info/PKG-INFO
+rikai_yolov5.egg-info/SOURCES.txt
+rikai_yolov5.egg-info/dependency_links.txt
+rikai_yolov5.egg-info/requires.txt
+rikai_yolov5.egg-info/top_level.txt
