@@ -1,0 +1,3 @@
+[console_scripts]
+smgantt = smgantt:main
+
