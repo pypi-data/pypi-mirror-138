@@ -1,0 +1,8 @@
+{
+  "icons_dir": "~/deckster/icons",
+  "plugins_dir": "~/deckster/deckster-plugins",
+  "current_page": 1,
+  "keys_dir": "~/deckster/keys.d",
+  "loglevel": "info",
+  "brightness": 100
+}
