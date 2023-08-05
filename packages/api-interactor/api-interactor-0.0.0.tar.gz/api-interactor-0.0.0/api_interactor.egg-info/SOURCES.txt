@@ -1,0 +1,7 @@
+README.md
+setup.py
+api_interactor.egg-info/PKG-INFO
+api_interactor.egg-info/SOURCES.txt
+api_interactor.egg-info/dependency_links.txt
+api_interactor.egg-info/requires.txt
+api_interactor.egg-info/top_level.txt
