@@ -1,0 +1,78 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Test
+
+on:
+  push:
+    paths-ignore:
+      - '*.md'
+      - '*.rst'
+  pull_request:
+    paths-ignore:
+      - '*.md'
+      - '*.rst'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [3.7, 3.8, 3.9]
+
+    env:
+      WOKCALIB_DIR: "/home/runner/work/coordio/coordio/fps_calibrations/apo/wok_calibs/sloanBase:/home/runner/work/coordio/coordio/fps_calibrations/lco/wok_calibs/duPontBase"
+      PYTHONPATH: "/home/runner/work/coordio/coordio/fps_calibrations"
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Cache Setup
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Clone fps_calibrations
+        uses: actions/checkout@master
+        with:
+          repository: sdss/fps_calibrations
+          path: fps_calibrations
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          pip install .
+
+      # - name: Lint with flake8
+      #   run: |
+      #     pip install flake8
+      #     # stop the build if there are Python syntax errors or undefined names
+      #     flake8 . --count --show-source --statistics
+
+      # - name: Lint with isort
+      #   run: |
+      #     pip install isort
+      #     isort -c .
+
+      - name: Install test dependencies
+        run: |
+          pip install .[dev]
+
+      - name: Test with pytest
+        run: |
+          pytest
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v1
+        with:
+          file: ./coverage.xml
