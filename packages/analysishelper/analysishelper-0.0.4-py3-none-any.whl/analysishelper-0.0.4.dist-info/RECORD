@@ -1,0 +1,13 @@
+analysishelper/__init__.py,sha256=xJys-UAK87HBPf4SWX0rG24kFRWRD2lMKYzCT7PudxQ,91
+analysishelper/map/__init__.py,sha256=CSa4g4Q1MfOYE1Qpeyf03iX7-LvowhK3Tlr2EJ2JCSs,24
+analysishelper/map/periodmap.py,sha256=OpYaULLF_n96W07GTaToSONBTYFFc8Yl4n0BNrgPrk0,1820
+analysishelper/map/metadata/period_dict.csv,sha256=A01VYvb_Ia6MRzxvuBIL5daPLL05rNd8ymYnzS190RA,10556
+analysishelper/utils/__init__.py,sha256=wigQtXQFTfzWURkmL2SGiRMf-T_IhbVGlM8n7jqcBi8,79
+analysishelper/utils/customdatetime.py,sha256=3FkZP5lq4QDA7wmKkQ_5YmaQDplmclHZmrnfTYgR2jc,570
+analysishelper/utils/customlog.py,sha256=jDZDpLI_DApUfIxnSIjc3Yz0lyrjxDJNbM6Cq_SoNbE,1812
+analysishelper/utils/filesys.py,sha256=67zBRV-arqGrxK5UZn0onO9OxV-kasZsZzwpRUQMWaE,1289
+analysishelper-0.0.4.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+analysishelper-0.0.4.dist-info/METADATA,sha256=nOKgI6HdpGu13hOM1ORWzVcfuTQUwmHwhIcL2lJIISk,1190
+analysishelper-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+analysishelper-0.0.4.dist-info/top_level.txt,sha256=YZzSEy0o0P-VDzM-Jgy44ANFyR0y1iRGd43qnPbKOws,15
+analysishelper-0.0.4.dist-info/RECORD,,
