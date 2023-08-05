@@ -1,0 +1,8 @@
+README.md
+setup.py
+listre/__init__.py
+listre/main.py
+listre.egg-info/PKG-INFO
+listre.egg-info/SOURCES.txt
+listre.egg-info/dependency_links.txt
+listre.egg-info/top_level.txt
