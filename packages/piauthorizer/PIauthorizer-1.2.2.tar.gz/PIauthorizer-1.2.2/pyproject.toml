@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "PIauthorizer"
+version = "1.2.2"
+description = "A package to create a uniform authorization and autorest standard for FastAPI. Along with integration with out Application Configuration server."
+authors = ["David Berenstein <david.berenstein@pandoraintelligence.com>"]
+license = "Pandora Intelligence"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = ">=0.62.0"
+PyJWT = "^2.0.1"
+aiohttp = "^3.7.4"
+cryptography = "^3.4.7"
+python-multipart = "^0.0.5"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.5.6"
+flake8 = "^3.9.0"
+black = {version = "^21.9b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

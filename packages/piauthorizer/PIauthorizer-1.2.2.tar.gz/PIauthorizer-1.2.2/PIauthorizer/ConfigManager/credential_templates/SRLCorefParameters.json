@@ -1,0 +1,51 @@
+{
+    "name": "SRLCorefParameters",
+    "displayName": "AI.SRLCorefParameters",
+    "configurations": [
+        {
+            "$type": "DoubleConfiguration",
+            "defaultValue": {
+				"value": 3000
+			},
+            "required": true,
+            "key": "CHUNK_SIZE",
+            "name": "Chunk Size",
+            "description": "",
+            "tenants": [
+                "research"
+            ],
+            "audience": "PandoraAdmin",
+            "metadata": []
+        },
+		{
+            "$type": "DoubleConfiguration",
+            "defaultValue": {
+				"value": 50000
+			},
+            "required": true,
+            "key": "INPUT_TEXT_LIMIT",
+            "name": "Input Text Limit",
+            "description": "",
+            "tenants": [
+                "research"
+            ],
+            "audience": "PandoraAdmin",
+            "metadata": []
+        },
+		{
+            "$type": "DoubleConfiguration",
+            "defaultValue": {
+				"value": 0
+			},
+            "required": true,
+            "key": "OVERLAP_CHUNK_COREF",
+            "name": "Chunking Overlap CoRef",
+            "description": "",
+            "tenants": [
+                "research"
+            ],
+            "audience": "PandoraAdmin",
+            "metadata": []
+        }
+    ]
+}
