@@ -1,0 +1,13 @@
+click
+requests
+urllib3
+
+[dev]
+black
+codecov
+flake8
+mypy
+pytest
+pytest-cov
+setuptools>=46.4.0
+types-requests
