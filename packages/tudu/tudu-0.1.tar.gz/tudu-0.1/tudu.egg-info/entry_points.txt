@@ -1,0 +1,3 @@
+[console_scripts]
+tudu = tudu.cli:main
+
