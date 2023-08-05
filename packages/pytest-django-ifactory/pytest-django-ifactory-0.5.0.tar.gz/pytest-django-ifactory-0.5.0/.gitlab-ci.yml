@@ -1,0 +1,112 @@
+stages:
+  - test
+  - build
+  - publish
+
+image: python:3.9
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.pip_cache"
+
+cache:
+  key: $CI_JOB_NAME
+  paths:
+    - .pip_cache/
+
+
+check-code:
+  before_script:
+    - pip install bandit black check-manifest flake8
+  script:
+    - black --check pytest_django_ifactory setup.py tests
+    - flake8
+    - bandit -r pytest_django_ifactory
+    - check-manifest
+
+.test:
+  stage: test
+  variables:
+    SPATIALITE_LIBRARY_PATH: mod_spatialite
+    TEST_DEPENDENCIES: pillow psycopg2-binary pytest-cov
+  before_script:
+    - pip install --no-cache-dir $TEST_DEPENDENCIES django~=$DJANGO_VERSION -e .
+  script:
+    - pytest --cov=pytest_django_ifactory
+
+test-py37-django22:
+  extends: .test
+  variables:
+    DJANGO_VERSION: 2.2.17
+  image: registry.gitlab.com/gorilladev/pytest-django-ifactory/python:3.7
+
+test-py37-django32:
+  extends: .test
+  variables:
+    DJANGO_VERSION: 3.2.12
+  image: registry.gitlab.com/gorilladev/pytest-django-ifactory/python:3.7
+
+test-py38-django22:
+  extends: .test
+  variables:
+    DJANGO_VERSION: 2.2.17
+  image: registry.gitlab.com/gorilladev/pytest-django-ifactory/python:3.8
+
+test-py38-django32:
+  extends: .test
+  variables:
+    DJANGO_VERSION: 3.2.12
+  image: registry.gitlab.com/gorilladev/pytest-django-ifactory/python:3.8
+
+test-py39-django22:
+  extends: .test
+  variables:
+    DJANGO_VERSION: 2.2.17
+  image: registry.gitlab.com/gorilladev/pytest-django-ifactory/python:3.9
+
+test-py39-django32:
+  extends: .test
+  variables:
+    DJANGO_VERSION: 3.2.12
+  image: registry.gitlab.com/gorilladev/pytest-django-ifactory/python:3.9
+
+
+build:
+  stage: build
+  before_script:
+    - pip install --upgrade setuptools wheel
+  script:
+    - python3 setup.py sdist bdist_wheel
+  artifacts:
+    paths:
+      - dist/
+  only:
+    - master
+    - tags
+
+
+.publish:
+  stage: publish
+  variables:
+    GIT_STRATEGY: none
+  before_script:
+    - pip install --upgrade twine
+  script:
+    - twine upload dist/*
+
+publish-test-pypi:
+  extends: .publish
+  variables:
+    TWINE_REPOSITORY_URL: https://test.pypi.org/legacy/
+  environment:
+    name: test-pypi
+    url: https://test.pypi.org/project/pytest-django-ifactory/
+  only:
+    - master
+
+publish-pypi:
+  extends: .publish
+  environment:
+    name: pypi
+    url: https://pypi.org/project/pytest-django-ifactory/
+  only:
+    - tags

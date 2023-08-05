@@ -1,0 +1,18 @@
+# Install requirements
+pytest-django
+
+# Development dependencies
+black
+check-manifest
+django ~= 3.2.12
+flake8
+jedi
+pillow
+pre-commit
+psycopg2-binary
+pytest-cov
+twine
+wheel
+
+# Self
+-e .
