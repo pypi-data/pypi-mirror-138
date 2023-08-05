@@ -1,0 +1,9 @@
+pyrigami/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+pyrigami/engraver/__init__.py,sha256=hkl2C_V475yoEJQrikdCdbpcQSB2n3Mq2ZUj1mNwgcM,4766
+pyrigami/engraver/score.py,sha256=mXhOq7dxJ2K0K299TgZmtJVLO7Ebm7-aRLywpom6tw8,4390
+pyrigami/units/__init__.py,sha256=r6CoobUZU7OnqzxJrniaZ2QobjM75AhKlXHD7trpnGM,4253
+pyrigami/units/paper.py,sha256=i4T_8LHrjxriLQwNs5ImbYedAdIvWIC3VR8VXBnlRb0,555
+pyrigami-0.1.0.dist-info/LICENSE,sha256=eUkoPTJ6-bBnB7b2KAMO9pUTFj-WVNEIF8GmebjT6BE,1076
+pyrigami-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pyrigami-0.1.0.dist-info/METADATA,sha256=HhBKNcKjAlJHUYqIEicRkbNPbstRXgvuWJ4cpg1PM-0,1307
+pyrigami-0.1.0.dist-info/RECORD,,
