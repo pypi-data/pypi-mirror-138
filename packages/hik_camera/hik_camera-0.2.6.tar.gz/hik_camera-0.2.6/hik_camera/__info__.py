@@ -1,0 +1,6 @@
+__title__ = "hik_camera"
+__version__ = "0.2.6"
+__author__ = "Lei Yang"
+__author_email__ = ""
+__url__ = ""
+__description__ = "Hik camera API"
