@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: Easy Calculator By Sanbil
+Version: 0.0.1
+Summary: A simple calculator project and easy to use.
+Home-page: https://github.com/pypa/sampleproject
+Author: Mohd Sanabil & Mohd Uvais
+Author-email: mohammadua8@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Example Package
+
+This is a simple calculator package.
+
+You can use by using below code
+
+obj = Calculator()
+obj.add(5)
+
+obj.mul(10)
+
+print(obj.total)
+
+
+
+
