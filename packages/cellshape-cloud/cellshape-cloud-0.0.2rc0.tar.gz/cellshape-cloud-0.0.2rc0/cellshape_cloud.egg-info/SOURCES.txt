@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+cellshape_cloud.egg-info/PKG-INFO
+cellshape_cloud.egg-info/SOURCES.txt
+cellshape_cloud.egg-info/dependency_links.txt
+cellshape_cloud.egg-info/not-zip-safe
+cellshape_cloud.egg-info/requires.txt
+cellshape_cloud.egg-info/top_level.txt

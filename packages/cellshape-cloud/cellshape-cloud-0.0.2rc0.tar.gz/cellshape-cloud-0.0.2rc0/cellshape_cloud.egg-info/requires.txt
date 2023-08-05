@@ -1,0 +1,15 @@
+torch
+torchvision
+pyntcloud
+numpy
+matplotlib
+Pillow
+
+[dev]
+black
+pytest
+pytest-cov
+bump2version
+pre-commit
+flake8
+coverage
