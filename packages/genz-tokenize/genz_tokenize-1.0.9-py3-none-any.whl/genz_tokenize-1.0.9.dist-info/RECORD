@@ -1,0 +1,10 @@
+genz_tokenize/__init__.py,sha256=DTaYU2xv2Xf5K9MVXWCQ5rx8bRARZc5YYJKRLwtqEec,97
+genz_tokenize/requires.txt,sha256=XaJErpphRZ8rdyMZ0PiQ8nK3hrSzDNOUCoDAP37gjNE,27
+genz_tokenize/tokenize.py,sha256=KrPBKQYKPM8cDyPg43ZR_VvlOyG16h1Hr9V6ZYU9HZE,14231
+genz_tokenize/data/bpe.codes,sha256=QSHk-YsgVr00z-5ym9mQ8-wzTMJl7R7bqUS6NqTvm3A,676237
+genz_tokenize/data/vocab.txt,sha256=OVqMMIk_N_EbtlBN_Fkb3JDD3-U7YgQyB22fDtJwL-k,668017
+genz_tokenize-1.0.9.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+genz_tokenize-1.0.9.dist-info/METADATA,sha256=TtchgTJHH1PJ3kHL5Lp4--HdXikAeuCD_-7YyUMxLcI,2178
+genz_tokenize-1.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+genz_tokenize-1.0.9.dist-info/top_level.txt,sha256=chAzXE60orUaGfG10gbetmpaxLnsT-FBN_EIDq97u94,14
+genz_tokenize-1.0.9.dist-info/RECORD,,
