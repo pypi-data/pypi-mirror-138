@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+nekosrewrite/__init__.py
+nekosrewrite/nekosrewrite.py
+nekosrewrite.egg-info/PKG-INFO
+nekosrewrite.egg-info/SOURCES.txt
+nekosrewrite.egg-info/dependency_links.txt
+nekosrewrite.egg-info/requires.txt
+nekosrewrite.egg-info/top_level.txt
