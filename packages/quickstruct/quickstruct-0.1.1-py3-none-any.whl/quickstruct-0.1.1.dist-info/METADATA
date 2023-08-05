@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: quickstruct
+Version: 0.1.1
+Summary: A small library to ease the creation, usage, serialization and deserialization of C structs.
+Author: Binyamin Y Cohen
+Author-email: binyamincohen555@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
