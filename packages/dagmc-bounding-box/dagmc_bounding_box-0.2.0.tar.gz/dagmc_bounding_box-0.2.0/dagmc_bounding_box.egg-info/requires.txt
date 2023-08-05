@@ -1,0 +1,6 @@
+meshio
+trimesh
+
+[tests]
+pytest>=5.4.3
+pytest-cov
