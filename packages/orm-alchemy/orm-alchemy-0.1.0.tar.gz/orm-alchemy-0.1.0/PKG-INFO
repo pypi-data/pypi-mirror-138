@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: orm-alchemy
+Version: 0.1.0
+Summary: 
+Author: NamTH
+Author-email: namth2302@gmail.com
+Requires-Python: >=3.9.2,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
