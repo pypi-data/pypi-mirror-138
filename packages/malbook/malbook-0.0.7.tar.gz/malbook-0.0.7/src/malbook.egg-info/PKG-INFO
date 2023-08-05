@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: malbook
+Version: 0.0.7
+Summary: Jupyter notebooks framework for automated malware analysis
+Home-page: https://github.com/rdzhaafar/malbook
+Author: Rida Dzhaafar
+Author-email: rdzhaafar@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+License-File: LICENSE
+
+# `malbook` - A Jupyter notebooks framework for automated malware analysis
+
+`malbook` is command line utility and a python module that helps automate 
+static analysis of malware samples.
+
+## Requirements
+
+- python >= 3.9
+- setuptools >= 52
+
+## Installation
+
+You can install malbook using `pip` with the following command
+```powershell
+python -m pip install malbook
+```
+on Windows, or
+```sh
+python3 -m pip install malbook
+```
+On Linux and MacOS.
+
+
