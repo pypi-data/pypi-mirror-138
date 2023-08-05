@@ -1,0 +1,3 @@
+[console_scripts]
+route=route_tracker.commands:typer_click_app
+
