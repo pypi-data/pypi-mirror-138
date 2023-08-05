@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: DavidsPrint
+Version: 0.1.2
+Summary: A small test package
+Home-page: https://github.com/Doodke3/DavidsPrintPy/
+Author: David
+Author-email: david@doodke.xyz
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Doodke3/DavidsPrintPy/
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
