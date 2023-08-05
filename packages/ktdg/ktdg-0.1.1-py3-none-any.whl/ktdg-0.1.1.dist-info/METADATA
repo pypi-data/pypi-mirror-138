@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ktdg
+Version: 0.1.1
+Summary: Library to simulate knowledge tracing datasets
+Home-page: https://gitlab.com/antoinelb/ktdg
+Author: Antoine Lefebvre-Brossard
+Author-email: antoinelb@protonmail.com
+Requires-Python: >=3.10,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: numpy (>=1.22.2,<2.0.0)
+Requires-Dist: pydantic (>=1.9.0,<2.0.0)
+Requires-Dist: ruamel.yaml (>=0.17.20,<0.18.0)
+Requires-Dist: typer (>=0.4.0,<0.5.0)
+Project-URL: Repository, https://gitlab.com/antoinelb/ktdg
