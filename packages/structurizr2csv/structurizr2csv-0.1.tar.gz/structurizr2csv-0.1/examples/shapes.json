@@ -1,0 +1,242 @@
+{
+  "id" : 0,
+  "name" : "Shapes",
+  "description" : "An example of all shapes available in Structurizr.",
+  "properties" : {
+    "structurizr.dsl" : "CndvcmtzcGFjZSBleHRlbmRzIHNoYXBlcy5kc2wgewogICAgIXNjcmlwdCBncm9vdnkgewogICAgICAgIG5ldyBjb20uc3RydWN0dXJpenIuZ3JhcGh2aXouR3JhcGh2aXpBdXRvbWF0aWNMYXlvdXQoKS5hcHBseSh3b3Jrc3BhY2UpOwogICAgfQp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "14",
+      "tags" : "Element,Person",
+      "name" : "Person",
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Person" ]
+    } ],
+    "softwareSystems" : [ {
+      "id" : "1",
+      "tags" : "Element,Software System,Box",
+      "name" : "Box",
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Software System" ]
+    }, {
+      "id" : "2",
+      "tags" : "Element,Software System,RoundedBox",
+      "name" : "RoundedBox",
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Software System" ]
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System,Diamond",
+      "name" : "Diamond",
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Software System" ]
+    }, {
+      "id" : "4",
+      "tags" : "Element,Software System,Circle",
+      "name" : "Circle",
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Software System" ]
+    }, {
+      "id" : "5",
+      "tags" : "Element,Software System,Ellipse",
+      "name" : "Ellipse",
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Software System" ]
+    }, {
+      "id" : "6",
+      "tags" : "Element,Software System,Hexagon",
+      "name" : "Hexagon",
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Software System" ]
+    }, {
+      "id" : "7",
+      "tags" : "Element,Software System,Folder",
+      "name" : "Folder",
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Software System" ]
+    }, {
+      "id" : "8",
+      "tags" : "Element,Software System,Cylinder",
+      "name" : "Cylinder",
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Software System" ]
+    }, {
+      "id" : "9",
+      "tags" : "Element,Software System,Pipe",
+      "name" : "Pipe",
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Software System" ]
+    }, {
+      "id" : "10",
+      "tags" : "Element,Software System,Web Browser",
+      "name" : "WebBrowser",
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Software System" ]
+    }, {
+      "id" : "11",
+      "tags" : "Element,Software System,Mobile Device Portrait",
+      "name" : "Mobile Device Portrait",
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Software System" ]
+    }, {
+      "id" : "12",
+      "tags" : "Element,Software System,Mobile Device Landscape",
+      "name" : "Mobile Device Landscape",
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Software System" ]
+    }, {
+      "id" : "13",
+      "tags" : "Element,Software System,Component",
+      "name" : "Component",
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Software System" ]
+    }, {
+      "id" : "15",
+      "tags" : "Element,Software System,Robot",
+      "name" : "Robot",
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Software System" ]
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemLandscapeViews" : [ {
+      "description" : "An example of all shapes available in Structurizr.",
+      "key" : "shapes",
+      "paperSize" : "A1_Landscape",
+      "dimensions" : {
+        "width" : 9775,
+        "height" : 1066
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 208,
+        "y" : 208
+      }, {
+        "id" : "12",
+        "x" : 612,
+        "y" : 333
+      }, {
+        "id" : "13",
+        "x" : 1267,
+        "y" : 333
+      }, {
+        "id" : "14",
+        "x" : 1921,
+        "y" : 333
+      }, {
+        "id" : "15",
+        "x" : 2475,
+        "y" : 333
+      }, {
+        "id" : "1",
+        "x" : 3029,
+        "y" : 333
+      }, {
+        "id" : "2",
+        "x" : 3683,
+        "y" : 333
+      }, {
+        "id" : "3",
+        "x" : 4337,
+        "y" : 333
+      }, {
+        "id" : "4",
+        "x" : 4992,
+        "y" : 333
+      }, {
+        "id" : "5",
+        "x" : 5646,
+        "y" : 333
+      }, {
+        "id" : "6",
+        "x" : 6300,
+        "y" : 333
+      }, {
+        "id" : "7",
+        "x" : 6954,
+        "y" : 333
+      }, {
+        "id" : "8",
+        "x" : 7608,
+        "y" : 333
+      }, {
+        "id" : "9",
+        "x" : 8262,
+        "y" : 333
+      }, {
+        "id" : "10",
+        "x" : 8917,
+        "y" : 333
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Element",
+          "width" : 650,
+          "height" : 400,
+          "background" : "#438dd5",
+          "color" : "#ffffff",
+          "fontSize" : 34,
+          "metadata" : false,
+          "description" : false
+        }, {
+          "tag" : "Box",
+          "shape" : "Box"
+        }, {
+          "tag" : "RoundedBox",
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "Diamond",
+          "shape" : "Diamond"
+        }, {
+          "tag" : "Circle",
+          "shape" : "Circle"
+        }, {
+          "tag" : "Ellipse",
+          "shape" : "Ellipse"
+        }, {
+          "tag" : "Hexagon",
+          "shape" : "Hexagon"
+        }, {
+          "tag" : "Folder",
+          "shape" : "Folder"
+        }, {
+          "tag" : "Cylinder",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "Pipe",
+          "shape" : "Pipe"
+        }, {
+          "tag" : "Web Browser",
+          "shape" : "WebBrowser"
+        }, {
+          "tag" : "Mobile Device Portrait",
+          "width" : 400,
+          "height" : 650,
+          "shape" : "MobileDevicePortrait"
+        }, {
+          "tag" : "Mobile Device Landscape",
+          "shape" : "MobileDeviceLandscape"
+        }, {
+          "tag" : "Component",
+          "shape" : "Component"
+        }, {
+          "tag" : "Person",
+          "width" : 550,
+          "shape" : "Person"
+        }, {
+          "tag" : "Robot",
+          "width" : 550,
+          "shape" : "Robot"
+        } ]
+      },
+      "terminology" : { }
+    }
+  }
+}

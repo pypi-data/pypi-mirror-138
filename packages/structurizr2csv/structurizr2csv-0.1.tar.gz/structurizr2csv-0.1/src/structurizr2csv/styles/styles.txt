@@ -1,0 +1,17 @@
+# labelname: labelKey
+# stylename: styleKey
+# labels: {{{labels}}}
+# styles: {{{element_styles}}}
+# namespace: c4-
+# identity: id
+# parent: parent
+# parentstyle: %styleKey%
+# width: @width
+# height: @height
+# top: top
+# left: left
+# padding: 0
+# nodespacing: 40
+# levelspacing: 100
+# edgespacing: 40
+# layout: none

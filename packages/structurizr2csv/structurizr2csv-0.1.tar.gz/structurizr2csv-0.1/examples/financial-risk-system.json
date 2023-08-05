@@ -1,0 +1,265 @@
+{
+  "id" : 0,
+  "name" : "Financial Risk System",
+  "description" : "This is a simple (incomplete) example C4 model based upon the financial risk system architecture kata, which can be found at http://bit.ly/sa4d-risksystem",
+  "properties" : {
+    "structurizr.dsl" : "CndvcmtzcGFjZSBleHRlbmRzIGZpbmFuY2lhbC1yaXNrLXN5c3RlbS5kc2wgewogICAgIXNjcmlwdCBncm9vdnkgewogICAgICAgIG5ldyBjb20uc3RydWN0dXJpenIuZ3JhcGh2aXouR3JhcGh2aXpBdXRvbWF0aWNMYXlvdXQoKS5hcHBseSh3b3Jrc3BhY2UpOwogICAgfQp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "name" : "Business User",
+      "description" : "A regular business user.",
+      "relationships" : [ {
+        "id" : "10",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "Views reports using",
+        "defaultTags" : [ "Relationship" ]
+      } ],
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Person" ]
+    }, {
+      "id" : "2",
+      "tags" : "Element,Person",
+      "name" : "Configuration User",
+      "description" : "A regular business user who can also configure the parameters used in the risk calculations.",
+      "relationships" : [ {
+        "id" : "14",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "3",
+        "description" : "Configures parameters using",
+        "defaultTags" : [ "Relationship" ]
+      } ],
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Person" ]
+    } ],
+    "softwareSystems" : [ {
+      "id" : "3",
+      "tags" : "Element,Software System,Financial Risk System",
+      "name" : "Financial Risk System",
+      "description" : "Calculates the bank's exposure to risk for product X.",
+      "relationships" : [ {
+        "id" : "11",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "4",
+        "description" : "Gets trade data from",
+        "defaultTags" : [ "Relationship" ]
+      }, {
+        "id" : "12",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "5",
+        "description" : "Gets counterparty data from",
+        "defaultTags" : [ "Relationship" ]
+      }, {
+        "id" : "13",
+        "tags" : "Relationship,Future State",
+        "sourceId" : "3",
+        "destinationId" : "6",
+        "description" : "Gets counterparty data from",
+        "defaultTags" : [ "Relationship" ]
+      }, {
+        "id" : "15",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "7",
+        "description" : "Sends a notification that a report is ready to",
+        "defaultTags" : [ "Relationship" ]
+      }, {
+        "id" : "17",
+        "tags" : "Relationship,Asynchronous,Alert",
+        "sourceId" : "3",
+        "destinationId" : "8",
+        "description" : "Sends critical failure alerts to",
+        "technology" : "SNMP",
+        "defaultTags" : [ "Relationship" ]
+      }, {
+        "id" : "18",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "9",
+        "description" : "Uses for user authentication and authorisation",
+        "defaultTags" : [ "Relationship" ]
+      } ],
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Software System" ]
+    }, {
+      "id" : "4",
+      "tags" : "Element,Software System",
+      "name" : "Trade Data System",
+      "description" : "The system of record for trades of type X.",
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Software System" ]
+    }, {
+      "id" : "5",
+      "tags" : "Element,Software System",
+      "name" : "Reference Data System",
+      "description" : "Manages reference data for all counterparties the bank interacts with.",
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Software System" ]
+    }, {
+      "id" : "6",
+      "tags" : "Element,Software System,Future State",
+      "name" : "Reference Data System v2.0",
+      "description" : "Manages reference data for all counterparties the bank interacts with.",
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Software System" ]
+    }, {
+      "id" : "7",
+      "tags" : "Element,Software System",
+      "name" : "E-mail system",
+      "description" : "The bank's Microsoft Exchange system.",
+      "relationships" : [ {
+        "id" : "16",
+        "tags" : "Relationship,Asynchronous",
+        "sourceId" : "7",
+        "destinationId" : "1",
+        "description" : "Sends a notification that a report is ready to",
+        "technology" : "E-mail message",
+        "defaultTags" : [ "Relationship" ]
+      } ],
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Software System" ]
+    }, {
+      "id" : "8",
+      "tags" : "Element,Software System",
+      "name" : "Central Monitoring Service",
+      "description" : "The bank's central monitoring and alerting dashboard.",
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Software System" ]
+    }, {
+      "id" : "9",
+      "tags" : "Element,Software System",
+      "name" : "Active Directory",
+      "description" : "The bank's authentication and authorisation system.",
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Software System" ]
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "softwareSystemId" : "3",
+      "description" : "An example System Context diagram for the Financial Risk System architecture kata.",
+      "key" : "Context",
+      "paperSize" : "A3_Landscape",
+      "dimensions" : {
+        "width" : 4616,
+        "height" : 2016
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 3583,
+        "y" : 208
+      }, {
+        "id" : "2",
+        "x" : 2483,
+        "y" : 208
+      }, {
+        "id" : "3",
+        "x" : 2458,
+        "y" : 908
+      }, {
+        "id" : "4",
+        "x" : 208,
+        "y" : 1508
+      }, {
+        "id" : "5",
+        "x" : 958,
+        "y" : 1508
+      }, {
+        "id" : "6",
+        "x" : 1708,
+        "y" : 1508
+      }, {
+        "id" : "7",
+        "x" : 3958,
+        "y" : 1508
+      }, {
+        "id" : "8",
+        "x" : 2458,
+        "y" : 1508
+      }, {
+        "id" : "9",
+        "x" : 3208,
+        "y" : 1508
+      } ],
+      "relationships" : [ {
+        "id" : "18"
+      }, {
+        "id" : "17"
+      }, {
+        "id" : "16"
+      }, {
+        "id" : "15"
+      }, {
+        "id" : "14"
+      }, {
+        "id" : "13"
+      }, {
+        "id" : "11",
+        "vertices" : [ {
+          "x" : 808,
+          "y" : 1508
+        } ]
+      }, {
+        "id" : "12"
+      }, {
+        "id" : "10"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Element",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Software System",
+          "background" : "#801515",
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "Financial Risk System",
+          "background" : "#550000",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Future State",
+          "opacity" : 30
+        }, {
+          "tag" : "Person",
+          "background" : "#d46a6a",
+          "shape" : "Person"
+        } ],
+        "relationships" : [ {
+          "tag" : "Relationship",
+          "dashed" : false
+        }, {
+          "tag" : "Asynchronous",
+          "dashed" : true
+        }, {
+          "tag" : "Alert",
+          "color" : "#ff0000"
+        }, {
+          "tag" : "Future State",
+          "opacity" : 30
+        } ]
+      },
+      "terminology" : { }
+    }
+  }
+}
