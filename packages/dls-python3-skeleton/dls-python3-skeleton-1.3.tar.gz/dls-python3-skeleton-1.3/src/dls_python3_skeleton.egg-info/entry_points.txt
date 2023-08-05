@@ -1,0 +1,3 @@
+[console_scripts]
+dls-python3-skeleton = dls_python3_skeleton.__main__:main
+

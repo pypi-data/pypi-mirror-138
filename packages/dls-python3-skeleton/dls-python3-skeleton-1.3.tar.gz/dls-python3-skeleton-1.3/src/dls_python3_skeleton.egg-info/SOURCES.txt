@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/dls_python3_skeleton/__init__.py
+src/dls_python3_skeleton/__main__.py
+src/dls_python3_skeleton/_version_git.py
+src/dls_python3_skeleton.egg-info/PKG-INFO
+src/dls_python3_skeleton.egg-info/SOURCES.txt
+src/dls_python3_skeleton.egg-info/dependency_links.txt
+src/dls_python3_skeleton.egg-info/entry_points.txt
+src/dls_python3_skeleton.egg-info/requires.txt
+src/dls_python3_skeleton.egg-info/top_level.txt
