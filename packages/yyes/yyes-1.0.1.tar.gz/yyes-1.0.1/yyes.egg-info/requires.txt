@@ -1,0 +1,4 @@
+requests>=2.6
+BeautifulSoup4>=2.2.1
+lxml>=4.6.3
+pywin32>=301
