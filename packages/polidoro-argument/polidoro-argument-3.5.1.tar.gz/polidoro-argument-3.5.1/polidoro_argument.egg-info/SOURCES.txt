@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+polidoro_argument/__init__.py
+polidoro_argument/action.py
+polidoro_argument/argument.py
+polidoro_argument/command.py
+polidoro_argument/help_action.py
+polidoro_argument/help_formatter.py
+polidoro_argument/params.py
+polidoro_argument/polidoro_argument_parser.py
+polidoro_argument.egg-info/PKG-INFO
+polidoro_argument.egg-info/SOURCES.txt
+polidoro_argument.egg-info/dependency_links.txt
+polidoro_argument.egg-info/not-zip-safe
+polidoro_argument.egg-info/top_level.txt
