@@ -1,0 +1,8 @@
+README.md
+setup.py
+actuality/__init__.py
+actuality.egg-info/PKG-INFO
+actuality.egg-info/SOURCES.txt
+actuality.egg-info/dependency_links.txt
+actuality.egg-info/top_level.txt
+actuality.egg-info/zip-safe
