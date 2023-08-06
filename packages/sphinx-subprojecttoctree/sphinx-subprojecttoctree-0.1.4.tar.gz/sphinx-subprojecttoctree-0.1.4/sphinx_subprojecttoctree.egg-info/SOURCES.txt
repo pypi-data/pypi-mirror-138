@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.me
+pyproject.toml
+setup.cfg
+sphinx_subprojecttoctree.egg-info/PKG-INFO
+sphinx_subprojecttoctree.egg-info/SOURCES.txt
+sphinx_subprojecttoctree.egg-info/dependency_links.txt
+sphinx_subprojecttoctree.egg-info/requires.txt
+sphinx_subprojecttoctree.egg-info/top_level.txt
+subprojecttoctree/__init__.py
+subprojecttoctree/__version__.py
+subprojecttoctree/toctree.py
+subprojecttoctree/utils.py
