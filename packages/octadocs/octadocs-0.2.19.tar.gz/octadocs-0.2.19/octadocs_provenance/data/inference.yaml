@@ -1,0 +1,8 @@
+$id: prov:Entity
+≡:
+  onProperty: iolanta:facet
+  hasValue:
+    $id: python://octadocs_provenance.facets.prov_value.ProvEntity
+    iolanta:supports:
+      - iolanta:HTML
+      - table:td

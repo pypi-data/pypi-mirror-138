@@ -1,0 +1,10 @@
+$context:
+  value: prov:value
+
+  wasDerivedFrom:
+    $id: prov:wasDerivedFrom
+    $type: $id
+
+  ⇐:
+    $id: prov:wasDerivedFrom
+    $type: $id
