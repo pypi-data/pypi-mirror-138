@@ -1,0 +1,4 @@
+[console_scripts]
+hic-internal = schicluster._hicluster_internal:internal_main
+hicluster = schicluster.__main__:main
+
