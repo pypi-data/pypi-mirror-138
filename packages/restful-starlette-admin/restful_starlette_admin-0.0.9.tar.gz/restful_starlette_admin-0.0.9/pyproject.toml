@@ -1,0 +1,7 @@
+[build-system]
+requires = [
+    "click~=8.0.3",
+    "wheel",
+    "setuptools",
+]
+build-backend = "setuptools.build_meta"

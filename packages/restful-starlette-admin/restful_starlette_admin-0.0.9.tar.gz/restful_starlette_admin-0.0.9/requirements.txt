@@ -1,0 +1,2 @@
+click~=8.0.3
+restful_starlette>=0.0.3
