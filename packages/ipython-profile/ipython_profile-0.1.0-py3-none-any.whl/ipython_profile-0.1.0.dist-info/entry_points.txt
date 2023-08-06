@@ -1,0 +1,3 @@
+[console_scripts]
+ipython-profile=ipython_profile:run
+
