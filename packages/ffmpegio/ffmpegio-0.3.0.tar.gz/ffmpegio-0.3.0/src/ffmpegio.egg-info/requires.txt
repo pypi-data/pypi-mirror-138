@@ -1,0 +1,2 @@
+ffmpegio-core
+numpy>=1.20
