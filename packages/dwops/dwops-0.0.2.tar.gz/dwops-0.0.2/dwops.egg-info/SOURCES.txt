@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+dwops.egg-info/PKG-INFO
+dwops.egg-info/SOURCES.txt
+dwops.egg-info/dependency_links.txt
+dwops.egg-info/requires.txt
+dwops.egg-info/top_level.txt

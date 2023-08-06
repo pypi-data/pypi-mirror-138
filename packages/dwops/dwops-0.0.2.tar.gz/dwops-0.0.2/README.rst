@@ -1,0 +1,1 @@
+Project renamed, use `dwopt <https://pypi.org/project/dwopt/>`_ instead.
