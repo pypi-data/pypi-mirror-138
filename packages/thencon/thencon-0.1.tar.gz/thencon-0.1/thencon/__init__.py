@@ -1,0 +1,1 @@
+from thencon.translator import translate

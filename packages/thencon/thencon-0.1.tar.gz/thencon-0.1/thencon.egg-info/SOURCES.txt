@@ -1,0 +1,11 @@
+LICENSE
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+thencon/__init__.py
+thencon/translator.py
+thencon.egg-info/PKG-INFO
+thencon.egg-info/SOURCES.txt
+thencon.egg-info/dependency_links.txt
+thencon.egg-info/top_level.txt
