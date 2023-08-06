@@ -1,0 +1,10 @@
+README.txt
+setup.py
+pagtest/__init__.py
+pagtest/print1.py
+pagtest/print2.py
+pagtestssy.egg-info/PKG-INFO
+pagtestssy.egg-info/SOURCES.txt
+pagtestssy.egg-info/dependency_links.txt
+pagtestssy.egg-info/requires.txt
+pagtestssy.egg-info/top_level.txt
