@@ -1,0 +1,15 @@
+fb_pdnstools/__init__.py,sha256=Vr2de3NIrqBg3ZvPACQ3uLAQy62M9q9IuA19E9m3x0c,17365
+fb_pdnstools/bulk_rm_app.py,sha256=w_jHrVxVbbJIT4o_8Diy-nkRX2FpDgXklKpVytKLLGk,24044
+fb_pdnstools/bulk_rm_cfg.py,sha256=V_k9sOtSAO58RPH18xH0qzMbnfB0CIvFhKiR_84Zfx0,4488
+fb_pdnstools/errors.py,sha256=FNDiqh2DSCixiTVKNdib2ma_LGkClbeDBRQDz985SSU,3852
+fb_pdnstools/local_version.py,sha256=DsIOfE4doEl7GT4dDoXgC8vsIo4RV_vCwUF8EkK52pw,438
+fb_pdnstools/record.py,sha256=12BoCsR_IJ8zhygim6bxuSL3KnVygPqNMcpKmr5J-tI,42405
+fb_pdnstools/server.py,sha256=UHj2TTkYudieXNwEVdnHxngncXX2DMxvqLXmjS-TJLY,7813
+fb_pdnstools/xlate.py,sha256=pduj55CCUWIwvXlvcWlhf5cO3dHzufOagC0wzDq6_zs,2798
+fb_pdnstools/zone.py,sha256=o30zrpmWfF4HkzZI3MpyPNa55KpombWdomyW0YVTNqc,52857
+fb_pdnstools-0.5.0.data/scripts/pdns-bulk-remove,sha256=MIasgpB2FHrM7vpf41R9m18uMxyRNRfEX2ucRrYI-1I,1562
+fb_pdnstools-0.5.0.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+fb_pdnstools-0.5.0.dist-info/METADATA,sha256=eoWVAn1e0mWfCyoT1mwCTQZULmHsgSDCxZvGiPcrj2I,1246
+fb_pdnstools-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fb_pdnstools-0.5.0.dist-info/top_level.txt,sha256=x8u0_5WK9K8B9Mn1liyOCgzJfUdyXqMFsXW00hyI-Cw,13
+fb_pdnstools-0.5.0.dist-info/RECORD,,
