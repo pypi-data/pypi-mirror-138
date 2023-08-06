@@ -1,0 +1,102 @@
+[build-system]
+    build-backend = "setuptools.build_meta"
+    requires = [
+        "setuptools>=47",
+        "wheel>=0.34",
+        "cython>=0.29.24; python_implementation == 'CPython'", # Skip cython when using pypy
+    ]
+
+[tool.black]
+line-length = 79
+target-version = ['py37']
+
+[tool.zimports]
+black-line-length = 79
+keep-unused-type-checking = true
+
+[tool.slotscheck]
+exclude-modules = '^sqlalchemy\.testing'
+
+
+[tool.pytest.ini_options]
+addopts = "--tb native -v -r sfxX --maxfail=250 -p warnings -p logging --strict-markers"
+python_files = "test/*test_*.py"
+minversion = "6.2"
+filterwarnings = [
+    "ignore::saorm14.exc.SAPendingDeprecationWarning",
+    "error::saorm14.exc.SADeprecationWarning",
+    "error::saorm14.exc.SAWarning",
+    "always::saorm14.exc.SATestSuiteWarning",
+    "error::DeprecationWarning:test",
+    "error::DeprecationWarning:sqlalchemy"
+]
+markers = [
+    "memory_intensive: memory / CPU intensive suite tests",
+    "mypy: mypy integration / plugin tests",
+    "timing_intensive: time-oriented tests that are sensitive to race conditions",
+    "backend: tests that should run on all backends; typically dialect-sensitive",
+    "sparse_backend: tests that should run on multiple backends, not necessarily all",
+]
+
+[tool.pyright]
+include = [
+    "lib/saorm14/events.py",
+    "lib/saorm14/exc.py",
+    "lib/saorm14/log.py",
+    "lib/saorm14/inspection.py",
+    "lib/saorm14/schema.py",
+    "lib/saorm14/types.py",
+    "lib/saorm14/util/",
+]
+
+
+
+[tool.mypy]
+mypy_path = "./lib/"
+show_error_codes = true
+strict = false
+incremental = true
+
+# disabled checking
+[[tool.mypy.overrides]]
+module="sqlalchemy.*"
+ignore_errors = true
+warn_unused_ignores = false
+
+strict = true
+
+# https://github.com/python/mypy/issues/8754
+# we are a pep-561 package, so implicit-rexport should be
+# enabled
+implicit_reexport = true
+
+# individual packages or even modules should be listed here
+# with strictness-specificity set up.  there's no way we are going to get
+# the whole library 100% strictly typed, so we have to tune this based on
+# the type of module or package we are dealing with
+
+# strict checking
+[[tool.mypy.overrides]]
+module = [
+    "saorm14.events",
+    "saorm14.events",
+    "saorm14.exc",
+    "saorm14.inspection",
+    "saorm14.schema",
+    "saorm14.types",
+]
+ignore_errors = false
+strict = true
+
+# partial checking, internals can be untyped
+[[tool.mypy.overrides]]
+module="sqlalchemy.util.*"
+ignore_errors = false
+
+# util is for internal use so we can get by without everything
+# being typed
+allow_untyped_defs = true
+check_untyped_defs = false
+allow_untyped_calls = true
+
+
