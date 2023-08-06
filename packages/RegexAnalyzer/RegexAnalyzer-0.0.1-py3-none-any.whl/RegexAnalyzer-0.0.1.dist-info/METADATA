@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: RegexAnalyzer
+Version: 0.0.1
+Summary: A command line tool to help analyze the generalizability, security and understandability of regex
+Home-page: https://github.com/ase-regex-comps/regex-library
+Author: Antonia Ritter, Vicente Riquelme, Will Beddow, Shiyue Zhang
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
