@@ -1,0 +1,10 @@
+pytorch_benchmark/__init__.py,sha256=IdPEBGu4LRchWLfKSqCrwicRGHkSNW3Eyt0IjIw9svI,53
+pytorch_benchmark/benchmark.py,sha256=gr_wScwTshUBFDtm0pIP4LTwHhzbSyvDdqelK5OgBDY,11534
+pytorch_benchmark/format.py,sha256=DCiQdjHgiDWRxYE5uWZdTLynA6ORayE9bxrXMduzEUY,703
+pytorch_benchmark/jetson_power.py,sha256=n84Qa_MCaYF6OkQ-p9fv5cVd7ZeBQWyY2Hcc1yYtsDQ,5687
+pytorch_benchmark/machine_info.py,sha256=-eumZJKv73XbkZJQQiRaReGaAyGJWkD1EkIVEVT2UUc,1129
+pytorch_benchmark-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pytorch_benchmark-0.2.0.dist-info/METADATA,sha256=B4VNsrTnK5ZAeUSUW8NJ0_yd05QE5VkKrK-ShJ4Ml10,12987
+pytorch_benchmark-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytorch_benchmark-0.2.0.dist-info/top_level.txt,sha256=-PFpyXX2BKdxDTh2cn9F5XXtiKNI9yvCzD87eO6praU,18
+pytorch_benchmark-0.2.0.dist-info/RECORD,,
