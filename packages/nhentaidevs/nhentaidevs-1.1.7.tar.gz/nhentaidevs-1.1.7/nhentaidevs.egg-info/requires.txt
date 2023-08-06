@@ -1,0 +1,6 @@
+beautifulsoup4
+coloredevs
+requests
+pickle-mixin
+click
+tqdm
