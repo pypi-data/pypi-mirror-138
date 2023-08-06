@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: flatifylists
+Version: 1.0.0
+Summary: Flatten nested Python lists into a single-depth list
+Home-page: https://github.com/karishmashuklaa/flatifyLists
+Author: Karishma Shukla
+Author-email: karishmashuklaa@gmail.com
+License: MIT
+Keywords: flatten,lists,nested-lists,flatten-lists,nesting,flatify-list
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytest
+
+## flatifylists
+
+Flatten nested Python lists into single-depth lists
+
+### Installation
+
+```
+pip install flatifylists
+```
+
+### Example
+
+```py
+from flatifylists import flatifyList
+
+example = [[[1,2], [3,[4,[5],6],7],8,9]]
+
+print(flatifyList(example))
+
+# Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
+### License
+
+MIT <a href="https://github.com/karishmashuklaa/">Karishma Shukla</a> 
+
+
