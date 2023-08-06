@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+src/django_simple_plausible.egg-info/PKG-INFO
+src/django_simple_plausible.egg-info/SOURCES.txt
+src/django_simple_plausible.egg-info/dependency_links.txt
+src/django_simple_plausible.egg-info/top_level.txt
+src/templatetags/__init__.py
+src/templatetags/plausible.py
