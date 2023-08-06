@@ -1,0 +1,12 @@
+aiy_prayer/__init__.py,sha256=8btLjv_Hq9iA5UmMxKEFz8ou9yzCzZSSqBIUip36pHo,75
+aiy_prayer/__main__.py,sha256=TPht5xbF5DH9g1siEQUy5K_cTV3THDg93gn2jYnCvY4,1064
+aiy_prayer/main.py,sha256=-WfSXEYJxBkV3jQoo_ZB2XBJ37EDX7tDhU5CFROboBY,1063
+aiy_prayer/utils.py,sha256=6vGGr7kHtEMDDTsB9il-uouM86FlEUIqTJf0K2_AGtg,927
+aiy_prayer/voice_assist.py,sha256=24DwImESqNmzHvAt8GjaXzgTIkkdwDjmkgaUvy1cu2I,2948
+aiy_prayer/data/startup.mp3,sha256=7LERBDuhWITJt6DfbCfeP4UrFjTjnS0n0YGLYJBAYKI,56550
+aiy_prayer-1.0.0.dist-info/LICENSE,sha256=5xniaBNB03ivqdRhDTL1w92CMG96PB9ZdpklX8tkcTk,1092
+aiy_prayer-1.0.0.dist-info/METADATA,sha256=U9ZG36g2DlR6YDokdmC47WVyKSZI2Rxy888BjB5j9iA,1177
+aiy_prayer-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aiy_prayer-1.0.0.dist-info/entry_points.txt,sha256=sv5Gvhr-ktpBE0wuasSMT_kSMH6KwJgDkq2Hq-X7w_M,53
+aiy_prayer-1.0.0.dist-info/top_level.txt,sha256=iHtW_jF2gl05xnregF8YCrY3deuT_leEAivDXAs6dUg,11
+aiy_prayer-1.0.0.dist-info/RECORD,,
