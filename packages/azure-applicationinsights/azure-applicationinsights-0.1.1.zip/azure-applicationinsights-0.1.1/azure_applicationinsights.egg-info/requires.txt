@@ -1,0 +1,5 @@
+msrest>=0.6.21
+azure-common~=1.1
+
+[:python_version<'3.0']
+azure-nspkg
