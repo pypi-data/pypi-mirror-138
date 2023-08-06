@@ -1,0 +1,6 @@
+setup.py
+privacy.qa.commons.mac.egg-info/PKG-INFO
+privacy.qa.commons.mac.egg-info/SOURCES.txt
+privacy.qa.commons.mac.egg-info/dependency_links.txt
+privacy.qa.commons.mac.egg-info/top_level.txt
+privacy/qa/commons/mac/__init__.py
