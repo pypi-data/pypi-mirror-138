@@ -1,0 +1,16 @@
+.travis.yml
+LICENSE
+README.markdown
+elixir.py
+setup.py
+__pycache__/elixir.cpython-38.pyc
+elixir_py.egg-info/PKG-INFO
+elixir_py.egg-info/SOURCES.txt
+elixir_py.egg-info/dependency_links.txt
+elixir_py.egg-info/top_level.txt
+examples/port.py
+examples/test.exs
+tests/__init__.py
+tests/elixir_tests.py
+tests/__pycache__/__init__.cpython-38.pyc
+tests/__pycache__/elixir_tests.cpython-38.pyc
