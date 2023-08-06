@@ -1,0 +1,3 @@
+[console_scripts]
+opentab = opentab.opentab:opentab
+
