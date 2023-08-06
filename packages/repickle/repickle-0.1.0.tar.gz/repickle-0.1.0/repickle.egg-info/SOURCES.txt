@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+repickle/__init__.py
+repickle/cloudpickle.py
+repickle/cloudpickle_fast.py
+repickle/compat.py
+repickle/repickle.py
+repickle.egg-info/PKG-INFO
+repickle.egg-info/SOURCES.txt
+repickle.egg-info/dependency_links.txt
+repickle.egg-info/top_level.txt
+tests/__init__.py
