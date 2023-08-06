@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: lazyaml
+Version: 6.0.0
+Summary: UNKNOWN
+License: MIT
+Author-email: teeaz <teeaz@github.com>
+Requires-Python: >=3.6
+Project-URL: homepage, https://github.com/teeaz/lazyaml
