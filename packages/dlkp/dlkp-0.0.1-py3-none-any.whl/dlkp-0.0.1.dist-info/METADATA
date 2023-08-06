@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dlkp
+Version: 0.0.1
+Summary: A deep learning library for keyphrase extraction and generation
+Home-page: https://github.com/midas-research/dlkp
+Download-URL: https://github.com/midas-research/dlkp/archive/refs/tags/0.1.tar.gz
+Author: Amardeep Kumar || Debanjan Mahata
+Author-email: kumaramardipsingh@gmail.com
+License: Apache License Version 2.0
+Project-URL: Bug Tracker, https://github.com/midas-research/dlkp/issues
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# dlkp
+A deep learning library for keyphrase extraction and generation
+
+**WIP** - Work In Progress
+
+
