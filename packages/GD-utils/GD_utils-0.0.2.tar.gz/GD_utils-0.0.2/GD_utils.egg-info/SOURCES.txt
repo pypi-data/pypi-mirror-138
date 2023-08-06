@@ -1,0 +1,10 @@
+README.md
+setup.py
+GD_utils/__init__.py
+GD_utils/calc_return.py
+GD_utils/get_data.py
+GD_utils/return_calculator.py
+GD_utils.egg-info/PKG-INFO
+GD_utils.egg-info/SOURCES.txt
+GD_utils.egg-info/dependency_links.txt
+GD_utils.egg-info/top_level.txt
