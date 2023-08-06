@@ -1,0 +1,3 @@
+[console_scripts]
+tidier = tidier.cli:main
+
