@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: robotpy-romi
+Version: 2022.2.1.0
+Summary: Binary wrapper for WPILib Romi Vendor library
+Home-page: https://github.com/robotpy/robotpy-romi
+Author: RobotPy Development Team
+Author-email: robotpy@googlegroups.com
+License: BSD-3-Clause
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: wpilib (<2023.0.0,>=2022.2.1.3)
+
+robotpy-romi
+============
+
+RobotPy support for the WPILib Romi vendor library.
+
+* Installation instructions can be found in the [RobotPy documentation](https://robotpy.readthedocs.io/en/latest/getting_started.html)
+* Documentation at [readthedocs](https://robotpy.readthedocs.io/projects/romi/en/stable/api.html)
+* A romi example can be found in our [examples repository](https://github.com/robotpy/examples/tree/main/commands-v2/romi)
+
