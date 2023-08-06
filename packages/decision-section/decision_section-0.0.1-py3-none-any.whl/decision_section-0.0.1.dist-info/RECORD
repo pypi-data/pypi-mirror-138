@@ -1,0 +1,8 @@
+decision_section/__init__.py,sha256=6hkExP8rEcdhLQM2jExkQvV797qSOBUSPdRt38Jlxb8,36
+decision_section/__main__.py,sha256=LsPF9HDXCQ-F4IP4Id_-GN6cNeDzfNGgFYX7nDWC78o,1468
+decision_section/blockquotes.py,sha256=cFDZgKw5O9Qeg_kWW88kIfCHmrNPTM4JTALQNM40IzQ,3949
+decision_section/combiner.py,sha256=0doT0egFDvzebsBcOYToLGy0C_hhaQsnS1tefKpp5gE,3413
+decision_section/wrapper.py,sha256=f0bHNv1zqpowo5tHfwnCdUsfHjFvXxnQdTSA3H1j8F4,2241
+decision_section-0.0.1.dist-info/WHEEL,sha256=FMw6u7Kp3jrdDDtJRZ3hkPV-9adLQT8pbM4iifKUGfw,85
+decision_section-0.0.1.dist-info/METADATA,sha256=lAZXsS_AQCeatAIfb6YR0OKO6SPFRZIyAKCqlu1MUGM,465
+decision_section-0.0.1.dist-info/RECORD,,

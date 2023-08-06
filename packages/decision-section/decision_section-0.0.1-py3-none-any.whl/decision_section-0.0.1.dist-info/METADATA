@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: decision-section
+Version: 0.0.1
+Summary: Create sections from pre-formatted html of Philippine Supreme Court decisions with specially combined elements.
+Author: Marcelino G. Veloso III
+Author-email: mars@veloso.one
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: lawsql-utils (>=0.0.1,<0.0.2)
