@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pyISARICBasics/__init__.py
+src/pyISARICBasics/domain.py
+src/pyISARICBasics/functions.py
+src/pyISARICBasics.egg-info/PKG-INFO
+src/pyISARICBasics.egg-info/SOURCES.txt
+src/pyISARICBasics.egg-info/dependency_links.txt
+src/pyISARICBasics.egg-info/requires.txt
+src/pyISARICBasics.egg-info/top_level.txt
