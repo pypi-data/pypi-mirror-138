@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pyans
+Version: 0.1.3
+Summary: Python Console ANSI viwer
+Home-page: https://github.com/mtatton/pyans
+Author: Michael Tatton
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Communications :: BBS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+```
+__________                                 
+ \______   \___.__._____    ____   ______   
+  |     ___<   |  |\__  \  /    \ /  ___/   
+  |    |    \___  | / __ \|   |  \\___ \    
+  |____|    / ____|(____  /___|  /____  >   
+            \/          \/     \/     \/    
+       /-|                             |-
+  -.'.'.-|  Python Console ANSI Viewer |- 
+       \-|                             |- 
+
+  PYANS - Python Console ANSI Viewer
+
+  Display ANSI graphics in Your terminal.
+  Written in python.
+
+  u, n       - scroll up, down more
+  k, j, h, l - scroll up, down, left, right
+  $          - display sauce information
+  ?          - display help
+  a          - autoscroll
+
+```
+
+
