@@ -1,0 +1,31 @@
+<BioPALInput version="0.1">
+	<L2_product options="AGB, FH, FD, TOMO_FH">AGB</L2_product>
+	<output_specification>
+		<output_folder>output_folder_full_path</output_folder>
+		<geographic_grid_sampling unit="m">50</geographic_grid_sampling>
+	</output_specification>
+	<dataset_query>
+		<L1C_repository>dataSet_full_path</L1C_repository>
+		<L1C_date value="start" unit="Utc">01-FEB-2016 00:00:00.000000000000</L1C_date>
+		<L1C_date value="stop" unit="Utc">20-FEB-2016 12:00:00.000000000000</L1C_date>
+		<auxiliary_products_folder>auxiliary_data_pf_full_path</auxiliary_products_folder>
+		<geographic_boundaries_polygon unit="deg">
+			<point>
+				<latitude>-2</latitude>
+				<longitude>9</longitude>
+			</point>
+			<point>
+				<latitude>-2</latitude>
+				<longitude>15</longitude>
+			</point>
+			<point>
+				<latitude>2</latitude>
+				<longitude>9</longitude>
+			</point>
+			<point>
+				<latitude>2</latitude>
+				<longitude>15</longitude>
+			</point>
+		</geographic_boundaries_polygon>
+	</dataset_query>
+</BioPALInput>
