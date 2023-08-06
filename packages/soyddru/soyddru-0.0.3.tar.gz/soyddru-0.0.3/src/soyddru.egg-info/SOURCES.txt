@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/soyddru/__init__.py
+src/soyddru/dynamicdnsrecord.py
+src/soyddru.egg-info/PKG-INFO
+src/soyddru.egg-info/SOURCES.txt
+src/soyddru.egg-info/dependency_links.txt
+src/soyddru.egg-info/entry_points.txt
+src/soyddru.egg-info/requires.txt
+src/soyddru.egg-info/top_level.txt
