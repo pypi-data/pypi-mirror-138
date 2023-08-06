@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: oremda
+Version: 0.0.1
+Summary: 
+License: BSD-3-Clause
+Author: Alessandro Genova
+Author-email: alessandro.genova@kitware.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: oremda-cli (>=0.0.1,<0.0.2)
+Requires-Dist: oremda-client (>=0.0.1,<0.0.2)
+Requires-Dist: oremda-core (>=0.0.1,<0.0.2)
+Requires-Dist: oremda-engine (>=0.0.1,<0.0.2)
+Requires-Dist: oremda-server (>=0.0.1,<0.0.2)
+Description-Content-Type: text/markdown
+
+
