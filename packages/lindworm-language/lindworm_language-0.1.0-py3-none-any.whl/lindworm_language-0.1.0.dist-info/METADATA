@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: lindworm-language
+Version: 0.1.0
+Summary: Lindworm programming language compiler and standard library
+Home-page: https://github.com/midnattssol/lindworm
+Author: midnattssol
+Author-email: cd154a7e15@protonmail.com
+License: BSD 2-clause
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: numpy
+Requires-Dist: autopep8
+Requires-Dist: mako
+Requires-Dist: more-itertools
+Requires-Dist: regex
+Requires-Dist: colorama
+Requires-Dist: frozendict
+Requires-Dist: black
+Provides-Extra: autopep8_linting
+Requires-Dist: autopep8 ; extra == 'autopep8_linting'
+Provides-Extra: black_linting
+Requires-Dist: black ; extra == 'black_linting'
+
+UNKNOWN
+
