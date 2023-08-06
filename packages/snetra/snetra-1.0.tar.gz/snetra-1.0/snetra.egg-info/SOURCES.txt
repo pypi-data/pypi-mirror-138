@@ -1,0 +1,8 @@
+README.md
+setup.py
+snetra
+snetra.egg-info/PKG-INFO
+snetra.egg-info/SOURCES.txt
+snetra.egg-info/dependency_links.txt
+snetra.egg-info/requires.txt
+snetra.egg-info/top_level.txt
