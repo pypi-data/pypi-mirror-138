@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+scsampler/__init__.py
+scsampler/main.py
+scsampler/uclab.py
+scsampler.egg-info/PKG-INFO
+scsampler.egg-info/SOURCES.txt
+scsampler.egg-info/dependency_links.txt
+scsampler.egg-info/top_level.txt
