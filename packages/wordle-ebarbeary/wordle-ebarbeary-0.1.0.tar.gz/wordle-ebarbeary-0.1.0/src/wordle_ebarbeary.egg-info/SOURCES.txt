@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/wordle/WordleGameMaster.py
+src/wordle/__init__.py
+src/wordle/bots/ModalLetter.py
+src/wordle/bots/Random.py
+src/wordle/bots/WordleBot.py
+src/wordle/bots/__init__.py
+src/wordle_ebarbeary.egg-info/PKG-INFO
+src/wordle_ebarbeary.egg-info/SOURCES.txt
+src/wordle_ebarbeary.egg-info/dependency_links.txt
+src/wordle_ebarbeary.egg-info/top_level.txt
