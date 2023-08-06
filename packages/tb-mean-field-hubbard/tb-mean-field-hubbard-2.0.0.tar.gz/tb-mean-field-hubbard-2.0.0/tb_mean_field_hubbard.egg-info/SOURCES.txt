@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+tb_mean_field_hubbard/__init__.py
+tb_mean_field_hubbard/mfh.py
+tb_mean_field_hubbard/mfh_pp.py
+tb_mean_field_hubbard/utils.py
+tb_mean_field_hubbard.egg-info/PKG-INFO
+tb_mean_field_hubbard.egg-info/SOURCES.txt
+tb_mean_field_hubbard.egg-info/dependency_links.txt
+tb_mean_field_hubbard.egg-info/requires.txt
+tb_mean_field_hubbard.egg-info/top_level.txt
