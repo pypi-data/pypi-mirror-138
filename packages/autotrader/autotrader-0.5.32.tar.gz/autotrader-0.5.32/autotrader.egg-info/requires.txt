@@ -1,0 +1,8 @@
+pandas
+pyfiglet
+PyYAML
+bokeh>=2.3.1
+scipy
+yfinance
+finta
+v20
