@@ -1,0 +1,4 @@
+cryptography
+pycrypto
+python-decouple
+validators
