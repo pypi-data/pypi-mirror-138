@@ -1,0 +1,9 @@
+README.md
+setup.py
+covidactnow/__init__.py
+covidactnow/covid.py
+covidactnow.egg-info/PKG-INFO
+covidactnow.egg-info/SOURCES.txt
+covidactnow.egg-info/dependency_links.txt
+covidactnow.egg-info/requires.txt
+covidactnow.egg-info/top_level.txt
