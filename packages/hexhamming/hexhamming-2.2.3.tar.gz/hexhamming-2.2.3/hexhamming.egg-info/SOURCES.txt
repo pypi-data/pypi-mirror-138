@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+pytest.ini
+requirements-dev.txt
+setup.py
+hexhamming/_version.h
+hexhamming/python_hexhamming.cc
+hexhamming/python_hexhamming.h
+hexhamming.egg-info/PKG-INFO
+hexhamming.egg-info/SOURCES.txt
+hexhamming.egg-info/dependency_links.txt
+hexhamming.egg-info/not-zip-safe
+hexhamming.egg-info/top_level.txt
+test/test_hexhamming.py
