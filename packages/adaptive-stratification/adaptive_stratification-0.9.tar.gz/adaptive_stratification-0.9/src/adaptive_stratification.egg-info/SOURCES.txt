@@ -1,0 +1,11 @@
+pyproject.toml
+setup.cfg
+setup.py
+src/adaptive_stratification/__init__.py
+src/adaptive_stratification/stratification.py
+src/adaptive_stratification/stratum.py
+src/adaptive_stratification.egg-info/PKG-INFO
+src/adaptive_stratification.egg-info/SOURCES.txt
+src/adaptive_stratification.egg-info/dependency_links.txt
+src/adaptive_stratification.egg-info/requires.txt
+src/adaptive_stratification.egg-info/top_level.txt

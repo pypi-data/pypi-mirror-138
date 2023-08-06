@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: adaptive_stratification
+Version: 0.9
+Summary: Adaptive Stratification library
+License: UNKNOWN
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.8
+
+UNKNOWN
+
