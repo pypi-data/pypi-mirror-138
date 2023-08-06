@@ -1,0 +1,7 @@
+-r runtime.in
+-r style.in
+-r typing.in
+commitizen~=2.20.3
+pip-tools~=6.4.0
+pre-commit~=2.16.0
+setuptools-scm~=6.3

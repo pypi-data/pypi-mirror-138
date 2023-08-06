@@ -1,0 +1,138 @@
+name: Python package
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - "[0-9]+.[0-9]+.[0-9]+"
+      - "[0-9]+.[0-9]+.[0-9]+rc[0-9]+"
+    paths-ignore:
+      - '*.md'
+      - '*.rst'
+      - LICENSE
+  pull_request:
+    branches:
+      - main
+    paths-ignore:
+      - '*.md'
+      - '*.rst'
+      - LICENSE
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.6', '3.7', '3.8', '3.9', '3.10']
+      fail-fast: false
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install build dependencies
+      run: |
+        pip install --upgrade pip
+        pip install pip-tools
+    - name: Compile dev dependencies and install
+      run: |
+        for requirements_file in $(ls -1 requirements/*.in); do
+            pip-compile ${requirements_file} -o $(echo "$requirements_file" | cut -f 1 -d '.').txt
+        done
+        pip install -r requirements/dev.txt
+    - name: Run pre-commit verify
+      run: pre-commit run --all-files --show-diff-on-failure
+
+  deploy:
+    if: github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags')
+
+    runs-on: ubuntu-latest
+
+    needs: [build]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.6"
+    - name: Install build dependencies
+      run: |
+        pip install --upgrade pip
+        pip install pip-tools
+    - name: Compile dev dependencies and install
+      run: |
+        for requirements_file in $(ls -1 requirements/*.in); do
+            pip-compile ${requirements_file} -o $(echo "$requirements_file" | cut -f 1 -d '.').txt
+        done
+        pip install -r requirements/dev.txt
+
+    - name: Build sdist and wheel
+      run: python setup.py sdist bdist_wheel
+
+    - name: Publish package
+      uses: pypa/gh-action-pypi-publish@release/v1
+      with:
+        user: __token__
+        password: ${{ secrets.NECKBEARD_IO_PYPI }}
+        skip_existing: true
+
+  deploy-docker:
+    if: github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags')
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.6.15', '3.7.12', '3.8.12', '3.9.9', '3.10.1']
+        python-base: ['alpine3.15']
+
+    needs: [deploy]
+
+    steps:
+      - uses: cygnetdigital/wait_for_response@v2.0.0
+        with:
+          url: 'https://pypi.org/project/kintro-web/${{github.ref_name}}/'
+          responseCode: '200'
+          timeout: 10000
+          interval: 2000
+      - name: Really wait for pip
+        run: |
+          while true; do
+            if pip install kintro-web==asdf |& grep ${{github.ref_name}}; then
+              break;
+            fi
+            sleep 5
+          done
+      - uses: actions/checkout@v2
+        with:
+          path: ./kintro-web
+      - uses: actions/checkout@v2
+        with:
+          repository: neckbeard-io/kintro
+          path: ./kintro
+      - name: Get kintro latest tag
+        run: |
+          pushd ./kintro
+          git fetch --tags
+          echo "KINTRO_TAG=$(git describe --tags $(git rev-list --tags --max-count=1))" >> $GITHUB_ENV
+          popd
+      - name: Login to DockerHub Registry
+        uses: docker/login-action@v1
+        with:
+          username: ${{ secrets.NECKBEARD_IO_DOCKERHUB_USERNAME }}
+          password: ${{ secrets.NECKBEARD_IO_DOCKERHUB_TOKEN }}
+      - name: Build and push kintro-web docker container ${{ matrix.python-version }}-${{ matrix.python-base }}
+        env:
+          PYTHON_VERSION: ${{ matrix.python-version }}
+          PYTHON_BASE: ${{ matrix.python-base }}
+          DOCKERHUB_USERNAME: ${{ secrets.NECKBEARD_IO_DOCKERHUB_USERNAME }}
+        run: |
+          pushd ./kintro-web
+          pushd docker
+          DOCKER_BUILDKIT=1 docker build --target kintro-web-pkg -t ${DOCKERHUB_USERNAME}/kintro-web:${{github.ref_name}}-${KINTRO_TAG}-${PYTHON_VERSION}-${PYTHON_BASE} --build-arg KINTRO_VERSION=${KINTRO_TAG} --build-arg KINTRO_WEB_VERSION=${{github.ref_name}} --build-arg PYTHON_VERSION=${PYTHON_VERSION} --build-arg PYTHON_BASE=${PYTHON_BASE} .
+          docker push ${DOCKERHUB_USERNAME}/kintro-web:${{github.ref_name}}-${KINTRO_TAG}-${PYTHON_VERSION}-${PYTHON_BASE}
+          popd
+          popd
