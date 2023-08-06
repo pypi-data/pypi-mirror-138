@@ -1,0 +1,10 @@
+setup.py
+laphoilam/Binomialdistribution.py
+laphoilam/Gaussiandistribution.py
+laphoilam/Generaldistribution.py
+laphoilam/__init__.py
+laphoilam.egg-info/PKG-INFO
+laphoilam.egg-info/SOURCES.txt
+laphoilam.egg-info/dependency_links.txt
+laphoilam.egg-info/not-zip-safe
+laphoilam.egg-info/top_level.txt
