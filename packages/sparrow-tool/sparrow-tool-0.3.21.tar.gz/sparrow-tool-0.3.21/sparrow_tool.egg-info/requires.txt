@@ -1,0 +1,17 @@
+pyyaml
+numpy
+colour
+pendulum
+twine
+cn2an
+colorlog
+concurrent-log-handler
+Deprecated
+fire
+
+[dev]
+black
+GitPython
+uvicorn>=0.16.0
+fastapi
+einops
