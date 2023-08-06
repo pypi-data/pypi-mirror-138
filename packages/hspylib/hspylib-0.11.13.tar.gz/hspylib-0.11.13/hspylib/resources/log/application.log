@@ -1,0 +1,16 @@
+2022-02-12 00:18:20,475 [MainThread] INFO  commons.py::log_init(@Line:73) Logger init. filename=application.log level=10 mode=a append=False 
+2022-02-12 00:18:20,476 [MainThread] INFO  properties.py::_parse(@Line:144) Successfully loaded 0 properties from:
+	=>/Users/hjunior/GIT-Repository/GitHub/hspylib/modules/hspylib/src/main/hspylib/resources/application.properties 
+2022-02-12 00:18:20,476 [MainThread] INFO  app_config.py::__init__(@Line:61) 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+AppConfigs
+  |-SourceDir = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/hspylib/src/main/hspylib
+  |-ResourceDir = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/hspylib/src/main/hspylib/resources
+  |-LogFile = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/hspylib/src/main/hspylib/resources/log/application.log
+  |-AppProperties:
+   \-
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+2022-02-12 00:18:20,476 [MainThread] INFO  application.py::run(@Line:89) Run started 2022-02-12 00:18:20.476495 
+2022-02-12 00:18:20,477 [MainThread] INFO  application.py::exit_handler(@Line:50) Exit handler called 
+2022-02-12 00:18:20,477 [MainThread] INFO  application.py::run(@Line:99) Run finished 2022-02-12 00:18:20.477248 
+2022-02-12 00:18:20,477 [MainThread] INFO  application.py::_cleanup(@Line:137) cleanup was not overridden 
