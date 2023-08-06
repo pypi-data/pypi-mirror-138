@@ -1,0 +1,3 @@
+[console_scripts]
+imgurfy = imgurfy.imgurfy:main
+
