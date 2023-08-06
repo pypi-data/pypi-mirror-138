@@ -1,0 +1,8 @@
+urllib3
+pandas
+beautifulsoup4
+lxml
+jdatetime
+
+[test]
+pytest

@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: fipiran
+Version: 0.9.0
+Summary: a library to retrieve data from fipiran.com website
+Home-page: https://github.com/5j9/fipiran
+Author: 5j9
+Author-email: 5j9@users.noreply.github.com
+License: GNU General Public License v3 (GPLv3)
+Keywords: fipiran,client
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+Provides-Extra: test
+License-File: LICENSE
+
+Note: This is package is incomplete and still in initial development phase. The API may change without deprecation.
+
+Requires Python 3.10+.
+
+See also:
+
+* https://github.com/5j9/tsetmc
+
+
+If you are interested in other information that are available on fipiran.com but this library has no API for, please `open an issue`_ for them on github.
+
+
+.. _open an issue: https://github.com/5j9/fipiran/issues
+
+
