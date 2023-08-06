@@ -1,0 +1,4 @@
+wheel
+click
+requests
+jinja2
