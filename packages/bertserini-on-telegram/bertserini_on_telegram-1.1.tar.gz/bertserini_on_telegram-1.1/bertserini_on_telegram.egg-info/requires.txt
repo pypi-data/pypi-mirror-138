@@ -1,0 +1,10 @@
+torch
+torchvision
+pytorch-lightning
+transformers
+pyserini
+telegram
+datasets
+faiss-gpu
+fasttext
+iso639
