@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: arkdriver
+Version: 0.0.10
+Summary: This application accesses the Ark system.
+Home-page: https://github.com/mjlomeli/arkdriver
+Author: Mauricio
+Author-email: dev.mauricio.lomeli@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/mjlomeli/arkdriver/issues
+Platform: win32
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+License-File: LICENSE
+
+# ark_driver
+
+NOTE: I believe .lnk files are another type of .exe
+
+1. lnk file in cmd: ```explorer.exe shell:::{4234d49b-0245-4df3-B780-3893943456e1}```
+2. to be able to see lnk properties
+   1. open regedit
+   2. open HKEY_CLASSES_ROOT -> lnkfile
+   3. click on NeverShowExt
+   4. File -> export and save a backup somewhere
+   5. right click and delete
+   6. restart computer
+3. files directory: ```C:\Users\optimus\AppData\Local\Packages\StudioWildcard.17716C21E3D1F_1w2mm55455e38```
+4. saved ark maps: ```C:\Users\optimus\AppData\Local\Packages\StudioWildcard.4558480580BB9_1w2mm55455e38\LocalState\Saved\Maps\TheCenter\TheCenterSavedArks```
+5. ini files in local: ```C:\Users\optimus\AppData\Local\Packages\StudioWildcard.4558480580BB9_1w2mm55455e38\LocalState\Saved\UWPConfig\UWP```
+6. encrypted files: ```C:\Program Files\WindowsApps\StudioWildcard.17716C21E3D1F_1.5.769.2_x64__1w2mm55455e38\Game\AberrantSkin```
+   * to get into the files you have to follow the following:
+     1. Open the folder ```C:\ProgramFiles\WindowsApps```
+     2. It will not allow you enter but click on the continue
+     3. Click on the link given in the popup called "security tab"
+     4. Click Advance
+     5. Click on Continue
+     6. At the top click on the link called Change
+     7. In the text field called "Enter the object name to select" enter your computer's username. In my case it was "optimus" (don't use Administrator as the name).
+     8. Click on Check Names.
+     9. Click ok.
+     10. Make sure to check the box called "Replace owner on subcontainers and objects"
+     11. EVERYTHING AFTER THIS DOESN'T WORK
+     12. Make sure no windows store apps are running otherwise close them all
+     13. Then follow the steps to this link: https://support.microsoft.com/en-us/topic/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system-files-79aa86cb-ca52-166a-92a3-966e85d4094e
+     14. taking control of a file, as administrator cmd enter ```takeown /f Path_And_File_Name```
+     15. grant admin full access, as administrator cmd enter ```icacls Path_And_File_Name /GRANT ADMINISTRATORS:F```
+     16. replacing the file, as administrator cmd enter ```Copy Source_File Destination```
+     17. Open Run by pressing the Windows key + R. In the Run dialog box, type WSReset.exe, and then click on OK. This will resolve the "Windows Store cache may be damaged" error.
+   
+
