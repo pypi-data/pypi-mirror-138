@@ -1,0 +1,3 @@
+[napari.plugin]
+napari_lfdfiles = napari_lfdfiles
+
