@@ -1,0 +1,9 @@
+imio/__init__.py,sha256=bNbjn-4fQ02gj2mrhvEWGHL8PUmEDKLSQKePnN2cA1g,143
+imio/load.py,sha256=3yBbEgtf_gP1yfbbMlQxD8xe_IiqO5CQEAz0XdQn7rA,15769
+imio/save.py,sha256=3MyYSqJqpovpyBpWivhTrtt4HcKr11FXqj9Qo_MiRoo,2316
+imio/utils.py,sha256=4zUSLZCmWIjGpIZweFZDPFBp4BNT0tI1_VhBANdPdm0,2050
+imio-0.2.1rc0.dist-info/LICENSE,sha256=VVxvTJICPiTRIShhq2Vr1BERjOA3uuw-pSwPKEz0X38,1067
+imio-0.2.1rc0.dist-info/METADATA,sha256=aC5D3TVUW7UHOPB0pBxUuvjBf9htnKkiEF4fgIN6eDQ,1307
+imio-0.2.1rc0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+imio-0.2.1rc0.dist-info/top_level.txt,sha256=ZktC0EGzThvMTAin9_q_41rzvvfMT2FYbP8pbhSLMSA,5
+imio-0.2.1rc0.dist-info/RECORD,,
