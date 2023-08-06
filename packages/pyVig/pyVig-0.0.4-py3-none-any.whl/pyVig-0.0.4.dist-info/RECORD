@@ -1,0 +1,14 @@
+pyVig/__init__.py,sha256=IT8-7uCc9b4ciflvwxqUPoro5bOGSZfWVJY6TqtuQhA,875
+pyVig/common.py,sha256=Ar9XP2uJD29lCgMuyWeD9PG_rd1Oy18UVTnKqR0n84o,477
+pyVig/database.py,sha256=VBS2anxOC37OKHb3wUZVaJGAr3ylpE0Ua_OVlTiuTmE,6243
+pyVig/entities.py,sha256=rRrAiWRKCiazxkxOq0JvDrpFD5pTKHB7gnZNOGFS5Jg,5799
+pyVig/gui.py,sha256=AjPbJoPYrAnt6Po4vRrkE5UpGf6LFCCOq4YPOEOPLYg,21024
+pyVig/maths.py,sha256=T_ww4XrW3gMjWUW-2vPHSLgjaHNzoZD0uOTwnYR73co,1424
+pyVig/static.py,sha256=pcrk4ezmZ8ytcha7hWgFClt4YUj_gDSEZ1CUGH2R9yA,1681
+pyVig/stencils.py,sha256=21ngZTwmsULFH9JdcWS0PpOgGsktsBw8Q0tNJ_iJeo8,2014
+pyVig/visio.py,sha256=jSZGg6p-UTNbNugwx9vlTbzGqFtpE7vpiOVNm3RnYOQ,17623
+pyVig-0.0.4.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+pyVig-0.0.4.dist-info/METADATA,sha256=NzmLWKGqmu-PY2ytt-qbnihJC8IWFfp1ID2VuaBvqpA,624
+pyVig-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyVig-0.0.4.dist-info/top_level.txt,sha256=S8WseZ_xaU30senOFZYqPqj7EATgkFejQb_keCOYgpw,6
+pyVig-0.0.4.dist-info/RECORD,,
