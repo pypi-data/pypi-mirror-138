@@ -1,0 +1,15 @@
+hisia/__init__.py,sha256=k7esbLQVufbFKf-Si9u4fyz8j8GiaROKoTzWL5sTb5o,50
+hisia/hisia.py,sha256=OoZpxheoNo6EhxwUHyCKvCCHCVCoJ52jVG0E4-KE_kU,5121
+hisia/models/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hisia/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hisia/models/base_model.pkl,sha256=-UrBqdoq997zK5knEnh8mQPZ55xxEWJeUm8EiYl6ym4,34108473
+hisia/models/data/stops.pkl,sha256=zmcijedx28wUsoy8_xtfK7b6dhzqMdw5DslKoWlrKMw,35651
+hisia/models/helpers.py,sha256=TPFGvMVywYJFugYQALLkenJk7uVzcmmruay3AKC3M3s,4235
+hisia/models/lazylogger.py,sha256=3b6kSi3jzp2w7Gf9Bxs7TIML1nCByjfl_ww8gP9_MMk,1193
+hisia/models/train_model.py,sha256=5J9tql9DzTLAIqUzFwY_8Gnky0Vue8E7z7_dZ3E1_LM,3705
+hisia/visualization/ROC.png,sha256=uwDQaLOVFguyF9I7X3318FNl4UMJNSokMfdIFhJUSH8,43705
+hisia/visualization/ROC_tests.png,sha256=cJ4J8auAkneyG68K-XFmcd5fwysq-J98wIX0h3UyCEU,2520
+hisia-0.3.3.1.dist-info/LICENSE,sha256=OzNMO-AxI6NLUbpCIOc2Xwor3lnzZIpWNyCNfxiweTE,1113
+hisia-0.3.3.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+hisia-0.3.3.1.dist-info/METADATA,sha256=z4HJBaEcIXErmZe8BvDCQvbumnSYfCnXB_nWf5znjZc,7386
+hisia-0.3.3.1.dist-info/RECORD,,
