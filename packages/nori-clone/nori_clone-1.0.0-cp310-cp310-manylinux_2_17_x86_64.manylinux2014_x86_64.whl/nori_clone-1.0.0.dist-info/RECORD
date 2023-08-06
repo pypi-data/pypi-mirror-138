@@ -1,0 +1,10 @@
+nori/bind.pyi,sha256=fyl1xdJ1ELDuZKpp7De2XWMgDPdKS-2RwcfQDnIQWr4,555
+nori/__init__.py,sha256=6-dddG5LX1FkPVkIjXHzv3-WyEsF53q6QacWYRcwpqE,48
+nori/bind.so,sha256=vP3_nXr-PMovhMdfApKh1pfyCmIFZfPrhF03_q1B7E8,6496176
+nori/dictionary/latest-userdict.txt,sha256=7v-_apha3gMePCxf9ke_lZc-mOn13Dh8Cj6raLHf0O0,144
+nori/dictionary/latest-dictionary.nori,sha256=tq4c1qNNvteokjqnZ4ZpNeCr_x6l_hXioPDOMOVI6M8,26642819
+nori_clone-1.0.0.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+nori_clone-1.0.0.dist-info/METADATA,sha256=txGMHl4_xBXxKSd-9e3-S484tZvptE34ich7Z5JoFUs,2300
+nori_clone-1.0.0.dist-info/top_level.txt,sha256=TWvdFbcapctPH008H8qXx7Mxqy5Z2LTm9vDk3gdN8KE,5
+nori_clone-1.0.0.dist-info/RECORD,,
+nori_clone-1.0.0.dist-info/WHEEL,sha256=AENPUwuTc6qB95Mrn5JB5boXegWw6oDhuwuuX0q_ONg,152
