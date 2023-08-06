@@ -1,0 +1,12 @@
+pystore/__init__.py,sha256=DeH1I8pknZSCf0nIbppjhmaETZMCAmtnAgIiRvtbeJk,1293
+pystore/collection.py,sha256=2LfU7GEu6BuzT-WBXIZ3Q0NMFibqnUl2I3_HpeVdvCE,8201
+pystore/config.py,sha256=JCYnld4Bif35LnrdDxrHa2DwLWuRR_deGIOBFI6uhnE,959
+pystore/item.py,sha256=nGq21Le_cTepKNZu6qRnMCv1zd2wU-ywbnR-PBofZTA,2795
+pystore/store.py,sha256=4gQbccEECN6f1v2nfysSdj6BsMQKMmWibdYdnpmdG8M,3266
+pystore/utils.py,sha256=C0fKHueGBuGk4wof4guYirkpyxUrefITh-nEsPI4SJA,4725
+PyStore-0.1.23.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+PyStore-0.1.23.dist-info/METADATA,sha256=_jfk5_t4HwA2WlRdZDrL57FCfzgFubmI5arWLym4HPw,9140
+PyStore-0.1.23.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+PyStore-0.1.23.dist-info/entry_points.txt,sha256=lexK7RzT1xMyCvalZCkEXUV_pXjWKxyNU2NGRfSYmuo,40
+PyStore-0.1.23.dist-info/top_level.txt,sha256=DQv0MvKzzOcO58AKV9xDdLm7grs_vU1QT_WsriAsYKg,8
+PyStore-0.1.23.dist-info/RECORD,,
