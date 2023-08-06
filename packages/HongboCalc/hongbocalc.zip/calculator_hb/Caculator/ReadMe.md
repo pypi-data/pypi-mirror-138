@@ -1,0 +1,2 @@
+# Simple Calculator
+This is a small, interactive program written in Python. It is useful for basic mathematical calculations. The user is shown a menu of options, from which to choose. The program starts with the calculator memory set at 0. The user chooses an action, for example, add. The user chooses an integer, for example, 5. If the value in the calculator's memory is 10, result is 15.
