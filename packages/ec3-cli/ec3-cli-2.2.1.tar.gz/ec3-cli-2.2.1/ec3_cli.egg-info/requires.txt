@@ -1,0 +1,4 @@
+PyYAML
+jsonschema
+ply
+requests
