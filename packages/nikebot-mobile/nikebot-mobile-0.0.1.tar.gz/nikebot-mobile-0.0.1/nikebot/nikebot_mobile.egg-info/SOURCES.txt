@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+nikebot/nikebot_mobile.egg-info/PKG-INFO
+nikebot/nikebot_mobile.egg-info/SOURCES.txt
+nikebot/nikebot_mobile.egg-info/dependency_links.txt
+nikebot/nikebot_mobile.egg-info/top_level.txt
+nikebot/tools/__init__.py
+nikebot/tools/speedtest.py
+nikebot/tools/spintax.py
