@@ -1,0 +1,3 @@
+[console_scripts]
+gasbullet = gasbullet.skeleton:run
+
