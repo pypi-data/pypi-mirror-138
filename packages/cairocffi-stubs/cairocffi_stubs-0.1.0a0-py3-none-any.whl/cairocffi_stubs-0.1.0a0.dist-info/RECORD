@@ -1,0 +1,13 @@
+cairocffi-stubs/__init__.pyi,sha256=6MhxCSQU1uC8mrZHFWRq1gnR3RaPcujzC5v2s_kZwdg,1274
+cairocffi-stubs/constants.pyi,sha256=h1n5NAmwvaWobrJ5OhG_bOwHgpdr1kfVaj4BGJW0UNE,5167
+cairocffi-stubs/context.pyi,sha256=XzNH-VmbZ5tjecXPcTiN1W2PWvxzaX7_Alb5M6FOTxI,8030
+cairocffi-stubs/ffi_build.pyi,sha256=FfnDN1V6l8yT1hgQ2oZUO-FCR1LwaIus1Y7H2Nw7N0k,90
+cairocffi-stubs/fonts.pyi,sha256=Pbkf9jVfyVTm6iV6KZguQjuf49kgbpiohv6oErd7Lh8,2890
+cairocffi-stubs/matrix.pyi,sha256=DbROsYsqtszNQaOoSuKkUMccYCfe0LF1yldueTvPaM8,1470
+cairocffi-stubs/patterns.pyi,sha256=-dtD21Op4m0Yu-r6ouZh8bqjiFqoX6D-9ivWWf12htw,1835
+cairocffi-stubs/pixbuf.pyi,sha256=3s6YBhN9GLUQpDYYzG0jTdzPbByHtcCgsvb5mpxRrL4,469
+cairocffi-stubs/surfaces.pyi,sha256=dBh6pWQ5nEc6P1bayYOBajc63CjxEMequitzhzLidwQ,6434
+cairocffi-stubs/xcb.pyi,sha256=_-WNueF_pZl3wM_0OEzcZBSmRZkmPMMNi1AJFvLCbG4,340
+cairocffi_stubs-0.1.0a0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+cairocffi_stubs-0.1.0a0.dist-info/METADATA,sha256=qkLYUSR5_spgfe0pZxaNbb8m14dNCsgOoEbRpmntUYI,399
+cairocffi_stubs-0.1.0a0.dist-info/RECORD,,
