@@ -1,0 +1,6 @@
+aws_sts_get_mfa_profile-1.2.2.data/scripts/get-sts-token.py,sha256=95QEdx3Zv9rs0AYZ-PDT6uFE7Dz7YSrZcfBbZ4dGu0s,2127
+aws_sts_get_mfa_profile-1.2.2.dist-info/LICENSE,sha256=WKgy9B2M7Lt3fsNe3Y-7QtXiGtfuXZHKsq7RLX8nq8w,11515
+aws_sts_get_mfa_profile-1.2.2.dist-info/METADATA,sha256=cBVmFYbqAEcVo_EvGQj7wbvI0Xe3dxGK8sXwu_Dcc1w,1587
+aws_sts_get_mfa_profile-1.2.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aws_sts_get_mfa_profile-1.2.2.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_sts_get_mfa_profile-1.2.2.dist-info/RECORD,,
