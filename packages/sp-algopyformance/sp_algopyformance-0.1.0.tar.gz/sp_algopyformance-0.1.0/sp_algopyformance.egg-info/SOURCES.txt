@@ -1,0 +1,8 @@
+setup.py
+sp_algopyformance.egg-info/PKG-INFO
+sp_algopyformance.egg-info/SOURCES.txt
+sp_algopyformance.egg-info/dependency_links.txt
+sp_algopyformance.egg-info/requires.txt
+sp_algopyformance.egg-info/top_level.txt
+sp_algopyformancelib/__init__.py
+sp_algopyformancelib/tests.py

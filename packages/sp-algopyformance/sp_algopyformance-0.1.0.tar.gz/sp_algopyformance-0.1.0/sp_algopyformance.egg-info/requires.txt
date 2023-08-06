@@ -1,0 +1,16 @@
+Pillow
+cycler
+matplotlib
+seaborn
+pandas
+numpy
+typing
+typing-extensions
+fonttools
+kiwisolver
+packaging
+pyparsing
+python-dateutil
+pytz
+scipy
+six
