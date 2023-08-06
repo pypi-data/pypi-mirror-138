@@ -1,0 +1,12 @@
+pax/__init__.py,sha256=eE2T1grr0DAwV5Uxv8SYsgg9PPgHrE3wLh6umOhjquM,265
+pax/autograd.py,sha256=O4bx3zb1sMS-ZjiaUPTXAQ8G2EHi48nCdFq4eqR9048,3883
+pax/modules.py,sha256=3bakrw7bKnMODHTsoyVGPlsDJEHdiOJDBFCfGEqguEY,1348
+pax/optim.py,sha256=Q2nrvxp_qaUJ_BMMQLXK1xYcAW5iIs5_fHB-0Nx22Qo,3804
+pax/optim_schedules.py,sha256=8AuzfV3NdNqurBHriH3iPUBrkfrMOdmUd14J7yvm38E,585
+pax/tree_util.py,sha256=JYx1YnrO0Y-cCYY3XFjz1DUuW72xR0rDwBySLrd1M7c,156
+pax/utils.py,sha256=ODQEKQNtAFRuLAUcZxtinxPIitL5mupIhqOsMe4d-js,414
+paxlib-0.3.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+paxlib-0.3.3.dist-info/METADATA,sha256=W92Pn1SoShyRMoH9pJklj6bQxCyZ6TcMq7_ruj5Y568,289
+paxlib-0.3.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+paxlib-0.3.3.dist-info/top_level.txt,sha256=0KX7Lj0yPZNABpdghPQOfSHdtyFW-cIQgwlqAtj_evk,4
+paxlib-0.3.3.dist-info/RECORD,,

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: paxlib
+Version: 0.3.3
+Summary: JAX-like API on top of PyTorch
+Home-page: http://github.com/epfml/pax
+Author: Thijs Vogels
+Author-email: thijs.vogels@epfl.ch
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: torch
+Requires-Dist: jax
+Requires-Dist: jaxlib
+
+UNKNOWN
+
+
