@@ -1,0 +1,11 @@
+version: 1.0
+
+wt:
+  alias: {}
+
+php:
+  version: 7.3
+
+hosts: {}
+
+sites: {}
