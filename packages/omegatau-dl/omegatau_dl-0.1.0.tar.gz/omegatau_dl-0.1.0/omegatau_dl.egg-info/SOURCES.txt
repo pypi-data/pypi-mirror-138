@@ -1,0 +1,12 @@
+README.md
+setup.py
+omegatau_dl/__init__.py
+omegatau_dl/__main__.py
+omegatau_dl/constants.py
+omegatau_dl/util.py
+omegatau_dl/version.py
+omegatau_dl.egg-info/PKG-INFO
+omegatau_dl.egg-info/SOURCES.txt
+omegatau_dl.egg-info/dependency_links.txt
+omegatau_dl.egg-info/requires.txt
+omegatau_dl.egg-info/top_level.txt

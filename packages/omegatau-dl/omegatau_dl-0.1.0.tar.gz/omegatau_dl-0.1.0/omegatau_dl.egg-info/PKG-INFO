@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: omegatau-dl
+Version: 0.1.0
+Summary: Skript to download all episodes from omegataupodcast.net
+Home-page: https://gitlab.com/mjohannfunke1/omegatau-download
+Author: Marcel Johannfunke
+Author-email: jakunddexter@gmail.com
+License: GPL3
+Description: # Requirements
+        
+        `Python 3` and `pip` for Python 3.
+        
+        # Usage
+        
+        Use `pip` to install this package
+        ```
+        pip install omegatau-dl
+        pip3 install omegatau-dl
+        ```
+        depending on your OS and Python version supported by `pip`.
+        On most Linux distributions `python`/`pip` refers to Python 2 and `python3`/`pip3` to Python 3.
+        
+        Then run the script with
+        ```
+        python -m omegatau_dl
+        python3 -m omegatau_dl
+        ```
+        depending on your OS.
+        
+        The script will download all numbered episodes into the same folder.
+        It won't redownload existing episodes.
+        It **does not** support continuation of download, so if you stop in the middle of a download delete that (incomplete) file. 
+        The numbers of all downloaded episodes will all be converted to 4 digit numbers.
+        
+        With the options `-de` or `-en` the script will only download th episodes of the respective language.
+        
+Keywords: omegatau omegataupodcast
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
