@@ -1,0 +1,3 @@
+[console_scripts]
+connPFM = connPFM.connPFM:_main
+
