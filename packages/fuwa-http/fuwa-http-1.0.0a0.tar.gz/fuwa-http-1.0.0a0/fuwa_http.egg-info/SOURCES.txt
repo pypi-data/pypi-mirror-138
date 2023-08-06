@@ -1,0 +1,10 @@
+README.md
+setup.py
+fuwa/fhttp/__init__.py
+fuwa/fhttp/client.py
+fuwa/fhttp/errors.py
+fuwa_http.egg-info/PKG-INFO
+fuwa_http.egg-info/SOURCES.txt
+fuwa_http.egg-info/dependency_links.txt
+fuwa_http.egg-info/requires.txt
+fuwa_http.egg-info/top_level.txt

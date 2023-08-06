@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: fuwa-http
+Version: 1.0.0a0
+Summary: The http client implementation for the fuwa eco-system
+Home-page: https://github.com/fuwa-py/fuwa-http
+Author: justanotherebyte
+License: UNKNOWN
+Project-URL: Issue Tracker, https://github.com/fuwa-py/fuwa-http/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+
+# Fuwa HTTP
+
+The HTTP client implementation for the fuwa eco-system
+
+### Example
+
+```py
+import asyncio
+
+from fuwa.fhttp.client import HTTPClient
+
+
+async def main():
+    client = HTTPClient("bot token")
+    await client.init() # calls the application info endpoint
+    # this is necessary for most endpoints (such as application command
+    # related endpoints)
+
+    payload = [
+        {
+            "type": 1,
+            "name": "hello",
+            "description": "Hello, World!"
+        }
+    ]
+    await client.bulk_upsert_application_commands(payload, guild_id=942837947315662859)
+    await client.close()
+    
+loop = asyncio.get_event_loop()
+loop.run_until_complete(main())
+```
+
+You may think this is quite verbose for a HTTP client, however, the fuwa eco-system doesn't expect you to usue this on its own. This package is used heavily within the `command-framework`. The package import (`from fuwa.fhttp`) is `fhttp` due to the `http` python standard library. This is to avoid any shadowing issues internally and for you.
+
