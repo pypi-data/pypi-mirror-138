@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: deng
+Version: 2022.2.11
+Summary: Personal method encapsulation
+Home-page: https://github.com/Deng2016/deng
+Author: dengqingyong
+Author-email: yu12377@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: requests-html (==0.10.0)
+Requires-Dist: redis (==3.5.3)
+Requires-Dist: baidu-aip (==2.2.18.0)
+Requires-Dist: pycryptodome (==3.11.0)
+Requires-Dist: xpinyin (==0.7.6)
+Requires-Dist: pysmb (==1.2.6)
+
+UNKNOWN
+
