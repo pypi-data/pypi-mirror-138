@@ -1,0 +1,5 @@
+[console_scripts]
+cl = codelife.main:main
+codelife = codelife.main:main
+codelife-cli = codelife.main:main
+
