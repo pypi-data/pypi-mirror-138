@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/JablotronPy.egg-info/PKG-INFO
+src/JablotronPy.egg-info/SOURCES.txt
+src/JablotronPy.egg-info/dependency_links.txt
+src/JablotronPy.egg-info/requires.txt
+src/JablotronPy.egg-info/top_level.txt
