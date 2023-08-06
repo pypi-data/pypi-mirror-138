@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: indicparser
+Version: 0.0.1
+Summary: Grapheme Parser for indic language
+Home-page: https://github.com/mnansary/indicparser
+Author: Bengali.ai
+Author-email: research.bengaliai@gmail.com
+License: MIT
+Keywords: grapheme,indic languages
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+# indicparser
+Grapheme Parser for indic language
+
+
+Change Log
+===========
+
+0.0.1 (12/02/2022)
+-------------------
+- First Release
+

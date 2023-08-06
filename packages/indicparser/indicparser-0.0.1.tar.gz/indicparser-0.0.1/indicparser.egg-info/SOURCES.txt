@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+indicparser/__init__.py
+indicparser/langs.py
+indicparser/parser.py
+indicparser.egg-info/PKG-INFO
+indicparser.egg-info/SOURCES.txt
+indicparser.egg-info/dependency_links.txt
+indicparser.egg-info/top_level.txt
