@@ -1,0 +1,149 @@
+Metadata-Version: 2.1
+Name: cdk-toolkit
+Version: 0.0.30
+Summary: AWS Cloud Development Toolkit
+Home-page: http://pypi.python.org/pypi/cdk-toolkit/
+Author: Ryan Moos
+Author-email: ryan@moos.engineering
+License: LICENSE
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aws-cdk-lib
+Requires-Dist: boto3
+
+# cdk-toolkit
+
+AWS CDK Toolkit
+
+## Features 
+[ ] CICD  
+    [X] CodeCommit - Create CodeCommit Repository  
+    [ ] CodeCommit - Existing CodeCommit Repository
+    [X] CodeBuild - Docker Image Builder   
+    [ ] CodeDeploy - EKS  
+    [ ] CodeDeploy - ECS  
+    [ ] CodeDeploy - Lambda  
+    [ ] CodePipeline - Source, Build, Deploy  
+[ ] CONNECTION  
+    [ ] VPC - Create VPC
+    [ ] VPC - Existing VPC
+[ ] CONTAINER  
+    [X] ECR - Create ECR Repository  
+    [ ] ECR - Existing ECR Repository  
+    [ ] EKS - Create EKS Cluster  
+    [ ] EKS - Existing EKS Cluster  
+    [ ] EKS - Deploy Kubernetes Dashboard  
+[ ] DATABASE  
+    [ ] RDS - Create PostGres RDS Instance 
+    [ ] RDS - Existing PostGres RDS Instance  
+    [ ] RDS - Create PostGres Users, Tables, Functions  
+    [ ] DynamoDB - Create DynamoDB Instance  
+    [ ] DynamoDB - Existing DynamoDB Instance  
+    [ ] DynamoDB - Create DynamoDB Users, Tables, Etc.  
+[ ] DATALAKE  
+    [ ] LakeFormation - Register S3 Bucket  
+    [ ] LakeFormation - S3 Bucket Glue Crawler  
+[ ] NOTEBOOK  
+    [ ] SageMaker - Create SageMaker Instance  
+    [ ] SageMaker - Create SageMaker ML Model Endpoint  
+[ ] NOTIFICATION  
+    [ ] SNS - Create SNS Topic  
+    [ ] SQS - Create SQS Topic  
+[ ] PERMISSION  
+    [ ] IAM - Create an IAM Service Role  
+    [ ] IAM - Add IAM Service Role Inline Permissions  
+[ ] SERVERLESS  
+    [ ] Lambda - Create Lambda Function  
+[ ] STORAGE  
+    [X] S3 - Create S3 Bucket  
+
+
+
+
+## Getting Started  
+### Install AWS CDK
+```bash
+npm install -g aws-cdk
+```
+
+### Create CDK Project Directory
+```bash
+mkdir cdk-proj
+cd cdk-proj
+```
+
+### Create CDK Project Environment
+```bash
+cdk init app --language python
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install -r requirements.txt
+```
+
+### Add Stacks to CDK Project
+
+```python
+from aws_cdk import ( 
+    Stack, 
+)
+from constructs import Construct
+
+from cdk_toolkit import storage
+
+class CdkProjStack(Stack): 
+    def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None:
+        super().__init__(scope, construct_id, **kwargs)
+        bucket_name = "cdk-proj-bucket-name-test"
+        s3_bucket = storage.createS3Bucket(self, bucket_name, versioned=False)
+```
+
+### Update CDK Project App
+```python
+# Sample App
+import aws_cdk as cdk
+from aws_cdk import Aws, Stack, Tags
+
+from cdk_proj.cdk_proj_stack import CdkProjStack
+
+# AWS CDK App
+app = cdk.App()
+
+# AWS CDK Environment
+AWS_ACCOUNT_NUMBER="111111111"
+AWS_ACCOUNT_REGION="us-west-2"
+cdk_environment = cdk.Environment(account=AWS_ACCOUNT_NUMBER, region=AWS_ACCOUNT_REGION)
+
+# Project Stack
+CdkProjStack(app, "CdkProjStack", env=cdk_environment)
+
+app.synth()
+
+```
+
+### Create CDK Bootstrap
+```
+AWS_ACCOUNT_NUMBER=111111111
+AWS_ACCOUNT_REGION=us-west-2
+cdk bootstrap aws://$AWS_ACCOUNT_NUMBER/$AWS_ACCOUNT_REGION ---toolkit-stack-name CDK-TOOLKIT --qualifier cdktoolkit
+```
+
+### Deply CDK Project
+```
+# Preview CDK Project Stack Deployment
+cdk diff
+
+# Deploy CDK Project Stack(s)
+cdk deploy
+
+# Destroy CDK Project Stack(s)
+cdk destroy
+```
+
+
+
+## Resources
+[Federated Multi-Account Access for AWS CodeCommit](https://aws.amazon.com/blogs/devops/federated-multi-account-access-for-aws-codecommit/)
+
+[AWS CDK API Documentation](https://docs.aws.amazon.com/cdk/api/v2/python/modules.html)
+
