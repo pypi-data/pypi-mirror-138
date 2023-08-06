@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: otfpythonpkg
+Version: 0.2.0
+Summary: Provides common classes that will be shared between python applications
+Home-page: https://github.com/ronroyce22/otfpythonpkg.git
+Author: Ron Royce
+Author-email: rroycems@outlook.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: feedparser
+Requires-Dist: html2text
+
+# otfpythonpkg
+
+
+

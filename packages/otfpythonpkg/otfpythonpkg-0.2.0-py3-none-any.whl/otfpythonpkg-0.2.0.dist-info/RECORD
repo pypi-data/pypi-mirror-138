@@ -1,0 +1,12 @@
+otfpythonpkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+otfpythonpkg/aws/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+otfpythonpkg/aws/aws.py,sha256=GJKcLqvVSlo7apaRFmkGJYRaEm_ryhznOQzRj5bkQdc,10200
+otfpythonpkg/db/MySQL.py,sha256=4U_0AwBdYQaV0QkTbYX1Sl1sAGeQYafnCmNDj_sN9X0,6863
+otfpythonpkg/db/Snowflake.py,sha256=Ekxzornh0pa52zMj_eiwmjvyH0HYn8zHe8KCEatfZF8,2632
+otfpythonpkg/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+otfpythonpkg/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+otfpythonpkg/utils/util.py,sha256=2-do8E66XAHugZ7g6X6wfDCpBFYkq6FhU6uR-jNCoEM,10620
+otfpythonpkg-0.2.0.dist-info/METADATA,sha256=Map-lR9NQSz_XG1etXTLWpgAwoV8ffxINJeFxl5COvY,538
+otfpythonpkg-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+otfpythonpkg-0.2.0.dist-info/top_level.txt,sha256=QTeDpTDU9Xb-Qzw7PBHj-LOdtWyZtSjGSjQ_-3o33o4,13
+otfpythonpkg-0.2.0.dist-info/RECORD,,
