@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.py
+swinging_door.py
+swinging_door.egg-info/PKG-INFO
+swinging_door.egg-info/SOURCES.txt
+swinging_door.egg-info/dependency_links.txt
+swinging_door.egg-info/top_level.txt
