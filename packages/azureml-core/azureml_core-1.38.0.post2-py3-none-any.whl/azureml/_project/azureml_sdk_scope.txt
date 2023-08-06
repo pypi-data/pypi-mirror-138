@@ -1,0 +1,2 @@
+azureml-train-automl-client
+azureml-core
