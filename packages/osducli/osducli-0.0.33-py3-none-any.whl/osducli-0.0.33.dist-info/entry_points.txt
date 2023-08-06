@@ -1,0 +1,3 @@
+[console_scripts]
+osdu = osducli.__main__:main
+
