@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+sikfa.egg-info/PKG-INFO
+sikfa.egg-info/SOURCES.txt
+sikfa.egg-info/dependency_links.txt
+sikfa.egg-info/top_level.txt
