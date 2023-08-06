@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: plt_alias
+Version: 0.1
+Summary: Just import plt
+Home-page: https://github.com/amirfru/plt_alias
+Author: Amir Fruchtman
+Author-email: amir.fru@gmail.com
+License: UNKNOWN
+Keywords: pyplot,matplotlib
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=2.7, <4
+Description-Content-Type: text/markdown
+
+# plt
+Not more `from matplotlib import pyplot as plt`! just `import plt` and that's it!
+<br/> This package is just a simple alias.
+
+## Installation 
+$`pip install plt-alias`
+
+
+
+
+
+
