@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: manimgl-mathjax
+Version: 0.1.0
+Summary: A plugin for ManimGL with tex2svg renderer using mathjax
+Home-page: https://github.com/manim-kindergarten/ManimGL-MathJax
+Author: Manim Kindergarten Team
+License: MIT
+Project-URL: Bug Tracker, https://github.com/manim-kindergarten/ManimGL-MathJax/issues
+Project-URL: Source Code, https://github.com/manim-kindergarten/ManimGL-MathJax/
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: JavaScript
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE.md
+
+# ManimGL-MathJax
+
+[![pypi version](https://img.shields.io/pypi/v/manimgl-mathjax?logo=pypi)](https://pypi.org/project/manimgl-mathjax/)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
+
+## Install
+```shell
+$ pip install manimgl-mathjax
+$ manimgl-mathjax install
+```
+
+⚠ Currently you must use the latest version of ManimGL (i.e. clone from GitHub and install)
+
+## Usage
+Just use `JTex` instead of [`MTex`](https://github.com/3b1b/manim/pull/1725#issue-1121866424)
+
