@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+vaby_models_cvr/__init__.py
+vaby_models_cvr/_version.py
+vaby_models_cvr/petco2.py
+vaby_models_cvr.egg-info/PKG-INFO
+vaby_models_cvr.egg-info/SOURCES.txt
+vaby_models_cvr.egg-info/dependency_links.txt
+vaby_models_cvr.egg-info/entry_points.txt
+vaby_models_cvr.egg-info/requires.txt
+vaby_models_cvr.egg-info/top_level.txt
