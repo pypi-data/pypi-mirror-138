@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: omeganlp
+Version: 0.0.2
+Summary: NLP Framework based on pytorch
+Home-page: https://github.com/yuiant/omeganlp.git
+Author: yuiant
+Author-email: gyuiant@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+UNKNOWN
+
