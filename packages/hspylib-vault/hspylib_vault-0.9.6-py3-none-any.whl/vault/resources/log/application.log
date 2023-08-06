@@ -1,0 +1,18 @@
+2022-02-12 00:23:50,394 [MainThread] INFO  commons.py::log_init(@Line:73) Logger init. filename=application.log level=10 mode=a append=False 
+2022-02-12 00:23:50,395 [MainThread] INFO  properties.py::_parse(@Line:144) Successfully loaded 3 properties from:
+	=>/Users/hjunior/GIT-Repository/GitHub/hspylib/modules/vault/src/main/vault/resources/application.properties 
+2022-02-12 00:23:50,396 [MainThread] INFO  app_config.py::__init__(@Line:61) 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+AppConfigs
+  |-SourceDir = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/vault/src/main/vault
+  |-ResourceDir = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/vault/src/main/vault/resources
+  |-LogFile = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/vault/src/main/vault/resources/log/application.log
+  |-AppProperties:
+   \-hhs.vault.file=
+   |-hhs.vault.user=
+   |-hhs.vault.passphrase=
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+2022-02-12 00:23:50,397 [MainThread] DEBUG file_storage.py::load(@Line:38) File storage filename=/Users/hjunior/Dropbox/Documents/.vault.unlocked loaded 0 entries 
+2022-02-12 00:23:50,397 [MainThread] DEBUG file_storage.py::__init__(@Line:28) File storage filename=/Users/hjunior/Dropbox/Documents/.vault.unlocked created and loaded entries=0 
+2022-02-12 00:23:50,397 [MainThread] INFO  application.py::run(@Line:89) Run started 2022-02-12 00:23:50.397463 
+2022-02-12 00:23:50,398 [MainThread] INFO  application.py::run(@Line:99) Run finished 2022-02-12 00:23:50.398039 
