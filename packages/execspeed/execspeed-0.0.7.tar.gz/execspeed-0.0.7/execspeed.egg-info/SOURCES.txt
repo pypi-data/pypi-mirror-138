@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+execspeed.egg-info/PKG-INFO
+execspeed.egg-info/SOURCES.txt
+execspeed.egg-info/dependency_links.txt
+execspeed.egg-info/top_level.txt
+speed/__init__.py
