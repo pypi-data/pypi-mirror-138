@@ -1,0 +1,9 @@
+LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ossindex/__init__.py,sha256=rcWbLNESXKyEjvZhT52yQK1R04ccme4s_5tVbLIAzGo,761
+ossindex/model.py,sha256=j1gGxRscrqRgRU7KMPkSHcxQqPrR8Fo3b6FjDTqZa3E,8993
+ossindex/ossindex.py,sha256=0bQmRmjhHBM2HGTmFc7F7Cmr9_sRguMXirQm1Dha1K4,9055
+ossindex/serializer.py,sha256=MKr9RfdhWhrlldmyanXXma5Q50yZld6D5WbDCeOFzHk,3104
+ossindex_lib-1.0.0rc2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ossindex_lib-1.0.0rc2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+ossindex_lib-1.0.0rc2.dist-info/METADATA,sha256=FRquZmIca3bpuzaGci_o-E26K_zmFy-Z1DMwPtdsWD8,5538
+ossindex_lib-1.0.0rc2.dist-info/RECORD,,
