@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/phrase_hunter.egg-info/PKG-INFO
+src/phrase_hunter.egg-info/SOURCES.txt
+src/phrase_hunter.egg-info/dependency_links.txt
+src/phrase_hunter.egg-info/entry_points.txt
+src/phrase_hunter.egg-info/top_level.txt
+src/phrasehunter/__init__.py
+src/phrasehunter/__main__.py
+src/phrasehunter/game.py
+src/phrasehunter/phrase.py
