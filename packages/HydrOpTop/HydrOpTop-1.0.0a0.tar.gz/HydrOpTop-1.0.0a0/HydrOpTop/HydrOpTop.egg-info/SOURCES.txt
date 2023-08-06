@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+HydrOpTop/HydrOpTop.egg-info/PKG-INFO
+HydrOpTop/HydrOpTop.egg-info/SOURCES.txt
+HydrOpTop/HydrOpTop.egg-info/dependency_links.txt
+HydrOpTop/HydrOpTop.egg-info/requires.txt
+HydrOpTop/HydrOpTop.egg-info/top_level.txt

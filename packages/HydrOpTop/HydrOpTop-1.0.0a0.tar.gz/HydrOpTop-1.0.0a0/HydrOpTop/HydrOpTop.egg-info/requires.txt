@@ -1,0 +1,9 @@
+numpy
+scipy
+cyipopt
+nlopt
+matplotlib
+h5py
+
+[test]
+pytest
