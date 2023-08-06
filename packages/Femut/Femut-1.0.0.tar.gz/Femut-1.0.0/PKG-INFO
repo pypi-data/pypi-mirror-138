@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Femut
+Version: 1.0.0
+Summary: It is a package that allows you to estimate the height of the owner of the femur using the femur.
+Home-page: https://github.com/ChanToRe/Femut
+Author: Chantore
+Author-email: wnrnrxla@gmail.com
+License: MIT
+Keywords: Archaeology,Physical-Anthropology
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+UNKNOWN
+
