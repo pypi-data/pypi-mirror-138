@@ -1,0 +1,3 @@
+[console_scripts]
+ptaxfr = ptaxfr.ptaxfr:main
+
