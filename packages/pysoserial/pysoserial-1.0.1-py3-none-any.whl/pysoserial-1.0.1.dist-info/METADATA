@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pysoserial
+Version: 1.0.1
+Summary: Python deserialization payload generator
+Home-page: https://github.com/itasahobby/pysoserial.git
+Author: ITasahobby
+Author-email: ITasahobby@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: jsonpickle (==2.0.0)
+Requires-Dist: pylint (==2.11.1)
+Requires-Dist: PyYAML (==6.0)
+
+UNKNOWN
+
