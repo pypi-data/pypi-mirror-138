@@ -1,0 +1,2 @@
+dynamite_nsm
+dynamite_remote
