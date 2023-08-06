@@ -1,0 +1,13 @@
+ssptools/BSData.py,sha256=TnJL5R2vgqbsQGcccjf3YTkdJj7b9Cjz8z2nRgojUEE,3595
+ssptools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ssptools/compare.py,sha256=FDKrUhebHt4gx6ekptGnBDQfvF3Ek5qZNbxHmn7FAJo,541
+ssptools/kpaths.py,sha256=31iYdjVV34P16ke-PSJ7hgJ3MCZYplh-P4wJrMGil00,1784
+ssptools-0.1.0.data/scripts/2POS.py,sha256=eY-6BLVYiHOaXcaZpCvOaKIUcv4XrSLONhdIS_9PPU4,390
+ssptools-0.1.0.data/scripts/appendKPaths.py,sha256=RVAE4pE4AfVouT1HNf0Vjghf42dZMc0z_Mk3s3O3CIU,559
+ssptools-0.1.0.data/scripts/compareEV.py,sha256=qOyPkOe6Trl93DS4ZerSh-_T5g1IyzOhMVh1MLEDjS4,436
+ssptools-0.1.0.data/scripts/plotBS.py,sha256=VVWfnNiAkszclo2kXkYXRzKuivGrPSiRguU92jdghhs,819
+ssptools-0.1.0.dist-info/LICENSE,sha256=rtfwD96E59LlTcuC_1hEiGn9k3d818JdGccZ9BmQo4M,1070
+ssptools-0.1.0.dist-info/METADATA,sha256=p5Crks97OLb1E90RwyjAHzvw6YPuDP5nZVMgZyGt1Cw,3617
+ssptools-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ssptools-0.1.0.dist-info/top_level.txt,sha256=d6wSlUHWjeVa7-s5u7WgXYYAjyKcfgQfo29L_XDoH3s,9
+ssptools-0.1.0.dist-info/RECORD,,
