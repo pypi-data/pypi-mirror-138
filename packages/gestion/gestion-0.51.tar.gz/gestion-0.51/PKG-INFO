@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gestion
+Version: 0.51
+Summary: Simple project automation manager
+Home-page: https://github.com/hurgar-nl/gestion.git
+Author: Arno de Grijs
+Author-email: info@hurgar.nl
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
