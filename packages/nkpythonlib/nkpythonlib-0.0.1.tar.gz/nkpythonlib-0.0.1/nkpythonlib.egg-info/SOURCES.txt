@@ -1,0 +1,9 @@
+Licence.txt
+MANIFEST.in
+README.txt
+setup.py
+calculator/__init__.py
+nkpythonlib.egg-info/PKG-INFO
+nkpythonlib.egg-info/SOURCES.txt
+nkpythonlib.egg-info/dependency_links.txt
+nkpythonlib.egg-info/top_level.txt
