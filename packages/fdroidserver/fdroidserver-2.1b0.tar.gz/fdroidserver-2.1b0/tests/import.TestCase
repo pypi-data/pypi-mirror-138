@@ -1,0 +1,136 @@
+#!/usr/bin/env python3
+
+# http://www.drdobbs.com/testing/unit-testing-with-python/240165163
+
+import logging
+import optparse
+import os
+import shutil
+import sys
+import tempfile
+import unittest
+from unittest import mock
+from pathlib import Path
+
+import requests
+from testcommon import TmpCwd
+
+# work around the syntax error from: import fdroidserver.import
+import import_proxy
+
+localmodule = Path(__file__).resolve().parent.parent
+print('localmodule: ' + str(localmodule))
+if localmodule not in sys.path:
+    sys.path.insert(0, str(localmodule))
+
+import fdroidserver.common
+import fdroidserver.metadata
+
+
+class ImportTest(unittest.TestCase):
+    '''fdroid import'''
+
+    def setUp(self):
+        logging.basicConfig(level=logging.DEBUG)
+        self.basedir = localmodule / 'tests'
+        self.tmpdir = localmodule / '.testfiles'
+        self.tmpdir.mkdir(exist_ok=True)
+        # TODO: Python3.6: Accepts a path-like object.
+        os.chdir(str(self.basedir))
+
+    def test_import_gitlab(self):
+        # FDroidPopen needs some config to work
+        config = dict()
+        fdroidserver.common.fill_config_defaults(config)
+        fdroidserver.common.config = config
+
+        url = 'https://gitlab.com/fdroid/ci-test-app'
+        r = requests.head(url)
+        if r.status_code != 200:
+            print("ERROR", url, 'unreachable (', r.status_code, ')')
+            print('Skipping ImportTest!')
+            return
+
+        app = fdroidserver.common.get_app_from_url(url)
+        import_proxy.clone_to_tmp_dir(app)
+        self.assertEqual(app.RepoType, 'git')
+        self.assertEqual(app.Repo, 'https://gitlab.com/fdroid/ci-test-app.git')
+
+    def test_get_app_from_url(self):
+        # TODO: Pytohn3.6: The dir parameter now accepts a path-like object.
+        with tempfile.TemporaryDirectory(dir=str(self.tmpdir)) as testdir, TmpCwd(
+            testdir
+        ):
+            testdir = Path(testdir)
+            (testdir / 'tmp').mkdir()
+            tmp_importer = testdir / 'tmp/importer'
+            data = (
+                (
+                    'cn.wildfirechat.chat',
+                    'https://github.com/wildfirechat/android-chat',
+                    '0.6.9',
+                    '23',
+                ),
+                (
+                    'com.anpmech.launcher',
+                    'https://github.com/KeikaiLauncher/KeikaiLauncher',
+                    'Unknown',
+                    None,
+                ),
+                (
+                    'ut.ewh.audiometrytest',
+                    'https://github.com/ReeceStevens/ut_ewh_audiometer_2014',
+                    '1.65',
+                    '14',
+                ),
+            )
+            for appid, url, vn, vc in data:
+                # TODO: Python3.6: Accepts a path-like object.
+                shutil.rmtree(
+                    str(tmp_importer),
+                    onerror=fdroidserver.common.handle_retree_error_on_windows,
+                )
+                shutil.copytree(
+                    str(self.basedir / 'source-files' / appid), str(tmp_importer)
+                )
+
+                app = fdroidserver.common.get_app_from_url(url)
+                with mock.patch(
+                    'fdroidserver.common.getvcs',
+                    lambda a, b, c: fdroidserver.common.vcs(url, testdir),
+                ), mock.patch(
+                    'fdroidserver.common.vcs.gotorevision', lambda s, rev: None
+                ), mock.patch(
+                    'shutil.rmtree', lambda a, onerror=None: None
+                ):
+                    build_dir = import_proxy.clone_to_tmp_dir(app)
+                self.assertEqual('git', app.RepoType)
+                self.assertEqual(url, app.Repo)
+                self.assertEqual(url, app.SourceCode)
+                logging.info(build_dir)
+                paths = fdroidserver.common.get_all_gradle_and_manifests(build_dir)
+                self.assertNotEqual(paths, [])
+                (
+                    versionName,
+                    versionCode,
+                    package,
+                ) = fdroidserver.common.parse_androidmanifests(paths, app)
+                self.assertEqual(vn, versionName)
+                self.assertEqual(vc, versionCode)
+                self.assertEqual(appid, package)
+
+
+if __name__ == "__main__":
+    parser = optparse.OptionParser()
+    parser.add_option(
+        "-v",
+        "--verbose",
+        action="store_true",
+        default=False,
+        help="Spew out even more information than normal",
+    )
+    (fdroidserver.common.options, args) = parser.parse_args(['--verbose'])
+
+    newSuite = unittest.TestSuite()
+    newSuite.addTest(unittest.makeSuite(ImportTest))
+    unittest.main(failfast=False)
