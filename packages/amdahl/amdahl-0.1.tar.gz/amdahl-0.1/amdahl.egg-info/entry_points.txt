@@ -1,0 +1,3 @@
+[console_scripts]
+amdahl = amdahl.amdahl:amdahl
+
