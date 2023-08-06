@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: planetaryToolkit
+Version: 0.0.4
+Summary: Python tools for processing observations of solar system bodies; modeling tools for rings, planets, and moons
+Home-page: https://github.com/emolter/planetaryToolkit
+Author: Ned Molter
+Author-email: emolter@berkeley.edu
+License: BSD
+Keywords: planets astronomy moons ephemeris
+Platform: any
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+
+Python tools for processing observations of solar system bodies; modeling tools for rings, planets, and moons
+
