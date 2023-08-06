@@ -1,0 +1,65 @@
+Metadata-Version: 1.1
+Name: narmaw_profile
+Version: 0.0.1
+Summary: Narmaw Profile by NarMaw The Series
+Home-page: https://github.com/nekokong/narmaw_profile
+Author: Mumu Neko
+Author-email: mumuneko.pk@gmail.com
+License: MIT
+Download-URL: https://github.com/nekokong/narmaw_profile/archive/v0.0.1.zip
+Description: (narmaw profile) เป็นตัวอย่างการอัพโหลด package ไปยัง pypi.org
+        ==============================================================
+        
+        PyPi: https://pypi.org/project/narmaw_profile/
+        
+        Hello World!!! แพคเกจนี้ไว้สำหรับอธิบายการใช้ OOP และอัพโหลดไปยังเวป
+        pypi ได้
+        
+        วิธีติดตั้ง
+        ~~~~~~~~~~~
+        
+        เปิด CMD / Terminal
+        
+        .. code:: python
+        
+           pip install narmaw_profile
+        
+        วิธีใช้งานแพ็คเพจนี้
+        ~~~~~~~~~~~~~~~~~~~~
+        
+        -  เปิด IDLE ขึ้นมาแล้วพิมพ์…
+        
+        .. code:: python
+        
+               my = Profile('Neko')
+               my.company = 'narmaw-theseries'
+               my.hobby = ['Watch Series', 'Sleeping', 'Cooking']
+               print(my.name)
+               my.show_email()
+               my.show_myart()
+               my.show_hobby()
+               print('------------------------')
+               
+               
+               friend = Profile('Mumu')
+               print(friend.name)
+               friend.show_email()
+        
+        พัฒนาโดย: Mumu Neko 
+        
+        สอนโดย: ลุงวิศวกร สอนคำนวณ
+        
+Keywords: OOP,Profile,Mumu Neko
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10

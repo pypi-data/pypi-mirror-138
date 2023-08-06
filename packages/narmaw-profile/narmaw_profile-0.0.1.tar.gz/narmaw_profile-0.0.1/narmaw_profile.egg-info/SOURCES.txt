@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+narmaw_profile/__init__.py
+narmaw_profile/myprofile.py
+narmaw_profile.egg-info/PKG-INFO
+narmaw_profile.egg-info/SOURCES.txt
+narmaw_profile.egg-info/dependency_links.txt
+narmaw_profile.egg-info/top_level.txt
