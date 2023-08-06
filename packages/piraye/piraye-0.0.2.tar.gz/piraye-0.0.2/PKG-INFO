@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: piraye
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/arushadev/piraye
+Author: Arusha Developers
+Author-email: info@arusha.dev
+Maintainer: Hamed Khademi Khaledi
+Maintainer-email: khaledihkh@gmail.com
+License: UNKNOWN
+Keywords: NLP,Natural Language Processing,Tokenizing,Normalization
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Piraye: NLP Utils
+
+[![Pylint](https://github.com/arushadev/piraye/actions/workflows/pylint.yml/badge.svg)](https://github.com/arushadev/piraye/actions/workflows/pylint.yml)
+[![Unit Test](https://github.com/arushadev/piraye/actions/workflows/unit-test.yml/badge.svg)](https://github.com/arushadev/piraye/actions/workflows/unit-test.yml)
+
