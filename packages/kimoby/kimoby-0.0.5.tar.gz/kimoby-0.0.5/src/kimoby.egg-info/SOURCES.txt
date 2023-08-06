@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+src/kimoby/__init__.py
+src/kimoby/__main__.py
+src/kimoby/kimoby.py
+src/kimoby.egg-info/PKG-INFO
+src/kimoby.egg-info/SOURCES.txt
+src/kimoby.egg-info/dependency_links.txt
+src/kimoby.egg-info/requires.txt
+src/kimoby.egg-info/top_level.txt
