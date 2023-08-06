@@ -1,0 +1,76 @@
+#!python
+#
+# nxt_server program -- Serve an interface to the NXT brick
+# Copyright (C) 2011  zonedabone, Marcus Wanner
+# Copyright (C) 2021  Nicolas Schodet
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+import argparse
+import logging
+import socket
+import sys
+import traceback
+
+import nxt.locator
+
+
+def serve(brick, channel, details):
+    """Handles serving the client."""
+    print("Connection started (" + details[0] + ')')
+    run = True
+    try:
+        while run:
+            data = channel.recv(1024)
+            if not data:
+                break
+            code = data[0]
+            if code == 0x00 or code == 0x01 or code == 0x02:
+                brick._sock.send(data)
+                reply = brick._sock.recv()
+                channel.send(reply)
+            elif code == 0x80 or code == 0x81:
+                brick._sock.send(data)
+            elif code == 0x98:
+                channel.send(brick._sock.type.encode("ascii"))
+            elif code == 0x99:
+                run = False
+            else:
+                raise RuntimeError("Bad protocol")
+    except:
+        traceback.print_exc()
+    finally:
+        channel.close()
+        print("Connection Finished")
+
+if __name__ == "__main__":
+    p = argparse.ArgumentParser(description="Command server for NXT brick")
+    p.add_argument("-p", "--port", type=int, default=2727, help="bind port")
+    nxt.locator.add_arguments(p)
+    levels = ('DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL')
+    p.add_argument("--log-level", type=str.upper, choices=levels, help="set log level")
+    options = p.parse_args()
+
+    if options.log_level:
+        logging.basicConfig(level=options.log_level)
+
+    print("Connecting to NXT...")
+    with nxt.locator.find_with_options(options) as brick:
+        print("Brick found.")
+
+        print("Starting server...")
+        server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        server.bind(("", options.port))
+        server.listen(1)
+        # Have the server serve "forever":
+        while True:
+            channel, details = server.accept()
+            serve(brick, channel, details)

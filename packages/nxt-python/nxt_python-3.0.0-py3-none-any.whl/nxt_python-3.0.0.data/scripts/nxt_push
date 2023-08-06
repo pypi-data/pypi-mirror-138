@@ -1,0 +1,52 @@
+#!python
+#
+# nxt_push program -- Push a file to a LEGO Mindstorms NXT brick
+# Copyright (C) 2006  Douglas P Lau
+# Copyright (C) 2010  rhn
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+import argparse
+import nxt.locator
+import logging
+from nxt.error import FileNotFoundError
+
+def _write_file(b, fname, data):
+    print('Pushing %s (%d bytes) ...' % (fname, len(data)), end=' ', flush=True)
+    with b.open_file(fname, 'wb', len(data)) as w:
+        w.write(data)
+    print('wrote %d bytes' % len(data))
+
+def write_file(b, fname):
+    with open(fname, 'rb') as f:
+        data = f.read()
+    try:
+        b.file_delete(fname)
+        print('Overwriting %s on NXT' % fname)
+    except FileNotFoundError:
+        pass
+    _write_file(b, fname, data)
+
+if __name__ == '__main__':
+    p = argparse.ArgumentParser(
+        description="Push files to a LEGO Mindstorms NXT brick")
+    nxt.locator.add_arguments(p)
+    levels = ('DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL')
+    p.add_argument("--log-level", type=str.upper, choices=levels, help="set log level")
+    p.add_argument("file", nargs="+", help="file to transfer")
+    options = p.parse_args()
+
+    if options.log_level:
+        logging.basicConfig(level=options.log_level)
+
+    with nxt.locator.find_with_options(options) as brick:
+        for filename in options.file:
+            write_file(brick, filename)
