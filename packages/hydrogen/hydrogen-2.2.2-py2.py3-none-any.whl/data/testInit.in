@@ -1,0 +1,44 @@
+{
+"totSimTime": 86400,
+"simDays": 3,
+"nbInhabitants": 3,
+"operationEnergy": "True",
+"distroFile":{
+  "fileName": "current_dir",
+  "skip_rows": [],
+  "use_cols": "A:H"
+},
+"eventList": [
+    {"type":"Shower",
+    "usage":"person1",
+    "nbEvents": {
+      "method": "truncNorm",
+      "loc": 2,
+      "scale":1,
+      "lower":0,
+      "upper":3
+      },
+    "flowDist":{
+      "dist":"loglogistic",
+      "loc":0.127,
+      "scale":4.158
+      },
+    "volumeDist":{
+      "dist":"loglogistic",
+      "loc":55.97,
+      "scale":2.828
+      },
+    "tempDist":{
+      "dist":"list",
+      "list":[39,40,41]
+      },
+    "opEnDist":{
+      "dist":"truncNorm",
+      "loc":0.35,
+      "scale":0.0525,
+      "upper":0.6,
+      "lower":0.1
+      }
+      }
+  ]
+}

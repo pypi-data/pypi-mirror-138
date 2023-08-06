@@ -1,0 +1,3 @@
+[console_scripts]
+hydrogen = hydrogen.HydroGen:main
+
