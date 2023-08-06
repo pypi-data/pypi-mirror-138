@@ -1,0 +1,11 @@
+table2ascii/__init__.py,sha256=N7TAAVqmYcrIyMF_cTafmlLyVcvWwF5kgDJpR50kXoA,350
+table2ascii/alignment.py,sha256=z5pTEy10dAmJC5tL9qVI8tfNljqMX-ygKSM908jdGts,368
+table2ascii/options.py,sha256=-qSm34oQKJf7VZeqatYYSdvep_l7KnWFCky_M-Rh3m4,482
+table2ascii/preset_style.py,sha256=jW_90tTtQhLT5QIHXZ0AGKoY9_6cFkd42yDazgK4DYI,2876
+table2ascii/table_style.py,sha256=bTlyyVDLMxncz2rYXr3u5rh_P2bRu02qAdN1bAhTfss,2553
+table2ascii/table_to_ascii.py,sha256=rXm5NKVk2GzxYmeC6asWjbUb-rVMiesbNv5CKvd3OZs,13303
+table2ascii-0.2.0.dist-info/LICENSE,sha256=ttCM-oAedkCM1R7Pfd1pKduaF3uD16hLaeJlteeCXDk,1071
+table2ascii-0.2.0.dist-info/METADATA,sha256=7rE7s2p9Y2iWIHTsyOI3mwmqjIZk9Vjm-btgnXy2shw,7980
+table2ascii-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+table2ascii-0.2.0.dist-info/top_level.txt,sha256=kpNdCI0GXJ6DJV2JjxOygXLofIqh7YhOsoxAI3EAGfo,12
+table2ascii-0.2.0.dist-info/RECORD,,
