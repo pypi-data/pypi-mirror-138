@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+fix-sso-ui/__init__.py
+fix-sso-ui/decorators.py
+fix-sso-ui/utils.py
+fix_sso_ui.egg-info/PKG-INFO
+fix_sso_ui.egg-info/SOURCES.txt
+fix_sso_ui.egg-info/dependency_links.txt
+fix_sso_ui.egg-info/requires.txt
+fix_sso_ui.egg-info/top_level.txt
