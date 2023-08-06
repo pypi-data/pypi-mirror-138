@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ermine
+Version: 0.3.3
+Summary: Nimble as an ermine
+Author: cheetahbyte
+Author-email: bernerdoodle@outlook.de
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: multidict (>=6.0.2,<7.0.0)
+Requires-Dist: pydantic (>=1.9.0,<2.0.0)
+Requires-Dist: wire-rxtr (>=0.2.2,<0.3.0)
+Description-Content-Type: text/markdown
+
+
