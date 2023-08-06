@@ -1,0 +1,9 @@
+omamo/__init__.py,sha256=BqFdQMQQ7eXLxPdiwFmQZHUGV3DTdDHcyvPPE794G-E,167
+omamo/ic.py,sha256=l5uH-wXVaOhiJ7TsdodekunEvynF4eZiCsKSWpgJ5NM,584
+omamo/inference.py,sha256=YOjUUwqAetgBnqQt1oy8r2nmRE2gymcnhwC7qTKFt4I,9350
+omamo/data/go_ic.dat,sha256=B1jSZdmyQln08z6N2cT8aGaScVl4trq7oz9vCzWx3fA,297263
+omamo-0.2.1.data/scripts/omamo,sha256=wOZts0FXW4FBsfPCqa4iGQ0I19xhnUG6gX5SSBJKzfw,1211
+omamo-0.2.1.dist-info/METADATA,sha256=lR3JlPZXLOE77gBJzqHJVBE2xjBCSVVXfDToO1m4tMc,4938
+omamo-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+omamo-0.2.1.dist-info/top_level.txt,sha256=LaWnqa8G8Q6thYegJzR6scvUulACtePfYtl_sSqGtgo,6
+omamo-0.2.1.dist-info/RECORD,,
