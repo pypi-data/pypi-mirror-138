@@ -1,0 +1,8 @@
+README.rst
+setup.py
+gnnutils/__init__.py
+gnnutils/main.py
+gnnutils.egg-info/PKG-INFO
+gnnutils.egg-info/SOURCES.txt
+gnnutils.egg-info/dependency_links.txt
+gnnutils.egg-info/top_level.txt
