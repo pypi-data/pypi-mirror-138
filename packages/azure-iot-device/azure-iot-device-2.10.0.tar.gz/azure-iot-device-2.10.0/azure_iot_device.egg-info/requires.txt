@@ -1,0 +1,20 @@
+urllib3<1.27,>=1.26.5
+deprecation<3.0.0,>=2.1.0
+six<2.0.0,>=1.12.0
+requests<3.0.0,>=2.20.0
+requests-unixsocket<1.0.0,>=0.1.5
+PySocks
+
+[:python_version == "2.7"]
+paho-mqtt<1.6.0,>=1.4.0
+futures
+win-inet-pton
+
+[:python_version > "2.7"]
+paho-mqtt<2.0.0,>=1.4.0
+
+[:python_version >= "3.5"]
+janus
+
+[:python_version<'3.0']
+azure-iot-nspkg>=1.0.1
