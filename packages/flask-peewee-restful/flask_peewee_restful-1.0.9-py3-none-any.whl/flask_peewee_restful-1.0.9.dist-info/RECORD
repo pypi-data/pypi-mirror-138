@@ -1,0 +1,10 @@
+flask_peewee_restful/__init__.py,sha256=4qZzMkVOjI28zwlvEllN_WkHH4K1F4ApPzfNrT9yX7w,109
+flask_peewee_restful/api_generator.py,sha256=Y0BS-TzVpKrdhfoKMBfZgE293bSXmzdo24n8P3hzZXM,17246
+flask_peewee_restful/app_generator.py,sha256=EiNa6iuxvegdEdC7YYxyRVTQX-s7DcOIjo5pGrpLHjk,1479
+flask_peewee_restful/client.py,sha256=_dPY6VITHXNcRFP8Zfv9KkyVsp-ICngG46moPlHcRjY,3378
+flask_peewee_restful/custom_fields.py,sha256=xzL3naE2ytNZWrYRrP8TjGQRKXNaHQr0vurYa4pe6Rw,1937
+flask_peewee_restful/deserializer.py,sha256=4XlIXib1WksnWmTWt24gZYBzF4t0vnT8h6BKK1VDOIo,10963
+flask_peewee_restful-1.0.9.dist-info/LICENSE,sha256=brmJ1GyPsyFm-KQo59ncA1Bd9lrhzsO7-l9ap6TZ1_0,1064
+flask_peewee_restful-1.0.9.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+flask_peewee_restful-1.0.9.dist-info/METADATA,sha256=BqTmqCUsQ250N2BTHgrdd03qmBUJXV2_06KElvvmKlg,664
+flask_peewee_restful-1.0.9.dist-info/RECORD,,
