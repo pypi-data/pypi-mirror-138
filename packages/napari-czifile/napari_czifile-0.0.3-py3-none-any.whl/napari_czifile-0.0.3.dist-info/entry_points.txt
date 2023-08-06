@@ -1,0 +1,3 @@
+[napari.plugin]
+napari_czifile = napari_czifile
+
