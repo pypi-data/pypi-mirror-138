@@ -1,0 +1,15 @@
+datetime
+gensim
+joblib
+mlflow
+numpy
+pandas
+pathlib2
+requests
+scipy
+seaborn
+spacy
+statsmodels
+tqdm
+TakeSentenceTokenizer==1.0.1
+scikit-learn==0.23.1
