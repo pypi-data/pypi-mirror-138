@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: easystuff
+Version: 0.0.4
+Summary: A small package for downloading and copying files with ease.
+Home-page: https://github.com/RemyIsCool/easystuff
+Author: remydev
+Author-email: remyrfouquette@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/RemyIsCool/easystuff/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# Easy Stuff
+## Simple tasks made easier.
+This module uses `requests` to download files, without the hastle of writing it to a file. It also uses `shutil` to copy files from one location to another.
+
+### Instalation
+To install `easystuff`, open Command Prompt or Terminal and run: `python3 -m pip install easystuff`.
+
+### Example
+Here is a simple example of how this module can be used:
+```python
+# Import the module
+import easystuff
+
+# Download a file
+easystuff.download('https://www.example.com/file.png', 'save_here.png')
+# Copy a file
+easystuff.copy('copy_me.txt', 'this_is_a_copy.txt')
+```
+
