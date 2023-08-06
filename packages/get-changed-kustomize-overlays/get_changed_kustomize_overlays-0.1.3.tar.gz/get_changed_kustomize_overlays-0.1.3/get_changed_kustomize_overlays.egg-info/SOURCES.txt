@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+get_changed_kustomize_overlays/__init__.py
+get_changed_kustomize_overlays/__main__.py
+get_changed_kustomize_overlays.egg-info/PKG-INFO
+get_changed_kustomize_overlays.egg-info/SOURCES.txt
+get_changed_kustomize_overlays.egg-info/dependency_links.txt
+get_changed_kustomize_overlays.egg-info/top_level.txt
