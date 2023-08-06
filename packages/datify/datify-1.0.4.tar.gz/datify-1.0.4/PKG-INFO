@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: datify
+Version: 1.0.4
+Summary: Module that allows extracting valid date from user input.
+Home-page: https://github.com/mitryp/datify
+Author: Dmitry Popov
+Author-email: thedmitryp@ukr.net
+License: Apache-2.0
+Download-URL: https://github.com/mitryp/datify/archive/refs/tags/1.0.4.tar.gz
+Keywords: str,string,user-experience,user-input,date,date-strings,datify,alpha-month,month,english,russian,ukrainian,natural-language,open-source
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Datify
+This Python3 module allows extracting parts of valid date from user input.
+User input is processed through class `Datify`.
+## Languages supported: 
+- [x] English
+- [x] Russian 
+- [x] Ukrainian
+
+---
+
+## Installing
+Simply run `pip install datify` from your command line (pip must be installed).
+
+
+## Class:
+` Datify(user_input, year, month, date) ` : takes str when creating. Also, can take particular parameters like `year`, `month`, and `day` along with user input or without it. If no parameters are given, raises ValueError. **See the section [*Formats*](#default-formats) to discover default Datify's formats.**
+### Class methods:
+  #### Static:
+  1. `find_date(string)` : Takes string. Returns substring with date in General Date format if it is contained in the given string.
+  2. `is_year(year)` : Takes str or int. Returns True if given parameter suits year format.
+  3. `is_digit_month(month)` : Takes str or int. Returns True if given parameter suits digit month format.
+  4. `is_alpha_month(string)` : Takes str. Returns True if given string suits months dictionary. *For languages in which there are multiple forms of words it's basically enough to have only the main form of the word in dictionary.*
+  5. `get_alpha_month(string)` :  Takes str. Returns number(int) of month name in given string according to months dictionary. If no month name is found in the string, returns None.
+  6. `is_day(day)` : Takes str or int. Returns True if given parameter suits day format.
+  7. `is_date(date)` : Takes str or int. Returns True if given parameter suits general date format (See the section [*Formats*](#default-formats)).
+  8. `is_date_dart(string)` : Takes str. Returns True if given string contains at least one of date parts such as day, month, or year.
+
+  #### Instance:
+  1. `date()` : returns datetime object from parameters of Datify object. If not all of the necessary parameters are known (`year`, `month`, and `day`), raises TypeError.
+  2. `tuple()` : returns tuple from all parameters in format (day, month, year).
+  3. `date_or_tuple()` : returns datetime object if all of the necessary parameters are known, otherwise returns tuple of all parameters.
+  4. `set_year(year)` : Takes str or int. Extracts year from given parameter and sets `year` field of the called Datify object. If given parameter doesn't suit year format, raises ValueError. *If the year is given in shortened format, counts it as 20YY.*
+  5. `set_month(month)` : Takes str or int. Extracts month from given parameter and sets `month` field of the called Datify object. If given parameter doesn't suit month format and doesn't contain any month names, raises ValueError.
+  6. `set_day(day)` : Takes str or int. Extracts day from given parameter and sets `day` field of the called Datify object. If given parameter doesn't suit day format, raises ValueError.
+
+More information on GitHub: https://github.com/mitryp/datify
+
+*Datify is much more powerful than you may think.*
+
+
