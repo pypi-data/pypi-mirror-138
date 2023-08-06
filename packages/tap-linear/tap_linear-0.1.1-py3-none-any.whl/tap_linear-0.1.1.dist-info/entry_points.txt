@@ -1,0 +1,3 @@
+[console_scripts]
+tap-linear=tap_linear.tap:TapLinear.cli
+
