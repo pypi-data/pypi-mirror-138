@@ -1,0 +1,182 @@
+{% extends "base_qua.html" %}
+{% block css %}
+body {
+  background: #F7EDE2 !important;
+  color: #000;
+}
+@page {
+  background: #F7EDE2 !important;
+  margin: 50px;
+  @bottom-center {
+    content: "Page " counter(page) " of " counter(pages);
+    font-family: sans-serif;
+    font-size: 0.8em;
+  }
+  @bottom-right {
+    content: element(footer);
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: sans-serif;
+    font-size: 1em;
+  }
+}
+@page :first {
+  border-bottom: None;
+  @bottom-center {
+    content: normal;
+  }
+  @bottom-right {
+    content: normal;
+  }
+}
+.footer {
+  position: running(footer);
+  padding-right: 20px;
+  display: block;*/
+  text-align: center;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.s2_1{
+  font-size:18px;
+  font-family:Avenir-Roman_12;
+  color:#5E6063;
+  letter-spacing: 20px;
+}
+.s3_1{
+  font-size:29px;
+  font-weight: bold;
+  font-style: italic; 
+  font-family:Lato-BlackItalic_13;
+  color:#3C3D3A;
+  -webkit-text-stroke:1.1px #3C3D3A;
+  text-stroke:1.1px #3C3D3A;
+}
+.s4_1{
+  font-size:48px;
+  font-weight: bold;
+  font-family:JosefinSans-Bold_1n;
+  color:#F28482;
+}
+.s5_1{
+  font-size:18px;
+  font-weight: bold;
+  font-family:Avenir-Roman_12;
+  color:#5E6063;
+  -webkit-text-stroke:0.7px #5E6063;
+  text-stroke:0.7px #5E6063;
+  letter-spacing: 15px;
+}
+
+.big1 {
+  font-size:35px !important;
+  font-weight: bold;
+  margin: 0; 
+  color: #3C3D3A
+}
+.big2 {
+  font-size:28px !important;
+  font-weight: 900;
+  font-style: italic; 
+  margin: 3px; 
+  color: #F28482 !important
+}
+table {width: 100%}
+th {
+  font-size: 16px;
+  font-family: JosefinSans-Bold_1n;
+  color: #3C3D3A;
+}
+table.custom_table,
+.custom_table th,
+.custom_table td {
+  backgroung: #fff;
+}
+
+.box_heading {padding: 10px;}
+.box_rec {padding: 10px;}
+
+div.box_negative .box_heading {border-left:8px solid #EF8B8B; }
+div.box_negative .box_rec {background-color: #EF8B8B;}
+
+div.box_positive .box_heading {border-left:8px solid #A9CE4E;}
+div.box_positive .box_rec {background-color: #A9CE4E;}
+
+div.box_warning .box_heading {border-left:8px solid #fcd75a; }
+div.box_warning .box_rec {background-color: #fcd75a; }
+
+{% endblock %}
+
+{% block body %}
+  <h3 class="ui center aligned header big2">Personality Results</h3>
+{% endblock %}
+
+{% block understanding_your_report %}
+  <h2 class="ui center aligned header big2">
+    Understanding your report
+  </h2>
+  {{ your_report }}
+{% endblock %}
+
+{% block how_to_read %}
+<h2 class="ui center aligned header big2">
+  How to read your report
+</h2>
+{{ how_to_read }}
+{% endblock %}
+
+{% block outcometable %}
+  {% for item in table1 %}
+  {% set outcomes = item['comb'].split('*') %}
+  <tbody style="page-break-inside:avoid">
+    <tr>
+      <td rowspan=0>
+        <h3 style="margin:0;font-weight:bold">
+          <i>{{item['trait']}}</i>
+        </h3>
+        <p style="line-height: 1; font-size: 10px;">{{item['summary']}}</p>
+      </td>
+      {% for outcome in outcomes %}
+      {% set cleaned_oc = outcome|remove_unwanted_chars %}
+      <td class="table_center {% if cleaned_oc.outcome == 'r' %}cust_negative{% elif cleaned_oc.outcome == 'g' %}cust_positive{% else %}cust_warning{%endif%}">
+        {% if outcome.endswith('_sss') %}
+        <i class="{% if cleaned_oc.outcome == 'r' %}red exclamation circle{% elif cleaned_oc.outcome == 'g' %}check circle{% else %}check circle{%endif%} large icon"></i>
+        {%endif%}
+      </td>
+      <td><span style="padding: 5px;"> {{cleaned_oc.data}}</span></td>
+        {% if not loop.last %}
+          </tr><tr>
+        {% endif %}
+      {% endfor %}
+    </tr>
+    </tbody>
+  {% endfor %}
+{% endblock%}
+
+
+{% block recommendations %}
+  {% for item in table1 %}
+  {% set link = item['trait'].replace(' ', '_') %}
+  {% set oc = item['out']|remove_unwanted_chars %}
+   <div class="{% if oc.outcome == 'r' %}box_negative{% elif oc.outcome == 'g' %}box_positive{% else %}box_warning{%endif%}
+   ">
+    <div class="box_heading" id="{{link}}">
+      <h2>{{loop.index}}. {{item['trait']|title}}</h2>
+      {{oc.data}}
+    </div>
+    <br>
+    <p>{{item['desc']}}</p>
+    <div class="box_rec">
+      <strong>Recommendation</strong><br>
+      {{item['reco']}}
+    </div><br>
+    <div style="text-align: left;">
+      <p><strong>Genes Analyzed: </strong>{{item['genes']}}</p>
+    </div>
+  </div>
+  <p style="page-break-before: always" ></p>
+  {% endfor %}
+{% endblock %}
