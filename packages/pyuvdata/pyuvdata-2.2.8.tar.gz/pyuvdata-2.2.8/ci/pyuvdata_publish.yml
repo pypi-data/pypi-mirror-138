@@ -1,0 +1,15 @@
+name: pyuvdata_publish
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - astropy
+  - numpy
+  - scipy
+  - h5py>=3.0
+  - pyerfa>=2.0
+  - cython
+  - setuptools_scm
+  - pip
+  - pip:
+     - pep517

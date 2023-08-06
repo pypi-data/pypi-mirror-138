@@ -1,0 +1,26 @@
+name: pyuvdata_tests
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - astropy>=4.2.1
+  - astroquery>=0.4.4
+  - h5py>=3.0
+  - astropy-healpix
+  - numpy
+  - pyerfa>=2.0
+  - python-casacore>=3.1.0
+  - pyyaml
+  - scipy
+  - six  # added for now because sometimes an old python-casacore build (before 3.3.1) is used that omits this dependency
+  - coverage
+  - pytest>=6.2.0
+  - pytest-cov
+  - cython
+  - setuptools_scm
+  - pip
+  - pip:
+      - pytest-cases>=3.6.9
+      - pytest-xdist
+      - novas
+      - novas_de405
