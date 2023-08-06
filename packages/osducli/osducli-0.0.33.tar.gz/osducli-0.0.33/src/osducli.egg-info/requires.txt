@@ -1,0 +1,6 @@
+click
+jmespath
+osdu-sdk==0.0.9
+requests
+tabulate
+msal
