@@ -1,0 +1,6 @@
+setup.py
+privacy.qa.egg-info/PKG-INFO
+privacy.qa.egg-info/SOURCES.txt
+privacy.qa.egg-info/dependency_links.txt
+privacy.qa.egg-info/top_level.txt
+privacy/qa/__init__.py
