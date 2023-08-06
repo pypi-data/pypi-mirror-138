@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "django-user-notification"
+version = "0.4.4"
+description = "Django message notification package"
+authors = ["Aiden Lu <allaher@icloud.com>"]
+readme = "README.md"
+keywords = ["notification", "django"]
+packages = [
+    { include = "notification" },
+]
+homepage = "https://github.com/aiden520/django-user-notification"
+repository = "https://github.com/aiden520/django-user-notification"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Environment :: Web Environment",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+license = "MIT"
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+django = ">=3.2"
+django-filter = ">=21.1"
+djangorestframework = ">=3.13.1"
+uvicorn = ">=0.16.0"
+channels = ">=3.0.4"
+
+#[[tool.poetry.source]]
+#name = "wcc-pypi"
+#url = "https://pypi.wochacha.cn/simple/"
+#default = true
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
