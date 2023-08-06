@@ -1,0 +1,3 @@
+[console_scripts]
+scriptflow=scriptflow.scriptflow_cli:hello
+
