@@ -1,0 +1,8 @@
+m9s-trytond<6.1,>=6.0
+m9s_sale<6.1,>=6.0
+m9s_sale_channel<6.1,>=6.0
+m9s_sale_channel_payment_gateway<6.1,>=6.0
+m9s_sale_channel_price_list<6.1,>=6.0
+m9s_sale_payment_channel<6.1,>=6.0
+m9s_sale_price_with_tax<6.1,>=6.0
+trytond_sale_invoice_grouping<6.1,>=6.0
