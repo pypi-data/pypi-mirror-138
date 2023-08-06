@@ -1,0 +1,10 @@
+channels_discord/__init__.py,sha256=2eiWQI55fd-roDdkt4Hvl9WzrTJ4xQo33VzFud6D03U,22
+channels_discord/cli.py,sha256=r32LtDD3J_Ys6n5ej1_uyGGi3MfiAv8_d5hfZf84-CQ,2382
+channels_discord/client.py,sha256=fxQAmCqB9P7TBO3M4Ajqb3bxnO2Em80Dr6HbX8NF3mw,3316
+channels_discord/consumers.py,sha256=tl2zJ-tcfAahWOjLMurMzRRwwzLTOKfdtRYBjtHx1Wk,1284
+channels_discord-0.4.0.dist-info/LICENSE.txt,sha256=5EL358MkfO2jxaEdKST9XGzW1BFdy79GWqUzIDXG5O4,1081
+channels_discord-0.4.0.dist-info/METADATA,sha256=SFOVKcy-qlGuq0ZT4B8ix4pe2tIFesr8QjRRjaEkwHY,4453
+channels_discord-0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+channels_discord-0.4.0.dist-info/entry_points.txt,sha256=kcC81-w1yoALpieMBrrCB4b40TgyIW4O7MRIPbLnTug,74
+channels_discord-0.4.0.dist-info/top_level.txt,sha256=N1npGiNTZWDNwSkela2DPIIRq1yREwOQXFNqjwbAqT0,17
+channels_discord-0.4.0.dist-info/RECORD,,
