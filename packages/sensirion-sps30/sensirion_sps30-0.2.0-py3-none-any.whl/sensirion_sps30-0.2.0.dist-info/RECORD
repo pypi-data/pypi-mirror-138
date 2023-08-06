@@ -1,0 +1,7 @@
+sensirion_sps30/__init__.py,sha256=L6RrpiRLKOsNQ1vlqj-E84vtF1CrHldub5hlyDlapAw,94
+sensirion_sps30/helper.py,sha256=TRm_63AI_6zZSMefxTHQsnEG9MdfQpgEUAaYDgzbCa8,1176
+sensirion_sps30/sps30.py,sha256=ien5Y5OaWr4i7VO-fCdPmgiSoPRAyVV9YT5hQoJuwaU,5794
+sensirion_sps30-0.2.0.dist-info/LICENSE,sha256=bEehIsntUZYimwwAO9ZB08XfyBklRzs3l9yp22OPtWg,1087
+sensirion_sps30-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+sensirion_sps30-0.2.0.dist-info/METADATA,sha256=68zCLNuL99-0fuY3KxPfwIXg1zHFz40-jtrrAgVBQD4,3189
+sensirion_sps30-0.2.0.dist-info/RECORD,,
