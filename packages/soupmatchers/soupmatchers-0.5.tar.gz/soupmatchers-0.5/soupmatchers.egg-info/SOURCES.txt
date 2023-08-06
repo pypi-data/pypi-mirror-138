@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.py
+soupmatchers/__init__.py
+soupmatchers.egg-info/PKG-INFO
+soupmatchers.egg-info/SOURCES.txt
+soupmatchers.egg-info/dependency_links.txt
+soupmatchers.egg-info/requires.txt
+soupmatchers.egg-info/top_level.txt
+soupmatchers/tests/__init__.py
+soupmatchers/tests/test_matchers.py
