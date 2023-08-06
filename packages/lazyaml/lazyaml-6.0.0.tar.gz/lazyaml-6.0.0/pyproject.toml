@@ -1,0 +1,23 @@
+[project]
+name = "lazyaml"
+version = "6.0.0"
+description = ""
+authors = [
+    { name = "teeaz", email = "teeaz@github.com" },
+]
+dependencies = []
+requires-python = ">=3.6"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/teeaz/lazyaml"
+
+[tool.pdm]
+
+[build-system]
+requires = [
+    "pdm-pep517",
+]
+build-backend = "pdm.pep517.api"
