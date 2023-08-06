@@ -1,0 +1,10 @@
+termuxlogin-0.4.data/scripts/login,sha256=2o9c7BAtM6JX9Oqw5q5P4_DxdYoc0Mn0DWVgeR6j_Ho,579
+termuxlogin-0.4.data/scripts/login.py,sha256=FMWdAAL_F97rwEpfABxAKijAPOV6TJqFtXnJeVdFZyE,843
+termuxlogin-0.4.data/scripts/old_login,sha256=GGVOE1c7wJfp4quO6MXiKlT3CZNOboZUx_ADTnCn114,460
+termuxlogin-0.4.data/scripts/termuxlogin,sha256=5LKPSnmBiUwjVoOruYp1zTTwE1JXv_OxVE1k8clRvI0,565
+termuxlogin-0.4.data/scripts/termuxlogout,sha256=BmpGwdqsF8FStHcjW1lJfH7lSxI5S62O83xuH2Nva40,204
+termuxlogin-0.4.dist-info/LICENSE.txt,sha256=k49Yga8CP889JJaHlOpGFzr_be2nqMoep2chYeIDctk,1091
+termuxlogin-0.4.dist-info/METADATA,sha256=HZvMTdvBWSwyCsH3c_kI6wctAwBlFOhit0fhJRiHn08,1107
+termuxlogin-0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+termuxlogin-0.4.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+termuxlogin-0.4.dist-info/RECORD,,

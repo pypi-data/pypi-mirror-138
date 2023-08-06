@@ -1,0 +1,6 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+rm ​-rvf $PREFIX​/bin/login.py
+​cp $PREFIX​/bin/old_login ​$PREFIX​/bin/login
+chmod 700 ​$PREFIX​/bin/login
+echo​ termux-login removed
