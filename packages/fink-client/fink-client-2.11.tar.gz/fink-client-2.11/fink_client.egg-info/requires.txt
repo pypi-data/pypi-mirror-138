@@ -1,0 +1,11 @@
+coverage>=4.2
+coveralls
+codecov
+confluent-kafka
+fastavro
+astropy
+pandas
+visdcc
+aplpy
+pyyaml
+tabulate
