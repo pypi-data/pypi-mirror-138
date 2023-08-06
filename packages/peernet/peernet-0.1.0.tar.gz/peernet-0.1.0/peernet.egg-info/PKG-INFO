@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: peernet
+Version: 0.1.0
+Summary: Local encrypted p2p communication
+Home-page: https://github.com/iTecAI/pnet
+Author: Dax Harris
+License: UNKNOWN
+Project-URL: Homepage, https://github.com/iTecAI/pnet
+Keywords: p2p peer socket encryption
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pnet
+
+Continuation of previous p2p network projects
+
+## Packet Format
+
+`{network id}|{packet type (any of [adv, msg, rsp, err])}|{message content}|{public key}|END`
+
+Yea I'm gonna doc this later
+
+
