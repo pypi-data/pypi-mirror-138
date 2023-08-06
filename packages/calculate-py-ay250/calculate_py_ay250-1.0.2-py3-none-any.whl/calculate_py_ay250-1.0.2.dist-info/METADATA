@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: calculate-py-ay250
+Version: 1.0.2
+Summary: Project that evaluates mathematical expressions, including calls to the wolfram alpha api.
+Home-page: https://github.com/bstavel/calculate_py_ay250
+Author: Brooke Staveland
+Author-email: bstavel@berkeley.edu
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/bstavel/calculate_py_ay250/issues
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Source, https://github.com/bstavel/calculate_py_ay250/
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+Requires-Dist: numexpr
+Requires-Dist: numpy
+Requires-Dist: requests
+
+# calculate_py_ay250
+Project that evaluates mathematical expressions, including calls to the wolfram alpha api. 
+Built for UC Berkeley's AY 250 python data science course.
+
+Main function is calculate, which can be called in two ways. First, from the command line:
+
+```bash
+$ python CalCalc.py -w 'mass of the moon in kg'
+7.3459e+22
+```
+
+AND, from within Python
+
+```python
+>>> from CalCalc import calculate
+>>> calculate('mass of the moon in kg',  return_float=True) * 10
+>>> 7.3459e+23
+
+
+
