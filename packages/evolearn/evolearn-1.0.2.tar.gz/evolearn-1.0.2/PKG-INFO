@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: evolearn
+Version: 1.0.2
+Summary: Machine learning related GA tools.
+Home-page: https://github.com/HindyDS/evo-learn
+Author: Hindy Yuen
+Author-email: hindy888@hotmail.com
+License: MIT
+Keywords: machine learning genetic algorithm hyperparameters tuning feature selection
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# evolearn
+
