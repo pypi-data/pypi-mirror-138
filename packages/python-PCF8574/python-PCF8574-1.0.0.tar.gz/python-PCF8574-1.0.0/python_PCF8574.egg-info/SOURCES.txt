@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+test.py
+PCF8574/__init__.py
+PCF8574/driver.py
+python_PCF8574.egg-info/PKG-INFO
+python_PCF8574.egg-info/SOURCES.txt
+python_PCF8574.egg-info/dependency_links.txt
+python_PCF8574.egg-info/requires.txt
+python_PCF8574.egg-info/top_level.txt
