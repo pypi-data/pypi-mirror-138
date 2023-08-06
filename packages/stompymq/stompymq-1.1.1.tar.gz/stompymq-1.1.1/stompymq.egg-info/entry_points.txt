@@ -1,0 +1,3 @@
+[console_scripts]
+stompymq = broker.broker:main
+
