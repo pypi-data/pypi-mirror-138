@@ -1,0 +1,12 @@
+COPYING
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+clintl.egg-info/PKG-INFO
+clintl.egg-info/SOURCES.txt
+clintl.egg-info/dependency_links.txt
+clintl.egg-info/entry_points.txt
+clintl.egg-info/requires.txt
+clintl.egg-info/top_level.txt
+tl/tl.py
