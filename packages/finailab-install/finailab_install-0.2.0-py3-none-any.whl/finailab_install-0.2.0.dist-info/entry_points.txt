@@ -1,0 +1,3 @@
+[console_scripts]
+funniest-joke = finailab_install.command_line:main
+
