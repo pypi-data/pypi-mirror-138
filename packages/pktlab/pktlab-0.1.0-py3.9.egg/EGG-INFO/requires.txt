@@ -1,0 +1,2 @@
+asn1tools>=0.160
+cryptography>=3.1
