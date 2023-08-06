@@ -1,0 +1,4 @@
+[console_scripts]
+excel = case.excel:main
+trv = case.tr:main
+
