@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/LWWElementGraph/LWWElementGraph.py
+src/LWWElementGraph/LWWElementSet.py
+src/LWWElementGraph/__init__.py
+src/LWWElementGraph.egg-info/PKG-INFO
+src/LWWElementGraph.egg-info/SOURCES.txt
+src/LWWElementGraph.egg-info/dependency_links.txt
+src/LWWElementGraph.egg-info/top_level.txt
