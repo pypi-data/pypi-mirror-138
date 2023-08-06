@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: sci-palettes
+Version: 1.0.0
+Summary: sci palettes for matplotlib/seaborn
+Home-page: UNKNOWN
+Author: suqingdong
+Author-email: suqingdong1114@gmail.com
+License: BSD License
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+
+# sci palettes for matplotlib/seaborn
+
+
+## Installation
+
+```bash
+python3 -m pip install sci-palettes
+```
+
+## Usage
+
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+import sci_palettes
+
+
+print(sci_palettes.PALETTES.keys())
+
+sci_palettes.register_cmap()          # register all palettes
+sci_palettes.register_cmap('aaas')    # register a special palette
+
+# methods for setting palette
+plt.set_cmap('aaas')
+plt.style.use('aaas')
+sns.set_theme(palette='aaas')
+sns.set_palette('aaas')
+
+sns.scatterplot(...)
+
+# set palette when plotting
+sns.scatterplot(..., palette='aaas')
+```
+
+> Full examples in [examples](examples/)
+
+### Inspired by the R Package [ggsci](https://github.com/nanxstats/ggsci)
+
+
