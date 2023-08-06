@@ -1,0 +1,10 @@
+loss_checker/__init__.py,sha256=kgk-Dl0Ysqh2_8AkuUTZdcaeTZFpVMHmm3jkIEMkBgs,78
+loss_checker/__main__.py,sha256=FUj4SrvgTJxmC3DvA0b3-Cf3EGTbR_2leJJnlzoM0Bc,2599
+loss_checker/client.py,sha256=IKhFhqlO-YOyXnqxBVvMNP3qFXVf21hLyfDjG2iXyFo,2145
+loss_checker/config.py,sha256=tLXLsretRfk66MdGddaCtYPkqCVEMuaOAy4uutjt1Jg,194
+loss_checker/server.py,sha256=Hc_6gFX1I9Ai1On96bY9_oWRwVMW5DrzvpmrDjMSf8A,454
+loss_checker/cfg/loss_checker.service,sha256=3JQF67nOGCvqT3DquWqqyC7mDMaxYMW2aNCi5T4n764,233
+loss_checker-0.5.2.dist-info/METADATA,sha256=nX6_0xLy3DRPE7Pqsh2YSMQwjAUMx9zsU0oE7NPLi9o,310
+loss_checker-0.5.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+loss_checker-0.5.2.dist-info/top_level.txt,sha256=mR-95WQCAzzHVOj7Z1WbRKTDfcJZ0UShmQwximY8VGM,13
+loss_checker-0.5.2.dist-info/RECORD,,
