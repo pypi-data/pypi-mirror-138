@@ -1,0 +1,12 @@
+obs_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+obs_manager/__main__.py,sha256=twqXjoFt6hAHS5AV1mY9vIOqmyB5mIUN6YjCXDWwEIA,5935
+obs_manager/test.py,sha256=cz6Ccul76HAZ_e4hDnunVRqW43D3i6O0sjkUhlfclTo,2046
+obs_manager/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+obs_manager/src/environment.py,sha256=l5S8eWSgohBJ45jag-B_mhfdNnbiMUnCrRRDvMCJnwY,3382
+obs_manager/src/github_action.py,sha256=g6Df0mANzr__cwxrTCYTqYq_ap7l5td5jHbYiEbOCRM,2034
+Obsidian_Snippet_Manager-1.1.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+Obsidian_Snippet_Manager-1.1.0.dist-info/METADATA,sha256=ug8HzWEivMnd_jwbtBB8p8_YdN-ov5TaLml2b7a3ln8,3511
+Obsidian_Snippet_Manager-1.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Obsidian_Snippet_Manager-1.1.0.dist-info/entry_points.txt,sha256=J5aVbt6qUsSOtlsuUCZjwMfkdvgSG8VG8x014Ve_c8g,55
+Obsidian_Snippet_Manager-1.1.0.dist-info/top_level.txt,sha256=oiBplRAzCWsHDc2YXC0IQlAkC_PndRaMqU1wpWoEJ5M,12
+Obsidian_Snippet_Manager-1.1.0.dist-info/RECORD,,
