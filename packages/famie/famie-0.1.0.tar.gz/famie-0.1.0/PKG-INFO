@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: famie
+Version: 0.1.0
+Summary: FAMIE: A Fast Active Learning Framework for Multilingual Information Extraction
+Home-page: https://github.com/nlp-uoregon/famie
+Author: NLP Group at the University of Oregon
+Author-email: thien@cs.uoregon.edu
+License: GPL-3.0 License
+Description: FAMIE: A Fast Active Learning Framework for Multilingual Information Extraction
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
