@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "fastnn"
+version = "0.2.0"
+description = "A python library and framework for fast neural network computations."
+authors = ["Andrew Chang <aychang995@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://andrewchang.dev/fastnn/"
+repository = "https://github.com/aychang95/fastnn"
+documentation = "https://andrewchang.dev/fastnn/"
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+wget = "^3.2"
+transformers = "^4.0.0"
+tritonclient = {extras = ["all"], version = "^2.18.0"}
+torch = {version = "1.*", optional = true}
+torchvision = {version = "0.*", optional = true}
+jupyter = {version = "^1.0.0", optional = true}
+jupyterlab = {version = "^2.2.9", optional = true}
+matplotlib = {version="^3.3.3", optional = true}
+coremltools = {version="^4.0", optional = true}
+mkdocs = {version = "^1.1.2", optional = true}
+mkdocs-material = {version = "^6.1.5", optional = true}
+mkdocstrings = {version = "^0.18.0", optional = true}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^3.8.4"
+black = "^20.8b1"
+
+[tool.poetry.extras]
+torch = ["torch", "torchvision"]
+jupyter = ["jupyter", "jupyterlab", "matplotlib"]
+ios = ["coremltools"]
+docs = ["mkdocs", "mkdocs-material", "mkdocstrings"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
