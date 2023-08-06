@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="view_form_send_delivery_note" model="ir.ui.view">
+    <field name="name">send.delivery.note.form</field>
+    <field name="model">send.delivery.note.wizard</field>
+    <field name="arch" type="xml">
+      <form>
+        <sheet>
+          <p>Send reports by email to the storehouse.</p>
+        </sheet>
+        <footer>
+          <button type="object" name="send_mail" string="Send"/>
+          <button special="cancel" string="Cancel" class="btn-secondary"/>
+        </footer>
+      </form>
+    </field>
+  </record>
+
+  <record id="action_send_delivery_note_wizard" model="ir.actions.act_window">
+      <field name="name">Send delivery note</field>
+      <field name="res_model">send.delivery.note.wizard</field>
+      <field name="view_mode">form</field>
+      <field name="view_id" ref="view_form_send_delivery_note"/>
+      <field name="target">new</field>
+      <field name="context">{}</field>
+      <field name="binding_model_id" ref="stock_picking_batch.model_stock_picking_batch"/>
+      <field name="binding_view_types">list</field>
+  </record>
+
+</odoo>

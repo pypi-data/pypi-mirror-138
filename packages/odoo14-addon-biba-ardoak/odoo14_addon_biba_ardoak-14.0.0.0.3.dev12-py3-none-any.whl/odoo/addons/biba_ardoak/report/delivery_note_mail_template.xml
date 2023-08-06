@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="delivery_note_mail_template" model="mail.template">
+            <field name="name">Delivery Note Template</field>
+            <field name="model_id" ref="stock_picking_batch.model_stock_picking_batch"/>
+            <field name="auto_delete" eval="True"/>
+            <field name="email_from">${object.user_id.email |safe}</field>
+            <field name="subject">${object.company_id.name} Delivery Order</field>
+            <field name="body_html">
+                <![CDATA[
+                    <div>
+                        <p>Hola,</p>
+
+                        <p>Encontrará adjunto los albaranes de entrega del nuevo pedido.</p>
+
+                        <p>Gracias,</p>
+                        <p>${object.company_id.name}</p>
+                    </div>
+                ]]>
+            </field>
+        </record>
+    </data>
+</odoo>
