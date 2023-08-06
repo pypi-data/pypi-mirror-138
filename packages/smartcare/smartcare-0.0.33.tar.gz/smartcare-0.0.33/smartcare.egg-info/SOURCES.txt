@@ -1,0 +1,11 @@
+README.md
+setup.py
+smartcare/Brain.py
+smartcare/Config.py
+smartcare/Image.py
+smartcare/__init__.py
+smartcare.egg-info/PKG-INFO
+smartcare.egg-info/SOURCES.txt
+smartcare.egg-info/dependency_links.txt
+smartcare.egg-info/requires.txt
+smartcare.egg-info/top_level.txt
