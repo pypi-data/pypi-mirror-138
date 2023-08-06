@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+dlmatpower/__init__.py
+dlmatpower/downloader.py
+dlmatpower/version.py
+dlmatpower.egg-info/PKG-INFO
+dlmatpower.egg-info/SOURCES.txt
+dlmatpower.egg-info/dependency_links.txt
+dlmatpower.egg-info/top_level.txt
