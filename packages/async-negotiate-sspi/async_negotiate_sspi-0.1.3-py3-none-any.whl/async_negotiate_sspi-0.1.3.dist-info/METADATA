@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: async-negotiate-sspi
+Version: 0.1.3
+Summary: Single-Sign On for HTTP and Websocket Negotiate authentication in async frameworks on Windows
+Home-page: https://github.com/newvicx/async_negotiate_sspi
+Author: Chris Newville
+Author-email: chrisnewville1396@gmail.com
+License: MIT
+Project-URL: Changelog, https://github.com/newvicx/async_negotiate_sspi/blob/master/CHANGELOG.md
+Project-URL: Source, https://github.com/newvicx/async_negotiate_sspi
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Framework :: AsyncIO
+Classifier: Framework :: Trio
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: httpx-extensions (==0.1.1)
+Requires-Dist: pywin32 (>=303)
+Requires-Dist: ws-auth (==0.0.1)
+
+# Async Negotiate SSPI
+**Credit brandond for the [requests_negotiate_sspi](https://github.com/brandond/requests-negotiate-sspi) package which this package is built off.**
+
+## Background
+This package takes the base code from requests_negotiate_sppi and adapts it to work within the context of httpx auth flows. It supports HTTP(S) and Websocket connections and plugs into both the [httpx](https://www.python-httpx.org/) and [websockets](https://websockets.readthedocs.io/en/stable/) API's. In order to plug into these API's, async_negotiate_sspi requires 2 dependencies...
+* [httpx_extensions](https://github.com/newvicx/httpx_extensions): An async client built on top of httpx. Without it, HTTP(S) requests authenticating through Kerberos or NTLM using this package will fail. Its API is identical to httpx and has been fully tested
+* [ws_auth](https://github.com/newvicx/httpx_extensions): An extension of the WebsocketClientProtocol class for handling httpx-like auth flows. No additional setup is needed with this and you can use the websockets API as you normally would
+
+## Installation
+You can install async_negotiate_sspi via pip
+
+    pip install async-negotiate-sspi
+
+## Usage
+
+### HTTP(S)
+
+    import asyncio
+	from httpx_extensions import ExClient
+	from async_negotiate_sspi import NegotiateAuth
+	
+	async def main():
+		auth = NegotiateAuth()
+		with ExClient(auth=auth) as client:
+			response = await client.get("https://iis.contoso.com")
+	
+	asyncio.run(main())
+
+### Websockets
+
+    import websockets
+	import ws_auth	# required to pass auth parameter
+	from async_negotiate_sspi import NegotiateAuthWS
+	
+	async def main():
+		auth = NegotiateAuthWS()
+		with websockets.connect("wss://iis.contoso.com", auth=auth) as client:
+			data = await client.recv()
+	
+	asyncio.run(main())
+
+## Options
+
+ - service (str): Kerberos Service type for remote Service Principal Name - Default: "HTTP"
+ - username (str): Username - Default: None
+ - domain (str): NT Domain name - Default: "."
+ - host (str): Host name for Service Principal Name - Default: Extracted from request URI
+ - delegate (bool): Indicates that the user's credentials are to be delegated to the server - Default: False
+
+## Supports
+* Python >=3.6
+
+## Requires
+* httpx_extensions==0.1.1
+* ws_auth==0.0.1
+* pywin32==303
+	
+
+
+
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+
+## 0.1.3 (February 10, 2022)
+
+### Added
+* Websocket support through NegotiateAuthWS class
+* Additional dependency: [ws_auth](https://github.com/newvicx/ws_auth) a websockets.WebsocketClientProtocol extension for handling httpx like auth flows
+
