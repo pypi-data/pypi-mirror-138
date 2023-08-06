@@ -1,0 +1,9 @@
+xmldt/__init__.py,sha256=5uTfe3rrEzd0vcnTV1WoxPTHU6o8jj7ndZVB6Fh5Mro,6519
+xmldt/element.py,sha256=vIPSUv67dNcH7mNhtj0n9qjfo5fQm4uXKpkBGM5CPVs,3082
+xmldt/htmldt.py,sha256=NQtghyLOMdtrHHdt0CuKuMYF1yCqQahieMlGjF0YrbE,1308
+xmldt/skel.py,sha256=OSoqcC8GIPAP1qCqygzlOq_hH2gdRu_6QTu5VIqJsgI,5827
+xmldt-0.0.6.dist-info/entry_points.txt,sha256=Png38gwB1B4Ug5Uhj8EuQdzcCWbsvcjprFN--bmsMnI,40
+xmldt-0.0.6.dist-info/LICENSE,sha256=IrkbJtKtR9psfRZk6xWboBUtxteTWp_wSEX-yxA19jk,1081
+xmldt-0.0.6.dist-info/WHEEL,sha256=j3d_2VkBU36k09xOc4O9RZyJJ8uFqn4BR2AtKD7MOp8,99
+xmldt-0.0.6.dist-info/METADATA,sha256=QHenS3lvu8jlSttEpMInnH4u9oInNTs29X-d8HlV_4o,447
+xmldt-0.0.6.dist-info/RECORD,,
