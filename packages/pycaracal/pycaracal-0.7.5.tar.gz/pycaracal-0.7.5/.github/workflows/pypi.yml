@@ -1,0 +1,108 @@
+name: PyPI
+
+on:
+  push:
+    branches: [ main ]
+    tags: [ '*' ]
+    paths-ignore: [ '**.md' ]
+  pull_request:
+
+jobs:
+  sdist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          submodules: true
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Publish to PyPI
+        # Publish only when the current ref. is a tag.
+        if: ${{ startsWith(github.ref, 'refs/tags/v') }}
+        run: |
+          python3 -m pip install build twine
+          python3 -m build --sdist
+          python3 -m twine upload --skip-existing dist/*.tar.gz
+        env:
+          TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
+          TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
+
+  linux:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        arch: [ "x86_64", "aarch64" ]
+        build: [ "cp38-*", "cp39-*", "cp310-*" ]
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          submodules: true
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v1
+        with:
+          platforms: all
+      - name: Build wheels
+        uses: pypa/cibuildwheel@v2.3.1
+        env:
+          CIBW_ARCHS: ${{ matrix.arch }}
+          CIBW_BUILD: ${{ matrix.build }}
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          path: ./wheelhouse/*.whl
+      - name: Publish to PyPI
+        # Publish only when the current ref. is a tag.
+        if: ${{ startsWith(github.ref, 'refs/tags/v') }}
+        run: |
+          python3 -m pip install twine
+          python3 -m twine upload --skip-existing wheelhouse/*.whl
+        env:
+          TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
+          TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
+
+  macos:
+    runs-on: macos-10.15
+    strategy:
+      matrix:
+        arch: [ "x86_64", "arm64" ]
+        build: [ "cp38-*", "cp39-*", "cp310-*" ]
+        include:
+          - arch: "x86_64"
+            conan_arch: "x86_64"
+          - arch: "arm64"
+            conan_arch: "armv8"
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          submodules: true
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Build wheels
+        uses: pypa/cibuildwheel@v2.3.1
+        env:
+          CIBW_ARCHS: ${{ matrix.arch }}
+          CIBW_BUILD: ${{ matrix.build }}
+          CONAN_ARCH: ${{ matrix.conan_arch }}
+          CMAKE_OSX_ARCHITECTURES: ${{ matrix.arch }}
+          MACOSX_DEPLOYMENT_TARGET: 10.15
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          path: ./wheelhouse/*.whl
+      - name: Publish to PyPI
+        # Publish only when the current ref. is a tag.
+        if: ${{ startsWith(github.ref, 'refs/tags/v') }}
+        run: |
+          python3 -m pip install twine
+          python3 -m twine upload --skip-existing wheelhouse/*.whl
+        env:
+          TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
+          TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
