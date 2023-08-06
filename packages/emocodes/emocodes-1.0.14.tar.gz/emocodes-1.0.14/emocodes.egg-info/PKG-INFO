@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: emocodes
+Version: 1.0.14
+Summary: A library designed to accompany the EmoCodes system.
+Download-URL: https://github.com/catcamacho/emocodes/archive/refs/tags/v.1.0.0.tar.gz
+Author: M. Catalina Camacho
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
