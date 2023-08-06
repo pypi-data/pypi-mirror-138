@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: yixsoft-ezmysql
+Version: 0.0.1
+Summary: Auto scan table structure and generate sql & execute by dict
+Home-page: https://gitee.com/yixsoft/python-ezymysql
+Author: yixsoft
+Author-email: davepotter@163.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

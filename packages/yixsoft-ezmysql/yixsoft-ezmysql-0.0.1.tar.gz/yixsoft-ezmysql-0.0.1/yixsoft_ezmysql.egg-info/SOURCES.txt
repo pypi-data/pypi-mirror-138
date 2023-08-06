@@ -1,0 +1,10 @@
+README.md
+setup.py
+ezmysql/SqlTemplate.py
+ezmysql/TableCache.py
+ezmysql/__init__.py
+yixsoft_ezmysql.egg-info/PKG-INFO
+yixsoft_ezmysql.egg-info/SOURCES.txt
+yixsoft_ezmysql.egg-info/dependency_links.txt
+yixsoft_ezmysql.egg-info/requires.txt
+yixsoft_ezmysql.egg-info/top_level.txt
