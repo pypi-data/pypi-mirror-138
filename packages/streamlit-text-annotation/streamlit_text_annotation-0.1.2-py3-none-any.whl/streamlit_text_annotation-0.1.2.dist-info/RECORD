@@ -1,0 +1,12 @@
+streamlit_text_annotation/__init__.py,sha256=ldG684olHmYQKT8a1VbPDvYPg8KDgHjTLNWuirXhJRI,3376
+streamlit_text_annotation/frontend/dist/index.html,sha256=IaDr8hLtyNwo4QkQq_HoTuBdvOEIyPr0f1AtEguW44Y,725
+streamlit_text_annotation/frontend/dist/css/app.f52336a8.css,sha256=gUVsNeRZTsrYSHzwz_gMVYZv0-4yrujbI8w-sPGl8j4,1536
+streamlit_text_annotation/frontend/dist/js/app.5fca8e09.js,sha256=VowBe059ujboAvJJ7omqsDe11h-m3HIKpRYcdaeERU4,11974
+streamlit_text_annotation/frontend/dist/js/app.5fca8e09.js.map,sha256=Hobi3LfCt8fH_pa4doXbtsR4mNq67sCGbdSymAyPq_8,40463
+streamlit_text_annotation/frontend/dist/js/chunk-vendors.7e673700.js,sha256=AOPr8kTbybTQI505YqwhTiGN7PPOnjaN8hRQTXR65YA,345477
+streamlit_text_annotation/frontend/dist/js/chunk-vendors.7e673700.js.map,sha256=Mi9xWPHFRq7dtOp-M_JbAslJXQclXlNCofUntxqLYw4,1792157
+streamlit_text_annotation-0.1.2.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+streamlit_text_annotation-0.1.2.dist-info/METADATA,sha256=zmJEGdIed3_tBj7i4hAz_B44MxvJXBRuCWNS-3Yi9GM,3956
+streamlit_text_annotation-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+streamlit_text_annotation-0.1.2.dist-info/top_level.txt,sha256=KwQEuvMmzrYQf84g35sqCpdox6KG4akuL0SqqZmz3Lw,26
+streamlit_text_annotation-0.1.2.dist-info/RECORD,,
