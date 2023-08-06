@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: crossai
+Version: 0.0.0.1
+Summary: A library of high-level functionalities capable of building Artificial Intelligence processing pipelines for Time-Series and Natural Language Processing.
+Home-page: https://github.com/tzamalisp/cross-ai-lib/
+Author: Pantelis Tzamalis, Andreas Bardoutsos, Markantonatos Dimitrios
+Author-email: tzamalispantelis@gmail.com, anmp.ce@gmail.com, markantonatosdimitrios@gmail.com
+License: GNU General Public License v3.0
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: alibi (==0.6.4)
+Requires-Dist: auto-mix-prep (==0.2.0)
+Requires-Dist: lexicalrichness (==0.1.4)
+Requires-Dist: matplotlib (==3.5.1)
+Requires-Dist: nltk (==3.7)
+Requires-Dist: numpy (==1.19.5)
+Requires-Dist: pandas (==1.4.0)
+Requires-Dist: pymongo (==4.0.1)
+Requires-Dist: scipy (==1.8.0)
+Requires-Dist: spacy (==3.2.2)
+Requires-Dist: spacytextblob (==3.0.1)
+Requires-Dist: tensorflow (==2.6.0)
+Requires-Dist: tensorflow-addons (==0.15.0)
+Requires-Dist: tqdm (==4.62.3)
+Requires-Dist: transforms3d (==0.3.1)
+Requires-Dist: tsaug (==0.2.1)
+Requires-Dist: wordcloud (==1.8.1)
+
+UNKNOWN
+
