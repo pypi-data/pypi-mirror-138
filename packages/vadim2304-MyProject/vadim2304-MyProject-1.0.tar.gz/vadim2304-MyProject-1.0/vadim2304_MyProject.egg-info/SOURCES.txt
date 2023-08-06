@@ -1,0 +1,9 @@
+setup.py
+module1/__init__.py
+module1/modul1.py
+module2/__init__.py
+module2/modul2.py
+vadim2304_MyProject.egg-info/PKG-INFO
+vadim2304_MyProject.egg-info/SOURCES.txt
+vadim2304_MyProject.egg-info/dependency_links.txt
+vadim2304_MyProject.egg-info/top_level.txt
