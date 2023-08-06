@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: flipnote
+Version: 0.1.2
+Summary: A Python library for Flipnote Studio (3D) files
+Home-page: https://github.com/meemo/flipnote.py
+Author: Meemo
+Author-email: meemo4556@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/meemo/flipnote.py/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+# flipnote.py
+A Python library for processing Flipnote Studio (3D) files.
+
+Currently `kwz` and `ppm` are [kwz-parser](https://github.com/Flipnote-Collective/kwz-parser) and [ppm-parser](https://github.com/Flipnote-Collective/ppm-parser) respectively, and are created by the Flipnote Collective.
+
+# Building
+
+```shell
+./build.sh
+```
+
+
