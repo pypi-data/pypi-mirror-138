@@ -1,0 +1,2 @@
+chaostoolkit-lib~=1.25
+python-logging-loki
