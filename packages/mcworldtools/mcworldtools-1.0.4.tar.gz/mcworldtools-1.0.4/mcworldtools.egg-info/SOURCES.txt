@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+mcworldtools/main.py
+mcworldtools.egg-info/PKG-INFO
+mcworldtools.egg-info/SOURCES.txt
+mcworldtools.egg-info/dependency_links.txt
+mcworldtools.egg-info/entry_points.txt
+mcworldtools.egg-info/requires.txt
+mcworldtools.egg-info/top_level.txt
+mcworldtools/tools/find_blocks.py
+mcworldtools/tools/find_command_blocks.py
+mcworldtools/tools/find_entities.py
+mcworldtools/tools/remove_unused_chunks.py
