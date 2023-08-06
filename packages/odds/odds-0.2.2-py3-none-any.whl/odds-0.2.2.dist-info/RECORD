@@ -1,0 +1,15 @@
+odds/GOP.py,sha256=lWkVhbeivaIhXJN8zWdP4JN9uhAJFYG9F3nDBdzhOz0,5683
+odds/__init__.py,sha256=WEjZaGrIyVEjkVbeaNAjKPoZVsGQotnptt6MYTEjwjM,116
+odds/ae.py,sha256=L4wrqVoHdZhjqwHg9AerQA--Gs9bU7CSowMXTme7GXE,5579
+odds/dens_os.py,sha256=HXrluSM0fHLKPcVi9Mo54419QkKJMUYUNUT3eaDqXWs,1523
+odds/gru.py,sha256=E6CMNmM1r34YIqjllY-2vMUHwzFgUv-V3HSMx8QtbCs,8202
+odds/odds.py,sha256=KfGaEQB7hn2SIFf_dVKUKKEaKlYILbo6qp_CilMJeqw,1678
+odds/outlier_pursuit.py,sha256=DAyK_uyVnDH2oiRSFXANUsAMTmvZlqyU78S7ADfRQw4,2819
+odds/reg_os.py,sha256=qntFSpIcR8u89zPvhrMZwHbva7BRD-vaZNTFioOP5BY,6755
+odds/utils.py,sha256=JmXfu7amDOdBNr8m-e3BicMx885AAESb-4fZwjTZsxc,3374
+odds/vae.py,sha256=MeD8YKeXCLQWkYOYmyxTx7arZ0CsvUoW2wTaWyXhg50,4800
+odds-0.2.2.dist-info/LICENSE,sha256=U8UrOkD_CsruSDjOallR9HNpNpfmRChOtPqyPQQ6kL4,1070
+odds-0.2.2.dist-info/METADATA,sha256=oxp-JXYE2MzsLnb9JG5Zdy03ucwuHX3dh1FdHon_S-Y,3682
+odds-0.2.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odds-0.2.2.dist-info/top_level.txt,sha256=JP-bTYK0W8hZ59oLDHDuijKbh_BfL5gf3iX0O-G82So,5
+odds-0.2.2.dist-info/RECORD,,
