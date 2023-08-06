@@ -1,0 +1,11 @@
+qpalm-1.0.0.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+qpalm-1.0.0.dist-info/METADATA,sha256=VuFi_pEzTWaDcrFBFjetiMukZwigKTiGVjzLxz8V6cM,4987
+qpalm-1.0.0.dist-info/RECORD,,
+qpalm-1.0.0.dist-info/WHEEL,sha256=p1FKMmp-Bs6Jllu_R5lzP_akE58-P9zN40tvcjnebTI,178
+qpalm/_qpalmd.so,sha256=uyTWRBJ1e_eBHizn2ilAE1jWkyN3LtSaXyWqXvJQ1X0,6827848
+qpalm/_qpalmd.pyi,sha256=zrrq4YEufJZaejWa2JkS474APbZhsZ7wqjpIB0lIMJc,10482
+qpalm/_qpalm.so,sha256=5qBpt-J1wc2MfZRh6o0vo_Q_1YtldR__rBV9i-goTkI,1759968
+qpalm/_qpalm.pyi,sha256=tV3ehPqn1WqCcry0K9j2fk051GAdPla6o3yzZZLgkYQ,10481
+qpalm/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qpalm/__init__.py,sha256=IstRRQ9A7N2Fh8BwwWoNj8XM3iZXdP_QhbbOrduPz_g,390
+qpalm/__init__.pyi,sha256=JYh7f02sTrENXJaO28sOjNtz-7SSujgLboBMT4E6_UI,27
