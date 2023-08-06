@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: bold_smart_lock
+Version: 0.1.3
+Summary: A Python library to communicate with Bold Smart Lock (https://boldsmartlock.com)
+Home-page: https://github.com/westenberg/bold_smart_lock
+Author: Westenberg
+Author-email: lauren@westenberg.dev
+License: MIT
+Keywords: bold,smart lock,home automation
+Platform: UNKNOWN
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+
+UNKNOWN
+
