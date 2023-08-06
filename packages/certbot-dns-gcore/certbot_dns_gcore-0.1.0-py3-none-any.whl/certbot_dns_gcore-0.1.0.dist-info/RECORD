@@ -1,0 +1,11 @@
+certbot_dns_gcore/__init__.py,sha256=1PeJvvBMOh7NK-XtGPBUZ1vkck4dO_0IoD9HyMPVFqI,3580
+certbot_dns_gcore/api_gcore.py,sha256=rxlG-MSML-kr5yp1lZ9qGtMU72WpgIucfB2Nqc1MdWc,3592
+certbot_dns_gcore/dns_gcore.py,sha256=Ui3zQaZHrctbzl9o7rJsy6UQek-mBh4Gn9MSisaDUqc,5591
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=Wjth3ArMr8oiCqd-SzG9PGrwm6Izkf-mZjJPoz2ywqk,352
+tests/test_dns_gcore.py,sha256=iL6aryNRb_5TSPm8xsjBf0RW2rvM2hdCzQfE_4lMA6Q,1770
+certbot_dns_gcore-0.1.0.dist-info/METADATA,sha256=5RU1tQexGyoOigNYjdzV8EN2YPdOFXFHKvWhXHyFGPs,4321
+certbot_dns_gcore-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+certbot_dns_gcore-0.1.0.dist-info/entry_points.txt,sha256=leT1-D2WP5U7H-bnvD4nRplaCpLzhoVBOBK_wLc8Qbc,73
+certbot_dns_gcore-0.1.0.dist-info/top_level.txt,sha256=TZ_1Vzf0gAfu7Fa6WuOhgW69MvFjmAQDFI_pslyCxkI,24
+certbot_dns_gcore-0.1.0.dist-info/RECORD,,
