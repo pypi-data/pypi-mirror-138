@@ -1,0 +1,3 @@
+[console_scripts]
+deepcave = deepcave.cli:main
+
