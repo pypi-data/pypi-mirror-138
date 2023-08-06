@@ -1,0 +1,8 @@
+LICENSE
+README.md
+isiterable.c
+setup.py
+isiterable.egg-info/PKG-INFO
+isiterable.egg-info/SOURCES.txt
+isiterable.egg-info/dependency_links.txt
+isiterable.egg-info/top_level.txt
