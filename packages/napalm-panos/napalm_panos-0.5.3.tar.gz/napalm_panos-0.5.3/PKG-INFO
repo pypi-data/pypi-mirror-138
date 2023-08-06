@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: napalm-panos
+Version: 0.5.3
+Summary: Network Automation and Programmability Abstraction Layer with Multivendor support for PANOS.
+Home-page: https://github.com/napalm-automation/napalm-panos
+License: Apache-2.0
+Keywords: napalm,panos,napalm-panos
+Author: Gabriele Gerbino
+Author-email: gabriele@networktocode.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cryptography (==3.3.2)
+Requires-Dist: lxml (==4.6.5)
+Requires-Dist: napalm (>=3.0,<4.0)
+Requires-Dist: netmiko (>=3.3.2,<4.0.0)
+Requires-Dist: pan-python
+Requires-Dist: requests-toolbelt
+Requires-Dist: xmltodict
+Project-URL: Documentation, https://github.com/napalm-automation/napalm-panos
+Project-URL: Repository, https://github.com/napalm-automation/napalm-panos
+Description-Content-Type: text/markdown
+
+[![PyPI](https://img.shields.io/pypi/v/napalm-panos.svg)](https://pypi.python.org/pypi/napalm-panos)
+[![PyPI](https://img.shields.io/pypi/dm/napalm-panos.svg)](https://pypi.python.org/pypi/napalm-panos)
+[![Build Status](https://travis-ci.org/napalm-automation/napalm-panos.svg?branch=master)](https://travis-ci.org/napalm-automation/napalm-panos)
+[![Coverage Status](https://coveralls.io/repos/github/napalm-automation/napalm-panos/badge.svg?branch=develop)](https://coveralls.io/github/napalm-automation/napalm-panos?branch=develop)
+
+# napalm-panos
+
