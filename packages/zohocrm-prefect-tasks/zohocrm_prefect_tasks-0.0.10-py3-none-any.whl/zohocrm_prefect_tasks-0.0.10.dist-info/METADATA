@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: zohocrm-prefect-tasks
+Version: 0.0.10
+Summary: UNKNOWN
+Home-page: https://github.com/aporacloudmobile/zohocrm_prefect_tasks
+Author: Carlos Paiva
+Author-email: carlospaiva87@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: requests (>=2.25.1)
+Requires-Dist: jsonmerge (>=1.8.0)
+Requires-Dist: versioneer (~=0.19)
+Requires-Dist: setuptools (>=58.5.3)
+Requires-Dist: pytest (>=6.1.0)
+Requires-Dist: prefect (>=0.15.9)
+Requires-Dist: zcrmsdk (~=3.1.0)
+
+Zoho CRM Tasks for Prefect
+
