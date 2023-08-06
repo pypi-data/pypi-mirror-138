@@ -1,0 +1,3 @@
+[console_scripts]
+termo=my_termo.main:termo
+
