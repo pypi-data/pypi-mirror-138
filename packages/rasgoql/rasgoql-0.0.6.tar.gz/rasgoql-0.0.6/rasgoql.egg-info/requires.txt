@@ -1,0 +1,11 @@
+jinja2
+pandas
+pyyaml
+python-dotenv
+rasgotransforms
+snowflake-connector-python
+snowflake-connector-python[pandas]
+
+[snowflake]
+snowflake-connector-python
+snowflake-connector-python[pandas]
