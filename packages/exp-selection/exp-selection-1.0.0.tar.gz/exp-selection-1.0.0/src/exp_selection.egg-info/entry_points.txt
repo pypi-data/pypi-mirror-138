@@ -1,0 +1,3 @@
+[console_scripts]
+exp-selection = exp_selection.cli:main
+
