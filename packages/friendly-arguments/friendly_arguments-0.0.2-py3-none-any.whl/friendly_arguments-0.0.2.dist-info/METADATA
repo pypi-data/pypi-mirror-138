@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: friendly-arguments
+Version: 0.0.2
+Summary: Easy way to use named arguments by means of python dictionaries
+Home-page: https://github.com/usuario/meu-pacote-python
+Author: Meu Nome
+Author-email: meu@email.com
+License: MIT
+Keywords: dev,scripts,args,tools
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# FriendlyArguments
+
+
