@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: localhttps
+Version: 0.1.4
+Summary: HTTPS manager for local sites
+License: MIT
+Author: Tarik02
+Author-email: Taras.Fomin@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: aiopath (>=0.6.10,<0.7.0)
+Requires-Dist: asyncclick (>=8.0.3,<9.0.0)
+Requires-Dist: rich (>=11.2.0,<12.0.0)
