@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+./biosip_tools/__init__.py
+./biosip_tools/eeg/__init__.py
+./biosip_tools/eeg/constants.py
+./biosip_tools/eeg/timeseries.py
+./biosip_tools/eeg/utils.py
+Biosip_Tools.egg-info/PKG-INFO
+Biosip_Tools.egg-info/SOURCES.txt
+Biosip_Tools.egg-info/dependency_links.txt
+Biosip_Tools.egg-info/requires.txt
+Biosip_Tools.egg-info/top_level.txt
