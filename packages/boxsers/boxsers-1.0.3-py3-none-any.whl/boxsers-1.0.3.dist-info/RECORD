@@ -1,0 +1,15 @@
+boxsers/__init__.py,sha256=pxTLJDIpLheP0aKzhVAwyxmnP28n2-DIMrTK8CH1Zgw,653
+boxsers/data_augmentation.py,sha256=fH4efiInhgugx4rWYcsX9HNmrr5PSpsJ8Smazmfp72k,22039
+boxsers/misc_tools.py,sha256=eYAUCJvRM2Kb0M3J_VT9INdtPmw6MWFUPZ4UXm2LNOI,6667
+boxsers/preprocessing.py,sha256=eShM-yBvzQpm8Xfy4rfOKJrONVVYrRgV6mE0S0t8reE,11083
+boxsers/visual_tools.py,sha256=73RNmMALBvmAXI5Xft0kJX6mO9rwQhFYcJlpVLPe3VM,16331
+boxsers/machine_learning/__init__.py,sha256=bySPnhmYbPHE5N9xLIW7DxhY5uPCHpP_rbnLGVVrlLY,301
+boxsers/machine_learning/classification.py,sha256=hF_gUsx1_Vjee1PAKqbq_LmjU90WYrnnU-es0xJnquo,12394
+boxsers/machine_learning/clustering.py,sha256=OKrwH9WjJWvJbh02BF3XHk90x6qBbTe1mietH3w7nHY,7048
+boxsers/machine_learning/dimension_reduction.py,sha256=oMumEaxZWwAh8KQaDfm7fIzk5v7zip1PNqOWyAhh2jQ,21309
+boxsers/machine_learning/neural_networks.py,sha256=y4Jq3KXolY9m5wifFryYglMSLUtPm6eYAHUfwTiAY7o,30441
+boxsers-1.0.3.dist-info/LICENSE.txt,sha256=jeiBgIWgvmHai9rTzD-jq0BdoJ4R5bITAJsRq7xx_is,1093
+boxsers-1.0.3.dist-info/METADATA,sha256=9ntymrU0hgDZ-_SMq0mHemamiN6l2RarBj9_S4gIsE8,6460
+boxsers-1.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+boxsers-1.0.3.dist-info/top_level.txt,sha256=gqpocN4NINUd87yZZuax3o4YihZ8w2XxB-2X6K-8ltI,8
+boxsers-1.0.3.dist-info/RECORD,,

@@ -1,0 +1,205 @@
+Metadata-Version: 2.1
+Name: boxsers
+Version: 1.0.3
+Summary: Python package that provides a full range of functionality to process and analyze vibrational spectra (Raman, SERS, FTIR, etc.).
+Home-page: https://github.com/ALebrun-108/BoxSERS
+Author: Alexis Lebrun
+Author-email: alexis.lebrun.1@ulaval.ca
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: tensorflow
+
+
+----
+[![DOI](https://zenodo.org/badge/273074387.svg)](https://zenodo.org/badge/latestdoi/273074387)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ALebrun-108/BoxSERS/blob/master/LICENSE.txt)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ALebrun-108/BoxSERS/graphs/commit-activity)
+
+*BoxSERS*, a powerful and ready-to-use python package providing several tools for the analysis
+of vibrational spectra (Raman, FTIR, SERS, etc.), including features for data augmentation,
+dimensional reduction, spectral correction and both supervised and unsupervised machine learning.
+
+## Table of contents
+* [BoxSERS Installation](#boxsers-installation)
+* [Requirements](#requirements)
+* [Label information](#label-information)
+* [Included Features](#included-features)
+  * [Module misc_tools](#module-misc_tools)
+  * [Module visual_tools](#module-visual_tools)
+  * [Module preprocessing](#module-preprocessing)
+  * [Module data augmentation](#module-data_augmentation)
+  * [Module dimension reduction](#module-dimension_reduction)
+  * [Module clustering](#module-clustering)
+  * [Module classification](#module-classification) 
+* [License](#license)
+
+
+## BoxSERS Installation
+___
+
+From PypY
+```bash
+pip install boxsers
+```
+
+From Github 
+```bash
+pip install git+https://github.com/ALebrun-108/BoxSERS.git
+```
+
+## Requirements
+___
+Listed below are the main modules needed to operate the codes: 
+
+* Sklearn
+* Scipy
+* Numpy
+* Pandas
+* Matplotlib
+* Tensor flow (GPU or CPU)
+
+
+## Label information
+
+The labels associated with the spectra can be either integer values (single column) or binary values (multiple columns).
+
+
+####Example of labels for three classes that correspond to three bile acids:
+
+| Bile acid  	| Integer label (1 column) 	| Binary label (3 columns) 	|
+|------------------	|:-------------:	|:------------:	|
+| Cholic acid          	|       0       	|    [1 0 0]   	|
+| Lithocholic acid        	|       1       	|    [0 1 0]   	|
+| Deoxycholic acid        	|       2       	|    [0 0 1]   	|
+
+
+## Included Features
+___
+
+
+### Module ``misc_tools``
+This module provides functions for a variety of utilities.
+
+* **data_split** : Randomly splits an initial set of spectra into two new subsets named in this
+    function: subset A and subset B.
+  
+
+* **ramanshift_converter** : Converts wavelength [nm] to Raman shifts [cm-1].
+
+
+* **wavelength_converter** : Convert Raman shifts [cm-1] to wavelengths [nm].
+
+
+* **load_rruff** : Export a subset of Raman spectra from the RRUFF database in the form of three related lists
+    containing Raman shifts, intensities and mineral names.
+  
+  
+
+### Module ``visual_tools``
+This module provides different tools to visualize vibrational spectra quickly.
+
+* **spectro_plot :** Returns a plot with the selected spectrum(s) 
+
+
+* **random_plot :** Plot a number of randomly selected spectra from a set of spectra.
+
+
+* **distribution_plot :** Return a bar plot that represents the distributions of spectra for each classes in
+    a given set of spectra
+  
+  
+### Module ``preprocessing``
+This module provides functions to preprocess vibrational spectra. These features
+improve spectrum quality and can improve performance for machine learning applications.
+
+* **als_baseline_cor** : Subtracts the baseline signal from the spectrum(s) using an 
+  Asymmetric Least Squares estimation. 
+
+
+* **intensity_normalization** : Normalizes the spectrum(s) using one of the available norms in this function.
+
+
+* **savgol_smoothing** : Smoothes the spectrum(s) using a Savitzky-Golay polynomial filter.
+
+
+* **cosmic_filter** : Applies a median filter to the spectrum(s) to remove cosmic rays.
+  
+
+* **spectral_cut** : Subtracts or sets to zero a delimited spectral region of the spectrum(s).  
+
+
+* **spline_interpolation** : Performs a one-dimensional interpolation spline on the spectra to reproduce 
+  them with a new x-axis.
+
+
+### Module ``data_augmentation``
+This module provides funtions to generate new spectra by adding different variations to
+existing spectra.
+
+* **aug_mixup** : Randomly generates new spectra by mixing together several spectra with a Dirichlet
+    probability distribution. 
+
+
+* **aug_noise** : Randomly generates new spectra with Gaussian noise added.
+
+
+* **aug_multiplier** : Randomly generates new spectra with multiplicative factors applied.
+
+
+* **aug_offset** : Randomly generates new spectra shifted in intensity.
+
+
+* **aug_xshift** : Randomly generates new spectra shifted in wavelength.
+
+
+* **aug_linslope** : Randomly generates new spectra with additional linear slopes
+
+
+### Module ``dimension_reduction``
+This module provides different techniques to perform dimensionality reduction of
+vibrational spectra.
+
+* **SpectroPCA** : Principal Component Analysis (PCA) model object.
+
+
+
+### Module ``clustering``
+This module provides unsupervised learning models for vibrational spectra cluster analysis.
+
+* **SpectroKmeans** : K-Means clustering model.
+
+
+* **SpectroGmixture** : Gaussian mixture probability distribution model.
+
+
+### Module ``classification``
+This module provides supervised learning models for vibrational spectra classification.
+
+* **SpectroRF** :  Random forest classification model.
+
+
+* **SpectroSVM** : Support Vector Machine classification model.
+
+
+* **SpectroLDA** : Linear Discriminant Analysis classification model
+
+
+### Module ``neural_networks``
+This module provides neural network model specifically designed for the
+classification of vibrational spectra.
+
+* **SpectroCNN** : Convolutional Neural Network (CNN) for vibrational spectra classification.
+
