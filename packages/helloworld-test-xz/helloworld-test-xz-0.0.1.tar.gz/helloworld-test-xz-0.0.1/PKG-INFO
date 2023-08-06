@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: helloworld-test-xz
+Version: 0.0.1
+Summary: say hello
+Home-page: https://github.com/zxx2643/helloworld
+Author: Xiaoxuan Zhang
+Author-email: zhangxiaoxuan258@gmail.com
+License: UNKNOWN
+Description: # Hello world
+        
+        My example! Based on: https://www.youtube.com/watch?v=GIF3LaRqgXo
+        
+        ## installation
+        ``` python
+        pip3 install helloworld
+        ```
+        
+        ## Usage
+        ``` python
+        from helloworld import say_hello
+        say_hello()
+        say_hello('A')
+        ```
+        
+        # devloping
+        To install and along with the tools you need to develop and run tests, run the following in your virtualenv.
+        ```bash
+        $ pip3 install -e .[dev]
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Description-Content-Type: text/markdown
+Provides-Extra: dev

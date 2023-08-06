@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+src/helloworld.py
+src/helloworld_test_xz.egg-info/PKG-INFO
+src/helloworld_test_xz.egg-info/SOURCES.txt
+src/helloworld_test_xz.egg-info/dependency_links.txt
+src/helloworld_test_xz.egg-info/requires.txt
+src/helloworld_test_xz.egg-info/top_level.txt
+tests/test_helloworld.py
