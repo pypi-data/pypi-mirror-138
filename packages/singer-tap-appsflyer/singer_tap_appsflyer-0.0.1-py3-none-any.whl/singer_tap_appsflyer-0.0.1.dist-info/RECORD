@@ -1,0 +1,10 @@
+tap_appsflyer/__init__.py,sha256=NIqq-ptcYl7RX3OwRH4jyStqr-8EYGBf4B-3UZxc0Q8,16965
+tap_appsflyer/schemas/raw_data/in_app_events.json,sha256=VtD3dOPHIZe5zti_lEEI4wMxwBdjKeqsYtdJrPRlI90,7197
+tap_appsflyer/schemas/raw_data/installations.json,sha256=VtD3dOPHIZe5zti_lEEI4wMxwBdjKeqsYtdJrPRlI90,7197
+tap_appsflyer/schemas/raw_data/organic_installs.json,sha256=9_nTF4IPdXuY9dKof2dVc0zIITEC4WN_51-mQ3GHxfs,5245
+singer_tap_appsflyer-0.0.1.dist-info/LICENSE,sha256=xNuDgLmykYhajKZueHKWS9ZgnCFZ47hzbPCyI5-hs9c,32393
+singer_tap_appsflyer-0.0.1.dist-info/METADATA,sha256=1y-MuTIWRa_D7coDj9IL0P8g93qrUsd1bmgHWCRCd88,2760
+singer_tap_appsflyer-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+singer_tap_appsflyer-0.0.1.dist-info/entry_points.txt,sha256=EhCqoKUzoLzNS4Ev324lXmUNKpEjbeYW_uMmK3y6-zs,54
+singer_tap_appsflyer-0.0.1.dist-info/top_level.txt,sha256=e-lsE1t8ULbuVJOhrd7M2coVyQLnN-L2P_00CyqNs0M,14
+singer_tap_appsflyer-0.0.1.dist-info/RECORD,,
