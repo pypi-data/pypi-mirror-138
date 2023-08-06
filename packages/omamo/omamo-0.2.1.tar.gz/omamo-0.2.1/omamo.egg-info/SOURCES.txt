@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+bin/omamo
+omamo/__init__.py
+omamo/ic.py
+omamo/inference.py
+omamo.egg-info/PKG-INFO
+omamo.egg-info/SOURCES.txt
+omamo.egg-info/dependency_links.txt
+omamo.egg-info/requires.txt
+omamo.egg-info/top_level.txt
+omamo/data/go_ic.dat

@@ -1,0 +1,8 @@
+numpy
+pandas
+tables
+pyoma
+tqdm
+
+[:python_version < "3.9"]
+importlib_resources
