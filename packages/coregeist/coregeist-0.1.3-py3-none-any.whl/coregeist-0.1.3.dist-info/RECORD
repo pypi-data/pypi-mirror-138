@@ -1,0 +1,8 @@
+coregeist/__init__.py,sha256=BWJ71ISXDypW62YKZajdTv8Vl7Ym-kFjVJBdqOl0OEo,82
+coregeist/layers.py,sha256=wc5JUoDYfb8pHfirX7l_cmNyAyPMK7iqqBOqsJb04No,4586
+coregeist/pytorch_transform.py,sha256=TnZyl3KP_X8YVh1RFBqWGbE0o_pNBt5w7Ce59VjX0Z0,1915
+coregeist/resources/ctemplate.tpl.c,sha256=HExxQJjOA2cf6kH-hl6KC6G4gfW-bQPobeRgnIwdJ5w,3870
+coregeist/transform.py,sha256=02kkcOuE3NjP_DpR1GnCdddART4wEL3KcH1Q9Ei9qWw,10948
+coregeist-0.1.3.dist-info/WHEEL,sha256=FMw6u7Kp3jrdDDtJRZ3hkPV-9adLQT8pbM4iifKUGfw,85
+coregeist-0.1.3.dist-info/METADATA,sha256=ubCZOKO9Hk_fcsb0PqYkfcA5k5dGV3_4-bwg_0DYfQ8,1764
+coregeist-0.1.3.dist-info/RECORD,,
