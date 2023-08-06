@@ -1,0 +1,10 @@
+License
+README.md
+pyproject.toml
+setup.cfg
+src/mypack/__init__.py
+src/mypack/funcs.py
+src/mypack_Dotty.egg-info/PKG-INFO
+src/mypack_Dotty.egg-info/SOURCES.txt
+src/mypack_Dotty.egg-info/dependency_links.txt
+src/mypack_Dotty.egg-info/top_level.txt
