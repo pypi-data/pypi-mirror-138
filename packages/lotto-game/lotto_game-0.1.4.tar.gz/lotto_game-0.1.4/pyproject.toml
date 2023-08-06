@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "lotto_game"
+version = "0.1.4"
+description = ""
+authors = ["czasoprzestrzenny <jaroslawold@gmail.com>"]
+repository = 'https://github.com/czasoprzestrzenny/lotto_game'
+
+[[tool.poetry.source]]
+name = "nexus"
+url="http://143.47.242.29:8081/repository/dp_nexus_pypi/"
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
