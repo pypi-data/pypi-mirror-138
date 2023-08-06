@@ -1,0 +1,74 @@
+$context:
+  $import: gh
+
+  # Support `octadocs-table` natively
+  table: https://octadocs.io/table/
+
+$included:
+  - $id: gh:owner
+    domain: gh:Repo
+    range: gh:Owner
+
+  - $id: gh:Repo
+    label: GitHub Repository
+    ≡:
+      onProperty: iolanta:facet
+      hasValue:
+        $id: python://octadocs_github.facets.GithubRepo
+        iolanta:supports:
+          - iolanta:html
+          - table:td
+
+  - $id: gh:Owner
+    label: GitHub Repository Owner
+
+  - $id: gh:stars
+    label: Stars Count
+    domain: gh:Repo
+    range: xsd:integer
+
+  - $id: gh:lastCommitDate
+    label: Last Commit Date
+    domain: gh:Repo
+    range: xsd:date
+
+  - $id: gh:license
+    label: License
+    range: gh:License
+
+  - $id: gh:spdx_id
+    domain: gh:License
+
+  - $id: gh:License
+    iolanta:instanceFacet:
+      $id: python://octadocs_github.facets.GithubLicense
+      iolanta:supports:
+        - iolanta:html
+        - table:td
+
+  - $id: spdx:MIT
+    label: MIT
+
+  - $id: spdx:GPL-2.0
+    label: GPLv2
+
+  - $id: spdx:GPL-3.0
+    label: GPLv3
+
+  - $id: spdx:Apache-2.0
+    label: Apache 2.0
+
+  - $id: gh:hasLatestRelease
+    ∘:
+      - gh:releases
+      - rdf:first
+
+  - $id: gh:tarball_url
+    domain: gh:Release
+
+  - $id: gh:Release
+    iolanta:instanceFacet:
+      $id: python://octadocs_github.facets.Release
+      iolanta:supports:
+        - iolanta:html
+        - table:td
