@@ -1,0 +1,10 @@
+toml-stubs/METADATA.toml,sha256=YuUX4axfMtPjcmVnIA_PsuZ-aKgnY-FIij_8BcKddEc,34
+toml-stubs/__init__.pyi,sha256=yfV6BC8BKKwNOJgCHGVy36N2y9r4kzTDkDj1FOkC04k,623
+toml-stubs/decoder.pyi,sha256=CDOUVu8sdDhKupX1vL0usXVSVmoVWqLaoO9Op_SR1B8,2934
+toml-stubs/encoder.pyi,sha256=2S4Zu0sVacw1fAR6eLsxIglPfegc-Drdb81BOm9IrdE,1964
+toml-stubs/ordered.pyi,sha256=SQrlcdc0bDmgoBPM4h-zUmsIEIMgiSMvdhmmdAFF6Ds,324
+toml-stubs/tz.pyi,sha256=W25UtCzhb25Y-4x31o5AO2NNTRxyCOHICDKE099kF08,407
+types_toml-0.10.4.dist-info/METADATA,sha256=92M5exapoT8Sjnb-XsDbLGctitP6v54XDkVQNvxWtIU,1126
+types_toml-0.10.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+types_toml-0.10.4.dist-info/top_level.txt,sha256=a1CYNIV08nMy24bJkQiDQ7id6O3k8iwkUKsL10B5A_Y,11
+types_toml-0.10.4.dist-info/RECORD,,
