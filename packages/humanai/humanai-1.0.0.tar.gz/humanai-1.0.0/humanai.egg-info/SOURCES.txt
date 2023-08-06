@@ -1,0 +1,9 @@
+setup.py
+humanai/__init__.py
+humanai/humanlanguage.py
+humanai.egg-info/PKG-INFO
+humanai.egg-info/SOURCES.txt
+humanai.egg-info/dependency_links.txt
+humanai.egg-info/top_level.txt
+tests/__init__.py
+tests/test_humanlanguage.py
