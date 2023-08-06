@@ -1,0 +1,39 @@
+{%- if filetype_loop == 0 %}Domain,Name,Revision
+{%-     for domain in to_parse_stp %}
+{{ domain }},{{ domain.name }},{{ domain.revision }}
+{%-     endfor %}
+{%- else %}
+{%- if filetype_loop == 1 %}
+# Learn Multiple STP
+| Domain | Name | Revision |
+| ------ | ---- | -------- |
+{%-     for domain in to_parse_stp %}
+| {{ domain }} | {{ domain.name }} | {{ domain.revision }} |
+{%-     endfor %}
+{%- else %}{%- if filetype_loop == 2 %}
+<html><body>
+<h1>Learn Mutliple STP</h1>
+<table>
+  <thead>
+  <tr>
+    <th>Domain</th>
+    <th>Name</th>
+    <th>Revision</th>
+  </tr>
+  </thead>
+  <tbody>  
+  <tr>
+    <td>{{ domain }}</td>
+    <td>{{ domain.name }}</td>
+    <td>{{ domain.revision }}</td>
+  </tr>
+  </tbody>  
+</table>
+</body></html>{% else %}
+# Learn Spanning Tree                     
+{%-     for domain in to_parse_stp %}
+## Domain: {{ domain }}
+### Name: {{ domain.name }}
+### Revision: {{ domain.revision }}
+{%-     endfor %}
+{% endif %}{% endif %}{% endif %}
