@@ -1,0 +1,7 @@
+trimesh
+networkx
+stl_to_h5m
+
+[tests]
+pytest>=5.4.3
+brep_part_finder
