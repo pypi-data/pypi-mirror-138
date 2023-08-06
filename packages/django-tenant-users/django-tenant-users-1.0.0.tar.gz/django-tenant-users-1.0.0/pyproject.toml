@@ -1,0 +1,92 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.nitpick]
+style = "https://raw.githubusercontent.com/wemake-services/wemake-python-styleguide/master/styles/nitpick-style-wemake.toml"
+
+
+[tool.black]
+target-version = ['py37', 'py38', 'py39', 'py310']
+skip-string-normalization = true
+include = '\.pyi?$'
+
+
+[tool.poetry]
+name = "django-tenant-users"
+description = "A Django app to extend django-tenants to incorporate global multi-tenant users"
+version = "1.0.0"
+license = "MIT License"
+
+packages = [
+  { include = 'tenant_users' },
+]
+
+authors = [
+  "Corvia Technologies, LLC <support@corvia.tech>",
+]
+
+readme = "README.rst"
+
+repository = "https://www.github.com/Corvia/django-tenant-users"
+
+keywords = [
+  "django",
+  "django-tenant-users",
+]
+
+classifiers = [
+  "Environment :: Web Environment",
+  "Framework :: Django",
+  "Framework :: Django :: 2.2",
+  "Framework :: Django :: 3.2",
+  "Framework :: Django :: 4.0",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[tool.poetry.dev-dependencies]
+django = "^3.2"
+django-tenants = "^3.4.2"
+
+mypy = "^0.931"
+django-stubs = "^1.9"
+
+wemake-python-styleguide = "^0.16"
+flake8-pytest-style = "^1.6"
+nitpick = "^0.31"
+
+safety = "^1.10"
+
+pytest = "^6.2"
+pytest-cov = "^3.0"
+pytest-randomly = "^3.11"
+
+sphinx = "^4.4"
+sphinx-autodoc-typehints = "^1.16"
+doc8 = "^0.10"
+m2r2 = "^0.3"
+tomlkit = "^0.9"
+pytest-pythonpath = "^0.7.3"
+pytest-django = "^4.5.2"
+black = "^22.1"
+python-decouple = "^3.6"
+psycopg2-binary = "~2.8.0"
+pytest-deadfixtures = "^2.2.1"
+pytest-testmon = "^1.2.3"
+pytest-timeout = "^2.1.0"
+hypothesis = "^6.36.1"
