@@ -1,0 +1,11 @@
+repickle/__init__.py,sha256=v0mMJOF1UCvw45w98Seb5rYuf1M3nZvTXpZf2hynHDU,193
+repickle/cloudpickle.py,sha256=F0yBzSVOJicNhswHVkNRZ63RoifqvLJBJ5EDP0OB5kA,34641
+repickle/cloudpickle_fast.py,sha256=ZoSj-xEcPLr-IZVYEwykbmHBaoZs6nhSwPiOy-aroUI,32522
+repickle/compat.py,sha256=FQfviKQTNfK27JY6hXo35_EwkayliBg3o9V_htuF8e4,354
+repickle/repickle.py,sha256=7ExhV4WtBIbhp4japUp3aFmuFroz6JNV3cKN8inArpk,394
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+repickle-0.1.0.dist-info/LICENSE,sha256=DjASTZDVey1aydmeiCOU8EZskPNq-L_PO57iVgmV8Jc,1688
+repickle-0.1.0.dist-info/METADATA,sha256=Xgeb4T92m402FZBfdkI6AI2xBeB9Jk-SgBaEmhv4aXA,1875
+repickle-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+repickle-0.1.0.dist-info/top_level.txt,sha256=Wp0bhnGoEJj7yLdv9i6gpltxJUgUvJnQy9g1cjBBI7o,15
+repickle-0.1.0.dist-info/RECORD,,

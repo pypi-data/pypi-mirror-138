@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: repickle
+Version: 0.1.0
+Summary: Extended pickling support for Python object
+Home-page: https://github.com/ecanuto/repickle
+Author: Everaldo Canuto
+Author-email: everaldo.canuto@gmail.com
+License: BSD 3-Clause License
+Project-URL: Bug Tracker, https://github.com/ecanuto/repickle/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: System :: Distributed Computing
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Repickle
+
+Repickle makes it possible to serialize Python constructs not supported by the
+default pickle module from the Python standard library. Repickle just extends
+[cloudpickle](https://github.com/cloudpipe/cloudpickle) and add support for
+load and dump to files.
+
+## Installation
+
+The latest release of `repickle` is available from
+[pypi](https://pypi.python.org/pypi/repickle):
+
+    pip install repickle
+
+
+## Examples
+
+Pickling a lambda expression:
+
+```python
+>>> import repickle
+>>> squared = lambda x: x ** 2
+>>> repickle.dump_to_file(squared, "pickled_lambda.pkl")
+
+>>> new_squared = repickle.load_from_file("pickled_lambda.pkl")
+>>> new_squared(2)
+4
+```
+
+Pickling a function interactively defined in a Python shell session
+(in the `__main__` module):
+
+```python
+>>> CONSTANT = 42
+>>> def my_function(data: int) -> int:
+...     return data + CONSTANT
+...
+>>> import repickle
+>>> repickle.dump_to_file(my_function, "pickled_lambda.pkl")
+>>> depickled_function = repickle.load_from_file("pickled_lambda.pkl")
+>>> depickled_function(43)
+85
+```
+
+
