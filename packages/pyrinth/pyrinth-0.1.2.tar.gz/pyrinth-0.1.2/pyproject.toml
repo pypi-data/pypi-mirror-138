@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "pyrinth"
+version = "0.1.2"
+description = ""
+authors = ["ENDERZOMBI102 <enderzombi102.end@gmail.com>"]
+maintainers = ["ENDERZOMBI102 <enderzombi102.end@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = ""
+repository = "https://gitlab.com/ENDERZOMBI102/pyrinth"
+documentation = "https://enderzombi102.gitlab.io/pyrinth"
+keywords = [
+    "Modrinth",
+    "Wrapper",
+    "Minecraft"
+]
+
+[tool.poetry.urls]
+issues = "https://gitlab.com/ENDERZOMBI102/pyrinth/-/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.27.1"
+
+[tool.poetry.dev-dependencies]
+pdoc3 = "^0.10.0"
+mypy = "^0.931"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
