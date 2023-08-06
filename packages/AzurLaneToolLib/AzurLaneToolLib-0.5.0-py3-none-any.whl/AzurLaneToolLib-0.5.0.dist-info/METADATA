@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: AzurLaneToolLib
+Version: 0.5.0
+Summary: This tool is made of data collection in Wiki, Tools lib for Azur Lane which game powered by ManJiu Shanghai
+Home-page: https://gitee.com/tdotd/altl
+Author: Matt Belfast Brown
+Author-email: thedayofthedo@gmail.com
+License: GPL-3.0 LICENSE
+Keywords: pip,azur_lane,tool
+Platform: any
+License-File: LICENSE
+
+The lib of Azur Lane Tools
+
