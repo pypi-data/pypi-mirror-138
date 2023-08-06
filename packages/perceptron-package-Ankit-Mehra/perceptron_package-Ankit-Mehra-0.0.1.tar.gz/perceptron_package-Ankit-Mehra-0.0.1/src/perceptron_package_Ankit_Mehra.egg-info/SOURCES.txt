@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/perceptron_package_Ankit_Mehra.egg-info/PKG-INFO
+src/perceptron_package_Ankit_Mehra.egg-info/SOURCES.txt
+src/perceptron_package_Ankit_Mehra.egg-info/dependency_links.txt
+src/perceptron_package_Ankit_Mehra.egg-info/top_level.txt
+src/simple_perceptron/__init__.py
+src/simple_perceptron/perceptron.py
