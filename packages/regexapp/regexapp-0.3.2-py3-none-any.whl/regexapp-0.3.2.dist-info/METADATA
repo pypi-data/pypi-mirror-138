@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: regexapp
+Version: 0.3.2
+Summary: The application to generate regex pattern.
+Home-page: https://github.com/Geeks-Trident-LLC/regexapp
+Author: Tuyen Mathew Duong
+Author-email: tuyen@geekstrident.com
+Maintainer: Tuyen Mathew Duong
+Maintainer-email: tuyen@geekstrident.com
+License: BSD-3-Clause
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml
+
+# regexapp
+Regexapp is an application to generate a regular expression pattern.
+
+## Disclaimer: This library is under development.
+
