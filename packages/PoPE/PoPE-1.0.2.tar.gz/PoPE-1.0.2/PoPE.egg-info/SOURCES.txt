@@ -1,0 +1,13 @@
+setup.py
+./PoPE/__init__.py
+./PoPE/plotting_tools.py
+./PoPE/profile_estimator.py
+./examples/TNG_example.py
+./examples/__init__.py
+./examples/simulated_example.py
+./examples/visualize_priors.py
+PoPE.egg-info/PKG-INFO
+PoPE.egg-info/SOURCES.txt
+PoPE.egg-info/dependency_links.txt
+PoPE.egg-info/requires.txt
+PoPE.egg-info/top_level.txt
