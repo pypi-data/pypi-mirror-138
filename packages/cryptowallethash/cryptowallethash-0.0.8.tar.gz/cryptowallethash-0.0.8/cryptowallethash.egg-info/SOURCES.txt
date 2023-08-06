@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+cryptowallethash/__init__.py
+cryptowallethash/decorators.py
+cryptowallethash/functions.py
+cryptowallethash.egg-info/PKG-INFO
+cryptowallethash.egg-info/SOURCES.txt
+cryptowallethash.egg-info/dependency_links.txt
+cryptowallethash.egg-info/requires.txt
+cryptowallethash.egg-info/top_level.txt
