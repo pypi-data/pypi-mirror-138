@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+bmkgdashboard/__init__.py
+bmkgdashboard.egg-info/PKG-INFO
+bmkgdashboard.egg-info/SOURCES.txt
+bmkgdashboard.egg-info/dependency_links.txt
+bmkgdashboard.egg-info/top_level.txt
