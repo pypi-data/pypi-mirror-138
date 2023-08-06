@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+PyPDF2_Fields/__init__.py
+PyPDF2_Fields/field_types.py
+PyPDF2_Fields/pypdf2_fields.py
+PyPDF2_Fields/radio_btn_group.py
+PyPDF2_Fields.egg-info/PKG-INFO
+PyPDF2_Fields.egg-info/SOURCES.txt
+PyPDF2_Fields.egg-info/dependency_links.txt
+PyPDF2_Fields.egg-info/requires.txt
+PyPDF2_Fields.egg-info/top_level.txt
