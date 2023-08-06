@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+email2pdf2/__init__.py
+email2pdf2/__main__.py
+email2pdf2/_version.py
+email2pdf2/cmd.py
+email2pdf2/email2pdf2.py
+email2pdf2.egg-info/PKG-INFO
+email2pdf2.egg-info/SOURCES.txt
+email2pdf2.egg-info/dependency_links.txt
+email2pdf2.egg-info/entry_points.txt
+email2pdf2.egg-info/requires.txt
+email2pdf2.egg-info/top_level.txt

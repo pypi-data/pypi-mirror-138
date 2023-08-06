@@ -1,0 +1,2 @@
+[console_scripts]
+email2pdf2 = email2pdf2.cmd:main
