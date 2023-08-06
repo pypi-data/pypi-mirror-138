@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "attribute"
+version = "0.1.4"
+description = "Attribute management made easy"
+authors = ["Tom Bulled <26026015+tombulled@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/tombulled/attribute"
+repository = "https://github.com/tombulled/attribute"
+keywords = ["python", "attribute"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.1"
+black = "^22.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
