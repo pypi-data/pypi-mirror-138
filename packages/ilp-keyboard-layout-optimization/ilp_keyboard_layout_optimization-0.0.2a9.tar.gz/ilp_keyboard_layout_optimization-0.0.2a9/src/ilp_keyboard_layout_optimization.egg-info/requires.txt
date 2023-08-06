@@ -1,0 +1,5 @@
+pyscipopt
+
+[test]
+hypothesis
+pytest
