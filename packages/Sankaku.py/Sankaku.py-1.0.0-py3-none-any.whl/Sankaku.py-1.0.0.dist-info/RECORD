@@ -1,0 +1,10 @@
+sankaku/__init__.py,sha256=RahEYMpEUpZjjrqCT4AU_uwdFhdS6miiN-RXnNrw_WA,97
+sankaku/client.py,sha256=eiA5ZyzM7smDa-k4bgEX-3MlaMzo1vtP6TP_-qqRy8E,9098
+sankaku/lib/__init__.py,sha256=m3xVEcBF1343rKMfJ2g4HQNW5RUfONZxsc112ThirVQ,80
+sankaku/lib/headers.py,sha256=7hzZNuwSCyWqF7CxRz1qyMz1nvfjO0oIoU3r-eSaaQk,585
+sankaku/lib/objects.py,sha256=lged3gnwgzt7sadYf0OVKBWwHMsJlRdrkwJCLEdR8zQ,13784
+Sankaku.py-1.0.0.dist-info/LICENSE,sha256=wlMiT2BBd6LJD1oZ-4IsO9z9EIGVRCon952SZ21m-U4,1084
+Sankaku.py-1.0.0.dist-info/METADATA,sha256=ubBEKUWe0kUR1IHyop-oESRC0Uqp1zRGwxsfGTV-NNc,2207
+Sankaku.py-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Sankaku.py-1.0.0.dist-info/top_level.txt,sha256=un3JOut9lWsYQxwYRN_daeoEYZEcvb9rOCDgtLbs_28,8
+Sankaku.py-1.0.0.dist-info/RECORD,,
