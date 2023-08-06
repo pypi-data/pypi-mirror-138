@@ -1,0 +1,12 @@
+nepali_municipalities/__init__.py,sha256=d0GPAVekxD0lXj9MVJAAkYP598lt2-UENRRgzO6CZuA,37
+nepali_municipalities/nepali_municipalities.py,sha256=8CQFZQ0BGqXHn2GAyc0LmEOkN7HUl2FG8bPu0iccXLk,2866
+nepali_municipalities/test.py,sha256=WE9Re8jsrKlZFOgZjObHYh6Q8Ot5kw913r9KKHYmNWI,197
+nepali_municipalities/__pycache__/nepali_municipalities.cpython-38.pyc,sha256=yZMxI2wMG9MhEDT-Bh-lAGGYxydRydykDyr7pDibMKw,2958
+nepali_municipalities/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nepali_municipalities/data/all_nepali_municipalities.json,sha256=J1_9Tk0T9nEiPxj0_asJJeDYYeSdaaUMXxmbJMYsLa8,134976
+nepali_municipalities/data/data.json,sha256=PP1OaCvfVzfR5DDvubRk1mrZ2nE4sFujGdF82mCxJdI,21910
+nepali_municipality-0.1.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+nepali_municipality-0.1.4.dist-info/METADATA,sha256=NcejSfiZFQoI3Xg5iijOGpm-qvj818Z2I0Q9GmtLGdo,2890
+nepali_municipality-0.1.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nepali_municipality-0.1.4.dist-info/top_level.txt,sha256=FE7Crl_M0sfau0lsFITKdOvxluLvO3sRrAX5PIiEa3c,22
+nepali_municipality-0.1.4.dist-info/RECORD,,
