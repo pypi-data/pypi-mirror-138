@@ -1,0 +1,17 @@
+CoDaBuddy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CoDaBuddy/backup_manager.py,sha256=oSHMOW1LScyd9_ZmBBSd8HjGZu8VpixsjXUu8-5cc_g,11631
+CoDaBuddy/backupper.py,sha256=ttPuOaz5vebIaQSRFemgay35I9uPQ8zngBI5f3JCa98,20536
+CoDaBuddy/cli.py,sha256=-plxRlj8l43bSE2rp2LhQxcqpEhXyVl7xpEV8h3Skr4,19566
+CoDaBuddy/cli_helper.py,sha256=u7qk96aFikZM9RbyrWEYGQjKOt5k5h2OiKx-1sTUxHs,11458
+CoDaBuddy/config.py,sha256=_20dLcKX44bYIsRsmcKfILtcSQOT0uN80K9dHw2fTeI,2708
+CoDaBuddy/container_helper.py,sha256=UcilLBJUOUCWc2t9CW6cGVuolAE4Jc5mbMPgHUwZg5U,13081
+CoDaBuddy/executer.py,sha256=4BB-gZ7glkmnmtDOEr6xzAzkrJk0UK02qzc9OE9k32U,2762
+CoDaBuddy/label.py,sha256=PVl4hlxo04HayhpD0QfyyPHkvVdhnfXC8HDx7vjXbTE,11815
+CoDaBuddy/log.py,sha256=XXSvPtaT5inkMroMvPhL4j0KOJ6XZm4MZKQPNiOB4mk,322
+CoDaBuddy/main.py,sha256=C5PS-u_Ckh7z3-6HGBogtF8Wrmc99sV-rM05LOZ8Jnk,875
+CoDaBuddy-0.0.1.dist-info/LICENSE,sha256=Vf8aKjcpUju717s0SC0EVz-XRGfQePKCHG-cZ-9mJvs,1101
+CoDaBuddy-0.0.1.dist-info/METADATA,sha256=N_pZxFFmx0RMg7RpHfRwI4N82yb7pr6d28IzwBOiWKo,9101
+CoDaBuddy-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+CoDaBuddy-0.0.1.dist-info/entry_points.txt,sha256=IrZaObGxwntMnJ0KaP-B4EtZRHpgUbFPIKTmgE517Nc,144
+CoDaBuddy-0.0.1.dist-info/top_level.txt,sha256=gyclm6pm9zFl2Ed0bkTq8pzUirGxdEk1m66sND9JxPM,10
+CoDaBuddy-0.0.1.dist-info/RECORD,,

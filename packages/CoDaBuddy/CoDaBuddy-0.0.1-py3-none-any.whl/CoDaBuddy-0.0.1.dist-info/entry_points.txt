@@ -1,0 +1,5 @@
+[console_scripts]
+coda-auto-create = CoDaBuddy.cli:auto_create
+coda-backup = CoDaBuddy.cli:backup_cli
+coda-restore = CoDaBuddy.cli:restore_cli
+
