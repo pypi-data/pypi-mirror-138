@@ -1,0 +1,63 @@
+[tool.poetry]
+name = "olxbrasil"
+version = "0.2.7"
+description = "Biblioteca para scrapping da Olx Brasil (olx.com.br)"
+license = "MIT"
+authors = ["Marcelo Lino <mdslino@gmail.com>"]
+maintainers = ["Marcelo Lino <mdslino@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/Mdslino/olxbrasil"
+keywords = ["scrapping", "olx"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: AsyncIO",
+    "Natural Language :: Portuguese (Brazilian)",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Software Development :: Libraries",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+beautifulsoup4 = "^4.9.3"
+httpx = "^0.22.0"
+fake-useragent = "^0.1.11"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.1"
+pytest-cov = "^3.0.0"
+ipython = "^8.0.1"
+respx = "^0.19.2"
+black = "^22.1.0"
+pytest-asyncio = "^0.18.1"
+bandit = "^1.7.0"
+checkov = "^2.0.28"
+pylint = "^2.7.4"
+pytest-sugar = "^0.9.4"
+pytest-vcr = "^1.0.2"
+flake8 = "^4.0.1"
+isort = "^5.9.3"
+mypy = "^0.931"
+pytest-deadfixtures = "^2.2.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 79
+target-version = ['py38']
+include = '\.pyi?$'
+
+[tool.isort]
+line_length = 79
+known_first_party = "olxbrasil"
+known_third_party = "bs4,httpx"
+multi_line_output = 3
+use_parentheses = true
+include_trailing_comma = true
