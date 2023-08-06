@@ -1,0 +1,2 @@
+[console_scripts]
+alcom = alcom.run:main
