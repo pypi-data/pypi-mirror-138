@@ -1,0 +1,11 @@
+LICENSE.md
+setup.py
+easy_mpl/__init__.py
+easy_mpl/_main.py
+easy_mpl/_taylor_plot.py
+easy_mpl/utils.py
+easy_mpl.egg-info/PKG-INFO
+easy_mpl.egg-info/SOURCES.txt
+easy_mpl.egg-info/dependency_links.txt
+easy_mpl.egg-info/requires.txt
+easy_mpl.egg-info/top_level.txt
