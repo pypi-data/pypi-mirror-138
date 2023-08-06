@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+tests.py
+music_artist/__init__.py
+music_artist/__main__.py
+music_artist/__version__.py
+music_artist/artist.py
+music_artist.egg-info/PKG-INFO
+music_artist.egg-info/SOURCES.txt
+music_artist.egg-info/dependency_links.txt
+music_artist.egg-info/requires.txt
+music_artist.egg-info/top_level.txt

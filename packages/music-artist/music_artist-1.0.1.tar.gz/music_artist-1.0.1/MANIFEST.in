@@ -1,0 +1,1 @@
+include README.md LICENSE music_artist setup.py tests.py
