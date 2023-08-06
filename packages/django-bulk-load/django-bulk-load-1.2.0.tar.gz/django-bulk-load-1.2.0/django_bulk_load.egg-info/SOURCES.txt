@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+django_bulk_load/__init__.py
+django_bulk_load/bulk_load.py
+django_bulk_load/django.py
+django_bulk_load/queries.py
+django_bulk_load/utils.py
+django_bulk_load.egg-info/PKG-INFO
+django_bulk_load.egg-info/SOURCES.txt
+django_bulk_load.egg-info/dependency_links.txt
+django_bulk_load.egg-info/requires.txt
+django_bulk_load.egg-info/top_level.txt
