@@ -1,0 +1,5 @@
+mkdocs>=1.0.4
+
+[test]
+pytest>=4.0
+pytest-cov
