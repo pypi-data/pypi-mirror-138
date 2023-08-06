@@ -1,0 +1,14 @@
+samino/__init__.py,sha256=Gve4cZqPUyG-KDYgO3mWoQG7kKyWFz4M5zfzlELBwv0,420
+samino/acm.py,sha256=vBIr8EMuAF8mxe5mZ0HkRFyxfYSg_iERwHX1LmPgTvY,5411
+samino/client.py,sha256=cn8sDMKKP1SGfmZEwL0slefIWvp0-PeBFS8T6HvTccE,34172
+samino/local.py,sha256=BIsQTh9hY_bKoxwB05ySx5HEjXvgEjxDvz_QYad_Bes,42181
+samino/lib/__init__.py,sha256=ELlA1zATTyyEpDt0X5ogIWJUgTW5VBsAEWBxQDryzVY,95
+samino/lib/exception.py,sha256=8GDNiazNtM0DC-3zs21zlPRxWiTWbPwujQDm_Al0HoE,163
+samino/lib/headers.py,sha256=ZvXB0UPiUgAkJbWrsjSIU3L_-rrxI6hazBRZdagil1g,4480
+samino/lib/objects.py,sha256=hpax23pKEFOXoRnE8TNSJzph8-6mTwE7jMz7-SsfdGQ,195022
+samino/lib/util.py,sha256=DI8VO7ddZzDt-f9RYlliWBDKfjEO2wOxRQNT7SBUOJ4,1578
+samino-1.9.4.dist-info/LICENSE,sha256=sSN41mTWvSq8If_VuCk8QapiLekNNijKtE-Hc-S5L30,580
+samino-1.9.4.dist-info/METADATA,sha256=-VnBNtp5qmm8ElVettHpjybzAUvVuTKp-usbmAnF7qA,1130
+samino-1.9.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+samino-1.9.4.dist-info/top_level.txt,sha256=Qnlx3zdT_1BERXqUBRP52-zuWt-mMtfsokH1YUoQoO4,7
+samino-1.9.4.dist-info/RECORD,,
