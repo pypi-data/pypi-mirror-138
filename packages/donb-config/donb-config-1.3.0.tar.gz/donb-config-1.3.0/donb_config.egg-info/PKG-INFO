@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: donb-config
+Version: 1.3.0
+Summary: Creation of config files based on a yaml file
+Home-page: UNKNOWN
+Author: Don Beberto
+Author-email: bebert64@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: yaml
+
+UNKNOWN
+
