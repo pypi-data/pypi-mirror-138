@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: MicroCast
+Version: 0.2.2
+Summary: MicroCast
+Home-page: UNKNOWN
+Author: haohaninfo
+Author-email: haohanservice@haohaninfo.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Requires-Dist: requests
+
+UNKNOWN
+
+
