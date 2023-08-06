@@ -1,0 +1,3 @@
+[console_scripts]
+renamerename = renamerename.__main__:main
+
