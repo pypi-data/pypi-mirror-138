@@ -1,0 +1,13 @@
+UnionFindPy/__init__.py,sha256=NJUTIV4K9ApChDtoF7XvVC4WI77lEBraqD7QumP8_kY,63
+UnionFindPy/_union_find_py.cpython-37m-darwin.so,sha256=lxoM_7Dm6NsOvXIRqy7-0R4fH4IEgk0XsSjjaqioe3g,180584
+UnionFindPy/_version.py,sha256=gqNcyXhPl8z2-D1iNFBiRO8czZ4qx13EmdYtW32sKdY,739
+UnionFindPy/decoder.py,sha256=IZ-m1jNT9cYpeWm4Ltl0Tfhisi0dvmVW7U24_gGOlZ8,2460
+UnionFindPy/cpp/CMakeLists.txt,sha256=h3NyFr-k5tQS06_1PF37julRT1KcVfqS4unw7YnMU3U,3582
+UnionFindPy/cpp/Makefile,sha256=-Kdxwwz54uw9BZMmducNiF_DoW2NrqM1t2EK-r77XLA,235
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_decoder.py,sha256=wYE5akKiDsgFUWOI7nHFzP6kMCWYvEMai4Evs-DIPUE,1522
+UnionFindPy-0.2.1.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+UnionFindPy-0.2.1.dist-info/METADATA,sha256=zI017QV5JAZJ-_LzgVVsNKXSfl8h2SvI25XNQ_NPwAw,3932
+UnionFindPy-0.2.1.dist-info/WHEEL,sha256=09ilctnU90ztFuksfSRiG_Vbal2GkMIuPJ3QrdP4HAo,111
+UnionFindPy-0.2.1.dist-info/top_level.txt,sha256=OXU-bAwIBW_cQGQUN8KiL2gi8-z0Cz-WRgw-JeTNL1s,33
+UnionFindPy-0.2.1.dist-info/RECORD,,
