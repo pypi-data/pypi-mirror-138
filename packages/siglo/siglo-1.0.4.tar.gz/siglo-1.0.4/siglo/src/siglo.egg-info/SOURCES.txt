@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+siglo/src/siglo.py
+siglo/src/siglo.egg-info/PKG-INFO
+siglo/src/siglo.egg-info/SOURCES.txt
+siglo/src/siglo.egg-info/dependency_links.txt
+siglo/src/siglo.egg-info/requires.txt
+siglo/src/siglo.egg-info/top_level.txt
