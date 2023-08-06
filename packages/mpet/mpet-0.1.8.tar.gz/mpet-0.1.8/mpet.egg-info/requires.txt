@@ -1,0 +1,17 @@
+numpy
+scipy
+matplotlib
+pyQt5
+h5py
+configparser
+schema
+
+[doc]
+sphinx
+sphinx_rtd_theme
+
+[test]
+pytest
+coverage
+coveralls
+flake8
