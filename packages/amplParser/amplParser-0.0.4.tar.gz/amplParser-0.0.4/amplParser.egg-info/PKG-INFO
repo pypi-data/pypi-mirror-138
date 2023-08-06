@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: amplParser
+Version: 0.0.4
+Summary: A Python module to produce raw AMPL console reports for model solutions and parse those into JSON.
+Home-page: https://github.com/scythetrigger/amplParserpy
+Author: Nicholas Parham
+Author-email: nick-99@att.net
+License: Apache Software License
+Platform: UNKNOWN
+
+UNKNOWN
+
