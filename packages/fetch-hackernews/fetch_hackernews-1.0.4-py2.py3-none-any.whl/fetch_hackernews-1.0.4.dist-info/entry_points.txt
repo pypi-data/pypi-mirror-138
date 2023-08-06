@@ -1,0 +1,3 @@
+[console_scripts]
+fetch_hackernews = fetch_hackernews.main:main
+
