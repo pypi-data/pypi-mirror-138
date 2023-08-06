@@ -1,0 +1,7 @@
+README.md
+setup.py
+calculate_py_ay250.egg-info/PKG-INFO
+calculate_py_ay250.egg-info/SOURCES.txt
+calculate_py_ay250.egg-info/dependency_links.txt
+calculate_py_ay250.egg-info/requires.txt
+calculate_py_ay250.egg-info/top_level.txt
