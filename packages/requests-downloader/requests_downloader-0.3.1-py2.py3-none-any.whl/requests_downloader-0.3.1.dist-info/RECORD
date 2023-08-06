@@ -1,0 +1,10 @@
+requests_downloader/__init__.py,sha256=ZBh-3XxGORgz1SXXy70-Wz_wD82xDqiD_fcSQIHfEoU,436
+requests_downloader/cli.py,sha256=zGyizfttYt999qb4sB4n7ZsWsvQbv41FandWkr9mFuM,3873
+requests_downloader/downloader.py,sha256=jM_yoFE0MSdxIPpm5_XnZVBUZa6271V3TIYPQM1xrJk,13857
+requests_downloader-0.3.1.dist-info/AUTHORS.rst,sha256=oPn2na2vtwDDxf9ue6OF-iGY7SgGg0rx89WZ4W9ubBM,172
+requests_downloader-0.3.1.dist-info/LICENSE,sha256=DzEtYlFLAypKm1BQyREWmOR1YVTygWn46S0s8mbnQCM,1560
+requests_downloader-0.3.1.dist-info/METADATA,sha256=IeZ74mYfsRRGL6-ADveT4PwopUd-bzvOeVT5u9oy2VA,4991
+requests_downloader-0.3.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+requests_downloader-0.3.1.dist-info/entry_points.txt,sha256=Fp5DIYwB-1nK0KITtfiOPh0H_3CKfzHV7epwBOo-Z94,59
+requests_downloader-0.3.1.dist-info/top_level.txt,sha256=jVMRYymnGnUcITZlc_i_BIkEgqvtfV7PAiqXPoz0yJ4,20
+requests_downloader-0.3.1.dist-info/RECORD,,
