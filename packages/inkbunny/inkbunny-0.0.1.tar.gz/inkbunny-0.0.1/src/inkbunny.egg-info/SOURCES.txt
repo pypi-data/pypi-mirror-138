@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/inkbunny/__init__.py
+src/inkbunny/api.py
+src/inkbunny.egg-info/PKG-INFO
+src/inkbunny.egg-info/SOURCES.txt
+src/inkbunny.egg-info/dependency_links.txt
+src/inkbunny.egg-info/top_level.txt

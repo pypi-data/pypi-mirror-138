@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: inkbunny
+Version: 0.0.1
+Summary: Python wrapper for the Inkbunny API
+Home-page: https://github.com/crying-ibex/inkbunny
+Author: ibex
+Author-email: anonymous.420.69.666.1337@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/crying-ibex/inkbunny/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Inkbunny
+
+A Python wrapper for the [Inkbunny](https://inkbunny.net/) API.
+
+TODO: readme goes here
+
