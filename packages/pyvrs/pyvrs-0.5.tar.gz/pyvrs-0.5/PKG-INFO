@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pyvrs
+Version: 0.5
+Summary: A powerful voice recognition library made in python. This combines several libraries in order to achieve a 'Voice Assistant' ready library.
+Home-page: https://github.com/bossauh/pyvrs
+Author: Philippe Mathew
+Author-email: philmattdev@gmail.com
+License: MIT
+Download-URL: https://github.com/bossauh/pyvrs/archive/refs/tags/v_05.tar.gz
+Description: UNKNOWN
+Keywords: voice,speech to text,voice recognition
+Platform: UNKNOWN
