@@ -1,0 +1,10 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "cryptography==3.3.2",
+    "numpy",
+    "seaborn",
+    "discord.py"
+]
+build-backend = "setuptools.build_meta"
