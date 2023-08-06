@@ -1,0 +1,10 @@
+sgclimaapiclient/__init__.py,sha256=40Djvh-zWbQ8Ae9HahzBRX641-N4SV97Y9zcmY3iRAE,76
+sgclimaapiclient/baseapi.py,sha256=Uu_ftvLQDcAI7guxVI45BONYkMDmWRgn56qiVSLx2TU,1559
+sgclimaapiclient/dataapi.py,sha256=whgnRb7wyGDLZEGlmtK3UHGTTYXhTvtcGZMJllRcYIM,19970
+sgclimaapiclient/modelsapi.py,sha256=1_4DLq18mz9byEHM-5Cyb5Cz7zck4w8mYgZ7fKZkhd4,1429
+sgclimaapiclient/version.py,sha256=-YHzv8tja4CPgI4M3Z_0Bj8CLGmAigr5FWkvYuc_I64,22
+sgclimaapiclient-1.1.15.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+sgclimaapiclient-1.1.15.dist-info/METADATA,sha256=qgaGhKjiTDwbvJyuPZjQx--hgQwcnscaWTejqfCjM8c,357
+sgclimaapiclient-1.1.15.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sgclimaapiclient-1.1.15.dist-info/top_level.txt,sha256=lCPqNiCAAmFc7z0mXXEQrnfPDIvzIv4H-3-EcGCy4_I,17
+sgclimaapiclient-1.1.15.dist-info/RECORD,,
