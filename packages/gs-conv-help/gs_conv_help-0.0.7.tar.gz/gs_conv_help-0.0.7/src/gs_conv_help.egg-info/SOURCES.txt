@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/gs_conv_help/__init__.py
+src/gs_conv_help/db_handler.py
+src/gs_conv_help/gs_global.py
+src/gs_conv_help/i18n.py
+src/gs_conv_help/menu_handler.py
+src/gs_conv_help/post_handler.py
+src/gs_conv_help/pre_handler.py
+src/gs_conv_help/response_cards.py
+src/gs_conv_help.egg-info/PKG-INFO
+src/gs_conv_help.egg-info/SOURCES.txt
+src/gs_conv_help.egg-info/dependency_links.txt
+src/gs_conv_help.egg-info/requires.txt
+src/gs_conv_help.egg-info/top_level.txt
