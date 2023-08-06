@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: aiodownloads
+Version: 0.2.0
+Summary: Asynchronous downloads
+Home-page: https://github.com/tinnguyentg/aiodownloads
+License: MIT
+Author: tinnguyen121221
+Author-email: tinnguyen121221@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
+Project-URL: Repository, https://github.com/tinnguyentg/aiodownloads
+Description-Content-Type: text/markdown
+
+# aiodownloads
+
+Asynchronous downloads
+
+## Installation
+
+```
+pip install aiodownloads
+```
+
+## Usage
+
+Inherit `aiodownloads.Downloader` then override handle_success, handle_fail methods
+
+## Examples
+
+- Download list of urls
+
+```python
+import asyncio
+
+from aiodownloads import Downloader
+
+urls = [
+    'https://httpbin.org/status/200',
+    'https://httpbin.org/status/400'
+]
+class UrlsDownloader(Downloader):
+
+    async def handle_success(self, resp, item):
+        content = await resp.read()
+        # save content stuff
+
+    async def handle_fail(self, resp, item):
+        ...
+
+url_downloader = UrlsDownloader()
+asyncio.run(url_downloader.download(urls))
+```
+
