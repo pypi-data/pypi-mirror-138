@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyamplipi
+Version: 0.4.6
+Summary: Python API for interacting with the AmpliPi Multizone Audio Controller
+Home-page: https://github.com/brianhealey/pyamplipi
+Author: HeeHee Software
+Author-email: brian.healey@gmail.com
+License: MIT
+Download-URL: https://github.com/brianhealey/pyamplipi/archive/0.4.6.tar.gz
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
+
+UNKNOWN
+
