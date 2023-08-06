@@ -1,0 +1,12 @@
+numpy>=1.15
+matplotlib>=3.4
+jax>=0.2.10
+tqdm
+
+[cpu]
+jaxlib>=0.1.64
+brainpylib>=0.02
+
+[cuda]
+jaxlib>=0.1.64
+brainpylib>=0.02
