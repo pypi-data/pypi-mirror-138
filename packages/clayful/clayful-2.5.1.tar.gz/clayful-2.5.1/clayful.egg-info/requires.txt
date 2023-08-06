@@ -1,0 +1,4 @@
+requests>2.1,<3
+
+[test]
+httpretty>0.8
