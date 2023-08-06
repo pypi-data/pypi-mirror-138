@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ansible-kernel
+Version: 1.0.0
+Summary: An Ansible kernel for Jupyter notebooks
+License: Apache
+Platform: UNKNOWN
+Description-Content-Type: text/plain
+License-File: LICENSE.md
+
+An Ansible kernel for Jupyter notebooks
+
