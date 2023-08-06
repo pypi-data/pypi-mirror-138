@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=60.8.1"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 80
+target-version = ["py38"]
+include = ".py$"
+extend-exclude = "examples"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--cov --mypy"
+testpaths = [
+    "tests",
+]
+
+[tool.coverage.report]
+show_missing = true
+exclude_lines = [
+    "@(abc.)?abstractmethod"
+]

@@ -1,0 +1,12 @@
+
+[dev]
+coverage[toml]
+mypy
+black
+pytest
+pytest-cov
+pytest-mypy
+twine
+
+[examples]
+PySide6
