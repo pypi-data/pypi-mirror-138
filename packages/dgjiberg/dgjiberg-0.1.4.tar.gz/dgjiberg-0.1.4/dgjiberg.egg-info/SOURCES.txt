@@ -1,0 +1,8 @@
+README.md
+setup.py
+dgjiberg.egg-info/PKG-INFO
+dgjiberg.egg-info/SOURCES.txt
+dgjiberg.egg-info/dependency_links.txt
+dgjiberg.egg-info/top_level.txt
+testpackage/__init__.py
+testpackage/module.py
