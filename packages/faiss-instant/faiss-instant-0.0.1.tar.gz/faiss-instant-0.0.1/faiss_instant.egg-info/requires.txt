@@ -1,0 +1,4 @@
+beir
+crash-ipdb
+sentence-transformers
+faiss-gpu
