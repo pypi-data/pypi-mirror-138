@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+mypythonlib_nini/__init__.py
+mypythonlib_nini.egg-info/PKG-INFO
+mypythonlib_nini.egg-info/SOURCES.txt
+mypythonlib_nini.egg-info/dependency_links.txt
+mypythonlib_nini.egg-info/top_level.txt
