@@ -1,0 +1,2 @@
+hspylib==0.11.10
+setuptools==60.5.0
