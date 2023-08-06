@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/field[@name='carrier_cost_method']" position="after">
+        <separator string="GLS" colspan="4" id="gls"/>
+        <label name="gls_service_type"/>
+        <field name="gls_service_type"/>
+        <label name="gls_label_image_format"/>
+        <field name="gls_label_image_format"/>
+        <label name="gls_label_size"/>
+        <field name="gls_label_size"/>
+    </xpath>
+</data>

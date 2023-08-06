@@ -1,0 +1,6 @@
+m9s-trytond<6.1,>=6.0
+requests
+trytond_carrier<6.1,>=6.0
+trytond_stock<6.1,>=6.0
+trytond_stock_package<6.1,>=6.0
+trytond_stock_package_shipping<6.1,>=6.0

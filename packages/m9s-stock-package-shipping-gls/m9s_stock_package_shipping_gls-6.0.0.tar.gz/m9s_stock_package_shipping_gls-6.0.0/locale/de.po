@@ -1,0 +1,141 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:carrier,gls_label_image_format:"
+msgid "Label Image Format"
+msgstr "Etikettenformat"
+
+msgctxt "field:carrier,gls_label_size:"
+msgid "Label Size"
+msgstr "Etikettengröße"
+
+msgctxt "field:carrier,gls_service_type:"
+msgid "Service Type"
+msgstr "Dienstleistungstyp"
+
+msgctxt "field:carrier.credential.gls,company:"
+msgid "Company"
+msgstr "Unternehmen"
+
+msgctxt "field:carrier.credential.gls,contact_id:"
+msgid "Contact ID"
+msgstr "Kontakt ID"
+
+msgctxt "field:carrier.credential.gls,create_date:"
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:carrier.credential.gls,create_uid:"
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt "field:carrier.credential.gls,customer_id:"
+msgid "Customer ID"
+msgstr "Kunden ID"
+
+msgctxt "field:carrier.credential.gls,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:carrier.credential.gls,password:"
+msgid "Password"
+msgstr "Passwort"
+
+msgctxt "field:carrier.credential.gls,rec_name:"
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:carrier.credential.gls,server:"
+msgid "Server"
+msgstr "Server"
+
+msgctxt "field:carrier.credential.gls,user_id:"
+msgid "User"
+msgstr "Benutzer"
+
+msgctxt "field:carrier.credential.gls,write_date:"
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:carrier.credential.gls,write_uid:"
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "model:carrier.credential.gls,name:"
+msgid "GLS Credential"
+msgstr "GLS Zugangsdaten"
+
+msgctxt "model:ir.action,name:act_create_shipping_gls_wizard"
+msgid "Create GLS Shipping for Packages"
+msgstr "Versand für GLS Paket erstellen"
+
+msgctxt "model:ir.action,name:act_gls_credential_form"
+msgid "GLS Credentials"
+msgstr "GLS Zugangsdaten"
+
+msgctxt "model:ir.message,text:email_or_mobile_required"
+msgid ""
+"The Service chosen for shipment \"%(shipment)s\" requires either an email or"
+" a mobile number of the recipient."
+msgstr ""
+"Die für Lieferposten \"%(shipment)s\" gewählte Dienstleistung erfordert "
+"entweder eine E-Mailadresse oder eine Mobilnummer des Empfängers."
+
+msgctxt "model:ir.message,text:gls_webservice_error"
+msgid ""
+"The GLS webservice call failed with the following error message:\n"
+"\n"
+"%(message)s"
+msgstr ""
+"Der GLS Webservice schlug fehl mit der folgenden Fehlermeldung:\n"
+"\n"
+"%(message)s"
+
+msgctxt "model:ir.message,text:has_reference_number"
+msgid "Shipment \"%(shipment)s\" already has a reference number."
+msgstr "Lieferposten \"%(shipment)s\" hat bereits eine Belegnummer."
+
+msgctxt "model:ir.message,text:missing_configuration"
+msgid "Missing configuration for company \"%(company)s\"."
+msgstr "Fehlende Konfiguration für Unternehmen \"%(company)s\"."
+
+msgctxt "model:ir.message,text:phone_required"
+msgid "A phone number is required for party \"%(party)s\"."
+msgstr "Eien Telefonnummer ist erforderlich für Partei \"%(party)s\"."
+
+msgctxt "model:ir.message,text:shipping_description_required"
+msgid "A shipping description is required for shipment \"%(shipment)s\"."
+msgstr "Für \"%(shipment)s\" ist eine Lieferbeschreibung erforderlich."
+
+msgctxt "model:ir.message,text:warehouse_address_required"
+msgid "An address is required for warehouse \"%(warehouse)s\"."
+msgstr "Eine Adresse ist erforderlich für Warenlager \"%(warehouse)s\"."
+
+msgctxt "model:ir.ui.menu,name:menu_gls_credential_form"
+msgid "GLS Credentials"
+msgstr "GLS Zugangsdaten"
+
+msgctxt "selection:carrier,shipping_service:"
+msgid "GLS"
+msgstr "GLS"
+
+msgctxt "selection:carrier.credential.gls,server:"
+msgid "Production"
+msgstr "Produktion"
+
+msgctxt "selection:carrier.credential.gls,server:"
+msgid "Testing"
+msgstr "Testing"
+
+msgctxt "view:carrier.credential.gls:"
+msgid "Credential Informations"
+msgstr "Zugangsdaten"
+
+msgctxt "view:carrier:"
+msgid "GLS"
+msgstr "GLS"
+
+msgctxt "view:stock.package.type:"
+msgid "GLS"
+msgstr "GLS"
