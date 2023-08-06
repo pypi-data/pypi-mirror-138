@@ -1,0 +1,6 @@
+thumbor_plugins/optimizers/pngcrush/__init__.py,sha256=eB1hBvuU1Yat__SdE2h1Gg4zeP1P1GhiazZE7Qcy2Q4,1268
+thumbor_plugins/optimizers/pngcrush/config.py,sha256=rGJFb0sF8o7-Fz7yW7PZvo6UOHPt_h66inFJRVMYMoA,139
+thumbor_plugins_pngcrush-0.1.0.dist-info/METADATA,sha256=W2G_76K4D0DiW1yMMaPnQPlWbQIMFjunS1E2wUtpCzc,900
+thumbor_plugins_pngcrush-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+thumbor_plugins_pngcrush-0.1.0.dist-info/top_level.txt,sha256=ZEGICU2TxMFcSh4m3K_iSH08aBXskrNO20Mqk2ngbeU,16
+thumbor_plugins_pngcrush-0.1.0.dist-info/RECORD,,
