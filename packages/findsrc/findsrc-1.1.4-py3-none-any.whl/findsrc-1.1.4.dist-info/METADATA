@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: findsrc
+Version: 1.1.4
+Summary: Search tool for sources
+Home-page: https://github.com/timxx/findsrc
+Author: Weitian Leung
+Author-email: weitianleung@gmail.com
+License: Apache-2.0
+Keywords: find tool source grep
+Platform: Platform Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorama ; platform_system == "Windows"
+
+# findsrc
+
+## Search tool for sources
+
+### Usage
+`findsrc [-h] [-e <ext> | -n <name>] [-p <path>] [-i] [-j <N>] [--profile] <pattern>`
+
+Most of the time just type `findsrc pattern` under you sources tree will do the works.
+
+
+### Install
+`pip install findsrc`
+
+
