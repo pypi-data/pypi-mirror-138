@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+CalcalcZB.egg-info/PKG-INFO
+CalcalcZB.egg-info/SOURCES.txt
+CalcalcZB.egg-info/dependency_links.txt
+CalcalcZB.egg-info/top_level.txt
+calcalc/CalCalc.py
+calcalc/__init__.py
+calcalc/tests/__init__.py
+calcalc/tests/test_calculate.py
