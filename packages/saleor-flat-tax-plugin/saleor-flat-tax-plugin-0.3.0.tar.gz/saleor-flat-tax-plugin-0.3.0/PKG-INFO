@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: saleor-flat-tax-plugin
+Version: 0.3.0
+Summary: Saleor Flat Tax Plugin
+Home-page: https://github.com/carlosa54/saleor-flat-tax-plugin
+License: MIT
+Keywords: saleor,plugins
+Author: Carlos Ramírez
+Author-email: carlosarg54@gmail.com
+Requires-Python: >=3.9,<3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/carlosa54/saleor-flat-tax-plugin
+Description-Content-Type: text/markdown
+
+# Saleor Flat Tax Plugin
+
+`saleor-flat-tax-plugin` is a small plugin to enable flat taxes in Saleor.
+
+It's based out of Saleor's
+[VatlayerPlugin](https://github.com/saleor/saleor/blob/main/saleor/plugins/vatlayer/plugin.py#L49). Using the same
+calculations but modified to use the taxes configured through the plugin and not take Country into consideration.
+
+_Disclaimer_: This project is not connected/endorsed by saleor's community
+
+## Installation ##
+
+Using pip:
+
+```bash
+pip install saleor-flat-tax-plugin
+```
+
+Once installed Saleor will automatically detect the plugin, and you'll be able to see it in Saleor's dashboard
