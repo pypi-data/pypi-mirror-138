@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pyhangul
+Version: 0.2
+Summary: cn12
+Home-page: https://github.com/CN-12/pyhangul
+Author: cn12
+Author-email: gamdragon2@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/CN-12/pyhangul
+Keywords: ccpy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+
+UNKNOWN
+
