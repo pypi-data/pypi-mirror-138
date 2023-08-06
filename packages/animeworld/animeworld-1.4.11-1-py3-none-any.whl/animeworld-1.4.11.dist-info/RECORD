@@ -1,0 +1,12 @@
+animeworld/__init__.py,sha256=5lH_p1AoAuBAN3e0NbcDIB233kGZrVsPIZjBpxe1-RU,229
+animeworld/anime.py,sha256=Q5hC0QkUsfnTxN0XAUQ2hmX97zsXhLteahct0mViTjk,5571
+animeworld/episodio.py,sha256=3Xc6CikSu1A3M2PcrJH2KLcpFJiTQDBIgDUXJIMA7YM,3519
+animeworld/exceptions.py,sha256=cZAoCbSf0b_crT3nT1dmuWQeYO07wefN94SiVDNua_M,1124
+animeworld/globals.py,sha256=WiTL5FQw_8oRPX_ljDXLQa1wzt7Bnb79mT75n1Noo9A,200
+animeworld/server.py,sha256=KHFPU5UJwbm613v7zO3fLXxTPj4WZfk3D4n47MUFHYQ,7625
+animeworld/utility.py,sha256=V7I5UIyXhfgKZmBVc3I-rWfbmxMGG0P2y_kQ2I2ULsM,3653
+animeworld-1.4.11.dist-info/LICENSE,sha256=BVuJMZq5Jsiq-aE-7rsKfPYAg6-OsgGqm5bdlG9kHHA,1085
+animeworld-1.4.11.dist-info/METADATA,sha256=Wco5iMbTZfoEV2elJSXkcMGN_A2Cy1xwYb05SomWWBE,2519
+animeworld-1.4.11.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+animeworld-1.4.11.dist-info/top_level.txt,sha256=N42Uo7vdWtJftf0C4pBgvqfdKZdERBXY1aYgMGIqO7M,11
+animeworld-1.4.11.dist-info/RECORD,,
