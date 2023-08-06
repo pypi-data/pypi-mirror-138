@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+civet/__init__.py
+civet/abstract_data.py
+civet/minc.py
+civet/surface.py
+civet/xfm.py
+pycivet.egg-info/PKG-INFO
+pycivet.egg-info/SOURCES.txt
+pycivet.egg-info/dependency_links.txt
+pycivet.egg-info/top_level.txt
