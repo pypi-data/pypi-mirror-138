@@ -1,0 +1,8 @@
+point_transformer_pytorch/__init__.py,sha256=VCf7BQ51U835Z2VBIhitBt1gtoWVaAj56sJPagAfYP0,191
+point_transformer_pytorch/multihead_point_transformer_pytorch.py,sha256=nmpQX1mBw6OIQjTc3-GKjA1S5uI9ErFV-q0d7THuVng,4522
+point_transformer_pytorch/point_transformer_pytorch.py,sha256=5B8dMFXxX5EncyPW-3HINIDzk7VDcwzxJs5qzKJ-PfU,3504
+point_transformer_pytorch-0.1.5.dist-info/LICENSE,sha256=As9u198X-U-vph5noInuUfqsAG2zX_oXPHDmdjwlPPY,1066
+point_transformer_pytorch-0.1.5.dist-info/METADATA,sha256=r_TgxNX-g-V8UQQgNj74muYkEVksFVyoYlY4z6WkfXI,687
+point_transformer_pytorch-0.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+point_transformer_pytorch-0.1.5.dist-info/top_level.txt,sha256=YrQPZJfu7mgPXMqPOjfamyq_h1-iHpurBGY7sBnlZhA,26
+point_transformer_pytorch-0.1.5.dist-info/RECORD,,
