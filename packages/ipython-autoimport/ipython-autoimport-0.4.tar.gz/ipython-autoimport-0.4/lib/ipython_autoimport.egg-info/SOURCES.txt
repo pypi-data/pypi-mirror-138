@@ -1,0 +1,16 @@
+.gitignore
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+.github/workflows/build.yml
+lib/ipython_autoimport.py
+lib/ipython_autoimport.egg-info/PKG-INFO
+lib/ipython_autoimport.egg-info/SOURCES.txt
+lib/ipython_autoimport.egg-info/dependency_links.txt
+lib/ipython_autoimport.egg-info/requires.txt
+lib/ipython_autoimport.egg-info/top_level.txt
+tests/test_autoimport.py
+tests/a/__init__.py
+tests/a/b/__init__.py
+tests/a/b/c.py
