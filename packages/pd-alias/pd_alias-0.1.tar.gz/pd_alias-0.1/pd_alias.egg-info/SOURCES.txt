@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+./pd/__init__.py
+pd_alias.egg-info/PKG-INFO
+pd_alias.egg-info/SOURCES.txt
+pd_alias.egg-info/dependency_links.txt
+pd_alias.egg-info/top_level.txt
