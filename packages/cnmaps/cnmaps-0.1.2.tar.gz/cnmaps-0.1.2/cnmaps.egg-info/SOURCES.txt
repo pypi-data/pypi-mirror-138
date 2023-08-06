@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+cnmaps/__init__.py
+cnmaps/data.py
+cnmaps/names.py
+cnmaps/regions.py
+cnmaps.egg-info/PKG-INFO
+cnmaps.egg-info/SOURCES.txt
+cnmaps.egg-info/dependency_links.txt
+cnmaps.egg-info/requires.txt
+cnmaps.egg-info/top_level.txt
+data/__init__.py
