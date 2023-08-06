@@ -1,0 +1,3 @@
+datefinder>=0.7.1
+geotext>=0.4.0
+python-dateutil>=2.8.2
