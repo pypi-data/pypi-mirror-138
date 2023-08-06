@@ -1,0 +1,16 @@
+webgeocalc/__init__.py,sha256=6Ja00BjXQ0z4758tlMyHfHCpASCJ52FBJHz-QdSDWtQ,868
+webgeocalc/api.py,sha256=QcsKtJ3pezYfSNbOCW2g_szdir7YN7f7HYQkjVKEEIg,11196
+webgeocalc/calculation.py,sha256=-9vOFY6ymaBgTTP8VuW6hvwJpGRMGvYn7P8hbaOz308,62658
+webgeocalc/calculation_types.py,sha256=NA5S7le5eb6aycauCVKihgzUzYSImMOoMt71rPq6D5Q,25579
+webgeocalc/cli.py,sha256=45lhXKVYuN9KEVCyqzJSTbumXd9fHMSa3tqwpPLzCiA,10816
+webgeocalc/decorator.py,sha256=cK6EzijsnrXKXeKsXsBC6b7mL19UWkA5wZhJxpD_zcA,1422
+webgeocalc/errors.py,sha256=Au9QnN_fRxBnInFxzxdIpsNtb-cBVjj7qjqR9r0PqXc,4390
+webgeocalc/types.py,sha256=mNI3P_O3P-TdbmGVncCezZ-sIf5q1ctOQwWuEvgb9oM,1745
+webgeocalc/vars.py,sha256=OAZ0Utw9tXh15GCz8cwNlOQ3PFHtpuiouY7T67jJEsQ,4537
+webgeocalc/version.py,sha256=8ETCA9Nj1CYMy9-3M8l2FDxZSo_URxPzfGgd8mNLY0c,56
+webgeocalc-1.4.0.dist-info/LICENSE.md,sha256=x7qUq0sI4vk4i_v1oGKf7k2GmRKOgkqwfQkNxTHJuT0,1102
+webgeocalc-1.4.0.dist-info/METADATA,sha256=j5ik12BOXHyde5yQeTyVMc1Nz1MPxFY5hM2v9HOGMVM,9095
+webgeocalc-1.4.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+webgeocalc-1.4.0.dist-info/entry_points.txt,sha256=GIdTQEfavoRr9xT3-bpYL2M3yxJvFDM-mI-Lzpw-ayg,915
+webgeocalc-1.4.0.dist-info/top_level.txt,sha256=3NCW2DZXhEujuOmLN_HMAb4mCGiHYJhxgXyc-ki2Yh4,11
+webgeocalc-1.4.0.dist-info/RECORD,,
