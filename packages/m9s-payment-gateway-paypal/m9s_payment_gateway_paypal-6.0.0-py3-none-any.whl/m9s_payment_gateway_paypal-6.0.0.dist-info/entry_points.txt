@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    payment_gateway_paypal = trytond.modules.payment_gateway_paypal
+    
