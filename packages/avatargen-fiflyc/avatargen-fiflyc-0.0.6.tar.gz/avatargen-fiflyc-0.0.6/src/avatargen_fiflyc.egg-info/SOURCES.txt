@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/avatargen/__init__.py
+src/avatargen/generation.py
+src/avatargen_fiflyc.egg-info/PKG-INFO
+src/avatargen_fiflyc.egg-info/SOURCES.txt
+src/avatargen_fiflyc.egg-info/dependency_links.txt
+src/avatargen_fiflyc.egg-info/requires.txt
+src/avatargen_fiflyc.egg-info/top_level.txt
