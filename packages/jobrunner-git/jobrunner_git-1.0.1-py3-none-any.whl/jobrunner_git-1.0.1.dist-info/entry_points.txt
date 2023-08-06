@@ -1,0 +1,2 @@
+[wwade.jobrunner]
+jobrunner_git_project = jobrunner_git.project
