@@ -1,0 +1,8 @@
+pytest>=3.0.0
+port-for>=0.6.0
+mirakuru>=2.0.0
+rabbitpy
+
+[tests]
+pytest-cov
+pytest-xdist
