@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+clevertest/__init__.py
+clevertest/cleverdict.py
+clevertest/test_cleverdict.py
+clevertext/__init__.py
+clevertext/clevertext.py
+clevertext/test_clevertext.py
+clevertext.egg-info/PKG-INFO
+clevertext.egg-info/SOURCES.txt
+clevertext.egg-info/dependency_links.txt
+clevertext.egg-info/top_level.txt
