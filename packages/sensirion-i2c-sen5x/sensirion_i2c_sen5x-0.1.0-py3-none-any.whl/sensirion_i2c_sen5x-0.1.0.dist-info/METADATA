@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: sensirion-i2c-sen5x
+Version: 0.1.0
+Summary: I2C Driver for Sensirion SEN5x Sensors
+Home-page: https://github.com/sensirion/python-i2c-sen5x
+Author: Urban Bruhin
+Author-email: info@sensirion.com
+License: BSD
+Keywords: sensirion i2c sen5x sen50 sen54 sen55 driver
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: System :: Hardware :: Hardware Drivers
+Requires-Python: >=3.5, <4
+Requires-Dist: sensirion-i2c-driver (~=1.0.0)
+Provides-Extra: test
+Requires-Dist: flake8 (~=3.9.2) ; extra == 'test'
+Requires-Dist: pytest (~=5.4.3) ; extra == 'test'
+Requires-Dist: pytest-cov (~=2.12.1) ; extra == 'test'
+Requires-Dist: sensirion-shdlc-sensorbridge (~=0.1.1) ; extra == 'test'
+
+sensirion-i2c-sen5x
+===================
+
+This package contains the driver for the Sensirion SEN5x sensors using
+the IÂ²C interface.
+
+The driver provides all IÂ²C commands as Python methods and handles all the
+low-level things like type conversions, CRC calculation, error handling
+etc.
+
+
+Installation and Usage
+----------------------
+
+The user manual is available at https://sensirion.github.io/python-i2c-sen5x/.
+
+CHANGELOG
+---------
+
+0.1.0
+:::::
+- Initial release
+
+
