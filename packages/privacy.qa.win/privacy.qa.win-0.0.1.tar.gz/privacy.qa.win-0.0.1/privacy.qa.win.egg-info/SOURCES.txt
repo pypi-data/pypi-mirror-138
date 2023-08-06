@@ -1,0 +1,6 @@
+setup.py
+privacy.qa.win.egg-info/PKG-INFO
+privacy.qa.win.egg-info/SOURCES.txt
+privacy.qa.win.egg-info/dependency_links.txt
+privacy.qa.win.egg-info/top_level.txt
+privacy/qa/win/__init__.py
