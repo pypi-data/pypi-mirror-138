@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: riksdagenapi
+Version: 0.0.2a1
+Summary: Libray for accessing the Riksdagen API
+Home-page: https://github.com/dpriskorn/riksdagen-api
+Author: Dennis Priskorn
+Author-email: dp_public@riseup.net
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/dpriskorn/riksdagen-api/issues
+Keywords: riksdagen
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Riksdagen API
+This library makes it easy to get data from Riksdagen
+
+See http://data.riksdagen.se/dokumentation/ for details.
+
+## What I learned from writing this
+* Writing this library I intentionally tried 
+  using Test Driven Development. This proved to be 
+  a valuable exercise!
+  
+## License
+GPLv3+
+
