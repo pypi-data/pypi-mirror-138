@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+csconverter.py
+setup.py
+csconverter.egg-info/PKG-INFO
+csconverter.egg-info/SOURCES.txt
+csconverter.egg-info/dependency_links.txt
+csconverter.egg-info/top_level.txt
