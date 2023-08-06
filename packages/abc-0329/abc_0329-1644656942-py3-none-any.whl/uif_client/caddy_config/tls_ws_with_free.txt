@@ -1,0 +1,37 @@
+{
+	servers :443 {
+		protocol {
+			experimental_http3
+		}
+	}
+
+	servers :80 {
+		protocol {
+			allow_h2c
+		}
+	}
+}
+
+{domain}/api {
+   reverse_proxy 127.0.0.1:4566
+}
+
+{domain}/handle {
+   reverse_proxy 127.0.0.1:9090
+}
+
+{domain}/uif {
+   reverse_proxy 127.0.0.1:10000
+}
+
+{domain}/uif_free {
+   reverse_proxy 127.0.0.1:10001
+}
+
+{domain} {
+   respond "Hello world!"
+}
+
+{domain}/main {
+   respond "Hello world!"
+}
