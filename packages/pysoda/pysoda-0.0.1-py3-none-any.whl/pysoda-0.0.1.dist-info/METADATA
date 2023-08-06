@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: pysoda
+Version: 0.0.1
+Summary: Pysoda,Pygame Zero Plus
+Home-page: https://github.com/pysoda/pysoda
+Author: Anek Kanokapiwat
+Author-email: anek@rsu.ac.th
+License: LGPL-3.0
+Project-URL: Bug Reports, https://github.com/pysoda/pysoda/issues
+Project-URL: Source, https://github.com/pysoda/pysoda/
+Keywords: python,game,pygame,GUI,OpenCV,Image Processiing,Tensorflow
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Education
+Classifier: Topic :: Games/Entertainment
+
+Pysoda
+------
+
+Pysoda is extend of Pygame Zero.
+
+Feature
+-------
+- Easy as Pygame Zero
+- Full Screen Mode => fullscreen() , window()
+- Mouse Cursor On/Off => mouse_on(),mouse_off()
+
+Raad Map
+--------
+- Scroll & Tiled support
+- 2D Physic
+- Image Processing (OpenCV)
+- AI (Tensorflow)
+
+Installation
+------------
+pip install pysoda
+
+
+Change from Pygame Zero
+-----------------------
+    - import pgzrun => from pysoda import *
+    - pgzrun.go() => run()
+
+Some examples
+-------------
+::
+
+    from pysoda import *
+    WIDTH = 300
+    HEIGHT = 300
+    def draw():
+        fullscreen()
+        screen.fill((128, 0, 0))
+    run()
+
+
+
