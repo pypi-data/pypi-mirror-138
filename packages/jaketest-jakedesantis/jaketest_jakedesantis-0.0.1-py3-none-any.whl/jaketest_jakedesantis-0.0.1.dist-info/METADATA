@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: jaketest-jakedesantis
+Version: 0.0.1
+Summary: Just a test
+Home-page: https://github.com/jakedesantis/PyPI
+Author: Jake DeSantis
+Author-email: jake.desantis@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/jakedesantis/PyPI/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# jaketest Package
+
+This is a test  package. Please ignore!
+
+
