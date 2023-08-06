@@ -1,0 +1,17 @@
+tomlkit
+pandas
+pvl
+numpy
+python-dateutil
+tqdm
+lxml
+yarl
+kalasiris
+dask
+fastparquet
+rioxarray
+matplotlib
+hvplot
+requests
+astropy
+fastcore
