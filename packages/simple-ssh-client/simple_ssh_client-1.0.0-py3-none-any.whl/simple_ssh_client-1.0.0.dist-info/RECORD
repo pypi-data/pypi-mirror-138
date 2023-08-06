@@ -1,0 +1,6 @@
+simple_ssh_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_ssh_client/client.py,sha256=VO7L8JAziEIElPXbCGXwyIJqYHeSOXAvFjMCPHOq76c,3961
+simple_ssh_client/schema.py,sha256=g4vCdcaPuRz9OElNA7sHzpf3fJRwpyEb4rpIQK-ZTyE,877
+simple_ssh_client-1.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+simple_ssh_client-1.0.0.dist-info/METADATA,sha256=4P4V1JYJ01cDTixEUc3RAlG5jVsDorLC0OeESuEN_eU,694
+simple_ssh_client-1.0.0.dist-info/RECORD,,
