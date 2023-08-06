@@ -1,0 +1,7 @@
+tqdm
+ffmpeg-python
+lxml
+requests
+xmler
+PyQt5
+PyQt5-sip
