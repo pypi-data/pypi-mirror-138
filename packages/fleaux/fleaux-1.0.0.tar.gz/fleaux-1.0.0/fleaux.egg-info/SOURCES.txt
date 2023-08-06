@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+fleaux/__init__.py
+fleaux/__main__.py
+fleaux.egg-info/PKG-INFO
+fleaux.egg-info/SOURCES.txt
+fleaux.egg-info/dependency_links.txt
+fleaux.egg-info/entry_points.txt
+fleaux.egg-info/requires.txt
+fleaux.egg-info/top_level.txt
