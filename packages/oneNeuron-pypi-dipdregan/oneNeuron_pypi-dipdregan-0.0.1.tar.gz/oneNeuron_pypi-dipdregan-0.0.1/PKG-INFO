@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: oneNeuron_pypi-dipdregan
+Version: 0.0.1
+Summary: It's implementation of perceptron
+Home-page: https://github.com/dipdregan/oneNeuron_pypi
+Author: Dipendra Pratap
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/dipdregan/oneNeuron_pypit/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# oneNeuron_pypi
+
+## another -: 
+##### Dipendra Pratap
+## create direcotry inside directory
+```bash
+mkdirs src/oneNeuron
+```
+## create direcotry inside directory the directory create another directory
+```bash
+mkdirs -p src/oneNeuron
+```
+### create file inside directory 
+```bash
+touch src/oneNeuron/perceptron.py
+```
+
+# oneNeuron_pypi
+oneNeuron_pypi
+
+
+
+## How to use this
+
+```python
+from oneNeuron.perceptron import Perceptron
+
+## get X and y and then use below commands
+model = Perceptron(eta=eta, epochs=epochs)
+model.fit(X, y)
+```
+
+# Reference -
+[official python docs](https://packaging.python.org/tutorials/packaging-projects/)
+
+[github docs for github actions](https://docs.github.com/en/actions/guides/building-and-testing-python#publishing-to-package-registries)
+
