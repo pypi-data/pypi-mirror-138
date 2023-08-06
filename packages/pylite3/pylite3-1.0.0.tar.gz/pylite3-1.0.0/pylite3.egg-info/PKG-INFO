@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: pylite3
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/nguyenvantat1182002/pylite3
+Author: nguyenvantat1182002
+Author-email: nguyenvantat1182002@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.8
