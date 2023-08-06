@@ -1,0 +1,12 @@
+beautifulsoup4
+pytest
+python-magic
+tika
+requests
+elasticsearch>7,<7.14
+elasticsearch_dsl>7,<7.14
+pyunpack
+pandas==1.1.5
+xlrd==1.2.0
+pytest-mock
+py7zr
