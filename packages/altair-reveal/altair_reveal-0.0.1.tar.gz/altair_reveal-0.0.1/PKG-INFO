@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: altair_reveal
+Version: 0.0.1
+Summary: Reveal theme for Altair library
+Home-page: http://www.github.com/cirlabs/altair-theme-reveal
+Author: Soo Oh
+Author-email: soh@revealnews.org
+License: MIT
+Description: UNKNOWN
+Keywords: python,altair,theme,cir,reveal,investigative
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
