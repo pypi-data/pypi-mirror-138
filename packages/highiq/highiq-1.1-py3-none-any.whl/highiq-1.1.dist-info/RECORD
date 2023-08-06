@@ -1,0 +1,16 @@
+highiq/__init__.py,sha256=XHhY9QCzlN-dLlqZ0Hvfm0qg3NSVD_ULFgXeAgEWKlY,96
+highiq/calc/__init__.py,sha256=hSa_4RpOuQ4BgLtMUKgAcrv20LiIdtZEhsdddNZqEQ8,333
+highiq/calc/moments.py,sha256=gN0HPRYbbxc_K5km8dleOu5ZkQVZRmEbHOXjPEgmKEo,9534
+highiq/calc/spectra.py,sha256=Y7-68ZcmiLcapQAiA2dBKBjUcoJlZqilTyVuZkfZvS0,9785
+highiq/io/__init__.py,sha256=5ncvT-a35xL8j2c10fV3fd76L9it78yo7fb3U0S_aGQ,282
+highiq/io/arm_data.py,sha256=xLZXZ9Hf_HrPIZMBmzG8sfUbu23H9qobZJ7SpWWXczo,6847
+highiq/testing/__init__.py,sha256=hvUhtYtkwbSkKd5x5UhZd9spaJSrkfBGKWriRT55Sl4,331
+highiq/testing/data/testsig.a1.20180801.000003.nc,sha256=eJ5T0iYJASTc2JxFEXeihZawaYARrNd7u9viyy_zUXo,1301993
+highiq/vis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+highiq/vis/plots.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+highiq-1.1.dist-info/LICENSE,sha256=yuFZvDO8wx2FGQ9u30iNedg7YXU3sYAkfqxEnjZJBKY,1786
+highiq-1.1.dist-info/METADATA,sha256=y1pxKPseSBIjCZhG94Cz_IcabNqJ3wpDu33fIiQQC5Q,1025
+highiq-1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+highiq-1.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+highiq-1.1.dist-info/top_level.txt,sha256=kj531peKP8Vax61Wqix_eK3oxgCLTyv0Tz5bfV_zCmY,7
+highiq-1.1.dist-info/RECORD,,
