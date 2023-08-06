@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: testexprep
+Version: 0.0.1
+Summary: Testing installation of External Package from GitHub repo
+Home-page: https://github.com/ronaldmaj/testexprep
+Author: Ginan-Team
+Author-email: rmaj@frontiersi.com.au
+License: MIT
+Project-URL: Bug Tracker, https://github.com/ronaldmaj/testexprep/issues
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: unlzw
+
+# testexprep
+Test repo for installing packages
+
+
