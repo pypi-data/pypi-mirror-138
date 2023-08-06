@@ -1,0 +1,5 @@
+[run]
+source = trytond.modules.account_invoice_time_supply
+
+[report]
+omit = */tests/*,*/setup.py
