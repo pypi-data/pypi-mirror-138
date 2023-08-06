@@ -1,0 +1,15 @@
+RAMP/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+RAMP/commands_discovery.py,sha256=H2EDz-GvLicOQf25QYmIVbPZ-urVUWYyl5XwSXC1pQ0,3938
+RAMP/common.py,sha256=5U5eKff6oAYQcVeMQnRqOisNKu7P6f3XAuYfjxKe6_k,852
+RAMP/config.py,sha256=q0YotuZ6-bjXOmZu1WPT6FNGkIsrCzA55EtWgiYXcOA,310
+RAMP/disposableredis/__init__.py,sha256=anZ7ACYKwQQ4qCACQfmnue1TQ_YBEIkO2wPucG0LBFM,2467
+RAMP/module_metadata.py,sha256=KfDNK2UKioW2KTf1P613g7QmeNOnK04lEdS6TyaU7RI,3057
+RAMP/packer.py,sha256=dGUZxt1pOYgd-OVYHbhQlxHXMUcQ7XijorexzfJhW_U,6057
+RAMP/ramp.py,sha256=8QEnoG3b4QnirDkjKCAoD4stuXA8nDxCeS5w4XFXwKo,4583
+RAMP/unpacker.py,sha256=4rsS6ckDMQtLUXx3iavUUA1nnEh8uEOPGylTqIU7Q2M,6116
+RAMP/version.py,sha256=apIyTRN-urNuqMuzgc9sEiT4Hw7Jlc0EY8X5ZWyLL70,127
+ramp_packer-2.3.0.dist-info/entry_points.txt,sha256=Q_MTnhVXKKIPtwHEeGbr18i1A1__BsmLp5HdVXU8-v0,39
+ramp_packer-2.3.0.dist-info/LICENSE,sha256=WYKh6c9g5bQjBCxzM_8yfKI5ZaAgd6xAKypJ1P0Ye9Y,1310
+ramp_packer-2.3.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+ramp_packer-2.3.0.dist-info/METADATA,sha256=ukNKzttEYKWJSkH59n3C74VwA149ZVyPYo7MHkhb9vs,5800
+ramp_packer-2.3.0.dist-info/RECORD,,
