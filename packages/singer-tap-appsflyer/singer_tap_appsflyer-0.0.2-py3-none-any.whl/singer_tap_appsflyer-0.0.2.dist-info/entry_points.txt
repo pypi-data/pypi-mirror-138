@@ -1,0 +1,2 @@
+[console_scripts]
+tap-appsflyer = tap_appsflyer:main

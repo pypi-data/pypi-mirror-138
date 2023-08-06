@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: singer-tap-appsflyer
+Version: 0.0.2
+Summary: Singer.io tap for extracting data from the AppsFlyer API
+Home-page: https://github.com/izzudinhafiz/tap-appsflyer
+Author: Stitch, Inc. & Izzudin Hafiz
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
+Requires-Dist: attrs (==16.3.0)
+Requires-Dist: singer-python (==1.6.0a2)
+Requires-Dist: requests (==2.20.0)
+Requires-Dist: backoff (==1.3.2)
+Provides-Extra: dev
+Requires-Dist: bottle ; extra == 'dev'
+Requires-Dist: faker ; extra == 'dev'
+
+UNKNOWN
+
