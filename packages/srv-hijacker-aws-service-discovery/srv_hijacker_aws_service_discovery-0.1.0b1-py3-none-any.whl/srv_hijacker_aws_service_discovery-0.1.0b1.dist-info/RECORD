@@ -1,0 +1,5 @@
+srv_hijacker/__init__.py,sha256=MXQH1Boi8Q67RMwhB-AIMzZ14m467Eh3p8WozmBCCMg,33
+srv_hijacker/srv_hijacker.py,sha256=qPsOYf7gUBqz2fIfiuUkwXv-gfbBC9ZsP8_sZpoCUuQ,6037
+srv_hijacker_aws_service_discovery-0.1.0b1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+srv_hijacker_aws_service_discovery-0.1.0b1.dist-info/METADATA,sha256=XZWFY3cJ33ATP9GLgEp9mZ_Tb-ddujuF4Fj26-OFsnY,368
+srv_hijacker_aws_service_discovery-0.1.0b1.dist-info/RECORD,,
