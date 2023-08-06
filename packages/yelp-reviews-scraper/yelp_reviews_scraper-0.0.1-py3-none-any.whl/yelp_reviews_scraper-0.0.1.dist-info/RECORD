@@ -1,0 +1,8 @@
+yelp_reviews_scraper/__init__.py,sha256=AHsbo_lw3YtS4QAP5G5BDfwXbrxaD3f8YUNlU82mZLc,42
+yelp_reviews_scraper/client.py,sha256=UWLN3nnhw196qMjtWGrr9aDyainM6wajsGkRb5TIo3g,2269
+yelp_reviews_scraper/utils.py,sha256=oiulVwRIdZln6r2wCL03UdkvGw5M3ikmzHu_3UCt5M0,106
+yelp_reviews_scraper-0.0.1.dist-info/LICENSE,sha256=UIp30ue1HZit7tMmSK0SS3swJBqOcLLnLJn5LY5YdNE,1036
+yelp_reviews_scraper-0.0.1.dist-info/METADATA,sha256=wtZb3ExgBRA5WIYypOXXv0OO8I3yKGchK6xuxXu3o2A,3913
+yelp_reviews_scraper-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+yelp_reviews_scraper-0.0.1.dist-info/top_level.txt,sha256=CLPqh8-_yh4qVq10U3D3frcQ-jQIbg3J45RTnRGLqVA,21
+yelp_reviews_scraper-0.0.1.dist-info/RECORD,,
