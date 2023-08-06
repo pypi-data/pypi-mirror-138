@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "strangeworks-qiskit"
+version = "0.3.2"
+description = "Strangeworks Qiskit SDK Extension"
+readme = "DESCRIPTION.md"
+authors = ["Strange Devs <hello@strangeworks.com>"]
+license = "Apache-2.0"
+packages = [
+    {include = "strangeworks"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.8, <3.10"
+strangeworks = "^0.2.0"
+qiskit = "0.34.2"
+qiskit-aer = "0.10.3"
+qiskit-ibmq-provider = "0.18.3"
+qiskit-terra = "0.19.2"
+
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+Flask = "^2.0.2"
+pytest = "^7.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "setuptools", "wheel"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--disable-warnings"
+testpaths = [
+    "tests",
+]
