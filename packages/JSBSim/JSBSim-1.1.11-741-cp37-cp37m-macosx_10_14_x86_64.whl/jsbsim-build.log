@@ -1,0 +1,4 @@
+building 'jsbsim' extension
+creating build/temp.macosx-10.14-x86_64-3.7
+gcc -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -I/usr/local/opt/sqlite/include -I/usr/local/opt/sqlite/include -Isrc -I/Users/runner/hostedtoolcache/Python/3.7.12/x64/include/python3.7m -c jsbsim.cxx -o build/temp.macosx-10.14-x86_64-3.7/jsbsim.o -std=c++11
+g++ -bundle -undefined dynamic_lookup -L/usr/local/opt/sqlite/lib -L/usr/local/opt/sqlite/lib build/temp.macosx-10.14-x86_64-3.7/jsbsim.o -L../src -L/Users/runner/hostedtoolcache/Python/3.7.12/x64/lib -lJSBSim -lm -o build/lib.macosx-10.14-x86_64-3.7/jsbsim.cpython-37m-darwin.so
