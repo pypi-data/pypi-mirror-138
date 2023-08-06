@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: lxe
+Version: 0.0.1
+Summary: lxe is a library that stores different xe files.
+Home-page: https://github.com/DaMuffinDev/lxe
+Author: DaMuffin
+License: UNKNOWN
+Keywords: lxe,lxe lib,rxe,sxe,mxe,python,python3
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: wheel
+
+# lxe
+lxe is a module that stores files like (rxe, mxe &amp; sxe)
+
+
