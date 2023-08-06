@@ -1,0 +1,2 @@
+[console_scripts]
+tl = tl.tl:app
