@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+pycivet.egg-info/PKG-INFO
+pycivet.egg-info/SOURCES.txt
+pycivet.egg-info/dependency_links.txt
+pycivet.egg-info/top_level.txt
