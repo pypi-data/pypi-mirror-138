@@ -1,0 +1,3 @@
+building 'jsbsim' extension
+gcc -pthread -DNDEBUG -O2 -fPIC -Isrc -I/opt/python/pp37-pypy37_pp73/include -c jsbsim.cxx -o build/temp.linux-x86_64-3.7/jsbsim.o -std=c++11
+g++ -pthread -shared build/temp.linux-x86_64-3.7/jsbsim.o -L../src -lJSBSim -lm -o build/lib.linux-x86_64-3.7/jsbsim.pypy37-pp73-x86_64-linux-gnu.so
