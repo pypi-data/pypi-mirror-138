@@ -1,0 +1,13 @@
+tidybear/__init__.py,sha256=PiijGJ6IpYtGtHQMJ9KgWVf1jDKGVmN32y25zES01FQ,479
+tidybear/groupby.py,sha256=lILIYQyQtIMnGmWgHZqapLgoDlHCzmjLXm2GUXNrIv0,7114
+tidybear/verbs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tidybear/verbs/count.py,sha256=b1MlUoUDYEL5-ovq3JQRZs2Q_9sCCUhdt6HMWISz__Q,836
+tidybear/verbs/mutate.py,sha256=GrjXYMEEdRYfpC1YU5qAeOTZsZv0eC5j38JNi3Zfg1U,648
+tidybear/verbs/pivot.py,sha256=-_4ZU8JEvVyLQae-zXs0IQpJEtqwKEGLoBbMWuVT5W0,3239
+tidybear/verbs/rename.py,sha256=pp3MjEYPUDmHxKAyUt0N6KrORMyulU3Osg0kA75dDJ4,1884
+tidybear/verbs/slice.py,sha256=KW-kc8RNinvKVdw92oGIIWUpYydyfnDxoywMSLwPtm4,1679
+tidybear-0.0.4.dist-info/LICENSE,sha256=IJL1bJhr7qF94a-0w8N230ijUh-cAaomHAawNxPqfE8,1072
+tidybear-0.0.4.dist-info/METADATA,sha256=cIDSrj077UdBMhX3m1v5te_EHGpKI200udJ3FBcjPrg,1746
+tidybear-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tidybear-0.0.4.dist-info/top_level.txt,sha256=zpCxexasKD2QQ37wxJTbOvbKILC0teF7lGAr-wTq83s,9
+tidybear-0.0.4.dist-info/RECORD,,
