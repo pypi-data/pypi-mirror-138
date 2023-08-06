@@ -1,0 +1,3 @@
+[console_scripts]
+pytemplate=pytemplator.cli:main
+
