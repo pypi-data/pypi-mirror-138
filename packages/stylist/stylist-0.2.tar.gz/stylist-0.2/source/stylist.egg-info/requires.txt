@@ -1,0 +1,10 @@
+fparser>=0.0.12
+
+[dev]
+check-manifest
+flake8
+mypy
+
+[test]
+pytest
+pytest-cov
