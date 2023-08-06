@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pysimenv
+Version: 0.0.1
+Summary: A framework for performing numerical simulation of dynamic systems
+Home-page: https://github.com/minii93/python-sim-env
+Author: Sangmin Lee
+Author-email: everlastingminii@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# python-sim-env
+python-sim-env is a framework for performing numerical simulation of dynamic systems based on python.
+
+
