@@ -1,0 +1,9 @@
+pgbackup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pgbackup/cli.py,sha256=ROrqtJzQeghf0tkVoSfO1630OUK8gk-BSPUKYP3eAsU,1571
+pgbackup/pgdump.py,sha256=PV3M8zVjIhkm2ug79vVmoFQVytOp248ESotk5Lhm55Q,442
+pgbackup/storage.py,sha256=t2Q6h9Go7Q82CjX0j2GI0jMV0hl77x16vP5y_hTBiw8,204
+pgbackup-1.0.dist-info/METADATA,sha256=XAer4Qb2uoHMVfi8Q3dvi-7XReH73ACtZYJFBU404i0,1056
+pgbackup-1.0.dist-info/WHEEL,sha256=ooAAk5YJ6bNSTeML7MM1iETtwnSAPO5uF-aPrbGp5-A,93
+pgbackup-1.0.dist-info/entry_points.txt,sha256=dLZYTDxV01T92qtWtwJNWTBcof1rb9BtUnyK38RQwtY,48
+pgbackup-1.0.dist-info/top_level.txt,sha256=1oOffhGyiCtqyL7Mg0k-0B0V6zDblCgcFoWY45sNb4Q,9
+pgbackup-1.0.dist-info/RECORD,,
