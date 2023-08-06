@@ -1,0 +1,4 @@
+openpyxl
+odfpy
+pyperclip
+numpy
