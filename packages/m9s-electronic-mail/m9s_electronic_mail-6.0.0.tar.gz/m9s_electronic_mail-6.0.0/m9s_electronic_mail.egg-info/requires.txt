@@ -1,0 +1,5 @@
+babel
+emailvalid
+jinja2
+m9s-trytond<6.1,>=6.0
+m9s_smtp<6.1,>=6.0
