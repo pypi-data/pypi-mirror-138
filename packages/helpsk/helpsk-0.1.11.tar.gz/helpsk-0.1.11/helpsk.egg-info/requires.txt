@@ -1,0 +1,9 @@
+matplotlib
+numpy
+pandas
+plotly_express
+python-dateutil
+PyYAML
+scikit-learn
+seaborn
+statsmodels
