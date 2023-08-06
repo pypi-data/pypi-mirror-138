@@ -1,0 +1,16 @@
+pynad/__init__.py,sha256=1W-vj9y-YWeWwpqq50zg2tYciWGewsp8pPB8Dw3BUqc,103
+pynad/aux_functions.py,sha256=G8QDXbSQdG0cjogPgMOyyAEfDYuXtUcIraXdJ6pnRtA,1548
+pynad/file.svg,sha256=qX7pkJ2HdA-UeqKekFPWW3KuVwNotwST073hI2y3_p8,1160
+pynad/folder.svg,sha256=MnJzHl9Gplr0fPQPBSVd2zRxzUgOkxsyn5u2brWkM4Q,720
+pynad/help.html,sha256=DVc4-ljAYys51uVD10vpgbEAqR4CQPKrweg9BfPFKvc,9064
+pynad/ident.py,sha256=l7onTlWnw_kD2C7MGAPjHGW1U5vWS29JwJrQSCeN7SM,17281
+pynad/main_form.py,sha256=NNv8PpUkZzwQlbYEhLJuestKtApf2kELOlJPSn87wHQ,11254
+pynad/metadata.py,sha256=tjcPeWyrbXxanhLTmkM-Yte1TnOS_t37V6p1kN6EQQA,9452
+pynad/person.py,sha256=sIpe4azdWLmEzUGkNJA7KscsPkIE0R1UwNKemCt16xI,2746
+pynad/pynad_app.py,sha256=P1_47g6GH6edhT42rVYwYn6E2mEgQuupZfoESqmhzPM,76748
+pynad-2.2.0.dist-info/LICENSE,sha256=UbBDTfTn5qmj8kv6rf4I8GW-dakDylN2cGb4fI1OGJE,35152
+pynad-2.2.0.dist-info/METADATA,sha256=bAV5IBAjbFO1q32uGSF-HY6brrnShC6jwuUU66JRxN0,6553
+pynad-2.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pynad-2.2.0.dist-info/entry_points.txt,sha256=2uMRJNVk0pQ7IaWeCAAmbXJM5pEOXB-pCN-LlTSEQwU,49
+pynad-2.2.0.dist-info/top_level.txt,sha256=k5GGQYhZimCZOHQASYWhNkI9cZl4mVsO78T0R7kkktE,6
+pynad-2.2.0.dist-info/RECORD,,
