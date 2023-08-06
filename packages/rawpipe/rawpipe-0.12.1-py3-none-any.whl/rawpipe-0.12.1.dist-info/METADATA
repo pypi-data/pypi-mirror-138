@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: rawpipe
+Version: 0.12.1
+Summary: A collection of camera raw processing algorithms.
+Home-page: http://github.com/toaarnio/rawpipe
+Author: Tomi Aarnio
+Author-email: tomi.p.aarnio@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: colorio (>=0.10.0)
+Requires-Dist: numpy (>=1.21.0)
+Requires-Dist: opencv-python-headless (>=4.5.0)
+
+UNKNOWN
+
+
