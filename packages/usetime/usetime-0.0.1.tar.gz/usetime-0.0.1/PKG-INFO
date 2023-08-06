@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: usetime
+Version: 0.0.1
+Summary: 一个装饰器，获取函数运行时间
+Home-page: https://github.com/void9main/funtime.git
+Author: void9main
+Author-email: void9main@163.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
