@@ -1,0 +1,10 @@
+MANIFEST.in
+pyproject.toml
+setup.py
+plantilla/__init__.py
+plantilla.egg-info/PKG-INFO
+plantilla.egg-info/SOURCES.txt
+plantilla.egg-info/dependency_links.txt
+plantilla.egg-info/requires.txt
+plantilla.egg-info/top_level.txt
+plantilla/styles/mecon.mplstyle
