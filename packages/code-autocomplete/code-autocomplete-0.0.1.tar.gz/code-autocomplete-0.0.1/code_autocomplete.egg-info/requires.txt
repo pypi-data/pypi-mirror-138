@@ -1,0 +1,7 @@
+loguru
+torch>=1.6.0
+transformers<5.0.0,>=4.6.0
+simpletransformers
+numpy
+fastapi
+uvicorn
