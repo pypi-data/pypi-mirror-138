@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nnodes
+Version: 0.0.1
+Summary: A workflow manager for clusters.
+Home-page: https://github.com/icui/sebox
+Author: Congyue Cui
+Author-email: ccui@princeton.edu
+License: UNKNOWN
+Description: # NNODES
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
