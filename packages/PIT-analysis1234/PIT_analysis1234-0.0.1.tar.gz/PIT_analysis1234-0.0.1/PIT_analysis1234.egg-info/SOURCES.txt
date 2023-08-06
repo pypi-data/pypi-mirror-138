@@ -1,0 +1,5 @@
+setup.py
+PIT_analysis1234.egg-info/PKG-INFO
+PIT_analysis1234.egg-info/SOURCES.txt
+PIT_analysis1234.egg-info/dependency_links.txt
+PIT_analysis1234.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: PIT_analysis1234
+Version: 0.0.1
+Summary: Tools to data analysis.
+Home-page: UNKNOWN
+Author: Jurand Pradzynski
+Author-email: j.pradzynski@student.uw.edu.pl
+License: UNKNOWN
+Description: Package allows to analyze data about PIT taxes.
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
