@@ -1,0 +1,13 @@
+pyTelegramBotCAPTCHA/__init__.py,sha256=ogZyUS4dbmXylEpJklD5w4ECI85cmv3MIcpQUmk1PGM,156
+pyTelegramBotCAPTCHA/telebot_captcha.py,sha256=kaBJfeNeJEbXBvVvmbq_F5L6uXXAGegY52SqFpSIVHI,41137
+pyTelegramBotCAPTCHA/data/languages.json,sha256=4boW6GeETqK4j2J0R1hWP_UCqx9UP6IW7J-OPKIjQM4,2291
+pyTelegramBotCAPTCHA/data/fonts/Cute_Font.ttf,sha256=8V2-JvyDim9ZsH8LJaeJZrwgXlvli7xdM_yRJKrOY-Y,29656
+pyTelegramBotCAPTCHA/data/fonts/Love.ttf,sha256=922OOvSpiMfIRlb2SXADugCieHGnJVpAU1uKv2bLTH4,48212
+pyTelegramBotCAPTCHA/data/fonts/My_Unprofessional_Handwriting.ttf,sha256=7Yazq5xQQX2fMHrIqJ24ozUXKN8LjXD2308HOuvQrtc,18312
+pyTelegramBotCAPTCHA/data/fonts/PlainAndSimple-Regular.ttf,sha256=8Dc2GJXJJYxgtuCNqkX0dK7ruLh9WZ38soMhs2h2PHM,16140
+pyTelegramBotCAPTCHA/data/fonts/WinterLandByJd-Bold.ttf,sha256=4bhEKH2NYZBJ6GRdnrXHrGQXpG5TsoeU3CCinZ-QUhk,23392
+pyTelegramBotCAPTCHA-1.1.4.dist-info/LICENSE,sha256=oO50YGSwbQnKsHaBFuwmX9DUUmHUCHya0saYoHx6rA4,35803
+pyTelegramBotCAPTCHA-1.1.4.dist-info/METADATA,sha256=RUt7BQ_3uRxewgGfeGrJMyWAj6VuJek8sW1hEUoZB04,15008
+pyTelegramBotCAPTCHA-1.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyTelegramBotCAPTCHA-1.1.4.dist-info/top_level.txt,sha256=WxoW1vbWYdMQjvMkQQRsEkY7gYZEMvfEM8pRHmZmHmc,21
+pyTelegramBotCAPTCHA-1.1.4.dist-info/RECORD,,
