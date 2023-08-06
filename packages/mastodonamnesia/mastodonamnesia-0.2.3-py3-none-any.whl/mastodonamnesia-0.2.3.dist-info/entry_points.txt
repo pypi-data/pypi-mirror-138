@@ -1,0 +1,3 @@
+[console_scripts]
+mastodonamnesia=mastodonamnesia.command_line:start
+
