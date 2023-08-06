@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/dd_selenium/__init__.py
+src/dd_selenium.egg-info/PKG-INFO
+src/dd_selenium.egg-info/SOURCES.txt
+src/dd_selenium.egg-info/dependency_links.txt
+src/dd_selenium.egg-info/top_level.txt

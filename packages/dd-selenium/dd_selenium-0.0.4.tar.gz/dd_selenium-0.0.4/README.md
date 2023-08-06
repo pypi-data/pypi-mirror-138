@@ -1,0 +1,37 @@
+# Providing drag and drop functionality in selenium python
+
+This is a basic package which provides functionality of drag and drop in python using javascript. It is compatible with youtube, instagram and most of other websites which require drag and drop for pasting/uploading a file.
+
+## How to use?
+To use this package you need to first install it using pip, type:
+
+```
+pip install dd-selenium
+```
+
+After it's done navigate back to your program and type:
+
+```
+import dd_selenium
+```
+
+Now for drag and drop you need to use a function from the package, type:
+
+```
+dd_selenium.dds(drop_target, path)
+```
+
+Replace 'drop_target' with the div you want to drag and drop in and replace 'path' with the file path on your pc.
+
+
+## Example:
+
+```
+import dd_selenium
+
+path = driver.findElement(By.PATH(""));
+
+dd_selenium.dds(path, "C:/abc.file")
+```
+
+Thanks for checking out. Suggest changes at doneatease@gmail.com
