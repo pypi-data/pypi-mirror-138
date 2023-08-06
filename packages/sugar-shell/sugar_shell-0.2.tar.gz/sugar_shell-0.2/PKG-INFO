@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sugar_shell
+Version: 0.2
+Summary: ssh tools
+Home-page: https://github.com/MikuSugar/SugarShell
+Author: mikusugar
+Author-email: syfangjie@live.cn
+License: UNKNOWN
+Platform: any
+Requires-Python: >=3
+License-File: LICENSE
+
+UNKNOWN
+
