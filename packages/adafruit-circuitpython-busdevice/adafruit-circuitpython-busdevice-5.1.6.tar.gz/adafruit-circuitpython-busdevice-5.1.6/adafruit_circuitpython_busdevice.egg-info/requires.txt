@@ -1,0 +1,2 @@
+Adafruit-Blinka>=6.20.4
+adafruit-circuitpython-typing
