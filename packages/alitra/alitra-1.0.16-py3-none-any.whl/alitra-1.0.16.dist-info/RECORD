@@ -1,0 +1,15 @@
+alitra/__init__.py,sha256=s5xLGpM1LnHvkk--ylDTr5GjEE-tqB7tsVT8e9niQyY,1646
+alitra/align_frames.py,sha256=GPZtNd2NDqU8LLEiXHps3uk3QYNg-3iYdRMj3vycrtg,5866
+alitra/frame_dataclasses.py,sha256=i9CzpKd0T7OFou41qL8P5mNp4nSfFV9xkRydBmjJGiQ,5285
+alitra/frame_transform.py,sha256=_YyimbdbQUKYvdsQ9jDfoavV20v7qMBuOupM-ljtjiI,3637
+alitra/convert/__init__.py,sha256=4vIKuzOQvaTDqxsR6UcIGiZEPHBiZzSX9Gq9-34qSt4,58
+alitra/convert/euler.py,sha256=qJBIeoMyjZwL02X0AB0eS1_czaUFEmWPKOujFmhPV2M,740
+alitra/convert/quaternion.py,sha256=fvnOWP2xVo40SQbwvWwwAotZpenR3T2W3YfMxtNWcQc,714
+alitra/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alitra/models/bounds.py,sha256=uuqjn56abl0Dbg7t7yYA9gm7QiBUQNWWYlQ7jeTzkm8,1365
+alitra/models/map_config.py,sha256=ckvn7z9B8J5pO57bHJGmJKVSFuMODMIx7jfwh8SFAo8,579
+alitra-1.0.16.dist-info/LICENSE,sha256=oUtO2eiWmRx_SAYHHlfGnTHlxD9TaU5U-pCIYkGOTiU,1064
+alitra-1.0.16.dist-info/METADATA,sha256=X6dcs0rchS1jD1tPSg9jBzKlk9-ccYaWNjX0Mg7F9UI,2063
+alitra-1.0.16.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+alitra-1.0.16.dist-info/top_level.txt,sha256=R8ji6wmvkGdVCZVPy2Y4j56FhFtmDOw2RmxwzR40EfY,7
+alitra-1.0.16.dist-info/RECORD,,
