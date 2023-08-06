@@ -1,0 +1,17 @@
+deepmerge/__init__.py,sha256=yspx-iKEgckATXlwlJdImeDt5qKjEoemDgAalWReWKE,1004
+deepmerge/compat.py,sha256=cjnj5PDSy4VvBR0qjTOlsDRkkgTQgsURr1cTdW4BZYI,64
+deepmerge/exception.py,sha256=8rrRRe7jqLI3WqPH6tr07tnJAO26rG2HnAjk0VI7x8M,551
+deepmerge/merger.py,sha256=8_5bQSMUXqRl1b44x1pggJMPg9ydiumNTItVoLMShUs,1724
+deepmerge/strategy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepmerge/strategy/core.py,sha256=TGNiZrvkXymWdWtFZgHFraTPaJ2Py24uHAeATsUDxa8,1183
+deepmerge/strategy/dict.py,sha256=JCAIOFxXdT0aeuR5iJuZuiOFUUW6SUnBuuBSA1yH-Vk,772
+deepmerge/strategy/fallback.py,sha256=JQVhFecA35U_PbNMsEJL0sjUDcEMlumor9FUZ7AOU-U,431
+deepmerge/strategy/list.py,sha256=c1jl0wR51y5nN73umduzv8S8bJOZGsU8YyFXE3EQMqg,767
+deepmerge/strategy/set.py,sha256=kGPdhNsX0fNSYXvVLfuZx7siMa55BQbG97TlAylztac,619
+deepmerge/strategy/type_conflict.py,sha256=JEUlO-SElWIO9oAXbFOpcooSWMwgT4tGz6K3K_KHyPA,695
+deepmerge-0.0.0.dist-info/LICENSE,sha256=5PU5q1T4709DMH5WraMoYSxY5vnv3XC_M2KIUIRwJy4,1072
+deepmerge-0.0.0.dist-info/METADATA,sha256=bX8alpTXKF3rbni5SNIyswibITaRyRhDiUTZ_nBIpEQ,1979
+deepmerge-0.0.0.dist-info/WHEEL,sha256=1VPi6hfNQaRRNuEdK_3dv9o8COtLGnHWJghhj4CQ28k,92
+deepmerge-0.0.0.dist-info/top_level.txt,sha256=yscF_uvoSQCmSc-eEHTLZluiPbPzKCFlKfeAJ3z7xiw,10
+deepmerge-0.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+deepmerge-0.0.0.dist-info/RECORD,,
