@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+streamlit_text_annotation/__init__.py
+streamlit_text_annotation.egg-info/PKG-INFO
+streamlit_text_annotation.egg-info/SOURCES.txt
+streamlit_text_annotation.egg-info/dependency_links.txt
+streamlit_text_annotation.egg-info/requires.txt
+streamlit_text_annotation.egg-info/top_level.txt
+streamlit_text_annotation/frontend/dist/index.html
+streamlit_text_annotation/frontend/dist/css/app.f52336a8.css
+streamlit_text_annotation/frontend/dist/js/app.5fca8e09.js
+streamlit_text_annotation/frontend/dist/js/app.5fca8e09.js.map
+streamlit_text_annotation/frontend/dist/js/chunk-vendors.7e673700.js
+streamlit_text_annotation/frontend/dist/js/chunk-vendors.7e673700.js.map
