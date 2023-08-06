@@ -1,0 +1,12 @@
+ociedoo/__init__.py,sha256=UqHHkTu0pMeu747z5CRNie6o_Tyb4jQ3b89zg_uwcTE,678
+ociedoo/__main__.py,sha256=sSv2PkQEu1GcbuCf4l79o1bEiYCXyGeoUlmgGR_OZCM,126
+ociedoo/check.py,sha256=bUBYdwu5K1V2JV4dhFh870gch9MeiZKz2bdJyzzhYIk,1826
+ociedoo/cli.py,sha256=T_NLJzE9ChVp6eENgfAPOLHEG4wWr1b_kTW75-srWjw,31570
+ociedoo/complete.py,sha256=hV31lLFpRxqTKMnJZeliwgTsRrR39RTPzg3SOzQwYXk,5600
+ociedoo/defaults/config,sha256=qwmUAjoB3kYAe8Cub-V1PVkdsagH8Bq-qp-hZ9rGH0Y,381
+ociedoo/lib.py,sha256=iNsaxGEG2627gGDGWs5zEm2pS3j_nbPIssOYYw7Cvqs,8290
+ociedoo-0.7.0.dist-info/entry_points.txt,sha256=XxjDxE9bHIjFkSmB8QgWs8qMT90zrYuopvBtjHrQKdg,44
+ociedoo-0.7.0.dist-info/LICENSE,sha256=dql8h4yceoMhuzlcK0TT_i-NgTFNIZsgE47Q4t3dUYI,34520
+ociedoo-0.7.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+ociedoo-0.7.0.dist-info/METADATA,sha256=yL6DhdRs7DoIf2vuR1m0765qpeIaqigHJLx60hs5Xlk,4626
+ociedoo-0.7.0.dist-info/RECORD,,
