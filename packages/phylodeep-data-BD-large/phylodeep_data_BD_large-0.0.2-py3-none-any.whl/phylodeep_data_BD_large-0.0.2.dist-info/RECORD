@@ -1,0 +1,8 @@
+phylodeep_data_BD_large/__init__.py,sha256=uJHWsEMn_wgcUrdAdVEvURTqjrwUnT-SKNtaCYNWSNI,286
+phylodeep_data_BD_large/ci_computation/predicted_values/BD_LARGE_CNN.csv.gz,sha256=5Fw5D4KKSGnchtASJHlMI8ljbbbOTjTkXwSXBwwmuRY,8865270
+phylodeep_data_BD_large/ci_computation/predicted_values/BD_LARGE_FFNN.csv.gz,sha256=pFufDVrHgZ1cN_ro06Rp0cfeIRJl5T-KqYXiV3wj3NM,9557572
+phylodeep_data_BD_large/ci_computation/target_values/BD_LARGE.csv.gz,sha256=S7iCGGzfsJhfBpwD9xAx5Abt-4hNg2yKrgQC6QJU440,28463107
+phylodeep_data_BD_large-0.0.2.dist-info/METADATA,sha256=VjAgOmT88aXxFzFg3V73vYfX5fU1llpdAlMbFiSHVBU,396
+phylodeep_data_BD_large-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+phylodeep_data_BD_large-0.0.2.dist-info/top_level.txt,sha256=qgr1kGYMy0_Wl4EG_PvDN6G0gYlNPmM31VaCO9rN7EQ,24
+phylodeep_data_BD_large-0.0.2.dist-info/RECORD,,
