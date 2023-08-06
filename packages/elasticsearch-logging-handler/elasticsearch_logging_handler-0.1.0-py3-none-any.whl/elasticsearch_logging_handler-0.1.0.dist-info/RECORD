@@ -1,0 +1,9 @@
+elasticsearch_logging_handler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+elasticsearch_logging_handler/handlers.py,sha256=Hj4ZO_zDZFauuy5IfsIlR3d7vP_uY9in2XBukQIGXq0,2114
+elasticsearch_logging_handler/queue_handler.py,sha256=FRZUNCFxv1F5cnfDAFEpOXctwPYMXnMTmqqyg_H1lN0,468
+elasticsearch_logging_handler/sending_handler.py,sha256=qUJMOn5pF0aVNKWY_kebjL5lkUhW0No5WMHaQe2KbIg,2721
+elasticsearch_logging_handler-0.1.0.dist-info/LICENSE,sha256=4HS9G69VGZcWhig5GdlzO1goeKxyaZEaLg8wf-qH50s,1071
+elasticsearch_logging_handler-0.1.0.dist-info/METADATA,sha256=tugAooMoZsAP1gChGiFdK4dEkdhL54qa6uoLbAz-dj4,2209
+elasticsearch_logging_handler-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+elasticsearch_logging_handler-0.1.0.dist-info/top_level.txt,sha256=BGicnRuQFqRQPlrBIEaixN8D0dO8VEvOa3oBdbGJm9Y,30
+elasticsearch_logging_handler-0.1.0.dist-info/RECORD,,
