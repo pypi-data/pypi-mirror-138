@@ -1,0 +1,14 @@
+tatter/KL_estimator.py,sha256=tVFUGrv5-lahOFwsG4InyzJdfXno6G6VHidzZGvltAs,1911
+tatter/TST_estimators.py,sha256=uqXAwJQfEY9Mur-RqWJsCzXAJQ0KChhB__QHIKYH830,17102
+tatter/__init__.py,sha256=sr5Ql4UNKqYnR5ytPfyT1_IRu_a1ACzsA5g72Xjs2eU,196
+tatter/posterior_predictive_check.py,sha256=4_8Rm-JKA4_DA42mfMPV0Sn4tWe8mR0ScIR1AhghXI8,9837
+tatter/test_module.py,sha256=Xyl-6hFIMAWWAUDp6-gmhnUeDEw6xAAfJJCvxg68EI8,700
+tatter/tests/__init__.py,sha256=mrzwE_QED6hjazU0s5vFlzDcFDY2FlCW8_8db7XpdOI,201
+tatter/tests/cluster_catalog_comp.py,sha256=3ewnAhLKONtV_i_0bGzKzb0uPK8EGhZfePUnBqcK-hI,6096
+tatter/tests/gaussian_vs_lognormal.py,sha256=BtvENVl7F8qpvlijlhqDYMKR_NZ2AwBTDd1TS0PZ-XE,3136
+tatter/tests/mnist_test.py,sha256=Ikw1mzdPvHHc2zvH4jOTvxQePzhrbS2xrFvxZF8Nt8Q,3142
+tatter-1.0.0.dist-info/LICENSE,sha256=JviMz5e0XP8hpjto5unwLevTb86DeXUZMPPQt-zr4qM,1077
+tatter-1.0.0.dist-info/METADATA,sha256=hlWBxiBHJUZ6pBWUFlWsBa55HKx323T-sRCju2Sm5oc,4060
+tatter-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tatter-1.0.0.dist-info/top_level.txt,sha256=vGU5yXI0zNzyCZ-AV6BEK3KfGyAu76LutNg0ucLQGhg,7
+tatter-1.0.0.dist-info/RECORD,,
