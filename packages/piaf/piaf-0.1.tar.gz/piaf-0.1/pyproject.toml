@@ -1,0 +1,64 @@
+[tool.poetry]
+authors = ["Pierre DUBAILLAY <pierredubaillay@outlook.fr>"]
+description = "A FIPA-compliant Agent Platform written in python."
+keywords = ["Python Agent Framework", "multi-agent", "asyncio"]
+license = "MIT"
+name = "piaf"
+readme = "README.md"
+repository = "https://gitlab.com/ornythorinque/piaf"
+version = "0.1"
+
+[tool.poetry.dependencies]
+aiormq = {version = "^6", optional = true}
+python = ">=3.6.2,<4"
+yarl = {version = "^1", optional = true}
+
+[tool.poetry.extras]
+amqp-mtp = ["aiormq", "yarl"]
+
+[tool.poetry.dev-dependencies]
+black = {version = "^21.11b1", allow-prereleases = true}
+coverage = {version = "^5", extras = ["toml"]}
+flake8 = "^3"
+mypy = "^0"
+pydocstyle = "^5"
+pytest = "^5"
+pytest-html = "^3"
+rstcheck = "^3"
+sphinx = "^3"
+sphinx_rtd_theme = "^0"
+
+[tool.coverage.run]
+branch = true
+command_line = "-m pytest"
+data_file = ".report/coverage/data_db"
+omit = ["*/examples/*"]
+source = ["piaf"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "pragma: no cover",
+  "raise NotImplementedError()",
+  "if __name__ == \"__main__\"",
+  "if TYPE_CHECKING:",
+]
+fail_under = 80
+
+[tool.coverage.html]
+directory = ".report/coverage/html"
+
+[tool.coverage.xml]
+output = ".report/coverage/xml/coverage.xml"
+
+[tool.coverage.json]
+output = ".report/coverage/json/coverage.json"
+
+[tool.pytest.ini_options]
+addopts = "--junitxml=.report/tests/xml/report.xml --html=.report/tests/html/tests.html"
+junit_family = "xunit2"
+junit_suite_name = "piaf"
+testpaths = "tests"
+
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry>=0.12"]
