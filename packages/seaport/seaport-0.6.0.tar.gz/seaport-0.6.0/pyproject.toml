@@ -1,0 +1,75 @@
+[tool.poetry]
+name = "seaport"
+version = "0.6.0"
+description = "The modern MacPorts portfile updater"
+authors = ["harens <harensdeveloper@gmail.com>"]
+maintainers = ["harens <harensdeveloper@gmail.com>"]
+readme = "README.rst"
+license = "BSD-3-Clause"
+include = ["seaport/py.typed"]
+keywords = ["MacPorts", "Port", "Bump", "Checksums"]
+classifiers = [
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+  "Typing :: Typed"
+]
+
+homepage = "https://seaport.rtfd.io/"
+repository = "https://github.com/harens/seaport"
+documentation = "https://seaport.rtfd.io/"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/harens/seaport/issues"
+
+[tool.poetry.dependencies]
+python = ">=3.8, <3.10"  # See https://python-poetry.org/docs/dependency-specification/#caret-requirements
+click = "^7.1.2"
+beartype = "^0.6.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.3"
+black = "^21.4b2"
+isort = "^5.8.0"
+mypy = "^0.812"
+pytest-subprocess = "^1.1.0"
+pytest-mock = "^3.6.0"
+pytest-cov = "^2.11.1"
+coverage = "^5.4"
+pydocstyle = "^6.0.0"
+pre-commit = "^2.12.1"
+pyupgrade = "^2.13.0"
+safety = "^1.10.3"
+Sphinx = "^3.5.4"
+sphinx-autobuild = "^2021.3.14"
+sphinx-click = "^2.7.1"
+sphinxcontrib-programoutput = "^0.17"
+pytype = "^2021.4.26"
+
+[tool.poetry.scripts]
+seaport = "seaport._init:seaport"
+
+[tool.coverage.run]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+
+# See https://pycqa.github.io/isort/docs/configuration/black_compatibility/
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+# See https://black.readthedocs.io/en/stable/compatible_configs.html#pylint
+[tool.pylint.messages_control]
+disable = "C0330, C0326"
+
+[tool.pylint.format]
+max-line-length = "88"
+
+[tool.black]
+target-version = ["py38"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
