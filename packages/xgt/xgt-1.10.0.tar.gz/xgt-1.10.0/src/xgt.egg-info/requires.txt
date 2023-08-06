@@ -1,0 +1,7 @@
+grpcio>=1.20
+protobuf>=3.12.0
+
+[extra]
+pandas>=0.24.2
+jupyter
+pyarrow
