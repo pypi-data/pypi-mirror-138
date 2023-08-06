@@ -1,0 +1,5 @@
+[run]
+source = trytond.modules.account_tax_rule_zone_eu
+
+[report]
+omit = */tests/*,*/setup.py
