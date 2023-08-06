@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+graypy_gelf_https/graypy_gelf_https.egg-info/PKG-INFO
+graypy_gelf_https/graypy_gelf_https.egg-info/SOURCES.txt
+graypy_gelf_https/graypy_gelf_https.egg-info/dependency_links.txt
+graypy_gelf_https/graypy_gelf_https.egg-info/requires.txt
+graypy_gelf_https/graypy_gelf_https.egg-info/top_level.txt
