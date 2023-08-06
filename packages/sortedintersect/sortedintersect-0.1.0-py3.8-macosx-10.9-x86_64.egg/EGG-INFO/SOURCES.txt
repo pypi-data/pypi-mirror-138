@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.py
+sortedintersect/__init__.py
+sortedintersect/intersect.cpp
+sortedintersect/intersect.pyx
+sortedintersect.egg-info/PKG-INFO
+sortedintersect.egg-info/SOURCES.txt
+sortedintersect.egg-info/dependency_links.txt
+sortedintersect.egg-info/requires.txt
+sortedintersect.egg-info/top_level.txt
+tests/__init__.py
+tests/benchmark.png
+tests/benchmark.py
+tests/test_sortedintersect.py
