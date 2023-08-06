@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: calcalc-toy
+Version: 1.2
+Summary: A calculator that evaluates string expressions both locally or using WolframAlpha.
+Author: Yang Lyu
+Author-email: yanglyu902@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A calculator that evaluates string numerical expressions both locally or using WolframAlpha.
+
