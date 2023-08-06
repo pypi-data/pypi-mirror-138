@@ -1,0 +1,16 @@
+special/__init__.py,sha256=TCWxZSAG7k9a74hoEPqXqeO5CCYnnHWwptBIVBAQOj0,544
+special/chi.py,sha256=HRTMsJb4YkP835qbOglXZWlpLjNlFd4uZyXvWbx7VGE,13281
+special/config.py,sha256=idtoyWk0986kzlqkHsHqd-14XCBh0xuil5vkN-06_hM,1164
+special/fits.py,sha256=ubaym4waPRc_jQuF3iAiBaHKNO2SAEKwzcAJQskbDb0,4606
+special/mcmc.py,sha256=KlAhTPri4yZgoUcHP2kjezmJ07_emKVLMZpC7o1siZs,77157
+special/model_resampling.py,sha256=4MMWYPMiSQWrTGqGBGY7sCA-nN9DUt1lfBRit1JAuhc,51619
+special/spec_corr.py,sha256=cPRrZCyX2V1vQ-vBgeyC7hcYcFmOtRb9zjUDdnWkcoo,13119
+special/spec_indices.py,sha256=fSBfNdyitBYEyAC9yLumy7fj4YdO80lZV71M4EKXI2s,6305
+special/template_fit.py,sha256=dC73TK9dIbGXQIulXB7NDBJ-VgrZDHrkbG4F1EmQ0Vg,27079
+special/utils_mcmc.py,sha256=bc-JdA99CA_Rlb26oYwoUADKjzq4sPjDXWxGT2hDUxE,3855
+special/utils_spec.py,sha256=Yzi9Ji6lyCpyMhzCF52TMviR4RYL_yiIFZv0-azOS2w,17809
+special-0.0.1.dist-info/LICENSE,sha256=1cwkVKpJKUSQZr8I8PJA3btDoMjNqeLcR39HAKsecvA,1069
+special-0.0.1.dist-info/METADATA,sha256=e6xUKiem2yJtKplhcwMAtz9kchClmYXTAq1lCHouZUI,7212
+special-0.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+special-0.0.1.dist-info/top_level.txt,sha256=67F4WBLiin6q1on1_QZUY0k0eWNpsHn3Pto8UWuaI9E,8
+special-0.0.1.dist-info/RECORD,,
