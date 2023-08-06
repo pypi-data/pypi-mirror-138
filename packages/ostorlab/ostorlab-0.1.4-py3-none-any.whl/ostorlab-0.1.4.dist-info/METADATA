@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: ostorlab
+Version: 0.1.4
+Summary: Ostorlab Agent and Extensibility CLI and SDK
+Home-page: https://github.com/Ostorlab/ostorlab
+Author: ostorlab team
+Author-email: legends@ostorlab.dev
+License: MIT
+Project-URL: Documentation, https://docs.ostorlab.co/
+Project-URL: Source, https://github.com/Ostorlab/ostorlab
+Project-URL: Changelog, https://docs.ostorlab.co/changelog/
+Project-URL: Tracker, https://github.com/Ostorlab/ostorlab/issues
+Project-URL: Twitter, https://twitter.com/OstorlabSec
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Werkzeug
+Requires-Dist: aio-pika
+Requires-Dist: click
+Requires-Dist: docker
+Requires-Dist: flask
+Requires-Dist: jsonschema
+Requires-Dist: protobuf
+Requires-Dist: requests
+Requires-Dist: rich
+Requires-Dist: ruamel.yaml
+Requires-Dist: tenacity
+Requires-Dist: sqlalchemy
+Requires-Dist: semver
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+Provides-Extra: testing
+Requires-Dist: setuptools ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-asyncio ; extra == 'testing'
+Requires-Dist: pytest-mock ; extra == 'testing'
+Requires-Dist: pytest-rabbitmq ; extra == 'testing'
+Requires-Dist: pytest-timeout ; extra == 'testing'
+Requires-Dist: requests-mock ; extra == 'testing'
+
+# ostorlab
+
+Work in Progress.
+
+## Testing
+
+Work in Progress.
+
+### Docker-based tests
+
+Tests marked with `docker` tag are integration test that interact with the Docker API. Make sure to disable them in
+test environment where Docker API is not accessible:
+
+```shell
+pytest -v -m "not docker"
+```
+
