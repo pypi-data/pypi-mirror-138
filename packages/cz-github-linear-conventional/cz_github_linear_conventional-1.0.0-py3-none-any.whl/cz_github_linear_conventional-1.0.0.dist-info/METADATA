@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: cz-github-linear-conventional
+Version: 1.0.0
+Summary: Extend the commitizen tools to create conventional commits and README that link to Linear.app and GitHub.
+Home-page: https://github.com/ThimDeveloper/cz-github-linear-conventional
+Author: Thim Lohse
+Author-email: thim.lohse@caesari.se
+License: MIT
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: commitizen
+Provides-Extra: testing
+Requires-Dist: pytest (>=6.2.5) ; extra == 'testing'
+Requires-Dist: flake8 (>=3.9) ; extra == 'testing'
+
+# cz-github-linear-conventional
+
+# pre-commit
+
+Add this plugin to the dependencies of your commit message linting with pre-commit.
+
+Example .pre-commit-config.yaml file.
+
+```yaml
+repos:
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: v2.17.13
+    hooks:
+      - id: commitizen
+        stages: [commit-msg]
+        additional_dependencies: [cz-github-jira-conventional]
+```
+
+Install the hook with
+
+```bash
+pre-commit install --hook-type commit-msg
+```
+
+
