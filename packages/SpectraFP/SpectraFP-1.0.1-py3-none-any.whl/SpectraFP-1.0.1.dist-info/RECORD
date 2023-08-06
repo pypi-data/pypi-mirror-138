@@ -1,0 +1,14 @@
+SpectraFP/__init__.py,sha256=2d2V3HNeDhWp5mWvrGeW4C-vvRPWnidmAuIPj_ftIOE,47
+SpectraFP/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SpectraFP/fastsimilarity.py,sha256=MvbhUCNOfp3HY74zWLRMTq8WzEHAtcOgDrY_2Qk6sxM,6551
+SpectraFP/spectrafp.py,sha256=N4j1A-HSI0pcRVxxN91YryQO3XKY_jWuzEQSO4Utyo4,17091
+SpectraFP/data/df_l0.pkl,sha256=V6ic19fnsHZFP97WUPQaCITSUcN5WSX_zsGm4RGw4xY,1823819
+SpectraFP/data/df_l1.pkl,sha256=eeBBqUKxUcDWE_33WDK0Sb37wKbb_JyfvzKL0Fn_GGU,1293653
+SpectraFP/data/df_l2.pkl,sha256=02mioL1i3EzgNg2CxklScOEix27l-akhXdRjcZff65w,1137937
+SpectraFP/data/df_l3.pkl,sha256=opYJmnt1nUiwI_GsIlepZJ4YrRFucrmMKDBbx-lLv00,1049874
+SpectraFP/data/df_l4.pkl,sha256=DPGpjcgRr39N_1_UU3zYeeorJDxYArxu8Z1pjfJjc9U,987956
+SpectraFP-1.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+SpectraFP-1.0.1.dist-info/METADATA,sha256=xHeiOrOku4kEfv_cHhjOhp3kuFt-0tUUXf5socaVgI8,1822
+SpectraFP-1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+SpectraFP-1.0.1.dist-info/top_level.txt,sha256=-V4jbd1ZZ-A7mTLST-QWpki53IaOf4mwqH7b-DmtosY,10
+SpectraFP-1.0.1.dist-info/RECORD,,
