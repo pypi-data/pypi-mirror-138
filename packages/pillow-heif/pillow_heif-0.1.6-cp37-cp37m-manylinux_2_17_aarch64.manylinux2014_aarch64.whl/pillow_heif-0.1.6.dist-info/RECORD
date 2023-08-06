@@ -1,0 +1,17 @@
+pillow_heif/error.py,sha256=y0qOarMaitL2P6V-v0RaMHoyHbCrbPwjDMJrj8wGkk0,488
+pillow_heif/reader.py,sha256=GI8W7dry6aWXgZj4acgUkUyPfrvs4m9Rx4TmLaU8tp8,10840
+pillow_heif/_version.py,sha256=knbTWyUJClXcUfXClwAhqYGL7_9vk2PrZsn5WipwT6Y,53
+pillow_heif/constants.py,sha256=qGXN96m0176D9zy5efPfJijH4pXLP1IPeCR_2X3NCCE,1448
+pillow_heif/_lib_version.py,sha256=ZaVUX6QKDjd-cqO_fy9-fARTsRpFZFAkXvQD9RWgBzM,232
+pillow_heif/libheif.abi3.so,sha256=KiMG8d0n0ZIWF-QxA0DCN0PAuEZU3ZR-yMREGjQkoVo,593608
+pillow_heif/as_opener.py,sha256=miFJLEh9pDLOJQ3XoAT77C0e08ZzPt7Lki-RLD2YRLE,1881
+pillow_heif/__init__.py,sha256=Mik-whKQQSHxocAQnRME4C6YhOcQPAHiLP84TOf38iY,525
+pillow_heif/writer.py,sha256=DAMqE384SaWPRK4kP4u0A-BZ9C_C3OMEF0Ph9GrTL7Q,149
+pillow_heif.libs/libaom-37535f51.so.3.2.0,sha256=t5YCGM12z29DzjULIvzRFOOdQJC4OwOQb8uAtDTqnUw,5180520
+pillow_heif.libs/libheif-b2b5a493.so.1.12.0,sha256=xPknrGAyjq5MWLf8YpcX4qVmzG_F1l7VWU0kXFq7IkM,13155744
+pillow_heif.libs/libde265-c20ab92a.so.0.1.1,sha256=_6BQ6XLo-2WjPyI6D6hDR9OI4SP_QKXoeqR6a_IH0hc,5483488
+pillow_heif-0.1.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pillow_heif-0.1.6.dist-info/METADATA,sha256=R8AtXMh5nO76ucim3a5Z2z4C3M0OIWxISwZ-4mow58M,4739
+pillow_heif-0.1.6.dist-info/top_level.txt,sha256=j74V0g6eQvjRQz-JY7wvPS6utKRXbPKF0n--mwYHjVU,12
+pillow_heif-0.1.6.dist-info/RECORD,,
+pillow_heif-0.1.6.dist-info/WHEEL,sha256=Cz3bSTJ2wQTkCasIgodFHSTMKrNbZaUwzQBBd3MOJWI,152
