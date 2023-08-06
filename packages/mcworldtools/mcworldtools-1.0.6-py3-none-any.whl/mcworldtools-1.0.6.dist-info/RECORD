@@ -1,0 +1,11 @@
+mcworldtools/main.py,sha256=NdpkFrwsLKgnVHnLcMDP_u2QbSj1apQ6Ak9QWQ0cQ74,4116
+mcworldtools/tools/find_blocks.py,sha256=sAOG34RFscU1wb4dhS09tjmiXhgNMst2QpN6ZzhnKn0,72
+mcworldtools/tools/find_command_blocks.py,sha256=AAmgnSuPe4rJyONqOZgfdY1Nl8i6JtoB9XnfEudfJe8,71
+mcworldtools/tools/find_entities.py,sha256=AAmgnSuPe4rJyONqOZgfdY1Nl8i6JtoB9XnfEudfJe8,71
+mcworldtools/tools/remove_unused_chunks.py,sha256=d1ErcRkN1AGrYOxcZ_j7b8H6Rau4J25jGIy5EZbOuW8,5694
+mcworldtools-1.0.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mcworldtools-1.0.6.dist-info/METADATA,sha256=Z2Q8TGfGjUlQ4XpnVTfjX5DHj4-XIHj7YMPi99K4gs4,3217
+mcworldtools-1.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mcworldtools-1.0.6.dist-info/entry_points.txt,sha256=mljv0rZfvqO7ezYggoQ599M1W3GQc09VXGRuJmbRyvo,57
+mcworldtools-1.0.6.dist-info/top_level.txt,sha256=t7RnWMXewUje6y-D70u0QFICXpGEq1fq7GWZiADjvao,13
+mcworldtools-1.0.6.dist-info/RECORD,,
