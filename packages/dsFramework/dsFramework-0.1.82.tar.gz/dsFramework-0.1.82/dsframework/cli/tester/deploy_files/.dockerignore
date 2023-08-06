@@ -1,0 +1,10 @@
+# This file is intended to minimize the build context, please add all of your research / Utils libraries that are not
+# needed for the docker image creation
+
+# DVC related
+.dvc
+
+# Git related
+.git
+
+# Research / Utils
