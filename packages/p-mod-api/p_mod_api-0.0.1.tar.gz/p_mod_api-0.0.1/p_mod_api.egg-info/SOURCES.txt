@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+p_mod_api.egg-info/PKG-INFO
+p_mod_api.egg-info/SOURCES.txt
+p_mod_api.egg-info/dependency_links.txt
+p_mod_api.egg-info/requires.txt
+p_mod_api.egg-info/top_level.txt

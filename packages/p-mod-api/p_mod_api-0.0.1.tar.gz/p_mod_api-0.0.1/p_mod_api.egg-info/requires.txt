@@ -1,0 +1,15 @@
+SimpleITK
+torchio
+unet
+monai==0.6.0
+pillow
+sklearn
+matplotlibtorchcam
+torchvision
+imageio
+numpy
+scipy
+nibabel
+dicom2nifti
+pydicom
+tqdm
