@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: narnia
+Version: 0.0.4
+Summary: Journey across a vast expanse of experimental designs and data.
+Home-page: https://github.com/kokonut27/narnia
+Author: kokonut27
+Author-email: beol0127@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# narnia
+> Journey across a vast expanse of experimental designs and data
+
+
+
