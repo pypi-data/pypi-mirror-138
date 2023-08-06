@@ -1,0 +1,9 @@
+mypylib/__init__.py,sha256=7ChfqvFx7Z5lBewuxbqlomQyQ75WTlev2vkm9xyu5Eo,23274
+mypylib/mvp.py,sha256=VIK5hFoEmmc_AM_VVj_Qm5JBcWssm8ouWAHnS-EPgN4,24230
+mypylib/shioaji_history_ticks.py,sha256=NrhqBRj7WPpChVXPD2LvH1fDF6aPEM95vjf7HOURNnI,778
+mypylib/shioaji_ticks.py,sha256=JOLkePRRL_pYH0fyfbf2axabQRlGYLvR73KY6qLNRgs,1312
+mypylib/ti.py,sha256=SgX9ngz62OvYN7QafdldzWGbviBc35KIcET0bFduZIQ,7662
+mypylib-0.1.22.dist-info/METADATA,sha256=hqU7axIroGK9HuuEhXTHZpXuDoKA7CGrXurzvX3_Rkk,374
+mypylib-0.1.22.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mypylib-0.1.22.dist-info/top_level.txt,sha256=rQy7C1tRSkJyZiRadAFekXyQAQNxZD0-9Tu6eqeADxE,25
+mypylib-0.1.22.dist-info/RECORD,,
