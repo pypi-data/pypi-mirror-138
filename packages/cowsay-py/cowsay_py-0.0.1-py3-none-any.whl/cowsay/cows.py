@@ -1,0 +1,385 @@
+
+from .lib.cows.C3PO import C3PO
+from .lib.cows.R2_D2 import R2_D2
+from .lib.cows.USA import USA
+from .lib.cows.ackbar import Ackbar
+from .lib.cows.aperture import Aperture
+from .lib.cows.aperture_blank import Aperture_blank
+from .lib.cows.armadillo import Armadillo
+from .lib.cows.atat import Atat
+from .lib.cows.atom import Atom
+from .lib.cows.awesome_face import Awesome_face
+from .lib.cows.banana import Banana
+from .lib.cows.bearface import Bearface
+from .lib.cows.beavis_zen import Beavis_zen
+from .lib.cows.bees import Bees
+from .lib.cows.bill_the_cat import Bill_the_cat
+from .lib.cows.biohazard import Biohazard
+from .lib.cows.bishop import Bishop
+from .lib.cows.black_mesa import Black_mesa
+from .lib.cows.bong import Bong
+from .lib.cows.box import Box
+from .lib.cows.broken_heart import Broken_heart
+from .lib.cows.bud_frogs import Bud_frogs
+from .lib.cows.bunny import Bunny
+from .lib.cows.cake import Cake
+from .lib.cows.cake_with_candles import Cake_with_candles
+from .lib.cows.cat import Cat
+from .lib.cows.cat2 import Cat2
+from .lib.cows.catfence import Catfence
+from .lib.cows.charizardvice import Charizardvice
+from .lib.cows.charlie import Charlie
+from .lib.cows.cheese import Cheese
+from .lib.cows.chessmen import Chessmen
+from .lib.cows.chito import Chito
+from .lib.cows.claw_arm import Claw_arm
+from .lib.cows.clippy import Clippy
+from .lib.cows.companion_cube import Companion_cube
+from .lib.cows.cower import Cower
+from .lib.cows.cowfee import Cowfee
+from .lib.cows.cthulhu_mini import Cthulhu_mini
+from .lib.cows.cube import Cube
+from .lib.cows.daemon import Daemon
+from .lib.cows.dalek import Dalek
+from .lib.cows.dalek_shooting import Dalek_shooting
+from .lib.cows.default import Default
+from .lib.cows.docker_whale import Docker_whale
+from .lib.cows.doge import Doge
+from .lib.cows.dolphin import Dolphin
+from .lib.cows.dragon import Dragon
+from .lib.cows.dragon_and_cow import Dragon_and_cow
+from .lib.cows.ebi_furai import Ebi_furai
+from .lib.cows.elephant import Elephant
+from .lib.cows.elephant2 import Elephant2
+from .lib.cows.elephant_in_snake import Elephant_in_snake
+from .lib.cows.explosion import Explosion
+from .lib.cows.eyes import Eyes
+from .lib.cows.fat_banana import Fat_banana
+from .lib.cows.fat_cow import Fat_cow
+from .lib.cows.fence import Fence
+from .lib.cows.fire import Fire
+from .lib.cows.flaming_sheep import Flaming_sheep
+from .lib.cows.fox import Fox
+from .lib.cows.ghost import Ghost
+from .lib.cows.ghostbusters import Ghostbusters
+from .lib.cows.glados import Glados
+from .lib.cows.goat import Goat
+from .lib.cows.goat2 import Goat2
+from .lib.cows.golden_eagle import Golden_eagle
+from .lib.cows.hand import Hand
+from .lib.cows.happy_whale import Happy_whale
+from .lib.cows.hedgehog import Hedgehog
+from .lib.cows.hellokitty import Hellokitty
+from .lib.cows.hippie import Hippie
+from .lib.cows.hiya import Hiya
+from .lib.cows.hiyoko import Hiyoko
+from .lib.cows.homer import Homer
+from .lib.cows.hypno import Hypno
+from .lib.cows.ibm import Ibm
+from .lib.cows.iwashi import Iwashi
+from .lib.cows.jellyfish import Jellyfish
+from .lib.cows.karl_marx import Karl_marx
+from .lib.cows.kilroy import Kilroy
+from .lib.cows.king import King
+from .lib.cows.kiss import Kiss
+from .lib.cows.kitten import Kitten
+from .lib.cows.kitty import Kitty
+from .lib.cows.knight import Knight
+from .lib.cows.koala import Koala
+from .lib.cows.kosh import Kosh
+from .lib.cows.lamb import Lamb
+from .lib.cows.lamb2 import Lamb2
+from .lib.cows.lightbulb import Lightbulb
+from .lib.cows.lobster import Lobster
+from .lib.cows.lollerskates import Lollerskates
+from .lib.cows.luke_koala import Luke_koala
+from .lib.cows.mailchimp import Mailchimp
+from .lib.cows.maze_runner import Maze_runner
+from .lib.cows.mech_and_cow import Mech_and_cow
+from .lib.cows.meow import Meow
+from .lib.cows.milk import Milk
+from .lib.cows.minotaur import Minotaur
+from .lib.cows.mona_lisa import Mona_lisa
+from .lib.cows.moofasa import Moofasa
+from .lib.cows.mooghidjirah import Mooghidjirah
+from .lib.cows.moojira import Moojira
+from .lib.cows.moose import Moose
+from .lib.cows.mule import Mule
+from .lib.cows.mutilated import Mutilated
+from .lib.cows.nyan import Nyan
+from .lib.cows.octopus import Octopus
+from .lib.cows.okazu import Okazu
+from .lib.cows.owl import Owl
+from .lib.cows.pawn import Pawn
+from .lib.cows.periodic_table import Periodic_table
+from .lib.cows.personality_sphere import Personality_sphere
+from .lib.cows.pinball_machine import Pinball_machine
+from .lib.cows.psychiatrichelp import Psychiatrichelp
+from .lib.cows.psychiatrichelp2 import Psychiatrichelp2
+from .lib.cows.pterodactyl import Pterodactyl
+from .lib.cows.queen import Queen
+from .lib.cows.radio import Radio
+from .lib.cows.ren import Ren
+from .lib.cows.renge import Renge
+from .lib.cows.robot import Robot
+from .lib.cows.robotfindskitten import Robotfindskitten
+from .lib.cows.roflcopter import Roflcopter
+from .lib.cows.rook import Rook
+from .lib.cows.sachiko import Sachiko
+from .lib.cows.satanic import Satanic
+from .lib.cows.seahorse import Seahorse
+from .lib.cows.seahorse_big import Seahorse_big
+from .lib.cows.sheep import Sheep
+from .lib.cows.shikato import Shikato
+from .lib.cows.shrug import Shrug
+from .lib.cows.skeleton import Skeleton
+from .lib.cows.small import Small
+from .lib.cows.smiling_octopus import Smiling_octopus
+from .lib.cows.snoopy import Snoopy
+from .lib.cows.snoopyhouse import Snoopyhouse
+from .lib.cows.snoopysleep import Snoopysleep
+from .lib.cows.spidercow import Spidercow
+from .lib.cows.squid import Squid
+from .lib.cows.squirrel import Squirrel
+from .lib.cows.stegosaurus import Stegosaurus
+from .lib.cows.stimpy import Stimpy
+from .lib.cows.sudowoodo import Sudowoodo
+from .lib.cows.supermilker import Supermilker
+from .lib.cows.surgery import Surgery
+from .lib.cows.tableflip import Tableflip
+from .lib.cows.taxi import Taxi
+from .lib.cows.telebears import Telebears
+from .lib.cows.template import Template
+from .lib.cows.threader import Threader
+from .lib.cows.threecubes import Threecubes
+from .lib.cows.toaster import Toaster
+from .lib.cows.tortoise import Tortoise
+from .lib.cows.turkey import Turkey
+from .lib.cows.turtle import Turtle
+from .lib.cows.tux import Tux
+from .lib.cows.tux_big import Tux_big
+from .lib.cows.tweety_bird import Tweety_bird
+from .lib.cows.vader import Vader
+from .lib.cows.vader_koala import Vader_koala
+from .lib.cows.weeping_angel import Weeping_angel
+from .lib.cows.whale import Whale
+from .lib.cows.wizard import Wizard
+from .lib.cows.wood import Wood
+from .lib.cows.world import World
+from .lib.cows.www import Www
+from .lib.cows.yasuna_01 import Yasuna_01
+from .lib.cows.yasuna_02 import Yasuna_02
+from .lib.cows.yasuna_03 import Yasuna_03
+from .lib.cows.yasuna_03a import Yasuna_03a
+from .lib.cows.yasuna_04 import Yasuna_04
+from .lib.cows.yasuna_05 import Yasuna_05
+from .lib.cows.yasuna_06 import Yasuna_06
+from .lib.cows.yasuna_07 import Yasuna_07
+from .lib.cows.yasuna_08 import Yasuna_08
+from .lib.cows.yasuna_09 import Yasuna_09
+from .lib.cows.yasuna_10 import Yasuna_10
+from .lib.cows.yasuna_11 import Yasuna_11
+from .lib.cows.yasuna_12 import Yasuna_12
+from .lib.cows.yasuna_13 import Yasuna_13
+from .lib.cows.yasuna_14 import Yasuna_14
+from .lib.cows.yasuna_16 import Yasuna_16
+from .lib.cows.yasuna_17 import Yasuna_17
+from .lib.cows.yasuna_18 import Yasuna_18
+from .lib.cows.yasuna_19 import Yasuna_19
+from .lib.cows.yasuna_20 import Yasuna_20
+from .lib.cows.ymd_udon import Ymd_udon
+from .lib.cows.zen_noh_milk import Zen_noh_milk
+
+class cows:
+    """cows yay"""
+    def C3PO(**kwargs): return C3PO(**kwargs)
+    def R2_D2(**kwargs): return R2_D2(**kwargs)
+    def USA(**kwargs): return USA(**kwargs)
+    def ackbar(**kwargs): return Ackbar(**kwargs)
+    def aperture(**kwargs): return Aperture(**kwargs)
+    def aperture_blank(**kwargs): return Aperture_blank(**kwargs)
+    def armadillo(**kwargs): return Armadillo(**kwargs)
+    def atat(**kwargs): return Atat(**kwargs)
+    def atom(**kwargs): return Atom(**kwargs)
+    def awesome_face(**kwargs): return Awesome_face(**kwargs)
+    def banana(**kwargs): return Banana(**kwargs)
+    def bearface(**kwargs): return Bearface(**kwargs)
+    def beavis_zen(**kwargs): return Beavis_zen(**kwargs)
+    def bees(**kwargs): return Bees(**kwargs)
+    def bill_the_cat(**kwargs): return Bill_the_cat(**kwargs)
+    def biohazard(**kwargs): return Biohazard(**kwargs)
+    def bishop(**kwargs): return Bishop(**kwargs)
+    def black_mesa(**kwargs): return Black_mesa(**kwargs)
+    def bong(**kwargs): return Bong(**kwargs)
+    def box(**kwargs): return Box(**kwargs)
+    def broken_heart(**kwargs): return Broken_heart(**kwargs)
+    def bud_frogs(**kwargs): return Bud_frogs(**kwargs)
+    def bunny(**kwargs): return Bunny(**kwargs)
+    def cake(**kwargs): return Cake(**kwargs)
+    def cake_with_candles(**kwargs): return Cake_with_candles(**kwargs)
+    def cat(**kwargs): return Cat(**kwargs)
+    def cat2(**kwargs): return Cat2(**kwargs)
+    def catfence(**kwargs): return Catfence(**kwargs)
+    def charizardvice(**kwargs): return Charizardvice(**kwargs)
+    def charlie(**kwargs): return Charlie(**kwargs)
+    def cheese(**kwargs): return Cheese(**kwargs)
+    def chessmen(**kwargs): return Chessmen(**kwargs)
+    def chito(**kwargs): return Chito(**kwargs)
+    def claw_arm(**kwargs): return Claw_arm(**kwargs)
+    def clippy(**kwargs): return Clippy(**kwargs)
+    def companion_cube(**kwargs): return Companion_cube(**kwargs)
+    def cower(**kwargs): return Cower(**kwargs)
+    def cowfee(**kwargs): return Cowfee(**kwargs)
+    def cthulhu_mini(**kwargs): return Cthulhu_mini(**kwargs)
+    def cube(**kwargs): return Cube(**kwargs)
+    def daemon(**kwargs): return Daemon(**kwargs)
+    def dalek(**kwargs): return Dalek(**kwargs)
+    def dalek_shooting(**kwargs): return Dalek_shooting(**kwargs)
+    def default(**kwargs): return Default(**kwargs)
+    def defaultCow(**kwargs): return Default(**kwargs)
+    def docker_whale(**kwargs): return Docker_whale(**kwargs)
+    def doge(**kwargs): return Doge(**kwargs)
+    def dolphin(**kwargs): return Dolphin(**kwargs)
+    def dragon(**kwargs): return Dragon(**kwargs)
+    def dragon_and_cow(**kwargs): return Dragon_and_cow(**kwargs)
+    def ebi_furai(**kwargs): return Ebi_furai(**kwargs)
+    def elephant(**kwargs): return Elephant(**kwargs)
+    def elephant2(**kwargs): return Elephant2(**kwargs)
+    def elephant_in_snake(**kwargs): return Elephant_in_snake(**kwargs)
+    def explosion(**kwargs): return Explosion(**kwargs)
+    def eyes(**kwargs): return Eyes(**kwargs)
+    def fat_banana(**kwargs): return Fat_banana(**kwargs)
+    def fat_cow(**kwargs): return Fat_cow(**kwargs)
+    def fence(**kwargs): return Fence(**kwargs)
+    def fire(**kwargs): return Fire(**kwargs)
+    def flaming_sheep(**kwargs): return Flaming_sheep(**kwargs)
+    def fox(**kwargs): return Fox(**kwargs)
+    def ghost(**kwargs): return Ghost(**kwargs)
+    def ghostbusters(**kwargs): return Ghostbusters(**kwargs)
+    def glados(**kwargs): return Glados(**kwargs)
+    def goat(**kwargs): return Goat(**kwargs)
+    def goat2(**kwargs): return Goat2(**kwargs)
+    def golden_eagle(**kwargs): return Golden_eagle(**kwargs)
+    def hand(**kwargs): return Hand(**kwargs)
+    def happy_whale(**kwargs): return Happy_whale(**kwargs)
+    def hedgehog(**kwargs): return Hedgehog(**kwargs)
+    def hellokitty(**kwargs): return Hellokitty(**kwargs)
+    def hippie(**kwargs): return Hippie(**kwargs)
+    def hiya(**kwargs): return Hiya(**kwargs)
+    def hiyoko(**kwargs): return Hiyoko(**kwargs)
+    def homer(**kwargs): return Homer(**kwargs)
+    def hypno(**kwargs): return Hypno(**kwargs)
+    def ibm(**kwargs): return Ibm(**kwargs)
+    def iwashi(**kwargs): return Iwashi(**kwargs)
+    def jellyfish(**kwargs): return Jellyfish(**kwargs)
+    def karl_marx(**kwargs): return Karl_marx(**kwargs)
+    def kilroy(**kwargs): return Kilroy(**kwargs)
+    def king(**kwargs): return King(**kwargs)
+    def kiss(**kwargs): return Kiss(**kwargs)
+    def kitten(**kwargs): return Kitten(**kwargs)
+    def kitty(**kwargs): return Kitty(**kwargs)
+    def knight(**kwargs): return Knight(**kwargs)
+    def koala(**kwargs): return Koala(**kwargs)
+    def kosh(**kwargs): return Kosh(**kwargs)
+    def lamb(**kwargs): return Lamb(**kwargs)
+    def lamb2(**kwargs): return Lamb2(**kwargs)
+    def lightbulb(**kwargs): return Lightbulb(**kwargs)
+    def lobster(**kwargs): return Lobster(**kwargs)
+    def lollerskates(**kwargs): return Lollerskates(**kwargs)
+    def luke_koala(**kwargs): return Luke_koala(**kwargs)
+    def mailchimp(**kwargs): return Mailchimp(**kwargs)
+    def maze_runner(**kwargs): return Maze_runner(**kwargs)
+    def mech_and_cow(**kwargs): return Mech_and_cow(**kwargs)
+    def meow(**kwargs): return Meow(**kwargs)
+    def milk(**kwargs): return Milk(**kwargs)
+    def minotaur(**kwargs): return Minotaur(**kwargs)
+    def mona_lisa(**kwargs): return Mona_lisa(**kwargs)
+    def moofasa(**kwargs): return Moofasa(**kwargs)
+    def mooghidjirah(**kwargs): return Mooghidjirah(**kwargs)
+    def moojira(**kwargs): return Moojira(**kwargs)
+    def moose(**kwargs): return Moose(**kwargs)
+    def mule(**kwargs): return Mule(**kwargs)
+    def mutilated(**kwargs): return Mutilated(**kwargs)
+    def nyan(**kwargs): return Nyan(**kwargs)
+    def octopus(**kwargs): return Octopus(**kwargs)
+    def okazu(**kwargs): return Okazu(**kwargs)
+    def owl(**kwargs): return Owl(**kwargs)
+    def pawn(**kwargs): return Pawn(**kwargs)
+    def periodic_table(**kwargs): return Periodic_table(**kwargs)
+    def personality_sphere(**kwargs): return Personality_sphere(**kwargs)
+    def pinball_machine(**kwargs): return Pinball_machine(**kwargs)
+    def psychiatrichelp(**kwargs): return Psychiatrichelp(**kwargs)
+    def psychiatrichelp2(**kwargs): return Psychiatrichelp2(**kwargs)
+    def pterodactyl(**kwargs): return Pterodactyl(**kwargs)
+    def queen(**kwargs): return Queen(**kwargs)
+    def radio(**kwargs): return Radio(**kwargs)
+    def ren(**kwargs): return Ren(**kwargs)
+    def renge(**kwargs): return Renge(**kwargs)
+    def robot(**kwargs): return Robot(**kwargs)
+    def robotfindskitten(**kwargs): return Robotfindskitten(**kwargs)
+    def roflcopter(**kwargs): return Roflcopter(**kwargs)
+    def rook(**kwargs): return Rook(**kwargs)
+    def sachiko(**kwargs): return Sachiko(**kwargs)
+    def satanic(**kwargs): return Satanic(**kwargs)
+    def seahorse(**kwargs): return Seahorse(**kwargs)
+    def seahorse_big(**kwargs): return Seahorse_big(**kwargs)
+    def sheep(**kwargs): return Sheep(**kwargs)
+    def shikato(**kwargs): return Shikato(**kwargs)
+    def shrug(**kwargs): return Shrug(**kwargs)
+    def skeleton(**kwargs): return Skeleton(**kwargs)
+    def small(**kwargs): return Small(**kwargs)
+    def smiling_octopus(**kwargs): return Smiling_octopus(**kwargs)
+    def snoopy(**kwargs): return Snoopy(**kwargs)
+    def snoopyhouse(**kwargs): return Snoopyhouse(**kwargs)
+    def snoopysleep(**kwargs): return Snoopysleep(**kwargs)
+    def spidercow(**kwargs): return Spidercow(**kwargs)
+    def squid(**kwargs): return Squid(**kwargs)
+    def squirrel(**kwargs): return Squirrel(**kwargs)
+    def stegosaurus(**kwargs): return Stegosaurus(**kwargs)
+    def stimpy(**kwargs): return Stimpy(**kwargs)
+    def sudowoodo(**kwargs): return Sudowoodo(**kwargs)
+    def supermilker(**kwargs): return Supermilker(**kwargs)
+    def surgery(**kwargs): return Surgery(**kwargs)
+    def tableflip(**kwargs): return Tableflip(**kwargs)
+    def taxi(**kwargs): return Taxi(**kwargs)
+    def telebears(**kwargs): return Telebears(**kwargs)
+    def template(**kwargs): return Template(**kwargs)
+    def threader(**kwargs): return Threader(**kwargs)
+    def threecubes(**kwargs): return Threecubes(**kwargs)
+    def toaster(**kwargs): return Toaster(**kwargs)
+    def tortoise(**kwargs): return Tortoise(**kwargs)
+    def turkey(**kwargs): return Turkey(**kwargs)
+    def turtle(**kwargs): return Turtle(**kwargs)
+    def tux(**kwargs): return Tux(**kwargs)
+    def tux_big(**kwargs): return Tux_big(**kwargs)
+    def tweety_bird(**kwargs): return Tweety_bird(**kwargs)
+    def vader(**kwargs): return Vader(**kwargs)
+    def vader_koala(**kwargs): return Vader_koala(**kwargs)
+    def weeping_angel(**kwargs): return Weeping_angel(**kwargs)
+    def whale(**kwargs): return Whale(**kwargs)
+    def wizard(**kwargs): return Wizard(**kwargs)
+    def wood(**kwargs): return Wood(**kwargs)
+    def world(**kwargs): return World(**kwargs)
+    def www(**kwargs): return Www(**kwargs)
+    def yasuna_01(**kwargs): return Yasuna_01(**kwargs)
+    def yasuna_02(**kwargs): return Yasuna_02(**kwargs)
+    def yasuna_03(**kwargs): return Yasuna_03(**kwargs)
+    def yasuna_03a(**kwargs): return Yasuna_03a(**kwargs)
+    def yasuna_04(**kwargs): return Yasuna_04(**kwargs)
+    def yasuna_05(**kwargs): return Yasuna_05(**kwargs)
+    def yasuna_06(**kwargs): return Yasuna_06(**kwargs)
+    def yasuna_07(**kwargs): return Yasuna_07(**kwargs)
+    def yasuna_08(**kwargs): return Yasuna_08(**kwargs)
+    def yasuna_09(**kwargs): return Yasuna_09(**kwargs)
+    def yasuna_10(**kwargs): return Yasuna_10(**kwargs)
+    def yasuna_11(**kwargs): return Yasuna_11(**kwargs)
+    def yasuna_12(**kwargs): return Yasuna_12(**kwargs)
+    def yasuna_13(**kwargs): return Yasuna_13(**kwargs)
+    def yasuna_14(**kwargs): return Yasuna_14(**kwargs)
+    def yasuna_16(**kwargs): return Yasuna_16(**kwargs)
+    def yasuna_17(**kwargs): return Yasuna_17(**kwargs)
+    def yasuna_18(**kwargs): return Yasuna_18(**kwargs)
+    def yasuna_19(**kwargs): return Yasuna_19(**kwargs)
+    def yasuna_20(**kwargs): return Yasuna_20(**kwargs)
+    def ymd_udon(**kwargs): return Ymd_udon(**kwargs)
+    def zen_noh_milk(**kwargs): return Zen_noh_milk(**kwargs)
