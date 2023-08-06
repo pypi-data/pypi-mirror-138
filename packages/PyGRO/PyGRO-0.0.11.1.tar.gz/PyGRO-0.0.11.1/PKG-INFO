@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: PyGRO
+Version: 0.0.11.1
+Summary: A Python Integrator for General Relativistic Orbits
+Home-page: UNKNOWN
+Author: Riccardo Della Monica
+Author-email: dellamonicariccardo@gmail.com
+License: LICENSE.txt
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# PyGRO
+### A Python integrator for General Relativistic Orbits
+
+[PyGRO](https://github.com/rdellamonica/pigro/tree/master) is a Python library that provides methods and functions to perform the numerical integration of the geodesic equations describing a particle or photon orbit in any metric theory of gravity, given an analytic expression of the metric tensor.
+
+***
+
+## Installation
+PyGRO is distributed as a Python package that can be installed through the PyPi package mangaer via:
+
+```bash
+pip install pygro
+```
+
+or by cloning [PyGRO GitHub repository](https://github.com/rdellamonica/pigro/tree/master).
+
+## Documentation
+The complete documentation for PyGRO is available on [docs](https://rdellamonica.github.io/pygro/build/html/index.html) (still work in progress).
+
+## Copyright
+
+Copyright 2020 Riccardo Della Monica
+
+PyGRO is a free software made available under the MIT License. For details see the LICENSE file.
+
