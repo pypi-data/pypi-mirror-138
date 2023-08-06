@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pysarplus
+Version: 0.6.0
+Summary: SAR prediction for use with PySpark
+Home-page: https://github.com/microsoft/recommenders/tree/main/contrib/sarplus
+Author: RecoDev Team at Microsoft
+Author-email: recodevteam@service.microsoft.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# SARplus
+
+Simple Algorithm for Recommendation (SAR) is a neighborhood based
+algorithm for personalized recommendations based on user transaction
+history. SAR recommends items that are most **similar** to the ones
+that the user already has an existing **affinity** for. Two items are
+**similar** if the users that interacted with one item are also likely
+to have interacted with the other. A user has an **affinity** to an
+item if they have interacted with it in the past.
+
+SARplus is an efficient implementation of this algorithm for Spark.
+More details can be found at
+[sarplus@microsoft/recommenders](https://github.com/microsoft/recommenders/tree/main/contrib/sarplus).
+
+
