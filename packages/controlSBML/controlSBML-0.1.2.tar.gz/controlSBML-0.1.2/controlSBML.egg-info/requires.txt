@@ -1,0 +1,16 @@
+coverage
+control
+jupyterlab
+matplotlib
+nose
+numpy
+pandas
+pip
+pylint
+python-libsbml
+seaborn
+symmathSBML
+sympy
+tellurium
+tk
+urllib3
