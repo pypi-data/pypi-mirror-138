@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pelican/plugins/similar_articles_light/__init__.py
+pelican/plugins/similar_articles_light/similar_articles.py
+pelican_similar_articles_light.egg-info/PKG-INFO
+pelican_similar_articles_light.egg-info/SOURCES.txt
+pelican_similar_articles_light.egg-info/dependency_links.txt
+pelican_similar_articles_light.egg-info/not-zip-safe
+pelican_similar_articles_light.egg-info/requires.txt
+pelican_similar_articles_light.egg-info/top_level.txt
