@@ -1,0 +1,8 @@
+drf_renderer_xlsx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drf_renderer_xlsx/mixins.py,sha256=Rx9wqN4AryAfX_ocTIH5_EcOI9pPhAIg_qykZmttEgM,1125
+drf_renderer_xlsx/renderers.py,sha256=X2WqA8FVqWV-DDp3rP-R51UISwDw4fuLIWEWHCewbEE,15497
+drf_renderer_xlsx-0.4.5.dist-info/LICENSE,sha256=2L7iMW5Yiks3qafzK3LrB-kuDlzsfpS1gCDTiPotJ4I,1582
+drf_renderer_xlsx-0.4.5.dist-info/METADATA,sha256=f8k9H1jwvtX5ahS7jCXStusUsyXGQZeBZV1ofJjMHA4,11527
+drf_renderer_xlsx-0.4.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+drf_renderer_xlsx-0.4.5.dist-info/top_level.txt,sha256=_8ONXoadBQbz_Y2LQiK1Vn3dsCw5EBV4qzR3K_XV9So,18
+drf_renderer_xlsx-0.4.5.dist-info/RECORD,,
