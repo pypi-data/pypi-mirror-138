@@ -1,0 +1,4 @@
+requests<3,>=2
+pytest<6,>=5.4.1
+jsonschema>=3
+phonenumbers>=8.10
