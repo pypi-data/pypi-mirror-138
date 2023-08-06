@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/intelli_gateway/__init__.py
+src/intelli_gateway/gateway_client.py
+src/intelli_gateway.egg-info/PKG-INFO
+src/intelli_gateway.egg-info/SOURCES.txt
+src/intelli_gateway.egg-info/dependency_links.txt
+src/intelli_gateway.egg-info/requires.txt
+src/intelli_gateway.egg-info/top_level.txt
+tests/example.py
