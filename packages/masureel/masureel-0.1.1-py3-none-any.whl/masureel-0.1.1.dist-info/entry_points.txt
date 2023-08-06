@@ -1,0 +1,3 @@
+[console_scripts]
+masureel=masureel.console:main
+
