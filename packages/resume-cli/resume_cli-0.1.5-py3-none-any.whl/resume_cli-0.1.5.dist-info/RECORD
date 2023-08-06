@@ -1,0 +1,17 @@
+resuMe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+resuMe/main.py,sha256=bCD_wAffeKIPthqqHo92XymJ8AywmOmP3BCtfhnso5g,1514
+resuMe/scraping.py,sha256=IS830aNeKUa8uiI4fZAF_ugbDCPFWTSlQqFQ0asV9xo,13261
+resuMe/utils.py,sha256=Ql2sUV8XLv7TyC-3XRRbhOX6jeyTbmpwVkMqZBIBfac,6480
+resuMe/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+resuMe/commands/build.py,sha256=fgbL7zskhw0gRq6quRAH2cEhqL8n-84C-7bnSZbZWGM,2798
+resuMe/commands/delete.py,sha256=KCPF-oFq9anhv-JnVpnRHZeKmcTVRUCNB3zfB0FuQEQ,1162
+resuMe/commands/deploy.py,sha256=CAyaFqV9UC5oyinHHBjPXGEbT7BTdEoMU9q20Cg7Z0Q,1292
+resuMe/commands/init.py,sha256=7J9mcDciIIvGSKcBo4RLKlZgqvJ5rwzX4cX4hQxydDM,1772
+resuMe/commands/list.py,sha256=19nxKAUDloCheG7VxSAskLaLHK4NmkJtmxArDg1zqJA,371
+resuMe/commands/update.py,sha256=_N9iNkCovzqFR08q-4C083TNttzFZijGEFzOYVIs0e8,2881
+resume_cli-0.1.5.dist-info/LICENSE,sha256=Iksk11YVkMueTq0ejTf8YWRHz38tgqHnagylKE74SU0,1068
+resume_cli-0.1.5.dist-info/METADATA,sha256=G-2Axyt2V3m8lWyCBVqkFIZN79T43QgmNqZa7VFITrg,463
+resume_cli-0.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+resume_cli-0.1.5.dist-info/entry_points.txt,sha256=ryHDGuQENAHrAE1WcHPCa50PMI9OEv3axRGIRfEX8tE,49
+resume_cli-0.1.5.dist-info/top_level.txt,sha256=XpIbonP9vLJ_kGGTM2WSAtkiAp1wYyJcVZcsSUjC9t0,7
+resume_cli-0.1.5.dist-info/RECORD,,

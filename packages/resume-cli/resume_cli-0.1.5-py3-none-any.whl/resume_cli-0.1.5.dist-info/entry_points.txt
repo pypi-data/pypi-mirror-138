@@ -1,0 +1,3 @@
+[console_scripts]
+resume-cli = resuMe.main:init
+
