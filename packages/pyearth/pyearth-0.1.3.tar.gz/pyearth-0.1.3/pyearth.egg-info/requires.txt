@@ -1,0 +1,8 @@
+julian
+matplotlib
+netCDF4
+numpy
+gdal
+pandas
+pyevtkscipy
+statsmodels
