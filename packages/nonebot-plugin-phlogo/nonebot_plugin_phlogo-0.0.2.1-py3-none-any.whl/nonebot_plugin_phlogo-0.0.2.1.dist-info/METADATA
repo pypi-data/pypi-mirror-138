@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-phlogo
+Version: 0.0.2.1
+Summary: 生成ph风格logo
+License: MIT
+Author: kexue
+Author-email: x@kexue.io
+Requires-Python: >=3.7.3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow (>=8.3.1,<9.0.0)
+Requires-Dist: nonebot-adapter-onebot (==2.0.0-beta.1)
+Requires-Dist: nonebot2 (==2.0.0-beta.1)
