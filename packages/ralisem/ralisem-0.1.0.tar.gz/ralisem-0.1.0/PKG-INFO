@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: ralisem
+Version: 0.1.0
+Summary: Rate limit semaphore for async-style   (any core)
+Home-page: https://github.com/deknowny/rate-limit-semaphore
+License: MIT
+Author: Yan Kurbatov
+Author-email: deknowny@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: all
+Provides-Extra: dev-all
+Provides-Extra: dev-check
+Provides-Extra: dev-deploy
+Provides-Extra: dev-docs
+Provides-Extra: dev-style
+Provides-Extra: dev-test
+Requires-Dist: anyio (>=3.5.0,<4.0.0)
+Requires-Dist: autoflake (>=1.4,<2.0); extra == "dev-style" or extra == "dev-all"
+Requires-Dist: black (>=21.11b1,<22.0); extra == "dev-style" or extra == "dev-all"
+Requires-Dist: bumpversion (>=0.5.3,<0.6.0); extra == "dev-deploy" or extra == "dev-all"
+Requires-Dist: coverage (>=6.1.2,<7.0.0); extra == "dev-test" or extra == "dev-all"
+Requires-Dist: coveralls (>=3.3.1,<4.0.0); extra == "dev-test" or extra == "dev-all"
+Requires-Dist: isort (>=5.10.1,<6.0.0); extra == "dev-style" or extra == "dev-all"
+Requires-Dist: mike (>=1.1.2,<2.0.0); extra == "dev-docs" or extra == "dev-all"
+Requires-Dist: mkdocs (>=1.2.3,<2.0.0); extra == "dev-docs" or extra == "dev-all"
+Requires-Dist: mkdocs-material (>=8.0.2,<9.0.0); extra == "dev-docs" or extra == "dev-all"
+Requires-Dist: mypy (>=0.930,<0.931); extra == "dev-check" or extra == "dev-all"
+Requires-Dist: pre-commit (>=2.15.0,<3.0.0); extra == "dev-style" or extra == "dev-all"
+Requires-Dist: pytest (>=6.2.5,<7.0.0); extra == "dev-test" or extra == "dev-all"
+Requires-Dist: pytest-cov (>=3.0.0,<4.0.0); extra == "dev-test" or extra == "dev-all"
+Project-URL: Documentation, https://deknowny.github.io/rate-limit-semaphore/latest/
+Description-Content-Type: text/markdown
+
+# Rate Limit Semaphore
+> Rate limit semaphore for async-style (any core)
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ralisem)
+![PyPI - Implementation](https://img.shields.io/pypi/implementation/ralisem)
+![PyPI](https://img.shields.io/pypi/v/ralisem)
+[![Coverage Status](https://coveralls.io/repos/github/deknowny/rate-limit-semaphore/badge.svg?branch=main)](https://coveralls.io/github/deknowny/rate-limit-semaphore?branch=main)
+***
+There are two implementations of rate limit semaphore. Live demo shows how [FixedNewPreviousDelaySemaphore](./examples/new_previous.py) and [FixedNewFirstDelaySemaphore](./examples/new_first.py) work
+***
+![Live demo](./assets/new-previous-live-demo.gif)
+![Live demo](./assets/new-first-live-demo.gif)
+
+
+## Overview
+```python
+import datetime
+import ralisem
+
+# Or another implementation
+sem = ralisem.FixedNewPreviousDelaySemaphore(
+    access_times=3, per=datetime.timedelta(seconds=1)
+)
+async with sem:
+    ...
+```
+Difference:
+* `FixedNewPreviousDelaySemaphore`: Sures the last and a new access have a fixed required delay (`per / access_times`)
+* `FixedNewFirstDelaySemaphore`: Sures first and last in series (serias is `access_times`) have a fixed delay (`per`)
+
+## Methods
+All of these implementations are inherited from one base `TimeRateLimitSemaphoreBase`. Check out full methods [here](./ralisem/base.py)
+
+# Installation
+Via PyPI:
+```shell
+python -m pip install ralisem
+```
+Or via GitHub
+```shell
+python -m pip install https://github.com/deknowny/rate-limit-semaphore/archive/main.zip
+```
+# Contributing
+Check out [Contributing section](./CONTRIBUTING.md)
+
