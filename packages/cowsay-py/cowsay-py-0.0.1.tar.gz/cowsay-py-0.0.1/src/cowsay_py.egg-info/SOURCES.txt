@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/cowsay/__init__.py
+src/cowsay/cows.py
+src/cowsay/modules.py
+src/cowsay_py.egg-info/PKG-INFO
+src/cowsay_py.egg-info/SOURCES.txt
+src/cowsay_py.egg-info/dependency_links.txt
+src/cowsay_py.egg-info/top_level.txt
