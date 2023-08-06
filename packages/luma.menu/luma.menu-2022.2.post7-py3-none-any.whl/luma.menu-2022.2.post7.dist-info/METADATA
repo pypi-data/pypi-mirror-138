@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: luma.menu
+Version: 2022.2.post7
+Summary: A luma extension to provide simple menu creation
+Home-page: https://github.com/krispymoose95/luma.menu
+Author: krispymoose95
+Author-email: krispymoose95@gmail.com
+License: GNU General Public License v3 (GPLv3)
+Keywords: raspberry,pi,rpi,display,luma,menu
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System :: Hardware
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: <4,>=3.9
+License-File: LICENSE
+Requires-Dist: gpiozero
+Requires-Dist: luma.core
+Requires-Dist: luma.oled
+
+UNKNOWN
+
