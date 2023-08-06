@@ -1,0 +1,6 @@
+
+[boto3]
+boto3>=1.4.4
+
+[googlecloud]
+google-cloud-storage>=1.43.0
