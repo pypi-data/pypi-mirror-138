@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+sdktestadd.egg-info/PKG-INFO
+sdktestadd.egg-info/SOURCES.txt
+sdktestadd.egg-info/dependency_links.txt
+sdktestadd.egg-info/requires.txt
+sdktestadd.egg-info/top_level.txt
+test/test.py
