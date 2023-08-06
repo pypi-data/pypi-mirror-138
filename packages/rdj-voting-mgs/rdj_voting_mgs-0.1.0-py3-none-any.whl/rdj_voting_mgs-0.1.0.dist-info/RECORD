@@ -1,0 +1,11 @@
+rdj_voting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rdj_voting/__main__.py,sha256=Qv7GnqbJ2-F59CylsPMQfNvh_ab0OdFePkqVu9BUXzk,1941
+rdj_voting/ressources.py,sha256=son2nF0pfbN8RZNt-Yvg0NKHdXkWSqvMzgIxmmC-PxY,459
+rdj_voting/rdj/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rdj_voting/rdj/rdj_song.py,sha256=h_Unn3HqGROcSLlnTWCcoc3WXJ3R8ac7Q-jb3NvzTeM,674
+rdj_voting/rdj/rdj_voting.py,sha256=YwfYKE2JNjCTq7SyUkgBwMfv4OC3U1MzVxfucboUdO8,886
+rdj_voting_mgs-0.1.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+rdj_voting_mgs-0.1.0.dist-info/METADATA,sha256=NPZ5gA0zx6BsPhYwO6wU3UzOTfl2SG9Uuct53m8mqxY,1671
+rdj_voting_mgs-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rdj_voting_mgs-0.1.0.dist-info/top_level.txt,sha256=XXPJLArTJOcqvpIZ6Gg4A_BorK2gzXG37J0Azy14sQY,11
+rdj_voting_mgs-0.1.0.dist-info/RECORD,,
