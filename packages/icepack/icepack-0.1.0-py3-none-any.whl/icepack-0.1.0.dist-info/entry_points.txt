@@ -1,0 +1,3 @@
+[console_scripts]
+icepack = icepack.cli:icepack
+
