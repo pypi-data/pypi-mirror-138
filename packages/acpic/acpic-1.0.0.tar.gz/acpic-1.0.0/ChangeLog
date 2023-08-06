@@ -1,0 +1,18 @@
+CHANGES
+=======
+
+v1.0.0
+------
+
+* Prettify the README
+* Update copyright information
+* Add Installation instructions
+
+v0.0.1
+------
+
+* Make it installable via PyPI
+* Reformat the code with Black
+* Run under Python 3 by default
+* Add readme, examples and licensing information
+* Initial commit

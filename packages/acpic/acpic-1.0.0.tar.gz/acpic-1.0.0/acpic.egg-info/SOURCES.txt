@@ -1,0 +1,17 @@
+AUTHORS
+COPYING
+ChangeLog
+README.md
+acpic.py
+setup.cfg
+setup.py
+acpic.egg-info/PKG-INFO
+acpic.egg-info/SOURCES.txt
+acpic.egg-info/dependency_links.txt
+acpic.egg-info/entry_points.txt
+acpic.egg-info/not-zip-safe
+acpic.egg-info/pbr.json
+acpic.egg-info/top_level.txt
+example-events/mute
+example-events/volumedown
+example-events/volumeup
