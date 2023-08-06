@@ -1,0 +1,9 @@
+connector_db_tools/__init__.py,sha256=zsa6SWukXErj8aGCUdLJ9FAnwXTWYeJwuVxZDTPGoWE,107
+connector_db_tools/functions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+connector_db_tools/functions/main.py,sha256=aomrfQxh78-aWkNdUZRs0VL-V6F856NcgQc5Qz_Ww-g,8023
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+connector_db_tools-0.0.1.dist-info/LICENSE,sha256=QXtBv9uSnDRs86kNzGZgiDg5RHk-R6GAIOHhYgpFUE8,1092
+connector_db_tools-0.0.1.dist-info/METADATA,sha256=NTOyHVthtIytDT8xM_pgoBmv43oR2o1fUWhRIHRotqk,3013
+connector_db_tools-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+connector_db_tools-0.0.1.dist-info/top_level.txt,sha256=G5RFXOxHeJrRuxREkPkFUvFcTgrkEXe8GyeljgjmyTQ,28
+connector_db_tools-0.0.1.dist-info/RECORD,,
