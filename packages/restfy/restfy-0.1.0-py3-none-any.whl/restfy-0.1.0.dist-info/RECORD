@@ -1,0 +1,10 @@
+restfy/__init__.py,sha256=d5d9DaHSMdHEj5iGhmWAtzsbkXYVEEYHl684pN60IFw,124
+restfy/application.py,sha256=u-2z34Af8OVIyniueMjEL-Y4ERWQMPu5eVNvNZnZ82U,1742
+restfy/http/__init__.py,sha256=dxgdKtNfZ2abbzdi_8ltzwlMNRGOJjPZpA8-8dQld48,96
+restfy/http/request.py,sha256=BzX3fCapVrXB9VwNEVE6K-JlbIRdixjIppY3uZDlDGM,966
+restfy/http/response.py,sha256=la0lhsx4ahBKFgJSGNc5LNP2OlaUN9oKvuA6NoJGxHs,959
+restfy/server.py,sha256=ocbvjNSRCI1u0K5tY9ro7nLl5LpUObvt12pSk17e6rc,189
+restfy-0.1.0.dist-info/LICENSE,sha256=y0ir5HF6gHsGSBhRGkILJ-G14DURazFuPKXQVQjIyDE,1070
+restfy-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+restfy-0.1.0.dist-info/METADATA,sha256=D9yPI-KqZ1CjN7KDhEJn8SZ9TE9uhF9AdoRs6n5pNrM,382
+restfy-0.1.0.dist-info/RECORD,,
