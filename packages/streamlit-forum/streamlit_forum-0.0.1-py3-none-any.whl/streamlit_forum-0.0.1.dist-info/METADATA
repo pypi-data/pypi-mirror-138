@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: streamlit-forum
+Version: 0.0.1
+Summary: Streamlit component to display topics from Streamlit's community forum related to any exception.
+Home-page: https://github.com/snehankekre/streamlit-forum
+Author: Snehan Kekre
+Author-email: snehan@streamlit.io
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+License-File: LICENSE
+Requires-Dist: streamlit (>=1.0.0)
+Requires-Dist: requests (>=2.20.0)
+
+Streamlit component to display topics from Streamlit's community forum related to any exception.
+
