@@ -1,0 +1,4 @@
+[climetlab.datasets]
+cems-flood-glofas-forecast = climetlab_cems_flood.glofas_forecast:GlofasForecast
+cems-flood-glofas-historical = climetlab_cems_flood.glofas_historical:GlofasHistorical
+
