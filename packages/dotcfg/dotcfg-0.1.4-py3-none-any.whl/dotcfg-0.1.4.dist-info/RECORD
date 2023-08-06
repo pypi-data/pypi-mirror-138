@@ -1,0 +1,12 @@
+dotcfg/__init__.py,sha256=4773zGri5nt_6ZMPtri2MKDIq0L5x2iMFf_p2XuVrRc,246
+dotcfg/collections.py,sha256=mqPCiLf6Sei0A5fHfPCfjwzFG6GhTUZwxJhlOIhhNnA,3563
+dotcfg/configuration.py,sha256=IKEGxiCsaRFD1E-wK_Vp8oiSHgtiFqsbG9EJSTBHavE,12105
+dotcfg/engine.py,sha256=31nXiFj1aHktpAbTZDuXA8v7Qxd3Lgn13cecME8q8ag,2387
+dotcfg/errors.py,sha256=ZDaaPwlu2bF9LWAbmBgqvERXX9Lhe_eeLoDzrqEY0zc,396
+dotcfg/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dotcfg/types.py,sha256=hRaTLdNrNGNtK0T_QuUStngW1tlQ8KJokYMM2njJVFU,78
+dotcfg/utils.py,sha256=LaKcfEH7wY9is5qDUIURi4OB_rA-8jIZgDNtPjTu98c,1938
+dotcfg-0.1.4.dist-info/LICENSE.rst,sha256=b5sRcK4hEORLMHpYe8KPYiaAXrzYFbQQ7IjbfmSPXjo,1053
+dotcfg-0.1.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+dotcfg-0.1.4.dist-info/METADATA,sha256=ACa0-2b0VlaQexw5YlTPf4sGpyjKwDGdQDr5CYkyWyw,475
+dotcfg-0.1.4.dist-info/RECORD,,
