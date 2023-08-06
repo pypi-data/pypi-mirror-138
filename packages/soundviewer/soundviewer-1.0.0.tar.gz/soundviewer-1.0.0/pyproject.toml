@@ -1,0 +1,20 @@
+[build-system]
+requires = [
+    'librosa==0.9.0',
+    'matplotlib==3.5.1',
+    'audio-metadata==0.11.1',
+    'flit==3.6.0',
+    'flit_core==3.6.0',
+]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "soundviewer"
+authors = [{name = "emingenc", email = "emingench@yandex.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"]
+dynamic = ["version", "description"]
+
+[project.urls]
+Home = "https://github.com/emingenc/soundviewer"
