@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+tacv/__init__.py
+tacv.egg-info/PKG-INFO
+tacv.egg-info/SOURCES.txt
+tacv.egg-info/dependency_links.txt
+tacv.egg-info/top_level.txt
+tacv/fileUtils/__init__.py
+tacv/fileUtils/fileutils.py
+tacv/visual/__init__.py
+tacv/visual/draw2d.py
