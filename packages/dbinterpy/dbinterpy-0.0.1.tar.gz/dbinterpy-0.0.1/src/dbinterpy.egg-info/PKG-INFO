@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dbinterpy
+Version: 0.0.1
+Summary: simple interface to SQLite databases
+Home-page: https://github.com/Hitham2496/DatabaseInterface
+Author: Hitham2496
+License: GPLv3
+Description: # dbinterpy
+        Basic sqlite3 weapper class for simple database interaction in python. Created to teach myself a bit about dynamic databases, SQL and publishing python packages.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: testing

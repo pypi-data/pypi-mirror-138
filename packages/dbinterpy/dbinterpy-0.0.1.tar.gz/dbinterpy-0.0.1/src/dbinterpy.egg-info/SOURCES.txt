@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/dbinterpy/__init__.py
+src/dbinterpy/interface.py
+src/dbinterpy.egg-info/PKG-INFO
+src/dbinterpy.egg-info/SOURCES.txt
+src/dbinterpy.egg-info/dependency_links.txt
+src/dbinterpy.egg-info/not-zip-safe
+src/dbinterpy.egg-info/requires.txt
+src/dbinterpy.egg-info/top_level.txt
