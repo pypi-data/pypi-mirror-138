@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/libog/__init__.py
+src/libog.egg-info/PKG-INFO
+src/libog.egg-info/SOURCES.txt
+src/libog.egg-info/dependency_links.txt
+src/libog.egg-info/top_level.txt
