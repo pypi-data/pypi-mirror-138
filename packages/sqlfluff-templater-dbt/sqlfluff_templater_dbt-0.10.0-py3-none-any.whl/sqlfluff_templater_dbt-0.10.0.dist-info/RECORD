@@ -1,0 +1,8 @@
+sqlfluff_templater_dbt/__init__.py,sha256=snfXj1maW5f1gXD2i-9GZK2l6Sdm-N3OaT1U38I5zfs,250
+sqlfluff_templater_dbt/templater.py,sha256=Kum90612q5xmubmsEJmtTfdfa2tTYzG04dT24tlCRIc,22220
+sqlfluff_templater_dbt-0.10.0.dist-info/LICENSE.md,sha256=bR45TS5opHEGczED6e2HydFXPZt6Q_XQWYlCT85trjk,1073
+sqlfluff_templater_dbt-0.10.0.dist-info/METADATA,sha256=AnGRenqmOZLeC9vLW0DtHvtJDtYcMrtoD6EHo0cOh-0,2187
+sqlfluff_templater_dbt-0.10.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sqlfluff_templater_dbt-0.10.0.dist-info/entry_points.txt,sha256=sOZ3_3v2vCvvRj7Tnknts9_a_RAuIuWzmfwlE6JNMn8,60
+sqlfluff_templater_dbt-0.10.0.dist-info/top_level.txt,sha256=GAEY-TEmgYrN2QqkAAH709JyxhzJA8yO9HER-hceKuw,23
+sqlfluff_templater_dbt-0.10.0.dist-info/RECORD,,
