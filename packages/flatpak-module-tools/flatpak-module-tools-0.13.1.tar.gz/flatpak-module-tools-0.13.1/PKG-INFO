@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: flatpak-module-tools
+Version: 0.13.1
+Summary: Tools for creating and maintaining Flatpaks as Fedora modules
+Home-page: https://pagure.io/flatpak-module-tools
+Author: Owen Taylor
+Author-email: otaylor@redhat.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
