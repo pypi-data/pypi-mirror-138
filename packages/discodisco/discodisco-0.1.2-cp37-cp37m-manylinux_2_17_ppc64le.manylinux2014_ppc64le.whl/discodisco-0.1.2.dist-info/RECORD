@@ -1,0 +1,11 @@
+disco.cpython-37m-powerpc64le-linux-gnu.so,sha256=xNGfIEDskXkbKwsqppA62gSyyn_7VeRx8FlvRpDceeM,13244368
+discodisco-0.1.2.dist-info/LICENSE,sha256=LpJbinNfCjCv93Z_oZnUWsqt0dNPLaixKdaGkY_-JoI,1063
+discodisco-0.1.2.dist-info/METADATA,sha256=NljL7L92FHocn4Egy4WuBG1_A0s5exDox9ZpfMlGEwY,2100
+discodisco-0.1.2.dist-info/top_level.txt,sha256=tkSJte-1nBTYLKmKaHcGIKk95dEWBekJj6XUMu_kDSw,11
+discodisco-0.1.2.dist-info/RECORD,,
+discodisco-0.1.2.dist-info/entry_points.txt,sha256=pgb1RAVvViF1Xv8eToMnCQfG5On0r3n1nIl6akXeVoQ,82
+discodisco-0.1.2.dist-info/WHEEL,sha256=gtBmY-OvNMvxhGIKufutSEXHOIW1VBJg8ywntKHUPWE,152
+discodisco.libs/libasound-f637e935.so.2.0.0,sha256=zTw2cGN9hGGgfVSMPo8bDgOys3Nn9LTzwP1JNj1Sy3Q,1431712
+discodisco/disco.py,sha256=O_t_yUZRABkFS0x71ovOlxbaxisgzWE287AfGdP8CcA,174
+discodisco/__init__.py,sha256=4z6EVuWa5cWujq2RLZC6dDjivAseste0VQBzlIr6ZGg,163
+discodisco/cli.py,sha256=x5ez7ncPhXCacP-pZK7i1-ib6cmRvp1vrW0wD1m-swc,582
