@@ -1,0 +1,8 @@
+pytz
+
+[avro]
+avro-python3
+numpy
+
+[lineprofiler]
+line-profiler<4.0,>=3.0
