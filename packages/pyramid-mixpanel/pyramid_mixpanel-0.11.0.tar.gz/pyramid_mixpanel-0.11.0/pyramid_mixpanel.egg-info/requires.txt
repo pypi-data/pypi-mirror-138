@@ -1,0 +1,7 @@
+pyramid
+requests
+mixpanel
+customerio
+
+[customerio]
+customerio
