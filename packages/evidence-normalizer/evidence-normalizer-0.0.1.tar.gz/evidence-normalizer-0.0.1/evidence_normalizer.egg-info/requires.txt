@@ -1,0 +1,12 @@
+pydantic
+requests
+bravado
+matplotlib
+seaborn
+variation-normalizer
+pandas
+openpyxl
+xlrd
+xlwt
+fastapi
+boto3
