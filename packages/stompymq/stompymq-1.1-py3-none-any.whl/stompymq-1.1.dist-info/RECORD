@@ -1,0 +1,12 @@
+broker/broker.py,sha256=UkeVuB4F2Z-CsziROuGQnLmqNWzA0_z_PWBr3RNP7Rc,13383
+stompy/__init__.py,sha256=HdT-qDY3ZUIdzF7fGIlf_WRQtzgKsqUw4M4vRbxo_U8,172
+stompy/client.py,sha256=ggyb1wwdVYa5T6C_AHK5m-npEqS7rsKRVKXBUliG_-c,17757
+stompy/frame.py,sha256=EzWQRR9LhVJV0jcx2sn1c2sNXa5LKJEm8xUj-puPe50,7542
+stompy/util.py,sha256=PzvLvpMlZwAJQiloeTfFtGb4TpQ4xQGfFqYusa1rQ4g,214
+stompy/version.py,sha256=4C8BwgeCAjmzPBw4nZiKPuD274JX38h_xHcN-aoiCzs,16
+stompymq-1.1.dist-info/LICENSE,sha256=gv3rFZrTRx_3o5rqCvwXMzfHO4lHUP3sT46yVWKrwNY,1525
+stompymq-1.1.dist-info/METADATA,sha256=a5HO1E_-VgKyTWC-gpgWCQA9Wvif4NCpek5FNK640e0,417
+stompymq-1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+stompymq-1.1.dist-info/entry_points.txt,sha256=GA2g3m7Zc5WuuWD-e3_nStzWeJtkP7If68Nr-By_pWk,49
+stompymq-1.1.dist-info/top_level.txt,sha256=xLs-SYeIYUTIoNhBxVlw-lBNdBg8oAuK6staMrurN9s,14
+stompymq-1.1.dist-info/RECORD,,
