@@ -1,0 +1,13 @@
+fvwmpy/__init__.py,sha256=biMwZ29k2R75KJKgLTXAxzGEmXQ1eJlHAX5DxKKvRMA,77
+fvwmpy/constants.py,sha256=KiJ8KqQR7UX06sryb1QT923pyBnRbF2wCjlHW-4N5Hs,5229
+fvwmpy/exceptions.py,sha256=LhY61TAq17TORQTMa_1fhmh7wGAQmmfUAp1oEon5dg4,757
+fvwmpy/fvwmpy.py,sha256=eyX6hgAOprTTXy6XmRrDrKIirEQXMludJ-R2yk5JJnU,24635
+fvwmpy/log.py,sha256=HSNg5Ypjp0NIpQIgNeydKxqvF17BtSGIeMhxyfJdWPk,729
+fvwmpy/packet.py,sha256=8D3MXpivoSPYJf6Aw0Ov8swh9sCQ6yFQK4psglLRV8Q,11006
+fvwmpy/packet_reader.py,sha256=v6WyN1mVLcCJqA7I7E15W7NQUcQ0B6oFovxfXlxiaE8,7027
+fvwmpy/picker.py,sha256=Paeyz0Zqbxd0YJRRMM0gTdP9-3nb5x4mrBfstEcCx54,3754
+fvwmpy-1.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+fvwmpy-1.1.0.dist-info/METADATA,sha256=PzKhvyhpBbuE8txwip9saPzMeFOWs01EZkX0wa0tk2Y,47256
+fvwmpy-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fvwmpy-1.1.0.dist-info/top_level.txt,sha256=_NfiMor3fgCTKjUvFQ5b0nio0IMsYFXAOgWyR_K3qa0,7
+fvwmpy-1.1.0.dist-info/RECORD,,
