@@ -1,0 +1,11 @@
+sushida/__init__.py,sha256=zTCYeIgars213FfiEue-IfClJ13J3h4zS5LO8TPOPc4,79
+sushida/_constants.py,sha256=QEGxAXy2G8-mPfP_tlxg0lrPSsZ6LMTGdvVWGaWwmmk,42
+sushida/_image_processing.py,sha256=drGAEtCrF6YcvhJuLMXsy_mfkwCN5WOX6WtWfnfmpnw,814
+sushida/cli.py,sha256=ju-l8QBjRqNOpVQyxVFR3F7jcaDau9wX2J-AT4gl3u4,1811
+sushida/game.py,sha256=66qz6BA8ILJQQsaXy6G_WYgm48fKik1abEn8JfPX72Q,4283
+sushida/webdriver.py,sha256=VhoLxWznzqoHdAH2HdgfeBF3NfA2Xk76OerWF1ssg4o,872
+sushida-0.2.0.dist-info/entry_points.txt,sha256=2uVyu5CGa3Ogwuu4GYzGsrro2EPDP_9j1d63_jIdzO4,44
+sushida-0.2.0.dist-info/LICENSE,sha256=va2Ebbos-_yEJLJvWfbCHhbXv36lt94dg97ZGdRcaSQ,1065
+sushida-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+sushida-0.2.0.dist-info/METADATA,sha256=L22s2RjWcVfwdREawXv018561B_EMGLKEjACONVxmIs,2073
+sushida-0.2.0.dist-info/RECORD,,
