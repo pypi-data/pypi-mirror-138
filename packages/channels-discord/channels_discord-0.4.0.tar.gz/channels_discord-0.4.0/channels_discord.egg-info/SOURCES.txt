@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+channels_discord/__init__.py
+channels_discord/cli.py
+channels_discord/client.py
+channels_discord/consumers.py
+channels_discord.egg-info/PKG-INFO
+channels_discord.egg-info/SOURCES.txt
+channels_discord.egg-info/dependency_links.txt
+channels_discord.egg-info/entry_points.txt
+channels_discord.egg-info/not-zip-safe
+channels_discord.egg-info/requires.txt
+channels_discord.egg-info/top_level.txt
