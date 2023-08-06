@@ -1,0 +1,15 @@
+8308bdc8a49463f40810__mypyc.cpython-310-i386-linux-gnu.so,sha256=ZJxF7j92PsvCu1i9n0uuZL1_YTHJinfqt0EPMs5esS8,159224
+hatch_showcase-0.4.0.dist-info/METADATA,sha256=otoCPnBJgrG6tjGZ94LnxJQr4XJ0EJDM3uzqiY2O4c8,3786
+hatch_showcase-0.4.0.dist-info/RECORD,,
+hatch_showcase-0.4.0.dist-info/entry_points.txt,sha256=ZMEd-F4fCgY-HDAJC2nFvmtuk2_4p0dPcLzIOAppqCM,69
+hatch_showcase-0.4.0.dist-info/WHEEL,sha256=0tXCbe9zNpoCbGlY45c2TycU0L1uLFBfOKmoKjSBuFA,209
+hatch_showcase-0.4.0.dist-info/license_files/LICENSE.txt,sha256=fxQ6gSetSHOGLXCFS1vSq9AIWqc-ZP0rCHBKO59cB_w,1088
+hatch_showcase/fib.cpython-310-i386-linux-gnu.so,sha256=XSIzrCghpFWbNly2dknelaXVVTyLi95UgVR8I6u08g0,16240
+hatch_showcase/_version.py,sha256=LXsVgL30inwYURXgt8agwHpCAGkWqXpMAmFq8N7WB4Q,142
+hatch_showcase/__main__.py,sha256=o-PTw3c2gFgKqWT_-7NRGi8egP5S3hSe70suX_Zpml8,203
+hatch_showcase/__main__.cpython-310-i386-linux-gnu.so,sha256=HkzIlPb9lYbN9b6NOt9lTfegtokIf8-gtVdYK4XkxSc,16268
+hatch_showcase/fib.py,sha256=-WKhQkBHMsfdGNx6Xiogb2kqgZE9gFk6SeEbcY3sQMo,221
+hatch_showcase/__init__.cpython-310-i386-linux-gnu.so,sha256=NDoD2-CEhmlWqLaNzDOnWmXUlUe858Apoi1G6cikVHY,16268
+hatch_showcase/__init__.py,sha256=SnqyexerOAwtyoBgJiHYrEEn5N-QRT1miZRN1pkADP0,96
+hatch_showcase/cli/__init__.cpython-310-i386-linux-gnu.so,sha256=4Ij7zUla5Wc3szTeW0sDmw2_-MbCzqiCIgax9FwikrI,16240
+hatch_showcase/cli/__init__.py,sha256=p8pHzARwFTjMLGN160ImlYDo6xDOZFd8jbQ3qn9bcPk,572
