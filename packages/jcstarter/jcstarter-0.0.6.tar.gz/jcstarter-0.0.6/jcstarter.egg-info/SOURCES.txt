@@ -1,0 +1,8 @@
+README.md
+setup.py
+jcstarter/__init__.py
+jcstarter/main.py
+jcstarter.egg-info/PKG-INFO
+jcstarter.egg-info/SOURCES.txt
+jcstarter.egg-info/dependency_links.txt
+jcstarter.egg-info/top_level.txt
