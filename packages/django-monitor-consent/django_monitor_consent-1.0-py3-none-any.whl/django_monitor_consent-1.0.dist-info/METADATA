@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: django-monitor-consent
+Version: 1.0
+Summary: Django app for displaying a consent to monitoring banner
+Home-page: https://github.com/cash/django-monitor-consent
+Author: Cash Costello
+Author-email: cash.costello@gmail.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Django consent app
+This app provides a configurable notice of consent banner for Django.
+It uses Bootstrap CSS classes including container, alert, and alert-secondary.
+
+## Installation
+1. `pip install django-monitor-consent`
+2. Add `consent` to `INSTALLED_APPS`
+3. Set `CONSENT_TEXT` in your settings:
+  ```python
+  CONSENT_TEXT = "This computer system is provided only for authorized use..."
+  ```
+4. Include the banner template in your login page after loading the template tag:
+  ```
+  {% load consent_tags %}
+  {% consent_banner %}
+  ```
+
+The text is automatically wrapped in paragraph tags.
+Put two line endings in the text to create a new paragraph.
+
+
