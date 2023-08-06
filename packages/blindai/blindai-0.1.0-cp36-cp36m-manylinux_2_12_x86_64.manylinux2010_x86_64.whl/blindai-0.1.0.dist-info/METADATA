@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: blindai
+Version: 0.1.0
+Summary: Client SDK for blindai confidential inference server
+Home-page: https://www.mithrilsecurity.io/
+Author: Mithril-Security
+Author-email: contact@mithrilsecurity.io
+License: Apache-2.0
+Keywords: confidential computing inference client enclave
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C++
+Classifier: Operating System :: Unix
+Requires-Python: >=3.6.9
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography (>=35.0.0)
+Requires-Dist: toml
+Requires-Dist: grpcio
+Requires-Dist: grpcio-tools
+Requires-Dist: bitstring
+Requires-Dist: cbor2
+Provides-Extra: dev
+Requires-Dist: pybind11 ; extra == 'dev'
+Requires-Dist: setuptools ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: check-wheel-contents ; extra == 'dev'
+Requires-Dist: auditwheel ; extra == 'dev'
+Requires-Dist: grpcio-tools ; extra == 'dev'
+Requires-Dist: grpcio ; extra == 'dev'
+
+# BlindAI Client
+
+Client SDK for blindai confidential inference server.
+
+## Installation
+
+### Using pip
+```bash
+$ pip install blindai
+```
+## Usage
+
+### Uploading a model
+
+```python
+from blindai.client import BlindAiClient
+
+#Create the connection
+client = BlindAiClient()
+client.connect_server(
+    "localhost",
+    policy="policy.toml",
+    certificate="host_server.pem",
+    simulation=False
+)
+
+#Upload the model to the server
+response = client.upload_model(model="./mobilenetv2-7.onnx", shape=(1, 3, 224, 224), datum=client.ModelDatumType.F32)
+```
+### Uploading data
+```python
+from blindai.client import BlindAiClient
+from PIL import Image
+import numpy as np
+
+#Create the connection
+client = BlindAiClient()
+client.connect_server(
+    "localhost",
+    policy="policy.toml",
+    certificate="host_server.pem",
+    simulation=False
+)
+
+image = Image.open("grace_hopper.jpg").resize((224,224))
+a = np.asarray(image, dtype=float)
+
+#Send data for inference
+result = client.run_model(a.flatten())
+```
+
+In order to connect to the BlindAI server, the client needs to acquire the following files from the server: 
+
+- **policy.toml :** the enclave security policy that defines which enclave is trusted (if you are not using the simulation mode).
+
+- **host_server.pem :** TLS certificate for the connection to the untrusted (app) part of the server.
+
+**Simulation mode** enables to pypass the process of requesting and checking the attestation.
+
+Usage examples can be found in [tutorial](./tutorial) folder.
+
+Before you run an example, make sure to get `policy.toml`(if you are not using the simulation mode)  and `host_server.pem` that are generated in the server side. 
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+This project is licensed under [Apache 2.0 License.](../LICENSE)
+The project uses the "Intel SGX DCAP Quote Validation Library" for attestation verification, See [Intel SGX DCAP Quote Validation Library License](https://github.com/intel/SGXDataCenterAttestationPrimitives/blob/master/License.txt)
+
+
