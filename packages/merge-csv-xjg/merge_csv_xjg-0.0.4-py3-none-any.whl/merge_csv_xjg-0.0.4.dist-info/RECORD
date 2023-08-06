@@ -1,0 +1,11 @@
+merge_csv/__init__.py,sha256=3_9EFLO6L2masajv4RtxUiHI4z4ANareDivPSBhdmRo,83
+merge_csv/__main__.py,sha256=B_HupggYtK9JYf-ZqfaqnpvpMLbO84DAjlxzqcMvmE0,1413
+merge_csv/merge_dataframes.py,sha256=gPYLDfePQ32_tYc3NBiuB-DYmOTTS_Uvas3F91FiDvE,2606
+merge_csv/merge_files.py,sha256=vkwJGdxAXFbVPwHJhPah6tRyapM-awYYOelzC3RGEr8,1074
+merge_csv/validate_options.py,sha256=ZpZryO1PXgWwGYqay4FKW-cTu0EhSC1XM2dslXoXa4Q,775
+merge_csv_xjg-0.0.4.dist-info/LICENSE,sha256=cWhWHdfbhHbJAvyI9_uKC7FVPU2k3Vk1pFkLhkIuwW8,1073
+merge_csv_xjg-0.0.4.dist-info/METADATA,sha256=aSV9Dz2yQkJ9LbExkpwOTEAvQCnvAPhPyWFDKwm5-S8,1474
+merge_csv_xjg-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+merge_csv_xjg-0.0.4.dist-info/entry_points.txt,sha256=srdjOiptjBLTwPI_t5c9RLhO1R_2hLphfqcqSbNCMPc,55
+merge_csv_xjg-0.0.4.dist-info/top_level.txt,sha256=H7Ov_QMpMAbp970QiFEzewTuJbE1FWIWatS9liKJTGI,10
+merge_csv_xjg-0.0.4.dist-info/RECORD,,
