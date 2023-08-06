@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/subsalt/__init__.py
+src/subsalt/client.py
+src/subsalt.egg-info/PKG-INFO
+src/subsalt.egg-info/SOURCES.txt
+src/subsalt.egg-info/dependency_links.txt
+src/subsalt.egg-info/requires.txt
+src/subsalt.egg-info/top_level.txt
