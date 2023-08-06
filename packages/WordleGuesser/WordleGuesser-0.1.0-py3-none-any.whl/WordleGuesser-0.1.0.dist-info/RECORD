@@ -1,0 +1,10 @@
+WordleGuesser/__init__.py,sha256=GTmzWUHKuFuyDR61V3jQ6hEMholhxZ_cqTDYyR7Oo4k,56
+WordleGuesser/wordle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+WordleGuesser/wordle/guesser.py,sha256=XyRVRiQHoxGICthcev-KkXn1oC6XPmQZuvd0EISPGSk,4411
+WordleGuesser/wordle/utils.py,sha256=VdR3_C4SxwBb_ncxbfLwA6iXXp1iBCltdjE05MIXp7w,2660
+WordleGuesser/wordle/words.py,sha256=5xw_oHbc07ygoyAdZvXdOmtjxK7mCwi3lQvKjqZ0LnY,129760
+WordleGuesser-0.1.0.dist-info/LICENSE.txt,sha256=jKZkgMwrSPrcnW8HDGCs-EBCaG9Z-57Ijib4s-VOyO4,1094
+WordleGuesser-0.1.0.dist-info/METADATA,sha256=YnKPTVVHCYYALgQJonkDslefK5nHFdXnR5KVWPXNwU4,379
+WordleGuesser-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+WordleGuesser-0.1.0.dist-info/top_level.txt,sha256=AetTsmh98-c_MkxVg4KwKpVhr0UW7IiwsA_YqfFEU2s,14
+WordleGuesser-0.1.0.dist-info/RECORD,,
