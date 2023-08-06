@@ -1,0 +1,3 @@
+[console_scripts]
+wavcheck = wavcheck.main:cli
+
