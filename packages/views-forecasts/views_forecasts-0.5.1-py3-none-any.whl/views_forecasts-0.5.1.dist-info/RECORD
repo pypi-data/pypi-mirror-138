@@ -1,0 +1,8 @@
+views_forecasts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+views_forecasts/db_ops.py,sha256=ii6prTk8JqoG-753XscGvUid7_ywB76IbaoSsP3GCFw,14630
+views_forecasts/example_data.py,sha256=KHSpSb4g6dQuQCONvc-9MjnT7iU3AYzB9kBq8iawA7M,74
+views_forecasts/extensions.py,sha256=Vg_31PeRz6QkFtr8Z51XkiZVElrTQxzOaJzvXBXBilU,9753
+views_forecasts/file_ops.py,sha256=yqRtfHK6NSl4A1eQcuQillptgBGt7WwyL1UydsSLxkM,3171
+views_forecasts-0.5.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+views_forecasts-0.5.1.dist-info/METADATA,sha256=SP85cVdW0MFv0ETRmWEKdYaUaegelfKYZXOrmpcpf_g,979
+views_forecasts-0.5.1.dist-info/RECORD,,
