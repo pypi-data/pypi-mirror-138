@@ -1,0 +1,6 @@
+librosa
+tensorflow
+numpy
+keras
+scikit-learn
+Pillow

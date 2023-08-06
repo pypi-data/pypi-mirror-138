@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+shrinemaiden/__init__.py
+shrinemaiden/augmentor.py
+shrinemaiden/charmap.py
+shrinemaiden/train.py
+shrinemaiden/transcript.py
+shrinemaiden/transcript_class.py
+shrinemaiden/util.py
+shrinemaiden.egg-info/PKG-INFO
+shrinemaiden.egg-info/SOURCES.txt
+shrinemaiden.egg-info/dependency_links.txt
+shrinemaiden.egg-info/requires.txt
+shrinemaiden.egg-info/top_level.txt
