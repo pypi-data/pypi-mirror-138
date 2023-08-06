@@ -1,0 +1,3 @@
+[console_scripts]
+my-stocks=my_stocks.main:app
+
