@@ -1,0 +1,14 @@
+django_trips/__init__.py,sha256=5AJ4j-YdKq8T76-gMIyS1Kn7d2dzJnEPjnzjjJkMlWo,156
+django_trips/admin.py,sha256=uOarWsHU3KcJn6ECzLkz36FnueWGPojOCTXGy2GyKDw,4344
+django_trips/apps.py,sha256=iJr89cjSbj7HucQ_rosuTYLk-Y1AOA5vqkwGr5hKAkA,133
+django_trips/managers.py,sha256=LPpbPhJcVacMXutn6NOvbQfAgcIJdzSxSbPJklGvzr8,2301
+django_trips/mixins.py,sha256=cjYs44mlNiXTzWTHTWnSzW_u7dGJq-fMFBsdfUcnvB4,3052
+django_trips/models.py,sha256=KnBcmc5qJ2KfZistToB_lfWfpOIYLWQFrKkguihdYtg,14813
+django_trips/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+django_trips/urls.py,sha256=Pf4gr1SaDqOoZ_21NuOyrmrBmo-MVKOt88XpfGuP9xY,131
+django_trips/views.py,sha256=lmnx4hOPYArJz_cjVrXT_OORpEtRPKf0LGzwrqKpnKU,10
+django_trips-0.2.10.dist-info/LICENSE,sha256=k0h7IY9s0tKMrZ7eQwcELTYsRF9B0AlTuHlVdeZpvlA,1086
+django_trips-0.2.10.dist-info/METADATA,sha256=lHfbEgpn8fScQuI1PfjjEJhekLyuwrMvWiSWFW_ud2k,9241
+django_trips-0.2.10.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+django_trips-0.2.10.dist-info/top_level.txt,sha256=Hxf7bFZcKQUGQZ3-OylQUPvQPkKCG-dqyWfQ3qUp5aM,13
+django_trips-0.2.10.dist-info/RECORD,,
