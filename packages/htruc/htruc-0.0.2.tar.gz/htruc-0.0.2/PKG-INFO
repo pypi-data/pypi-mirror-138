@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: htruc
+Version: 0.0.2
+Summary: HTRUC, a toolkit for HTR-United cataloging
+Home-page: https://github.com/htr-united/htrvc
+Author: Thibault Clérice
+License: MIT
+Description: 
+        HTRUC
+        =====
+        
+        Pronunced `EuchTruc` (*ce truc*), this contains most of the tooling for the catalog files.
+        
+        - Install with `python setup.py install`
+        - Run with `htruc test ./tests/example.yaml`
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
