@@ -1,0 +1,77 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:stock.shipment.sale.create_shipping.start,carrier:"
+msgid "Carrier"
+msgstr "Frachtführer"
+
+msgctxt "field:stock.shipment.sale.create_shipping.start,company:"
+msgid "Company"
+msgstr "Unternehmen"
+
+msgctxt "field:stock.shipment.sale.create_shipping.start,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:stock.shipment.sale.create_shipping.start,invoice:"
+msgid "Invoice"
+msgstr "Rechnung"
+
+msgctxt "field:stock.shipment.sale.create_shipping.start,package_type:"
+msgid "Package Type"
+msgstr "Pakettyp"
+
+msgctxt "field:stock.shipment.sale.create_shipping.start,sale:"
+msgid "Sale"
+msgstr "Verkauf"
+
+msgctxt "field:stock.shipment.sale.create_shipping.start,sales:"
+msgid "Available Sales"
+msgstr "Verfügbare Verkäufe"
+
+msgctxt "field:stock.shipment.sale.create_shipping.start,shipment:"
+msgid "Shipment"
+msgstr "Lieferposten"
+
+msgctxt "field:stock.shipment.sale.create_shipping.start,shipments:"
+msgid "Available Shipments"
+msgstr "Verfügbare Lieferposten"
+
+msgctxt "model:ir.action,name:act_create_shipping"
+msgid "Create Shipping"
+msgstr "Versand erstellen"
+
+msgctxt "model:ir.message,text:already_shipped"
+msgid ""
+"Shipment \"%(shipment)s\" was already shipped.\n"
+"\n"
+"Do you want to ship another package for it?"
+msgstr ""
+"Lieferposten \"%(shipment)s\" wurde bereits versendet.\n"
+"\n"
+"Soll ein weiteres Paket für diesen Lieferposten versendet werden?"
+
+msgctxt "model:ir.ui.menu,name:menu_create_shipping_from_sale"
+msgid "Create Shipping"
+msgstr "Versand erstellen"
+
+msgctxt "model:res.group,name:group_shipping_sale_wizard"
+msgid "Shipping Wizard"
+msgstr "Versandassistent"
+
+msgctxt "model:stock.shipment.sale.create_shipping.start,name:"
+msgid "Create Sale Shipping Start"
+msgstr "Versand Erstellen Start"
+
+msgctxt "view:stock.shipment.sale.create_shipping.start:"
+msgid "Create Shipping"
+msgstr "Versand erstellen"
+
+msgctxt "wizard_button:stock.shipment.sale.create_shipping,start,create_:"
+msgid "Create"
+msgstr "Erstellen"
+
+msgctxt "wizard_button:stock.shipment.sale.create_shipping,start,end:"
+msgid "Cancel"
+msgstr "Abbrechen"

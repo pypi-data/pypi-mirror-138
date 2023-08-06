@@ -1,0 +1,5 @@
+[run]
+source = trytond.modules.stock_package_shipping_sale_wizard
+
+[report]
+omit = */tests/*,*/setup.py
