@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: el_config
+Version: 0.1.12
+Summary: Python-box based custom config python package.
+Home-page: https://bitbucket.org/ellexiinc/el_config/
+Author: Batkhuu Byambajav
+Author-email: batkhuu@ellexi.com
+License: MIT
+Download-URL: https://bitbucket.org/ellexiinc/el_config/get/release-0.1.12.tar.gz
+Description: UNKNOWN
+Keywords: el_config,config,configs,python-box,custom-config
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
