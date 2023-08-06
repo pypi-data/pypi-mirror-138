@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: TextColorized
+Version: 0.0.1
+Summary: To make screen prints more colorful very easily, similar to the javascript console
+Home-page: https://github.com/Horlando-Leao/TextColorized
+Author: Horlando Leão
+Author-email: horlandojcleao.developer@gmail.com
+License: MIT
+Keywords: dev,script,text,print,color
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.md
+
+To make screen prints more colorful very easily, similar to the javascript console.Easy to use, just importing 'console' and using any function of the class, examples: header, assertion, fail and so on. and passing the text as parameter 'm='.
+
