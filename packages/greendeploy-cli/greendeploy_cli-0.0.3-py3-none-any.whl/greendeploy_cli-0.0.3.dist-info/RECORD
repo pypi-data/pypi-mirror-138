@@ -1,0 +1,13 @@
+greendeploy/__init__.py,sha256=n5PY29ua90GEHjaAgwaQyv1pZdfIWWc7y9iC6MbcA04,383
+greendeploy/__main__.py,sha256=nOAjVRJOvcDMxjCSGqyh3X_pZ0_qGvtMoC1CFiowh8A,292
+greendeploy/framework/__init__.py,sha256=fKlAfflokociYwdk9DRuS9j4MY0-1uhxnnvGe3OTgpA,76
+greendeploy/framework/cli/__init__.py,sha256=ABb--gNDdvaGsIutVJuDN7QpEQBDs7owzrkGA2528PM,193
+greendeploy/framework/cli/cli.py,sha256=qwmBf7JDEOzJ1FuJWACHupmIHqcdgHbbb-GqvJ-JznY,3534
+greendeploy/framework/cli/starters.py,sha256=6oc8dQtFGJqFgpCceSgzqZmIymL1I_nEPtGBI7XbAQQ,16125
+greendeploy/framework/cli/utils.py,sha256=ouO2ygrXo6zRIM5RnTqOn9ivhvLW4G10vtwg35c7Xjk,7533
+greendeploy_cli-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+greendeploy_cli-0.0.3.dist-info/METADATA,sha256=fEo9uwb0wzBKik_4bsaMUTmUL0hD-QUXYPNo-K62p0g,1632
+greendeploy_cli-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+greendeploy_cli-0.0.3.dist-info/entry_points.txt,sha256=ufVHihdcUxHmiON22f7h9jdypIVI48g0TzzNjTmGs-0,64
+greendeploy_cli-0.0.3.dist-info/top_level.txt,sha256=yCM87jM5hrI4lyftJQsW3LqbjSQRP5zJlNTyvMFwBi4,12
+greendeploy_cli-0.0.3.dist-info/RECORD,,
