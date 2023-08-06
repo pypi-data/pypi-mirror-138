@@ -1,0 +1,118 @@
+Metadata-Version: 2.1
+Name: HydrOpTop
+Version: 1.0.0a0
+Summary: Flexible and solver-independent topology optimization library in Python
+Home-page: https://github.com/MoiseRousseau/HydrOpTop
+Author: Moise Rousseau
+Author-email: rousseau.moise@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/MoiseRousseau/HydrOpTop/issues
+Project-URL: Source, https://github.com/MoiseRousseau/HydrOpTop/
+Keywords: topology optimization,mechanics,numerical simulation
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: cyipopt
+Requires-Dist: nlopt
+Requires-Dist: matplotlib
+Requires-Dist: h5py
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+# HydrOpTop
+
+HydrOpTop is a Python library which aims to provide a modular, flexible and solver-independant approach for topology optimization (TO) using the density-based approach.
+It aims to be the Swiss army knife and a standard exchange place for state-of-the-art tools and engineering discpline involved in TO.
+
+Solvers are interfaced using a I/O shield, which thus allow to define cost function, constraints and filters in a reusable manner for different softwares and codes.
+Also, objective functions and constraints are implemented under the same class and without distinction, which means they can be interchanged effortlessly.
+Base classes for cost functions/constraints, material parametrizations and filters are also provided so user may define they own TO features with a minimal amount of code.
+
+
+## Features
+
+* Distribute two materials (one could be void) in a domain such as an objective function is minimize/maximize.
+
+* Handle any solvers through dedicaced input/output shield.
+
+* Couple any solvers with any objective functions, filters or constraints once written for one and for all.
+
+* Allow users to define well written topology optimization problem in few lines.
+
+* Write results in common and open format to create great graphics and visualization.
+
+* Solve topology optimization problem constrained by one PDE (for instance) as well as various coupled PDE and time dependent problems (in the futur). By extension, any large scale inverse problem can be solved (geophysics, calibration, ...).
+
+
+## Getting started
+
+### Documentation
+
+The present README file contains some basic information about what HydrOpTop is, how to install it and to run some examples to see what HydrOpTop is capable of (see below).
+For a deeper description of all its capacities, a larger documentation is located [here]() which the reader/user is refered.
+
+Note this project is young, so documentation are still in development.
+
+
+### Installation
+
+HydrOpTop library can be easily installed using Python ``pip`` command as:
+
+```
+pip install HydrOpTop
+```
+
+Installation includes all the different HydrOpTop modules (material parametrization, functions, filters) including the solver I/O shields (see [here](https://TODO) for the list of interfaced solvers).
+However, solvers are in general be included, this means users need to install it manually.
+Solver installation instructions for HydrOpTop can be found in the documentation [here]().
+
+[Paraview](https://www.paraview.org/) software is also recommanded to visualize HydrOpTop results.
+
+Again, please note that as the project is young, so features, commands or capabilities may change fast. 
+Stay in tune!
+
+
+## Examples
+
+The ``examples`` folder contains some classic topology optimization problem to illustrate what HydrOpTop is capable of.
+
+### Linear elasticity examples
+
+* **Cantilever_simple**: The classical TO benchmark using a homemade 2D linear elasticity FEM solver. Consists in minimizing the mechanical compliance of a cantilever under a maximum volume constraint.
+* **Cantilever_discrete**: The same previous classical benchmark but using a Heavyside projection to create a discrete final design.
+* **Cantilever_min_volume**: A variation of the classical benchmark consisting in minimizing the weight (i.e. the volume) of the cantilever under a maximum mechanical compliance constraint.
+
+### Hydrogeology examples (with PFLOTRAN)
+
+* **Pond_drainage**: TODO
+* **Reactive_barrier_max_flow**: TODO
+* **Pit_min_gradient**: TODO
+
+
+
+## Contributing
+
+The library aims to be an exchange place for tools and between various engineering disciplines. 
+Therefore, your contributions are warmly welcomed and will be acknowledged.
+Guide for developpers and contribution rules are summarized in the documentation [here]().
+However, if you are a regular user, you can still help by reporting bugs and issues (see the GitHub issue tab above) or by starring this project if you like it. Thanks for your implication!
+
+
+## Authors
+
+* **Moïse Rousseau** - *Initial work*: initially started as a part of my PhD thesis at the [Research Institute of Mines and Environment](https://irme.ca/en/), continued latter as a personnal project.
+
+
