@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+PySeedRecover.egg-info/PKG-INFO
+PySeedRecover.egg-info/SOURCES.txt
+PySeedRecover.egg-info/dependency_links.txt
+PySeedRecover.egg-info/entry_points.txt
+PySeedRecover.egg-info/requires.txt
+PySeedRecover.egg-info/top_level.txt
+seedrecover/__init__.py
+seedrecover/bfstakecheck.py
+seedrecover/english.txt
+seedrecover/keyderiv.py
+seedrecover/main.py
+seedrecover/order.py
+seedrecover/stakecheck.py
+seedrecover/wordlist.py
