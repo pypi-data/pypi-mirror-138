@@ -1,0 +1,15 @@
+plugcli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plugcli/_installed_version.py,sha256=-wKzB2bN2AQrhL4ua-uHHs536GKhyZEnK52_HRtkdjg,124
+plugcli/cli.py,sha256=Q1sgEoMSF2M4-0y4Z_QtJQz38yAUBbAmE7IjrMHQmbU,2608
+plugcli/params.py,sha256=PwFIINF-oe-II4-7drY7BX3rBi4MRcl0whE0dou1dBw,3295
+plugcli/plugin_management.py,sha256=BLYeVfOYEKWs98w9DX4cjSBvqqQjdUaCS_nM7PVIXzw,6265
+plugcli/version.py,sha256=jRwbK1dPk-SBT61-scZpkisa1ZssBv4IOgA7xUppQkk,4347
+plugcli/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plugcli/tests/test_cli.py,sha256=ZScSikXM8ELOT2KV2U1WxSDvXzz1pJ7cErGlT50q3q0,3840
+plugcli/tests/test_params.py,sha256=RVQIkD3bbmceSQ-Q1YWGe5aI5t-2YvA12Bnj1ZxVWAg,2983
+plugcli/tests/test_plugin_management.py,sha256=9mEBC1apcoj63cMjoa5Rm-qLYGAyK_0ZTDa7J1oWxQM,2691
+plugcli-0.0.1.dev0.dist-info/LICENSE,sha256=o7o1VQInZUdOeJSstM1OBSdF5PIK0_Bj8KsjiIMaBA8,1075
+plugcli-0.0.1.dev0.dist-info/METADATA,sha256=MueUqmgcc4YaRZn2mMUUy72qqjiTak0SiYPkivKJ9JQ,5079
+plugcli-0.0.1.dev0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+plugcli-0.0.1.dev0.dist-info/top_level.txt,sha256=XivTXRbs1p7PIG_Z-gCyfhNAhfsvvglTLlUuFHwuVwM,8
+plugcli-0.0.1.dev0.dist-info/RECORD,,
