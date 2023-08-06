@@ -1,0 +1,6 @@
+jsonpatch
+netaddr
+prettytable
+python-dateutil
+requests
+six
