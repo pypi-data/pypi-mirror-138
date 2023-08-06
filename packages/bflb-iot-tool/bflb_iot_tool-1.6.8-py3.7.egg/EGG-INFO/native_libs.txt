@@ -1,0 +1,4 @@
+bflb_iot_tool/common/genromfs/cygwin1.dll
+bflb_iot_tool/utils/genromfs/cygwin1.dll
+bflb_iot_tool/utils/jlink/JLinkARM.dll
+bflb_iot_tool/utils/jlink/JLink_x64.dll
