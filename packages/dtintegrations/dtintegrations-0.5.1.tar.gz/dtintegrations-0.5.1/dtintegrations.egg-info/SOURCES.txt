@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dtintegrations/__init__.py
+dtintegrations/outputs.py
+dtintegrations/provider.py
+dtintegrations/request.py
+dtintegrations.egg-info/PKG-INFO
+dtintegrations.egg-info/SOURCES.txt
+dtintegrations.egg-info/dependency_links.txt
+dtintegrations.egg-info/requires.txt
+dtintegrations.egg-info/top_level.txt
+dtintegrations/data_connector/__init__.py
+dtintegrations/data_connector/http_push.py
+dtintegrations/data_connector/metadata.py
