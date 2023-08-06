@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: provablyfair
+Version: 1.0.0
+Summary: Provably fair for Python
+Home-page: https://github.com/SaidBySolo/provablyfair
+Author: Ryu ju heon
+Author-email: saidbysolo@gmail.com
+License: MIT
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Provably fair
+
+ref: <https://dicesites.com/provably-fair>
+
+## Example
+
+```python
+from provablyfair import ProvablyFair
+
+f = ProvablyFair("293d5d2ddd365f54759283a8097ab2640cbe6f8864adc2b1b31e65c14c999f04")
+r = f.roll("ClientSeedForDiceSites.com")
+print(r.roll % (10000) / 100)
+```
+
+
