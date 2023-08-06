@@ -1,0 +1,15 @@
+textmidiformeditpackage/AllFormsWindow.py,sha256=Es45dVz7XVLA0EuzDO3xgo5nFboa8OEGUuf113Jq5sI,32206
+textmidiformeditpackage/FormFrame.py,sha256=OLWou1Plb8Plk9XqZjJDO6xt1VLqrEB7FD_CzFTfHTY,2173
+textmidiformeditpackage/GeneralMIDI.py,sha256=FUAT4jz3vMHR5pMPleO3KIDP0mct6yjGQQypIsefyV0,8549
+textmidiformeditpackage/KeyboardWindow.py,sha256=rN-wxqbPxF4_TVYfxIz0R8yUGPmSnDAOjIEnkwZt8mM,12527
+textmidiformeditpackage/Sine.py,sha256=HbcB-h-SBentvVXyU5YKQU08pbUYMzqM1oaRr8mUZTw,4002
+textmidiformeditpackage/VoiceWindow.py,sha256=TfnO-O9xPl4Gns4pSqoyBuQSYxyOEFkzwc7dIlVYQt4,23070
+textmidiformeditpackage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+textmidiformeditpackage/textmidiformedit.py,sha256=30YyTj58ojSu6I3gtU5yGh0hiYh1oEnl0tSFbb49ORM,42782
+textmidiformedit-1.0.17.dist-info/AUTHORS,sha256=Qds3HD-NKuZQFy5CBE5O3S6dbERUSi2CNPBjyaFSLgA,41
+textmidiformedit-1.0.17.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+textmidiformedit-1.0.17.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+textmidiformedit-1.0.17.dist-info/METADATA,sha256=y86zA5_uQH0v8k34yxEpOAY066NvU1xP-NROw8yMPnk,902
+textmidiformedit-1.0.17.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+textmidiformedit-1.0.17.dist-info/top_level.txt,sha256=mHxpkqTwNy_8YvwnsL8Lro5IXfn3CjIxCxxqLdiu1e4,24
+textmidiformedit-1.0.17.dist-info/RECORD,,
