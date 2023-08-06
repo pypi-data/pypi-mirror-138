@@ -1,0 +1,11 @@
+fair_test/__init__.py,sha256=uamVXBuhkqqPEJ_MwMVCpoAK_99pf6NJlkn7HQly0q0,110
+fair_test/config.py,sha256=SsWVIpoJxx_4AdrHfoXhI2bSnrHR6fbAjC8gfPY7y4E,800
+fair_test/fair_test.py,sha256=Aw3kMNCAe90FFaQYDC2aGdALj-MhYV3iuszvMo_du7o,13260
+fair_test/fair_test_api.py,sha256=k91-4DhP79GqYTER0AaYzCAOaa_7IxuquvJZhbOnqdQ,4370
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_fair_testing_api.py,sha256=ITe71nY9x4LeHcQ5UeuEoJDg-LCTIk-rXfabQClOKXg,4461
+fair_test-0.0.2.dist-info/LICENSE,sha256=y5u3hcVdFFSwdCyAmrzHTh6FKj9BafMkLjtIy4AMiFQ,1071
+fair_test-0.0.2.dist-info/METADATA,sha256=ueO7ukef_dTxIQQNZxcInCUzOU4R5Ue6bZqZ_kOUO4g,7346
+fair_test-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fair_test-0.0.2.dist-info/top_level.txt,sha256=PXgCQPB_NDfYAFdCsHAhW0myEAiu29jbY6614Z423U0,16
+fair_test-0.0.2.dist-info/RECORD,,
