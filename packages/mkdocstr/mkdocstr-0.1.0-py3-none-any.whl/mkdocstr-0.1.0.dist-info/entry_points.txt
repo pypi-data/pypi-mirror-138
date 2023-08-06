@@ -1,0 +1,3 @@
+[console_scripts]
+mkdocstr=mkdocstr.cli:main
+
