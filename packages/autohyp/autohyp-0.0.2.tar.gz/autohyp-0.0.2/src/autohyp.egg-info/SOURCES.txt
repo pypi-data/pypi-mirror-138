@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/autohyp/__init__.py
+src/autohyp/module.py
+src/autohyp.egg-info/PKG-INFO
+src/autohyp.egg-info/SOURCES.txt
+src/autohyp.egg-info/dependency_links.txt
+src/autohyp.egg-info/top_level.txt
