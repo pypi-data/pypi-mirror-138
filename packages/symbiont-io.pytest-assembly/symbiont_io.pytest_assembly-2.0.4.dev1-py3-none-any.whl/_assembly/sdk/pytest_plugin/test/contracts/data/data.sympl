@@ -1,0 +1,15 @@
+
+@executable
+def do_executable() -> str:
+    return "foo"
+
+@clientside
+def run_executable() -> None:
+
+    with PostTxArgs(PUBLIC, []):
+        do_executable()
+
+
+@clientside
+def run_clientside() -> str:
+    return "bar"
