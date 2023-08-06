@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+mrmr/__init__.py
+mrmr/bigquery.py
+mrmr/main.py
+mrmr/pandas.py
+mrmr/spark.py
+mrmr_selection.egg-info/PKG-INFO
+mrmr_selection.egg-info/SOURCES.txt
+mrmr_selection.egg-info/dependency_links.txt
+mrmr_selection.egg-info/not-zip-safe
+mrmr_selection.egg-info/requires.txt
+mrmr_selection.egg-info/top_level.txt
