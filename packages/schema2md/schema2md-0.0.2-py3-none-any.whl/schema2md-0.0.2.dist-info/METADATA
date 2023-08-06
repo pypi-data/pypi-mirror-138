@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: schema2md
+Version: 0.0.2
+Summary: Opinionated generation of markdown files from json schemas
+Home-page: https://github.com/ku222
+Author: ku222
+Author-email: kovid.uppal@gmail.com
+License: MIT
+Keywords: json schema markdown
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pyrsistent (==0.18.1)
+
+Opinionated generation of markdown files from json schemas
+
