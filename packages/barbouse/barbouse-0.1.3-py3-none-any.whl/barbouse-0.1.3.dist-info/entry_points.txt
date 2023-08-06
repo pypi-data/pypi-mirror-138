@@ -1,0 +1,3 @@
+[console_scripts]
+barbouse=barbouse.barbouse:main
+
