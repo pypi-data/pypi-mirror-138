@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Doodke/CancelShutdown.py
+src/Doodke/CustomPrint.py
+src/Doodke/Help.py
+src/Doodke/Math.py
+src/Doodke/School.py
+src/Doodke/Secret.py
+src/Doodke/Shutdown.py
+src/Doodke/UwU.py
+src/Doodke/__init__.py
+src/Doodke.egg-info/PKG-INFO
+src/Doodke.egg-info/SOURCES.txt
+src/Doodke.egg-info/dependency_links.txt
+src/Doodke.egg-info/top_level.txt
