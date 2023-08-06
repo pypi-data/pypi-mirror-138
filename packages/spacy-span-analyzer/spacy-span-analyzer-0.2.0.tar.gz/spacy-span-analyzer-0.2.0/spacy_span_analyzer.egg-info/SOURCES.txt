@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+reproducibility/__init__.py
+reproducibility/scripts/__init__.py
+reproducibility/scripts/constants.py
+reproducibility/scripts/riqua.py
+spacy_span_analyzer/__init__.py
+spacy_span_analyzer/analyzer.py
+spacy_span_analyzer/cli.py
+spacy_span_analyzer.egg-info/PKG-INFO
+spacy_span_analyzer.egg-info/SOURCES.txt
+spacy_span_analyzer.egg-info/dependency_links.txt
+spacy_span_analyzer.egg-info/entry_points.txt
+spacy_span_analyzer.egg-info/requires.txt
+spacy_span_analyzer.egg-info/top_level.txt

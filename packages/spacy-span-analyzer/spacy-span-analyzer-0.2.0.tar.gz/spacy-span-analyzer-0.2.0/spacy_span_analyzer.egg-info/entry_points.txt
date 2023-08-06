@@ -1,0 +1,2 @@
+[console_scripts]
+spacy-span-analyzer = spacy_span_analyzer.cli:app
