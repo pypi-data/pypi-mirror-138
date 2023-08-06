@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "sinian_test"
+version = "0.1.0"
+description = ""
+authors = ["ph.yu <sinian.yu@tuya.com>"]
+
+[[tool.poetry.source]]
+name = "tuya"
+url = "https://maven.tuya-inc.top/repository/pypi-group/simple"
+default = true
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+jsonpath = "^0.82"
+faker="9.9.0"
+open-api = "0.0.11"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
