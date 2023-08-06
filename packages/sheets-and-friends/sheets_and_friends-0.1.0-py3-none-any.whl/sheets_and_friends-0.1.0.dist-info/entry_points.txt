@@ -1,0 +1,3 @@
+[console_scripts]
+do_shuttle=sheets_and_friends.shuttle:do_shuttle
+
