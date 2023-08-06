@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: musical-games
+Version: 0.5.2
+Summary: Base classes for musical games in Python
+Home-page: https://github.com/robbert-harms/musical-games
+Author: Robbert Harms
+Author-email: robbert@xkls.nl
+License: LGPL v3
+Keywords: musical games,dice games,music,computer generated
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: coverage
+Requires-Dist: dacite
+Requires-Dist: jinja2
+Requires-Dist: numpy
+Requires-Dist: ruamel.yaml
+
+=============
+Musical Games
+=============
+Base classes for musical games in Python. This features an implementation of various musical dice games by Mozart, Kirnberger and Stadler.
+
+For a use case of this library, please visit http://opus-infinity.org.
+
+* Free software: LGPL v3 license
+* Documentation: https://musical_games.readthedocs.org.
+
+
