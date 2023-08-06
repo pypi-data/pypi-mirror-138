@@ -1,0 +1,10 @@
+src/tmx_to_text/__init__.py,sha256=daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes_sHA,2
+src/tmx_to_text/converttmx.py,sha256=0-dq_cIp3repW7nn5I4mxAJeW4BDqq2sj5WzzJu7GWg,2905
+src/tmx_to_text/infotmx.py,sha256=ZzM_yvYAHEw5R2rTGCg3w4uIRYUfLS15ukya7f7J_cM,2032
+src/tmx_to_text/infotmxx.py,sha256=9Vyb-RH7Xgtgrtq028gN1mS_RBIOsofSclP0KciWw1o,1945
+src/tmx_to_text/tmx_to_text.py,sha256=qqPW9tPmmExLAOQQvwH2HjjALCuy54lQxciwhDwFmuY,3193
+tmx_to_text-0.1.5.dist-info/METADATA,sha256=CwAUlJcVIoj_TEehjIliQSf7mILYukqdIsijEjG1PYM,2293
+tmx_to_text-0.1.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tmx_to_text-0.1.5.dist-info/entry_points.txt,sha256=6xWLV6qNyY_WfDCohsJoKh6KpyWTwO8pIfpm2Gu1BuA,66
+tmx_to_text-0.1.5.dist-info/top_level.txt,sha256=QeWb99C-Afl1h8kQ60T3AAQ1EcTeifvchdSz1fQcUaM,16
+tmx_to_text-0.1.5.dist-info/RECORD,,

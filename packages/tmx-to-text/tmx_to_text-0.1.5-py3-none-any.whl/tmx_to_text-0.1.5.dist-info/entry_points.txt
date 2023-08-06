@@ -1,0 +1,3 @@
+[console_scripts]
+tmx-to-text = src.tmx_to_text.tmx_to_text:main
+
