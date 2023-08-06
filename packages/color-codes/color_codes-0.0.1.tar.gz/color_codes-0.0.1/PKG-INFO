@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: color_codes
+Version: 0.0.1
+Summary: Simple package for using the color codes any where
+Home-page: UNKNOWN
+Author: Danish Anodher
+Author-email: danishkh253@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# color-codes
+
+color-codes is a python package allowing easy access and use of RGB and HEX values of various colors.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install color-codes.
+
+```bash
+pip install color-codes
+```
+
+## Usage
+
+```python
+import color_codes as color
+
+# prints '(128, 128, 128)'
+print(color.GREY.rgb)
+
+# prints '#808080'
+print(color.GREY.hex)
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
