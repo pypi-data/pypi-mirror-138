@@ -1,0 +1,13 @@
+olxbrasil/__init__.py,sha256=fbuel_kx9125WnpimF-H1wBPRP2d-hWbnUjfVIFA_Bg,343
+olxbrasil/constants.py,sha256=hzz-UwdfEeENIzAmJhApwwtv0AuhVBoSz69Vv00cJoA,6816
+olxbrasil/exceptions.py,sha256=SRlQGfKb8zUVf_4qZw34CgHrwimK-Mar6iK3MTmzqrw,198
+olxbrasil/filters.py,sha256=8AfttQNKwXsyyYMDU1QmPYJI1o5NOJk5rp37E3Vm67g,3580
+olxbrasil/parsers/__init__.py,sha256=ugu-YJOGzSjUOLb4sXyAUPWHAueEI4BTuf5HM-HWF9M,178
+olxbrasil/parsers/base.py,sha256=SWF3LS-0ydOLur34JIneTEmDOxhftDlIEqxAHLqT46k,1609
+olxbrasil/parsers/item_parser.py,sha256=sEGdazMOSFBrTVdFzj_3h0_zQIE8cqgwU30MD80SJ2U,924
+olxbrasil/parsers/list_parser.py,sha256=rIJavXVimECUfESNilf2Qd93tT7qNFluoyWDKtlDjqg,1879
+olxbrasil/service.py,sha256=_lgOisaZm-1O4mt7Fp3HpJE4K4eX-U3ENg_jo4QZfXg,5773
+olxbrasil/utils.py,sha256=NA8Y_mjS2jtDeI2QZc4XV1-ZezhhUPtanCdBzN493_g,1720
+olxbrasil-0.2.7.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+olxbrasil-0.2.7.dist-info/METADATA,sha256=nMMantuSW1vCKzlKA8rfvQIe91d_c5zqpve3H57Q8Gg,2341
+olxbrasil-0.2.7.dist-info/RECORD,,
