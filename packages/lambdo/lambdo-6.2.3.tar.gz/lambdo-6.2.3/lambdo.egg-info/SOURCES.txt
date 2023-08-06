@@ -1,0 +1,8 @@
+lambdo.py
+setup.py
+lambdo.egg-info/PKG-INFO
+lambdo.egg-info/SOURCES.txt
+lambdo.egg-info/dependency_links.txt
+lambdo.egg-info/entry_points.txt
+lambdo.egg-info/requires.txt
+lambdo.egg-info/top_level.txt

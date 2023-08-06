@@ -1,0 +1,3 @@
+boto3
+glob2
+PyYAML
