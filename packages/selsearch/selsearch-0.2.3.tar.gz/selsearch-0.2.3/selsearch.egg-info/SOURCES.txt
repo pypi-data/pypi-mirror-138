@@ -1,0 +1,16 @@
+LICENSE.md
+README.md
+setup.py
+selsearch/__init__.py
+selsearch/app.py
+selsearch/config.py
+selsearch/gui.py
+selsearch/main.py
+selsearch/search.py
+selsearch/selection.py
+selsearch.egg-info/PKG-INFO
+selsearch.egg-info/SOURCES.txt
+selsearch.egg-info/dependency_links.txt
+selsearch.egg-info/entry_points.txt
+selsearch.egg-info/requires.txt
+selsearch.egg-info/top_level.txt
