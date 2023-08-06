@@ -1,0 +1,14 @@
+.DS_Store
+README.md
+requirements.txt
+setup.py
+db/gene_db_mapping.tsv
+restidy/__init__.py
+restidy/restidy.py
+restidy.egg-info/PKG-INFO
+restidy.egg-info/SOURCES.txt
+restidy.egg-info/dependency_links.txt
+restidy.egg-info/entry_points.txt
+restidy.egg-info/requires.txt
+restidy.egg-info/top_level.txt
+test/resfinder_sum.csv
