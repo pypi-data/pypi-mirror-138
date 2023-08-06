@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mrh/__init__.py
+src/mrh/mrh.py
+src/mrh.egg-info/PKG-INFO
+src/mrh.egg-info/SOURCES.txt
+src/mrh.egg-info/dependency_links.txt
+src/mrh.egg-info/requires.txt
+src/mrh.egg-info/top_level.txt

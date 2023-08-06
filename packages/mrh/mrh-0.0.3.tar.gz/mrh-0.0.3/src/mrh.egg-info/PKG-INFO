@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mrh
+Version: 0.0.3
+Summary: Sample package!
+Home-page: https://github.com/mrh110/mrh
+Author: Mohammadreza Heydarian
+Author-email: mrh110@gmail.com
+License: UNKNOWN
+Project-URL: Lab url, https://biomedic.ai
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Example of a package (version 3)
+This simulation is to practice the procedure for building a package on PyPi.
+
