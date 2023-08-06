@@ -1,0 +1,16 @@
+tqdm
+click
+more_click
+pystow
+jinja2
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx-click
+sphinx-autodoc-typehints
+sphinx_automodapi
+
+[tests]
+pytest
+coverage
