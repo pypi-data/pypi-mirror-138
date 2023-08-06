@@ -1,0 +1,9 @@
+setup.py
+ovos_ww_plugin_precise/__init__.py
+ovos_ww_plugin_precise.egg-info/PKG-INFO
+ovos_ww_plugin_precise.egg-info/SOURCES.txt
+ovos_ww_plugin_precise.egg-info/dependency_links.txt
+ovos_ww_plugin_precise.egg-info/entry_points.txt
+ovos_ww_plugin_precise.egg-info/requires.txt
+ovos_ww_plugin_precise.egg-info/top_level.txt
+ovos_ww_plugin_precise.egg-info/zip-safe
