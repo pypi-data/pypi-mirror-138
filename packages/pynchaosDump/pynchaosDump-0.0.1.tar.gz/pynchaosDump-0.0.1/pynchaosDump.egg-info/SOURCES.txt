@@ -1,0 +1,6 @@
+setup.py
+pynchaosDump.egg-info/PKG-INFO
+pynchaosDump.egg-info/SOURCES.txt
+pynchaosDump.egg-info/dependency_links.txt
+pynchaosDump.egg-info/requires.txt
+pynchaosDump.egg-info/top_level.txt

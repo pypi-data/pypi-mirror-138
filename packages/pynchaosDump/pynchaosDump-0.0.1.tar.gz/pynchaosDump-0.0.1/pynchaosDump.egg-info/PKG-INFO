@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: pynchaosDump
+Version: 0.0.1
+Summary: Dumps dataset of !CHAOS to local disk
+Home-page: UNKNOWN
+Author: Andrea Michelotti
+Author-email: andrea.michelotti@lnf.infn.it
+License: BSD
+Description: UNKNOWN
+Keywords: !CHAOS utility
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
