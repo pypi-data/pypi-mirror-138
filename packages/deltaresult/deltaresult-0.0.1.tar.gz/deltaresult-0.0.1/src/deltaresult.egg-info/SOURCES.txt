@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/deltaresult/__init__.py
+src/deltaresult/__main__.py
+src/deltaresult/deltaresult.py
+src/deltaresult/main.py
+src/deltaresult.egg-info/PKG-INFO
+src/deltaresult.egg-info/SOURCES.txt
+src/deltaresult.egg-info/dependency_links.txt
+src/deltaresult.egg-info/entry_points.txt
+src/deltaresult.egg-info/requires.txt
+src/deltaresult.egg-info/top_level.txt

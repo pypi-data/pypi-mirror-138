@@ -1,0 +1,139 @@
+# deltaresult
+
+Do you ever develop scripts creating multiple files only to realize that you must only track differences between runs
+of the script itself? If so, this project might be for you.
+
+deltaresult:
+- Helps create and maintain "deltaresult repos" where the runs will happen
+- Wraps around the commands to initialize the folders and track changes after each run
+- Keeps track of the runs themselves via git
+
+## Basic example
+
+Imagine having a program that always generates three files:
+
+- A first file with always the same contents
+- A second file in which the contents always change
+- A third file with an unpredictable name
+
+### Standalone run
+If you run this program on a directory, you would for example see the following result:
+```
+./unchanged
+./changing
+./unpredictable_23432
+```
+
+### With deltaresult
+Run it instead with the deltaresults wrapper and you will see this structure:
+```
+./README.md
+./changes/2022-02-14_203436.080337/unchanged
+./changes/2022-02-14_203436.080337/changing
+./changes/2022-02-14_203436.080337/unpredictable_23432
+./work/unchanged
+./work/changing
+./work/unpredictable_234325
+./last_changes -> ./changes/2022-02-14_203436.080337
+```
+Run it a second time, and this will be in the current folder:
+```
+./README.md
+./changes/2022-02-14_203436.080337/unchanged
+./changes/2022-02-14_203436.080337/changing
+./changes/2022-02-14_203436.080337/unpredictable_23432
+./changes/2022-02-15_102709.324331/changing
+./changes/2022-02-15_102709.324331/unpredictable_9872
+./work/unchanged
+./work/changing
+./work/unpredictable_234325
+./work/unpredictable_9872
+./last_changes -> ./changes/2022-02-15_102709.324331
+```
+
+The contents are, therefore:
+
+- `README.md` is a small description of the deltaresult repository 
+- `work` contains the current working directory (with a hidden `.git` repository)
+- `changes` contains directories for all the runs, each containing only changed or newly added files after a run
+- `last_changes` is a symlink always pointing to the latest changes directory 
+
+If repositories get too big, you may want to periodically:
+
+- Remove old result folders in `changes`
+- _(dangerous)_ in `./work/`, removing the `.git` folder and reinitializing with `git init`
+
+## Installation
+
+deltaresult requires Python 3.x >= 3.6.
+
+Install from PyPI:
+
+```
+$ pip install deltaresult
+```
+
+## Usage
+
+
+### Command line
+
+The command line can be used as-is to wrap around a program
+
+```
+usage: deltaresult [-h] -e EXEC [-a ARG] -d DIR [-t TITLE]
+
+Tracks changes for multiple script runs with similar results
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -e EXEC, --exec EXEC  the command to execute
+  -a ARG, --arg ARG     argument to the command to execute (can be repeated)
+  -d DIR, --dir DIR     main directory
+  -t TITLE, --title TITLE
+                        the program title
+```
+
+Example run calling a simple bash script:
+```
+$ deltaresult --dir=/tmp/xxx --exec=/bin/bash --arg=-c --arg="echo static>unchanged; echo \$RANDOM>changing; touch unpredictable_\$RANDOM;"
+[ ] Creating new main directory "/tmp/xxx"
+[ ] Creating work repository
+[ ] Creating README.md
+[I] Created result directory "/tmp/xxx/changes/2022-02-14_211637.064912"
+[ ] Executing "['/bin/bash', '-c', 'echo static>unchanged; echo $RANDOM>changing; touch unpredictable_$RANDOM;']"...
+[I] The command exited with error code 0
+[ ] Copied changed file "changing" to result directory
+[ ] Copied changed file "unchanged" to result directory
+[ ] Copied changed file "unpredictable_32600" to result directory
+
+$ deltaresult --dir=/tmp/xxx --exec=/bin/bash --arg=-c --arg="echo static>unchanged; echo \$RANDOM>changing; touch unpredictable_\$RANDOM;"
+[I] Created result directory "/tmp/xxx/changes/2022-02-14_211657.390539"
+[ ] Executing "['/bin/bash', '-c', 'echo static>unchanged; echo $RANDOM>changing; touch unpredictable_$RANDOM;']"...
+[I] The command exited with error code 0
+[ ] Copied changed file "changing" to result directory
+[ ] Copied changed file "unpredictable_12510" to result directory
+```
+
+### Python
+
+Using this module with python is also straightforward:
+
+```python
+from deltaresult import DeltaResultRepo
+from random import randint
+
+with DeltaResultRepo('/tmp/xxx', 'Example repo') as repo:
+    with open(repo.get_filename_in_work_directory('unchanged'), 'w') as f:
+        f.write('This file never changes.\n')
+        
+    with open(repo.get_filename_in_work_directory('changing'), 'w') as f:
+        f.write('This file changes: %s.' % randint(0, 65536))
+        
+    with open(repo.get_filename_in_work_directory('unpredictable_%s' % randint(0, 65536)), 'w') as f:
+        f.write('This file is new.\n')
+        
+    with open(repo.get_filename_in_result_directory('run.log'), 'w') as f:
+        f.write('This is a log of the execution for the results directory.\n');
+
+```
