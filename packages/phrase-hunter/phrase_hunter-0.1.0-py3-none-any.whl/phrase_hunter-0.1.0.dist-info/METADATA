@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: phrase-hunter
+Version: 0.1.0
+Summary: A simple game where you guess the letters of a phrase, similar to hangman
+Home-page: https://github.com/reneebrinkman/phrase-hunter
+Author: Renee Louise Brinkman
+Author-email: reneebrinkman91@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/reneebrinkman/phrase-hunter/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Phrase Hunter
+
+This is a simple game for guessing the letters of a phrase, similar to hangman.
+
+Install it with
+
+`$ pip install phrase-hunter`
+
+Run it with
+
+`$ phrase-hunter`
+
+## Source code
+
+Majority of the code can be found in the classes in the included `phrasehunter`
+package. This is my Unit 3 submission for my Treehouse Python Development TechDegree
+so any and all feedback is welcome!
+
+

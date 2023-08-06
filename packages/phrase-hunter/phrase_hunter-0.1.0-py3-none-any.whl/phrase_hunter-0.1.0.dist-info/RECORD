@@ -1,0 +1,10 @@
+phrasehunter/__init__.py,sha256=QwLwf7FoOZTPfZkt_W68iEfWrBGdD69UYDp7vs3Dm_0,78
+phrasehunter/__main__.py,sha256=b0mVYinmznbSzOP_dMsVUOnRF2tnK0LPEKr3htJU0KI,64
+phrasehunter/game.py,sha256=aEu_hGUoAkgS7jyEi0LP_d_XmazdVFf81X7_wRM35-U,2758
+phrasehunter/phrase.py,sha256=vIPmEFF8P2uqoh59OxsM-n18P4NkH0xFZCW1KzpY8-A,1679
+phrase_hunter-0.1.0.dist-info/LICENSE,sha256=7efyyHXYlBMAY2LlqZXi8XsDIxCagp7k3Jt1Lq_MYkg,980
+phrase_hunter-0.1.0.dist-info/METADATA,sha256=92bNqQ3KEphtPit-8h8WcpLWrzhd2yvGr60M14EWlDU,1012
+phrase_hunter-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+phrase_hunter-0.1.0.dist-info/entry_points.txt,sha256=h8eBkXFpNJoGlyBhO2UaMQuwoarZZNiRvoA6vSUEJV4,53
+phrase_hunter-0.1.0.dist-info/top_level.txt,sha256=ESKyZ2ODnSGiqEj4UlIo-hA8VqiiUyjTYSyDDIv5ExY,13
+phrase_hunter-0.1.0.dist-info/RECORD,,
