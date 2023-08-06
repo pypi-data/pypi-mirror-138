@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: JablotronPy
+Version: 0.0.1
+Summary: A client to interact with the Jablotron API to control Jablotron alarm systems
+Home-page: https://github.com/fdegier/JablotronPy
+Author: F. de Gier
+Author-email: freddegier@me.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (>=2.25.0)
+
+UNKNOWN
+
