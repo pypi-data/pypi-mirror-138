@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+similarwebact/__init__.py
+similarwebact/__version__.py
+similarwebact/similarweb.py
+similarwebact.egg-info/PKG-INFO
+similarwebact.egg-info/SOURCES.txt
+similarwebact.egg-info/dependency_links.txt
+similarwebact.egg-info/top_level.txt
