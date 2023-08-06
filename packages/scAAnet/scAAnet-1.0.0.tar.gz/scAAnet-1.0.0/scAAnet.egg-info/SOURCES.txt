@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+scAAnet/__init__.py
+scAAnet/api.py
+scAAnet/loss.py
+scAAnet/network.py
+scAAnet/tools.py
+scAAnet/train.py
+scAAnet.egg-info/PKG-INFO
+scAAnet.egg-info/SOURCES.txt
+scAAnet.egg-info/dependency_links.txt
+scAAnet.egg-info/requires.txt
+scAAnet.egg-info/top_level.txt

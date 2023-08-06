@@ -1,0 +1,10 @@
+numpy
+pandas
+scipy
+tensorflow
+sklearn
+fastcluster
+statsmodels
+seaborn
+matplotlib
+anndata
