@@ -1,0 +1,11 @@
+finailab/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+finailab/__main__.py,sha256=JCiaDdskQUSQ9KNuOsSX9CiaxRi-PLPZo8dw7xP_49Q,710
+finailab/jupyter_notebook_config.py,sha256=_vgiTFF3V3A8Jz_noVBFLYkbBwIgQmF57FXAp7EsljI,30506
+finailab-0.1.0.data/data/version.py,sha256=NZi63odJwNBdwY4Fu0Wdz07pdOcc35iLWE8O5FOR-eI,342
+finailab-0.1.0.data/scripts/run_finailab,sha256=r3GYkvoANS3QC93msg-t3piWSda8zpgKraT6JEtIHzk,518
+finailab-0.1.0.dist-info/LICENCE.txt,sha256=U5J70Lc504yHoKgiNv2bBwwt__EcDBGb5QNyAF1QR60,35815
+finailab-0.1.0.dist-info/METADATA,sha256=1KHao4IqyQVZkibJEV0tK2c-pxlCKhPpUP77zKzmQ90,814
+finailab-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+finailab-0.1.0.dist-info/entry_points.txt,sha256=KgvCXffw7Ycn1BiORVLyjgMZANYeOBwWTiHwwal-VNo,53
+finailab-0.1.0.dist-info/top_level.txt,sha256=87hyy9lAhkJK0Bz0KWVFahb4OEUYZmCp2F6ah2KpYuw,9
+finailab-0.1.0.dist-info/RECORD,,
