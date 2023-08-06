@@ -1,0 +1,5 @@
+[run]
+source = trytond.modules.account_deposit
+
+[report]
+omit = */tests/*,*/setup.py

@@ -1,0 +1,196 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.account.type,deposit:"
+msgid "Deposit"
+msgstr "Anzahlung"
+
+msgctxt "field:account.account.type.template,deposit:"
+msgid "Deposit"
+msgstr "Anzahlung"
+
+msgctxt "error:account.invoice:"
+msgid ""
+"The available deposit for party \"%(party)s\" is less than the deposit used.\n"
+"\n"
+"To re-calculate the used deposit set the invoice first back to draft. When proceeding the party will have an overdue deposit."
+msgstr ""
+"Das verfügbare Guthaben von Partei \"%(party)s\" liegt unter dem verwendeten Guthaben.\n"
+"\n"
+"Um das verwendete Guthaben neu zu berechnen, muss die Rechnung in den Entwurfsstatus zurückgesetzt werden. Wenn ohne Änderung fortgefahren wird, wird die Partei ein ungedecktes (negatives) Guthaben haben."
+
+msgctxt "error:party.erase:"
+msgid ""
+"The party \"%(party)s\" can not be erased because it has deposit for the "
+"company \"%(company)s\"."
+msgstr ""
+"Partei \"%(party)s\" kann nicht gelöscht werden, weil sie noch Guthaben im "
+"Unternehmen \"%(company)s\" hat."
+
+msgctxt "field:account.configuration,default_account_deposit:"
+msgid "Default Account Deposit"
+msgstr "Standardkonto Guthabenverrechnung"
+
+msgctxt "field:account.configuration,deposit_settlement_method:"
+msgid "Deposit Settlement Method"
+msgstr "Guthabenverrechnungsmethode"
+
+msgctxt "field:account.configuration.default_account,default_account_deposit:"
+msgid "Default Account Deposit"
+msgstr "Standardkonto Guthabenverrechnung"
+
+msgctxt "field:account.configuration.deposit_settlement_method,company:"
+msgid "Company"
+msgstr "Unternehmen"
+
+msgctxt "field:account.configuration.deposit_settlement_method,configuration:"
+msgid "Configuration"
+msgstr "Einstellungen"
+
+msgctxt "field:account.configuration.deposit_settlement_method,create_date:"
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+msgctxt "field:account.configuration.deposit_settlement_method,create_uid:"
+msgid "Create User"
+msgstr "Erstellt durch"
+
+msgctxt ""
+"field:account.configuration.deposit_settlement_method,deposit_settlement_method:"
+msgid "Deposit Settlement Method"
+msgstr "Guthabenverrechnungsmethode"
+
+msgctxt "field:account.configuration.deposit_settlement_method,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:account.configuration.deposit_settlement_method,rec_name:"
+msgid "Record Name"
+msgstr "Name"
+
+msgctxt "field:account.configuration.deposit_settlement_method,write_date:"
+msgid "Write Date"
+msgstr "Zuletzt geändert"
+
+msgctxt "field:account.configuration.deposit_settlement_method,write_uid:"
+msgid "Write User"
+msgstr "Letzte Änderung durch"
+
+msgctxt "field:account.invoice,deposit:"
+msgid "Available Deposit"
+msgstr "Verfügbares Guthaben"
+
+msgctxt "field:account.invoice,use_deposit:"
+msgid "Recall Deposit"
+msgstr "Guthaben verrechnen"
+
+msgctxt "field:account.invoice.recall_deposit.start,account:"
+msgid "Account"
+msgstr "Konto"
+
+msgctxt "field:account.invoice.recall_deposit.start,company:"
+msgid "Company"
+msgstr "Unternehmen"
+
+msgctxt "field:account.invoice.recall_deposit.start,description:"
+msgid "Description"
+msgstr "Beschreibung"
+
+msgctxt "field:account.invoice.recall_deposit.start,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:party.party,deposit:"
+msgid "Deposit"
+msgstr "Anzahlung"
+
+msgctxt "model:account.configuration.deposit_settlement_method,name:"
+msgid "Account Configuration Deposit Settlement Method"
+msgstr "Buchhaltung Guthabenverrechnungsmethode"
+
+msgctxt "model:account.invoice.recall_deposit.start,name:"
+msgid "Recall deposit on Invoice"
+msgstr "Anzahlung auf Rechnung verrechnen"
+
+msgctxt "model:ir.action,name:act_move_line_deposit"
+msgid "Deposit Lines"
+msgstr "Anzahlungspositionen"
+
+msgctxt "model:ir.action,name:wizard_recall_deposit"
+msgid "Recall Deposit"
+msgstr "Anzahlung verrechnen"
+
+msgctxt "model:ir.message,text:msg_deposit_changed"
+msgid ""
+"The available deposit for party \"%(party)s\" is less than the deposit used.\n"
+"\n"
+"To re-calculate the used deposit set the invoice first back to draft. When proceeding the party will have an overdue deposit."
+msgstr ""
+"Das verfügbare Guthaben für Partei \"%(party)s\" ist kleiner als das verwendete Guthaben.\n"
+"\n"
+"Zur Neuberechnung des Guthabens setzen Sie zuerst die Rechung auf Entwurf zurück. Falls Sie direkt fortfahren wird die Partei ein überfälliges Guthaben aufweisen."
+
+msgctxt "model:ir.message,text:msg_deposit_not_enough"
+msgid "The account \"%(account)s\" has not enough deposit from party \"%(party)s\"."
+msgstr ""
+"Auf Konto \"%(account)s\" ist nicht genügend Guthaben von Partei "
+"\"%(party)s\" vorhanden."
+
+msgctxt "model:ir.message,text:msg_deposit_settlement"
+msgid "Deposit settlement"
+msgstr "Guthabenverrechnung"
+
+msgctxt "model:ir.message,text:msg_erase_party_deposit"
+msgid ""
+"You cannot erase party \"%(party)s\" while they have deposit at company "
+"\"%(company)s\"."
+msgstr ""
+"Partei \"%(party)s\" kann nicht gelöscht werden, solange Sie noch ein "
+"Guthaben bei Unternehmen \"%(company)s\" hat."
+
+msgctxt "model:ir.message,text:msg_missing_deposit_account"
+msgid ""
+"No account for deposit settlement configured in the accounting "
+"configuration."
+msgstr ""
+"Es ist kein Konto für die Guthabenabrechnung in den "
+"Buchhaltungseinstellungen konfiguriert."
+
+msgctxt "selection:account.configuration,deposit_settlement_method:"
+msgid "Partial (Allow partial deposit per invoice)"
+msgstr "Teilweise (Teilzahlung per Guthaben erlauben)"
+
+msgctxt "selection:account.configuration,deposit_settlement_method:"
+msgid "Strict (Require complete deposit per invoice)"
+msgstr "Strikt (Rechnungen müssen komplett per Guthaben bezahlbar sein)"
+
+msgctxt ""
+"selection:account.configuration.deposit_settlement_method,deposit_settlement_method:"
+msgid "Partial (Allow partial deposit per invoice)"
+msgstr "Teilweise (Teilzahlung per Guthaben erlauben)"
+
+msgctxt ""
+"selection:account.configuration.deposit_settlement_method,deposit_settlement_method:"
+msgid "Strict (Require complete deposit per invoice)"
+msgstr "Strikt (Rechnungen müssen komplett per Guthaben bezahlbar sein)"
+
+msgctxt "view:account.configuration:"
+msgid "Deposit"
+msgstr "Guthaben"
+
+msgctxt "view:account.invoice.recall_deposit.start:"
+msgid "Recall Deposit"
+msgstr "Guthaben verrechnen"
+
+msgctxt "view:account.invoice:"
+msgid "Recall Deposit"
+msgstr "Anzahlung verrechnen"
+
+msgctxt "wizard_button:account.invoice.recall_deposit,start,end:"
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgctxt "wizard_button:account.invoice.recall_deposit,start,recall:"
+msgid "Recall"
+msgstr "Verrechnen"
