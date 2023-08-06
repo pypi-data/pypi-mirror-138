@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: lbst
+Version: 0.0.1
+Summary: Immutable Log-Balanced Search Tree
+License: CC0
+Author: Amirouche
+Author-email: amirouche@hyper.dev
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# Immutable Log-Balanced Search Tree
+
+![pink sakura tree at daytime](https://images.unsplash.com/photo-1515863149848-223cbed59017?w=1024&q=80)
+
