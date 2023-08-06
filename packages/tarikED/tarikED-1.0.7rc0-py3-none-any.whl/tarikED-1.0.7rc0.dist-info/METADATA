@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: tarikED
+Version: 1.0.7rc0
+Summary: Electron diffraction utilities
+Home-page: UNKNOWN
+Author: Tarik Ronan Drevon
+Author-email: ronandrevon@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License 
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: TarikDrevonUtils
+Requires-Dist: bs4
+Requires-Dist: cbf
+Requires-Dist: colorama
+Requires-Dist: crystals
+Requires-Dist: easygui
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pickle5
+Requires-Dist: scipy
+Requires-Dist: tifffile
+
+UNKNOWN
+
+
