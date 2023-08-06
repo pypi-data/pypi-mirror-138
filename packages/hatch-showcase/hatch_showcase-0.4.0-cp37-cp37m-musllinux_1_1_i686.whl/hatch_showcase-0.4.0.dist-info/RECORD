@@ -1,0 +1,15 @@
+8308bdc8a49463f40810__mypyc.cpython-37m-i386-linux-gnu.so,sha256=YsbQ0qim-_9MettZXV5brX5ugtPILoL44KdYj2jXHmc,137184
+hatch_showcase-0.4.0.dist-info/METADATA,sha256=otoCPnBJgrG6tjGZ94LnxJQr4XJ0EJDM3uzqiY2O4c8,3786
+hatch_showcase-0.4.0.dist-info/RECORD,,
+hatch_showcase-0.4.0.dist-info/entry_points.txt,sha256=ZMEd-F4fCgY-HDAJC2nFvmtuk2_4p0dPcLzIOAppqCM,69
+hatch_showcase-0.4.0.dist-info/WHEEL,sha256=SEqTEvBHR_MqiXL_M0CUuEF3Op1_S-Dnm678Ic47YsQ,101
+hatch_showcase-0.4.0.dist-info/license_files/LICENSE.txt,sha256=fxQ6gSetSHOGLXCFS1vSq9AIWqc-ZP0rCHBKO59cB_w,1088
+hatch_showcase/fib.cpython-37m-i386-linux-gnu.so,sha256=cjrhG6dA3H8ob4203Lypylk6N-Y_Yzr_Xr7C-7hSGvo,16316
+hatch_showcase/__init__.cpython-37m-i386-linux-gnu.so,sha256=yZAws-BK9aVtCOeSIZY3lm9YKFDA5fhfwRotPMB71Ks,16340
+hatch_showcase/_version.py,sha256=LXsVgL30inwYURXgt8agwHpCAGkWqXpMAmFq8N7WB4Q,142
+hatch_showcase/__main__.cpython-37m-i386-linux-gnu.so,sha256=7RsLSoU5hbCn8xUlTtBW8K8ZTYTd4iccQgDprlIuUi0,16344
+hatch_showcase/__main__.py,sha256=o-PTw3c2gFgKqWT_-7NRGi8egP5S3hSe70suX_Zpml8,203
+hatch_showcase/fib.py,sha256=-WKhQkBHMsfdGNx6Xiogb2kqgZE9gFk6SeEbcY3sQMo,221
+hatch_showcase/__init__.py,sha256=SnqyexerOAwtyoBgJiHYrEEn5N-QRT1miZRN1pkADP0,96
+hatch_showcase/cli/__init__.cpython-37m-i386-linux-gnu.so,sha256=M-PEcTpERUmPJYy434sU2xvdmKU5nX8D-6qPbEW6Gnc,16316
+hatch_showcase/cli/__init__.py,sha256=p8pHzARwFTjMLGN160ImlYDo6xDOZFd8jbQ3qn9bcPk,572
