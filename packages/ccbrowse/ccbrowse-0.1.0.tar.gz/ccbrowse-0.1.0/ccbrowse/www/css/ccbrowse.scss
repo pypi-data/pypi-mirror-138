@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Asap:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800,700,400);
+
+@import "header.scss";
+@import "navigation.scss";
+@import "map.scss";
+@import "colormap.scss";
+@import "location-bar.scss";
+@import "tooltip.scss";
+@import "page.scss";
+@import "yaxis.scss";
+
+
+body {
+    margin: 0;
+    background: #333;
+    font-family: Asap, helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+#overlay {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:hover:before {
+    text-decoration: none !important;
+}
+
+.context {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+/* Standard screen. */
+@media screen {
+    body { font-size: 11pt; }
+    header { height: 110px; }
+    .context { top: 110px; }
+}
+
+/* Small screen. */
+@media screen and (max-width: 1024px) {
+    body { font-size: 8pt; }
+    header { height: 105px; }
+    .context { top: 105px; }
+}

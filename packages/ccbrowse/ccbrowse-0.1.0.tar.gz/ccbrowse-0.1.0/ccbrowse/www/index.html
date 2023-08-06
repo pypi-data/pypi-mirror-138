@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>ccbrowse</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <base href="/" />
+        <link rel="stylesheet" type="text/css" href="lib/leaflet/leaflet.css" />
+        <link rel="stylesheet" type="text/css" href="css/ccbrowse.css" />
+        <link rel="icon" type="image/png" href="img/favicon-16.png" sizes="16x16" />
+        <script type="text/javascript" src="/lib/eventemitter2/eventemitter2.js"></script>
+        <script type="text/javascript" src="/lib/leaflet/leaflet-src.js"></script>
+        <script type="text/javascript" src="/lib/mootools/mootools.js"></script>
+        <script type="text/javascript" src="/lib/mootools/mootools-more.js"></script>
+        <script type="text/javascript" src="/lib/d3/d3.v3.min.js"></script>
+        <script type="text/javascript" src="/js/projection.js"></script>
+        <script type="text/javascript" src="/js/utils.js"></script>
+        <script type="module" src="/js/ccbrowse.js"></script>
+    </head>
+    <body>
+        <div id="overlay"></div>
+
+        <!-- Header -->
+        <header>
+            <h1><a href="./">cc<b>browse</b></a></h1>
+
+            <div id="toolbox">
+                <a href="#about">About</a>
+            </div>
+
+            <!-- Navigation bar -->
+            <nav id="nav">
+                <div class="panel"></div>
+                <div class="progress"></div>
+            </nav>
+        </header>
+
+        <!-- Map context -->
+        <div class="context map">
+            <!-- Y-axis -->
+            <aside id="yaxis-container"><div class="yaxis"></div></aside>
+            <!-- Map -->
+            <div id="map-container">
+                <div class="overlay"><div class="error collapsed"></div></div>
+                <div class="overlay"><div class="note collapsed"></div></div>
+                <div id="map"></div>
+                <div id="layer-control" class="control collapsed" title="Layers">
+                    <div class="icon" title=""></div>
+                    <div class="content">
+                        <div class="label">Layers</div>
+                        <div class="items"></div>
+                    </div>
+                </div>
+                <div id="location-bar">
+                    <div class="left"></div>
+                    <div class="center" title="Information about place not available">…</div>
+                    <div class="right"></div>
+                </div>
+                <div class="keyboard-legend" title="
+                    <div class='keyboard-tooltip'>
+                        <div class='title'>Keyboard shortcuts</div>
+                        <div><span>↩</span> Pan left</div>
+                        <div><span>↪</span> Pan right</div>
+                        <div><span>↑</span> Pan up</div>
+                        <div><span>↓</span> Pan down</div>
+                        <div><span>+</span> Zoom in</div>
+                        <div><span>–</span> Zoom out</div>
+                        <div><span>PgUp</span> Jump left</div>
+                        <div><span>PgDown</span> Jump right</div>
+                    </div>"></div>
+            </div>
+
+            <!-- Colormap -->
+            <aside id="colormap-container"><div id="colormap"></div></aside>
+        </div>
+
+        <!-- Page context -->
+        <div class="context page" style="display: none"></div>
+
+        <!-- Templates -->
+        <div id="templates" style="display: none">
+            <div id="popup-content-template" class="popup-content">
+                <div class="color-box"></div>
+                <div class="value"></div>
+                <div class="time"></div>
+                <div class="height"></div>
+                <a class="latlon-link">
+                    <span class="latitude"></span>,
+                    <span class="longitude"></span>
+                </a>
+                <div class="country"></div>
+            </div>
+            <div id="tooltip-template" class="tooltip">
+                <div class="content"></div>
+            </div>
+        </div>
+    </body>
+</html>

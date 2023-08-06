@@ -1,0 +1,179 @@
+#!/usr/bin/env python3
+
+import sys
+import os
+import getopt
+import shutil
+import subprocess
+import signal
+import logging
+
+from ccbrowse.config import sharepath
+
+
+def create(name):
+    try:
+        shutil.copytree(os.path.join(sharepath, 'template'), name)
+    except OSError as e:
+        logging.error('%s: %s' % (e.filename, e.strerror))
+    except shutil.Error as e:
+        logging.error(e)
+        try: os.rmdir(name)
+        except: pass
+
+
+def usage():
+    sys.stderr.write('''Usage: {program_name} COMMAND [ARGS]
+       {program_name} COMMAND --help
+       {program_name} --help
+
+Try `{program_name} --help\' for more information.
+'''.format(program_name=program_name))
+
+
+def print_help():
+    sys.stdout.write('''Usage: {program_name} COMMAND [ARGS]
+       {program_name} COMMAND --help
+       {program_name} --help
+
+Perform commands on a ccbrowse repository.
+
+Available commands:
+  create        create a new repository
+  fetch         fetch product files
+  get           fetch and import products
+  import        import a product file
+  server        run the ccbrowse HTTP server
+
+Use `{program_name} COMMAND --help' for more information about a command.
+
+Report bugs to <ccplot-general@lists.sourceforge.net>
+'''.format(program_name=program_name))
+
+
+def print_help_for(command):
+    if command == 'create':
+        sys.stdout.write('''Usage: {program_name} create NAME
+
+Create a new repository.
+
+Positional arguments:
+  NAME          name of the repository
+'''.format(program_name=program_name))
+
+    elif command == 'get':
+        sys.stdout.write('''Usage: {program_name} get TYPE STARTDATE STOPDATE
+
+Fetch and import products in the specified time interval.
+
+Positional arguments:
+  TYPE            product type
+  STARTDATE       start date specified as "YEAR-MONTH-DAY HOUR:MINUTE"
+  STOPDATE        stop date specified as "YEAR-MONTH-DAY HOUR:MINUTE"
+'''.format(program_name=program_name))
+
+    else:
+        print_help()
+
+
+if __name__ == "__main__":
+    program_name = sys.argv[0]
+    logging.basicConfig(format=program_name+': %(message)s', level=logging.INFO)
+
+    if len(sys.argv) < 2:
+        usage()
+        sys.exit(1)
+
+    command = sys.argv[1]
+
+    if command == '--help':
+        print_help()
+        sys.exit(0)
+
+    if command != 'create' and not os.path.exists('config.json'):
+        logging.error('This is not a ccbrowse repository')
+        sys.exit(1)
+
+    elif command == 'create':
+        try: opts, args = getopt.getopt(sys.argv[2:], '', ['help'])
+        except getopt.GetoptError as e:
+            logging.error(e)
+            print_help_for(command)
+            sys.exit(1)
+        for opt, value in opts:
+            if opt == '--help':
+                print_help_for(command)
+                sys.exit(0)
+
+        if len(args) != 1:
+            print_help_for(command)
+            sys.exit(1)
+
+        name = args[0]
+        create(name)
+
+    elif command == 'get':
+        try: opts, args = getopt.getopt(sys.argv[2:], '', ['help'])
+        except getopt.GetoptError as e:
+            logging.error(e)
+            print_help_for(command)
+            sys.exit(1)
+        for opt, value in opts:
+            if opt == '--help':
+                print_help_for(command)
+                sys.exit(0)
+
+        if len(args) != 3:
+            print_help_for(command)
+            sys.exit(1)
+
+        campaign = args[0]
+        startdate = args[1]
+        stopdate = args[2]
+
+        path = os.path.join('products', campaign)
+        if campaign != '':
+            try: os.makedirs(path)
+            except os.error: pass
+
+        cmd = ('ccfetch', '-O', path, campaign, startdate, stopdate)
+        try:
+            p = subprocess.Popen(cmd, stdout=subprocess.PIPE)
+            output = p.communicate()[0]
+        except KeyboardInterrupt:
+            p.send_signal(signal.SIGTERM)
+            sys.exit(0)
+
+        files = output.split('\n')
+        for name in files:
+            if name == '': continue
+            filename = os.path.join(path, name)
+            subprocess.call(['ccimport', campaign, filename])
+
+    elif command == 'fetch':
+        campaign = ''
+        for arg in sys.argv[2:]:
+            if arg.startswith('-'): continue
+            campaign = arg
+            break
+
+        path = os.path.join('products', campaign)
+        if campaign != '':
+            try: os.makedirs(path)
+            except os.error: pass
+
+        os.execvp('ccfetch', [' '.join(sys.argv[:2]), '-O', path] + sys.argv[2:])
+
+    elif command == 'import':
+        os.execvp('ccimport', [' '.join(sys.argv[:2])] + sys.argv[2:])
+
+    elif command == 'server':
+        os.execvp('ccserver', [' '.join(sys.argv[:2])] + sys.argv[2:])
+
+    elif command == 'load':
+        os.execvp('ccload', [' '.join(sys.argv[:2])] + sys.argv[2:])
+
+    else:
+        logging.error('Unknown command %s' % command)
+        sys.exit(1)
+

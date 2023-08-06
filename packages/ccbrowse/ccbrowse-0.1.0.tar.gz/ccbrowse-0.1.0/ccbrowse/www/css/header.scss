@@ -1,0 +1,47 @@
+header {
+    position: relative;
+    /* height: defined in ccbrowse.scss */
+    z-index: 200;
+    background-color: #111;
+
+    h1 {
+        float: left;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0.2em;
+        font-size: 100%;
+
+        a {
+            display: block;
+            font-size: 200%;
+            font-weight: normal;
+            color: transparent;
+            padding: 0.1em 0.2em;
+            background: url('../img/ccbrowse.png') no-repeat center center;
+            background-size: 4em;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    #toolbox {
+        float: right;
+        color: #eee;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 0.5em;
+
+        a {
+            display: block;
+            font-size: 160%;
+            padding: 0.4em 0.5em 0.4em 1.8em;
+        }
+
+        a[href="#about"] {
+            background: url('../img/about.png') no-repeat 0.6em center;
+            background-size: 0.8em;
+        }
+    }
+}

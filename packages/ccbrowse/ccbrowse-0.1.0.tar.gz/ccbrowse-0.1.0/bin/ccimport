@@ -1,0 +1,216 @@
+#!/usr/bin/env python3
+
+import os
+import sys
+import getopt
+import logging
+import json
+import functools
+import time
+
+import ccbrowse
+from ccbrowse.ccimport import PRODUCTS, Calipso, CloudSat, NaturalEarth
+
+SUPPORTED_TYPES = ['calipso', 'naturalearth']
+
+def usage():
+    sys.stderr.write('''Usage: {program_name} [option]... TYPE FILE...
+       {program_name} --help
+Try `{program_name} --help' for more information.
+'''.format(program_name=program_name))
+
+
+def print_help():
+    sys.stdout.write('''Usage: {program_name} [option]... TYPE FILE...
+       {program_name} --help
+
+Import data from FILE into profile specified in configuration file CONFIG.
+
+Positional arguments:
+  TYPE             product type
+  FILE             product file
+
+Optional arguments:
+  -c FILE          configuration file (default: config.json)
+  -l LAYER         import only specified profile layer
+  --overwrite      overwrite existing tiles
+  -s               print statistics
+  --skip           skip tiles that exist
+  --hard           hard import
+  -t TYPE          type of FILE or `help' for a list of supported types
+  -z ZOOM          import only specified zoom level
+
+Supported product types:
+  calipso
+  naturalearth
+
+Report bugs to <ccplot-general@lists.sourceforge.net>
+'''.format(program_name=program_name))
+
+
+def save_decorator(f):
+    @functools.wraps(f)
+    def wrapper(*args, **kwargs):
+        try: f(*args, **kwargs)
+        except KeyboardInterrupt: print()
+    return wrapper
+
+
+@save_decorator
+def save(product, profile, layer=None, zoom=None,
+         statistics=False, soft=False, overwrite=False, skip=False):
+    if statistics: stat = dict(n=0, read=0, save=0)
+
+    if soft:
+        product_name = list(PRODUCTS.keys())[list(PRODUCTS.values()).index(type(product))]
+        filename = os.path.abspath(product.filename)
+        root = profile.get_root()
+        if filename.startswith(root): filename = filename[len(root):]
+
+    for level in sorted(profile['zoom'].keys()):
+        if zoom != None and level != zoom: continue
+        for l in product.layers():
+            if layer != None and l != layer: continue
+            line = None
+            X = product.xrange(l, level)
+            Z = product.zrange(l, level)
+            size = len(X)*len(Z)
+            i = 0
+            for x in X:
+                for z in Z:
+                    if line: sys.stderr.write('\r\033[K')
+                    line = '%s level %s tiles %d--%d [%d/%d] %.f%%' % \
+                           (l, level, X[0], X[-1], i, size, 100.0*i/size)
+                    sys.stderr.write(line)
+                    i = i + 1
+
+                    if statistics: t1 = time.clock()
+
+                    if skip:
+                        obj = profile.load({
+                            'layer': l,
+                            'zoom': level,
+                            'x': x,
+                            'z': z,
+                        }, exclude=['data'], dereference=False)
+                        if obj is not None: continue
+
+                    if not soft:
+                        tile = product.tile(l, level, x, z)
+                    else:
+                        ref = {
+                            'product': product_name,
+                            'filename': filename,
+                            'offset': product.offset()
+                        }
+                        tile = {
+                            'layer': l,
+                            'zoom': level,
+                            'x': x,
+                            'z': z,
+                            'ref': [ref],
+                        }
+
+                    if statistics:
+                        t2 = time.clock()
+                        stat['read'] += t2 - t1
+
+                    profile.save(tile, append=(not overwrite))
+
+                    if statistics:
+                        stat['save'] += time.clock() - t2
+                        stat['n'] += 1
+
+            profile.write_availability()
+            if line: print('\r\033[K%s level %s tiles %d--%d' % \
+                           (l, level, X[0], X[-1]))
+    if statistics and stat['n'] > 0:
+        print('Statistics: read and processing %.2f ms/tile, save %.2f ms/tile' % \
+              (1000*stat['read']/stat['n'], 1000*stat['save']/stat['n']))
+
+if __name__ == "__main__":
+    program_name = sys.argv[0]
+    logging.basicConfig(format=program_name+': %(message)s', level=logging.INFO)
+
+    try:
+        opts, args = getopt.getopt(sys.argv[1:], 'c:l:sz:',
+                                   ['help', 'overwrite', 'skip', 'hard'])
+    except getopt.GetoptError as e:
+        logging.error(e)
+        usage()
+        sys.exit(1)
+
+    config_filename = 'config.json'
+    file_type = None
+    layer = None
+    zoom = None
+
+    options = {
+        'statistics': False,
+        'overwrite': False,
+        'skip': False,
+        'soft': True,
+    }
+
+    for opt,value in opts:
+        if opt == '--help':
+            print_help()
+            sys.exit(0)
+        elif opt == '-c':
+            config_filename = value
+        elif opt == '-l':
+            layer = value
+        elif opt == '-s':
+            options['statistics'] = True
+        elif opt == '-z':
+            zoom = value
+        elif opt == '--overwrite':
+            options['overwrite'] = True
+        elif opt == '--skip':
+            options['skip'] = True
+        elif opt == '--hard':
+            options['soft'] = False
+
+    if len(args) < 2:
+        usage()
+        sys.exit(1)
+
+    file_type = args[0]
+    filenames = args[1:]
+
+    try:
+        with open(config_filename) as fp:
+            config = json.load(fp)
+    except IOError as e:
+        logging.error('%s: %s' % (e.filename, e.strerror))
+        sys.exit(1)
+
+    try:
+        with ccbrowse.Profile(config, cache_size=0) as profile:
+            for filename in filenames:
+                try:
+                    if file_type == 'calipso':
+                        product = Calipso(filename, profile)
+                        save(product, profile, layer=layer, zoom=zoom, **options)
+                    elif file_type == 'cloudsat':
+                        product = CloudSat(filename, profile)
+                        save(product, profile, layer=layer, zoom=zoom, **options)
+                    elif file_type == 'naturalearth':
+                        naturalearth = NaturalEarth(filename, profile)
+                        naturalearth.save(layer=layer)
+                    else:
+                        logging.error('Unrecognized type %s' % file_type)
+                        sys.exit(1)
+                except IOError as e:
+                    if e.filename is not None and e.strerror is not None:
+                        logging.error('%s: %s' % (e.filename, e.strerror))
+                    else:
+                        logging.error(e)
+    except RuntimeError as e:
+        logging.error(e)
+    except IOError as e:
+        if e.filename is not None and e.strerror is not None:
+            logging.error('%s: %s' % (e.filename, e.strerror))
+        else:
+            logging.error(e)
+    except KeyboardInterrupt: pass
