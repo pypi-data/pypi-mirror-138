@@ -1,0 +1,6 @@
+README.md
+__init__.py
+jpcm.egg-info/PKG-INFO
+jpcm.egg-info/SOURCES.txt
+jpcm.egg-info/dependency_links.txt
+jpcm.egg-info/top_level.txt
