@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: data-quality-check
+Version: 0.0.2
+Summary: Spark data quality check tool
+Home-page: UNKNOWN
+Author: Guanlong Zhou
+Author-email: markgzhou@outlook.com
+License: UNKNOWN
+Keywords: spark data-quality-check python jupyter ipython
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: IPython
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# spark-profiling
+[![CI Build](https://github.com/tw-data-quality-2022/spark-profiling/actions/workflows/python-package.yml/badge.svg)
+](https://github.com/tw-data-quality-2022/spark-profiling/actions/workflows/python-package.yml)
+
+## Requirements
+- Java 8+
+- Apache Spark 3.0+
+
+## Dependencies
+
+| Filename | Requirements|
+|----------|-------------|
+| requirements.txt | Package requirements|
+| requirements-dev.txt |  Requirements for development|
+
+## Usage
+### Use GeneralProfiler
+```python
+from pyspark.sql import SparkSession
+from data_quality_check.profiler.general_profiler import GeneralProfiler
+
+spark = SparkSession.builder.appName("SparkProfilingApp").enableHiveSupport().getOrCreate()
+data = [{'name': 'Alice', 'age': 1}]
+df = spark.createDataFrame(data)
+
+result_df = GeneralProfiler(spark, df).run(return_type='dataframe')
+result_df.show()
+
+```
+
+### Test
+```shell
+PYTHONPATH=./src pytest tests/*
+```
+
+### Build
+```
+python setup.py sdist bdist_wheel
+twine check dist/*
+```
+
+### Publish
+```
+twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+twine upload dist/*
+```
+
