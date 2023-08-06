@@ -1,0 +1,4 @@
+[console_scripts]
+lab = lab_assistant_utils.cli:cli
+launch-kernel = lab_assistant_utils.kernel_launcher:launch
+
