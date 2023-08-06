@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ast-drawer-ses
+Version: 0.0.4
+Summary: Simple project that lets tou draw an AST
+Home-page: http://packages.python.org/ast_drawer_ses
+Author: Egor Sheremetov
+Author-email: egor.sheremetov@yandex.ru
+License: BSD
+Keywords: ast render
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
+
+This project provides some awesome functionality. To be exact, it lets you draw a AST of any function, that you wrote in python.
+To do it, just call draw_ast and pass there function you are interested in.
+
