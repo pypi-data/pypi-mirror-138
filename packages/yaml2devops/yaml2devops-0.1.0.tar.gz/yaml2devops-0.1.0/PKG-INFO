@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: yaml2devops
+Version: 0.1.0
+Summary: yaml2devops-cli は yaml に記載したテストスイートの実行タスクを azure devops に起票できるツールです
+Home-page: https://github.com/nnashiki/yaml2devops-cli
+Author: Niten Nashiki
+Author-email: n.nashiki.work@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: azure-devops (>=6.0.0-beta.4,<7.0.0)
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Project-URL: Repository, https://github.com/nnashiki/yaml2devops-cli
+Description-Content-Type: text/markdown
+
+使い方は [GitHub](https://github.com/nnashiki/yaml2devops-cli) を参照してください。

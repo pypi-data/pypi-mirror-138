@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "yaml2devops"
+version = "0.1.0"
+description = "yaml2devops-cli は yaml に記載したテストスイートの実行タスクを azure devops に起票できるツールです"
+authors = ["Niten Nashiki <n.nashiki.work@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/nnashiki/yaml2devops-cli"
+repository = "https://github.com/nnashiki/yaml2devops-cli"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.0.3"
+PyYAML = "^6.0"
+azure-devops = "^6.0.0-beta.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.1.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+yaml2devops = "yaml2devops.command_line:cli"
+
+[tool.black]
+line-length = 119
+target-version = ['py39']
+include = '\.pyi?$'
+exclude = '''
+/(
+  | \.git
+  | \.mypy_cache
+  | \.venv
+  | _build
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
