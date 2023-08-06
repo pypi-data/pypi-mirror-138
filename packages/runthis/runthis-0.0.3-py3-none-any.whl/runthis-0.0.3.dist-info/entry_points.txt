@@ -1,0 +1,3 @@
+[console_scripts]
+runthis = runthis.__main__:main
+
