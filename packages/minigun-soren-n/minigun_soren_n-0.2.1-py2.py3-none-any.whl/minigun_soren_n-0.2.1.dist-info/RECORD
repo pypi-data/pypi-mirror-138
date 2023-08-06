@@ -1,0 +1,14 @@
+minigun/__init__.py,sha256=PmcQ2PI2oP8irnLtJLJby2YfW6sBvLAmL-VpABzTqwc,22
+minigun/arbitrary.py,sha256=kd1mkelnDlyXrYsuxKGC81MOSL_Rr9IUIRvNutERydE,2205
+minigun/domain.py,sha256=hQmmMcokrdMb7TO01Q34HavgWsxIkHe9fN7OCyFGqBo,3371
+minigun/maybe.py,sha256=uY1k8Y6f50iKYLJIUD1EVtrD0foP1LAGYim72Nol4Oc,612
+minigun/quantify.py,sha256=uMbDKcSvF-eB7H4pvBSSEftkqCvHHqLCC_-fb3CAb6Y,15061
+minigun/stream.py,sha256=rak0jiHor7SXzm7w0GAZ9AQHSfFcsTH42G4KAWWcxx0,4118
+minigun/testing.py,sha256=2Bh-TB7UxBcSQEawNt8dnYNVCIzhk1ge0KO7b3F68zU,6558
+minigun/trim.py,sha256=h84y-RbZ9IXPtG2lTW0ykTNzqXXiM3G_j6OU06k3RiM,3428
+minigun/util.py,sha256=-nLyMsctVx6OdoHJ640ZkXo4uxG0D9WUCKdMP2p3lYY,478
+minigun_soren_n-0.2.1.dist-info/LICENSE,sha256=O703V8vYSdAqBI93PUrASownTzSOL682_0sHkkJ05Q4,1072
+minigun_soren_n-0.2.1.dist-info/METADATA,sha256=41YNpEZTjgG4X67t2WxxPMHhZgal0UCW60bzawFf3rA,812
+minigun_soren_n-0.2.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+minigun_soren_n-0.2.1.dist-info/top_level.txt,sha256=AjH6S_KLw6NEhkVEIJjNGg_3Dwl7Xm47nSby9RXJf70,8
+minigun_soren_n-0.2.1.dist-info/RECORD,,
