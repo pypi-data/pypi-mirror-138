@@ -1,0 +1,6 @@
+thumbor_plugins/optimizers/mozjpeg/__init__.py,sha256=IUGtXpf_eW0Yz7vbDVluAxMzipxe91rUOCYP4MtIRJU,1625
+thumbor_plugins/optimizers/mozjpeg/config.py,sha256=ZyTs0rwM0hhXI96Otkx_fCKCFmHSeCJMvIOlNWu-CTk,257
+thumbor_plugins_mozjpeg-0.1.1.dist-info/METADATA,sha256=IghewpD58amWWa1weZ32FjirXdC68xIW4D3OaCk6pkk,897
+thumbor_plugins_mozjpeg-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+thumbor_plugins_mozjpeg-0.1.1.dist-info/top_level.txt,sha256=ZEGICU2TxMFcSh4m3K_iSH08aBXskrNO20Mqk2ngbeU,16
+thumbor_plugins_mozjpeg-0.1.1.dist-info/RECORD,,
