@@ -1,0 +1,10 @@
+example/__init__.py,sha256=qrVHKi0Dk3dWVle7NHQ-_6rFUt9Pe3fusw1WYPkYVwo,36
+example/__main__.py,sha256=4TSC5g7G6KvY6nmikXB5c8ud6aCSFPe3Rym2J67qQik,135
+example/test.py,sha256=tYJfSTfAADbqiH_dkNuLM8tNoeoZC-F4OP-NGxBSdKE,31
+example/qq/__init__.py,sha256=KvXF8etU-QRKtU-NBxVX3_KKt4GjAfA82YzsNgc9sIU,25
+example/qq/ww.py,sha256=1bnAuyZsv5_yULNvWdGTagS1vcyTpB05oqX_sGyThZs,26
+frank_momo_test_example-0.0.6.dist-info/LICENSE,sha256=vR2z3eUszyli3pNE5DdS2gRzEwCRuQTwhfjfPkGTXpk,1091
+frank_momo_test_example-0.0.6.dist-info/METADATA,sha256=xe88kgyzKeZi8_w3ouGoJ1mK-a20L43Bq4c87zSZon0,623
+frank_momo_test_example-0.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+frank_momo_test_example-0.0.6.dist-info/top_level.txt,sha256=E1UDUKhoHITIYarC5bRAFhwrM6Pk8wKsaAyltobeSN4,8
+frank_momo_test_example-0.0.6.dist-info/RECORD,,
