@@ -1,0 +1,10 @@
+README.md
+setup.py
+colourfulls/__init__.py
+colourfulls/__main__.py
+colourfulls.egg-info/PKG-INFO
+colourfulls.egg-info/SOURCES.txt
+colourfulls.egg-info/dependency_links.txt
+colourfulls.egg-info/entry_points.txt
+colourfulls.egg-info/requires.txt
+colourfulls.egg-info/top_level.txt

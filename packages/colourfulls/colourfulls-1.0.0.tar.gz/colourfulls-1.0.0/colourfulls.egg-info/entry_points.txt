@@ -1,0 +1,3 @@
+[console_scripts]
+colourfulls = colourfulls.__main__:main
+
