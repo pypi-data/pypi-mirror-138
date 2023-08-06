@@ -1,0 +1,11 @@
+SEAL/SplineFunction.py,sha256=Gi8XJ3tdMpBtqPI6zsOtG6fflyRty6yUZxG8nP7FhrQ,4242
+SEAL/SplineSpace.py,sha256=6X0c-1WO2SzPYPzBR-2I4AqQGMvJdFRogiU-YYsLnJ0,2613
+SEAL/TensorProductSplineFunction.py,sha256=TzzaLKeM6lQJvMgyWBdkR4yMbAlpMJjDGFBVT8CL-qk,4237
+SEAL/TensorProductSplineSpace.py,sha256=1LcaZMgC6IdQiOKMlvPlCBdj2n32jSH27GTgte4dcH8,3297
+SEAL/__init__.py,sha256=3eDBYt47_m3MpUvXDh27KOKPllmOMgbn02g4OHAyqts,701
+SEAL/approximation.py,sha256=5BCYs00_kxvvdwknKpWHlr9dRZG62X-iHo3k1zOrlCk,3852
+SEAL/interpolation.py,sha256=ll7pqZI3XXqgEf5414QjNME8ki6RM0YRK2s0_vhTaxU,1152
+SEAL/lib.py,sha256=Mef65rUvI7tGapyJ8ic7TM1-bBlw1lBWhxyU-jFjm3o,11796
+spline_algorithm_library-1.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+spline_algorithm_library-1.0.0.dist-info/METADATA,sha256=hNQn-Eq1LWpM-DbIJuXAfMNyio0EGhDNiza1GSfFIOA,464
+spline_algorithm_library-1.0.0.dist-info/RECORD,,
