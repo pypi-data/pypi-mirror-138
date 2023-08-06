@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: oeven
+Version: 0.0.10
+Summary: Command line interface for managing your tasks inside terminal.
+Home-page: https://github.com/joacomonsalvo/oeven
+Author: Joaco Monsalvo
+Author-email: jmonsalvo.contact@protonmail.com
+License: UNKNOWN
+Description: # o-even - cli version
+        
+        Being a cli version of o-even, it consists of a task manager that can be managed from the terminal.
+        
+        ![Logo](https://github.com/joacomonsalvo/even-cli/blob/master/assets/Even-Logo-Black-Background.png)
+        
+        ## Run Locally
+        
+        Clone the project
+        
+        ```bash
+          git clone https://github.com/joacomonsalvo/oeven
+        ```
+        
+        ## License
+        
+        [GNU GPLv3](https://github.com/joacomonsalvo/even-cli/blob/master/LICENSE)
+        
+        ## Documentation
+        
+        [Documentation](https://github.com/joacomonsalvo/even-cli/blob/master/docs/usage.md)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown

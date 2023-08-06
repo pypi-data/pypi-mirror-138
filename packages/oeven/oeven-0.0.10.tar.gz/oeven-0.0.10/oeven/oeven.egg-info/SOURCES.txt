@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+assets/half-circle-black.png
+assets/half-circle-lightblue.png
+assets/oeven-Logo-Black-Background.png
+assets/oeven-Logo-Blue-Grade-Blackground.png
+assets/oeven-Logo-Fluo-Blackground.png
+docs/usage.md
+oeven/oeven.egg-info/PKG-INFO
+oeven/oeven.egg-info/SOURCES.txt
+oeven/oeven.egg-info/dependency_links.txt
+oeven/oeven.egg-info/entry_points.txt
+oeven/oeven.egg-info/requires.txt
+oeven/oeven.egg-info/top_level.txt
+tasks/example.txt
