@@ -1,0 +1,10 @@
+setup.py
+src/cooolpackage/__init__.py
+src/cooolpackage.egg-info/PKG-INFO
+src/cooolpackage.egg-info/SOURCES.txt
+src/cooolpackage.egg-info/dependency_links.txt
+src/cooolpackage.egg-info/requires.txt
+src/cooolpackage.egg-info/top_level.txt
+src/cooolpackage/example/__init__.py
+src/cooolpackage/example/ast_tree_builder.py
+src/cooolpackage/example/picture_generator.py
