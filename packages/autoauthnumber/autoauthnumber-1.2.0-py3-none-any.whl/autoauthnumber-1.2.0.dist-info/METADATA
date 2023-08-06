@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: autoauthnumber
+Version: 1.2.0
+Summary: This is a library about automatic number-taking of "General Chinese Author Number Table". At present, there is only one way to take the number, that is, directly looking up the table.In the future, we will adapt to a variety of author numbering methods, please wait.
+Home-page: https://github.com/thedayofthedoctor/aan
+Author: Matt Brown
+Author-email: thedayofthedo@gmail.com
+License: GPL-3.0 License
+Keywords: auto,author number
+Platform: any
+License-File: LICENSE
+Requires-Dist: pypinyin
+Requires-Dist: requests
+
+UNKNOWN
+
