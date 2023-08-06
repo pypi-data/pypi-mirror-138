@@ -1,0 +1,6 @@
+requests>=2.22.0
+ecdsa>=0.18.0b2
+cbor2>=5.4.2
+leb128>=1.0.4
+waiter>=1.2
+antlr4-python3-runtime==4.9.3
