@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+black = "*"
+isort = "*"
+modernize = "*"
+pylint = "*"
+pytest = "*"
+setuptools-scm = "*"
+mypy = "*"
+jobrunner-git = {editable = true, path = "."}
+
+[packages]
+importlib-metadata = "*"
