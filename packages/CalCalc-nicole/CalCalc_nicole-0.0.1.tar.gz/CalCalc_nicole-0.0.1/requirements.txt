@@ -1,0 +1,6 @@
+pytest
+numpy
+numexpr
+argparse
+codecov
+pytest-cov
