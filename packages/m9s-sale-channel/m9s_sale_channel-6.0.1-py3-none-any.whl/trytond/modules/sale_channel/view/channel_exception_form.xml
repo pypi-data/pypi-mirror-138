@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form col="8">
+    <label name="timestamp"/>
+    <field name="timestamp" widget="date"/>
+    <field name="timestamp" widget="time"/>
+    <label name="origin"/>
+    <field name="origin"/>
+    <newline/>
+    <label name="is_resolved"/>
+    <field name="is_resolved"/>
+    <newline/>
+    <label name="log"/>
+    <field name="log" colspan="7"/>
+    <label name="channel"/>
+    <field name="channel"/>
+</form>
