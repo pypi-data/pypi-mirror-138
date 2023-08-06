@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: llq-data
+Version: 0.6.9
+Summary: Generate sample data
+Home-page: https://www.shnu.edu.cn
+Author: Prof.Luqun Li
+Author-email: liluqun@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://www.shnu.edu.cn
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# 生成样例数据
+## **pip install -U llq-data**
+**sample code as follows:**
+###### `from dataUtil import fakeData
+print(fakeData.gen(40))
+
+![hah](https://pic.pimg.tw/beigeetemple/1509175446-2818694733_n.jpg)
+
