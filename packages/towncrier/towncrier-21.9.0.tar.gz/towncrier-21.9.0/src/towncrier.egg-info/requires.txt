@@ -1,0 +1,14 @@
+click
+click-default-group
+incremental
+jinja2
+setuptools
+
+[:python_version < "3.6"]
+toml
+
+[:python_version >= "3.6"]
+tomli
+
+[dev]
+packaging
