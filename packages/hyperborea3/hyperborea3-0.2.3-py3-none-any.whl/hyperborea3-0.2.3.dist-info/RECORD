@@ -1,0 +1,12 @@
+hyperborea3/__init__.py,sha256=PNiDER4qM19h9zdsdfgKt2_dT4WgYK7EguJ8RU2qA_g,22
+hyperborea3/chargen.py,sha256=LibrvwuwrqDT0tk0LcRRFqJnoZ70KjJnAjgIkU9lSl4,27664
+hyperborea3/hyperborea.sqlite3,sha256=7GeHyLa75Hh175LqxugWa3I5YwSYIobLzFz_qHYM_r8,385024
+hyperborea3/player_character.py,sha256=qCLkrTMu-EUNmrG2e1QWAAeag70lfprn2Kokwa8OKd8,11555
+hyperborea3/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hyperborea3/valid_data.py,sha256=5JbMmYRTEFsKK_zZiPCgmG73puHcieuAafw_k6Pv5y4,2732
+hyperborea3-0.2.3.dist-info/LICENSE,sha256=ElOXdWYKvqolccHRTo3ut3ACu5oLG3jHakJbZdfCifc,1063
+hyperborea3-0.2.3.dist-info/METADATA,sha256=wz4m4mK3uBeBTwiVYKxw1HqOSwbH2z99aaazQN5s6XA,8307
+hyperborea3-0.2.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hyperborea3-0.2.3.dist-info/top_level.txt,sha256=PKmLa4gVOuoV3sfFQgxhoDZww5uhQcJv2UwXdfoc2z0,12
+hyperborea3-0.2.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+hyperborea3-0.2.3.dist-info/RECORD,,
