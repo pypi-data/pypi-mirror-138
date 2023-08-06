@@ -1,0 +1,5 @@
+[console_scripts]
+cl = icode.main:main
+codelife = icode.main:main
+codelife-cli = icode.main:main
+

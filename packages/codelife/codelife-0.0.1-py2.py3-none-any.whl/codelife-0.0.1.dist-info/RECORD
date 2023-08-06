@@ -1,0 +1,17 @@
+codelife/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codelife/loopfiles.py,sha256=XNXiRxwAnYwLK1KcKMUbshz-XKYZSw-kjgoWiU6_y5c,1449
+codelife/main.py,sha256=X8_sHMVJxzK9LnANqACTZscyBDX1H52ND69w5VV_g-s,257
+codelife/mainview.py,sha256=XSWrslyOfCr1ALflo4iMvxuL7_O-pLxiaTUfQfcKX1c,4141
+codelife/menu_setting.py,sha256=eoxNqGdzFaKMLEOV9UImy2ZIYheDauUMPZWapuWkWbg,1699
+codelife/pip_trigger.py,sha256=GFy9bSGD8staQIEOVFdO2nen1LagIZEq8SgKqnaDwic,623
+codelife/setting.py,sha256=aCPpiDN6k8u_-i4ia28SkrbOE8jcZrsvKlM33AcECCg,409
+codelife/tree.py,sha256=6jt-kdF8dPhn-gqZsSpHPquNY8_7DxFsE8toyQ0oshI,3259
+codelife/core/__init__.py,sha256=XQQcfkoeChQTlquHYAS_O4uZOtbnb9aePJYMJQnwLCg,206
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_loopfiles.py,sha256=96W2uRonhaeWW7R8WWFa-nTFCkcFmrdUA8yd2oQoHjc,536
+tests/test_main.py,sha256=7ZSNJmhDl2GQCefJztVNteGXtmetTW6YE87WWzd7mBA,427
+codelife-0.0.1.dist-info/METADATA,sha256=5D0ED0j9Hpsgj08Az_HQWuxOhlv15fvY7u0j785NQRU,923
+codelife-0.0.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+codelife-0.0.1.dist-info/entry_points.txt,sha256=x4L86plvn1i0k9qRgeFY0uK9rLHX7227gAvmsgIKmTg,98
+codelife-0.0.1.dist-info/top_level.txt,sha256=jRjCPVvyf9tL6fSM-U0GBQykoVi-CKF3EEGOJfYPINU,15
+codelife-0.0.1.dist-info/RECORD,,
