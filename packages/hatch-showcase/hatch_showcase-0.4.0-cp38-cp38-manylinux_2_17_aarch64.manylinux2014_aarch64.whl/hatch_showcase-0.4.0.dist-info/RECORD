@@ -1,0 +1,15 @@
+8308bdc8a49463f40810__mypyc.cpython-38-aarch64-linux-gnu.so,sha256=vHQbRFU-avMyKoCwa5d4s88O0We8kli-8qMkEM-0Cn8,216264
+hatch_showcase-0.4.0.dist-info/METADATA,sha256=otoCPnBJgrG6tjGZ94LnxJQr4XJ0EJDM3uzqiY2O4c8,3786
+hatch_showcase-0.4.0.dist-info/RECORD,,
+hatch_showcase-0.4.0.dist-info/entry_points.txt,sha256=ZMEd-F4fCgY-HDAJC2nFvmtuk2_4p0dPcLzIOAppqCM,69
+hatch_showcase-0.4.0.dist-info/WHEEL,sha256=OhRYMqueFyz-6B5lu7QF6Tf7HWHl31Vj4o6NGSQeL40,142
+hatch_showcase-0.4.0.dist-info/license_files/LICENSE.txt,sha256=fxQ6gSetSHOGLXCFS1vSq9AIWqc-ZP0rCHBKO59cB_w,1088
+hatch_showcase/__init__.cpython-38-aarch64-linux-gnu.so,sha256=hhcrREzfp9dtkMOcV2-DIZ0Qy1uVnWOH17p3tAXI_mI,71296
+hatch_showcase/_version.py,sha256=LXsVgL30inwYURXgt8agwHpCAGkWqXpMAmFq8N7WB4Q,142
+hatch_showcase/__main__.py,sha256=o-PTw3c2gFgKqWT_-7NRGi8egP5S3hSe70suX_Zpml8,203
+hatch_showcase/fib.cpython-38-aarch64-linux-gnu.so,sha256=5TWqeIarVcJ-El4kQ6bRAUMEYmadfLTUdjuNvg-O17U,71272
+hatch_showcase/__main__.cpython-38-aarch64-linux-gnu.so,sha256=PSLcyfvy-fczA8MgecZ-8NPh4mI6Ha_KJWHF5uWS8Lc,71296
+hatch_showcase/fib.py,sha256=-WKhQkBHMsfdGNx6Xiogb2kqgZE9gFk6SeEbcY3sQMo,221
+hatch_showcase/__init__.py,sha256=SnqyexerOAwtyoBgJiHYrEEn5N-QRT1miZRN1pkADP0,96
+hatch_showcase/cli/__init__.cpython-38-aarch64-linux-gnu.so,sha256=AIi2CF8Kzu1aBaS41cSbzQWbN0TrLfkpNyAS8iEuhC4,71272
+hatch_showcase/cli/__init__.py,sha256=p8pHzARwFTjMLGN160ImlYDo6xDOZFd8jbQ3qn9bcPk,572
