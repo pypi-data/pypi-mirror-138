@@ -1,0 +1,11 @@
+pytest_squadcast/__init__.py,sha256=8ZaoAEUxq8GrDWDdYKNFR5o4GiUjx8A8xhLeELD5aMI,101
+pytest_squadcast/hooks.py,sha256=SEjhbYyKmY1e1Lg4eARgoJ1Nagm6KnWqkhPxtV7Q7RA,235
+pytest_squadcast/plugin.py,sha256=YgxTZz1ikVtwQJd0zkL8rq0Phb4EYCOnyzmTxmiVJPM,833
+pytest_squadcast/squadcast.py,sha256=jeBoHdruBr1GQTFcb0LxcGt-PpOhBO00b0beY2qQBCc,1268
+pytest_squadcast/__pycache__/__init__.cpython-310.pyc,sha256=k5bHhX3vXem2NiKfDoKHqFDkd1nuAVqH4jYyPEsENSY,273
+pytest_squadcast-0.1.1.data/data/pytest_squadcast/__init__.cpython-310.pyc,sha256=k5bHhX3vXem2NiKfDoKHqFDkd1nuAVqH4jYyPEsENSY,273
+pytest_squadcast-0.1.1.dist-info/METADATA,sha256=8LP7w-HdE9F6TtNkA1SXf2MoqibyABXc7Wc7svVaOos,2325
+pytest_squadcast-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytest_squadcast-0.1.1.dist-info/entry_points.txt,sha256=5aRopnh80YCPklPKGN2WwJ8p3RyL5YjbrZ-UExNLkc4,48
+pytest_squadcast-0.1.1.dist-info/top_level.txt,sha256=WG-DvizdW6puH0asmBw6I-0h58OwgxgdhR6Ma3bjndY,17
+pytest_squadcast-0.1.1.dist-info/RECORD,,

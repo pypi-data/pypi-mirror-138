@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: pytest-squadcast
+Version: 0.1.1
+Summary: Pytest report plugin for Squadcast
+Home-page: https://github.com/treussart/pytest-squadcast
+Author: mtreussart
+Author-email: matthieu@treussart.com
+License: BSD
+Keywords: py.test pytest squadcast report incident
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pytest
+
+# pytest-squadcast
+
+Pytest report plugin for [Squadcast](https://www.squadcast.com/)
+
+Allow to send incident on Squadcast product.
+
+## installation
+
+    pip install pytest-squadcast
+
+## Add option to send message
+
+    pytest --squadcast
+
+## Create payload via hook
+
+    def pytest_squadcast_create_payload(session: Session, exitstatus: Union[int, ExitCode]) -> dict:
+        reporter = session.config.pluginmanager.get_plugin('terminalreporter')
+        return {"data": {
+                            "message": "This will be the incident message",
+                            "description": "This will be the incident description",
+                            "tags": {
+                                "passed": str(reporter.stats.get('passed', [])),
+                                "tagname2": "Tag value#2",
+                            },
+                            "status": "trigger",
+                        },
+                "service": "0d2a4409625e05adbc1d81b3540ag89826bfa7cc",
+                }
+
+
+## Dev
+
+### Change version
+
+edit
+
+    pytest_squadcast/__init__.py
+
+commit
+
+    git commit -m "v0.1.0"
+
+tag
+
+    git tag v0.1.0
+
+### Build package
+
+    python -m build
+    twine upload dist/*
+
+
