@@ -1,0 +1,3 @@
+[sphinx.html_themes]
+trojanzoo_sphinx_theme = trojanzoo_sphinx_theme
+
