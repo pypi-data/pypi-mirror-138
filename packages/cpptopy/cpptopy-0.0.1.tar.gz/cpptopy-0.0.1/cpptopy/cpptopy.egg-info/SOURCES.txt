@@ -1,0 +1,10 @@
+MANIFEST.in
+Readme.md
+cpptopy license.txt
+setup.py
+cpptopy/cpptopy.py
+cpptopy/cpptopy.egg-info/PKG-INFO
+cpptopy/cpptopy.egg-info/SOURCES.txt
+cpptopy/cpptopy.egg-info/dependency_links.txt
+cpptopy/cpptopy.egg-info/top_level.txt
+dist/cpptopy-0.0.1.tar.gz
