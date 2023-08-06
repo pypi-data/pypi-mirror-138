@@ -1,0 +1,3 @@
+smartlingApiSdk
+smartlingApiSdk/api
+smartlingApiSdk/example
