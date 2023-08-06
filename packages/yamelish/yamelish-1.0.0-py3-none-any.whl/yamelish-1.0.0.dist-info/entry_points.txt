@@ -1,0 +1,3 @@
+[console_scripts]
+yamelish = yamelish.cli:run_cli
+
