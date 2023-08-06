@@ -1,0 +1,4 @@
+abstracts>=0.0.12
+aio.core>=0.5.6
+aiohttp
+packaging
