@@ -1,0 +1,11 @@
+finailab_install/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+finailab_install/command_line.py,sha256=f0HWiiKdVObsmIFbwT3ReghlyvCF2W7g0gXQmBfrwZ4,54
+finailab_install/jupyter_notebook_config.py,sha256=n1M9etI88YAPpXTq5JrvvINzvjcLGqJAp9EGLoqCn8g,30502
+finailab_install/remote_user_auth.py,sha256=WUXj0CCBIKmGD3A76IQt-YImfbBNCuK0Bk63fdJc-hU,1847
+finailab_install-0.3.0.data/data/version.py,sha256=EnY--_C1jbFVV13HdYELzso9m4mDvXlYPFM6KagAo-k,329
+finailab_install-0.3.0.data/scripts/finailab_install-joke,sha256=oQ7j1ll4Y1pChZzhiuRPNZChBLB62HWA1yb_GFw_AwU,63
+finailab_install-0.3.0.dist-info/LICENCE.txt,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+finailab_install-0.3.0.dist-info/METADATA,sha256=L9qY01aPQd423rdQcyni0tITC2uvmIGctY_m3l4aumg,833
+finailab_install-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+finailab_install-0.3.0.dist-info/top_level.txt,sha256=TLgxlJ478fbpHAYgFdC6cavX8sZaVcVs0qyW-VM3b4o,17
+finailab_install-0.3.0.dist-info/RECORD,,
