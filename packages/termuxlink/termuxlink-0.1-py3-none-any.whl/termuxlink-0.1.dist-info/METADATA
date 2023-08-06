@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: termuxlink
+Version: 0.1
+Summary: Termux Link - Share your termux like anydesk
+Home-page: https://bhai4you.blogspot.com/2022/01/termux-link-share-your-termux-like.html
+Author: Parixit Sutariya
+Author-email: parixit1337@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+<!--
+https://pypi.org/project/termuxlink/
+https://pypi.org/project/termuxlink/
+-->
+
+[![](https://img.shields.io/pypi/pyversions/readme-generator.svg?longCache=True)](https://pypi.org/project/readme-generator/)
+
+#### Installation
+```bash
+$ pip install termuxlink
+```
+
+#### Features
++   **`linkinstall`**, **Install Requirements**
++   **`termuxlink`**, **Create Link**
+
+
+#### How it works
+```
+$ linkinstall
+$ termuxlink
+
+Created by Parixit Sutariya
+Github : github.com/Bhai4You
+Youtube : youtube.com/BullAnonymous
+
+```
+
+<p align="center">
+    <a href="https://bhai4you.blogspot.com/2022/01/termux-link-share-your-termux-like.html">Termux Link</a>
+</p>
+
+
