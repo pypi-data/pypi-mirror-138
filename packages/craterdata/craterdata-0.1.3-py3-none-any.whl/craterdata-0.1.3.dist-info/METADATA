@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: craterdata
+Version: 0.1.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Anton Feldmann
+Author-email: anton.feldmann@gmail.com
+License: UNKNOWN
+Project-URL: Documentations, https://github.com/afeldman/CraterData
+Project-URL: Source, https://github.com/afeldman/CraterData.git
+Project-URL: Tracker, https://github.com/afeldman/CraterData/issues
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: torchvision
+Requires-Dist: h5py
+Requires-Dist: numpy
+Requires-Dist: Pillow
+Requires-Dist: coloredlogs
+Requires-Dist: fire
+
+UNKNOWN
+
