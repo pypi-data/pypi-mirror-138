@@ -1,0 +1,6 @@
+
+[gateway]
+fuwa-gateway
+
+[http]
+fuwa-http

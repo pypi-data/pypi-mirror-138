@@ -1,0 +1,8 @@
+README.md
+setup.py
+fuwa/__init__.py
+fuwa.egg-info/PKG-INFO
+fuwa.egg-info/SOURCES.txt
+fuwa.egg-info/dependency_links.txt
+fuwa.egg-info/requires.txt
+fuwa.egg-info/top_level.txt
