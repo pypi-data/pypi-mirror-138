@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "PyDiar"
+version = "0.0.7"
+description = "A simple to use library for speaker diarization"
+authors = ["pajowu <git@ca.pajowu.de>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+repository = "https://github.com/audapolis/pydiar"
+
+[tool.poetry.dependencies]
+python = "^3.8,<3.11"
+numpy = "^1.21.0"
+scipy = "^1.7.3"
+scikit-learn = "^1.0.1"
+webrtcvad = "^2.0.10"
+python_speech_features = "^0.6"
+
+[tool.poetry.dev-dependencies]
+pydub = "^0.25.1"
+vosk = "^0.3.32"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
