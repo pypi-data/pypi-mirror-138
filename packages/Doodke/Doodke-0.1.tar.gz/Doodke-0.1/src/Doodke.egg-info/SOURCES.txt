@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Doodke/AddOne.py
+src/Doodke/DPrint.py
+src/Doodke/Hello.py
+src/Doodke/Shutdown.py
+src/Doodke/__init__.py
+src/Doodke.egg-info/PKG-INFO
+src/Doodke.egg-info/SOURCES.txt
+src/Doodke.egg-info/dependency_links.txt
+src/Doodke.egg-info/top_level.txt
