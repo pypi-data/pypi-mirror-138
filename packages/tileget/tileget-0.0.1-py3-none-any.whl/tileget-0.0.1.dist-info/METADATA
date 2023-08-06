@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tileget
+Version: 0.0.1
+Summary: Tile download utility - easily download xyz-tile data
+Home-page: https://github.com/Kanahiro/tileget
+Author: Kanahiro Iguchi
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: Shapely (==1.7.0)
+Requires-Dist: tiletanic (==1.1.0)
+
+UNKNOWN
+
+
