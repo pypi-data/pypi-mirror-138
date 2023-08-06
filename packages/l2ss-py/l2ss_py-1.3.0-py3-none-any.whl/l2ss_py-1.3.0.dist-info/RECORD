@@ -1,0 +1,11 @@
+podaac/subsetter/__init__.py,sha256=Mr33m0rrJuQbQ_IQqz72DPqiMPbysSZw7mLkXPHhs90,634
+podaac/subsetter/dimension_cleanup.py,sha256=VaSmimCOWsciM0yhXpgSVUAUXIfyrG72nDsg5Rm7U3E,3021
+podaac/subsetter/run_subsetter.py,sha256=-Owi4Srl1719NPz7g5nizXTqvIJRtpnUQhqtNRostL8,2815
+podaac/subsetter/subset.py,sha256=erV-2nuHZlOYyIkvVpdKFeNy_lPBwwm9vfvGlXP9njA,39648
+podaac/subsetter/subset_harmony.py,sha256=-zg6MlB0uVnj9XuZg4xeOpnxDv5Kf6SoYImW_fg5eUI,7309
+podaac/subsetter/xarray_enhancements.py,sha256=NeaBH_VoR7VQV6HlqFUxXCahvGqt2QLFAlVxo04K0ls,8508
+l2ss_py-1.3.0.dist-info/entry_points.txt,sha256=sakb44aBJSmndnZeIFRII8f26XOG1HWNdTWA3fYNpUI,160
+l2ss_py-1.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+l2ss_py-1.3.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+l2ss_py-1.3.0.dist-info/METADATA,sha256=uCrib2AicVpYP_NfeKUji9PQrtQdlMliiGExQHhgRMs,4563
+l2ss_py-1.3.0.dist-info/RECORD,,
