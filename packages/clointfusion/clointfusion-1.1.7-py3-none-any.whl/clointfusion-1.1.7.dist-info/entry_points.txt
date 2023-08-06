@@ -1,0 +1,4 @@
+[console_scripts]
+cf=clointfusion.cli.cf:main
+cf_st=clointfusion.cli.st:main
+
