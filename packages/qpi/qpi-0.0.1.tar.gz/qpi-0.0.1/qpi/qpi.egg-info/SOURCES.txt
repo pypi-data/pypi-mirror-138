@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+qpi/qpi.egg-info/PKG-INFO
+qpi/qpi.egg-info/SOURCES.txt
+qpi/qpi.egg-info/dependency_links.txt
+qpi/qpi.egg-info/top_level.txt
