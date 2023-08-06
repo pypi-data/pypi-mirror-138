@@ -1,0 +1,45 @@
+name: Build OSX wheels
+
+env:
+  #CIBW_ARCHS_MACOS: "x86_64 arm64"
+  CIBW_ARCHS_MACOS: "x86_64"
+
+on: [push]
+
+jobs:
+  build_osx:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up python
+      uses: actions/setup-python@v2
+    - name: Download and build MeCab
+      shell: bash
+      run: |
+        git clone --depth=1 https://github.com/taku910/mecab.git
+        cd mecab/mecab
+        ./configure --enable-utf8-only
+        make
+        sudo make install
+        cd ../..
+
+        python -m pip install --upgrade setuptools wheel pip setuptools-scm
+        python -m pip install cibuildwheel==2.3.1
+        pip install -r requirements.txt
+        
+        python -m cibuildwheel --output-dir dist
+
+    - name: Upload Wheels
+      uses: actions/upload-artifact@v1
+      with: 
+        name: osx-wheels
+        path: dist
+    - name: Publish to PyPI if tagged
+      if: startsWith(github.ref, 'refs/tags')
+      env:
+        TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
+        TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
+      run: |
+        pip install twine
+        twine upload dist/fugashi*
+
