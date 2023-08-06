@@ -1,0 +1,72 @@
+Purchase Core
+===============
+
+A reusable Django app for creating, logging and verifying purchases.
+
+Quick start
+-----------
+
+1. Install Django Purchase Core & Dependancies:
+
+    >>> pip install game-core-purchase
+
+
+2. Add "purchase", "rest_framework', and "rangefilter" to your INSTALLED_APPS setting like this:
+
+.. code:: python
+
+        INSTALLED_APPS = [
+            ...,
+            'rest_framework',
+            'purchase',
+            'rangefilter',
+            ...,
+        ]
+
+3. Add the following to app_config.urls:
+
+.. code:: python
+
+    from django.conf.urls import url, include
+
+    urlpatterns = [
+        ...,
+        path("api/", include("purchase.urls")),
+        ...,
+    ]
+
+
+4. Run Django Commands:
+
+    >>> python manage.py makemigrations
+    >>> python manage.py migrate
+
+
+5. Configure configuration and credentials for your game in the admin panel.
+
+Add progress level update processing
+-------------------------------------
+
+1. Set update_player_progress_class in ProcessPurchaseView
+
+.. code:: python
+
+        from purchase.view import ProcessPurchaseView
+        from my_app import UpdateClass
+
+        class ProcessPurchaseViewWithUpdate(ProcessPurchaseView):
+            update_player_progress_class = UpdateClass
+
+2. Describe the player's update logic in the update_player_progress method
+
+.. code:: python
+
+        from purchase.view import ProcessPurchaseView
+        from my_app import UpdateClass
+
+        class ProcessPurchaseViewWithUpdate(ProcessPurchaseView):
+            update_player_progress_class = UpdateClass
+
+            def update_player_progress(self):
+                handler = self.update_player_progress_class()
+                handler.update_player_progress()
