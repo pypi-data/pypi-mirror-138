@@ -1,0 +1,9 @@
+LICENSE
+setup.cfg
+setup.py
+altair_reveal/__init__.py
+altair_reveal.egg-info/PKG-INFO
+altair_reveal.egg-info/SOURCES.txt
+altair_reveal.egg-info/dependency_links.txt
+altair_reveal.egg-info/requires.txt
+altair_reveal.egg-info/top_level.txt
