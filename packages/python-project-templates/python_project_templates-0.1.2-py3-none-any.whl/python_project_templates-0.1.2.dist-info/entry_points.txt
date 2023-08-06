@@ -1,0 +1,7 @@
+[console_scripts]
+add-1-2=package_1.__main__:main
+sample-command=package_2.__main__:main
+
+[pseudo_package.plugin]
+sample-plugin=package_1.plugins:plugin_call
+
