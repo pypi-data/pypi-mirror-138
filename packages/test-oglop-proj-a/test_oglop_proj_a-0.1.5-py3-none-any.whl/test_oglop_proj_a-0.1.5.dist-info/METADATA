@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: test-oglop-proj-a
+Version: 0.1.5
+Summary: 
+Author: Jan Gazda
+Author-email: 7480694+1oglop1@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
