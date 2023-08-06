@@ -1,0 +1,9 @@
+confluent_cloud_sdk/__init__.py,sha256=EAu1X8gocIEZHyoCouwotC6JC1jNlWLkDstBt02-kUE,254
+confluent_cloud_sdk/client_factory.py,sha256=d4Iwa4EPxQ6nYifeVxE896i7_5PmirEzNrME5fAlAPg,2512
+confluent_cloud_sdk/confluent_admin_api_sdk.py,sha256=-iIWYA9oij1ElwwJN162kL0MgWlpj8MkQb5kyZ-xqNA,133
+confluent_cloud_sdk/confluent_iam_v2.py,sha256=y8zjIMxwEssw7qevcTb6wjR9oQeQxJ4H7oduFPUnpFo,6652
+confluent_cloud_sdk/errors.py,sha256=OkFM6RuxiGM1fhhY7dw74_0MEm3_C4T6fHGhD-3w8uo,2631
+confluent_cloud_sdk-0.0.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+confluent_cloud_sdk-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+confluent_cloud_sdk-0.0.1.dist-info/METADATA,sha256=XaC7mU2LyNuLdLUCVg_HSsuDQjzJ50TW7dsPSM2jeQQ,1141
+confluent_cloud_sdk-0.0.1.dist-info/RECORD,,
