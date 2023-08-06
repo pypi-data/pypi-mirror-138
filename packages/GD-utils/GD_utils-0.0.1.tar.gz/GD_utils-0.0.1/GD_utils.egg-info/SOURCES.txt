@@ -1,0 +1,10 @@
+README.md
+setup.py
+GDUs/__init__.py
+GDUs/calc_return.py
+GDUs/get_data.py
+GDUs/return_calculator.py
+GD_utils.egg-info/PKG-INFO
+GD_utils.egg-info/SOURCES.txt
+GD_utils.egg-info/dependency_links.txt
+GD_utils.egg-info/top_level.txt
