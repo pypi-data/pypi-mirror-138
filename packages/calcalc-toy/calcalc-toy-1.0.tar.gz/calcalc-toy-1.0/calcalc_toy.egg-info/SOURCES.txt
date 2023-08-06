@@ -1,0 +1,8 @@
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+calcalc_toy.egg-info/PKG-INFO
+calcalc_toy.egg-info/SOURCES.txt
+calcalc_toy.egg-info/dependency_links.txt
+calcalc_toy.egg-info/top_level.txt

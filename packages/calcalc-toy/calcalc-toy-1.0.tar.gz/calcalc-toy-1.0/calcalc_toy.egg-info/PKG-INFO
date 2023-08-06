@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: calcalc-toy
+Version: 1.0
+Summary: A calculator that evaluates string expressionsboth locally or using WolframAlpha.
+Author: Yang Lyus
+License: MIT License
+Platform: UNKNOWN
+License-File: LICENSE.txt
+
+UNKNOWN
+
