@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: abstractTradeSimpleT
+Version: 0.1.12
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Joao Paulo Euko
+License: MIT
+Description: # abstractTrade-simpleTrade
+        
+        This project is responsible to hold the abstraction for the flowing class and ensure they will
+        work and have the same structure on other projects.
+        
+        - Initialization
+        - Rates
+        - Tick
+        - Timeframe
+        - Trade
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
