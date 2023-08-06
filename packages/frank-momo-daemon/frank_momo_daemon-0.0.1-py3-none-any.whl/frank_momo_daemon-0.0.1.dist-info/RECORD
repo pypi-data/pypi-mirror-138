@@ -1,0 +1,11 @@
+daemon/__init__.py,sha256=kLL2aaTiAkNsnyF9Fd323bN8PMuxlhyzjLCV4FFNxAk,43
+daemon/__main__.py,sha256=DKdBrQnTFf5QjXjT1IE9tv2XO1cxZwYuluPgdE3naqw,2411
+daemon/test.py,sha256=q9FH08mJHd5kL68EER9gVFU_SAdOD2lAQaNXh4U1ey8,66
+daemon/test2.py,sha256=9mEcf3Aedo__YWXiYYKo1w5p8c_44FqOlIsTIxIXpFg,31
+daemon/test3/__init__.py,sha256=9d8zHZzAwoPiC0pfkUonlMGXR455klaH6yDVCdJE1R4,29
+daemon/test3/test3.py,sha256=Xj9IimUAX5nhAKJmV6-CMxqPB5IHDa6bGDoMr7lDiWk,32
+frank_momo_daemon-0.0.1.dist-info/LICENSE,sha256=WI5JtXXhjcqnIcPllDA1ZtuxNnZ515xjElcILo7z28o,1073
+frank_momo_daemon-0.0.1.dist-info/METADATA,sha256=akjCR__Ge5O_a5baHxL7WRMSJGQUjeEeJr0ci2I2fKY,617
+frank_momo_daemon-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+frank_momo_daemon-0.0.1.dist-info/top_level.txt,sha256=7tSe9oVFyd_dCLrotHDHVIQ6OAM26I6rF6ggOsDL0uk,7
+frank_momo_daemon-0.0.1.dist-info/RECORD,,
