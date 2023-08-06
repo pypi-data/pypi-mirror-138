@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.py
+ns_rep_imports.egg-info/PKG-INFO
+ns_rep_imports.egg-info/SOURCES.txt
+ns_rep_imports.egg-info/dependency_links.txt
+ns_rep_imports.egg-info/requires.txt
+ns_rep_imports.egg-info/top_level.txt
+rel/__init__.py
+rel/mod_rel.py
+tmp/__init__.py
+tmp/test.py

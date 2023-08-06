@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: ns-rep-imports
+Version: 0.1.3
+Summary: Namespace Realitive Import Generator
+Home-page: https://github.com/Amourspirit/python-ns-rel-imports
+Author: :Barry-Thomas-Paul: Moss
+Author-email: bigbytetech@gmail.com
+License: MIT
+Keywords: import,namespace,rel,camel-to-snake
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6.0
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+=================================
+Welcome to NS-REL-IMPORTS's docs!
+=================================
+
+
+Simple rel import generator module
+==================================
+
+Generates Realitive info with a camel to snake conversion of class name.
+
+.. code-block:: python
+
+    >>> from rel import mod_rel as RelInfo
+
+    >>> obj_str = 'awt.uno.XInterface'
+    >>> ns = 'awt.grid'
+    >>> rel = RelInfo.get_rel_import(in_str =obj_str, ns=ns)
+    >>> print(f"from {rel.frm} import {rel.imp}")
+    from ..uno.x_interface import XInterface
+
+
+
