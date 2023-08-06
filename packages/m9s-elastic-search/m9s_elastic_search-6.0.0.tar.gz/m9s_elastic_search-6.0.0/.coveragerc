@@ -1,0 +1,5 @@
+[run]
+source = trytond.modules.elastic_search
+
+[report]
+omit = */tests/*,*/setup.py
