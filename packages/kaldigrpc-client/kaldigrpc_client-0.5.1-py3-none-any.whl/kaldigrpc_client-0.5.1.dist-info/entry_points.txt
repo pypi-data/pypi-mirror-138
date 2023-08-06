@@ -1,0 +1,3 @@
+[console_scripts]
+kaldigrpc-transcribe=kaldigrpc_client.client:transcribe_wav
+

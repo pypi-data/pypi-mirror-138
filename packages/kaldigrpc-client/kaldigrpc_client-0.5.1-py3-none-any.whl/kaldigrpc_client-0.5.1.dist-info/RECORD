@@ -1,0 +1,9 @@
+kaldigrpc_client/__init__.py,sha256=lytBuWuHEVlHQPtVUgcuuXD1bZWqiK5sepwEVhGHsDU,34
+kaldigrpc_client/client.py,sha256=Z481OMECkcGVgUBZOcYv7SxyuCerDy0QqatAYJspRgw,6557
+kaldigrpc_client/generated/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kaldigrpc_client/generated/asr_pb2.py,sha256=41yHHDnIQqnRqvLi_DCOZYluvWMM2spuqDjXvI_4e1E,29190
+kaldigrpc_client/generated/asr_pb2_grpc.py,sha256=kFLBUJhDFqdbKLHQQJ75LKhe7RlKTWiSqNjFCHyxmBQ,4526
+kaldigrpc_client-0.5.1.dist-info/entry_points.txt,sha256=eUAWQutuoCp6a3KoLXDAdbvNh_JK5H6eHrUtTQ4C2Wo,79
+kaldigrpc_client-0.5.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+kaldigrpc_client-0.5.1.dist-info/METADATA,sha256=soPaJpktTRKXYi7OVwfeX6EbOEDcC-mUod1YPwfhO98,2728
+kaldigrpc_client-0.5.1.dist-info/RECORD,,
