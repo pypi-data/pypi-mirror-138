@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/easystuff/__init__.py
+src/easystuff/easystuff.py
+src/easystuff.egg-info/PKG-INFO
+src/easystuff.egg-info/SOURCES.txt
+src/easystuff.egg-info/dependency_links.txt
+src/easystuff.egg-info/requires.txt
+src/easystuff.egg-info/top_level.txt
