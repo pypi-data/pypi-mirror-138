@@ -1,0 +1,3 @@
+[FlexGet.plugins]
+magnet_add_dn=trim21_flexget_plugins.modify.magnet_add_dn
+
