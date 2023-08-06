@@ -1,0 +1,15 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+dyntastic/__init__.py
+dyntastic/attr.py
+dyntastic/exceptions.py
+dyntastic/main.py
+dyntastic.egg-info/PKG-INFO
+dyntastic.egg-info/SOURCES.txt
+dyntastic.egg-info/dependency_links.txt
+dyntastic.egg-info/requires.txt
+dyntastic.egg-info/top_level.txt
