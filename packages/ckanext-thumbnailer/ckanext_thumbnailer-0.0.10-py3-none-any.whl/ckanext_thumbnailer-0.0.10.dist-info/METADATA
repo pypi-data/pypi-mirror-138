@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: ckanext-thumbnailer
+Version: 0.0.10
+Summary: UNKNOWN
+Home-page: https://github.com/DataShades/ckanext-thumbnailer
+Author: Sergey Motornyuk
+Author-email: sergey.motornyuk@linkdigital.com.au
+License: AGPL
+Keywords: CKAN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typing-extensions
+Requires-Dist: preview-generator
+Requires-Dist: ckanext-toolbelt
+Requires-Dist: ckanext-files (>=0.0.2)
+Provides-Extra: all
+Requires-Dist: preview-generator[all] ; extra == 'all'
+
+[![Tests](https://github.com//ckanext-thumbnailer/workflows/Tests/badge.svg?branch=main)](https://github.com//ckanext-thumbnailer/actions)
+
+# ckanext-thumbnailer
+
+
+## Requirements
+
+Compatibility with core CKAN versions:
+
+| CKAN version | Compatible? |
+|--------------|-------------|
+| 2.9          | yes         |
+| master       | yes         |
+
+## Installation
+
+1. Install extension. It may fail because of missing system packages. Check
+   [preview-generator](https://pypi.org/project/preview-generator/)
+   documentation for details.
+
+        pip install ckanext-thumbnailer
+
+1. Add `files` and `thumbnailer` to the list of enabled plugins
+
+        ckan.plugins = ... thumbnailer files
+
+## Config settings
+
+	# If greater than 0, make an attempt to download linked resource as long as it's side is under this limit
+	# (optional, default: 0).
+    ckanext.thumbnailer.max_remote_size = 0
+
+	# List of formats that will get thumbnails when resource is created/updated
+	# (optional, default: None).
+    ckanext.thumbnailer.auto_formats = pdf png
+
+
