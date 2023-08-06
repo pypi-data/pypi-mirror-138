@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pypam3
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENCE
+
+# pypam3 - Project Assignment Method
+
++ Usage:
+
++ Requires:
+
+  ```commandline
+  python3
+  pip3 install openpyxl
+  pip3 install munkres
+  ```
+
+

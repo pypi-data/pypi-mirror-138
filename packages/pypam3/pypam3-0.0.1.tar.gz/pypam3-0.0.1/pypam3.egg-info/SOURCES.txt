@@ -1,0 +1,9 @@
+LICENCE
+README.md
+setup.py
+pypam3/__init__.py
+pypam3/assign.py
+pypam3.egg-info/PKG-INFO
+pypam3.egg-info/SOURCES.txt
+pypam3.egg-info/dependency_links.txt
+pypam3.egg-info/top_level.txt
