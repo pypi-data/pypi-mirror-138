@@ -1,0 +1,1 @@
+strip_hidden_form_values
