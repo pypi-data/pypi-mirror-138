@@ -1,0 +1,3 @@
+[console_scripts]
+netcat-ntt = netcat.main:main
+
