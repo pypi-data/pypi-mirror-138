@@ -1,0 +1,6 @@
+djangoldp>=2.1
+djangoldp_account>=2.1
+Pillow>=9.0
+
+[dev]
+factory_boy>=2.11.0
