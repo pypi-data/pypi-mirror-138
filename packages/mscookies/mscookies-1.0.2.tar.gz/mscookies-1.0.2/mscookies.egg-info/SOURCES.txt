@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+browser_cookie3.license
+setup.py
+tests.py
+mscookies/__init__.py
+mscookies/__main__.py
+mscookies/__version__.py
+mscookies/cookies.py
+mscookies.egg-info/PKG-INFO
+mscookies.egg-info/SOURCES.txt
+mscookies.egg-info/dependency_links.txt
+mscookies.egg-info/requires.txt
+mscookies.egg-info/top_level.txt
