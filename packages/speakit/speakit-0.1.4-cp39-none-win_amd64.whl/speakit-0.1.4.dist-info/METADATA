@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: speakit
+Version: 0.1.4
+Classifier: Programming Language :: Python
+Author: Mike Roberts <42875462+mrob95@users.noreply.github.com>
+Author-email: Mike Roberts <42875462+mrob95@users.noreply.github.com>
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Speakit
+
+## Installation
+```
+pip install speakit
+```
+
+## Documentation
+The module exports two functions:
+
+```python
+from speakit import split_symbol, split_symbols
+
+def split_symbol(symbol: str, numbers: bool = True, max_len: int = 0) -> str:
+def split_symbols(symbols: List[str], numbers: bool = True, max_len: int = 0) -> List[str]:
+```
+
+## Examples
+```python
+split_symbol("999") == "nine nine nine"
+split_symbol("99module_aTestCase") == "nine nine module a Test Case"
+split_symbol("0_A1B2C3DEF99") == "zero A one B two C three D E F nine nine"
+split_symbol("__init__") == "init"
+split_symbol("99module_aTestCase", numbers=False, max_len=3) == "module a Test"
+```
