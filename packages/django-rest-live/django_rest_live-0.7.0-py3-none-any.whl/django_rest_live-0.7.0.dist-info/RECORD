@@ -1,0 +1,13 @@
+CHANGELOG.md,sha256=g6zri0yNhyquNMYkozRAnAyN4lMkJfSALc-vF7JEvnM,286
+LICENSE,sha256=8EEiT_8LEHZ4Qj9A-xvc6TdhLy57PtxmgGpv9IA2_q4,1066
+rest_live/__init__.py,sha256=cI22SVkKdwV00g8VHyax9nwZOoUg-K4hbDYSbF0KIVU,225
+rest_live/apps.py,sha256=KSrVGm29NcE6B-zk-ByEpuT4mYNHz6IhI5I3qFdjS4g,92
+rest_live/consumers.py,sha256=LdbYTAwby0eru5XluLjsTMrH_doYfdkJ8PK40p4Fl5A,12263
+rest_live/mixins.py,sha256=ShLvW4b-_TfeotYJHXMwHoQ5TKY70-mEr4F99Usms8A,4113
+rest_live/routers.py,sha256=IfaQ92rmZu-vjzJ7SENPVyeXEz4Jm81tHVv65VujkUs,1490
+rest_live/signals.py,sha256=poJIG2fnvtPf_nU05kV-Wvbtg52skJ_LZ0DpfXBMyJI,979
+rest_live/testing.py,sha256=dCOWARi8Vg--Y0KW0f7X-aHThNanDpazZji42wptFAc,5798
+django_rest_live-0.7.0.dist-info/LICENSE,sha256=8EEiT_8LEHZ4Qj9A-xvc6TdhLy57PtxmgGpv9IA2_q4,1066
+django_rest_live-0.7.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+django_rest_live-0.7.0.dist-info/METADATA,sha256=Ra5NDO1a0z2TnWi3Ee8ETI4J0jpjHjluTKlgO7gxHqk,7383
+django_rest_live-0.7.0.dist-info/RECORD,,
