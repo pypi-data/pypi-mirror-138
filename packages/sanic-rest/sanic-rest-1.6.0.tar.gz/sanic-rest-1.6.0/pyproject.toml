@@ -1,0 +1,59 @@
+[tool.poetry]
+name = "sanic-rest"
+version = "1.6.0"
+description = "Sanic Rest Framework with Google Cloud Datastore"
+authors = ["Joao Daher <joao@daher.dev>"]
+repository = "https://github.com/flamingo-run/sanic-rest"
+readme = "README.md"
+keywords = ["sanic", "restful", "datastore"]
+packages = [
+    { include = "sanic_rest" },
+]
+
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+sanic = "*"
+sanic-openapi = "*"
+gcp-pilot = { version = "*", extras = ["datastore", "storage"]}
+sanic-jwt = { version = "*", optional = true }
+passlib = { version = "*", optional = true }
+argon2_cffi = { version = "*", optional = true }
+
+
+[tool.poetry.extras]
+auth = ["sanic-jwt", "passlib", "argon2_cffi"]
+
+
+[tool.poetry.dev-dependencies]
+black = "*"
+pylint = "*"
+safety = "*"
+coverage = "*"
+pytest = "*"
+pytest-cov = "*"
+
+[tool.black]
+line-length = 120
+target-version = ['py310']
+
+[tool.pylint.messages_control]
+disable = "C0330, C0326, C0114, C0115, C0116, W0212, W0511, W0613, W1203, R0901, R0903, R0913, R0201, R0902, C0204, R0401, R0801, R0904, R0914"
+
+[tool.pylint.format]
+max-line-length = "120"
+
+[tool.pylint.basic]
+good-names= "i, j, k, m, n, dt, db, pk, tz, qs, ex, _"
+
+[tool.coverage.run]
+branch = true
+source = ["sanic_rest"]
+
+[tool.pytest.ini_options]
+addopts = "--cov"
+
+
+[build-system]
+requires = ["poetry"]
+build-backend = "poetry.masonry.api"
