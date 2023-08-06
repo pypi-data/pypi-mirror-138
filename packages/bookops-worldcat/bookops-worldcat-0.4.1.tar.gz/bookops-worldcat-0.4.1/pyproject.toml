@@ -1,0 +1,73 @@
+[tool.poetry]
+name = "bookops-worldcat"
+version = "0.4.1"
+description = "OCLC WorldCat Metadata APIs wrapper"
+authors = ["Tomasz Kalata <klingaroo@gmail.com>"]
+license = "MIT"
+exclude = ["bookops_worldcat/temp.py", "bookops_worldcat/temp/*"]
+
+readme = "README.md"
+repository = "https://github.com/BookOps-CAT/bookops-worldcat"
+homepage = "https://bookops-cat.github.io/bookops-worldcat/"
+
+keywords = ["api", "worldcat", "cataloging", "bibliographic records", "holdings", "library metadata"]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.27"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+pytest-cov = "^3.0"
+pytest-mock = "^3.7"
+pytest-recording = "^0.12.0"
+mkdocs = "^1.2"
+black = "^22.1.0"
+mike = "^1.1.2"
+mkapi = "^1.0.14"
+mypy = "^0.931"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/BookOps-CAT/bookops-worldcat/issues"
+
+[tool.black]
+line-length = 88
+target-version = ['py37']
+include = '\.pyi?$'
+exclude = '''
+(
+    /(
+        \.eggs
+       | \.git
+       | \.hg
+       | \.mypy_cache
+       | \.tox
+       | \.venv
+       | _build
+       | buck-out
+       | build
+       | dist
+    )/
+    | temp.py
+)
+'''
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
