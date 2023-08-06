@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+knitout_kniterate_3D/__init__.py
+knitout_kniterate_3D/knit3D.py
+knitout_kniterate_3D/knitout.py
+knitout_kniterate_3D.egg-info/PKG-INFO
+knitout_kniterate_3D.egg-info/SOURCES.txt
+knitout_kniterate_3D.egg-info/dependency_links.txt
+knitout_kniterate_3D.egg-info/requires.txt
+knitout_kniterate_3D.egg-info/top_level.txt
