@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+unfollowery/__cfg.py
+unfollowery/__init__.py
+unfollowery/__utils.py
+unfollowery/crawler.py
+unfollowery.egg-info/PKG-INFO
+unfollowery.egg-info/SOURCES.txt
+unfollowery.egg-info/dependency_links.txt
+unfollowery.egg-info/requires.txt
+unfollowery.egg-info/top_level.txt
