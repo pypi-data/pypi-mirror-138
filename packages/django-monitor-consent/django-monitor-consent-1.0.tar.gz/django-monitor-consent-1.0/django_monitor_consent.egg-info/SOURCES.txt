@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+consent/__init__.py
+consent/templates/consent/banner.html
+consent/templatetags/__init__.py
+consent/templatetags/consent_tags.py
+django_monitor_consent.egg-info/PKG-INFO
+django_monitor_consent.egg-info/SOURCES.txt
+django_monitor_consent.egg-info/dependency_links.txt
+django_monitor_consent.egg-info/top_level.txt
