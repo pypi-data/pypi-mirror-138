@@ -1,0 +1,3 @@
+[console_scripts]
+dilator = dilator.__main__:main
+

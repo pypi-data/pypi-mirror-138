@@ -1,0 +1,10 @@
+README.md
+setup.py
+dilator/__init__.py
+dilator/__main__.py
+png_dilator.egg-info/PKG-INFO
+png_dilator.egg-info/SOURCES.txt
+png_dilator.egg-info/dependency_links.txt
+png_dilator.egg-info/entry_points.txt
+png_dilator.egg-info/requires.txt
+png_dilator.egg-info/top_level.txt

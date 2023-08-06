@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: png-dilator
+Version: 0.8.5
+Summary: Dilate texture with low alpha pixel to prevent "black edge" when rendered by GL
+Home-page: UNKNOWN
+Author: GT
+Author-email: caogtaa@gmail.com
+License: MIT
+Description: <!--
+         * @Author: GT<caogtaa@gmail.com>
+         * @Date: 2021-05-07 12:07:31
+         * @LastEditors: GT<caogtaa@gmail.com>
+         * @LastEditTime: 2021-05-07 12:08:00
+        -->
+        Dilate texture with low alpha pixel to prevent "black edge" when rendered by GL
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
