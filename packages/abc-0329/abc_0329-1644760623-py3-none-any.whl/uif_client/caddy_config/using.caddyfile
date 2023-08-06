@@ -1,0 +1,16 @@
+{
+   auto_https disable_redirects
+   auto_https off
+}
+
+localhost {
+   reverse_proxy 127.0.0.1:4566
+}
+
+localhost/uif_free {
+   reverse_proxy 127.0.0.1:10001
+}
+
+http://localhost/main {
+   respond "Hello world!"
+}
