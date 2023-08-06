@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+setup.py
+TextColorized.egg-info/PKG-INFO
+TextColorized.egg-info/SOURCES.txt
+TextColorized.egg-info/dependency_links.txt
+TextColorized.egg-info/top_level.txt
+text_colorized/__init__.py
+text_colorized/console.py
