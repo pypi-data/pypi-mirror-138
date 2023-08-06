@@ -1,0 +1,3 @@
+[console_scripts]
+aiy_prayer = aiy_prayer.main:main
+
