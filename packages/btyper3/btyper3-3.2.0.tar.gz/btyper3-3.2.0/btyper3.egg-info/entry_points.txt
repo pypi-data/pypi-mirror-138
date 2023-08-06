@@ -1,0 +1,3 @@
+[console_scripts]
+btyper3 = btyper3:main
+
