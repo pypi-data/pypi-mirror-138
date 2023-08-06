@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: sqlserver
+Version: 0.0.12
+Summary: a module that makes queries easier to SQL Server than PYODBC
+Home-page: https://www.adgstudios.co.za
+Author: Ashlin Darius Govindasamy
+Author-email: adg@adgstudios.co.za
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pyodbc
+Requires-Dist: pandas
+
+<h1> SQLSERVER PYODBC Module </h1>
+
+##### Installation for linux guys
+
+````
+%%sh
+curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
+curl https://packages.microsoft.com/config/ubuntu/16.04/prod.list > /etc/apt/sources.list.d/mssql-release.list
+sudo apt-get update
+sudo ACCEPT_EULA=Y apt-get -q -y install msodbcsql17
+pip install sqlserver
+````
+
+
+##### Installation for windows guys
+````
+pip install sqlserver
+````
+
+#### Example of ConnectionString linux guys
+````
+DRIVER={ODBC Driver 17 for SQL Server};SERVER=SERVERNAME,PORT;DATABASE=DB;UID=USERNAME;PWD=PASSWORD
+````
+
+
+##### Usage
+````
+import sqlserver
+db = sqlserver.adgsqlserver('yourconnectionstring')
+
+db.(whateverfunctions in the modules)
+returns data
+````
+
+###### Copyright ADGSTUDIOS 2021
+
+
