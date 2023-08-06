@@ -1,0 +1,17 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+OpenFisca_Extension_Template.egg-info/PKG-INFO
+OpenFisca_Extension_Template.egg-info/SOURCES.txt
+OpenFisca_Extension_Template.egg-info/dependency_links.txt
+OpenFisca_Extension_Template.egg-info/requires.txt
+OpenFisca_Extension_Template.egg-info/top_level.txt
+openfisca_extension_template/__init__.py
+openfisca_extension_template/local_benefit.py
+openfisca_extension_template/parameters/local_town/index.yaml
+openfisca_extension_template/parameters/local_town/child_allowance/amount.yaml
+openfisca_extension_template/parameters/local_town/child_allowance/index.yaml
+openfisca_extension_template/tests/local_benefit.yaml
