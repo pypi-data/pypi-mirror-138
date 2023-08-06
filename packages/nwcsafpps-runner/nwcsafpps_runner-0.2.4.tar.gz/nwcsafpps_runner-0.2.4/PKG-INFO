@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: nwcsafpps_runner
+Version: 0.2.4
+Summary: Pytroll runner for PPS
+Home-page: https://github.com/pytroll/pytroll-pps-runner
+Author: Adam Dybroe
+Author-email: adam.dybroe@smhi.se
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
