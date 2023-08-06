@@ -1,0 +1,8 @@
+README.md
+setup.py
+icepickle/__init__.py
+icepickle.egg-info/PKG-INFO
+icepickle.egg-info/SOURCES.txt
+icepickle.egg-info/dependency_links.txt
+icepickle.egg-info/requires.txt
+icepickle.egg-info/top_level.txt
