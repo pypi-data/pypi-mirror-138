@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: timeflux-plux
+Version: 0.3
+Summary: Timeflux Plux plugin
+Home-page: https://timeflux.io
+Author: Pierre Clisson
+Author-email: contact@timeflux.io
+License: MIT
+Project-URL: Documentation, http://doc.timeflux.io/projects/timeflux-plux/
+Project-URL: Source Code, https://github.com/timeflux/timeflux_plux
+Project-URL: Bug Tracker, https://github.com/timeflux/timeflux_plux/issues
+Keywords: timeflux
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+License-File: LICENSE
+Requires-Dist: timeflux (>=0.10)
+Provides-Extra: dev
+Requires-Dist: pytest (>=5.3) ; extra == 'dev'
+Requires-Dist: sphinx (>=2.2) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme (>=0.4) ; extra == 'dev'
+Requires-Dist: setuptools-scm ; extra == 'dev'
+Requires-Dist: docinit ; extra == 'dev'
+
+Timeflux Plux plugin
+====================
+
+This plugin provides a driver to connect to `Plux <https://biosignalsplux.com/>`__ devices.
+
+When connecting to the device for the first time, use the following pairing code: `123`.
+
+Installation
+------------
+
+First, make sure that `Timeflux <https://github.com/timeflux/timeflux>`__ is installed.
+
+You can then install this plugin in the `timeflux` environment:
+
+::
+
+    $ conda activate timeflux
+    $ pip install timeflux_plux
+
+Documentation
+-------------
+
+The API documentation and examples can be found `here <https://doc.timeflux.io/projects/timeflux-plux/>`__.
+
