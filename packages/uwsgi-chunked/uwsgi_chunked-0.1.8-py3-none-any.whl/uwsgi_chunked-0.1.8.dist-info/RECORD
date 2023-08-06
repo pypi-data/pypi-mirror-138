@@ -1,0 +1,8 @@
+uwsgi_chunked/__init__.py,sha256=qPMBKkpiqzP3Y4U4pwzVG_6ZU_2j8YilO_x3AnNQeKA,87
+uwsgi_chunked/chunked.py,sha256=oP15TWhXcDCJdSsYkg-7-2y7qvMXxgXMjiWI_ecrJGM,2882
+uwsgi_chunked/version.py,sha256=UJ7ADI0Ba9B20vfVBSa1Xf0Dm9YhikWG8TthDaObKEI,51
+uwsgi_chunked-0.1.8.dist-info/LICENSE,sha256=nIWGCWq7ZgE2Ukb1klmqowejbLvDGuie9YQLhkRVc_Y,1066
+uwsgi_chunked-0.1.8.dist-info/METADATA,sha256=3qregS08IwI-nScJpvfYbLTGrUyzn_XmBK4SqjTEQXw,3761
+uwsgi_chunked-0.1.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+uwsgi_chunked-0.1.8.dist-info/top_level.txt,sha256=0ZaReEWVrUG8I1jFhRHd0Xfa4B_SMrXqUqqmDhtIpFY,14
+uwsgi_chunked-0.1.8.dist-info/RECORD,,
