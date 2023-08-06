@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "my-stocks"
+version = "0.1.3"
+description = "Easy way to access financial data in .csv format and make historical data plot"
+authors = ["markus <datamastery87@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+my-stocks = "my_stocks.main:app"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+yfinance = "^0.1.70"
+typer = "^0.4.0"
+matplotlib = "^3.5.1"
+pandas = "^1.4.1"
+numpy = "^1.22.2"
+prompt-toolkit = "^3.0.28"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

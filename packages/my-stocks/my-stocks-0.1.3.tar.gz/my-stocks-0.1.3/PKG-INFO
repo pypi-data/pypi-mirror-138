@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: my-stocks
+Version: 0.1.3
+Summary: Easy way to access financial data in .csv format and make historical data plot
+Author: markus
+Author-email: datamastery87@gmail.com
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.5.1,<4.0.0)
+Requires-Dist: numpy (>=1.22.2,<2.0.0)
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
+Requires-Dist: prompt-toolkit (>=3.0.28,<4.0.0)
+Requires-Dist: typer (>=0.4.0,<0.5.0)
+Requires-Dist: yfinance (>=0.1.70,<0.2.0)
+Description-Content-Type: text/markdown
+
+# Analyze financial data quick and easy via CLI
+
+Run my-stock --help to get all available options
+
+`get-stock-data`: Get historical data for a stock of your choice
+
+`get-dividends`: Get historical dividend data for a stock of your choice
+
