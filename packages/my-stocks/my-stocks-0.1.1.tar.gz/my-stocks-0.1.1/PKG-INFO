@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: my-stocks
+Version: 0.1.1
+Summary: Easy way to access financial data in .csv format and make historical data plot
+Author: markus
+Author-email: datamastery87@gmail.com
+Requires-Python: >=3.7,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.5.1,<4.0.0)
+Requires-Dist: typer (>=0.4.0,<0.5.0)
+Requires-Dist: yfinance (>=0.1.70,<0.2.0)
+Description-Content-Type: text/markdown
+
+
