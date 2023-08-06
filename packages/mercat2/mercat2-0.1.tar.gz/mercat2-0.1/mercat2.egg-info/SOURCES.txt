@@ -1,0 +1,17 @@
+README.md
+setup.py
+bin/mercat2-pipeline.py
+mercat2/__init__.py
+mercat2/mercat2_Chunker.py
+mercat2/mercat2_fasta.py
+mercat2/mercat2_kmers.py
+mercat2/mercat2_metrics.py
+mercat2/mercat2_report.py
+mercat2.egg-info/PKG-INFO
+mercat2.egg-info/SOURCES.txt
+mercat2.egg-info/dependency_links.txt
+mercat2.egg-info/requires.txt
+mercat2.egg-info/top_level.txt
+mercat2/data/adapter.fna
+mercat2/data/logo.jpg
+mercat2/data/style.css

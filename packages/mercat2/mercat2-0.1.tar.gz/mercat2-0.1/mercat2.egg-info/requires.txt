@@ -1,0 +1,11 @@
+setuptools
+ray
+configargparse
+pandas
+numpy
+humanize
+plotly
+psutil
+joblib
+dominate
+scikit-learn
