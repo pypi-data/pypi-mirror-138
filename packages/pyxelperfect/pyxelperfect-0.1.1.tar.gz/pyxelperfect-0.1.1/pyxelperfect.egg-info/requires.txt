@@ -1,0 +1,10 @@
+numpy
+tqdm
+scikit-image
+opencv-python
+pandas
+aicspylibczi
+matplotlib
+Pillow
+tifffile
+tabulate
