@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+dScriptModule/__init__.py
+dScriptModule/dScriptBoard.py
+dScriptModule/dScriptEvent.py
+dScriptModule/dScriptObject.py
+dScriptModule/dScriptServer.py
+dScriptModule/dScriptVirtualBoard.py
