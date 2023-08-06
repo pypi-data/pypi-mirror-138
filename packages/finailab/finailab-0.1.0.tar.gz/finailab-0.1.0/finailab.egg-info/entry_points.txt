@@ -1,0 +1,3 @@
+[console_scripts]
+myscript = finailab.__main__:main
+

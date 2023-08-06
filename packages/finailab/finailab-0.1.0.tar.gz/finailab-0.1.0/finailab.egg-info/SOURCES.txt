@@ -1,0 +1,14 @@
+LICENCE.txt
+README.rst
+setup.py
+version.py
+bin/run_finailab
+finailab/__init__.py
+finailab/__main__.py
+finailab/jupyter_notebook_config.py
+finailab.egg-info/PKG-INFO
+finailab.egg-info/SOURCES.txt
+finailab.egg-info/dependency_links.txt
+finailab.egg-info/entry_points.txt
+finailab.egg-info/requires.txt
+finailab.egg-info/top_level.txt
