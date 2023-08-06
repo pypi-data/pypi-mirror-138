@@ -1,0 +1,11 @@
+sdkms_cli/VERSION,sha256=vqILYOldltpU20v92Ax_vXGec9NUX9l8c6qx6G-5F3A,9
+sdkms_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sdkms_cli/__main__.py,sha256=fyMCz_iznG6UiA4DufBbduNAYg-p7KJsn3xbUpTm3cg,171668
+sdkms_cli/pycompatible.py,sha256=fGaskx7Il5b3dsH8jA4j9Rx5NAyT8ugygkgcWbqHX74,2211
+smartkey_cli-4.4.2028.dist-info/DESCRIPTION.rst,sha256=spCtjp8VLmYJHH8YJD7PgWOGm-nT_MJZhnDlcC1EImw,199
+smartkey_cli-4.4.2028.dist-info/METADATA,sha256=bv0dD680iQw_6HHWO6UZMfV-tC8-DetM4BybT3QYug8,1015
+smartkey_cli-4.4.2028.dist-info/RECORD,,
+smartkey_cli-4.4.2028.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+smartkey_cli-4.4.2028.dist-info/entry_points.txt,sha256=c4KiIbaQaa7zWAr5RUYC8Yfzm6YeshbJO8zhf0udHOo,58
+smartkey_cli-4.4.2028.dist-info/metadata.json,sha256=9rUL9mR5DaZx8CD-tWBPQYAQhiMUZamsnfaQDo4xVgk,1114
+smartkey_cli-4.4.2028.dist-info/top_level.txt,sha256=tAiXvbbvR_V6aCOV5lMzjBSRgQrcMbku1gFF5wFF4qk,10
