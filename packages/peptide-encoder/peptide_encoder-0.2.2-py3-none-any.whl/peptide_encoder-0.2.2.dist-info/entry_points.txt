@@ -1,0 +1,3 @@
+[console_scripts]
+train-pepenc-models = pepenc.models.train_pepenc_models:main
+
