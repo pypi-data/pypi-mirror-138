@@ -1,0 +1,16 @@
+sisl
+plotly
+xarray
+pandas
+dill>=0.3.2
+pathos
+scikit-image
+simplejson
+flask
+flask-restx
+flask-socketio>=5.0
+flask-cors
+flask-login
+flask-session
+gevent-websocket
+eventlet
