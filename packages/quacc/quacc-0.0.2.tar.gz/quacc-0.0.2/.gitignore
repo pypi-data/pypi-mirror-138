@@ -1,0 +1,11 @@
+*.pyc
+*.egg*
+__pycache__
+POTCAR*
+docs_build
+docs/src/reference/*
+scratch_path.txt
+build
+dist
+tmp_path.txt
+quacc-*
