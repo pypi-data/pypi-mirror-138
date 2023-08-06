@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: tls-verify
+Version: 1.2.0
+Summary: Validate the security of your TLS connections so that they deserve your trust.
+Home-page: https://gitlab.com/trivialsec/trivialscan
+Author: Christopher Langton
+Author-email: chris@langton.cloud
+License: UNKNOWN
+Project-URL: Source, https://gitlab.com/trivialsec/trivialscan
+Project-URL: Documentation, https://gitlab.com/trivialsec/trivialscan/-/blob/main/docs/0.index.md
+Project-URL: Tracker, https://gitlab.com/trivialsec/trivialscan/-/issues
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# tls-verify
+Abandoned, see [trivialscan](https://pypi.org/project/trivialscan/)
+

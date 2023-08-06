@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/tls_verify.egg-info/PKG-INFO
+src/tls_verify.egg-info/SOURCES.txt
+src/tls_verify.egg-info/__index__.py
+src/tls_verify.egg-info/dependency_links.txt
+src/tls_verify.egg-info/top_level.txt
