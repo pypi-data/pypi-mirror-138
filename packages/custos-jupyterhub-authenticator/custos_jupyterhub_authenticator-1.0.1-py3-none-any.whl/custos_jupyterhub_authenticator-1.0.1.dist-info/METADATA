@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: custos-jupyterhub-authenticator
+Version: 1.0.1
+Summary: Apache Custos Jupyterhub  Authenticator
+Home-page: https://github.com/apache/airavata-custos/tree/develop/custos-client-sdks/custos_jupyterhub_authenticator
+Author: Custos Developers
+Author-email: dev@airavata.apache.org
+License: Apache License 2.0
+Platform: UNKNOWN
+Requires-Dist: oauthenticator (>=14.2.0)
+
+Custos authenticator provides CILogon based federated authentication for Jupyterhub. In addition it provides Identity and Access Management solutions such as Fine-Grained Authorization, Secret Management ..etc
+
+
