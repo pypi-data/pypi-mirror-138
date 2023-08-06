@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/cjkjust.py
+src/cjkjust.egg-info/PKG-INFO
+src/cjkjust.egg-info/SOURCES.txt
+src/cjkjust.egg-info/dependency_links.txt
+src/cjkjust.egg-info/requires.txt
+src/cjkjust.egg-info/top_level.txt
