@@ -1,0 +1,3 @@
+[console_scripts]
+sigma-converter=sigma.tools.converter:main
+
