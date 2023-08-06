@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+daemon/__init__.py
+daemon/__main__.py
+daemon/test.py
+daemon/test2.py
+daemon/test3/__init__.py
+daemon/test3/test3.py
+frank_momo_daemon.egg-info/PKG-INFO
+frank_momo_daemon.egg-info/SOURCES.txt
+frank_momo_daemon.egg-info/dependency_links.txt
+frank_momo_daemon.egg-info/top_level.txt
