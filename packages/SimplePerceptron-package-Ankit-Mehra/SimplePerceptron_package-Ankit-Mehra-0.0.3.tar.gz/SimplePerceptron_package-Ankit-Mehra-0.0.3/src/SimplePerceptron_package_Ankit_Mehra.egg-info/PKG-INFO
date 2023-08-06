@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: SimplePerceptron-package-Ankit-Mehra
+Version: 0.0.3
+Summary: A small example package for perceptron
+Home-page: https://github.com/Ankit-Mehra/SimplePerceptron-package
+Author: Ankit-Mehra
+Author-email: ankitmehra1986@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Ankit-Mehra/SimplePerceptron-package/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# A  Simple Perceptron package
+
+
+## Refrences -
+
+*[official python docsfor PYPI](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+
+*[Github action file for PYPI](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries)
+ 
+
