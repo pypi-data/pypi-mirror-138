@@ -1,0 +1,10 @@
+powa_collector/__init__.py,sha256=NBtGgcCgcreniVClUT0qHWt2q3kdINv6kVeuRiQ6Qbk,13408
+powa_collector/options.py,sha256=OmEcVLrVK_SLnGPhCwJM0gZS2svcDOoXefDCtIyBp2M,3085
+powa_collector/powa_worker.py,sha256=3mzvYbqSdcMW4xLAOoG-dIZM-QSkfT68EdWHjBPWqxI,27703
+powa_collector/snapshot.py,sha256=utSNNcCA0Fn0tdvv8zSYLNKkk07l8fnF1SbEC49BXGM,721
+powa_collector-1.2.0.data/scripts/powa-collector.py,sha256=3krwpeFxqBd6JL67l0g9sFq7PDjraAGnW0iE60Y49Tc,1064
+powa_collector-1.2.0.dist-info/LICENSE,sha256=oFfH15vE9hrK52coC2CNqj5offpir6JAv4Q0wSz23co,938
+powa_collector-1.2.0.dist-info/METADATA,sha256=tkdj3O49_LNwszG-yDlbExhRUVQVFvRvBP7WyPGmgmk,742
+powa_collector-1.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+powa_collector-1.2.0.dist-info/top_level.txt,sha256=T4beEik9U5Wd7vU8nGCJAqwE_3HM6BPFB6IYEu5fH5o,15
+powa_collector-1.2.0.dist-info/RECORD,,
