@@ -1,0 +1,12 @@
+csc/__init__.py,sha256=czu8h7e8r8YzMCej5c2_TPmg_iNiaOG91gHgKSLoSj8,2949
+csc/__main__.py,sha256=4105gwkN4TH-83Vnj44qgtuHyAL5xGxN0Tll1LpoNEg,39
+csc/_base.py,sha256=L5OKc-xi_EV1T99pqA9m6D1Iw4BzbudecXbrbUaUJNI,8807
+csc/_parser.py,sha256=vp3fCI91kEdU8G8j9S6YFlM0lcI469w9_LQOVLXbaeM,5217
+csc/_repl.py,sha256=2g48iXaI_r9UwMZ_INt0g5eved-VXUWuFnuaZz44f58,5846
+csc/_script.py,sha256=1Ofd4kb_8vseLq00Lckl5u_IZD_2Su7LzIh3zi6eC7U,4530
+csc/_utils.py,sha256=HM4FsjRFAZDziApg4WVCmsZ3LWCZOaQTTR9VqouEzXU,6208
+csc-22.2.0.dist-info/LICENSE,sha256=cd2l7vAcGRjY_gDo4nbuDDj6pWGb3Tsiky-C8RjJ2Yw,1073
+csc-22.2.0.dist-info/METADATA,sha256=FaR2rNnQjmaHfNmqCOF5gOBlBUGxyxnqyrBqX8H8tWg,2548
+csc-22.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+csc-22.2.0.dist-info/top_level.txt,sha256=QGCiAUQ3QtX3w9r7XJe-rkiW-Eg92wkofpCBdtRg0kk,4
+csc-22.2.0.dist-info/RECORD,,
