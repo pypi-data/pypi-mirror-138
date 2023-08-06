@@ -1,0 +1,14 @@
+VFLD:
+  EC9:
+    PATH: ecfs
+      ECFSPATH: "ec:/hlam/vfld/HRES"
+      SUBDIR: YYYY/MM
+  cca_dini25a_l90_arome:
+    PATH: ecfs
+      ECFSPATH: "ec:/duuw/harmonie/cca_dini25a_l90_arome/vfld"
+      SUBDIR: None
+  cca_dini25a_l90_arome_local:
+    PATH: local
+      LOCALPATH: "/hpc/perm/ms/ie/duuw/HARMONIE/archive/cca_dini25a_l90_arome/archive/extract"
+      SUBDIR: None
+

@@ -1,0 +1,10 @@
+# config.yaml
+model_parameters:
+  eta: 0.2
+  gamma: 2
+  lambda: 1
+
+date_interval:
+  start: 2021-01-01
+  end: 2021-12-31
+

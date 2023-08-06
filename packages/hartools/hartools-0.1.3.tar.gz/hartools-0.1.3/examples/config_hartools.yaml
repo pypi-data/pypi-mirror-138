@@ -1,0 +1,17 @@
+# List of streams, indicating beginning, end and start of production
+model_data: 
+    model: "dkrea198909"
+    user: "nhd"
+    active: True
+    vfld_data_source: "ecfs"
+    vfld_path: "ec:"
+date_interval:
+     start: 1989-09-01-00
+     end: 1994-09-01-21
+#     END_DATE: 1994090121
+#     BEG_PROD: 1990090100
+#     USER: nhe
+#     ACTIVE: True
+#    # Archiving details 
+#    # DAILY:  number of files expected per day and month
+#    # MONTHLY: number of fields expected on each file
