@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "macad"
+version = "1.0.0"
+description = "\"Change your system's mac-address\""
+authors = ["Deepak Patidar <info.deepakpatidar@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+macad = "macad.mac_changer:main"
