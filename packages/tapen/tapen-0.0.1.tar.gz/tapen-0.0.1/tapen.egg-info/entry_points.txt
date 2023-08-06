@@ -1,0 +1,4 @@
+[console_scripts]
+tapen = tapen.cli:default_entrypoint
+tpp = tapen.cli:tpp_entrypoint
+
