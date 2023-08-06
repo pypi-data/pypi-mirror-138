@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: videofingerprint
+Version: 0.0.2
+Summary: Relative Luminance gradient and Dominant Color of Frames (RLGDCF) based Digital Video Fingerprinting. 
+Home-page: https://akamhy.github.io/videofingerprint/
+Author: Akash Mahanty
+Author-email: akamhy@yahoo.com
+License: MIT
+Download-URL: https://github.com/akamhy/videofingerprint/archive/0.0.2.tar.gz
+Project-URL: Source, https://github.com/akamhy/videofingerprint
+Project-URL: Tracker, https://github.com/akamhy/videofingerprint/issues
+Description: <h1 align="center">Relative Luminance gradient and Dominant Color of Frames (RLGDCF) based Digital Video Fingerprinting</h2>
+        
+        
+        ## Introduction
+        
+        Relative Luminance gradient and Dominant Color of Frames (RLGDCF) based Digital Video Fingerprinting is ...
+        
+        I'll explain the code in words here but later, for now just read the code. Sorry!
+        
+        ### Installation
+        
+        ```bash
+        pip install videofingerprint -U
+        ```
+        
+        ### Usage
+        
+        ```python
+        >>> import videofingerprint
+        >>> 
+        >>> url1 = "https://www.youtube.com/watch?v=PapBjpzRhnA"
+        >>> url2 = "https://raw.githubusercontent.com/akamhy/videohash/main/assets/rocket.mkv"
+        >>> 
+        >>> vp1 = videofingerprint.VideoFingerprint(url=url1)
+        >>> vp2 = videofingerprint.VideoFingerprint(url=url2)
+        >>> vp1.fingerprint
+        'rrbBbbBLlrrRrRrnNBbbbnnrBBbbBLlrrrRRnnnnLLLLLllllllllL'
+        >>> vp2.fingerprint
+        'rrbBbbBLlrrRrRrrNBbbbnnrBBbbBLlrrrRRnnNnBLLLLllllllllL'
+        >>> 
+        ```
+        
+        
+        ### 🛡 License
+        
+        [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/akamhy/videofingerprint/blob/main/LICENSE)
+        
+        Copyright (c) 2022 Akash Mahanty. See
+        [license](https://github.com/akamhy/videofingerprint/blob/master/LICENSE) for details.
+        
+        
+        
+        
+        
+Keywords: Digital video fingerprinting,videofingerprint,duplicate video detection,RLGDCF,find duplicate video,compare videos,video,video diff,Relative Luminance gradient,Dominant Color of Frames
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Multimedia :: Video
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
