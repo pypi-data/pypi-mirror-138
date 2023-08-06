@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pyrinth"
+version = "0.1.1"
+description = ""
+authors = ["ENDERZOMBI102 <enderzombi102.end@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.27.1"
+
+[tool.poetry.dev-dependencies]
+pdoc3 = "^0.10.0"
+mypy = "^0.931"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
