@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/tmx_to_text/converttmx.py
+src/tmx_to_text/infotmx.py
+src/tmx_to_text/tmx_to_text.py
+tmx_to_text.egg-info/PKG-INFO
+tmx_to_text.egg-info/SOURCES.txt
+tmx_to_text.egg-info/dependency_links.txt
+tmx_to_text.egg-info/entry_points.txt
+tmx_to_text.egg-info/requires.txt
+tmx_to_text.egg-info/top_level.txt
