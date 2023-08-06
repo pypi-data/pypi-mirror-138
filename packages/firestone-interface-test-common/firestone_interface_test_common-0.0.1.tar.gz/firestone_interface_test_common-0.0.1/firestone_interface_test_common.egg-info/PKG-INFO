@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: firestone-interface-test-common
+Version: 0.0.1
+Summary: 火石创造全项目链接口自动化专用，持续更新
+Home-page: https://github.com
+Author: jw
+Author-email: 2561134773@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
