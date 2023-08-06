@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+freertos_gdb/__init__.py
+freertos_gdb/common.py
+freertos_gdb/queue.py
+freertos_gdb/task.py
+freertos_gdb/timer.py
+freertos_gdb.egg-info/PKG-INFO
+freertos_gdb.egg-info/SOURCES.txt
+freertos_gdb.egg-info/dependency_links.txt
+freertos_gdb.egg-info/top_level.txt
