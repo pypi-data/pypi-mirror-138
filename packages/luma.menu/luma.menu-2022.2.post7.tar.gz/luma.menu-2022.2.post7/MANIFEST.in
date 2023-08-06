@@ -1,0 +1,5 @@
+recursive-include luma/menu/fonts *.ttf
+recursive-include tests *
+recursive-exclude examples *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
