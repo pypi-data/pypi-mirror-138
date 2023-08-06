@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/DataDictionary.egg-info/PKG-INFO
+src/DataDictionary.egg-info/SOURCES.txt
+src/DataDictionary.egg-info/dependency_links.txt
+src/DataDictionary.egg-info/requires.txt
+src/DataDictionary.egg-info/top_level.txt
+src/datadictionary/__init__.py
+src/datadictionary/config.py
+src/datadictionary/profiler.py
+src/datadictionary.egg-info/PKG-INFO
+src/datadictionary.egg-info/SOURCES.txt
+src/datadictionary.egg-info/dependency_links.txt
+src/datadictionary.egg-info/requires.txt
+src/datadictionary.egg-info/top_level.txt
