@@ -1,0 +1,58 @@
+# Package Overview
+package_name: classification_model
+
+# Data Files
+data_referesh: False
+data_url: "https://files.consumerfinance.gov/ccdb/complaints.csv.zip"
+training_data_file: train.csv
+test_data_file: test.csv
+
+model_save_file: classification_model_output_v
+
+# Dependent variable
+DEPENDENT_FEATURES: Product
+
+# Independent variables
+INDEPENDENT_FEATURES: Consumer complaint narrative
+
+# Padding size
+MAX_LENGHT: 140
+
+# Model parameters
+PARAMS_LSTM:
+  MODEL_NAME: Bi-Directional-LSTM
+  batch_size: 512
+  epochs: 100
+  lr: 0.0003
+  validation_split: 0.3
+  verbose: 1
+
+# Word2Vec config
+PARAMS_WORD2VEC:
+  EPOCHS: 50
+  MIN_COUNT: 2
+  SG: 1
+  VECTOR_SIZE: 160
+  WINDOW: 7
+
+# Random state
+RANDOM_STATE: 0
+
+# Sample size
+TRAIN_SIZE: 10000
+TEST_SIZE: 3000
+
+# Target mapping
+PRODUCT_MAPPING:
+  "Credit card": "Credit card or prepaid card"
+  "Prepaid card": "Credit card or prepaid card"
+  "Credit reporting": "Credit reporting, credit repair services, or other personal consumer reports"
+  "Money transfers": "Money transfer, virtual currency, or money service"
+  "Virtual currency": "Money transfer, virtual currency, or money service"
+  "Payday loan": "Consumer loan, Vehicle loan or lease, Payday loan, title loan, or personal loan"
+  "Other financial service": "Money transfer, virtual currency, or money service"
+  "Consumer Loan": "Consumer loan, Vehicle loan or lease, Payday loan, title loan, or personal loan"
+  "Vehicle loan or lease": "Consumer loan, Vehicle loan or lease, Payday loan, title loan, or personal loan"
+  "Payday loan, title loan, or personal loan": "Consumer loan, Vehicle loan or lease, Payday loan, title loan, or personal loan"
+  "Bank account or service": "Bank account or service, Savings account"
+  "Checking or savings account": "Bank account or service, Savings account"
