@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+scripts/cfflatten
+src/cfflatten/__init__.py
+src/cfflatten/cf_dns.py
+src/cfflatten/cf_spf_flat.py
+src/cfflatten.egg-info/PKG-INFO
+src/cfflatten.egg-info/SOURCES.txt
+src/cfflatten.egg-info/dependency_links.txt
+src/cfflatten.egg-info/requires.txt
+src/cfflatten.egg-info/top_level.txt
