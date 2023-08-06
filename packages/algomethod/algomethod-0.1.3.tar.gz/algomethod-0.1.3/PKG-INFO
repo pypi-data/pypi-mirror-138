@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: algomethod
+Version: 0.1.3
+Summary: This is a template for python projects.
+Home-page: https://github.com/kagemeka/algomethod/#readme
+License: MIT
+Keywords: algomethod
+Author: Hiroshi Tsuyuki
+Author-email: kagemeka1@gmail.com
+Maintainer: Hiroshi Tsuyuki
+Maintainer-email: kagemeka1@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: aiohttp
+Requires-Dist: beautifulsoup4
+Requires-Dist: furo; extra == "docs"
+Requires-Dist: myst-parser; extra == "docs"
+Requires-Dist: optext-python (==0.1.1)
+Requires-Dist: pdoc3; extra == "docs"
+Requires-Dist: pydata-sphinx-theme; extra == "docs"
+Requires-Dist: python-docs-theme; extra == "docs"
+Requires-Dist: requests
+Requires-Dist: selenium
+Requires-Dist: selext (==0.2.1)
+Requires-Dist: sphinx-book-theme; extra == "docs"
+Requires-Dist: sphinx-theme-pd; extra == "docs"
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx_rtd_theme (<=2.0.0); extra == "docs"
+Requires-Dist: sphinxcontrib-mermaid; extra == "docs"
+Project-URL: Documentation, https://algomethod.readthedocs.io
+Project-URL: Repository, https://github.com/kagemeka/algomethod
+Project-URL: Twitter, https://twitter.com/kagemeka
+Description-Content-Type: text/markdown
+
+# Algomethod
+
+algo-method API for Python
+
+[![Python package](https://github.com/kagemeka/algo-method/actions/workflows/python-package.yml/badge.svg)](https://github.com/kagemeka/algo-method/actions/workflows/python-package.yml)
+[![CodeQL](https://github.com/kagemeka/algo-method/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/kagemeka/algo-method/actions/workflows/codeql-analysis.yml)
+[![Documentation Status](https://readthedocs.org/projects/algomethod/badge/?version=latest)](https://algomethod.readthedocs.io/en/latest/?badge=latest)
+[![PyPI version](https://badge.fury.io/py/algomethod.svg)](https://badge.fury.io/py/algomethod)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
