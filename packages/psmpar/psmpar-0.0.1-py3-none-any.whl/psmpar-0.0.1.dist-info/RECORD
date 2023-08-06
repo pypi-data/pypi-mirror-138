@@ -1,0 +1,14 @@
+psmpar/__init__.py,sha256=oqy0bkV9CD4SxXQsXjPfA9VQ9afPeHPz9rfnTK0j6Rw,72
+psmpar/bgc.py,sha256=KrQx8b1hVuGl3_SJy0V_-7XdC9Oc6W2I6J8DMep4-bw,519
+psmpar/blast.py,sha256=LzoHvDl67M2FalE85BhptZnMA0QKbcGFZO5NV8qLTGg,2130
+psmpar/default.py,sha256=2NzeqK0iE5VP3aMOlkqf5umt-pkXguyOmWcadIWlQ5w,406
+psmpar/main.py,sha256=acNoaFlmoEBkbnLgoPu2A8mk5UDKYrQlamIA2W_kIKY,184
+psmpar/model.py,sha256=Ra6DEHtWAehpJaAhESp339Oa3m_8K_4GrFOejHHqusk,35
+psmpar/seqkit.py,sha256=Zfe0h3R0QAKxfWId-h7qR4DwUmuMLE47Pwt-rz4EtpM,1007
+psmpar/utils.py,sha256=wg6kd22dtbXKdzej291tO8H-LmpYAb_9Foit76UqvRQ,454
+psmpar-0.0.1.data/scripts/psmpar,sha256=u50FffwxR0cCEnm001yzrR2cqklCWFyOgTFjVwUyYTU,1863
+psmpar-0.0.1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+psmpar-0.0.1.dist-info/METADATA,sha256=HRn0TsYl1280wmCz-TAkn--sXOgy3u42DWnrO--hH7I,523
+psmpar-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+psmpar-0.0.1.dist-info/top_level.txt,sha256=U616E0B0CKkrfS5q-G6gu1s-RQ2L3NuaI8qiHyd6FMs,7
+psmpar-0.0.1.dist-info/RECORD,,
