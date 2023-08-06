@@ -1,0 +1,9 @@
+setup.py
+src/hse-advanced-python-example-project/__init__.py
+src/hse-advanced-python-example-project/ast_tree_builder.py
+src/hse-advanced-python-example-project/picture_generator.py
+src/hse_advanced_python_example_project.egg-info/PKG-INFO
+src/hse_advanced_python_example_project.egg-info/SOURCES.txt
+src/hse_advanced_python_example_project.egg-info/dependency_links.txt
+src/hse_advanced_python_example_project.egg-info/requires.txt
+src/hse_advanced_python_example_project.egg-info/top_level.txt
