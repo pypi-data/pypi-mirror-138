@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: django-mp-callback
+Version: 1.0.0
+Summary: Django callback app
+Home-page: https://github.com/pmaigutyak/mp-callback
+Author: Paul Maigutyak
+Author-email: pmaigutyak@gmail.com
+License: MIT
+Download-URL: https://github.com/pmaigutyak/mp-callback/archive/1.0.0.tar.gz
+Platform: UNKNOWN
+License-File: LICENSE
+
+# MP-callback
+
+Django callback app.
+
+### Installation
+
+Install with pip:
+
+```
+pip install django-mp-callback
+```
+
+Add `callback` to `INSTALLED_APPS`
+
+Add js script `callback/modal.js`
+
+Add url `path('callback/', include('callback.urls')),`
+
+Add script `new CallbackModal('{% url 'callback:modal' %}');`
+
+Add admin item `ChildItem(model='callback.callback')`
+
+### Requirements
+
+App require this packages:
+
+* django-recaptcha
+* django-widget-tweaks
+
+
