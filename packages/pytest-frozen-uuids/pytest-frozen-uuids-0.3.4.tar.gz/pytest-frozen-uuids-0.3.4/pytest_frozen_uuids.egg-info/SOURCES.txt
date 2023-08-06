@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+./pytest_frozen_uuids/__main__.py
+./pytest_frozen_uuids/config.py
+./pytest_frozen_uuids/generators.py
+./pytest_frozen_uuids/utils.py
+pytest_frozen_uuids.egg-info/PKG-INFO
+pytest_frozen_uuids.egg-info/SOURCES.txt
+pytest_frozen_uuids.egg-info/dependency_links.txt
+pytest_frozen_uuids.egg-info/entry_points.txt
+pytest_frozen_uuids.egg-info/requires.txt
+pytest_frozen_uuids.egg-info/top_level.txt
