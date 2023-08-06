@@ -1,0 +1,2 @@
+include src/pubwords/*
+include src/pubwords/*.txt
