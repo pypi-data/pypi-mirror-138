@@ -1,0 +1,16 @@
+memo/__init__.py,sha256=SuS-tVakGeg8Q9AmEDO5Z16lXKTjU0CWWRGuo2L2nNc,1147
+memo/__main__.py,sha256=q-DEW5fwlfUjzMViZFdIkhQRvA0JpAjwFYsTh0W-kV8,749
+memo/algorithms.py,sha256=5cym_BmRy3TjaaQ7EYSTeJ0r_X47WySS7Q9bSmM_-KE,7730
+memo/argparser.py,sha256=NjCMlpjmIVRbhKexMl7F9rQuWk-_9sqgrc1Mm3gtV2o,642
+memo/awesome.py,sha256=F1l1c3IaZssPxGKC_rOPG6LcDqV1BRpabHiLXtMUv78,1044
+memo/files.py,sha256=FLOwkPeQX8W6apnz3n1ufLcf84jche1IyOLCFSw4ZGY,360
+memo/ioutil.py,sha256=iueZrRAdnO66zanjr9SG_GDe2Zlp5OFgK9JRp2Rvlss,3418
+memo/myhash.py,sha256=h4Lr2d8-jtZIR6nJHgivfb8xL3oeP74B8dtNcVnahFs,825
+memo/paths.py,sha256=RtERoA5lqW6D7x23N1LATq7F2QQ51aTQe77yUiyIFa0,487
+memo/subcommands.py,sha256=p3gfrUDICw5BWeoC4KkkM6Ob-AujYqrxiOHK-Cbx8xY,3911
+memo/util.py,sha256=cpzZ6BDURJrN2z5tyKq6alZ5Wib3heK9nv3MngFjWyI,1003
+meow_memo-0.0.10.dist-info/METADATA,sha256=LE_Rt5hWwHSfhmm5DWeVhzKmA3wm7a_Ore7Eq06ZyIs,247
+meow_memo-0.0.10.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+meow_memo-0.0.10.dist-info/entry_points.txt,sha256=PIBrIbrGxilZqLwa5iAA_Q7sI3xs5QKrTZsFlXT8ENo,35
+meow_memo-0.0.10.dist-info/top_level.txt,sha256=CldiL44_3DXjUeBzx12mZQUwG-VwYcku-jVjdA6eIUc,5
+meow_memo-0.0.10.dist-info/RECORD,,
