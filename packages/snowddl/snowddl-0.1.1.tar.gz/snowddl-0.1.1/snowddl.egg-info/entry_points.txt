@@ -1,0 +1,3 @@
+[console_scripts]
+snowddl = snowddl.__main__:default_entry_point
+
