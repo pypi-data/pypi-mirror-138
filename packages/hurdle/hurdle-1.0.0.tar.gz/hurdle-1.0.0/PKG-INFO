@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: hurdle
+Version: 1.0.0
+Summary: Scikit hurdle estimator
+Home-page: https://www.github.com/prio-data/hurdle
+Author: peder2911
+Author-email: pglandsverk@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: scikit-learn (>=1.0.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+
+# Hurdle
+
+![tests status](https://github.com/prio-data/cc_backend_lib/actions/workflows/test.yml/badge.svg)
+
+This package contains an implementation of Hurdle Regression, based in part on
+[Geoff Ruddocks implementation](https://geoffruddock.com/building-a-hurdle-regression-estimator-in-scikit-learn/)
+and Håvard Hegres 2022 adaption of his implementation.
+
+## Usage
+
+```
+from hurdle import HurdleEstimator
+from sklearn import linear_model
+
+est = HurdleEstimator(linear_model.LogisticRegression(), linear_model.LinearModel())
+
+est.fit(...)
+```
+
