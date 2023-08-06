@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pubwords
+Version: 1.0.3
+Summary: All extracted words from pubmed abstracts for use in NLP.
+Home-page: https://github.com/Ferrariic/pubwords
+Author: Ferrariic
+Author-email: ferrariictweet@example.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Ferrariic/pubwords/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pubword
+
+This is a collection of 19,000 words scraped from publically available PubMed abstracts. 
+
+# HOW TO USE
+
+1. Install
+`pip install pubword`
+2. Import
+`from pubwords.words import words`
+3. Get the word list
+`word_list = words()`
+
