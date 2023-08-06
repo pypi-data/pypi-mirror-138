@@ -1,0 +1,4 @@
+mock
+papersize
+sphinx-argparse
+sphinx>=4

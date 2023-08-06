@@ -1,0 +1,2 @@
+PaperSize>=1.2.0
+PyPDF2
