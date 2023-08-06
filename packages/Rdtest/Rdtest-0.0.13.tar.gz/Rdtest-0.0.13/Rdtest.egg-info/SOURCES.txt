@@ -1,0 +1,7 @@
+README.md
+setup.py
+Rdtest.egg-info/PKG-INFO
+Rdtest.egg-info/SOURCES.txt
+Rdtest.egg-info/dependency_links.txt
+Rdtest.egg-info/requires.txt
+Rdtest.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Rdtest
+Version: 0.0.13
+Summary: 自用测试包, Windows操作相关
+Home-page: https://www.rdtest.fit
+Author: Hewen
+Author-email: hewenwork@gmail.com
+License: MIT
+Keywords: Rdtest
+Platform: UNKNOWN
+Requires-Python: >=3.5
+
+UNKNOWN
+
