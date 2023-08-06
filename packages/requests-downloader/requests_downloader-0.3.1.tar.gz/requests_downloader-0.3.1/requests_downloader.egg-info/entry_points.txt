@@ -1,0 +1,3 @@
+[console_scripts]
+smart-dl = requests_downloader.cli:main
+
