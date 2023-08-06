@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pyrinth
+Version: 0.1.1
+Summary: 
+Author: ENDERZOMBI102
+Author-email: enderzombi102.end@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: requests (>=2.27.1,<3.0.0)
