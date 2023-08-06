@@ -1,0 +1,11 @@
+countrynames/__init__.py,sha256=GdviMNF7gWmgxjD-cVkq2stKTcsJIZhP-IouK8bEXeE,3951
+countrynames/data.yaml,sha256=IsWzr1c-y0nSOhjtaSt8aA0Z0X5JhAK45Cq-PIhMXaQ,603737
+countrynames/mappings.py,sha256=BeKEdzdvIxUPRJjbSC6cEcSe0c0UjDXF3ntGIqXGnzk,4391
+countrynames/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_countrynames.py,sha256=iPsDl8qUoBcPoV1fxr3KS4MxbrOZak5or0hWk0gao4k,1371
+countrynames-1.11.0.dist-info/METADATA,sha256=8N2kOdCT1pOP_jrUUWD4iRuLlPjc6QIIcddqJoyIN1Q,3123
+countrynames-1.11.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+countrynames-1.11.0.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+countrynames-1.11.0.dist-info/top_level.txt,sha256=ePM7oVaKN2N-JBqgnH2tas-yuALyb1mPWHL83aJeCWk,19
+countrynames-1.11.0.dist-info/RECORD,,
