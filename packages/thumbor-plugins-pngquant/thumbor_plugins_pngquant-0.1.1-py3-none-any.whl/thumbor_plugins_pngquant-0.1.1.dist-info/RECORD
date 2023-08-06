@@ -1,0 +1,6 @@
+thumbor_plugins/optimizers/pngquant/__init__.py,sha256=I16oFxVEqmePVAKqY_oOb0YO69ETqXqNqJgboBEnNTw,1571
+thumbor_plugins/optimizers/pngquant/config.py,sha256=TtZS_4tcueHn1NeuZo5oR0zslmHlNNN-5OKNlfIfHTs,396
+thumbor_plugins_pngquant-0.1.1.dist-info/METADATA,sha256=Sbe27OStacbaSpNAi7EATpOQyNwSXVVhQGYGLoIZjhc,900
+thumbor_plugins_pngquant-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+thumbor_plugins_pngquant-0.1.1.dist-info/top_level.txt,sha256=ZEGICU2TxMFcSh4m3K_iSH08aBXskrNO20Mqk2ngbeU,16
+thumbor_plugins_pngquant-0.1.1.dist-info/RECORD,,
