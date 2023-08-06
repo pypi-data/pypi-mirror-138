@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data>
+        <!-- Groups -->
+        <record model="res.group" id="group_smtp_admin">
+            <field name="name">SMTP Administration</field>
+        </record>
+        <record model="res.user-res.group" id="user_admin_group_smtp_admin">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_smtp_admin"/>
+        </record>
+
+        <!-- Menu Top -->
+        <menuitem parent="ir.menu_administration"
+            name="SMTP" id="menu_smtp"/>
+
+        <!-- smtp.server -->
+        <record model="ir.ui.view" id="server_view_form">
+            <field name="model">smtp.server</field>
+            <field name="type">form</field>
+            <field name="name">smtp_server_form</field>
+        </record>
+        <record model="ir.ui.view" id="server_view_tree">
+            <field name="model">smtp.server</field>
+            <field name="type">tree</field>
+            <field name="name">smtp_server_tree</field>
+        </record>
+
+        <!-- Actions / Menu -->
+        <record model="ir.action.act_window" id="act_server_form">
+            <field name="name">Servers</field>
+            <field name="res_model">smtp.server</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_server_form_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="server_view_tree"/>
+            <field name="act_window" ref="act_server_form"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_server_form_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="server_view_form"/>
+            <field name="act_window" ref="act_server_form"/>
+        </record>
+        <record model="ir.action.act_window.domain"
+                id="act_server_form_domain_draft">
+            <field name="name">Draft</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('state', '=', 'draft')]" pyson="1"/>
+            <field name="act_window" ref="act_server_form"/>
+        </record>
+        <record model="ir.action.act_window.domain"
+                id="act_server_form_domain_done">
+            <field name="name">Done</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain" eval="[('state', '=', 'done')]" pyson="1"/>
+            <field name="act_window" ref="act_server_form"/>
+        </record>
+        <record model="ir.action.act_window.domain"
+                id="act_server_form_domain_all">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="act_window" ref="act_server_form"/>
+        </record>
+        <menuitem parent="menu_smtp" action="act_server_form"
+            id="menu_server_form"/>
+
+        <!-- Access -->
+        <record model="ir.model.access" id="access_smtp_server">
+            <field name="model" search="[('model', '=', 'smtp.server')]"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_smtp_server_admin">
+            <field name="model" search="[('model', '=', 'smtp.server')]"/>
+            <field name="group" ref="group_smtp_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_smtp_server_model_admin">
+            <field name="model" search="[('model', '=', 'smtp.server-ir.model')]"/>
+            <field name="group" ref="group_smtp_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_smtp_server_ir_model">
+            <field name="model" search="[('model', '=', 'smtp.server-ir.model')]"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_smtp_server_ir_model_admin">
+            <field name="model" search="[('model', '=', 'smtp.server-ir.model')]"/>
+            <field name="group" ref="group_smtp_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <record model="ir.model.button" id="smtp_server_get_smtp_test_button">
+            <field name="name">get_smtp_test</field>
+            <field name="string">Test Connection</field>
+            <field name="model" search="[('model', '=', 'smtp.server')]"/>
+        </record>
+
+        <record model="ir.model.button" id="smtp_server_draft_button">
+            <field name="name">draft</field>
+            <field name="string">Draft</field>
+            <field name="model" search="[('model', '=', 'smtp.server')]"/>
+        </record>
+
+        <record model="ir.model.button" id="smtp_server_done_button">
+            <field name="name">done</field>
+            <field name="string">Confirm</field>
+            <field name="model" search="[('model', '=', 'smtp.server')]"/>
+        </record>
+    </data>
+</tryton>
