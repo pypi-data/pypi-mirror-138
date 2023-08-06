@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: smartcare
+Version: 0.0.20
+Summary: Elderly wandering prediction AI
+Home-page: UNKNOWN
+Author: Rafael Faustini
+Author-email: <contato@rafaelfaustini.com.br>
+License: UNKNOWN
+Keywords: machinelearning,paper,smartcare,cnn,artificial inteligence,alzheimer,health
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow
+Requires-Dist: keras
+Requires-Dist: pillow
+Requires-Dist: tensorboard-plugin-profile
+
+Originally from the paper Convolutional Neural Network for Elderly Wandering Prediction in indoor scenarios. An AI to detect elderly wandering by movementation in indoor scenarios.
+
+
