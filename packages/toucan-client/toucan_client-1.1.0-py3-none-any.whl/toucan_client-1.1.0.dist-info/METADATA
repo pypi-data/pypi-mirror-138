@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: toucan-client
+Version: 1.1.0
+Summary: Toucan API client
+Home-page: https://github.com/ToucanToco/toucan-client
+License: BSD-3-Clause
+Author: Toucan Toco
+Author-email: dev@toucantoco.com
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Project-URL: Documentation, https://toucantoco.github.io/toucan-client
+Project-URL: Repository, https://github.com/ToucanToco/toucan-client
+Description-Content-Type: text/markdown
+
+[![Pypi-v](https://img.shields.io/pypi/v/toucan-client.svg)](https://pypi.python.org/pypi/toucan-client)
+[![Pypi-pyversions](https://img.shields.io/pypi/pyversions/toucan-client.svg)](https://pypi.python.org/pypi/toucan-client)
+[![Pypi-l](https://img.shields.io/pypi/l/toucan-client.svg)](https://pypi.python.org/pypi/toucan-client)
+[![Pypi-wheel](https://img.shields.io/pypi/wheel/toucan-client.svg)](https://pypi.python.org/pypi/toucan-client)
+[![GitHub Actions](https://github.com/ToucanToco/toucan-client/workflows/CI/badge.svg)](https://github.com/ToucanToco/toucan-client/actions?query=workflow%3ACI)
+[![codecov](https://codecov.io/gh/ToucanToco/toucan-client/branch/main/graph/badge.svg)](https://codecov.io/gh/ToucanToco/toucan-client)
+
+# Installation
+
+`pip install toucan_client`
+
+# Usage
+
+```python
+# Initialize client
+auth = ('<username>', '<password>')
+client = ToucanClient('https://api.some.project.com/my_small_app', auth=auth)
+
+# Retrieve ETL config
+etl_config = client.config.etl.get()  # -> GET 'https://api.some.project.com/config/etl'
+client.config.etl.get(stage='staging')  # -> GET 'https://api.some.project.com/config/etl?stage=staging'
+
+# Operations control, start a preprocess
+client.data.preprocess.post(stage='staging', json={'async': True})
+
+# Operations control, release to prod
+client.data.release.post(stage='staging')
+```
+
+# Development
+
+You need to install [poetry](https://python-poetry.org/) either globally or in a virtualenv.
+Then run `make install`
+
