@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: amplParser
+Version: 0.0.3
+Summary: A python module to create parse AMPL output into JSON/dictionaries.
+Home-page: https://github.com/scythetrigger/amplParserpy
+Author: Nicholas Parham
+Author-email: nick-99@att.net
+License: Apache Software License
+Platform: UNKNOWN
+
+UNKNOWN
+
