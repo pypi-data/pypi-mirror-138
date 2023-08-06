@@ -1,0 +1,13 @@
+pydatafabric/__init__.py,sha256=uYnACG46qHoR4U1uPP7b0L7GLWvCw7jS9I6mW5Y8AkM,105
+pydatafabric/gcp.py,sha256=6eUmrPBpQtBieXty7YzkxM_ZmzmqMgOXEpjb3qO3Cak,25769
+pydatafabric/github_utils.py,sha256=4eEog_qKATeRCIyNA2r9csxJOJN0czqOjYfYxzmwt_g,3370
+pydatafabric/nes.py,sha256=egYbiA6Ce_AfpCsG0okweyPXUUZVX_Kq5mJcrr1AKgA,1733
+pydatafabric/spark_utils.py,sha256=MiI3JcmyCVaKqAkqg8Lahw3C4XP5WWRnBHkqOt-eOEk,728
+pydatafabric/vault_utils.py,sha256=YLHR2papT-Krskt_A5rc4LvuEfWnrYm65ZG8wddTKhE,279
+pydatafabric/ye.py,sha256=mEB9Eth4DuSORi0_8wzvYhTPeCZDqu8i-LKqG_98CyY,14451
+pydatafabric-0.2.0.dist-info/LICENSE,sha256=hOuW7QqSnNQG8riDRnnCykpQ4q9EnAjEZhjuXrlFfaQ,1090
+pydatafabric-0.2.0.dist-info/METADATA,sha256=2GXWeGje3Hgy_ZflMOvWtjpHjAXTR0DdUFV840y76CQ,4095
+pydatafabric-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pydatafabric-0.2.0.dist-info/entry_points.txt,sha256=aOQFtVqZMU14SoSJ-qmBwZUQOMU47Y1yAWSnYK_5PyI,49
+pydatafabric-0.2.0.dist-info/top_level.txt,sha256=8T4UoMTq54Q_hICz6zsM9TyyYIkfyfz1k86WYEESS5I,13
+pydatafabric-0.2.0.dist-info/RECORD,,
