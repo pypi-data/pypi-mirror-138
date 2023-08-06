@@ -1,0 +1,4 @@
+atc-dataplatform
+
+[dev]
+check-manifest
