@@ -1,0 +1,12 @@
+evesso/__init__.py,sha256=InDIXZ7NV86XIjmno9z_2OPos2xU9VTDlzL-kurwbys,20
+evesso/authorize.py,sha256=m_YUpT2OubKJoPJz3y9u0nYAB6tSo_pEVaxrWmhwocM,3771
+evesso/config.py,sha256=L7zTqF_DfRWAL0v-KwykANjSx2YMe5tbLfx4HW0h3EA,338
+evesso/esi.py,sha256=vH7c6qVS2QYtxcrJmBzFzb6vdHRPy1VuUKBxqYr3jiw,4996
+evesso/files.py,sha256=LclDQsGw-FystnTPj5d-FxeArvDzd1uDR9oABO7wAzc,710
+evesso/refresh.py,sha256=Q2ffLfElKZ-zfdg1hnbKmHgRRlTkGVrQRWSNAD3Q0N0,1121
+evesso/server.py,sha256=Wv6Ai_W_1i5SSYAFaH2lzlbra1p-1e-BvAjBCViq2qg,2852
+evesso-0.0.1.dist-info/LICENSE,sha256=Inx2G46BdlA2frKD-SOW2KtNpBxQ316w0oDhmgdcwyw,1084
+evesso-0.0.1.dist-info/METADATA,sha256=mqBsgwrnqWEw0SBcW3WWhPGcrpINxaxP94Xr0kPJoTk,2229
+evesso-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+evesso-0.0.1.dist-info/top_level.txt,sha256=dtFK4uSclL7u0befrYGsR_9kGBsMbSm4AMA6FLxaBVU,7
+evesso-0.0.1.dist-info/RECORD,,
