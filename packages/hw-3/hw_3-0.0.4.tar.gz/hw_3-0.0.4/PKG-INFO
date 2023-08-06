@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: hw_3
+Version: 0.0.4
+Summary: My first Python package，probably the final version
+Author: Bingcheng Qing
+Author-email: bc.qing@berkeley.edu
+License: UNKNOWN
+Keywords: python,Bingcheng Qing,AY250,2022Spring
+Platform: UNKNOWN
+
+My first Python package with a slightly longer description
+

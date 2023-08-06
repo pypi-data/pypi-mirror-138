@@ -1,0 +1,8 @@
+README.txt
+setup.py
+calcalc/CalCalc.py
+calcalc/__init__.py
+hw_3.egg-info/PKG-INFO
+hw_3.egg-info/SOURCES.txt
+hw_3.egg-info/dependency_links.txt
+hw_3.egg-info/top_level.txt
