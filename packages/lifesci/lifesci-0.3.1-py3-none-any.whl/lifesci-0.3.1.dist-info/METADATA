@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: lifesci
+Version: 0.3.1
+Summary: This repo contains python3 life sciences utilities.
+Home-page: https://github.com/bmmalone/pylifesci
+Author: Brandon Malone
+Author-email: bmmalone@gmail.com
+License: MIT
+Keywords: bioinformatics utilities
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: biopython
+Requires-Dist: goatools
+Requires-Dist: joblib
+Requires-Dist: mygene
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: mhcnames
+Requires-Dist: pandas
+Requires-Dist: pepdata
+Requires-Dist: pillow
+Requires-Dist: pyensembl
+Requires-Dist: pyllars
+Requires-Dist: pysam
+Requires-Dist: sexpdata
+Requires-Dist: tqdm
+Requires-Dist: weblogo
+Provides-Extra: all
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: coverage ; extra == 'all'
+Requires-Dist: pytest-cov ; extra == 'all'
+Requires-Dist: coveralls ; extra == 'all'
+Requires-Dist: pytest-runner ; extra == 'all'
+Requires-Dist: sphinx ; extra == 'all'
+Requires-Dist: sphinx-rtd-theme ; extra == 'all'
+Requires-Dist: twine ; extra == 'all'
+Requires-Dist: readme-renderer[md] ; extra == 'all'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Provides-Extra: pypi
+Requires-Dist: twine ; extra == 'pypi'
+Requires-Dist: readme-renderer[md] ; extra == 'pypi'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: coveralls ; extra == 'test'
+Requires-Dist: pytest-runner ; extra == 'test'
+
+# Python 3 Life Sciences utilities (pylifesci)
+
+This repo contains python3 bioinformatics utilities.
+
+**Installation**
+
+This package is available on PyPI.
+
+```
+pip3 install lifesci
+```
+
+Alternatively, the package can be installed from source.
+
+```
+git clone https://github.com/bmmalone/pylifesci
+cd pylifesci
+pip3 install .
+```
+
+(The "period" at the end is required.)
+
+**Usage**
+
+Please see [the documentation](https://pylifesci.readthedocs.io/) for usage details.
+
+**Uninstallation**
+
+The `lifesci` package can be removed with pip.
+
+```
+pip3 uninstall lifesci
+```
+
+
