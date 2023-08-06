@@ -1,0 +1,12 @@
+lygadgets
+gdsfactory[full]>=4.2.1
+
+[basic]
+lygadgets
+gdsfactory[full]>=4.2.1
+
+[full]
+tqdm
+lygadgets
+modes
+gdsfactory[full]>=4.2.1

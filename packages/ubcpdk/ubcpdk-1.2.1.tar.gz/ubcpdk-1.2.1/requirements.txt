@@ -1,0 +1,3 @@
+-e .
+lygadgets
+gdsfactory[full]>=4.2.1
