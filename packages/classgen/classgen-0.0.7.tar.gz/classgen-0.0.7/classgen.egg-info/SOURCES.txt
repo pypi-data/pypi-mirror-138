@@ -1,0 +1,10 @@
+README.md
+setup.py
+classgen/__init__.py
+classgen/__main__.py
+classgen.egg-info/PKG-INFO
+classgen.egg-info/SOURCES.txt
+classgen.egg-info/dependency_links.txt
+classgen.egg-info/top_level.txt
+classgen/classgen/ClassGenerator.py
+classgen/classgen/__init__.py
