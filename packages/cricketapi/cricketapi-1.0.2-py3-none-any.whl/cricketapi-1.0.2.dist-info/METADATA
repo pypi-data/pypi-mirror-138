@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cricketapi
+Version: 1.0.2
+Summary: Roanuz Sports SDK For New V5 APIs
+Home-page: https://github.com/roanuz/cricketapi-sdk
+Author: Roanuz Softwares Private Ltd
+Author-email: contact@roanuz.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+UNKNOWN
+
