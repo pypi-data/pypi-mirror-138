@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: lightyear
+Version: 0.0.3
+Summary: lightyear
+Home-page: https://github.com/alvations/lightyear
+Author: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: bert-score
+Requires-Dist: sacrebleu
+Requires-Dist: unbabel-comet
+Requires-Dist: pytorch-lightning
+
+UNKNOWN
+
