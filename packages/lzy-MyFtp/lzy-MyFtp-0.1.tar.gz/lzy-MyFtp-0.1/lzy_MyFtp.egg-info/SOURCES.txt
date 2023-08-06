@@ -1,0 +1,6 @@
+MyFtp.py
+setup.py
+lzy_MyFtp.egg-info/PKG-INFO
+lzy_MyFtp.egg-info/SOURCES.txt
+lzy_MyFtp.egg-info/dependency_links.txt
+lzy_MyFtp.egg-info/top_level.txt
