@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: asklora-portal
+Version: 1.0.6
+Summary: getter price from refinitiv
+Home-page: https://github.com/asklora/asklora-portal.git
+Author: Rede akbar wijaya
+Author-email: asklora@loratechai.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Asklora module for ingestion data
+- using credetials from json file
+```python
+import asklora
+
+portal = asklora.Portal()
+# example from json file
+portal.set_credentials_from_json("creds.json")
+
+# get rkd client
+rkd = portal.get_rkd_client()
+
+# get quote data
+aapl =rkd.get_quote("AAPL.O",df=True)
+```
+- using credentials from secret key
+```python
+import asklora
+
+portal = asklora.Portal()
+
+# example from secret key
+portal.set_credentials_from_secret(secret)
+
+# get rkd client
+rkd = portal.get_rkd_client()
+
+# get quote data
+aapl =rkd.get_quote("AAPL.O",df=True)
+```
+
