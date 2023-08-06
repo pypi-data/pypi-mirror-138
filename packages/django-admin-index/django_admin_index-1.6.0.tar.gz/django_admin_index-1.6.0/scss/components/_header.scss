@@ -1,0 +1,14 @@
+#header {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    z-index: 5000;
+    position: fixed;
+
+    width: calc(100% - 50px);
+
+    @media (max-width: 768px) {
+        width: calc(100% - 20px);
+    }
+}
