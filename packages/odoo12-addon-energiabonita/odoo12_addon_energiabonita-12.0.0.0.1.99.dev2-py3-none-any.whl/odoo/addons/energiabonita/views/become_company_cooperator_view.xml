@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="become_company_cooperator" inherit_id="easy_my_coop_es_website.become_company_cooperator_es" name="Become company cooperator">
+            <xpath expr="//label[@for='iban']" position="after">
+                <div class="col-md-7 col-sm-8">
+                    <p style="font-size: 0.7rem">Número de Cuenta Bancaria Internacional (Ejemplo IBAN: ES11 2222 3333 4444 5555 6666).</p>
+                </div>
+            </xpath>
+            <!-- Hide language select -->
+            <xpath expr="//div[@name='lang_container']" position="attributes">
+                <attribute name="hidden">1</attribute>
+            </xpath>
+            <!-- Hide country select -->
+            <xpath expr="//div[@name='country_container']" position="attributes">
+                <attribute name="hidden">1</attribute>
+            </xpath>
+            <xpath expr="//div[@name='share_div']" position="after">
+                <div id="sepa_approved" t-attf-class="form-group" t-if="display_sepa_approval" >
+                    <label class="col-md-3 col-sm-4 control-label" for="sepa_approved">SEPA approved</label>
+                    <div class="col-md-9 col-sm-8">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"
+                                    name="sepa_approved"
+                                    t-att-checked="sepa_approved"/>
+                                <t t-raw="sepa_approval_text"/>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+            <!-- Remove placeholders -->
+            <xpath expr="//input[@name='company_name']" position="attributes">
+                <attribute name="placeholder"></attribute>
+            </xpath>
+                <xpath expr="//input[@name='company_email']" position="attributes">
+                <attribute name="placeholder"></attribute>
+            </xpath>
+            <xpath expr="//input[@name='email']" position="attributes">
+                <attribute name="placeholder"></attribute>
+            </xpath>
+            <xpath expr="//input[@name='confirm_email']" position="attributes">
+                <attribute name="placeholder"></attribute>
+            </xpath>
+            <xpath expr="//input[@name='firstname']" position="attributes">
+                <attribute name="placeholder"></attribute>
+            </xpath>
+            <xpath expr="//input[@name='lastname']" position="attributes">
+                <attribute name="placeholder"></attribute>
+            </xpath>
+            <xpath expr="//input[@name='birthdate']" position="attributes">
+                <attribute name="placeholder"></attribute>
+            </xpath>
+            <xpath expr="//input[@name='iban']" position="attributes">
+                <attribute name="placeholder"></attribute>
+            </xpath>
+            <xpath expr="//input[@name='address']" position="attributes">
+                <attribute name="placeholder"></attribute>
+            </xpath>
+            <xpath expr="//input[@name='zip_code']" position="attributes">
+                <attribute name="placeholder"></attribute>
+            </xpath>
+            <xpath expr="//input[@name='city']" position="attributes">
+                <attribute name="placeholder"></attribute>
+            </xpath>
+            <xpath expr="//input[@name='phone']" position="attributes">
+                <attribute name="placeholder"></attribute>
+            </xpath>
+            <xpath expr="//input[@name='vat']" position="attributes">
+                <attribute name="placeholder"></attribute>
+            </xpath>
+        </template>
+    </data>
+</odoo>

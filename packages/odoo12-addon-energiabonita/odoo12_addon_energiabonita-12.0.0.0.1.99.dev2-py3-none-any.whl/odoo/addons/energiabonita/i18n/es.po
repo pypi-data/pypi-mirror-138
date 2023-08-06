@@ -1,0 +1,222 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* energiabonita
+#	* easy_my_coop_es_website
+#	* easy_my_coop_website
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-09 23:05+0000\n"
+"PO-Revision-Date: 2022-02-09 23:05+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecompanycooperator
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecooperator
+msgid "Address"
+msgstr "Dirección"
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecompanycooperator
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecooperator
+msgid "Bank Account Number"
+msgstr "Cuenta bancaria"
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecompanycooperator
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecooperator
+#: model:website.menu,name:easy_my_coop_website.menu_becomecooperator
+msgid "Become Cooperator"
+msgstr "Hazte socia"
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecompanycooperator
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecooperator
+msgid "Birthdate"
+msgstr "Fecha de nacimiento"
+
+#. module: energiabonita
+#: model:ir.model.fields,help:energiabonita.field_res_company__display_sepa_approval
+msgid "Choose to display a SEPA mandate checkbox on the cooperator website form."
+msgstr "Elija mostrar una casilla de verificación de mandato SEPA en el formulario del sitio web del cooperador."
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecompanycooperator
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecooperator
+msgid "City"
+msgstr "Ciudad"
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecompanycooperator
+msgid "Company Info"
+msgstr "Información de la organización"
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecompanycooperator
+msgid "Company email"
+msgstr "Email de la empresa"
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecompanycooperator
+msgid "Company name"
+msgstr "Nombre de la empresa"
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecompanycooperator
+msgid "Company type"
+msgstr "Tipo de la empresa"
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecompanycooperator
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecooperator
+msgid "Confirm Email"
+msgstr "Confirmar Email"
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecompanycooperator
+msgid "Contact Person"
+msgstr "Persona de contacto"
+
+#. module: easy_my_coop_website
+#: selection:res.company,captcha_type:0
+msgid "Disabled"
+msgstr "Desactivado"
+
+#. module: energiabonita
+#: model:ir.model.fields,field_description:energiabonita.field_res_company__display_sepa_approval
+msgid "Display Sepa Approval"
+msgstr "Mostrar Autorización SEPA"
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecompanycooperator
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecooperator
+msgid "Email"
+msgstr "Correo electrónico"
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecompanycooperator
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecooperator
+msgid "First Name"
+msgstr "Nombre"
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecompanycooperator
+msgid "Function"
+msgstr "Puesto de trabajo"
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecompanycooperator
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecooperator
+msgid "Gender"
+msgstr "Genero"
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecompanycooperator
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecooperator
+msgid "Last Name"
+msgstr "Apellidos"
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecompanycooperator
+msgid "Main Address"
+msgstr "Dirección"
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecompanycooperator
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecooperator
+msgid "Parts number"
+msgstr "Aportación capital social "
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecompanycooperator
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecooperator
+msgid "Parts type"
+msgstr "Aportación capital social "
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecompanycooperator
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecooperator
+msgid "Phone"
+msgstr "Teléfono"
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecompanycooperator
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecooperator
+msgid "Privacy\n"
+"                                        Policy"
+msgstr "Politica de privacidad"
+
+#. module: energiabonita
+#: model_terms:ir.ui.view,arch_db:energiabonita.become_company_cooperator
+#: model_terms:ir.ui.view,arch_db:energiabonita.become_cooperator
+msgid "SEPA approved"
+msgstr "Autorización SEPA"
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecompanycooperator
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.becomecooperator
+msgid "Send"
+msgstr "Enviar"
+
+#. module: energiabonita
+#: model:ir.model.fields,field_description:energiabonita.field_res_company__sepa_approval_text
+msgid "Sepa Approval Text"
+msgstr "SEPA texto de aprobación"
+
+#. module: easy_my_coop_website
+#: code:addons/easy_my_coop_website/controllers/main.py:288
+#, python-format
+msgid "Some mandatory fields have not been filled"
+msgstr "Algunos campos requeridos no han sido rellenados"
+
+#. module: energiabonita
+#: model:ir.model.fields,help:energiabonita.field_res_company__sepa_approval_text
+msgid "Text to display aside the checkbox to approve SEPA mandate."
+msgstr ""
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.cooperator_thanks
+msgid "Thanks!"
+msgstr "Gracias!"
+
+#. module: easy_my_coop_website
+#: code:addons/easy_my_coop_website/controllers/main.py:309
+#, python-format
+msgid "The email and the confirmation email doesn't match.Please check the given mail addresses"
+msgstr "El correo electrónico y el correo electrónico de confirmación no coinciden. Verifique las direcciones de correo proporcionadas. "
+
+#. module: easy_my_coop_website
+#: code:addons/easy_my_coop_website/controllers/main.py:297
+#, python-format
+msgid "There is an existing account for this mail address. Please login before fill in the form"
+msgstr "Hay una cuenta existente para esta dirección de correo. Por favor inicie sesión antes de completar el formulario "
+
+#. module: easy_my_coop_es_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_es_website.become_company_cooperator_es
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_es_website.become_cooperator_es
+msgid "VAT"
+msgstr "NIF/NIE"
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.cooperator_thanks
+msgid "We will get back to you shortly."
+msgstr "Nos pondremos en contacto en breve"
+
+#. module: easy_my_coop_website
+#: code:addons/easy_my_coop_website/controllers/main.py:333
+#, python-format
+msgid "You iban account number is not valid"
+msgstr "Tu numero de cuenta iban no es valido "
+
+#. module: easy_my_coop_website
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_website.cooperator_thanks
+msgid "Your subscription has been successfully\n"
+"                                registered."
+msgstr "Su suscripción ha sido exitosa"
