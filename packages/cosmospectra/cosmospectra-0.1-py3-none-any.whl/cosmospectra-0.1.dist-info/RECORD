@@ -1,0 +1,14 @@
+cosmospectra/.DS_Store,sha256=0hyOzhL3UTRnWwD6WiDgoEQa78MnciBzz0pLCFUMC6o,6148
+cosmospectra/SIMunits.py,sha256=MmmDJB4cIDoSFKiQ7Qw5HXT4BEbz0XKzamFJq7XcHY0,1743
+cosmospectra/__init__.py,sha256=YaQNAZ44GMu3BMVJX9Zjef_BjeQfG5hc6HQYEJvlmtc,604
+cosmospectra/bispectrum.py,sha256=1Cib1Lh95YIM5OgR_mYIVdtLI9dRvRhSlxIi6aqQcdU,15463
+cosmospectra/bispectrum_direct.py,sha256=-KUh-t58-Jr0mfwKk_smDqR-jdWcLO9WNU-GPn5oG18,5136
+cosmospectra/power_spect_fast.py,sha256=Kmw0hquk6FWHBiQObrV0B-VEXrOCgk9jfODSNq4ApKA,10436
+cosmospectra/power_spect_response.py,sha256=May7dtO-53njkqMknCagLUcECdVpok4FYy8G_5OBWEo,3557
+cosmospectra/toymodel.py,sha256=tmZbTivo1R7ud5wluoM7HkD7XkQxnpPs79hN8helJao,3894
+cosmospectra/useful.py,sha256=9efbJN60n_4jJOtzJqB7y1MKYvCxrYl2BpTzmvzZw9E,743
+cosmospectra/useful_speedup.py,sha256=OIOO1tz8oSv21T4yy888PEjLwT5SiSQMyT2gGgNaCTw,3206
+cosmospectra-0.1.dist-info/METADATA,sha256=ijUpxIMFuWMydHd6WPUQTgbAy-hRNjQ8cfM91aPG_hc,1109
+cosmospectra-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cosmospectra-0.1.dist-info/top_level.txt,sha256=WrFJFVwvQY3GKdR1ShSfkRTyp7n_NV3Johcp3g-HMbs,13
+cosmospectra-0.1.dist-info/RECORD,,
