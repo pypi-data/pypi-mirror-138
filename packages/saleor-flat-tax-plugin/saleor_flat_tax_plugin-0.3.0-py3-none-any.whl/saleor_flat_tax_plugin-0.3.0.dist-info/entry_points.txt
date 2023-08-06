@@ -1,0 +1,3 @@
+[saleor.plugins]
+saleor_flat_tax_plugin=saleor_flat_tax_plugin.plugin:FlatTaxPlugin
+
