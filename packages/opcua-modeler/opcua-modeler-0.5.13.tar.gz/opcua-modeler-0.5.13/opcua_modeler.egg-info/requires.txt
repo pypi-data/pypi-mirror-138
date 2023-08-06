@@ -1,0 +1,2 @@
+opcua-widgets<0.6.0
+python-opcua>=0.98.13
