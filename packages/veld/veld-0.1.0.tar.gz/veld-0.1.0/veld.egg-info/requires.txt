@@ -1,0 +1,9 @@
+wilderness>=0.1.3
+
+[dev]
+mypy
+
+[docs]
+
+[tests]
+mypy
