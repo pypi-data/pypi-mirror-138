@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/resiland/__init__.py
+src/resiland/resiland.py
+src/resiland.egg-info/PKG-INFO
+src/resiland.egg-info/SOURCES.txt
+src/resiland.egg-info/dependency_links.txt
+src/resiland.egg-info/top_level.txt
