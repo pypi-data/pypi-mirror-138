@@ -1,0 +1,18 @@
+"""
+Download manga from Mangadex with Python
+"""
+
+__version__ = "0.4.2"
+__description__ = "Download manga from Mangadex with Python"
+__author__ = "mansuf"
+__license__ = "MIT"
+__repository__ = "https://github.com/mansuf/mangadex-downloader"
+
+import logging
+from .network import *
+from .main import *
+from .errors import *
+from .manga import Manga
+from .utils import Language, get_language
+
+logging.getLogger(__name__).addHandler(logging.NullHandler())
