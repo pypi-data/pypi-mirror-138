@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+textparser.py
+text_parser.egg-info/PKG-INFO
+text_parser.egg-info/SOURCES.txt
+text_parser.egg-info/dependency_links.txt
+text_parser.egg-info/top_level.txt
