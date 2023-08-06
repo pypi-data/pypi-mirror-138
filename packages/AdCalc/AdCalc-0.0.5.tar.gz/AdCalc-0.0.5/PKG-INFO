@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: AdCalc
+Version: 0.0.5
+Summary: AdCalc (Advanced calculator), A python module has some ready functions to use in math.
+Home-page: UNKNOWN
+Author: Ali Hasan
+Author-email: ah7915523@gmail.com
+License: MIT
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+AdCalc
+by: AliFGT
+
+ACalc (Advanced calculator), A python module has some ready functions to use in math example: fractions, get cube, etc....
+
+GitHub: https://github.com/AliFGT-ai/AdCalc/
+
+Change Log
+
+Version 0.0.4 (10/2/2022) = First Release
+
+Version 0.0.5 = Fix some errors
+
