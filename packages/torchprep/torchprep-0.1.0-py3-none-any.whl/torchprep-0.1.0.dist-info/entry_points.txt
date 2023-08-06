@@ -1,0 +1,3 @@
+[console_scripts]
+torchprep=torchprep.main:app
+
