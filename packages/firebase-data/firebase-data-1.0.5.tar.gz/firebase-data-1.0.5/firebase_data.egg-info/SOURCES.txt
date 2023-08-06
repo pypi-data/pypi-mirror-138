@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+firebase_data/__init__.py
+firebase_data/main.py
+firebase_data.egg-info/PKG-INFO
+firebase_data.egg-info/SOURCES.txt
+firebase_data.egg-info/dependency_links.txt
+firebase_data.egg-info/entry_points.txt
+firebase_data.egg-info/requires.txt
+firebase_data.egg-info/top_level.txt

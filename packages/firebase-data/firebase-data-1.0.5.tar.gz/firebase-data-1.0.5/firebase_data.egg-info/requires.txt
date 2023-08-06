@@ -1,0 +1,3 @@
+tqdm
+firebase_admin
+fire
