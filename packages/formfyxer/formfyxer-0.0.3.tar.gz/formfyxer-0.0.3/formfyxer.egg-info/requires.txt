@@ -1,0 +1,9 @@
+spacy
+PyPDF2
+pikepdf
+textstat
+requests
+numpy
+sklearn
+joblib
+nltk
