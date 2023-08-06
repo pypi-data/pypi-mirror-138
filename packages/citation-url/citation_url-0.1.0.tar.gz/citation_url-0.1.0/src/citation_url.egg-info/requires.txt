@@ -1,0 +1,9 @@
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx_autodoc_typehints
+
+[tests]
+pytest
+coverage
