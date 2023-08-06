@@ -1,0 +1,15 @@
+autoauthnumber/__init__.py,sha256=QQInTek_ixtm4OKSp9Fe0Yywg9lHJh-tfi7GwHMsl0g,1972
+autoauthnumber/author_number.py,sha256=435FPEtpaoEDPfkFQzi75Ot-G-FjOpGxbfmOrv05neY,138689
+autoauthnumber/mk_Pron.py,sha256=cQMRJ785ej_yR8_sxCy2fn7Q1ybHgD4-iEeyp8Ln0M0,2115
+autoauthnumber/Translate_API/BaiDu_API.py,sha256=p4uG2ic0qq6otKyZKk6IrZW9eypJmd6hnTHJZI62L2c,2072
+autoauthnumber/Translate_API/YouDao_API.py,sha256=OBEeuIi72L6uYKyOgXfMzRUfQyP4SI2eidCj3rFAc6o,2393
+autoauthnumber/Translate_API/__init__.py,sha256=xyg6lhktIo_NIlplrQ8c5IxReQ2nfYWUe2rKKA8jnWw,1425
+autoauthnumber/__pycache__/__init__.cpython-39.pyc,sha256=AELkewrVHzUj5JIcHv5rUgUQ4kIKvqffchvpzKcXM78,1256
+autoauthnumber/__pycache__/author_number.cpython-39.pyc,sha256=-la5M_0iT1lJjM8tIbDOU2YelUdGszdiKXhGHKrZ3oc,59464
+autoauthnumber/__pycache__/auto_AUTHNumber.cpython-39.pyc,sha256=Rw3CnHx6f_-fLQm_e_JqgOGRoaCvVim7zsqW-h_5YgE,1269
+autoauthnumber-1.2.1.dist-info/LICENSE,sha256=P0mKPo7tqc3oaCGdCOz_mjhRAOBrSfc1kQt24EXyrV0,815
+autoauthnumber-1.2.1.dist-info/METADATA,sha256=dQWDUAJks_nThvRZJ7eYpCs9ZMtiRoVwH34_NI_or1c,591
+autoauthnumber-1.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+autoauthnumber-1.2.1.dist-info/top_level.txt,sha256=EtypV9oOoOWDQRUkpKNzJNzuAi9W6ufLDsVbUjVsqkg,15
+autoauthnumber-1.2.1.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+autoauthnumber-1.2.1.dist-info/RECORD,,
