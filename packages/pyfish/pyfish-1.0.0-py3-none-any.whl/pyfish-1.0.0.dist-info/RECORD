@@ -1,0 +1,9 @@
+pyfish/__init__.py,sha256=Bj9mftRhCUURfc-PELi-hwPEv1zpXYMfvWuFkwrwqto,61
+pyfish/core.py,sha256=Q57BkttgV7znhLMpguAiEapgcui0AxvcnOSdNNwDpbQ,8301
+pyfish/main.py,sha256=Kfy3cSmrI64yQd0HxvT66yolivyw5muwENA8Plylxt0,2719
+pyfish-1.0.0.dist-info/LICENSE,sha256=QRCm3f3rnxhoPjcBs9ElIYtAd4aDlzdWXZz5O2DJ6ac,1050
+pyfish-1.0.0.dist-info/METADATA,sha256=NwJCgd1ZSJ56vjaC-ULKVRxGHCUwuTF_i4FdBuxNu5E,7058
+pyfish-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyfish-1.0.0.dist-info/entry_points.txt,sha256=IHTFWMlfSySrZ2d2o4hLISeqGt0X7_QifarEOpibVzw,45
+pyfish-1.0.0.dist-info/top_level.txt,sha256=soLmFcyawkc7HDPvuzS0svGaQz2JgFJ4hF51j--TbaM,7
+pyfish-1.0.0.dist-info/RECORD,,
