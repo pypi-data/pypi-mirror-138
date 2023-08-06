@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "opstrich"
+version = "0.7.0"
+description = "DevOps tooling, various scripts, etc."
+authors = ["Lucas Connors <lucas@revolutiontech.ca>"]
+license = "ISC"
+readme = "README.md"
+repository = "https://github.com/RevolutionTech/opstrich"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+invoke = "^1.4.1"
+black = "22.1.0"
+pyupgrade = "2.31.0"
+isort = "5.10.1"
+
+[tool.poetry.dev-dependencies]
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+line-length = 88
+target_version = ["py36", "py37", "py38", "py39", "py310"]
+
+[build-system]
+requires = ["poetry>=1.1"]
+build-backend = "poetry.masonry.api"
