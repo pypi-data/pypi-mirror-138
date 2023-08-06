@@ -1,0 +1,3 @@
+[napari.plugin]
+napari-time-slicer = napari_time_slicer
+
