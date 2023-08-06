@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+ht_getter/__init__.py
+ht_getter/getter.py
+ht_getter.egg-info/PKG-INFO
+ht_getter.egg-info/SOURCES.txt
+ht_getter.egg-info/dependency_links.txt
+ht_getter.egg-info/top_level.txt

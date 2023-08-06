@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ht-getter
+Version: 0.0.1
+Summary: Searches a document for hash tags. Supports multiple natural languages. Works in various contexts.
+Home-page: https://github.com/Rairye/ht-getter
+Download-URL: https://github.com/Rairye/ht-getter/archive/refs/tags/v0.0.1.tar.gz
+Author: Rairye
+License: apache-2.0
+Keywords: hash,tag,hash-tags
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Searches a document for hash tags. Supports multiple natural languages. Works in various contexts.
+
+For the full documentation, please see the repository:
+
+https://github.com/Rairye/ht-getter
+
