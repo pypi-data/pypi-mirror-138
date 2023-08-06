@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+notefluid/__init__.py
+notefluid.egg-info/PKG-INFO
+notefluid.egg-info/SOURCES.txt
+notefluid.egg-info/dependency_links.txt
+notefluid.egg-info/requires.txt
+notefluid.egg-info/top_level.txt
+notefluid/tecplot/__init__.py
+notefluid/tecplot/templates/__init__.py
+notefluid/tecplot/templates/templates1.py
+notefluid/tecplot/utils/__init__.py
+notefluid/tecplot/utils/connect.py
