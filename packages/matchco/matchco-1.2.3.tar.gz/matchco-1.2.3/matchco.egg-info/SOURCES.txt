@@ -1,0 +1,13 @@
+LICENSE.txt
+README.txt
+setup.py
+matchco/__init__.py
+matchco/algorithms.py
+matchco/matching.py
+matchco/util.py
+matchco.egg-info/PKG-INFO
+matchco.egg-info/SOURCES.txt
+matchco.egg-info/dependency_links.txt
+matchco.egg-info/not-zip-safe
+matchco.egg-info/requires.txt
+matchco.egg-info/top_level.txt
