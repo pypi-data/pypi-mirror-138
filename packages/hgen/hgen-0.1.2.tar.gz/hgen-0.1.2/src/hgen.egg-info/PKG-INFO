@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: hgen
+Version: 0.1.2
+Summary: a tool to inject prototypes into header from c files
+Home-page: https://github.com/youkim005/hgen
+Author: youkim
+Author-email: 42.4.youkim@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.8.2
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# hgen
+
+## Introduction
+
+![showcase](https://user-images.githubusercontent.com/83401142/144825570-210f51ed-ddfc-4a14-b84a-10db1aac8563.gif)
+
+Injects c function prototypes(BSD-style) into header.
+
+limitations
+- cannot capture multi-line function prototypes
+- cannot capture K&R style definitions
+- breaks when function does not work with norminette
+## Usage
+
+`hgen [-h] -I header.h src.c [src/ ...] [-c path]`
+
+your header should have flags that
+
+- begins with: `@func` or `@function(s)` at your comment
+- ends with: `#endif` or `@end` or multiple `=` (ex:`== some identifier ==`)
+
+### examples
+
+```c
+//	@func
+//	@end
+```
+
+```c
+#ifndef HEAD_H
+# define HEAD_H
+
+//	===== @functions =====
+#endif
+```
+
+## Plans
+
+- refactors
+- json based configuration
+- support K&R style function definitions
+- support multiline function definitions
+
+
