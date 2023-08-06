@@ -1,0 +1,3 @@
+[console_scripts]
+paks = paks.cli:run_main
+
