@@ -1,0 +1,4 @@
+[console_scripts]
+phase-Extender = phase_extender.__main__:main
+phase-extender = phase_extender.__main__:main
+phase_extender = phase_extender.__main__:main
