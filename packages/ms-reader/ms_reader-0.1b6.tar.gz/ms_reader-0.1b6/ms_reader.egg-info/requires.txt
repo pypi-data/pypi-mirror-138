@@ -1,0 +1,5 @@
+pandas
+numpy
+natsort
+streamlit>=1.5.0
+openpyxl
