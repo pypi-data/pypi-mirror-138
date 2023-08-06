@@ -1,0 +1,9 @@
+[console_scripts]
+cppython=cppython.plugins.interface.console:cli
+
+[cppython.generator_plugins]
+cmake=cppython.plugins.generator.cmake:CMakeGenerator
+
+[cppython.interface_plugins]
+console=cppython.plugins.interface.console:ConsoleInterface
+
