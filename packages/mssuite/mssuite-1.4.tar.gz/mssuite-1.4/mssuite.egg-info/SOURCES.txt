@@ -1,0 +1,15 @@
+README.md
+setup.py
+mssuite/__init__.py
+mssuite/mssuite.py
+mssuite.egg-info/PKG-INFO
+mssuite.egg-info/SOURCES.txt
+mssuite.egg-info/dependency_links.txt
+mssuite.egg-info/requires.txt
+mssuite.egg-info/top_level.txt
+mssuite/../data/Annotation_data_human.txt
+mssuite/../data/Annotation_data_mouse.txt
+mssuite/../data/ReactomePathways.txt
+mssuite/../data/ReactomePathwaysRelation.txt
+mssuite/../data/UniProt2Reactome.txt
+mssuite/../data/UniProt2Reactome_All_Levels.txt

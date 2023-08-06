@@ -1,0 +1,7 @@
+statsmodels
+pandas
+numpy
+DynaTMT-py
+seaborn
+scipy
+matplotlib
