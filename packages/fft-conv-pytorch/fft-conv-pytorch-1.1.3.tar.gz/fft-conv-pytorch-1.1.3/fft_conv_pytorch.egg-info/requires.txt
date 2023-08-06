@@ -1,0 +1,9 @@
+numpy
+torch>=1.8
+
+[test]
+black
+flake8
+isort
+pytest
+pytest-cov
