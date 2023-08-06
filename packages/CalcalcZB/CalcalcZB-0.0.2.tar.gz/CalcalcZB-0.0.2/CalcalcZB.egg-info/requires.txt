@@ -1,0 +1,3 @@
+numexpr
+urllib3
+requests
