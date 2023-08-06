@@ -1,0 +1,18 @@
+
+[:python_version <= "3.6"]
+dataclasses
+
+[dev]
+black
+flake8
+mypy
+
+[release]
+nox
+build
+
+[testing]
+pytest
+pytest-cov
+pytest-randomly
+pytest-mock
