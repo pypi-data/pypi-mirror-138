@@ -1,0 +1,9 @@
+numpy
+imageio
+pillow
+opensimplex
+ruamel.yaml
+numba
+
+[gui]
+pygame
