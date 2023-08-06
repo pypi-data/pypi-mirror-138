@@ -1,0 +1,3 @@
+[console_scripts]
+netatmo_geopy=netatmo_geopy.cli:main
+
