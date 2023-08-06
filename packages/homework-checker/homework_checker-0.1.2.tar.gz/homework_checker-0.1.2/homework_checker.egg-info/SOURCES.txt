@@ -1,0 +1,12 @@
+LICENCE.txt
+README.md
+setup.cfg
+setup.py
+homework_checker/check_homework.py
+homework_checker/print_repo_name.py
+homework_checker.egg-info/PKG-INFO
+homework_checker.egg-info/SOURCES.txt
+homework_checker.egg-info/dependency_links.txt
+homework_checker.egg-info/entry_points.txt
+homework_checker.egg-info/requires.txt
+homework_checker.egg-info/top_level.txt
