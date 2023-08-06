@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+otfpythonpkg/__init__.py
+otfpythonpkg.egg-info/PKG-INFO
+otfpythonpkg.egg-info/SOURCES.txt
+otfpythonpkg.egg-info/dependency_links.txt
+otfpythonpkg.egg-info/requires.txt
+otfpythonpkg.egg-info/top_level.txt
+otfpythonpkg/aws/__init__.py
+otfpythonpkg/aws/aws.py
+otfpythonpkg/db/MySQL.py
+otfpythonpkg/db/Snowflake.py
+otfpythonpkg/db/__init__.py
+otfpythonpkg/utils/__init__.py
+otfpythonpkg/utils/util.py
