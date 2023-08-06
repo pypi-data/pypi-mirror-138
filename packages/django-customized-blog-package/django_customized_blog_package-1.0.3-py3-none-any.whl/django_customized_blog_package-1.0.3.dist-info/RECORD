@@ -1,0 +1,17 @@
+blog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blog/admin.py,sha256=2Yee4TX1WYiyVEjqfIW9xmi4-zow8vllBcl5xw8lKuw,2133
+blog/apps.py,sha256=Olva7gcL-FFgtAWilZQOE5mvHPFZVdWh8MNwnMcdwF8,140
+blog/helpers.py,sha256=KzQKuxo0IJVTrnNMiy-QJpn6jlBwYfVgmWSQHfK9Jvg,623
+blog/models.py,sha256=EdoB381VjKe3PztJZiukGCk7mdEGNls1gV3n5ucb83M,6149
+blog/serializers.py,sha256=zbt0sDh4GYI2QLlEC6e5RCAqga3PcNwBY-_aZf9r1ec,3650
+blog/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+blog/urls.py,sha256=zucmrO_kYJgjOnTlaHtG3tAVsXHZmuMrheuGwFxrJog,748
+blog/utils.py,sha256=WCdKXAPWE1eyfzh1ED4PVotsTB3VkeFIprQU8eegB88,436
+blog/views.py,sha256=kWWmSvOYLXd05d5R5STi2XGURdRr3GchWw7LNMZi4H4,11366
+blog/migrations/0001_initial.py,sha256=f9zgC9pSKZPJclgYdEMQblREscbe3SK1Mwn6tgOnYgI,6585
+blog/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_customized_blog_package-1.0.3.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_customized_blog_package-1.0.3.dist-info/METADATA,sha256=xLW3_L35yb2UfHB6IwM83pMS8bcVB5kWn0H8vrjeKuo,2321
+django_customized_blog_package-1.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_customized_blog_package-1.0.3.dist-info/top_level.txt,sha256=DTMlxVbTRyLHWVB7LN0znvcggE8Y0DJIGjoLILTOpxU,5
+django_customized_blog_package-1.0.3.dist-info/RECORD,,
