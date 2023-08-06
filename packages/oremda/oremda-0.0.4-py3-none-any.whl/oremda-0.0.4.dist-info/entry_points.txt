@@ -1,0 +1,3 @@
+[oremda.cli.plugin]
+start=oremda.meta.cli:main
+
