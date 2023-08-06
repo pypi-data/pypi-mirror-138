@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: TTASSL
+Version: 0.0.3
+Summary: API that provides methods to annotate binnary classification images using Topological Data Analysis techniques.
+Home-page: https://github.com/adines/TTASSL
+Author: Adrian Ines
+Author-email: adines@unirioja.es
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: classification,TDA,deep learning,semi-supervised
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
