@@ -1,0 +1,6 @@
+modbus_tk
+crcmod
+traitlets
+
+[heartbeat]
+ipywidgets
