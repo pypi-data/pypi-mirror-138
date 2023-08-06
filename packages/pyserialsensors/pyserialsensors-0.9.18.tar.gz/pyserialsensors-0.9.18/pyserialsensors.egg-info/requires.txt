@@ -1,0 +1,4 @@
+minimalmodbus==1.0.2
+pyftdi==0.50.1
+pyserialsensors
+timeout-decorator==0.4.1
