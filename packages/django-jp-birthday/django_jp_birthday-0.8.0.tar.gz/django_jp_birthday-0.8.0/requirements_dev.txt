@@ -1,0 +1,14 @@
+pip>=22.0.3
+bump2version==1.0.1
+wheel==0.37.1
+watchdog==2.1.6
+flake8==4.0.1
+tox==3.24.5
+coverage==6.3.1
+Sphinx==4.3.0
+twine==3.8.0
+
+black==22.1.0
+codecov==2.1.12
+
+faker==12.1.0
