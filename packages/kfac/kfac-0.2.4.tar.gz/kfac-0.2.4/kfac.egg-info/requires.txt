@@ -1,0 +1,15 @@
+numpy
+six
+tensorflow-probability==0.8
+h5py<3
+
+[tensorflow]
+tensorflow>=1.14
+
+[tensorflow_gpu]
+tensorflow-gpu>=1.14
+
+[tests]
+pytest
+dm-sonnet<2.0
+numpy<1.20
