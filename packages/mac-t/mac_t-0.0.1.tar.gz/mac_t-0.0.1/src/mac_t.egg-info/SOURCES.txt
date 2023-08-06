@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mac_t/__init__.py
+src/mac_t/mac_t.py
+src/mac_t.egg-info/PKG-INFO
+src/mac_t.egg-info/SOURCES.txt
+src/mac_t.egg-info/dependency_links.txt
+src/mac_t.egg-info/top_level.txt
