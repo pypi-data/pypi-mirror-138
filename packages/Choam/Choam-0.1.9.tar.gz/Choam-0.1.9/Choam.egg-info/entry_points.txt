@@ -1,0 +1,3 @@
+[console_scripts]
+choam = choam.__main__:main
+
