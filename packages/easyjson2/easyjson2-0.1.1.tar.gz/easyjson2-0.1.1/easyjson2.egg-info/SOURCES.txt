@@ -1,0 +1,8 @@
+README.md
+setup.py
+easyjson2/__init__.py
+easyjson2/parser.py
+easyjson2.egg-info/PKG-INFO
+easyjson2.egg-info/SOURCES.txt
+easyjson2.egg-info/dependency_links.txt
+easyjson2.egg-info/top_level.txt
