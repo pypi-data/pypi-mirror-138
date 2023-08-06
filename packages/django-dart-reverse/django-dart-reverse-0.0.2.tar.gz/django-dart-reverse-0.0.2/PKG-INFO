@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: django-dart-reverse
+Version: 0.0.2
+Summary: Url collect command for dart
+Home-page: https://github.com/marekprochazka/django-dart-reverse
+Download-URL: 
+Author: Marek Procházka
+Author-email: m.prochazka2002@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Framework :: Django
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+
+UNKNOWN
+
