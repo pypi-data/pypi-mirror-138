@@ -1,0 +1,4 @@
+path
+polib
+Django<3.3
+pyYaml
