@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+streamxml2json/__init__.py
+streamxml2json.egg-info/PKG-INFO
+streamxml2json.egg-info/SOURCES.txt
+streamxml2json.egg-info/dependency_links.txt
+streamxml2json.egg-info/top_level.txt
