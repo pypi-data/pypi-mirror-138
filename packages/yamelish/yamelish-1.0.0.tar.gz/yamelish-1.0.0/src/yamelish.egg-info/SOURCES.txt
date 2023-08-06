@@ -1,0 +1,13 @@
+COPYING
+README.md
+pyproject.toml
+setup.py
+src/yamelish/__init__.py
+src/yamelish/__main__.py
+src/yamelish/cli.py
+src/yamelish/handlers.py
+src/yamelish.egg-info/PKG-INFO
+src/yamelish.egg-info/SOURCES.txt
+src/yamelish.egg-info/dependency_links.txt
+src/yamelish.egg-info/entry_points.txt
+src/yamelish.egg-info/top_level.txt
