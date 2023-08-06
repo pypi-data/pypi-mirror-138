@@ -1,0 +1,6 @@
+docdb/__init__.py,sha256=aSnNjEjjce3ZS6hfrmmFWCZm5F7rLDK6ea1eY7h5BxY,6940
+docdb/schemas/collection.sql,sha256=O3h5xcadYersvHVrosknxIJFonybAB1o8YO2qO7ygnk,189
+docdb/schemas/meta.sql,sha256=5uePMyt6ShZZcS_HSSfJQ-LNCJ0VsR5rR7Z7eX5TmS0,215
+docdb-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+docdb-0.0.1.dist-info/METADATA,sha256=Zzrx9Sle4zn0ab1sSiAiKc0AfE8YVouOCg3qjh-9OfQ,443
+docdb-0.0.1.dist-info/RECORD,,
