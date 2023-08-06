@@ -1,0 +1,14 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+schedpack/__init__.py
+schedpack/abc.py
+schedpack/period_engine.py
+schedpack/schedule.py
+schedpack.egg-info/PKG-INFO
+schedpack.egg-info/SOURCES.txt
+schedpack.egg-info/dependency_links.txt
+schedpack.egg-info/requires.txt
+schedpack.egg-info/top_level.txt
+test/test_schedule.py
