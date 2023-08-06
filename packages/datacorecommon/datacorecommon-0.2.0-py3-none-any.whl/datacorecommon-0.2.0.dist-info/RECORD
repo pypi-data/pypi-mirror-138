@@ -1,0 +1,14 @@
+datacorecommon/__init__.py,sha256=hGPlo5_tLr3_3_oOhK9X4MJ7PmvV8vEdIMzjVaiyyJs,35
+datacorecommon/_helpers.py,sha256=Y0_oArv45GcMuolbN7LWih0UToNRZ54cNBwVDXOPJxg,306
+datacorecommon/filter/__init__.py,sha256=yZNCsFclzds0HgEyN5Nxw0EjjgpNE3hQ6B_ixUxsvKQ,159
+datacorecommon/filter/_filter.py,sha256=qoALz52cwnZBtB4qJpUzouyRkRLbPH4DK5kaWyGKHTU,3309
+datacorecommon/inout/__init__.py,sha256=4aC82sXqXaSLd59Xf28sODacD_u_HoNHOloxF1Fwe90,447
+datacorecommon/inout/_delta.py,sha256=eleMTN-qW0p4xyCRNSWAbo3KYarJqpOMeCJl7YGTnnw,3299
+datacorecommon/inout/_jdbc.py,sha256=n-39wWu_N9xRl0Ohbr_U5BIN07dKiGiACbzXlxfnMs0,6358
+datacorecommon/window/__init__.py,sha256=eCbIMq9kvGBDoHfdn8qUBj1OKYr0urVmr4vzvhKErkg,119
+datacorecommon/window/_bag.py,sha256=_CHLIKQmTilxnk4QS3W_NIHDHGardPQXNZ_h62FE8Fw,4348
+datacorecommon-0.2.0.dist-info/LICENSE.txt,sha256=T3_KM8FAsCbzzxQvt4PniGL1vfNWfyRXlD7q-AqK274,1055
+datacorecommon-0.2.0.dist-info/METADATA,sha256=P7embm3JqoxLITU_Govt2XoG-5YY6lO5IbxV5pJnGDo,581
+datacorecommon-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+datacorecommon-0.2.0.dist-info/top_level.txt,sha256=zBX1nv3A9Ah8AaG_pC5rsM4D4ra8Jdb1jj4N1lEOT98,15
+datacorecommon-0.2.0.dist-info/RECORD,,
