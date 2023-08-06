@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "djangofobi-email-router"
+version = "1.1.0"
+description = "A django-fobi handler plugin to send the content of a form to different e-mails addresses, depending on a value of a form field."
+authors = ["KAPT dev team <dev@kapt.mobi>"]
+license = "GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = ">=1.11"
+django-fobi = "^0.17.0"
+
+[tool.poetry.dev-dependencies]
+gitchangelog = "^3.0.4"
+black = {version = "^21.9b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.1.0"]
+build-backend = "poetry.core.masonry.api"
+
