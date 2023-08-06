@@ -1,0 +1,7 @@
+include CHANGELOG.md
+include requirements.txt
+recursive-include requirements *.txt
+recursive-exclude * __pycache__
+
+recursive-include manta *.py
+recursive-include manta_lab/assets/words/* *.txt
