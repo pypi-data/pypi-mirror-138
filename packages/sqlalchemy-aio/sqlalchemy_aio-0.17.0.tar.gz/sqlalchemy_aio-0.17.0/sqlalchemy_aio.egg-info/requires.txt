@@ -1,0 +1,15 @@
+represent>=1.4
+sqlalchemy<1.4
+outcome
+
+[test]
+pytest>=5.4
+pytest-asyncio>=0.14
+pytest-trio>=0.6
+
+[test-noextras]
+pytest>=5.4
+pytest-asyncio>=0.14
+
+[trio]
+trio>=0.15
