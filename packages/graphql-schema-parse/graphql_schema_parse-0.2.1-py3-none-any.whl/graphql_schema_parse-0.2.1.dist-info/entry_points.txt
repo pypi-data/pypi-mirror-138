@@ -1,0 +1,3 @@
+[console_scripts]
+gql=graphql_schema_parse.cli:app
+
