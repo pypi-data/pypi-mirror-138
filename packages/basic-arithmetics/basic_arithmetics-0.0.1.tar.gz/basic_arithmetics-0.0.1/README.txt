@@ -1,0 +1,1 @@
+This is a simple arithmetic package, it takes two numbers (a,b) and supports 'add' or 'substract' operations.
