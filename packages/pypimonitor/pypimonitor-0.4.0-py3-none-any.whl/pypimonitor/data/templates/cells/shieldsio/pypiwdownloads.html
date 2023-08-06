@@ -1,0 +1,5 @@
+{% if "package_url" in pypi.info %}
+<a href="https://pypistats.org/packages/{{ pypi.info.name }}">
+  <img class="takeitslow" data-url="https://img.shields.io/pypi/dw/{{ pypi.info.name }}.svg" src="{{ form.rooturl }}takeitslow.gif" alt="Weekly downloads">
+</a>
+{% endif %}
