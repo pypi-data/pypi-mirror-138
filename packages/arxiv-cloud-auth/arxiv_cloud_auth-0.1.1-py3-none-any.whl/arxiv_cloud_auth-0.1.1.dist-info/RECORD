@@ -1,0 +1,9 @@
+arxiv/cloud_auth/domain.py,sha256=HTtgZQbxzUhA9LlxN8-biCOQ1E4p0edhC1pChlMI6Os,1104
+arxiv/cloud_auth/fastapi/auth.py,sha256=87sQGWk1WIFbXW1Y39soPlwGrZC15hOoyP_mBY6i2fY,6863
+arxiv/cloud_auth/gcp_token_check.py,sha256=BWecm8E98ckfibOaDGZNG_S-EXyRGmuXqOhyMi1mU3g,2004
+arxiv/cloud_auth/jwt.py,sha256=hNWCTsMd-9tCZlE8flyhEu9V6c4ad4RBqyBPnVCa7JY,630
+arxiv/cloud_auth/userstore.py,sha256=DawmUdkx62aAx4v0DRRNew6_h7JKSm7VtPzhulTIdto,8072
+arxiv/cloud_auth/userstore_test_tables.py,sha256=C-P7P1PoQjnUar4PipTHg4P3ZXINxcc0JbGUBHl5s7M,7710
+arxiv_cloud_auth-0.1.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+arxiv_cloud_auth-0.1.1.dist-info/METADATA,sha256=xJx5EGMPSeedLn3u5Ut5ve6BmcewWA1QtQvRAWVb7lo,471
+arxiv_cloud_auth-0.1.1.dist-info/RECORD,,
