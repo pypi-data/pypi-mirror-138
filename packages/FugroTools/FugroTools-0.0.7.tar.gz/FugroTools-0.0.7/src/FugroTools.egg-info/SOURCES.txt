@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/FugroTools/Request.py
+src/FugroTools/__init__.py
+src/FugroTools.egg-info/PKG-INFO
+src/FugroTools.egg-info/SOURCES.txt
+src/FugroTools.egg-info/dependency_links.txt
+src/FugroTools.egg-info/top_level.txt
