@@ -1,0 +1,2 @@
+[console_scripts]
+rs-admin = restful_starlette_admin.admin:admin_cli

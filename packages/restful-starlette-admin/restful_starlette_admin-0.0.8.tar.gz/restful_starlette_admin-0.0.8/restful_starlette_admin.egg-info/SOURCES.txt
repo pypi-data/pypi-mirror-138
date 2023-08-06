@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+restful_starlette_admin/__init__.py
+restful_starlette_admin/admin.py
+restful_starlette_admin/file_content.py
+restful_starlette_admin/structure.py
+restful_starlette_admin.egg-info/PKG-INFO
+restful_starlette_admin.egg-info/SOURCES.txt
+restful_starlette_admin.egg-info/dependency_links.txt
+restful_starlette_admin.egg-info/entry_points.txt
+restful_starlette_admin.egg-info/not-zip-safe
+restful_starlette_admin.egg-info/requires.txt
+restful_starlette_admin.egg-info/top_level.txt
