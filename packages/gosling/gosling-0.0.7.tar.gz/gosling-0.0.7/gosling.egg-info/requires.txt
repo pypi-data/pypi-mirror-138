@@ -1,0 +1,14 @@
+jsonschema<4.0,>=3.0
+jinja2
+numpy
+pandas>=0.18
+portpicker
+uvicorn
+starlette
+
+[dev]
+pytest
+requests
+sphinx
+numpydoc
+furo
