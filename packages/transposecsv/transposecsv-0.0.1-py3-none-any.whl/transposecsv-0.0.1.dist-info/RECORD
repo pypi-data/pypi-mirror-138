@@ -1,0 +1,9 @@
+transposecsv/__init__.py,sha256=HKzOO3-lgj49hzvHT49F-mJsfWk8QkBhmJAPAo1NIA4,35
+transposecsv/csvtranspose.py,sha256=q72oTLOzZyI9QcJgNsfrbB_Jl7MIJtQ-j8CTiXalzvY,824
+transposecsv/download.py,sha256=-cbryNoMM1jc9GylIUQ3udJR_PQpsMf64D6qd2WLA0o,380
+transposecsv/transpose.py,sha256=rnH9ajge-VPvVowtNtdOej-gpQ5qbnweG0s5SP9Osao,4269
+transposecsv/upload_helper.py,sha256=-d2-PfReS72TlvY2seoRLisdhi49-UNDb_chaIi5wAI,1199
+transposecsv-0.0.1.dist-info/METADATA,sha256=3qBjJ3JGIqznwmJ7SV65ZXS8k1wrPW_OY39k3QnMr74,2532
+transposecsv-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+transposecsv-0.0.1.dist-info/top_level.txt,sha256=KbQYMff_tTKc8CDoiEe2ZbFYubEY1fuwYsUAn2tERkc,13
+transposecsv-0.0.1.dist-info/RECORD,,
