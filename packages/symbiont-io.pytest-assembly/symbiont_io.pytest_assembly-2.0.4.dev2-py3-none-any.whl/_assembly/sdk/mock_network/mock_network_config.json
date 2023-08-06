@@ -1,0 +1,16 @@
+{
+  "neo_config": {
+    "private": "",
+    "public": ""
+  },
+  "nodes": {
+    "localhost": {
+      "client_cert": "",
+      "client_cert_key": "",
+      "admin_cert": "",
+      "admin_cert_key": "",
+      "hostname": "http://localhost:8888",
+      "vault_token": ""
+    }
+  }
+}
