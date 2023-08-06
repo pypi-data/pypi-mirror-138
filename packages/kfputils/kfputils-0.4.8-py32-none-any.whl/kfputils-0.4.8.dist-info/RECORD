@@ -1,0 +1,15 @@
+kfputils/__init__.py,sha256=LUEJiDJQxt3AZlJ5Vn91LjTu1XPKeC6Y6fiUPYjI1V8,308
+kfputils/client.py,sha256=YwbJTLpb_uckBKv79RqBXXESFozjzvZDPPBuniqduUs,1027
+kfputils/kfputils.py,sha256=KxRFXJDh_AtEliZwZKbTs-cV-IFviJ4iPfWksIdrMvE,1364
+kfputils/pipeline.py,sha256=k5QMfS9Omk7f-B-Xsa8KoS6UpL-4ym6_sOPcSNYIto8,5203
+kfputils/pipeline_cli.py,sha256=uBJ8s09W07VJdMCtreL1noKYjmRp03iNccKqAMkyn70,3615
+kfputils/run.py,sha256=FeErY3N4sSw0bmAH5FpOr66jNxc_WES2NG6fYWvvut0,3479
+kfputils/run_cli.py,sha256=axNuzaROuTuYjlYncnLgtKMuI7xq_uJknx_0CA4A2lc,1078
+kfputils/uploadrun.py,sha256=miLvs6gTeZn6kUI0rCTN6jf1PCiENz2S9GewqVhsFA8,1640
+kfputils/utils.py,sha256=u8eSGG_RMhV5XZWQdNtABh73b1Qxg-D0iMgyFeRy794,893
+kfputils-0.4.8.dist-info/LICENSE,sha256=i9qEwtvxXJTolikEx42p3955ql4BZDJ4ONpcExndMF0,1059
+kfputils-0.4.8.dist-info/METADATA,sha256=qGOO7qhNg7UDKxjwXRJlAY0FZVGSvMdNLoeFACyLSdo,831
+kfputils-0.4.8.dist-info/WHEEL,sha256=pQclFGycArwUPuTH7jfnl3Td0_ys2T8YY2wvyc0EbdE,93
+kfputils-0.4.8.dist-info/entry_points.txt,sha256=pM9nt5ZH7fLTGT17EX3gtcqJuTlRhAUAEi95FjaF5nI,53
+kfputils-0.4.8.dist-info/top_level.txt,sha256=SAjKDI84mwFH7XIIIkXjIRgNnRXLHTXZTXpFxByqjyg,9
+kfputils-0.4.8.dist-info/RECORD,,
