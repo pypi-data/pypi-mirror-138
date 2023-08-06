@@ -1,0 +1,8 @@
+setuptools>=52.0.0
+torch>=1.7.1
+keras>=2.2.3
+numpy
+scipy
+tqdm
+h5py
+tensorflow==2.5.0
