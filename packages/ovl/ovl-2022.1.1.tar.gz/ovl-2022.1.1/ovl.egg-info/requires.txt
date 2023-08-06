@@ -1,0 +1,11 @@
+numpy
+
+[connections]
+pyserial
+requests
+
+[cv]
+opencv-python
+
+[frc]
+pynetworktables
