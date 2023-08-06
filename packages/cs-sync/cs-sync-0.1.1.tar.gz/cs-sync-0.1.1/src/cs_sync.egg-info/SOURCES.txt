@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/cs_sync.egg-info/PKG-INFO
+src/cs_sync.egg-info/SOURCES.txt
+src/cs_sync.egg-info/dependency_links.txt
+src/cs_sync.egg-info/entry_points.txt
+src/cs_sync.egg-info/requires.txt
+src/cs_sync.egg-info/top_level.txt
