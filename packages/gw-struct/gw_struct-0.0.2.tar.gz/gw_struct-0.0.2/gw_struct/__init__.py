@@ -1,0 +1,5 @@
+__version__ ='0.0.2'
+__author__ = 'candyabc'
+__copyright__ = 'candyabc'
+__email__ = 'hfcandyabc@163.com'
+__license__ = 'maxwin'

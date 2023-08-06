@@ -1,0 +1,9 @@
+README.md
+setup.py
+gw_struct/__init__.py
+gw_struct/struct_builder.py
+gw_struct.egg-info/PKG-INFO
+gw_struct.egg-info/SOURCES.txt
+gw_struct.egg-info/dependency_links.txt
+gw_struct.egg-info/not-zip-safe
+gw_struct.egg-info/top_level.txt
