@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyamplipi/__init__.py
+pyamplipi/amplipi.py
+pyamplipi/cli.py
+pyamplipi/client.py
+pyamplipi/error.py
+pyamplipi/models.py
+pyamplipi.egg-info/PKG-INFO
+pyamplipi.egg-info/SOURCES.txt
+pyamplipi.egg-info/dependency_links.txt
+pyamplipi.egg-info/top_level.txt
+pyamplipi.egg-info/zip-safe
