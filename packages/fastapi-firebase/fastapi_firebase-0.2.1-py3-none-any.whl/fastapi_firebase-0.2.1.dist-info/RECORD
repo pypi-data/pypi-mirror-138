@@ -1,0 +1,7 @@
+fastapi_firebase/__init__.py,sha256=J3ZbwbJRV6QuOjHBDx0VYGfovQ3v-t6G8RPYsSLsH64,274
+fastapi_firebase/app.py,sha256=A00THOmeKlC9B7Xfsvt_IFv1a-8thB5BTr7b4eN2szE,2110
+fastapi_firebase/auth.py,sha256=PCuoClLIs4ijQXSuv8OxYiwIyFeTVspDK8WY9kXi-QY,675
+fastapi_firebase/schemes.py,sha256=zMGGMdV-JRU-p6fMlgqTTEzyE-SSHhGga9Ei51Xy2dY,409
+fastapi_firebase-0.2.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+fastapi_firebase-0.2.1.dist-info/METADATA,sha256=QvijUktOfwKtzWXNd2KbpquqKatSKAOKp0-o9Y6k8L0,1096
+fastapi_firebase-0.2.1.dist-info/RECORD,,
