@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: zabbixsim
+Version: 0.3.0
+Summary: Zabbix Agent simulator
+Home-page: https://github.com/adamleggo/zabbixsim
+Author: Adam Leggo
+Author-email: adam@leggo.id.au
+Maintainer: Adam Leggo <adam@leggo.id.au>
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Communications
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: System :: Networking :: Monitoring
+License-File: LICENSE
+
+# zabbixsim
+
+Zabbix Agent Simulator (active)
+
+The Zabbix Agent Simulator is intended to be used instead of the regular Zabbix agent in scenarios, where the use of the real Zabbix Agnet is not partical or desirable. This includes testing scenarios that are not possible on a live system.
+
+This is works well with the snmpsim to provide simulation data for Zabbix.
+<https://github.com/etingof/snmpsim>
+<https://pypi.org/project/snmpsim/>
+
+The simulator is based on the protocol documented in the Zabbbix manual.
+<https://www.zabbix.com/documentation/current/manual/appendix/items/activepassive>
+
+## Installation
+
+```bash
+pip install zabbixsim
+```
+
+## Usage
+
+### Record simulation file
+
+Record a simulation file from a Zabbix Server
+
+```bash
+zabbixrec
+```
+
+### Run simulation file
+
+Run a simulation file with a Zabbix Server
+
+```bash
+zabbixsim
+```
+
+Copyright (c) 2021, [Adam Leggo](mailto:adam@leggo.id.au). All rights reserved.
+
+

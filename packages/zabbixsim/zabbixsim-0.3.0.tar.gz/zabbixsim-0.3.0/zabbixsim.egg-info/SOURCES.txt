@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+zabbixsim/__init__.py
+zabbixsim/zabbixrec.py
+zabbixsim/zabbixsim.py
+zabbixsim.egg-info/PKG-INFO
+zabbixsim.egg-info/SOURCES.txt
+zabbixsim.egg-info/dependency_links.txt
+zabbixsim.egg-info/entry_points.txt
+zabbixsim.egg-info/requires.txt
+zabbixsim.egg-info/top_level.txt
