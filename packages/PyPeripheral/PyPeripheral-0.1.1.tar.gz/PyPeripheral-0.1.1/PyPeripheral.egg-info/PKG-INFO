@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: PyPeripheral
+Version: 0.1.1
+Summary: A RGB Controlling Library for Python
+Home-page: https://github.com/gooday2die/PyPeripheral
+Author: Gooday2die
+Author-email: edina00@naver.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: System :: Hardware
+
+UNKNOWN
+
