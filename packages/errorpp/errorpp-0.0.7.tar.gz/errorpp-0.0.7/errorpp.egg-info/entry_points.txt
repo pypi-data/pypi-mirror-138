@@ -1,0 +1,3 @@
+[console_scripts]
+errorpp = errorpp.__main__:main
+
