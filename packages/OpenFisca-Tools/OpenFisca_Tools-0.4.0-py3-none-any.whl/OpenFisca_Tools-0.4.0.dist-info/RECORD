@@ -1,0 +1,15 @@
+openfisca_tools/__init__.py,sha256=rrFgclncPCGOLSJhVxQ60XgaZ1ida0s79q0OL0_jrck,481
+openfisca_tools/hypothetical.py,sha256=RrZouPtU6yg_jOEEyeynWGJbqwg8fQLi7JQI0tTziJ8,9511
+openfisca_tools/microsimulation.py,sha256=QfwGunS_zX8-wTCJitsgqi0ttYgsysrUmRpss1KLgFU,14857
+openfisca_tools/model_api.py,sha256=Zh4DGeNrLXLgVGTfQ7WMNDMB6CjQp2KMy1kM2v_XUTM,9758
+openfisca_tools/reforms.py,sha256=KskoGYRR_yUk1aT6ZdChv6IrB8Ln_LM4vjhAwsrJZWY,4938
+openfisca_tools/parameters/__init__.py,sha256=Z8AAOVeW_5B3dLq7dVVpI7Qs4sYyjM_u58Ew5tqUFeQ,221
+openfisca_tools/parameters/interpolation.py,sha256=JJMNcKINGYERx0T5LYCslgayq2Fkbneb4BPgR6przVQ,2723
+openfisca_tools/parameters/nesting.py,sha256=5jnhcxrdhI49AGxoWy0A45RbJ2nrMjO2Gz2rM07niO0,3397
+openfisca_tools/parameters/uprating.py,sha256=4G12F1mY3QBQG75LW8Xwe90Q356TgXK1tjYJErf-yHc,3455
+openfisca_tools/testing/__init__.py,sha256=nsKZcUIp2koD-1xhDo1Zn-Px42SPp8lUhfOPIKDk9Rw,62
+openfisca_tools/testing/parameters.py,sha256=FGZWd1TyaYST_AO6d984yU6OX1Z4Ft-wZvImEXkDk8Y,5500
+OpenFisca_Tools-0.4.0.dist-info/METADATA,sha256=UmxN2bclXHcmQ7m4kImCHxhYTBD2LdbD0McAPBVoTqs,392
+OpenFisca_Tools-0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+OpenFisca_Tools-0.4.0.dist-info/top_level.txt,sha256=nKed-vQSHtUMmeRX8tlroBldkkjWUxXpuwce-NM4Srw,16
+OpenFisca_Tools-0.4.0.dist-info/RECORD,,
