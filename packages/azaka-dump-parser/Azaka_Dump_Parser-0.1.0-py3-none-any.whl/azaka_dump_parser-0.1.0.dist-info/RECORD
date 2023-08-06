@@ -1,0 +1,9 @@
+azaka_dump_parser/__init__.py,sha256=4UxcRQvBZ7_xmwOqyVrM8hyGh6kzBv_uB8Sp-0tIbXU,119
+azaka_dump_parser/parser.py,sha256=SBCd3-6utoNmc_x_UIkPmWHBOH-9SBo1o-S54jOC7R8,705
+azaka_dump_parser/tag.py,sha256=ngWzHI3FRJkpXZ964mPBiteulMB9oAm-70R6a5v7YmU,1082
+azaka_dump_parser/trait.py,sha256=M8UJ3LpgrsoFwJ4cnbOL-KlplUlk1z2zlAk3lhhcZiw,1045
+azaka_dump_parser/vote.py,sha256=UKRpdHAzqFd-Mmqxmw6T8RCb44nbjCGi54gc6iNNJZM,708
+azaka_dump_parser-0.1.0.dist-info/LICENSE,sha256=SAAhk_g_5kvKd5_VSzkYHcCxFFRgtU5L4Vvv-x-7_Kw,1067
+azaka_dump_parser-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+azaka_dump_parser-0.1.0.dist-info/METADATA,sha256=7tm_fjZPo0o_5CaDeYXkoIYsJFLHSk9ti4lbiwINj6Y,618
+azaka_dump_parser-0.1.0.dist-info/RECORD,,

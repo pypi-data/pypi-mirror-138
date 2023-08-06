@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: azaka-dump-parser
+Version: 0.1.0
+Summary: A dump parser utility for VNDB, made for Azaka.
+License: MIT
+Keywords: vndb,dump parser,visualnovel,python
+Author: mooncell07
+Author-email: mooncell07@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# Azaka-Dump-Parser
+A dump parser utility for VNDB.
+
