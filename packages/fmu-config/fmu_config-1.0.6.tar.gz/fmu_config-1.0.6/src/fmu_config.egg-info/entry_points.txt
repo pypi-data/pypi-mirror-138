@@ -1,0 +1,3 @@
+[console_scripts]
+fmuconfig = fmu.config.fmuconfigrunner:main
+
