@@ -1,0 +1,3 @@
+[console_scripts]
+reqmap=reqmap.cli:cli
+
