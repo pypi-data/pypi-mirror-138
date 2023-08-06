@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ElectricalWireSizes.egg-info/PKG-INFO
+ElectricalWireSizes.egg-info/SOURCES.txt
+ElectricalWireSizes.egg-info/dependency_links.txt
+ElectricalWireSizes.egg-info/top_level.txt
+electricalwiresizes/__init__.py
+electricalwiresizes/bd.py
+electricalwiresizes/kElectric.py
