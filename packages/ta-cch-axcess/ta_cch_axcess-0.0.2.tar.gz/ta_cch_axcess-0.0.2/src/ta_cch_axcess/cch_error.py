@@ -1,0 +1,3 @@
+
+class CCHException(Exception):
+	pass
