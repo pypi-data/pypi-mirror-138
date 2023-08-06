@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: ponders
+Version: 0.2.0
+Summary: A library to allow scikit-learn to automatically handle Pandas DataFrames
+Home-page: https://github.com/claresloggett/ponder
+Author: Clare Sloggett
+Author-email: claresloggett@gmail.com
+License: BSD (3-clause)
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+===============================
+ponders
+===============================
+
+.. image:: https://img.shields.io/travis/claresloggett/ponders.svg
+        :target: https://travis-ci.org/claresloggett/ponders
+
+.. image:: https://img.shields.io/pypi/v/ponders.svg
+        :target: https://pypi.python.org/pypi/ponders
+
+
+A library to allow scikit-learn to automatically handle Pandas DataFrames
+
+* Free software: MIT license
+* Documentation: (COMING SOON!) https://claresloggett.github.io/ponder.
+
+Features
+--------
+
+* TODO
+
+
