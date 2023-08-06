@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: highiq
+Version: 1.1
+Summary: Package for processing radar autocorrelation functions
+Home-page: https://github.com/rcjackson/HighIQ
+Author: Bobby Jackson
+Author-email: rjackson@anl.gov
+License: BSD (3-clause)
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+======
+HighIQ
+======
+
+This software conducts radar and lidar doppler spectra processing using the GPU. Complex autocorrelation
+functions are converted to Doppler spectra and moments using CuPy, a NumPy-like interface for CUDA. A 
+CUDA-compatible GPU is required.
+
+* Free software: 3-clause BSD license
+
+In order to use HighIQ, you must install the version of CuPy for your 
+specific version of CUDA. In order to do so, follow the link below:
+
+https://docs.cupy.dev/en/stable/install.html
+
+
+
