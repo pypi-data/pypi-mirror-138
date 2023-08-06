@@ -1,0 +1,13 @@
+scikit-learn
+h5py
+numpy
+matplotlib>=3.5.0
+scipy
+pandas
+openpyxl
+filterpy
+cvui
+opencv-python<=4.5.1.48
+xlrd
+seaborn
+PyQt6
