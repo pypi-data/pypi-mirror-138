@@ -1,0 +1,3 @@
+[console_scripts]
+yaml2devops=yaml2devops.command_line:cli
+
