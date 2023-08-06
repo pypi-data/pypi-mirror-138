@@ -1,0 +1,11 @@
+numpy
+smart_open
+zstandard
+pandas
+parallel_write
+
+[test]
+boto3
+pytest
+pyarrow
+lxml
