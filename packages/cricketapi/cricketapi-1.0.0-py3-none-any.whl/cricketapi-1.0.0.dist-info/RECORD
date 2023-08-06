@@ -1,0 +1,8 @@
+cricketapi/__init__.py,sha256=jcGAKk_MI4w3W2W_zNoOagM61vEQaO3HeWDhVeSI7Yk,131
+cricketapi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cricketapi/request_handlers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cricketapi/request_handlers/apis.py,sha256=Nz97MHmzT_3i3eZ5JFlxy_2lgwTYaN3B9IP-wH6ouso,1652
+cricketapi-1.0.0.dist-info/METADATA,sha256=9UlravjagbVndSwgsH9TcVI101NFew6eNVSL14FjhMY,457
+cricketapi-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cricketapi-1.0.0.dist-info/top_level.txt,sha256=E9ARvDwSTCRsVoloD2rThoP8S8nPOovRBvrXGmveFnU,11
+cricketapi-1.0.0.dist-info/RECORD,,
