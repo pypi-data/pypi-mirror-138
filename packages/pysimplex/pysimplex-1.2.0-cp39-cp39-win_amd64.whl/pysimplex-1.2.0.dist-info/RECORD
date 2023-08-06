@@ -1,0 +1,6 @@
+pysimplex/__init__.py,sha256=WgqNwYBolWYrJ7stfVVPq_d_TVfYXC5lrMVPrv9XgR0,59
+pysimplex/_simplex.cp39-win_amd64.pyd,sha256=z5sSdb96lF8xbEctuX4FnqnfFLJrn3SPHm3kEpu2jTk,196096
+pysimplex-1.2.0.dist-info/METADATA,sha256=sNL-YPSIuLnEH-0PgYDhQVo_Dyx-vxAytjU54A0XhLs,1616
+pysimplex-1.2.0.dist-info/WHEEL,sha256=AfUjybt1LYkmLVgNibQaTT2Y8xH4nyH1FGkQKQA6RSA,94
+pysimplex-1.2.0.dist-info/top_level.txt,sha256=7KcdV3OKZVTYclcLfu1pPnyDkEjUYTI426PiZoldudk,10
+pysimplex-1.2.0.dist-info/RECORD,,
