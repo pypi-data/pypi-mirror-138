@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/fidelior/__init__.py
+src/fidelior/core.py
+src/fidelior.egg-info/PKG-INFO
+src/fidelior.egg-info/SOURCES.txt
+src/fidelior.egg-info/dependency_links.txt
+src/fidelior.egg-info/requires.txt
+src/fidelior.egg-info/top_level.txt
