@@ -1,0 +1,3 @@
+[console_scripts]
+alphabase = alphabase.cli:run
+
