@@ -1,0 +1,9 @@
+README.md
+setup.py
+dmongo/__init__.py
+dmongo/dmongo.py
+dmongo.egg-info/PKG-INFO
+dmongo.egg-info/SOURCES.txt
+dmongo.egg-info/dependency_links.txt
+dmongo.egg-info/requires.txt
+dmongo.egg-info/top_level.txt
