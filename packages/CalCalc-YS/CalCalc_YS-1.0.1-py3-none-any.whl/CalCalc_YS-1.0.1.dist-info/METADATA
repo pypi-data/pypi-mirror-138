@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: CalCalc-YS
+Version: 1.0.1
+Summary: A calculator based on eval() and Wolfram Alpha
+Author: Yue Sun
+Author-email: yue.sun@berkeley.edu
+License: UNKNOWN
+Keywords: calculation,Wolfram Alpha
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8, <4
+License-File: LICENSE.txt
+Requires-Dist: argparse
+
+UNKNOWN
+
