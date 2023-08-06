@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+strip_hidden_form_values/__init__.py
+strip_hidden_form_values/cli.py
+strip_hidden_form_values.egg-info/PKG-INFO
+strip_hidden_form_values.egg-info/SOURCES.txt
+strip_hidden_form_values.egg-info/dependency_links.txt
+strip_hidden_form_values.egg-info/entry_points.txt
+strip_hidden_form_values.egg-info/requires.txt
+strip_hidden_form_values.egg-info/top_level.txt
