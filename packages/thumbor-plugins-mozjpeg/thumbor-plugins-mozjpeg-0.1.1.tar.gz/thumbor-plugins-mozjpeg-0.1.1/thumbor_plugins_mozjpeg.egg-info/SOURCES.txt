@@ -1,0 +1,7 @@
+setup.py
+./__init__.py
+./config.py
+thumbor_plugins_mozjpeg.egg-info/PKG-INFO
+thumbor_plugins_mozjpeg.egg-info/SOURCES.txt
+thumbor_plugins_mozjpeg.egg-info/dependency_links.txt
+thumbor_plugins_mozjpeg.egg-info/top_level.txt
