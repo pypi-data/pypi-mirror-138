@@ -1,0 +1,90 @@
+
+RAxML-NG v. 1.0.3 released on 21.07.2021 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Intel(R) Xeon(R) Platinum 8259L CPU @ 2.50GHz, 48 cores, 1932 GB RAM
+
+RAxML-NG was called at 10-Oct-2021 23:10:59 as follows:
+
+raxml-ng --msa T1.raxml.rba --model GTR+G --prefix T2 --threads 6
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): random (10) + parsimony (10)
+  random seed: 1633878659
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: coarse-grained (auto), PTHREADS (6 threads), thread pinning: OFF
+
+WARNING: The model you specified on the command line (GTR+G) will be ignored 
+         since the binary MSA file already contains a model definition.
+         If you want to change the model, please re-run RAxML-NG 
+         with the original PHYLIP/FASTA alignment and --redo option.
+
+[00:00:00] Loading binary alignment from file: T1.raxml.rba
+[00:00:00] Alignment comprises 12787 taxa, 1 partitions and 1420 patterns
+
+Partition 0: noname
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1420 / 1420
+Gaps: 11.61 %
+Invariant sites: 0.77 %
+
+
+Parallelization scheme autoconfig: 6 worker(s) x 1 thread(s)
+
+
+NOTE: Per-rate scalers were automatically enabled to prevent numerical issues on taxa-rich alignments.
+NOTE: You can use --force switch to skip this check and fall back to per-site scalers.
+
+Parallel reduction/worker buffer size: 1 KB  / 0 KB
+
+[00:00:00] Generating 10 random starting tree(s) with 12787 taxa
+[00:00:00] Generating 10 parsimony starting tree(s) with 12787 taxa
+[00:31:01] Data distribution: max. partitions/sites/weight per thread: 1 / 1420 / 22720
+[00:31:01] Data distribution: max. searches per worker: 4
+
+Starting ML tree search with 20 distinct starting trees
+
+[00:31:04 -7649164.140246] Initial branch length optimization
+[00:33:22 -6873233.071193] Model parameter optimization (eps = 10.000000)
+[00:46:55 -6569796.796806] AUTODETECT spr round 1 (radius: 5)
+[03:42:40 -5030798.556854] AUTODETECT spr round 2 (radius: 10)
+[06:07:25 -3750305.720614] AUTODETECT spr round 3 (radius: 15)
+[08:25:40 -2962216.276048] AUTODETECT spr round 4 (radius: 20)
+[10:52:16 -2499330.694928] AUTODETECT spr round 5 (radius: 25)
+[13:20:36 -2250834.508677] SPR radius for FAST iterations: 25 (autodetect)
+[13:20:36 -2250834.508677] Model parameter optimization (eps = 3.000000)
+[13:27:02 -2246597.980364] FAST spr round 1 (radius: 25)
+[17:06:09 -1783443.767701] FAST spr round 2 (radius: 25)
+[20:23:49 -1703093.179776] FAST spr round 3 (radius: 25)
+[23:14:58 -1681297.701081] FAST spr round 4 (radius: 25)
+[25:45:12 -1673977.380976] FAST spr round 5 (radius: 25)
+[32:46:27 -1671919.973507] FAST spr round 6 (radius: 25)
+[34:51:49 -1671498.344613] FAST spr round 7 (radius: 25)
+[37:01:27 -1671043.791063] FAST spr round 8 (radius: 25)
+[39:57:58 -1670472.277599] FAST spr round 9 (radius: 25)
+[43:42:11 -1670472.266189] Model parameter optimization (eps = 1.000000)
+[43:45:17 -1670337.568953] SLOW spr round 1 (radius: 5)
+[46:09:43 -1669818.244345] SLOW spr round 2 (radius: 5)
+[48:39:35 -1669702.608494] SLOW spr round 3 (radius: 5)
+[54:25:23 -1669689.552952] SLOW spr round 4 (radius: 5)
+[56:39:53 -1669678.864710] SLOW spr round 5 (radius: 5)
+[59:18:51 -1669675.800947] SLOW spr round 6 (radius: 5)
+[64:06:10 -1669675.798698] SLOW spr round 7 (radius: 10)
+[69:45:13 -1669635.758932] SLOW spr round 8 (radius: 5)
+[78:28:55 -1669622.903724] SLOW spr round 9 (radius: 5)
+[83:49:21 -1669620.477981] SLOW spr round 10 (radius: 5)
+[86:13:13 -1669620.476676] SLOW spr round 11 (radius: 10)
+[90:11:20 -1669611.639676] SLOW spr round 12 (radius: 5)
+[93:00:59 -1669611.618875] SLOW spr round 13 (radius: 10)
+[95:3[95:39:19 -1669603.019099] SLOW spr round 14 (radius: 5)

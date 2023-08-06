@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: psmpa
+Version: 1.0.0
+Summary: psmpa: Prediction of Secondary Metabolism Potential using Amplicans
+Home-page: https://github.com/BioGavin/psmpa
+Author: Bin Wei
+Author-email: binwei@zjut.edu.cn
+Maintainer: Zhen-Yi Zhou
+Maintainer-email: gavinchou64@gmail.com
+License: GPL
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+
+PSMPA is a Python pipeline to predict secondary metabolism potential using 16S rRNA or amplicans for a single strain or microbial communities.
+
