@@ -1,0 +1,10 @@
+async_generator
+neo4j<4.3.0
+janus
+
+[agensgraph]
+agensgraph
+aiopg
+async_exit_stack
+
+[neo4j]

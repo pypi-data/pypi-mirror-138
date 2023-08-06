@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: aiocypher
+Version: 0.1.3
+Summary: AsyncIO wrapper around the neo4j driver
+Home-page: https://github.com/bbc/rd-cloudfit-python-aiocypher
+Author: BBC R&D
+Author-email: cloudfit-opensource@rd.bbc.co.uk
+License: License :: OSI Approved :: Apache Software License
+Platform: UNKNOWN
+Requires-Python: >=3.10
+Provides-Extra: agensgraph
+Provides-Extra: neo4j
+License-File: LICENSE.md
+License-File: COPYING
+
+AsyncIO wrapper around the neo4j driver
+
