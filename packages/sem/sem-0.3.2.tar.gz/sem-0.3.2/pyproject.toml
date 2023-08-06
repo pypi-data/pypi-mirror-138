@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "sem"
+version = "0.3.2"
+description = "A Simulation Execution Manager for ns-3"
+authors = ["Davide Magrin <magrinda@dei.unipd.it>"]
+license = "GPL-2.0-only"
+readme = "README.md"
+repository = "https://github.com/signetlabdei/sem"
+homepage = "https://github.com/signetlabdei/sem"
+keywords = ["ns-3", "simulation", "execution"]
+
+[tool.poetry.dependencies]
+python = ">3.8,<3.11"
+tqdm = "*"
+gitpython = "*"
+drmaa = "*"
+tinydb = "^4.0.0"
+xarray = "*"
+numpy = "^1.21.5"
+pandas = "*"
+click = "*"
+salib = "^1.3.8"
+
+[tool.poetry.dev-dependencies]
+sphinx = "*"
+pylint = "*"
+sphinxcontrib-napoleon = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-xdist = "*"
+matplotlib = "*"
+graphviz = "*"
+scipy = "*"
+pygments = "*"
+importmagic = "*"
+flake8 = "*"
+check-manifest = "*"
+seaborn = "*"
+pyright = "^0.0.13"
+
+[tool.poetry.scripts]
+sem = 'sem:cli'
+
+[build-system]
+requires = ["setuptools", "poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+norecursedirs = [".svn", "sem", "examples", "tests/ns-3*"]
