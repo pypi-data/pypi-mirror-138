@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: iminfra
+Version: 0.1.0
+Summary: Intermine infrastructure as code.
+Author: Ankur Kumar
+Author-email: ank@leoank.me
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: pulumi (>=3.24.1,<4.0.0)
