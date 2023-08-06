@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+restful_starlette.egg-info/PKG-INFO
+restful_starlette.egg-info/SOURCES.txt
+restful_starlette.egg-info/dependency_links.txt
+restful_starlette.egg-info/not-zip-safe
+restful_starlette.egg-info/requires.txt
+restful_starlette.egg-info/top_level.txt
