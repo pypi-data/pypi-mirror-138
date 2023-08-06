@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: arraytool
+Version: 0.1.2
+Summary: 基于numpy的Series及DataFrame数据结构
+Home-page: https://gitee.com/yonder_sky/arraytool
+Author: 春秋迭代
+Author-email: yondersky@126.com
+License: UNKNOWN
+Description: # arraytool
+        
+        ### 介绍
+        基于numpy的Series及DataFrame数据结构。
+        
+        arraytool包中对应于Series及DataFrame的数据类分别为ArraySeries及ArrayFrame，两者同Series及DataFrame之间可方便地进行转换。
+        
+        ### 安装
+        
+        ```python
+        pip install arraytool
+        ```
+        
+        ### 引入
+        
+        ```python
+        import arraytool
+        from arraytool import ArraySeries, ArrayFrame
+        ```
+        
+        ### ArraySeries
+        
+        ### ArrayFrame
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
