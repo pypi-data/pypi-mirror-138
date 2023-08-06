@@ -1,0 +1,2 @@
+notebook>=6.0.0
+jupyter-server>=1.0

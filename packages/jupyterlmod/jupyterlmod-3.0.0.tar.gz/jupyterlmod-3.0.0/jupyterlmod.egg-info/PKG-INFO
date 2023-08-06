@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: jupyterlmod
+Version: 3.0.0
+Summary: jupyterlmod: notebook server extension to interact with Lmod system
+Home-page: http://www.calculquebec.ca
+Author: Félix-Antoine Fortin
+Author-email: felix-antoine.fortin@calculquebec.ca
+License: MIT
+Keywords: Interactive,Interpreter,Shell,Web,Lmod
+Platform: Linux
+Platform: Mac OS X
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+Jupyter interactive notebook server extension that allows user to select software modules to load with Lmod before launching kernels.
+
