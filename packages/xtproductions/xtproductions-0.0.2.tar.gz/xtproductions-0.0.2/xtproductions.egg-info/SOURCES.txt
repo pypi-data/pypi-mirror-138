@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+xtproductions.egg-info/PKG-INFO
+xtproductions.egg-info/SOURCES.txt
+xtproductions.egg-info/dependency_links.txt
+xtproductions.egg-info/top_level.txt
