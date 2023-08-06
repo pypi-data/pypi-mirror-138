@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+mylibadadafahabzkjabxljwxbclwcbnpi/__inint__.py
+mylibadadafahabzkjabxljwxbclwcbnpi/example.py
+mylibadadafahabzkjabxljwxbclwcbnpi.egg-info/PKG-INFO
+mylibadadafahabzkjabxljwxbclwcbnpi.egg-info/SOURCES.txt
+mylibadadafahabzkjabxljwxbclwcbnpi.egg-info/dependency_links.txt
+mylibadadafahabzkjabxljwxbclwcbnpi.egg-info/requires.txt
+mylibadadafahabzkjabxljwxbclwcbnpi.egg-info/top_level.txt
