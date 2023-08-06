@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+Mongo_db_operations.egg-info/PKG-INFO
+Mongo_db_operations.egg-info/SOURCES.txt
+Mongo_db_operations.egg-info/dependency_links.txt
+Mongo_db_operations.egg-info/requires.txt
+Mongo_db_operations.egg-info/top_level.txt
+mongo_db/__init__.py
+mongo_db/mongo_db_atlas.py
