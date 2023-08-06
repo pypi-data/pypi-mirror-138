@@ -1,0 +1,10 @@
+README.md
+setup.py
+a2jpg/__init__.py
+a2jpg/__main__.py
+a2jpg/a2jpg.py
+a2jpg.egg-info/PKG-INFO
+a2jpg.egg-info/SOURCES.txt
+a2jpg.egg-info/dependency_links.txt
+a2jpg.egg-info/entry_points.txt
+a2jpg.egg-info/top_level.txt
