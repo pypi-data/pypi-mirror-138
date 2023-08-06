@@ -1,0 +1,14 @@
+numpy
+
+[doc]
+sphinx
+sphinx_rtd_theme
+sphinx_gallery
+scikit-image
+matplotlib
+
+[packaging]
+auditwheel
+
+[tests]
+pytest

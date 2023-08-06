@@ -1,0 +1,3 @@
+recursive-include pylena *.cpp *.hpp *.txt
+include CMakeLists.txt
+include conanfile.txt

@@ -1,0 +1,8 @@
+[generators]
+cmake_find_package
+
+[requires]
+pylene/head@lrde/unstable
+
+[options]
+pylene:fPIC=True
