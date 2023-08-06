@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: trilium-py
+Version: 0.2.0
+Summary: Python client for ETAPI of Trilium Note.
+Home-page: https://github.com/nriver/trilium-py
+Author: Nriver
+Author-email: 
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/nriver/trilium-py/issues
+Project-URL: Funding, https://github.com/nriver/trilium-py
+Project-URL: Say Thanks!, https://github.com/nriver/trilium-py
+Project-URL: Source, https://github.com/nriver/trilium-py/
+Keywords: trilium,etapi,api client
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# trilium-py
+
+Python client for ETAPI of Trilium Note.
+
+# Installation
+
+```
+python3 -m pip install trilium-py --user
+```
+
+# Usage
+
+```
+from trilium_py.client import ETAPI
+
+server_url = 'YOUR_HOST'
+token = 'YOUR_TOKEN'
+ea = ETAPI(server_url, token)
+```
+
+# Develop
+
+```
+python -m pip install --user -e .
+```
+
+# Original OpenAPI Documentation
+
+The original OpenAPI document is [here](https://github.com/zadam/trilium/blob/master/src/etapi/etapi.openapi.yaml). You
+can open it with [swagger editor](https://editor.swagger.io/).
+
+
