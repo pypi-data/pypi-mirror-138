@@ -1,0 +1,4 @@
+include md_citeproc/assets/binary/*
+include md_citeproc/assets/locales/*.xml
+include md_citeproc/assets/locales/*.json
+include md_citeproc/assets/templates/*.html
