@@ -1,0 +1,27 @@
+include LICENSE.md
+include README.rst
+
+graft clibs
+prune clibs/warble/build
+prune clibs/warble/dist
+prune clibs/warble/vs2017/.vs
+recursive-exclude clibs/warble/deps/libblepp config.log config.status generated libblepp.pc Makefile
+
+graft mbientlab
+
+global-exclude *.git
+global-exclude *.gitmodules
+global-exclude *.gitignore
+global-exclude __pycache__
+global-exclude *.py[co]
+global-exclude *.d
+global-exclude *.o
+global-exclude *.so*
+global-exclude *.tlog
+global-exclude *.obj
+global-exclude *.iobj
+global-exclude *.pdb
+global-exclude *.lib
+global-exclude *.ipdb
+global-exclude *.exp
+global-exclude *.a
