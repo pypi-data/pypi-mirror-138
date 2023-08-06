@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/data_file
+src/fact/__init__.py
+src/fact/main.py
+src/fact4astro.egg-info/PKG-INFO
+src/fact4astro.egg-info/SOURCES.txt
+src/fact4astro.egg-info/dependency_links.txt
+src/fact4astro.egg-info/entry_points.txt
+src/fact4astro.egg-info/top_level.txt
+src/sample/__init__.py
+src/sample/package_data.dat
+src/sample/simple.py
