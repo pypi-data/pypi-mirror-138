@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.py
+yelp_reviews_scraper/__init__.py
+yelp_reviews_scraper/client.py
+yelp_reviews_scraper/utils.py
+yelp_reviews_scraper.egg-info/PKG-INFO
+yelp_reviews_scraper.egg-info/SOURCES.txt
+yelp_reviews_scraper.egg-info/dependency_links.txt
+yelp_reviews_scraper.egg-info/not-zip-safe
+yelp_reviews_scraper.egg-info/requires.txt
+yelp_reviews_scraper.egg-info/top_level.txt
