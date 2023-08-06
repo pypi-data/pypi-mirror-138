@@ -1,0 +1,3 @@
+[console_scripts]
+multilingual=multilingual.main:app
+
