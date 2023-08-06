@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: torchlm
+Version: 0.1.0
+Summary: A PyTorch landmarks-only library with 100+ data augmentation, training and inference.
+Home-page: https://github.com/DefTruth/torchlm
+Author: DefTruth
+Author-email: qyjdef@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python-headless (>=4.5.2)
+Requires-Dist: numpy (>=1.14.4)
+Requires-Dist: torch (>=1.6.0)
+Requires-Dist: torchvision (>=0.9.0)
+Requires-Dist: albumentations (>=1.1.0)
+
+![torchlm-logo](docs/res/logo.png)    
+
+
