@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: security-poc
+Version: 5.8.0
+Summary: Just to test some security things
+Author: Marco Dennstädt
+Author-email: Marco.Dennstaedt@zuehlke.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
