@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: generate-data
+Version: 0.0.1
+Summary: NLP generate similar data
+Home-page: UNKNOWN
+Author: hcy
+Author-email: 861195357@qq.com
+License: apache 3.0
+Platform: UNKNOWN
+Requires: bert4keras
+Requires: keras
+Requires: numpy
+License-File: LICENSE
+
+UNKNOWN
+
