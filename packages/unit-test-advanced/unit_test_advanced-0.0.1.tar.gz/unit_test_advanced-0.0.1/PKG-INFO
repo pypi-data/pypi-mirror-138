@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: unit_test_advanced
+Version: 0.0.1
+Summary: Code execution plan for unit testing and inject custom data
+Home-page: https://github.com/roodrepo/unit_test_advanced
+Author: Rood Repo
+Author-email: roodrepo@gmail.com
+License: UNKNOWN
+Keywords: unit-test,inject data
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Unit Test Advanced
+==========
+
+Introduction
+-------------
+
+SQLAlchemy is the Python SQL toolkit and Object Relational Mapper
+that gives application developers the full power and
+flexibility of SQL. SQLAlchemy provides a full suite
+of well known enterprise-level persistence patterns,
+designed for efficient and high-performing database
+access, adapted into a simple and Pythonic domain
+language.
+
