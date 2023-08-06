@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: barbouse
+Version: 0.1.3
+Summary: Postman for bearded API users
+License: GPLv3
+Author: Guillaume Pasquet
+Author-email: dev@etenil.net
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pygments (>=2.9.0,<3.0.0)
+Requires-Dist: jq (>=1.1.3,<2.0.0)
+Requires-Dist: requests (>=2.25.1,<3.0.0)
