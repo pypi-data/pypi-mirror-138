@@ -1,0 +1,8 @@
+setup.py
+zjktest/__init__.py
+zjktest/hello.py
+zzktest.egg-info/PKG-INFO
+zzktest.egg-info/SOURCES.txt
+zzktest.egg-info/dependency_links.txt
+zzktest.egg-info/requires.txt
+zzktest.egg-info/top_level.txt
