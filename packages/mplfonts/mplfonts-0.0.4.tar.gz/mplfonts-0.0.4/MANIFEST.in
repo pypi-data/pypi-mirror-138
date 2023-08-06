@@ -1,0 +1,10 @@
+include *.in
+include *.ini
+include *.rst
+include *.txt
+include LICENSE
+include mplfonts/rc/matplotlibrc
+recursive-include mplfonts/fonts *.otf
+
+global-exclude __pycache__ *.py[cod]
+global-exclude *.so *.dylib
