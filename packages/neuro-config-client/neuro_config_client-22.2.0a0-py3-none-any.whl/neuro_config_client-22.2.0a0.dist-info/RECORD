@@ -1,0 +1,10 @@
+neuro_config_client/__init__.py,sha256=xsFxITJN0ivA-5w2j9u4sKhu3nQVWxGA2irL9df9NV8,717
+neuro_config_client/client.py,sha256=CQ7z2fd3zulKevp4m2OTpgzGcq6_X-JhVQw86m65TL4,5786
+neuro_config_client/converters.py,sha256=sP8G_ciEP6jbCC4SyB_uhFxQISCXIExBDhvCOEa4DRs,17650
+neuro_config_client/models.py,sha256=0bncFYjgvEQ5z0sZdRHaCEhzqabZOaH7WQ7GZz4u3Y4,8736
+neuro_config_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+neuro_config_client-22.2.0a0.dist-info/LICENSE,sha256=pVb_3JM8l6iiZEkZq5-wPiL4om6oL4_xY0E9uzimRWg,582
+neuro_config_client-22.2.0a0.dist-info/METADATA,sha256=Ick8Xw_OfMOd6atFU5YPt9QD5VVrhaVql-7-MBiKclU,506
+neuro_config_client-22.2.0a0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+neuro_config_client-22.2.0a0.dist-info/top_level.txt,sha256=ZbTNrTBWb4qW9MQFSBJX_vFgqK0viQUwIcFbeUTHe5w,20
+neuro_config_client-22.2.0a0.dist-info/RECORD,,
