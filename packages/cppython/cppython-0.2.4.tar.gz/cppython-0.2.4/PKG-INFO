@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: cppython
+Version: 0.2.4
+Summary:  A Python package manager agnostic plugin integrating a transparent Conan and CMake workflow.
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Description: # CPPython
+        A library for managing dependencies with CMake for C++ projects.
+
