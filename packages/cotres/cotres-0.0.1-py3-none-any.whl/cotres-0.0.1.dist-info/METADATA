@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: cotres
+Version: 0.0.1
+Summary: Conductor Transient Response Simulator
+Home-page: https://gitlab.cern.ch/mawoznia/cotres
+Author: Mariusz Wozniak
+Author-email: mariusz.wozniak@cern.ch
+License: UNKNOWN
+Keywords: Transient,Conductor,Response
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: pandas ; extra == 'dev'
+Requires-Dist: matplotlib ; extra == 'dev'
+
+# CoTReS
+
+Conductor Transient Response Simulator
+
