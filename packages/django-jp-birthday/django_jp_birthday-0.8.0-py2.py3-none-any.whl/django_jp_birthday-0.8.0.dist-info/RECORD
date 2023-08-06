@@ -1,0 +1,15 @@
+jp_birthday/__init__.py,sha256=It33gUU2xtozBoo-zk-d4lR_5zjvqJ79tBZ_sfWCJ2A,409
+jp_birthday/admin.py,sha256=VRLOOxCZQeD3HrVOfUcv9RZjbgkq21OPPI-PsnZxuCI,60
+jp_birthday/eras.py,sha256=LGkxD56ets3Z4QNDIIbJtwjZW9cnYWoHwpvS6pux_R4,5282
+jp_birthday/fields.py,sha256=H1GJjx2dxQgBMVpG-itD3hDAALHeGlaCZgcJrJzF8YU,1343
+jp_birthday/managers.py,sha256=QgAmnUBI_LYdsmsyICkRcTfka5o4d3LLMo9E9ig2ph0,4902
+jp_birthday/models.py,sha256=zjGuqgx8XbGo_CDPQ9QGUM44YeY6KsTe0_fnsP51LsY,3765
+jp_birthday/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jp_birthday/management/commands/jp_birthday.py,sha256=vNk-jq-l7qfOW3W-GU3Wsvx9DpCBj8poH0Sjh_P_iRE,2412
+django_jp_birthday-0.8.0.dist-info/AUTHORS.rst,sha256=E48hoolkSxsViScW4iPWpCqjdIOdTuCVatZjScu08B8,175
+django_jp_birthday-0.8.0.dist-info/LICENSE,sha256=Xi8fHtYgyRsTFYlZQkZF0zgqgaX6wy-_tHpB1z-pLOA,1072
+django_jp_birthday-0.8.0.dist-info/METADATA,sha256=9s_xJS62-qAeB9Yf3u7OjYyo4cUU0NexGNmo1Lipe9k,14514
+django_jp_birthday-0.8.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+django_jp_birthday-0.8.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+django_jp_birthday-0.8.0.dist-info/top_level.txt,sha256=CIov0DSsia2kA1dKYAID3Au_AnDv1v1UPWhnzpR3xjs,12
+django_jp_birthday-0.8.0.dist-info/RECORD,,
