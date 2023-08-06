@@ -1,0 +1,4 @@
+
+[submodule "srmd_ncnn_vulkan_python/srmd-ncnn-vulkan"]
+	path = srmd_ncnn_vulkan_python/srmd-ncnn-vulkan
+	url = https://github.com/nihui/srmd-ncnn-vulkan

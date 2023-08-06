@@ -1,0 +1,53 @@
+name: CI
+on:
+  push:
+    branches:
+      - master
+  pull_request: {}
+  workflow_dispatch: {}
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: recursive
+      - name: cache-vulkansdk
+        id: cache-vulkansdk
+        uses: actions/cache@v1
+        with:
+          path: "VulkanSDK"
+          key: VulkanSDK-1.2.162.0-Installer
+      - name: vulkansdk
+        if: steps.cache-vulkansdk.outputs.cache-hit != 'true'
+        run: |
+          Invoke-WebRequest -Uri https://sdk.lunarg.com/sdk/download/1.2.162.0/windows/VulkanSDK-1.2.162.0-Installer.exe?Human=true -OutFile VulkanSDK-1.2.162.0-Installer.exe
+          7z x -aoa ./VulkanSDK-1.2.162.0-Installer.exe -oVulkanSDK
+          Remove-Item .\VulkanSDK\Demos, .\VulkanSDK\Samples, .\VulkanSDK\Third-Party, .\VulkanSDK\Tools, .\VulkanSDK\Tools32, .\VulkanSDK\Bin32, .\VulkanSDK\Lib32 -Recurse
+      - uses: actions/setup-python@v2
+        with:
+          python-version: "3.8"
+          architecture: x64
+      - name: Install dependencies
+        run: |
+          pip install build
+      - name: Build
+        run: |
+          $env:VULKAN_SDK="$(pwd)\VulkanSDK"
+          python -m build -w .
+  ubuntu:
+    runs-on: ubuntu-latest
+    env:
+      DEBIAN_FRONTEND: noninteractive
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: recursive
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-pip python3-venv libvulkan-dev swig glslang-dev glslang-tools
+          pip install build
+      - name: Build
+        run: |
+          python -m build -w .
