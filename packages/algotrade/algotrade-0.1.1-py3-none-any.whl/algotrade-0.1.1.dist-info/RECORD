@@ -1,0 +1,13 @@
+algotrade/__init__.py,sha256=j2X9qvqb9QKZLJ4Jn_oDaWElHwaxYdowBIT0Isjeyxc,578
+algotrade/alerts.py,sha256=Cxl2VD0o4zURFIP0kwzR9IP_KJXNFefJGlSxnD3Q1uc,6052
+algotrade/calculations.py,sha256=7GI1zZduw7_gHySmzeCOnzONzNbNEFBsEdBOeqQI-o8,8024
+algotrade/general.py,sha256=SeXLaKox0t8KWjx1XG8fTnC534i6l8hlQzebKhzfQ94,7613
+algotrade/ploting.py,sha256=1er1BfEZ8A8-iKWxIhb554YwVVxCtQbRswXOhhq4m3o,3312
+algotrade/screener.py,sha256=vT3xKPkQrykyhrdheCa5w0fSIlsvktQ61MpLOXX4r-w,4644
+algotrade/strategies.py,sha256=eSzkksMdaWkDdtXhFAXDRMeka4nr0b_4rPes06Syido,9270
+algotrade/testing.py,sha256=1WXoJftWPaSVv3Cy7_kwUMZE0E2AUuk9wxvWyeA05uQ,12819
+algotrade-0.1.1.dist-info/LICENSE,sha256=U8IDEf5fPVAwO4SN5fyLBIpDhImwT6Q2mqfmTd-aFTM,1093
+algotrade-0.1.1.dist-info/METADATA,sha256=UNXmbWQ96g-MU58XtM6NRipbjwGuif1EOVCgJMyGC-g,338
+algotrade-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+algotrade-0.1.1.dist-info/top_level.txt,sha256=eupWCT2JaAhSpy07Cx3rxlh3eENPJm59A_7QAjAnkmk,10
+algotrade-0.1.1.dist-info/RECORD,,

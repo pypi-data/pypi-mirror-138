@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: algotrade
+Version: 0.1.1
+Summary: Algorithmic trading strategy creation and testing
+Home-page: UNKNOWN
+Author: Edvinas Adomaitis
+Author-email: <edvinasad7@gmail.com>
+License: UNKNOWN
+Requires-Dist: yahoo-fin
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: ta
+
+
+# algotrade
+
