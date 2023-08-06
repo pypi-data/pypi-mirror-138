@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "hosh"
+version = "1.211228.2"
+description = "Predictable Operable HaSH-based identifiers"
+authors = ["davips <dpsabc@gmail.com>"]
+license = "GPL"
+readme = 'README.md'
+packages = [
+    { include = "hosh", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+wheel = "^0.37.0"
+blake3 = "^0.2.0"
+colored = "1.4.2"
+ansi2html = "^1.6.0"
+
+[tool.poetry.dev-dependencies]
+pdoc3 = "^0.10.0"
+autoreadme = "^0.2102.20"
+pytest = "^6.2.5"
+pytest-cov = "^2.12.1"
+ipython = "^7.27.0"
+pypi-server = "^0.4.8"
+black = "^21.9b0"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+# 
+# [[tool.poetry.source]]
+# name = "dvpypi"
+# url = "http://localhost:8080/simple"
