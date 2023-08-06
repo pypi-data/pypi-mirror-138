@@ -1,0 +1,17 @@
+gambas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gambas/command.py,sha256=e6E7gdOA0hh18zwGE7WDME8ooa23P0_0VTOloOFuNqQ,941
+gambas/factory.py,sha256=nMdMBUG3Cwulhmp-ZB0ZF6rPCYikGoIki8mJkfJzuXM,289
+gambas/manager.py,sha256=sWsydffLWcZko3S3lhfJ7lntRNTBSnNIbHdcCT9KC8g,1217
+gambas/run.py,sha256=_BGPNll9ICWueKfpC7eSUshi-Ih07HTIQObfiBr4mMQ,78
+gambas/validator.py,sha256=XTerJDat0o2JeORTVOingDKy4xmDQ7RXRh87lwHn4VA,848
+gambas/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gambas/tests/conftest.py,sha256=YCRSffmrEWeDlQJatebhN348tFXfbxjdP0aQLsBZsqY,2433
+gambas/tests/test_command.py,sha256=oZZn2S67kSqlN6QGaVAMiuQcWSfALynZp_rUBYEBMtE,1529
+gambas/tests/test_manager.py,sha256=Ji-z_fRbwP9b5mLShBcEcnrwmQPymi8iSwXAcN3dQQk,1058
+gambas/tests/test_validator.py,sha256=Bqw02U2Mr10swQYgCP1jGG7k27K8ayhyC4CGXEPRB6o,1778
+gambas-0.0.3.dist-info/LICENSE,sha256=EXy8oawp5GcJKU-_vDxrXX5W1hfHD6ezLxwmkk3Gzwk,1066
+gambas-0.0.3.dist-info/METADATA,sha256=hxQUZk7TJiqteMWmC_zvm85nwgxNNfdyK8O8Xd1mV5A,2181
+gambas-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gambas-0.0.3.dist-info/entry_points.txt,sha256=bZX40gAgBvcgxI819CPRQ-jGPJgv4E5uKY6Z789UnlU,44
+gambas-0.0.3.dist-info/top_level.txt,sha256=87BDbK9GkF6mOf9WMF2hmLox8cp_hDScvktxT3k2-oY,7
+gambas-0.0.3.dist-info/RECORD,,
