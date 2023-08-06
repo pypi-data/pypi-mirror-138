@@ -1,0 +1,9 @@
+dill
+context-verbose
+
+[documentation]
+pdoc3
+pyreverse
+
+[tests]
+pytest
