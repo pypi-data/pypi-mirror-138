@@ -1,0 +1,29 @@
+[project]
+name = "lazyaml"
+version = "6.0.3"
+description = "pyyaml for lazy version"
+long-description = "file: README.md"
+long-dyescription-content-tyype = "text/markdown"
+authors = [
+    { name = "teeaz", email = "teeaz@github.com" },
+]
+dependencies = []
+requires-python = ">=3.6"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/teeaz/lazyaml"
+
+[tool.pdm]
+includes = [
+    "README.md",
+    "yaml/*.py",
+]
+
+[build-system]
+requires = [
+    "pdm-pep517",
+]
+build-backend = "pdm.pep517.api"
