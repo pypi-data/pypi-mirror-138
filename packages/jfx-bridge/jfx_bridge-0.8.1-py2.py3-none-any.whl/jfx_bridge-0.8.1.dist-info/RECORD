@@ -1,0 +1,9 @@
+jfx_bridge/__init__.py,sha256=jbAujZprJN9PueGuEfZrz7V_0XyvD_lUipzHqPdCTvQ,32
+jfx_bridge/bridge.py,sha256=ebPk9fIJy1tRVDng6BS9y8H5v-MoFXq4HsSFzn8Tq4s,88702
+jfx_bridge/test_bridge.py,sha256=Ihs7Zk6QOZ8K3r5ObQR50HB0zeAmFveK-dphW5h679U,31531
+jfx_bridge/test_module.py,sha256=RquRKPTkNC5EQQTBmpNuylj6pgDZ9L0owTRsu8FqByY,383
+jfx_bridge-0.8.1.dist-info/LICENSE,sha256=kwXPAT5HekwFxiNba67J-6jiPfEz_461nwcXhXyVDr8,1067
+jfx_bridge-0.8.1.dist-info/METADATA,sha256=_C7y73YcV6kyqIOcS6Hn6xODIUdieXHbKszk0smYfIo,17278
+jfx_bridge-0.8.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+jfx_bridge-0.8.1.dist-info/top_level.txt,sha256=V7U2dnD2RVT7RUjPN7qzs4vTNPo7XCGusTC98w1XUwk,11
+jfx_bridge-0.8.1.dist-info/RECORD,,
