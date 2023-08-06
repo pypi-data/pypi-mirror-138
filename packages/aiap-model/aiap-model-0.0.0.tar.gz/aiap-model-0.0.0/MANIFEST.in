@@ -1,0 +1,12 @@
+include *.txt
+include *.md
+include *.pkl
+recursive-include ./Data
+recursive-include ./src
+
+exclude *.ipynb
+exclude *.pdf
+exclude .git*
+exclude submission_url_updated.txt
+
+recursive-exclude ./.pytest_cache
