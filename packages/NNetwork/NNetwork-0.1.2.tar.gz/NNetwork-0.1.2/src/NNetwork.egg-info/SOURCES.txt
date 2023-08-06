@@ -1,0 +1,15 @@
+.editorconfig
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/NNetwork/NNetwork.py
+src/NNetwork/__init__.py
+src/NNetwork/example.py
+src/NNetwork.egg-info/PKG-INFO
+src/NNetwork.egg-info/SOURCES.txt
+src/NNetwork.egg-info/dependency_links.txt
+src/NNetwork.egg-info/not-zip-safe
+src/NNetwork.egg-info/requires.txt
+src/NNetwork.egg-info/top_level.txt
