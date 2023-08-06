@@ -1,0 +1,7 @@
+README.md
+bpgfx.py
+setup.py
+braille_pattern_graphics.egg-info/PKG-INFO
+braille_pattern_graphics.egg-info/SOURCES.txt
+braille_pattern_graphics.egg-info/dependency_links.txt
+braille_pattern_graphics.egg-info/top_level.txt
