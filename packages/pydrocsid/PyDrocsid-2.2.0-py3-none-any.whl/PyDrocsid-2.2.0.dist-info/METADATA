@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: PyDrocsid
+Version: 2.2.0
+Summary: Python Discord Bot Framework based on pycord
+Home-page: https://github.com/PyDrocsid/library
+Author: Defelo
+Author-email: elodef42@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools (~=60.2)
+Requires-Dist: SQLAlchemy (~=1.4)
+Requires-Dist: PyYAML (~=6.0)
+Requires-Dist: py-cord (==2.0.0b4)
+Requires-Dist: aiohttp (~=3.8)
+Requires-Dist: sentry-sdk (~=1.5)
+Requires-Dist: aenum (~=3.1)
+Requires-Dist: aioredis (~=2.0)
+Requires-Dist: asyncpg (~=0.25)
+Requires-Dist: aiomysql (~=0.0.22)
+
+<p>
+
+  [![CI](https://github.com/PyDrocsid/library/actions/workflows/ci.yml/badge.svg)](https://github.com/PyDrocsid/library/actions/workflows/ci.yml)
+  [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+  [![Maintainability](https://api.codeclimate.com/v1/badges/cf9f606da13c20077022/maintainability)](https://codeclimate.com/github/PyDrocsid/library/maintainability)
+  [![PyPI](https://badge.fury.io/py/PyDrocsid.svg)](https://pypi.org/project/PyDrocsid/)
+  [![PyPI Downloads](https://pypip.in/d/PyDrocsid/badge.png)](https://pypi.org/project/PyDrocsid/)
+  [![Discord](https://img.shields.io/discord/637234990404599809.svg?label=Discord&logo=discord&logoColor=ffffff&color=7389D8)](https://discord.gg/zcmkZVC)
+
+</p>
+
+
+# PyDrocsid
+Python Discord Bot Framework based on Discord.py
+
+
