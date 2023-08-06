@@ -1,0 +1,16 @@
+autobr/__init__.py,sha256=3ruoMafkl7X2zTmH5015HjOO2BR9EHKg5IeQVWn9TH8,21
+autobr/autobr.py,sha256=Di7LKcwe63LOM_Wwpvi8sQBuI4RRUt6beH3t43pn8tw,3696
+autobr/baidu.py,sha256=iluS2MOMeWwIfrMJT8VUT5IeMvG9OeCsiyBt9kmOGmY,11275
+autobr/browser.py,sha256=jyv9DfrMLsWkeZmbpHcXXFzLF7rPCmAIZ8phAWh12-Q,2848
+autobr/fetch_list.py,sha256=V3cku25fqZDqIkj0dgpAv70W5T1wV0qdgZYJSzJ1d6U,6876
+autobr/fetch_text.py,sha256=4IazIrtxXMzv4LKGLNx5F5foXS1M7n5OyJcfMnaol_k,6966
+autobr/__pycache__/__init__.cpython-36.pyc,sha256=pglQc9Jv_Js0cch8qkW5F8fOMABKICPDutpoH9zPGnI,181
+autobr/__pycache__/autobr.cpython-36.pyc,sha256=9MM5DgU_bKhcW-b7hN-4jbxOo3beDghuI5fEKdlCGGs,2991
+autobr/__pycache__/baidu.cpython-36.pyc,sha256=aU0cdAAVaiGwzpUpjwWOjcmCBGXCk4czHXVKTDKK4xs,6294
+autobr/__pycache__/browser.cpython-36.pyc,sha256=mAHQxw5pgSFLvEBCle4TeIEVjIyE1MSlJgHduRhbW84,2183
+autobr/__pycache__/fetch_text.cpython-36.pyc,sha256=Goo9FuibEkebFn2QLepr6bPebpYqV82WBEIR834uzcg,4865
+autobr-0.0.4a0.dist-info/LICENSE,sha256=ajxCpFG1ZxRGDKhOE45GyYsTpVBwzw4xagnZYh2Uooc,1086
+autobr-0.0.4a0.dist-info/METADATA,sha256=sEoy70LgwzvYKcx6loWUvPRhu1hJbciS56_zwsxTpfU,1510
+autobr-0.0.4a0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+autobr-0.0.4a0.dist-info/top_level.txt,sha256=ZqcP4yCxU-rSUL5QbS0F6Qa5xX_U6XsVRUnLb6U_FfQ,7
+autobr-0.0.4a0.dist-info/RECORD,,
