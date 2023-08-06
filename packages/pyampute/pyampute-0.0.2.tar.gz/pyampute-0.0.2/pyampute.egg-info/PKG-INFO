@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pyampute
+Version: 0.0.2
+Summary: Transformer for generating multivariate missingness in complete datasets
+Home-page: UNKNOWN
+Author: Rianne Schouten,Davina Zamanzadeh,Prabhant Singh
+Author-email: r.m.schouten@tue.nl,davzaman@gmail.com,p.singh@tue.nl
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: docs
