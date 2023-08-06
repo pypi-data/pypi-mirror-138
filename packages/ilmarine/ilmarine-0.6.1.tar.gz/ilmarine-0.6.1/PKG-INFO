@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: ilmarine
+Version: 0.6.1
+Summary: ilmarine package for the internal pypi
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Description: ilmarine package for the internal pypi
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
