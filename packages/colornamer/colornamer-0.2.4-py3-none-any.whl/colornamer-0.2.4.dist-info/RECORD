@@ -1,0 +1,10 @@
+colornamer/__init__.py,sha256=wr8Ouxg5JG3MZcyExb8dlsQVmeGNsO0oO6Adg08RGbY,125
+colornamer/colornamer.py,sha256=GGPFZq28vCfAi3UBol2_47UQYijKEo1PyufB3QXBVlE,3562
+static/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+static/color_hierarchy.csv,sha256=n5XIwi6_yfmWytU9gypA88bW3JbDowFYezbIrmtCw_0,111452
+static/color_hierarchy.json,sha256=qeY6taP9OcSB0S_G0LVMAKyYf21C7XFN7t88cRfeRYs,464280
+colornamer-0.2.4.dist-info/LICENSE,sha256=7lC7eyt02B3veAY-ldfnL6s0hZ39uh9o510nYgcpI68,11347
+colornamer-0.2.4.dist-info/METADATA,sha256=CPxVoWxn9JaCymRNbRb8FZMcg9635-wlhxozUnOfDzo,693
+colornamer-0.2.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+colornamer-0.2.4.dist-info/top_level.txt,sha256=qoDm6A7shRrsF64XyGEKbBjRv9gX9Y9Ak75D3GdTwXM,18
+colornamer-0.2.4.dist-info/RECORD,,
