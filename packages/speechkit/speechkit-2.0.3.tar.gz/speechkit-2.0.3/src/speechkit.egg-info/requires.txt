@@ -1,0 +1,5 @@
+boto3
+requests
+grpcio-tools>=1.39.0
+pyjwt>=2.1.0
+cryptography
