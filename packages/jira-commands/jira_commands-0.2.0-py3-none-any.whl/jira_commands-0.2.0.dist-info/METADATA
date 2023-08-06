@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: jira-commands
+Version: 0.2.0
+Summary: Command line utilities for interacting with JIRA
+Author: Joe Block
+Author-email: jblock@zscaler.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: jira (>=3.1.1,<4.0.0)
+Requires-Dist: thelogrus (>=0.6.2,<0.7.0)
