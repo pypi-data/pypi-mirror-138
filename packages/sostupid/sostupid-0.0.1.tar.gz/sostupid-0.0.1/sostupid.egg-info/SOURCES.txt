@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+sostupid/sostupid.py
+sostupid.egg-info/PKG-INFO
+sostupid.egg-info/SOURCES.txt
+sostupid.egg-info/dependency_links.txt
+sostupid.egg-info/top_level.txt
