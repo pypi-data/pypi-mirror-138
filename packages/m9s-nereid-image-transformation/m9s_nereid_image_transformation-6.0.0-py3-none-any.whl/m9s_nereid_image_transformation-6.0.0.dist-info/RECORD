@@ -1,0 +1,12 @@
+trytond/modules/nereid_image_transformation/__init__.py,sha256=kLHnkadfkrRYdNEViN17qLl37IQbMPmng0Oin6wPr-Q,366
+trytond/modules/nereid_image_transformation/static_file.py,sha256=g3pijSIKDIKSqNTdIKp5bn_-wtePKP8ZW78MHJcuPLU,9306
+trytond/modules/nereid_image_transformation/tryton.cfg,sha256=bj3mPp9j5eXqdNJHZK77bT6q7czxGqv_1jjWENjQ9pQ,48
+trytond/modules/nereid_image_transformation/website.py,sha256=cyRgzPogWvzUkkm0qE4c6KQg34DjwtP2vSGXla2RU8c,759
+trytond/modules/nereid_image_transformation/tests/__init__.py,sha256=on8npIjT4Z0xfGgMl3srSnzL5FoPK8dx5UDD1qMDyBU,333
+trytond/modules/nereid_image_transformation/tests/test_nereid_image_transformation.py,sha256=-3EdlV9L3bYIfnzZtsPSlaB2Ya-bRVG-6UDbj-8baII,10471
+m9s_nereid_image_transformation-6.0.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+m9s_nereid_image_transformation-6.0.0.dist-info/METADATA,sha256=j1xNjQj7vBzClILVioPAH_yfLdotYLh88GJSxerh0uw,3596
+m9s_nereid_image_transformation-6.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+m9s_nereid_image_transformation-6.0.0.dist-info/entry_points.txt,sha256=YRG5dt0uCismUu0ekFmVU277ePk8WE1ej_VNogI-JLA,105
+m9s_nereid_image_transformation-6.0.0.dist-info/top_level.txt,sha256=1UNriCfRfjRjutJbJ_B8i13huVUoV_Otp9RlW3mCfw4,8
+m9s_nereid_image_transformation-6.0.0.dist-info/RECORD,,
