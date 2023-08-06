@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: spice-kernels
+Version: 0.1.7
+Summary: 
+Home-page: https://test.pypi.org/project/spice-kernels/
+Author: Steve Guest
+Author-email: steve.guest@stfc.ac.uk
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: astropy (>=4.3,<5.0)
+Requires-Dist: cmapy (>=0.6,<0.7)
+Requires-Dist: matplotlib (>=3.4,<4.0)
+Requires-Dist: numpy (>=1.20,<2.0)
+Requires-Dist: opencv-python (>=4.5.3,<5.0.0)
+Requires-Dist: scipy (>=1.6,<2.0)
+Requires-Dist: spiceypy (>=4.0.2,<5.0.0)
+Project-URL: Repository, https://test.pypi.org/project/spice-kernels/

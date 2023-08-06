@@ -1,0 +1,13 @@
+spice_kernels/__init__.py,sha256=ryAfvAaW7VM8g1gnCrFCPrXmcbbm99Xw44aLkwGZzaI,23
+spice_kernels/astro.py,sha256=KsbpSXh1AgbkJQvyat3n_WE_ErxIYN5kq9kylNBZ7es,763
+spice_kernels/cubes.py,sha256=Q7C7mVpYUNhJz0xzukUGUbZytEoYIrPg_T4JRFQTTDQ,133
+spice_kernels/limb_fit.py,sha256=LAcnFiDuDDwJ3Za97hanSc26O3wCwr5L3k46z0A4OGU,13518
+spice_kernels/movie.py,sha256=Z-K_GtswR_MHxu3ZAiCyKp9_UZoHt4NfdBNU63mu--8,6285
+spice_kernels/movie_read_fits.py,sha256=YCw250iJ7ZyVHCTXhEolA8TDewVE7ogX7-GQWO4o94A,828
+spice_kernels/orbit_cdf.py,sha256=n9QDo6bmhRJOO4Q5nwuexp4Jt1msIz-0N93EzHQ99vg,1049
+spice_kernels/spice_kernels.py,sha256=HozTxnrHyp8oMjoUlCJxE6aFrgCKoDZeoHp4GEQOC6E,9532
+spice_kernels/util.py,sha256=uURz56b3z2i3fQr_5A-Vr6nvy5FkWxAbajzOcbAoiXI,562
+spice_kernels-0.1.7.dist-info/entry_points.txt,sha256=8yVlw_QAUrpMrvg-om9XDk-urE_r79cI9fHas618N8o,65
+spice_kernels-0.1.7.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+spice_kernels-0.1.7.dist-info/METADATA,sha256=R1l1yaeEAMepHPbzfOJp8x2xL1aTLPW2bJSgMffSHi0,741
+spice_kernels-0.1.7.dist-info/RECORD,,
