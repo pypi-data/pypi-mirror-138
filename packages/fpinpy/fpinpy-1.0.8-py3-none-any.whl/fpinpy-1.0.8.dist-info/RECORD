@@ -1,0 +1,17 @@
+fpinpy/__init__.py,sha256=bnmSd8e8FpKSLjno7tEYzkHL1qmHrH3Ujc1WFqvbRIg,1275
+fpinpy/collections/__init__.py,sha256=vDH4SPVqQOcmNWLpkxijXw7DbE_p8rERFVjjKHdp1YM,1209
+fpinpy/collections/map.py,sha256=a_ub5wsTv-z2XMz8xmdF0RkuHGGYSFU2n5bMnx2cgHo,1637
+fpinpy/collections/singly_linked_list.py,sha256=Ag1tNbp0FKaL0_ska0nxJt-0ukWGIuA7QmxnF_SY5cs,10438
+fpinpy/meta/__init__.py,sha256=dXpI6awLQl8NG3e1KUCO6glatyRaI0PJ8-26XtTJj4g,60
+fpinpy/meta/decorators.py,sha256=XR3qJnxlTnBRwNhNdyKO9inOMn5rX5ztwHEBoZxyZ84,1383
+fpinpy/meta/singleton.py,sha256=okhbQYAnl2ZdNAKSgfTbosuksH6EW5n0xgF6yu5jMBg,360
+fpinpy/meta/type_info.py,sha256=WCb4AOo2YNI0wQWPzVtwmX74HqJkYVUlulHAmfGq-6s,1567
+fpinpy/readers/__init__.py,sha256=9WCyzatKi_FVyOciXBiTzq_MaaJb8490m0StGVUf7F4,1158
+fpinpy/readers/iniconfig.py,sha256=RsbB3YhBCEF5NUdKcYYqIUI5UVDk94cp6kGV1app9QI,2154
+fpinpy/result/__init__.py,sha256=NJ7QqZ9dRYX3zbEvXzq575BrGCz2Rp_dwTuRM6ZPRcA,1200
+fpinpy/result/result_using_bool_distinguisher.py,sha256=Rlz_xr_FwZK7J8HDvXp7pq7FSKyqiTuWYoMug910Nt0,6626
+fpinpy/result/result_using_subclass_distinguisher.py,sha256=mOPBfC5zKT6DP54IJgFyMm9Tln6CKv0aDGqL7F-RqEo,15297
+fpinpy-1.0.8.dist-info/METADATA,sha256=JmeRzvUVR7RTK86zPHM5XZpXx1c9sZuq-FHvaxZfnuw,1000
+fpinpy-1.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fpinpy-1.0.8.dist-info/top_level.txt,sha256=625L5XeV2tMhNiwOLwZOqGdXkszd1UAa1cOtOSxpS20,7
+fpinpy-1.0.8.dist-info/RECORD,,
