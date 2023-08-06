@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: AutoGator
+Version: 0.3.0
+Summary: A software package for camera-assisted motion control of PIC chip interrogation platforms.
+Home-page: https://github.com/BYUCamachoLab/autogator
+Author: Sequoia Ploeg
+Author-email: sequoia.ploeg@byu.edu
+License: MIT
+Project-URL: Source, https://github.com/BYUCamachoLab/autogator
+Project-URL: Tracker, https://github.com/BYUCamachoLab/autogator/issues
+Project-URL: Research Group, https://camacholab.byu.edu/
+Keywords: PyroLab,Pyro5,Pyro,lab,instrument,remote,resources,framework,laboratory,instrumentation,hardware,science,remote,network,integration,PIC,photonic integrated circuit
+Platform: Windows
+Platform: Linux
+Platform: Mac OS-X
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/BYUCamachoLab/autogator/master/docs/images/autogator.png" width="40%" alt="PyroLab">
+</p>
+
+<p align="center">
+<img alt="Development version" src="https://img.shields.io/badge/master-v0.3.0-informational">
+<a href="https://pypi.python.org/pypi/autogator"><img alt="PyPI Version" src="https://img.shields.io/pypi/v/autogator.svg"></a>
+<img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/autogator">
+<a href="https://autogator.readthedocs.io/"><img alt="Documentation Status" src="https://readthedocs.org/projects/autogator/badge/?version=latest"></a>
+<a href="https://pypi.python.org/pypi/autogator/"><img alt="License" src="https://img.shields.io/pypi/l/autogator.svg"></a>
+<a href="https://github.com/BYUCamachoLab/autogator/commits/master"><img alt="Latest Commit" src="https://img.shields.io/github/last-commit/BYUCamachoLab/autogator.svg"></a>
+</p>
+
+# Autogator 
+
+The Automatic Chip Interrogator, by Sequoia Ploeg ([BYU CamachoLab](https://camacholab.byu.edu/)).
+
+A software package for camera-assisted motion control and experiment 
+configuration of photonic integrated circuit interrogation platforms.
+
+## Installation
+
+This package is cross-platform and can be installed on any operating system.
+
+AutoGator is a client with algorithms for interacting with instruments 
+controlled by other softwares. It typically communicates with hardware using
+socket connections.
+
+It is recommended to use a virtual environment when installing Autogator. 
+To recreate the development environment, after manually installing the above packages, run:
+
+```
+pip install -r requirements.txt
+```
+
+## Dev Notes
+
+### Possible algorithm for calibrating the stage
+
+* Home the stages
+* Open up a controller to move the stage to some beginning position with some item on the screen
+* Make sure the zoom is set to 1x, or know what the zoom level is
+* Move the controller some distance in x, whether in the controller or predefined
+* Click where the object has moved to
+* Move the controller some distance in y, whether in the controller or predefined
+* Click where the object has moved to
+* Calculate the number of pixels and equate it to some physical distance
+
