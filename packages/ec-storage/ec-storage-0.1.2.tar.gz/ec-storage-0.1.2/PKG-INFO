@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ec-storage
+Version: 0.1.2
+Summary: ec-storage,it is used to replace the three copy storage strategy of HDFS, so as to save storage space
+Home-page: https://github.com/ChoiNgai/EC
+Author: CAIWEI
+Author-email: caiwei-email@qq.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ChoiNgai/EC/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# EC
+EC存储（ec-storage）模块
+
+> 源码文件目录：
+>  
+> - __init__.py                  主文件
+> - mathematics                 数据函数
+>      - galois.py              伽罗华域运算
+>      - generator_matrix.py    生成矩阵 
+
