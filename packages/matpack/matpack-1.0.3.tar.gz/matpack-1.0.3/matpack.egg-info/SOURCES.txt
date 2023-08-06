@@ -1,0 +1,10 @@
+LICENSE.txt
+README.txt
+setup.cfg
+setup.py
+matpack/__init__.py
+matpack/matpack.py
+matpack.egg-info/PKG-INFO
+matpack.egg-info/SOURCES.txt
+matpack.egg-info/dependency_links.txt
+matpack.egg-info/top_level.txt
