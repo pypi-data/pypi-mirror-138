@@ -1,0 +1,17 @@
+greatday/__init__.py,sha256=2WlksmqBd17IjeuvdE6DUBdR3j7_2gqaHxNpzHGRFCk,193
+greatday/__main__.py,sha256=uIxY_J80ZC-TGr7AiFGCDievhRBJpBqsBopW1aMQzrw,316
+greatday/_common.py,sha256=S5vJYQT1RcWQhRix5pxHHp8oVXkGMjCfsAvDVESiSJc,1065
+greatday/_config.py,sha256=EwY-435z6-ZlAeYcQo51bfZOFMripbS9BR7S5tp-eDk,1644
+greatday/_ids.py,sha256=1HAvCK2hw3M6b8HGxUqgNPRDDaqyVooPx4nuIDbKpHw,2191
+greatday/_repo.py,sha256=7-G-EquDVZk9DGdXPY1mLWqBPSKF7U1myp9TzCTU5FY,5009
+greatday/_runners.py,sha256=OB-1cdJpzqgcE_ct337djJsaV6F_LbkmkKIwlIqi9pM,5595
+greatday/_session.py,sha256=8530MzFkRNc0QWazeSIwEl7a-DB3waYPMupjrOFlLiA,3014
+greatday/_spells.py,sha256=c5Id55elJTDxbeyTxKJ9DLEisYQlUL12Y8qPsPtbuRY,4310
+greatday/_todo.py,sha256=5j46Y__TbfMstS-S1RQqZv3YPBN9fGhV0UXVypkA-30,748
+greatday/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+greatday/types.py,sha256=mWj-HUNFWRXfpEE7-HKVRHp_ExZSHKmEjISgB6HiGP0,197
+greatday-0.3.0.dist-info/METADATA,sha256=E3jTl-TTTmXhBc1vDHeP05_dQxQspJ_-hYxveBUM-Bg,8420
+greatday-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+greatday-0.3.0.dist-info/entry_points.txt,sha256=bGXiVbsPkzTnRMoC8tkvm0Y_mZgKkHvrNLCscto27HE,53
+greatday-0.3.0.dist-info/top_level.txt,sha256=SRhTxC9mL5GYidqkgorrfWw3RB4Je6shrWWlkt_KGgY,9
+greatday-0.3.0.dist-info/RECORD,,
