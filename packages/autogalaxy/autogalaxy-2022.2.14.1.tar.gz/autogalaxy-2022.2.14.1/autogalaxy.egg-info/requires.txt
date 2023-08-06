@@ -1,0 +1,6 @@
+colossus==1.2.14
+astropy>=3.0.0
+numpy>=1.18.0
+autoconf==2022.02.14.1
+autoarray==2022.02.14.1
+autofit==2022.02.14.1
