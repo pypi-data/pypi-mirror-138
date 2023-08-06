@@ -1,0 +1,12 @@
+LICENSE
+NOTICE
+README.md
+setup.cfg
+setup.py
+nornir_progressbar.egg-info/PKG-INFO
+nornir_progressbar.egg-info/SOURCES.txt
+nornir_progressbar.egg-info/dependency_links.txt
+nornir_progressbar.egg-info/requires.txt
+nornir_progressbar.egg-info/top_level.txt
+nornir_progressbar/plugins/runners/__init__.py
+nornir_progressbar/plugins/runners/progressbar.py
