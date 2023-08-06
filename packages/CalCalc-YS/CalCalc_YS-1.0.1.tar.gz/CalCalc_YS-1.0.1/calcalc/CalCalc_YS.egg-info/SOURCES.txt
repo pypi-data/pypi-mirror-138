@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+calcalc/CalCalc_YS.egg-info/PKG-INFO
+calcalc/CalCalc_YS.egg-info/SOURCES.txt
+calcalc/CalCalc_YS.egg-info/dependency_links.txt
+calcalc/CalCalc_YS.egg-info/requires.txt
+calcalc/CalCalc_YS.egg-info/top_level.txt
