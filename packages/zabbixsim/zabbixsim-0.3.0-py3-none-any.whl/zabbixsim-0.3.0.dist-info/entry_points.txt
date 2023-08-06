@@ -1,0 +1,4 @@
+[console_scripts]
+zabbixrec = zabbixsim.zabbixrec:main
+zabbixsim = zabbixsim.zabbixsim:main
+
