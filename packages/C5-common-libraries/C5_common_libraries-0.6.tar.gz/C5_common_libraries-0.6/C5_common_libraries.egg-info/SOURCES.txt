@@ -1,0 +1,10 @@
+LICENSE.txt
+README.txt
+setup.cfg
+setup.py
+C5_common_libraries/C5_common_libraries.py
+C5_common_libraries.egg-info/PKG-INFO
+C5_common_libraries.egg-info/SOURCES.txt
+C5_common_libraries.egg-info/dependency_links.txt
+C5_common_libraries.egg-info/requires.txt
+C5_common_libraries.egg-info/top_level.txt
