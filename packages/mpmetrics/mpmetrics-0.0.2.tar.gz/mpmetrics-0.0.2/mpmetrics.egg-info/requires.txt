@@ -1,0 +1,8 @@
+prometheus_client
+
+[flask]
+prometheus_flask_exporter
+
+[tests]
+hypothesis
+pytest
