@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+./adis/__init__.py
+./adis/adis.py
+./adis/adis_block.py
+./adis/adis_field_definition.py
+./adis/adis_file.py
+./adis/adis_lines.py
+./adis/adis_value.py
+adis.egg-info/PKG-INFO
+adis.egg-info/SOURCES.txt
+adis.egg-info/dependency_links.txt
+adis.egg-info/top_level.txt
