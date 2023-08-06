@@ -1,0 +1,14 @@
+# _*_ coding: utf-8 _*_
+#
+# hspylib v0.11.14
+#
+# Package: main.hspylib.modules.cli.application
+"""Package initialization."""
+
+__all__ = [
+  'application', 
+  'argument', 
+  'argument_chain', 
+  'option'
+]
+__version__ = '0.11.14'
