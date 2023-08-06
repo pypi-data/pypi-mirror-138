@@ -1,0 +1,7 @@
+README.md
+setup.py
+neofti_ticsummary.egg-info/PKG-INFO
+neofti_ticsummary.egg-info/SOURCES.txt
+neofti_ticsummary.egg-info/dependency_links.txt
+neofti_ticsummary.egg-info/requires.txt
+neofti_ticsummary.egg-info/top_level.txt
