@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+VERSION
+setup.py
+cairo_kernel/__init__.py
+cairo_kernel/__main__.py
+cairo_kernel/install.py
+cairo_kernel/kernel.py
+cairo_kernel/repl.py
+cairo_kernel/syntax_highlighting.py
+cairo_kernel.egg-info/PKG-INFO
+cairo_kernel.egg-info/SOURCES.txt
+cairo_kernel.egg-info/dependency_links.txt
+cairo_kernel.egg-info/requires.txt
+cairo_kernel.egg-info/top_level.txt
