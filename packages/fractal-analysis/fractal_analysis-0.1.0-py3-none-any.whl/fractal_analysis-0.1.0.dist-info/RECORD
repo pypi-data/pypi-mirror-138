@@ -1,0 +1,9 @@
+fractal_analysis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fractal_analysis/tester/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fractal_analysis/tester/critical_surface.py,sha256=WhEpopXU6OvlCiui_VeixQ_OGXwoc-93sIigmr783mw,3078
+fractal_analysis/tester/estimate_sigma.py,sha256=Q9NhZlujmtd1E8dsBxahTgN5D8ppPtkSw36sWeNPBMo,2116
+fractal_analysis/tester/series_tester.py,sha256=u7N7U2ny82SitaWIkqegpypLvuh1XKN1WgUNVw49wGo,3501
+fractal_analysis-0.1.0.dist-info/LICENSE,sha256=dKM0DKHHZ67SxUL2o7dJN17iVGRa9epZvz6ViamhQ-U,1066
+fractal_analysis-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+fractal_analysis-0.1.0.dist-info/METADATA,sha256=jiIUiNjVvYPRmI8cXyg9F1DT66D0ngiHvwdiaaCVeMc,363
+fractal_analysis-0.1.0.dist-info/RECORD,,
