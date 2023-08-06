@@ -1,0 +1,4 @@
+docopt
+inflection
+pynacl
+requests
