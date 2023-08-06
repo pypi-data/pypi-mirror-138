@@ -1,0 +1,17 @@
+kiraak/__init__.py,sha256=VxnB7AGtqrevGqZGWuWRdqA9oIxXHFH7pRfFJy-RpnU,234
+kiraak/__main__.py,sha256=zyG9RkP0zqpTT43SRWpy8z8e4LrDqs_hReeKJ4FqT5I,163
+kiraak/add_orders.py,sha256=78VJ7dymJs3V0LTV4iBAthWVO3kZKWE_AX25Xe8pC7o,1873
+kiraak/api.py,sha256=M6Gp7i6_NECSCp8lvmTPDC6MNFIzOsiQOMvMmSnDXiQ,4315
+kiraak/catalog.py,sha256=Ji74k5SfyLXAprOT-kKHme4JzzqN2TXJEFiA_rDn2iE,1009
+kiraak/cli.py,sha256=CcyWHvGxW-sfMQyXiONahXQZTNMNrGW6FyGytiI8L6g,832
+kiraak/config.py,sha256=ifobcfm-5PLPJahwYl_naAFCorGxvh0c6j-rD0jAHiU,2961
+kiraak/difflib.py,sha256=XpV5W36_sCZiYWmpZH5FGtItNVLo4P0ngUtYOgO-vhE,1738
+kiraak/get_catalog.py,sha256=eI1p8hAUNhhymLC44UiGWOfw3Bv-6klnjTTKBzSsR_4,1103
+kiraak/main.py,sha256=9sYbvo5MwXu5hKk04DWCHMmzPSLTH8h4hC5Uck-CPzE,1620
+kiraak/mapping.py,sha256=8bk4L2hsFGSpGg1MN30MWTVbbh5UhBswcCuIrshjEu4,2614
+kiraak/order.py,sha256=1sAExzi_oqicQzkg2-QKyeefQHDRjs-btyWxHYTuCFw,1618
+kiraakcli-2.0.0.dist-info/METADATA,sha256=zgquMkK6zE8Gp66j5eCMKDq7Ki-XDpNYzDyUUnsYheE,601
+kiraakcli-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kiraakcli-2.0.0.dist-info/entry_points.txt,sha256=4jhJJVERh5C6wBUrWHH2XoPUrjYAN3_kDKJPGm_2uic,51
+kiraakcli-2.0.0.dist-info/top_level.txt,sha256=LVEjiq5UJ1p7emh60sAMH0iHIqaKjohgN3xsMbme44Q,7
+kiraakcli-2.0.0.dist-info/RECORD,,
