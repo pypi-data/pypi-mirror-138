@@ -1,0 +1,3 @@
+[console_scripts]
+trying_dep_vuln = trying_dep_vuln.command_line:main
+
