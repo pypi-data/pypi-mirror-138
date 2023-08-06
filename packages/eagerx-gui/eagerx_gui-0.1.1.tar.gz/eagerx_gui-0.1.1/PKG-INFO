@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: eagerx-gui
+Version: 0.1.1
+Summary: GUI to visualise graphs in EAGERx.
+Author: Jelle Luijkx
+Author-email: j.d.luijkx@tudelft.nl
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyQt5 (>=5.15.6,<6.0.0)
+Requires-Dist: eagerx (>=0.1.0,<0.2.0)
+Requires-Dist: opencv-python (==4.3.0.36)
+Requires-Dist: pyqtgraph (>=0.11.1,<0.12.0)
