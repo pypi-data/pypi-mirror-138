@@ -1,0 +1,17 @@
+AUTHORS.md,sha256=frwXBfZsyQZ8-khR_hKY9LSogglUndPy94fVFl4A_9g,294
+HISTORY.md,sha256=CyW4WnSysf3pxoTXwtWIO_GWMhXNBO8SxCU4D3Lsi0E,243
+LICENSE,sha256=LX-nFUH8DKs2Qa2-10DhVFli8bkYpyHZrRvC-qN3kYY,1066
+minos/auth/__init__.py,sha256=vu7A7nssQ9FpC2zsAwUWmDx-Nn5piyx-H-84b17NJHI,280
+minos/auth/__main__.py,sha256=h_WjNEr44J2OGhLpiNbTrYG0bs3Z0zxoYk8WS0FL8PU,81
+minos/auth/cli.py,sha256=XgRMMYLw2b0QJQx8kMNOOJ_eLDMD72ZKg564HatI35U,1286
+minos/auth/config.py,sha256=KJ7JJaYOujeNZs86wjrKgCQcmAUf_y8aZUIw9U4oTlc,6501
+minos/auth/database/models.py,sha256=08FrxkJ-3HNemktE5IRN4xyTdExSMqhIckgq_uaKIwA,2148
+minos/auth/exceptions.py,sha256=o0CExKXm-iaYiiMYQCOhQ3yLqxRWlUcbxqgkP3_zR5Y,274
+minos/auth/handler.py,sha256=0GANONwSIQ2tO4-jvkAkyMvlRz1huIdEQ7n5bDkPrFU,13091
+minos/auth/launchers.py,sha256=pmJowNBG9RJVUVKhqVdfIBqLtxdAq8yyLQoT101UKIQ,1038
+minos/auth/service.py,sha256=-K-1_HJszXHcvOhLigKUU4ns0hebZKVq8TtsaEDFXEc,2713
+minos_auth-0.2.0.dist-info/entry_points.txt,sha256=X1uJU5mQbV922wWTtoZXfHyHwQwSzgu9Gn4D3DXdMX4,44
+minos_auth-0.2.0.dist-info/LICENSE,sha256=LX-nFUH8DKs2Qa2-10DhVFli8bkYpyHZrRvC-qN3kYY,1066
+minos_auth-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+minos_auth-0.2.0.dist-info/METADATA,sha256=LZsyDehcaPvk3cbzTNDJrHgG2H9utMxYtB6jdsJuT3c,3600
+minos_auth-0.2.0.dist-info/RECORD,,
