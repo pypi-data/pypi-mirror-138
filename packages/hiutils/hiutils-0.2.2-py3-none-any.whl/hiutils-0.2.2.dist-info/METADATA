@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: hiutils
+Version: 0.2.2
+Summary: Utilities for health informatics
+Home-page: https://github.com/dbeanm/hiutils
+Author: Dan Bean
+Author-email: daniel.bean@kcl.ac.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (~=1.21.4)
+Requires-Dist: pandas (~=1.3.4)
+Requires-Dist: scipy (~=1.7.2)
+Requires-Dist: statsmodels (~=0.13.0)
+
+# HIUTILS
+## A collection of utilities for health informatics
+
+This is pre-alpha, anything might change, i.e. not ready for production use. 
+
+## Application areas
+### Text annotation / NLP
+### Ontologies
+### Knowledge graphs
+### Statistics / summary data
+
+# Installation
+```
+pip install hiutils
+```
+
+
+# Annotations
+## Overview
+We assume that annotations are in the format:
+
+```
+{
+	document_id: {
+		entities: {
+			entitiy_id: {
+				...properties...,
+				cui : "concept_id",
+				meta_anns: {
+					'meta_ann_name': {'value': 'meta_ann_value',
+					'confidence': confidence,
+					'name': 'meta_ann_name'},
+					...other meta...
+				}
+			}
+		}
+
+	}
+}
+```
+
+## Basic process
+The aim is to:
+1. keep only some annotations based on context
+2. convert from document->concepts to patient->concepts
+3. limit to a subset of concepts relevant to our project
+4. group some specific concepts into more general concepts e.g. specific subtypes of a disease -> any occurence of a that disease
+
+To achieve these aims:
+* 1 filter by meta_anns:
+```
+filtered = hi.annotations.filter_anns_meta(anns, {'Subject': ['Other']}, inplace=False)
+```
+* 2 aggregate to patient level
+```
+agg = hi.annotations.aggregate_docs(filtered, item2doc=pt2doc)
+```
+* 3+4 group relevant concepts and drop other concepts
+```
+groups = {'Group 1': set(['286933003', '70582006']), 'My other group': set(['60046008'])}
+merged = hi.merge_concepts(agg, groups, keep_empty=False)
+```
+
