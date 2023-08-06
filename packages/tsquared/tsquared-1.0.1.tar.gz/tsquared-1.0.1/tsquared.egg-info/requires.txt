@@ -1,0 +1,4 @@
+numpy
+pingouin
+scikit-learn
+scipy

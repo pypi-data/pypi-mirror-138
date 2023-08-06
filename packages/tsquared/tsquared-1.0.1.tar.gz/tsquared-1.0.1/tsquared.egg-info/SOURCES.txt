@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+tsquared/__init__.py
+tsquared/hotelling_t2.py
+tsquared/myt_decomposition.py
+tsquared.egg-info/PKG-INFO
+tsquared.egg-info/SOURCES.txt
+tsquared.egg-info/dependency_links.txt
+tsquared.egg-info/requires.txt
+tsquared.egg-info/top_level.txt
