@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/Responsive_Slider_WordPress_Plugin.egg-info/PKG-INFO
+src/Responsive_Slider_WordPress_Plugin.egg-info/SOURCES.txt
+src/Responsive_Slider_WordPress_Plugin.egg-info/dependency_links.txt
+src/Responsive_Slider_WordPress_Plugin.egg-info/top_level.txt
