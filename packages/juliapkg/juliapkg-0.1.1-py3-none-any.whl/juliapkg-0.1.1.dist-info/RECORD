@@ -1,0 +1,12 @@
+juliapkg/__init__.py,sha256=mQXGcewyRYZ3_D8Sylkf_JQSJ7KefFdMTGGMzGU1aGg,92
+juliapkg/compat.py,sha256=M9keytHSSI8z7eb5dV8ntgzAu8NyaPu1E1w7tSkhk-Y,5608
+juliapkg/deps.py,sha256=U8z0tD4OClEi0YhDSycnxLI0a6QMSzqLYzAzRVm3w0I,12504
+juliapkg/find_julia.py,sha256=bWXpWgxR5sespxbiDACtL19IHw0zdxl09r9sVTPiiy4,4916
+juliapkg/install_julia.py,sha256=C8aJ_rzmU60PUcBPwOUYcL9zyyKgwhw-XrCpLsGJYUQ,6807
+juliapkg/juliapkg.json,sha256=N3ZQ1lsS_X8Ff2oUf9czFHxmAHmSoYNPjiWa8APur_Y,24
+juliapkg/state.py,sha256=enT76gxTMjPUmcjLy2V1NlZX_BwCoobCxA6I3TbxxX4,1541
+juliapkg-0.1.1.dist-info/LICENSE,sha256=qX_UwRpDjONp2kHjociHQzQ6H8AMfTaKYZoQK7bQSd4,1096
+juliapkg-0.1.1.dist-info/METADATA,sha256=nygnMHncfkFI0Sov58ZWfnrdJsdRYmV_ceuC17zTS9Y,2827
+juliapkg-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+juliapkg-0.1.1.dist-info/top_level.txt,sha256=YK-wy2_cCW8Nacd8hp7PNWvl8ncf_K3cd-lpMpqKeVU,9
+juliapkg-0.1.1.dist-info/RECORD,,
