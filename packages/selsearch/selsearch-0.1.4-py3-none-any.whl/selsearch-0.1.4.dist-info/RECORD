@@ -1,0 +1,13 @@
+selsearch/__init__.py,sha256=Wzf5T3NBDfhQoTnhnRNHSlAsE0XMqbclXG-M81Vas70,22
+selsearch/app.py,sha256=zg32NIFg_Zax-64aDkhGMCo1FMrBBuH-MguEaLN4yCM,894
+selsearch/environ.py,sha256=4dwCxK89Y6fT8e89l4LQNW59QDmxjwqN51qeI7dorUw,173
+selsearch/gui.py,sha256=Unz4QLr84dSOrIe079T5ujZ6IqdHf9PA3VsU6sBUS9c,506
+selsearch/main.py,sha256=V7KnKxBFR5s-whPllzgugWa_-nt8n5IeY0ZvaRG2VDk,266
+selsearch/search.py,sha256=KvXUX5Kc0LOZmojgvABB13yePTGFFutOAR-YdHrCWfE,178
+selsearch/selection.py,sha256=h8SyS4g_-G2GtxCc1u_Mg6Q8lMYCt6fjOmwg4Ll0gj0,619
+selsearch/where.py,sha256=MmbLSecaWkoHPQuo8NQAun3jbQI3gioBiTN7TXxPyag,823
+selsearch-0.1.4.dist-info/LICENSE.md,sha256=uJQLR_rUTKQEY2Aejug5Dg7b57kar4y6DWx8XQWPCRA,1067
+selsearch-0.1.4.dist-info/METADATA,sha256=NeyGgymmGSfl-85603DGoSLrWxuGMOSGDuxe2pCQcDg,3826
+selsearch-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+selsearch-0.1.4.dist-info/top_level.txt,sha256=lWlR-sxACr-otBBbKIC6LuK0j85BVZFLq2sPQGfFzi8,10
+selsearch-0.1.4.dist-info/RECORD,,
