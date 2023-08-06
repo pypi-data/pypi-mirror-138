@@ -1,0 +1,11 @@
+gimme_db_token/__init__.py,sha256=5shiDRXp2CyDiDH2IX5cnnd6EXWJlPEAfKD7AVLARSI,289
+gimme_db_token/__main__.py,sha256=4uVNhYhQTdrgTtVyaYXTxFJZ2qhfEdHDvreEcCLmDhY,6815
+gimme_db_token/_aws.py,sha256=1KX7UgCXr3_zubSGG6rCrs53Yb1ZjPV8r07RnpgMkKQ,6267
+gimme_db_token/_client.py,sha256=OiJbWQ9eB58YXUQ3MUJLu1pJKREkb4tqAxSXUekqH9o,2469
+gimme_db_token/_crypto.py,sha256=Vd8IoUkIzcTjVwwt54q1_6EgbOFrWk12SyG2IK9XMpk,1840
+gimme_db_token/_pgpass.py,sha256=xwyG2oJe7ioOEIjtSYSA81sUjnFq-nS6FR02sgXD5TU,1838
+gimme_db_token/_token.py,sha256=RSvRN4WhtkYKoPvWLlrs29irqKcp12FWXfRNyzd_szY,929
+cyral_gimme_db_token-0.8.0.dist-info/entry_points.txt,sha256=PxSDkng7WiKpCOvF-gHx5XM3KtMmBINQEgxyZFKRbz0,62
+cyral_gimme_db_token-0.8.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+cyral_gimme_db_token-0.8.0.dist-info/METADATA,sha256=ZdP7qGMeS0Zl04xmF5EpqzLBUymQYm5PPgBt1-h5bPE,607
+cyral_gimme_db_token-0.8.0.dist-info/RECORD,,
