@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: fractal-analysis
+Version: 0.1.0
+Summary: 
+Author: yujiading
+Author-email: yujia.ding@cgu.edu
+Requires-Python: >=3.9,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pandas (>=1.4.0,<2.0.0)
+Requires-Dist: scipy (>=1.8.0,<2.0.0)
+Requires-Dist: tqdm (>=4.62.3,<5.0.0)
