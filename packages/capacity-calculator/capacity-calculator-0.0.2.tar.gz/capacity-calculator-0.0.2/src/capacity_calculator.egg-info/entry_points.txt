@@ -1,0 +1,3 @@
+[console_scripts]
+capacity_calculator = capacity_calculator.main:main
+
