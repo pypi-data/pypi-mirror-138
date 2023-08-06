@@ -1,0 +1,53 @@
+[tool.mypy]
+mypy_path = "src"
+check_untyped_defs = true
+disallow_any_generics = true
+ignore_missing_imports = true
+no_implicit_optional = true
+show_error_codes = true
+strict_equality = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unreachable = true
+warn_unused_configs = true
+no_implicit_reexport = true
+
+[tool.pycln]
+all = true
+
+[tool.poetry]
+name = "mastodonamnesia"
+version = "0.2.3"
+description = "deletes old Mastodon toots"
+authors = ["marvin8 <marvin8@tuta.io>"]
+license = "AGPL-3.0-or-later"
+readme = "README.md"
+repository = "https://codeberg.org/MarvinsMastodonTools/mastodonamnesia"
+
+[tool.poetry.urls]
+"Changelog" = "https://codeberg.org/MarvinsMastodonTools/mastodonamnesia/src/branch/main/CHANGELOG.md"
+
+[tool.poetry.scripts]
+mastodonamnesia = "mastodonamnesia.command_line:start"
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+arrow = "^1.2.1"
+httpx = "^0.22.0"
+"Mastodon.py" = "^1.5.1"
+rich = "^11.0.0"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.16.0"
+pylint = "^2.12.2"
+flake8 = "^4.0.1"
+black = "^22.1.0"
+dlint = "^0.12.0"
+flake8-eradicate = "^1.2.0"
+mypy = "^0.931"
+tomli = "^2.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
