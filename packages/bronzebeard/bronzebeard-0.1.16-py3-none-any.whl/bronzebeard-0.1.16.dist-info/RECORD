@@ -1,0 +1,14 @@
+bronzebeard/__init__.py,sha256=gpecujmeHpAjX8ZHzgFJ7lk6vP2TkLS_2oefL6QOKWg,72
+bronzebeard/asm.py,sha256=0We9-kHyPFaPojnkc3yTKEdNeBJNrs7TYi9N0bAv3Hw,102049
+bronzebeard/dfu.py,sha256=loLjWqXK4nKlA5c8TgNLz_yMP5hbfT0r0GDgdFIyvRc,10425
+bronzebeard/definitions/ESP8266.asm,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bronzebeard/definitions/FE310-G002.asm,sha256=sZ2k5E4iOhlNcaj5Smc-amhj5QsPiMce-NeERIDnyDk,1472
+bronzebeard/definitions/GD32VF103.asm,sha256=QOuYAeCO1964_ebcHF5QwBdlbvAEe-AAH6ZqguJpHJE,14958
+bronzebeard/definitions/ST7735S.asm,sha256=CrlavmKkewyUudggaIyeLR3yREepDz9eFca0HkOnAXQ,490
+bronzebeard/libs/libusb-1.0.dll,sha256=s4Cug5CrPPXnSfwjNX5wpuQdEgoWVmj3i75AYpDPX84,289620
+bronzebeard-0.1.16.dist-info/LICENSE,sha256=dg6VE-tIGHzfaGLj3K1O-r1E3bv-emLUTYSSh2J7GJo,1070
+bronzebeard-0.1.16.dist-info/METADATA,sha256=4wyBwDYr2CHoNZptQmPDw7xM1j2wZRhmMo0T7Wbr_DI,3417
+bronzebeard-0.1.16.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bronzebeard-0.1.16.dist-info/entry_points.txt,sha256=RgOfD6Lv2jJWpV2qrV41AvTOgDXeq8B1EsRnXv_W-ks,101
+bronzebeard-0.1.16.dist-info/top_level.txt,sha256=9-OUqF5CM0DtAyi61BQZm3u_ixHrtN3Z9HAimmcyefA,12
+bronzebeard-0.1.16.dist-info/RECORD,,
