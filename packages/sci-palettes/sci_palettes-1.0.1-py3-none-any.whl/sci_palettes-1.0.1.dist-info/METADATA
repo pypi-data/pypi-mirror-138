@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: sci-palettes
+Version: 1.0.1
+Summary: sci palettes for matplotlib/seaborn
+Home-page: https://github.com/suqingdong/sci_palettes
+Author: suqingdong
+Author-email: suqingdong1114@gmail.com
+License: BSD License
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+
+# sci palettes for matplotlib/seaborn
+
+
+## Installation
+
+```bash
+python3 -m pip install sci-palettes
+```
+
+## Usage
+
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+import sci_palettes
+
+
+print(sci_palettes.PALETTES.keys())
+
+sci_palettes.register_cmap()          # register all palettes
+sci_palettes.register_cmap('aaas')    # register a special palette
+
+# methods for setting palette
+plt.set_cmap('aaas')
+plt.style.use('aaas')
+sns.set_theme(palette='aaas')
+sns.set_palette('aaas')
+
+sns.scatterplot(...)
+
+# set palette when plotting
+sns.scatterplot(..., palette='aaas')
+```
+
+> Full examples in [examples](https://suqingdong.github.io/sci_palettes/examples/test.py)
+
+## Gallery
+<details>
+    <summary>展开查看</summary>
+    <div>
+        <h3>AAAS</h3>
+        <img src="https://suqingdong.github.io/sci_palettes/examples/aaas.png" />
+    </div>
+    <div>
+        <h3>JAMA</h3>
+        <img src="https://suqingdong.github.io/sci_palettes/examples/jama.png" />
+    </div>
+    <div>
+        <h3>NPG</h3>
+        <img src="https://suqingdong.github.io/sci_palettes/examples/npg_nrc.png" />
+    </div>
+    <div>
+        <h3>JCO</h3>
+        <img src="https://suqingdong.github.io/sci_palettes/examples/jco.png" />
+    </div>
+    <div>
+        <h3>LANCET</h3>
+        <img src="https://suqingdong.github.io/sci_palettes/examples/lancet_lanonc.png" />
+    </div>
+</details>
+
+### Inspired by the R Package [ggsci](https://github.com/nanxstats/ggsci)
+
+
