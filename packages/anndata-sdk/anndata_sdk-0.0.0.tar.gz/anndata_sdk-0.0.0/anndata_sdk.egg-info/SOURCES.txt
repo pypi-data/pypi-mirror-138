@@ -1,0 +1,10 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+adata_sdk/__init__.py
+anndata_sdk.egg-info/PKG-INFO
+anndata_sdk.egg-info/SOURCES.txt
+anndata_sdk.egg-info/dependency_links.txt
+anndata_sdk.egg-info/requires.txt
+anndata_sdk.egg-info/top_level.txt
