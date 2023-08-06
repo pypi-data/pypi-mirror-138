@@ -1,0 +1,88 @@
+<html lang="en">
+	
+	<head>
+		<title>Gestion</title>
+		<link rel="stylesheet" type="text/css"  href="/static/css/stylesheet.css">
+	</head>
+
+<body>
+	{% block header %}
+	<div id="header" style='position:fixed; top: 0px; left:0px; right:0px; '>
+		<div style ="width:50%;display:inline-block;float:left; background-color:#AAFFAA;" >
+			<div style="float: left;padding: 4px;">
+				<b><a href="/projects">project:</a><a href="/home">{{config.PROJECT}}</a></b>	
+			</div>
+		</div>
+		
+		<div style ="width:50%;display:inline-block;float:left; background-color:#AAFFAA;" >
+			<div style="float: right;padding: 4px;">
+				user:<a href="/settings" ><b>{{config.USER}}</b></a> 
+			</div>
+		</div>
+		
+		<div style ="width:100%; display:inline-block;float:left; text-align: left; background-color:#AAFFAA;">
+			<div style="background-color:#EEE;padding: 4px; display:inline-block;">
+				<b><a>{{page.name.upper()}}</a></b>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div id="header-faux" style='position:static; top: 0px; left:0px; right:0px; '>
+		<div style ="width:50%;display:inline-block;float:left; background-color:#AAFFAA;" >
+			<div style="float: left;padding: 4px;">
+				project: <a><b>{{config.PROJECT}}</b></a>
+			</div>
+		</div>
+		
+		<div style ="width:50%;display:inline-block;float:left; background-color:#AAFFAA;" >
+			<div style="float: right;padding: 4px;">
+				user: <a href="/settings" ><b>{{config.USER}}</b></a> 
+			</div>
+		</div>
+		
+		<div style ="width:100%; display:inline-block;float:left; text-align: left; background-color:#AAFFAA;">
+			<div style="background-color:#FFFFFF;padding: 4px; display:inline-block;">
+				<b >{{page.name.upper()}}</b>	
+			</div>
+		</div>
+	</div>
+	{% endblock %}
+
+
+	<div id="content">
+	{% block content %}{% endblock %}
+	</div>
+
+
+	
+	<div id="footer">
+		{% block footer %}
+		<div style="position:fixed; background-color:#AAAAAA; width:100%; bottom:0; padding-bottom: 4px; padding-left: 4px; padding-right: 4px;">
+			<div style ="width:50%;display:inline-block;float:left;" >
+
+				<div style='float: left;padding: 4px;' class="{{ 'current' if  'queue' in request.path }}">
+					<a href="/queue"><b>queue</b></a>
+				</div>				
+				<div style='float: left;padding: 4px;' class="{{ 'current' if request.path[1:] == 'tasks' }}">
+					<a href="/tasks"><b>tasks</b></a> 
+				</div>
+				<div style='float: left;padding: 4px;' class="{{ 'current' if request.path[1:] == 'log' }}">
+					<a href="/log"><b>log</b></a> 
+				</div>
+	
+	
+	
+			</div>
+			<div style ="width:50%;display:inline-block;float:left;" >
+				<div style="float: right; padding: 4px;">
+					status:<b><a href="/toggle_status">{{config.STATUS}}</a></b>
+				</div>
+			</div>
+		</div>
+		{% endblock %}
+	</div>
+	
+
+</body>
+</html>
