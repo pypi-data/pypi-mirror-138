@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: emocodes
+Version: 1.0.13
+Summary: A library designed to accompany the EmoCodes system.
+Download-URL: https://github.com/catcamacho/emocodes/archive/refs/tags/v.1.0.0.tar.gz
+Author: M. Catalina Camacho
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: moviepy
+Requires-Dist: opencv-python
+Requires-Dist: matplotlib
+Requires-Dist: openpyxl
+Requires-Dist: pliers
+Requires-Dist: librosa
+Requires-Dist: python-magic-bin (==0.4.14)
+Requires-Dist: seaborn
+Requires-Dist: pingouin
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: markdown
+Requires-Dist: weasyprint
+
+UNKNOWN
+
