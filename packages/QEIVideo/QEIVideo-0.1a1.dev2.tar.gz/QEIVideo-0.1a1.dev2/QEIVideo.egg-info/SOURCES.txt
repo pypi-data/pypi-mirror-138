@@ -1,0 +1,16 @@
+MANIFEST.in
+requirements.txt
+setup.py
+QEIVideo.egg-info/PKG-INFO
+QEIVideo.egg-info/SOURCES.txt
+QEIVideo.egg-info/dependency_links.txt
+QEIVideo.egg-info/requires.txt
+QEIVideo.egg-info/top_level.txt
+gui/__init__.py
+gui/demo.py
+gui/ui_main_window.py
+tools/__init__.py
+ui/__init__.py
+ui/demo.py
+widget/PaintBoard.py
+widget/__init__.py
