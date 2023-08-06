@@ -1,0 +1,8 @@
+description: Allocation journalière de présence parentale (AJPP)
+metadata:
+  ux_name: AJPP
+  order:
+  - montant
+  - nombre_max_allocations_journalieres
+  - duree_allocation
+  description_en: "Daily parental presence allowance (AJPP): Amounts"
