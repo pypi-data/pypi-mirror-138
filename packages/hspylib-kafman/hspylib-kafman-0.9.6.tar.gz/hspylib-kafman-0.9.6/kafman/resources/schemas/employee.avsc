@@ -1,0 +1,43 @@
+{
+  "namespace": "example.avro",
+  "type": "record",
+  "name": "Employee",
+  "doc": "Represents an Employee at a company",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "age",
+      "type": "int"
+    },
+    {
+      "name": "role",
+      "type": [
+        "null",
+        {
+          "type": "enum",
+          "name": "Suit",
+          "symbols": [
+            "Manager",
+            "Developer",
+            "RH",
+            "PM",
+            "CEO"
+          ]
+        }
+      ],
+      "default": "Developer"
+    },
+    {
+      "name": "salary",
+      "type": "float"
+    },
+    {
+      "name": "active",
+      "type": "boolean",
+      "default": true
+    }
+  ]
+}
