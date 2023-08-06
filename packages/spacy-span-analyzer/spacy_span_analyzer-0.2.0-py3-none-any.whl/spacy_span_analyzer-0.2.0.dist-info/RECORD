@@ -1,0 +1,13 @@
+reproducibility/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reproducibility/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reproducibility/scripts/constants.py,sha256=9AuNj5kP3y7vIzEwl2sLSARNxJVDiJZ3SRDXWlOUaB4,134
+reproducibility/scripts/riqua.py,sha256=MqeWJHmq7FZ-sbOVRdtrF6dsfhdHBKHkrt0k4_-bhvI,3588
+spacy_span_analyzer/__init__.py,sha256=IcM4oI_A9JHNm-ePMNYY4z8UGvfqLDlj6O0p33pbsHI,63
+spacy_span_analyzer/analyzer.py,sha256=X864teZ6pkhG13YxW74MEvX6MRN1LvG23IOiBwf7-tk,9685
+spacy_span_analyzer/cli.py,sha256=b29vzblNWrnI3oT3yUJ6LJemuD_ZfTGGbHHFw3HbYEY,2797
+spacy_span_analyzer-0.2.0.dist-info/LICENSE,sha256=slWGE4_d6o5HyHbKfgbIu5Qp92Nl5gr-ojwcQ-lR_bA,1050
+spacy_span_analyzer-0.2.0.dist-info/METADATA,sha256=hA1XHRA3vQva8pnki1UlqDvxwL-FGklNkwT0mQbXJCk,3448
+spacy_span_analyzer-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+spacy_span_analyzer-0.2.0.dist-info/entry_points.txt,sha256=PgiTmY_ZDbN-bCVDNEKM17FnZHieKC9I_XyKkDbWuXE,68
+spacy_span_analyzer-0.2.0.dist-info/top_level.txt,sha256=1UJOLoEr0F33q67m1kGryB8Xo9kQsXZhkG7FDGYy9Nk,36
+spacy_span_analyzer-0.2.0.dist-info/RECORD,,
