@@ -1,0 +1,5 @@
+[run]
+source = trytond.modules.customs_value
+
+[report]
+omit = */tests/*,*/setup.py
