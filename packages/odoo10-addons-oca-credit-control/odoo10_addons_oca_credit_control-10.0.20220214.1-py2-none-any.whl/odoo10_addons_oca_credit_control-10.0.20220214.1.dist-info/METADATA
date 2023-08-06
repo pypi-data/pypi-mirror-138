@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: odoo10-addons-oca-credit-control
+Version: 10.0.20220214.1
+Summary: Meta package for oca-credit-control Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 10.0
+Requires-Dist: odoo10-addon-account-invoice-overdue-reminder
+Requires-Dist: odoo10-addon-account-invoice-overdue-warn
+Requires-Dist: odoo10-addon-account-invoice-overdue-warn-sale
+
+UNKNOWN
+
