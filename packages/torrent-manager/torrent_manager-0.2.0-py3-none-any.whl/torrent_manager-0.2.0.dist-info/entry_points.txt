@@ -1,0 +1,3 @@
+[console_scripts]
+tman = tman.__main__:main
+

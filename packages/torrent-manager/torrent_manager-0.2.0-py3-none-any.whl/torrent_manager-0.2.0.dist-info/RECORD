@@ -1,0 +1,10 @@
+tman/__init__.py,sha256=bpaj8cRzWovSw233XE4QbrhYC4TUhyB0FQEm8oO-2M8,205
+tman/__main__.py,sha256=cqqrodGZXu7Zz9tudwTW_3lmCPjGYpFUGHWi54j4REQ,312
+tman/_config.py,sha256=YYeY6GObMGcDnBr0f-7OERGxjapUz7SRFmkNMiR9cpQ,1996
+tman/_runners.py,sha256=QsgZKnGsgRS_A3R-CGJs3G0HxNR_l_xk2Igg5VI-2Vg,1759
+tman/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torrent_manager-0.2.0.dist-info/METADATA,sha256=ru_6ZwgmfY10QBl_5dQs4HC3O05Miu0RUEgmQ0UgKHo,6880
+torrent_manager-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+torrent_manager-0.2.0.dist-info/entry_points.txt,sha256=zgFPaC6cRCIIzO91iVdw7pLy9v7Gb89Z6hQOIounwwY,45
+torrent_manager-0.2.0.dist-info/top_level.txt,sha256=CsqE_Np611Bwopod4tFLRxNvx2j4r6xIDngmxxIexD8,5
+torrent_manager-0.2.0.dist-info/RECORD,,
