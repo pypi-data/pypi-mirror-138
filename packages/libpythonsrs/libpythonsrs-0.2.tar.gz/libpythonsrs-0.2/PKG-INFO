@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: libpythonsrs
+Version: 0.2
+Summary: Módulo para exemplificar construção de projetos Python no curso PyTools
+Home-page: https://github.com/Cicerossoares/libpythonsrs
+Author: Cicero S.Soares
+Author-email: ozctkz@gmail.com
+License: GNU AFFERO GENERAL PUBLIC LICENSE
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Pytest
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# libpythonpro
+Modulo para construÃ§Ã£o de projeto no curso Pytools
+Nesse curso Ã© ensinado a contribuiÃ§ao para projetos em codigo aberto
+Suporta versao 3 de python
+
+[![Updates](https://pyup.io/repos/github/Cicerossoares/libpythonsrs/shield.svg)](https://pyup.io/repos/github/Cicerossoares/libpythonsrs/)
+[![Python 3](https://pyup.io/repos/github/Cicerossoares/libpythonsrs/python-3-shield.svg)](https://pyup.io/repos/github/Cicerossoares/libpythonsrs/)
+
+````console
+python3 -m venv .venv
+.venv/Scripts/activate
+pip install -r requirements-dev.txt
+````
+Para conferir a qualidade do codigo
+
+````console
+flake8
+````
+
+
