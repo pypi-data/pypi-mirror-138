@@ -1,0 +1,8 @@
+README.rst
+setup.py
+gnnprinter/__init__.py
+gnnprinter/main.py
+gnnprinter.egg-info/PKG-INFO
+gnnprinter.egg-info/SOURCES.txt
+gnnprinter.egg-info/dependency_links.txt
+gnnprinter.egg-info/top_level.txt
