@@ -1,0 +1,3 @@
+[console_scripts]
+pandoc_cqu_thesis=pandoc_cqu_thesis:main
+
