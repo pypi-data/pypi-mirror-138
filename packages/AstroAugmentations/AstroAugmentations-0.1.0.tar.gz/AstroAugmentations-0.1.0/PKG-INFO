@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: AstroAugmentations
+Version: 0.1.0
+Summary: Augmentations for astronomical data sets
+Home-page: https://github.com/mb010/AstroAugmentations
+Author: Micah Bowles
+Author-email: micah.bowles@postgrad.manchester.ac.uk
+License: MIT License
+Project-URL: Bug Tracker, https://github.com/mb010/AstroAugmentations/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+License-File: LICENSE
+
+UNKNOWN
+

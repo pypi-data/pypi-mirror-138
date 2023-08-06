@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+./AstroAugmentations.egg-info/PKG-INFO
+./AstroAugmentations.egg-info/SOURCES.txt
+./AstroAugmentations.egg-info/dependency_links.txt
+./AstroAugmentations.egg-info/requires.txt
+./AstroAugmentations.egg-info/top_level.txt
+./astroaugmentations/__init__.py
+./astroaugmentations/augmentations.py
+./astroaugmentations/datasets/MiraBest_F.py
+./astroaugmentations/datasets/__init__.py
+./astroaugmentations/datasets/galaxy_mnist.py
+./astroaugmentations/utils/__init__.py
+./astroaugmentations/utils/kernel_creation.py
