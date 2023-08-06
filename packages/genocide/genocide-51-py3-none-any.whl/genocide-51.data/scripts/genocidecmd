@@ -1,0 +1,32 @@
+#!python
+# This file is placed in the Public Domain.
+
+
+"OTP-CR-117/19"
+
+
+import sys
+
+
+from genocide.hdl import Handler
+from genocide.krn import Cfg, kcmd
+
+
+import genocide.all
+
+
+Cfg.wd = "/var/lib/genocide/"
+
+
+class CLI(Handler):
+
+    def raw(self, txt):
+        print(txt)
+
+
+def main():
+    c = CLI()
+    kcmd(c, " ".join(sys.argv[1:]))
+
+
+main()
