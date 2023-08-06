@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+barfi/barfi.egg-info/PKG-INFO
+barfi/barfi.egg-info/SOURCES.txt
+barfi/barfi.egg-info/dependency_links.txt
+barfi/barfi.egg-info/requires.txt
+barfi/barfi.egg-info/top_level.txt
