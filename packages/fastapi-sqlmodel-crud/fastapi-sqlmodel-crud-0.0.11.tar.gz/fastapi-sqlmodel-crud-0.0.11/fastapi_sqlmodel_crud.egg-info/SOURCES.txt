@@ -1,0 +1,13 @@
+README.md
+setup.py
+fastapi_sqlmodel_crud/__init__.py
+fastapi_sqlmodel_crud/_base.py
+fastapi_sqlmodel_crud/_sqlmodel.py
+fastapi_sqlmodel_crud/parser.py
+fastapi_sqlmodel_crud/schema.py
+fastapi_sqlmodel_crud/utils.py
+fastapi_sqlmodel_crud.egg-info/PKG-INFO
+fastapi_sqlmodel_crud.egg-info/SOURCES.txt
+fastapi_sqlmodel_crud.egg-info/dependency_links.txt
+fastapi_sqlmodel_crud.egg-info/requires.txt
+fastapi_sqlmodel_crud.egg-info/top_level.txt
