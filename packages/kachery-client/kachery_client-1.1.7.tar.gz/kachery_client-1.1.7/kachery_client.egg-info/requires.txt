@@ -1,0 +1,5 @@
+click
+simplejson
+requests
+cryptography
+jinjaroot
