@@ -1,0 +1,16 @@
+qibojit/__init__.py,sha256=1mptEzQihbdyqqzMgdns_j5ZGK9gz7hR2bsgA_TnjO4,22
+qibojit/custom_operators/__init__.py,sha256=oKVukdhUvcL2F8NloN73GuiQZYZGh8NqmqTuTPpEurE,17717
+qibojit/custom_operators/gates.py,sha256=qqGjoJ5Z6-Gk31Rv03TBgv9sdEdlMp92_1_aS3azKuA,17925
+qibojit/custom_operators/ops.py,sha256=U04SwCokAgHm7yl56HFrhrs2wcxmSSfP3huSr_a1gbg,4864
+qibojit/custom_operators/platforms.py,sha256=LGCY_Oxc30l66-WN92pUAf3e8L9gmZb4tPafOkKaG1M,28290
+qibojit/custom_operators/raw_kernels.py,sha256=wG35ZyFMQWPhULZmnzvSi9G4DwNWiwgOYlFF1I9lRE4,15029
+qibojit/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qibojit/tests/conftest.py,sha256=cTiBEAoW-aUgEKSPery_FY08vuvzlaR-LGUI0aFZ_uc,760
+qibojit/tests/test_gates.py,sha256=4P2vjUHISEeuKQKix5niS6KbFTk9uDL8cNuQkgyalQ4,10556
+qibojit/tests/test_ops.py,sha256=jXm2nhpTpXFBFY6vcDn_UA2b-6NtmwAXrMZL4oPR9y0,8469
+qibojit/tests/test_platforms.py,sha256=Lj5m19MHIg7paYoIVkObwZHGyQZXioINb0JeFwJUMqQ,2585
+qibojit-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+qibojit-0.0.4.dist-info/METADATA,sha256=0xFcYzrTfX9Y27wW8wck-ZAPt99PTg7--F9m7le1LV0,1491
+qibojit-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+qibojit-0.0.4.dist-info/top_level.txt,sha256=rPwu4vKiGs0pTcshcNQx-_AtI84N8r_ieY_etsHUAyQ,8
+qibojit-0.0.4.dist-info/RECORD,,
