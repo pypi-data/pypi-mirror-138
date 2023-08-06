@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: GreenPonikSocksipyChain
+Version: 2.1.2
+Summary: A Python SOCKS/HTTP Proxy module
+Home-page: https://github.com/GreenPonik/PySocksipyChain
+Author: Bjarni R. Einarsson
+Author-email: bre@pagekite.net
+License: BSD
+Project-URL: Source, https://github.com/pagekite/PySocksipyChain
+Project-URL: Bug Reports, https://github.com/pagekite/PySocksipyChain/issues
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: six
+
+This Python module allows you to create TCP connections through a chain
+of SOCKS or HTTP proxies without any special effort. It also supports
+TLS/SSL encryption if the OpenSSL modules are installed.
+
+
