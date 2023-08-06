@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: rp_annot
+Version: 0.0.1
+Summary: Minimal compression library for sparse or contiguous 1D numpy boolean arrays
+Home-page: https://github.com/Abe404/rp_annot
+Author: Abraham George Smith
+Author-email: abe@abesmith.co.uk
+License: GPLv3
+Download-URL: https://github.com/Abe404/rp_annot/archive/refs/tags/0.0.1.tar.gz
+Description: # rp_annot
+        Minimal compression library for sparse or contiguous 1D numpy boolean arrays.
+        
+        Only depends on numpy
+        
+Keywords: numpy,compression,sparse,boolean
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
