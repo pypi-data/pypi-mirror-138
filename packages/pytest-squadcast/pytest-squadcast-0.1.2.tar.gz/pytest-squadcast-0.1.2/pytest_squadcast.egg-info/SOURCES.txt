@@ -1,0 +1,13 @@
+README.md
+setup.py
+pytest_squadcast/__init__.py
+pytest_squadcast/hooks.py
+pytest_squadcast/plugin.py
+pytest_squadcast/squadcast.py
+pytest_squadcast.egg-info/PKG-INFO
+pytest_squadcast.egg-info/SOURCES.txt
+pytest_squadcast.egg-info/dependency_links.txt
+pytest_squadcast.egg-info/entry_points.txt
+pytest_squadcast.egg-info/requires.txt
+pytest_squadcast.egg-info/top_level.txt
+pytest_squadcast/__pycache__/__init__.cpython-310.pyc
