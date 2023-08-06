@@ -1,0 +1,11 @@
+MR_Package/__init__.py,sha256=5Y0xfoAB-RyakOCAzm66X89e8CS-VsUv2FzVX6ubzI0,1553
+MR_Package/file_io.py,sha256=bRIFE_0FWbg2RdVdD2qmt40PyHBcMcOQezJDlaGN5nw,953
+MR_Package/logger.py,sha256=X5ckt6HpXTlOGCA26ByrExHD8D3lNOnNLaIsJt_DVhk,1891
+MR_Package/mail_log.py,sha256=yM64qZ56CLf4IdPHHPNsDTWPfFjxdIdzadsweLnWnYE,1889
+MR_Package/math.py,sha256=IJNnxW23HKpz7lb3pcnfTvhAcozUTmHVWNym4Iyxtxc,9028
+MR_Sidepackage/__init__.py,sha256=T-6JKk3lrMDBSDoqEQwxaFWyAcgRCaFaUtpOj5xubC0,23
+MR_Package-1.0.5.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+MR_Package-1.0.5.dist-info/METADATA,sha256=yJT4acoaBwP9fXVK8_a_ziU1kLP8N_K18qDgChUuFhE,746
+MR_Package-1.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+MR_Package-1.0.5.dist-info/top_level.txt,sha256=3abUnZo9baP196hB5cGDsGECE5B8lMHi86TaTlr-1K8,26
+MR_Package-1.0.5.dist-info/RECORD,,

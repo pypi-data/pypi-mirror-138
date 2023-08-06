@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: MR-Package
+Version: 1.0.5
+Summary: A small package for easy file IO and maths
+Home-page: https://github.com/manuraffl30/MR_Package
+Author: Manuel Alexander Christoph Raffl
+Author-email: manuraffl003@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/manuraffl30/MR_Package/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MR_Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
