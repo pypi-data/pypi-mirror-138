@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: roughrider.application
+Version: 0.2
+Summary: Run-of-the-mill WSGI application base with URL routing.
+Home-page: https://github.com/HorsemanWSGI/roughrider.application
+Author: Souheil CHELFOUH
+Author-email: trollfot@gmail.com
+License: ZPL
+Download-URL: http://pypi.python.org/pypi/roughrider.application
+Description: roughrider.application
+        **********************
+        
+        Base WSGI application using ``horseman`` nodes with routing capabilities.
+        
+        
+        Example
+        =======
+        
+        Below is an example of an application, handling a GET request on '/'
+        and returning a JSON response.
+        
+        .. code-block:: python
+        
+          from horseman.response import Response
+          from roughrider.application import Application
+        
+          app = Application()
+        
+          @app.routes.register('/')
+          def json(request):
+              return Response.to_json(body={'message': "Hello, world!"})
+        
+        CHANGES
+        =======
+        
+        0.2 (2022-02-11)
+        ----------------
+        
+          * Corrected the request `extract` method.
+        
+        
+        0.1 (2021-12-27)
+        ----------------
+        
+          * Initial release.
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Zope Public License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Provides-Extra: test
