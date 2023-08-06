@@ -1,0 +1,8 @@
+aws_regions/__init__.py,sha256=SPtu-nJ5YmZFHtO3i8_LtL8-jK-l3jgm0lM3TELXAIM,1179
+aws_regions/config.py,sha256=IVtTPGnW1vy0Dn7QGTBmMP0RQbyJVCvX7Sp1bkJS2O4,933
+aws_regions/endpoints.py,sha256=zs7K2lrseg_S0m1Mqp5VPHLiVtcYf9JcU6B7HqOcV6s,2410
+aws_regions-0.1.0.dist-info/LICENSE,sha256=wn5BUjl2HE0OKT3kLDQYm0CZ4G7HpjutaWVj6NOfar4,1065
+aws_regions-0.1.0.dist-info/METADATA,sha256=4Vq-H39mzYI5pq4SsHiRRKY4-sXH1_PWtCh0h7Pf8CQ,3414
+aws_regions-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_regions-0.1.0.dist-info/top_level.txt,sha256=p_fQbrHY_cQQnzsIUtaubF4EgnAlnnAcSMqI4iHvyRU,12
+aws_regions-0.1.0.dist-info/RECORD,,
