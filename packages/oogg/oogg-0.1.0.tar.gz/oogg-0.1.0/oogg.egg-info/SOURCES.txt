@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+oogg/__init__.py
+oogg/__main__.py
+oogg/main.py
+oogg.egg-info/PKG-INFO
+oogg.egg-info/SOURCES.txt
+oogg.egg-info/dependency_links.txt
+oogg.egg-info/entry_points.txt
+oogg.egg-info/top_level.txt
