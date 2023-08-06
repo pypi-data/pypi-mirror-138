@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: astro-gleam
+Version: 1.2.0
+Summary: Galaxy Line Emission and Absorption Modeling
+Author: Andra Stroe
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: astropy (>=4.0.1,<5.0.0)
+Requires-Dist: click (>=7.1.1,<8.0.0)
+Requires-Dist: colorama (>=0.4.3,<0.5.0)
+Requires-Dist: lmfit (>=1.0.0,<2.0.0)
+Requires-Dist: matplotlib (==3.3.4)
+Requires-Dist: numpy (>=1.21,<2.0)
+Requires-Dist: pydantic (>=1.6.2,<2.0.0)
+Requires-Dist: pyyaml (>=5.4,<6.0)

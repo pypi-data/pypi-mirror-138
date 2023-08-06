@@ -1,0 +1,13 @@
+gleam/__init__.py,sha256=G8r3H_6vb1SityTLfwWHMM4JEMvfzf0pvswpGCP7nCI,5020
+gleam/constants.py,sha256=gi0eqqHV6KhMuO7h2HVBy2pgcHvpJJB949vvqqUO-Rg,8593
+gleam/gaussian_fitting.py,sha256=BMJfVCe6dYsiMJLOj2TyTvt8irUFnFhkvBHD7YD9xMY,33130
+gleam/main.py,sha256=62rrkBWxc2c1PA_o8Wa6qNewzjn13KCBj_ss-fOEmQg,4872
+gleam/matplotlibparams.py,sha256=apAjOs5XjpkLaXm7eFcxHnO6If_77BeWPAaEBznOfqw,2009
+gleam/plot_gaussian.py,sha256=L-zQa7dTfatgYAx_HNrXaUTyc5IdTmz7WT0j8XpUUxc,15723
+gleam/read_files.py,sha256=zlc6dEdm4IlON_gR92Rg_1MZCKIGFlJv1u3IWGyWWCE,1532
+gleam/spectra_operations.py,sha256=KrBvYOSoewvL7oidCtXqIa22P9lza6Lhixe6H2e4HhQ,10726
+astro_gleam-1.2.0.dist-info/entry_points.txt,sha256=VG-Y3mucVFo0_ZJ-2SReccgH01fMdslsHnNoEyDzqbk,40
+astro_gleam-1.2.0.dist-info/LICENSE,sha256=jh95UJhzwtf1tSpiGf13LvKI2eXtO2vTZTwDYqUC_CA,1519
+astro_gleam-1.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+astro_gleam-1.2.0.dist-info/METADATA,sha256=zC1uT-WUfr1fUTcX7bn645FsoSITxhr5imMOoSYjNZ0,660
+astro_gleam-1.2.0.dist-info/RECORD,,
