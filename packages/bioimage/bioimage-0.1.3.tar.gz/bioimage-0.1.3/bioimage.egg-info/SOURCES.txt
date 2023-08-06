@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+bioimage/__init__.py
+bioimage/comparison.py
+bioimage/filters.py
+bioimage/glowing.py
+bioimage/io.py
+bioimage.egg-info/PKG-INFO
+bioimage.egg-info/SOURCES.txt
+bioimage.egg-info/dependency_links.txt
+bioimage.egg-info/requires.txt
+bioimage.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+beartype
+matplotlib
+pandas
+pycomfort
+more-itertools
+pims
+scikit-image
+jpype1
+opencv-python
+tifffile
