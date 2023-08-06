@@ -1,0 +1,3 @@
+[console_scripts]
+challtools = challtools.cli:main
+
