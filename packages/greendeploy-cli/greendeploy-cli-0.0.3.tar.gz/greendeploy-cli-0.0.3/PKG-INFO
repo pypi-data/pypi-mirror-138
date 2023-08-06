@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: greendeploy-cli
+Version: 0.0.3
+Summary: greendeploy-cli is a CLI for creating and using Dockerized Django projects.
+Home-page: https://github.com/greendeploy-org/greendeploy-cli/
+Author: GreenDeploy.io
+Author-email: developers@greendeploy.io
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: System :: Systems Administration
+Requires-Python: ~=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: local
+License-File: LICENSE
+
+# GreenDeploy
+
+GreenDeploy is a framework that makes it easy to build Dockerized Django projects
+by providing uniform templates.
+
+This is mostly a cli software.
+
