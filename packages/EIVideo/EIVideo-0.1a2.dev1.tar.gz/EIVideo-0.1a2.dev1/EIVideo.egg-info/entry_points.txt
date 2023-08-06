@@ -1,0 +1,2 @@
+[console_scripts]
+eivideo = eivideo.main:cli
