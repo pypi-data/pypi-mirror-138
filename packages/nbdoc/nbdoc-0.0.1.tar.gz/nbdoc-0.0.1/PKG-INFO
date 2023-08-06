@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: nbdoc
+Version: 0.0.1
+Summary: Generate beautiful, testable documentation with Jupyter Notebooks
+Home-page: https://github.com/outerbounds/nbdoc/tree/master/
+Author: Hamel Husain
+Author-email: hamel@outerbounds.com
+License: Apache Software License 2.0
+Keywords: documentation python jupyter notebook
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# nbdoc
+> Generate beautiful, testable documentation with Jupyter Notebooks
+
+
+This file will become your README and also the index of your documentation.
+
+## Install
+
+`pip install nbdoc`
+
+## How to use
+
+Fill me in please! Don't forget code examples:
+
+```python
+1+1
+```
+
+
+
+
+    2
+
+
+
+
