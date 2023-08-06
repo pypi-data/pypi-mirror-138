@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+doc_utils/__init__.py
+doc_utils/chunk_doc_utils.py
+doc_utils/doc_utils.py
+doc_utils/errors.py
+doc_utils/read_operator.py
+doc_utils/read_utils.py
+doc_utils/write_utils.py
+document_utils.egg-info/PKG-INFO
+document_utils.egg-info/SOURCES.txt
+document_utils.egg-info/dependency_links.txt
+document_utils.egg-info/requires.txt
+document_utils.egg-info/top_level.txt
