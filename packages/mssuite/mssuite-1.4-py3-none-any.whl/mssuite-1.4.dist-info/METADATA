@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mssuite
+Version: 1.4
+Summary: Collection of data analysis tools
+Author: Kevin Klann
+Author-email: klann@em.uni-frankfurt.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: statsmodels
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: DynaTMT-py
+Requires-Dist: seaborn
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
+UNKNOWN
+

@@ -1,0 +1,12 @@
+data/Annotation_data_human.txt,sha256=8QFjGwckQNcm3sFhY9u9XU_pUmmYFWs-KFD8SoAFulg,26952262
+data/Annotation_data_mouse.txt,sha256=0hFc_ReHGvcWja02AXraxVjEZ0NcrDrgIJdVh2x2P4o,23812736
+data/ReactomePathways.txt,sha256=eNMZ9HnbBD-cODx-R2iloQNf5t6IqaB9Zxbb1Xy4ZeE,1435344
+data/ReactomePathwaysRelation.txt,sha256=yvVJXVFHB1Exo9kYUQ86A72gQxanChXa7Cx3HPZyuss,583323
+data/UniProt2Reactome.txt,sha256=eJKnFA29g0R30bTDkvETNms4lVx9DApE7kPEMziawIg,37639138
+data/UniProt2Reactome_All_Levels.txt,sha256=Ute7LNwoXdtalehSZdDLOLsYApJcAvJB_3t9nIEzQRE,103112772
+mssuite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mssuite/mssuite.py,sha256=_pMXmTU2ZX0J7_07DuwQ8DECuf4J3OBlWSCS_FnaGZM,50192
+mssuite-1.4.dist-info/METADATA,sha256=kDxvIi7PZb9MjSm0S4ooVz3y5xDzFwOow8Firu7AbSE,534
+mssuite-1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mssuite-1.4.dist-info/top_level.txt,sha256=-o4jcP8E4jnJR1xIqhDh7W5jS1rVSg8pu4CUBfqFTzQ,8
+mssuite-1.4.dist-info/RECORD,,
