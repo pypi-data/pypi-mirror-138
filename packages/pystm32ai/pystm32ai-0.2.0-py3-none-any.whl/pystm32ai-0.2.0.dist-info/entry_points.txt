@@ -1,0 +1,3 @@
+[console_scripts]
+pystm32ai=pystm32ai.stm32ai:run
+
