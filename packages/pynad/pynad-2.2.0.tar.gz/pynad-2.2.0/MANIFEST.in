@@ -1,0 +1,3 @@
+include pynad/*.svg
+include pynad/help.html
+include changelog.txt

@@ -1,0 +1,159 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title>Pynad - Pesquisa Nacional Por Amostra de Domicilios Contínua</title>
+</head>
+<body lang="en-GB" link="#000080" vlink="#800000" dir="ltr"><h1 class="western">
+Instruções de uso</h1>
+<h2 class="western">Criar ou abrir uma <i>cópia local</i> e
+sincronizá-la com o servidor do IBGE</h2>
+<p>A <i>cópia local</i> é um arquivo em formato <i>zip</i> contendo
+os arquivos originais da Pnadc em microdados. Além dos arquivos
+originais da Pnadc, a <i>cópia local</i> contém uma pasta com os
+arquivos de metadados (dicionários de variáveis) e uma pasta com os
+arquivos de microdados convertidos para <i>csv</i>. Os arquivos <i>csv</i>
+são necessários para gerar os arquivos de painéis.</p>
+<p><b>O usuário não deve editar a <i>cópia local</i> manualmente,
+apenas extrair os arquivos.</b></p>
+<p>A partir do menu <b>Arquivo</b>, o usuário pode criar um <b>Novo</b>
+arquivo para armazenar a <i>cópia local</i>, ou <b>Abrir</b> um
+arquivo existente. O usuário pode manter várias cópias locais, mas
+o aplicativo só trabalha com uma de cada vez. Antes de abrir, o
+aplicativo verifica se o arquivo <i>zip</i> contém uma <i>cópia
+local</i> válida da Pnadc.</p>
+<p>Após criada, a <i>cópia local</i> está vazia. Para baixar os
+arquivos do IBGE, é preciso <b>Verificar</b> os arquivos no servidor
+do IBGE (menu <b>Sincronizar</b>). Após a verificação o aplicativo
+compara os arquivos remotos com os da <i>cópia local</i>, informa a
+quantidade de arquivos a serem atualizados, e pede para o usuário
+confirmar a atualização.</p>
+<p>Caso o usuário não deseje uma cópia integral da Pnadc, basta
+não atualizar a <i>cópia local</i> depois da verificação e fazer
+uma seleção dos arquivos desejados. Depois de fazer a seleção,
+deve usar a opção <b>Atualizar</b> (menu <b>Sincronizar</b>). Os
+arquivos que não foram selecionados passam a ser ignorados.</p>
+<p>Sempre que uma <i>cópia local</i> é aberta, ou após uma
+atualização, o aplicativo informa a data da última atualização
+abaixo do nome do arquivo que a contém.</p>
+<p>Quando uma cópia é aberta e não houve verificação dos
+arquivos remotos, a lista de arquivos remotos é a existente no
+servidor do IBGE na data da última atualização. Após a
+verificação, a lista de arquivos remotos é a atual. O aplicativo
+sempre informa o tempo transcorrido desde a última atualização
+para que o usuário não faça verificações desnecessárias.</p>
+<p>O aplicativo exibe também a situação de cada arquivo na <i>cópia
+local</i>:</p>
+<ul>
+	<li><p style="margin-bottom: 0mm"><b>Sincronizado</b>: o arquivo tem
+	o mesmo nome e tamanho na <i>cópia local</i> e no IBGE;</p>
+	<li><p style="margin-bottom: 0mm"><b>Baixar</b>: o arquivo existe no
+	IBGE, mas não na <i>cópia local</i>;</p>
+	<li><p style="margin-bottom: 0mm"><b>Remover</b>: o arquivo está
+	desatualizado;</p>
+	<li><p style="margin-bottom: 0mm"><b>I</b><b>gnorar</b>: o arquivo
+	não foi selecionado.</p>
+</ul>
+<p>O comando <b>Atualizar</b> (menu <b>Sincronizar</b>) baixa e
+remove os arquivos conforme a seleção e a situação.</p>
+<h2 class="western">Metadados da <i>cópia local</i></h2>
+<p>Sempre que a <i>cópia local</i> é atualizada, o aplicativo
+analisa os arquivos e cria uma pasta na <i>cópia local</i> chamada
+<b>metadados</b> que contém:</p>
+<ul>
+	<li><p style="margin-bottom: 0mm">cópias dos dicionários de
+	variáveis do IBGE (arquivos <i>xls</i>);</p>
+	<li><p style="margin-bottom: 0mm">arquivos <i>json</i> contendo a
+	lista dos microdados e dicionários na <i>cópia local</i>;</p>
+	<li><p>arquivos <i>json</i> contendo os dicionários de variáveis;</p>
+</ul>
+<p>As cópias dos dicionários do IBGE não possuem nada especial,
+apenas evitam ter de procurá-los em pastas diferentes da
+distribuição original.</p>
+<p>Os arquivos <i>json</i> contendo a lista de microdados só
+consideram os arquivos que possuem um dicionário. Isto é, se a
+<i>cópia local</i> tiver os microdados da Pnadc trimestral, mas não
+o dicionário correspondente, os arquivos de microdados serão
+desconsiderados (e vice-versa). Caso o usuário deseje manter uma
+<i>cópia local</i> parcial da Pnadc, é importante selecionar os
+dicionários dos arquivos de microdados escolhidos. Sem eles não é
+possível converter os microdados para <i>csv</i> e gerar os painéis.</p>
+<p>Os arquivos <i>json</i> contendo os dicionários de variáveis
+servem tanto para o próprio aplicativo gerar os arquivos <i>csv</i>
+e os painéis, quanto para o usuário que precise destas informações
+em um formato legível por linguagens de programação – uma vez
+que os arquivos originais do IBGE, além de estarem no antigo formato
+binário do Excel, possuem um layout para leitura por seres humanos
+que dificulta o seu processamento.</p>
+<p>Os metadados são gerados automaticamente sem nenhuma intervenção
+do usuário. Maiores detalhes sobre o conteúdo dos arquivos <i>json</i>
+e sugestões de uso são apresentados adiante.</p>
+<h2 class="western">Conversão dos microdados para <i>csv</i></h2>
+<p>Os arquivos de microdados da Pnadc são fornecidos com arquivos de
+texto formatado em registros com campos de comprimento fixo. Para ler
+estes arquivos, é necessário especificar as posições dos campos
+das variáveis do registro, seguindo os metadados fornecidos nos
+dicionários de variáveis.</p>
+<p>O aplicativo converte automaticamente os arquivos de microdados da
+<i>cópia local</i> para o formato <i>csv</i>, com base nos
+dicionários de variáveis. Para tanto, basta marcar a opção
+<b>Microdados em </b><i><b>csv</b></i> no menu <b>Ferramentas</b>.</p>
+<p>Desmarcar a opção remove os arquivos <i>csv</i> da <i>cópia
+local</i>.</p>
+<p>Os microdados em <i>csv</i> são armazenados na pasta <b>microdados</b>
+da <i>cópia local</i>.</p>
+<p>Quando a <i>cópia local</i> é atualizada, os microdados em <i>csv</i>
+também são atualizados de acordo com a necessidade. Junto com os
+microdados em <i>csv</i> são armazenados arquivos <i>json</i>
+contendo o nome dos arquivos de microdados e dicionários originais
+do IBGE.</p>
+<p>Os arquivos <i>csv</i> gerados pelo aplicativo têm os campos
+separados por vírgulas e o texto é codificado usando o padrão
+utf-8.</p>
+<p>Os pesos para estimar a variância com bootstrap (divulgados em
+dezembro de 2021) são armazenados em arquivo separados, e a unidade
+de observação é o domicílio, para gerar arquivos menores. Para
+utilizá-los, basta fazer um <i>merge</i> (<i>left join</i>) usando
+as variáveis de identificação do domicílio (upa, v1008 e v1014).</p>
+<h2 class="western">Criar ou atualizar um arquivo de painéis</h2>
+<p>Os arquivos de painéis são criados a partir da <i>cópia local</i>,
+que precisa ter os microdados em <i>csv</i>. Os microdados de painel
+são gerados em formato <i>csv</i>.</p>
+<p>Os painéis não são armazenados na <i>cópia local</i>, mas em
+outro arquivo <i>zip</i>. A partir do menu <b>Ferramentas</b>, o
+submenu <b>Painéis</b> oferece duas opções: <b>Novo</b> ou <b>Abrir</b>
+um arquivo com painéis.</p>
+<p>As duas opções pedem primeiro para o usuário escolher o local e
+o nome do arquivo novo ou existente. Depois, o aplicativo se
+encarrega de analisar a <i>cópia local</i> para identificar os
+painéis. Caso o arquivo <i>zip</i> aberto já contenha arquivos de
+painéis, o aplicativo os analisa para atualizar apenas aqueles para
+os quais há novos arquivos de variáveis suplementares, ou cujos
+arquivos originais foram atualizados.</p>
+<p>Se a <i>cópia local</i> for parcial, também é necessário que
+contenha ao menos um painel básico, formado por cinco trimestres
+consecutivos (microdados e dicionários de variáveis). Por exemplo,
+se a <i>cópia local</i> contiver os microdados dos quatro trimestres
+de 2012 e do primeiro trimestre de 2013, e o dicionário de variáveis
+trimestrais, haverá um painel; se a cópia também tiver os
+microdados de primeira visita de 2012, o painel incluirá as
+variáveis suplementares da primeira visita.</p>
+<p>Junto com os microdados de painéis são armazenados arquivos <i>json</i>
+contendo o nome dos arquivos de microdados e dicionários originais
+do IBGE.</p>
+<p>A separação, identificação e montagem dos painéis pode
+demorar consideravelmente no caso dos painéis que contam com muito
+arquivos de microdados com variáveis suplementares (Pnadc anual), e
+exige 16GB de memória RAM.</p>
+<h2 class="western">Sobre</h2>
+<p>Este aplicativo foi escrito por <b>Rafael Guerreiro Osorio</b>,
+pesquisador do <b>Ipea</b>, e não oferece garantias, use por sua
+própria conta e risco.</p>
+<p>Para usar os microdados da Pnadc, é fundamental ler a
+documentação fornecida pelo IBGE e dominar técnicas de
+processamento de microdados.</p>
+<p>Alterações na estrutura do servidor de arquivos do IBGE, ou
+mudanças na forma de distribuição da Pnadc podem tornar este
+aplicativo inoperante.</p>
+</body>
+</html>

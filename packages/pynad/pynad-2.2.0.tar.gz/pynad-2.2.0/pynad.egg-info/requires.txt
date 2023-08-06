@@ -1,0 +1,4 @@
+tablib
+xlrd
+xlwt
+pyqt5
