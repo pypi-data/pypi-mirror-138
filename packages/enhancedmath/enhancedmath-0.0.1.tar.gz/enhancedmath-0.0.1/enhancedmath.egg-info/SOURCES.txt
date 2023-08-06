@@ -1,0 +1,8 @@
+setup.py
+enhancedmath.egg-info/PKG-INFO
+enhancedmath.egg-info/SOURCES.txt
+enhancedmath.egg-info/dependency_links.txt
+enhancedmath.egg-info/requires.txt
+enhancedmath.egg-info/top_level.txt
+simplefunc/__init__.py
+simplefunc/func.py
