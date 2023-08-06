@@ -1,0 +1,11 @@
+README.md
+setup.py
+pyselpom/__init__.py
+pyselpom/conftest_example.py
+pyselpom/main.py
+pyselpom/windows_handlers.py
+pyselpom.egg-info/PKG-INFO
+pyselpom.egg-info/SOURCES.txt
+pyselpom.egg-info/dependency_links.txt
+pyselpom.egg-info/requires.txt
+pyselpom.egg-info/top_level.txt
