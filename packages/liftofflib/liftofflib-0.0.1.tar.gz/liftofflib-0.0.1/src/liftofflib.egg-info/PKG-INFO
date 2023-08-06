@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: liftofflib
+Version: 0.0.1
+Summary: Run your code with style!
+Author: Good practice inginir
+Author-email: goodpractice.inginir@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Hitting the run button can be nerve wracking from times to times...
+That's why I created this library to spice up your experience before hitting the run button!
+

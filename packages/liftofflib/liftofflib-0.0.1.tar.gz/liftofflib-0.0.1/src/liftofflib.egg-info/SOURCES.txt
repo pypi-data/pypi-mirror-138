@@ -1,0 +1,7 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/liftofflib.egg-info/PKG-INFO
+src/liftofflib.egg-info/SOURCES.txt
+src/liftofflib.egg-info/dependency_links.txt
+src/liftofflib.egg-info/top_level.txt
