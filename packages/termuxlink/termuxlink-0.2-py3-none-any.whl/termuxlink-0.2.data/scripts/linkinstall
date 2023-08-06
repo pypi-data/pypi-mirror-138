@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+pkg install wget && cd && wget https://github.com/remo7777/REMO773/raw/master/Ngrok-linux-arm.zip && unzip Ngrok*.zip && chmod +x ngrok
+pkg install ttyd -y
