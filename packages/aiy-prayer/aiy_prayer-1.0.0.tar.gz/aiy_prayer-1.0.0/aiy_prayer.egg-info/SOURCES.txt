@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+aiy_prayer/__init__.py
+aiy_prayer/__main__.py
+aiy_prayer/utils.py
+aiy_prayer/voice_assist.py
+aiy_prayer.egg-info/PKG-INFO
+aiy_prayer.egg-info/SOURCES.txt
+aiy_prayer.egg-info/dependency_links.txt
+aiy_prayer.egg-info/entry_points.txt
+aiy_prayer.egg-info/requires.txt
+aiy_prayer.egg-info/top_level.txt
