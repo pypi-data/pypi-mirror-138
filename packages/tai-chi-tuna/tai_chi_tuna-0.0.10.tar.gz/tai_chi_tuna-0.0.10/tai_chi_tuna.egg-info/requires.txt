@@ -1,0 +1,7 @@
+forgebox>=0.4.5
+jupyterlab_widgets
+ipywidgets
+Pillow>=6.2.0
+torch>=1.9.1
+pytorch-lightning>=1.3.6
+pandas
