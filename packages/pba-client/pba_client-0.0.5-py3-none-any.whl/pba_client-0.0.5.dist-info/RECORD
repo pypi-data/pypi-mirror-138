@@ -1,0 +1,8 @@
+pba_client/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pba_client/telegram_users/__init__.py,sha256=GeoJdO7Uz-cceupJVqH_xxthZIa8Jp1LiuVId1FPqNQ,31
+pba_client/telegram_users/basic_operations.py,sha256=Ou2c7AHhXbaY_YLlNS1Pwj8SBdweA3tCe1nRjR0mS4c,735
+pba_client-0.0.5.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+pba_client-0.0.5.dist-info/METADATA,sha256=7bZ64zEyFhgsTam7Ubwcxvn4EC9-gmr60kbYKn4X1js,1223
+pba_client-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pba_client-0.0.5.dist-info/top_level.txt,sha256=YXtGN6R5CCMOAZnUCdZUb2686ku10kzxoDuFYTglPdM,11
+pba_client-0.0.5.dist-info/RECORD,,
