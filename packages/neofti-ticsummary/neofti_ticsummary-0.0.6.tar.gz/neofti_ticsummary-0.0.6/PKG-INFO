@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: neofti_ticsummary
+Version: 0.0.6
+Summary: TIC data viewer
+Home-page: 
+Author: DmitryKorovkin
+Author-email: d.korovkin69@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Joint Institure for Nuclear Research
+
+Program for view data TIC NEOFTI
+
+by Korovkin Dmitry
+

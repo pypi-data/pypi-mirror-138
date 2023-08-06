@@ -1,0 +1,4 @@
+pyqtgraph
+numpy
+pyqt6
+wrapt_timeout_decorator
