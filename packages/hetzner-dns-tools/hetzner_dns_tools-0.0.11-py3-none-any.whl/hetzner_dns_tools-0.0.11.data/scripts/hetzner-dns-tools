@@ -1,0 +1,149 @@
+#!/bin/bash
+
+get_script_dir () {
+  SOURCE="${BASH_SOURCE[0]}"
+  # While $SOURCE is a symlink, resolve it
+  while [ -h "$SOURCE" ]; do
+    DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+    SOURCE="$( readlink "$SOURCE" )"
+    # If $SOURCE was a relative symlink (so no "/" as prefix, need to resolve it relative to the symlink base directory
+    [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE"
+  done
+  DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+  echo "$DIR"
+}
+dir_path=$(get_script_dir)
+
+
+function usage () {
+  echo "hetzner-dns-tools"
+  echo "Usage:  hetzner-dns-tools [zone|record] [action] [ -h | --help ]"
+  echo ""
+  echo "Actions: list create get delete"
+  echo ""
+  echo "Examples:"
+  echo "  - hetzner-dns-tools zone list"
+  echo "  - hetzner-dns-tools record list"
+  echo ""
+  echo "Setting parameters for requests:"
+  echo "  - Using command line flags"
+  echo "    - hetzner-dns-tools zone create --name your-domain.com"
+  echo "    - hetzner-dns-tools record get --zone-id your-zone-id --first-record-only"
+  echo "  - Using environment variables:"
+  echo "    - NAME=your-domain.com hetzner-dns-tools zone create"
+  echo "    - ZONE_ID=your-zone-id FIRST_RECORD_ONLY=1 hetzner-dns-tools zone get"
+  echo ""
+  echo "Type '-h' or '--help' after any action to view the help file for that action."
+  echo "  - e.g. hetzner-dns-tools zone get --help"
+  echo ""
+  echo "Typing any invalid hetzner-dns-tools command will display this help file."
+  echo ""
+}
+
+function invalid_arg_exit () {
+  echo "Invalid argument: '$3'"
+  echo ""
+  echo "To view the help files for this function, run: 'hetzner-dns-tools $noun $action --help'"
+  echo ""
+  echo "To view generic instructions for hetzner-dns-cli, run: 'hetzner-dns-tools --help'"
+}
+
+# save required args (noun and action) for later
+noun=$1
+action=$2
+help=$3
+
+# required args
+case $noun in
+  zone)
+    case $action in
+      list)
+        if [ "$help" == "-h" ] || [ "$help" == "--help" ]
+        then
+          SHOW_HELP=1 python3 -m hetzner_dns_tools.zone_list
+        elif [ "$help" == "" ]
+        then
+          python3 -m hetzner_dns_tools.zone_list
+        else
+          invalid_argument_exit
+        fi
+        ;;
+      create)
+        if [ "$help" == "-h" ] || [ "$help" == "--help" ]
+        then
+          SHOW_HELP=1 python3 -m hetzner_dns_tools.zone_create
+        elif [ "$help" == "" ]
+        then
+          python3 -m hetzner_dns_tools.zone_create
+        fi
+        ;;
+      get)
+        if [ "$help" == "-h" ] || [ "$help" == "--help" ]
+        then
+          SHOW_HELP=1 python3 -m hetzner_dns_tools.zone_get
+        elif [ "$help" == "" ]
+        then
+          python3 -m hetzner_dns_tools.zone_get
+        fi
+        ;;
+      delete)
+        if [ "$help" == "-h" ] || [ "$help" == "--help" ]
+        then
+          SHOW_HELP=1 python3 -m hetzner_dns_tools.zone_delete
+        elif [ "$help" == "" ]
+        then
+          python3 -m hetzner_dns_tools.zone_delete
+        fi
+        ;;
+      *)
+        usage
+        ;;
+    esac
+    ;;
+  record)
+    case $action in
+      list)
+        if [ "$help" == "-h" ] || [ "$help" == "--help" ]
+        then
+          SHOW_HELP=1 python3 -m hetzner_dns_tools.record_list
+        elif [ "$help" == "" ]
+        then
+          python3 -m hetzner_dns_tools.record_list
+        fi
+        ;;
+      create)
+        if [ "$help" == "-h" ] || [ "$help" == "--help" ]
+        then
+          SHOW_HELP=1 python3 -m hetzner_dns_tools.record_create
+        elif [ "$help" == "" ]
+        then
+          python3 -m hetzner_dns_tools.record_create
+        fi
+        ;;
+      get)
+        if [ "$help" == "-h" ] || [ "$help" == "--help" ]
+        then
+          SHOW_HELP=1 python3 -m hetzner_dns_tools.record_get
+        elif [ "$help" == "" ]
+        then
+          python3 -m hetzner_dns_tools.record_get
+        fi
+        ;;
+      delete)
+        if [ "$help" == "-h" ] || [ "$help" == "--help" ]
+        then
+          SHOW_HELP=1 python3 -m hetzner_dns_tools.record_delete
+        elif [ "$help" == "" ]
+        then
+          python3 -m hetzner_dns_tools.record_delete
+        fi
+        ;;
+      *)
+        usage
+        ;;
+    esac
+    ;;
+  *)
+    usage
+    ;;
+esac
