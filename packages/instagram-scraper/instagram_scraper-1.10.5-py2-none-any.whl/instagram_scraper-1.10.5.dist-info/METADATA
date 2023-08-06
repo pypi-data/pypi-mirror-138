@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: instagram-scraper
+Version: 1.10.5
+Summary: instagram-scraper is a command-line application written in Python that scrapes and downloads an instagram user's photos and videos. Use responsibly.
+Home-page: https://github.com/arc298/instagram-scraper
+Author: Richard Arcega
+Author-email: hello@richardarcega.com
+Maintainer: Alexander Nikolaev
+Maintainer-email: alexander@nikolaev.expert
+License: Public domain
+Download-URL: https://github.com/arc298/instagram-scraper/tarball/1.10.5
+Keywords: instagram,scraper,download,media,photos,videos
+Platform: UNKNOWN
+Requires-Dist: requests (>=2.18.4)
+Requires-Dist: tqdm (>=3.8.0)
+Requires-Dist: futures (==2.2)
+Requires-Dist: configparser
+
+UNKNOWN
+
+
