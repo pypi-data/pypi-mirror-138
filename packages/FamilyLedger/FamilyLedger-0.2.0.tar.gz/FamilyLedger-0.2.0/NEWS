@@ -1,0 +1,12 @@
+Family Ledger 0.2.0 (2022-02-08)
+
+  ADDED:
+    * Command line option '-r' or '--include-realm' to filter specific realms.
+    
+  CHANGES:
+    * Updates repository and contact information.
+
+Family Ledger 0.1.0 (2020-02-13)
+
+  CHANGES:
+    * Initial release.
