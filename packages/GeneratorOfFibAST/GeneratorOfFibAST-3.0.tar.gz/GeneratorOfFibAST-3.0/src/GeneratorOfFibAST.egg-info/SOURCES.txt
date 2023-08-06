@@ -1,0 +1,10 @@
+setup.py
+src/GeneratorOfFibAST/__init__.py
+src/GeneratorOfFibAST/astgraph.py
+src/GeneratorOfFibAST/fib.py
+src/GeneratorOfFibAST/main.py
+src/GeneratorOfFibAST.egg-info/PKG-INFO
+src/GeneratorOfFibAST.egg-info/SOURCES.txt
+src/GeneratorOfFibAST.egg-info/dependency_links.txt
+src/GeneratorOfFibAST.egg-info/requires.txt
+src/GeneratorOfFibAST.egg-info/top_level.txt
