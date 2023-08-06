@@ -1,0 +1,45 @@
+{
+  "_comment0": "This file is used by npm to specify the project and npm dependencies",
+  "name": "scenepic",
+  "version": "1.0.7",
+  "description": "3D Visualization Made Easy",
+  "author": "ScenePic Team",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microsoft/scenepic"
+  },
+  "keywords": [
+    "3D",
+    "visualization"
+  ],
+  "scripts": {
+    "compile": "tsc -p .",
+    "build": "node bundle.js",
+    "watch": "node watch.js"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.1",
+    "@types/gl-matrix": "^2.4.5",
+    "@types/jquery": "^3.3.32",
+    "@types/node": "^13.13.5",
+    "@types/pako": "^1.0.1",
+    "browserify": "^16.5.0",
+    "exorcist": "^2.0.0",
+    "file-saver": "^2.0.2",
+    "fs": "0.0.2",
+    "gl-matrix": "^3.1.0",
+    "jquery": "^3.5.1",
+    "jszip": "^3.7.1",
+    "make-dir": "^3.1.0",
+    "pako": "^1.0.11",
+    "tsify": "^4.0.1",
+    "typescript": "^3.7.5",
+    "uglifyify": "^5.0.2",
+    "watchify": "^4.0.0"
+  },
+  "dependencies": {
+    "npm": "^8.2.0"
+  }
+}
