@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+TheSeptaTimes/SeptaTimes.py
+TheSeptaTimes/__init__.py
+TheSeptaTimes/__main__.py
+TheSeptaTimes.egg-info/PKG-INFO
+TheSeptaTimes.egg-info/SOURCES.txt
+TheSeptaTimes.egg-info/dependency_links.txt
+TheSeptaTimes.egg-info/entry_points.txt
+TheSeptaTimes.egg-info/requires.txt
+TheSeptaTimes.egg-info/top_level.txt

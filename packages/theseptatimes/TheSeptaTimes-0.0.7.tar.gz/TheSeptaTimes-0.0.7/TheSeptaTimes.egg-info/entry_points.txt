@@ -1,0 +1,2 @@
+[console_scripts]
+tst = TheSeptaTimes.__main__:main
