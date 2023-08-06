@@ -1,0 +1,3 @@
+[console_scripts]
+svg2turtle = svg2turtle.cli:cmd
+

@@ -1,0 +1,8 @@
+svg2turtle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+svg2turtle/cli.py,sha256=CiwGEQMjiDtjTi2NbUd0Hhfct9iSsT33EmjYmwOrIIk,122
+svg2turtle/svg2turtle.py,sha256=BDMZx3N1lU0PJDrdQ45xSIGJu8z0TidK0UC4U9iuLBA,3812
+svg2turtle-1.0.0.dist-info/METADATA,sha256=M21i1jrm9SP1Q6dY3aG60wAK_Ax4oZeNRzSzDeeMZcg,367
+svg2turtle-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+svg2turtle-1.0.0.dist-info/entry_points.txt,sha256=xFvO561Gfa0E1xLTWyS_-8OD0p98UwLg9BkZgc4tg0c,51
+svg2turtle-1.0.0.dist-info/top_level.txt,sha256=rmE2KPokEBpTUTpT6SASUaVCL_Hv2fSx3ufFmN3cw9M,11
+svg2turtle-1.0.0.dist-info/RECORD,,

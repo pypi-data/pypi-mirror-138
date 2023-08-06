@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: svg2turtle
+Version: 1.0.0
+Summary: A tool to convert svg image to turtle script.
+Home-page: https://github.com/qhduan/svgToTurtle
+Author: QHDuan
+Author-email: mail@qhduan.com
+License: MIT
+Keywords: svg,svg path,svg.path,turtle
+Platform: any
+Description-Content-Type: text/markdown
+Requires-Dist: svgpathtools
+Requires-Dist: fire
+
+UNKNOWN
+
