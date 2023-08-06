@@ -1,0 +1,12 @@
+odoo/addons/base_rest_base_structure/README.rst,sha256=HePeeBL_vDWKBrnV_Y_EtXU-KP5Lm6Tapyfgz8RFi48,2651
+odoo/addons/base_rest_base_structure/__init__.py,sha256=197M_I93clhPKtSzF2M4JHGwATrG8Sbx81ekaZmxZiQ,49
+odoo/addons/base_rest_base_structure/__manifest__.py,sha256=m3utaeYdQvYzAMbtyQq3HlLm04hf0Yj6LXUBUeLS_dk,601
+odoo/addons/base_rest_base_structure/controllers/__init__.py,sha256=tVOVXlXwOmls_tY0Ioi6Vc2YnsY4YFkRNueOzI4qkLg,31
+odoo/addons/base_rest_base_structure/controllers/main_controllers.py,sha256=51sINMAnbDKP3po_SfykvH408rjjcHeZqa3k9tO08gc,395
+odoo/addons/base_rest_base_structure/models/api_services_utils.py,sha256=SDNnsO-celN2KGE6GR3yimCZNCionC4tpbMG_zwqT6U,1575
+odoo/addons/base_rest_base_structure/services/__init__.py,sha256=q9mgS1SGjx-FTMgn0ujvyQnHEKCRUaqdVksqcZ-2QI4,32
+odoo/addons/base_rest_base_structure/services/abstract_services.py,sha256=p5G1SnYOQSf-7Tcpr8nZFj4QJ01YalZAHpbaZozWpqc,547
+odoo12_addon_base_rest_base_structure-12.0.1.0.3.dist-info/METADATA,sha256=rg6tpLcbuDNpJbmy2S71_XppT_L34e386zsd5RLiEmE,3274
+odoo12_addon_base_rest_base_structure-12.0.1.0.3.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+odoo12_addon_base_rest_base_structure-12.0.1.0.3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_base_rest_base_structure-12.0.1.0.3.dist-info/RECORD,,
