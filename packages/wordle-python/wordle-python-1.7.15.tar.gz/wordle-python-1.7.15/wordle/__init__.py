@@ -1,0 +1,1 @@
+from wordle.wordle import Wordle
