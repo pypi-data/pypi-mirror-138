@@ -1,0 +1,14 @@
+simconnect/SimConnect.dll,sha256=VYHOwmwOzVbz1QQkebnUlo_jFpRZsX9Y9CkXW-N4fKg,60416
+simconnect/__init__.py,sha256=2zv5y5mJmlzovfiTR8i0cW7RmDovIbbLXCtBFwvfYXY,223
+simconnect/changedict.py,sha256=MdbLYUK398sZYUpoaFQUmCAfXHC1xhCrUD5eda7tgWY,1959
+simconnect/datadef.py,sha256=Fu1vWM_ET4ckhQIMnJPa14qe7GKsUgVqlQzxlayG14M,5557
+simconnect/receiver.py,sha256=Wt5W701EuDNoezmNcv4VQEwp8iPmyCYnAQtCQ2PNSNE,2226
+simconnect/sc.py,sha256=U7LrB6L1XVQkW-6efp3j8kCOpzcnvOZhwd_8l3FiA1c,8267
+simconnect/scdefs.py,sha256=iYYlYc1uBoc7p2qLGYAMXsDSb49E1KzMVA0E-l3go-I,43817
+simconnect/scvars.json,sha256=TOOZSlYX20ihMR55kuRfg77CDveksThd8wOgMcRdzxw,1664824
+simconnect/scvars.py,sha256=z-K2rd_UR76gPx2yaL7gzzixA5y2jbZKyAvY7AVri3I,3895
+pysimconnect-0.1.1.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+pysimconnect-0.1.1.dist-info/METADATA,sha256=rFee4y4GG4TgP0wfWrM-B30oc35DI9veL_5isaCdffo,6498
+pysimconnect-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pysimconnect-0.1.1.dist-info/top_level.txt,sha256=ZUif1ClS1yDhGVs7i3aGghBlvh5ViHis6GPMCv-Dzbs,11
+pysimconnect-0.1.1.dist-info/RECORD,,
