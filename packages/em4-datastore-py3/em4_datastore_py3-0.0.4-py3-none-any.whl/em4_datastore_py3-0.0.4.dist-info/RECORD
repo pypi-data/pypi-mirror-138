@@ -1,0 +1,16 @@
+entities/AdminAuthInformation.py,sha256=5A06YGCItYOatzpEn0NOlPQY3CdiKZInnYXoDGuwrbk,217
+entities/ClientInformation.py,sha256=U440Pb0EO82phFX14GLN9b_UU6IfTBWCsfoFYO78x8A,410
+entities/EmCarsDailyInformation.py,sha256=KVsBxuUuoIx_miORp0SqElFjptDVk216rPkchgcAFBA,319
+entities/EmCarsDailyRpt.py,sha256=oA2PAMavlv6Kay_JrfWSLNObHjS_QwHHi1R0oVXpBDY,5922
+entities/InsuranceInformation.py,sha256=rABS120_yea1Vgs68_RF349l7t4Ul84Cwh_z-kV8sJo,284
+entities/LastRunDate.py,sha256=lxpSbvgJhZXRLYAck-KC26E72j8u-lgJPCDWfQ4G-yM,181
+entities/StickerInformation.py,sha256=PA9yNXTIfM0d2VMj1y-ijuZuE8ICkREJ5T1UCZO4rsA,244
+entities/UserAuthInformation.py,sha256=8im96-oRfuRcYi9LM7EF_UAjjMJNP2dK6R2Dgx5gUoM,373
+entities/VehicleInformation.py,sha256=6gB_k9UvrbuNLAyOpjeBh1URiSwYrBWLNOiD03BMr1E,1004
+entities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+methods/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+methods/em4datastore.py,sha256=m_BvrtwWowZcOwmzI5ZyZFuWQttzXHZeOQvkxAEEMjA,44096
+em4_datastore_py3-0.0.4.dist-info/METADATA,sha256=b3cUofdStjxfGI--D0HDDfC7A_2uLwZS-tpUHgukjDg,1207
+em4_datastore_py3-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+em4_datastore_py3-0.0.4.dist-info/top_level.txt,sha256=qPkXtyvRtU5ykEKavvTfgFhROrE-UvSBRKNMEE_74hY,17
+em4_datastore_py3-0.0.4.dist-info/RECORD,,
