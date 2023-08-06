@@ -1,0 +1,13 @@
+kaze/__init__.py,sha256=6pFXnYGtU5Yd0QiBTbtoPnc3Bym7IerJFQwmdEg0HOU,1047
+kaze/curl_utils.py,sha256=_4gI_lLeu0vmpurSB3k_T_nFfDrhwiQ942zf8anaxuU,781
+kaze/file_utils.py,sha256=CtfILEk0PLFRO5LIU54v1UgBFYK0Dzpvhf-47MwUDp8,1734
+kaze/kaze_cli.py,sha256=wE0f28qnbpTSM3k_7zSsYepoAZUbQ-rRWq3G1-nQHmk,5136
+kaze/utils.py,sha256=XPiirD33gWngBTeVv1azAxESzvoDlIAWS4nC6qU63Xg,649
+kaze_specs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kaze_specs/test_kaze.py,sha256=JurdFABsUJ9XSUJaVZ1gj9bmnJ7bVAJP55VUoY4Nwhc,1450
+kaze-0.0.9.dist-info/LICENSE,sha256=7aeBUFBrKApC7DJHqrnGsPuy6pvZegzaTT-iJERVSW0,1047
+kaze-0.0.9.dist-info/METADATA,sha256=PfZoatj8Oc3DvoX-5B7wQ8mh56zkKKucNeGJX-_9tBQ,2746
+kaze-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kaze-0.0.9.dist-info/entry_points.txt,sha256=6m1k_Qh3b3F7ACi0F5S11eCPLR0sV0xkhDpwBSnmpf0,45
+kaze-0.0.9.dist-info/top_level.txt,sha256=wlN8J6_RXiaxG32Mhco7dPtPpli7rXSQqsZNN4-U9Ps,16
+kaze-0.0.9.dist-info/RECORD,,
