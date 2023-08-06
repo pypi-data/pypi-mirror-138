@@ -1,0 +1,17 @@
+LICENSE
+README
+pyproject.toml
+setup.cfg
+src/stringprocess/__init__.py
+src/stringprocess/processing.py
+src/stringprocess.egg-info/PKG-INFO
+src/stringprocess.egg-info/SOURCES.txt
+src/stringprocess.egg-info/dependency_links.txt
+src/stringprocess.egg-info/requires.txt
+src/stringprocess.egg-info/top_level.txt
+src/stringprocess.egg-info/zip-safe
+src/stringprocess/processors/__init__.py
+src/stringprocess/processors/converters.py
+src/stringprocess/processors/registry.py
+src/stringprocess/processors/removers.py
+src/stringprocess/processors/validators.py
