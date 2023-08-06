@@ -1,0 +1,14 @@
+pandas
+xlrd
+seaborn
+openpyxl
+pydantic
+aiohttp
+backoff
+boltons
+shapely<=1.7.1
+contextily
+matplotlib_scalebar
+mapclassify
+fsspec>=0.3.3
+movdata

@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: ecoscope
+Version: 0.0.1rc13
+Summary: Standard Analytical Reporting Framework for Conservation
+Home-page: http://github.com/walljcg/conservation-macroscope
+Author: Jake Wall
+Author-email: walljcg@gmail.com
+License: MIT
+Platform: Posix; MacOS X; Windows
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+
+========
+Ecoscope
+========
+
+Ecoscope is open-source analytical reporting framework for conservation.
+The project is still under active development.
+
+Copyright & License
+-------------------
+
+Ecoscope is licensed under BSD 3-Clause license. Copyright (c) 2021, wildlife-dynamics.
+
+
