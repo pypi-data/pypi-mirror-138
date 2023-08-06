@@ -1,0 +1,12 @@
+omfvista/__init__.py,sha256=7EShGTKZBgYQk6WoICpgnZ9xlAYoTr6xhmr2KdP37bQ,1198
+omfvista/lineset.py,sha256=uy9GwP2WJQXrLklQolsImslDaQX06mv0qy8lMw8g204,1029
+omfvista/pointset.py,sha256=4CWM4c0LH6TQO5ewOfDGR2x-jn8lGZYFOX0Am2Gi57E,798
+omfvista/surface.py,sha256=jlvAg8OlHxvreVrP8vxI26JF_t-JPzoO6sevCWDxC7Q,3053
+omfvista/utilities.py,sha256=7v72U5CcICfDl8jetUjZ5TFqOaUa95rDs5Skyvu_ZmY,2399
+omfvista/volume.py,sha256=tVo1fjBDdQrUCZjdzAzB7LJ7u0SyTbTi5wyEb-iioKo,2667
+omfvista/wrapper.py,sha256=1PRvAesA7JD0ztjLEnCHWDBVnNyLvsSCaXZIAPP4a8s,3598
+omfvista-0.2.4.dist-info/LICENSE,sha256=FsJYI52VcrH-sZtcXln66yu4T464etQK3gu2MT4m2Ys,1518
+omfvista-0.2.4.dist-info/METADATA,sha256=wDZ4SNac_oJWkjxvxzRBK7j9JdiQ1m4QGp4Ss8tBYAA,4910
+omfvista-0.2.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+omfvista-0.2.4.dist-info/top_level.txt,sha256=dOSwsNpKOf1Zv0HtWGl24hUs6VVaHkvwqTC1gZRGrx4,9
+omfvista-0.2.4.dist-info/RECORD,,
