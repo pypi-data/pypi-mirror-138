@@ -1,0 +1,3 @@
+[console_scripts]
+gtdb_validation_tk = gtdb_validation_tk.__main__:main
+
