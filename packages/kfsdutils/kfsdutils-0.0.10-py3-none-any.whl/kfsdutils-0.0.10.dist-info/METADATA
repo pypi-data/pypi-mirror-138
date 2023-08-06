@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kfsdutils
+Version: 0.0.10
+Summary: Sample Pkg
+Author: nathangokul
+Author-email: nathangokul111@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: netifaces
+Requires-Dist: PyYAML
+
+Sample Pkg
+
