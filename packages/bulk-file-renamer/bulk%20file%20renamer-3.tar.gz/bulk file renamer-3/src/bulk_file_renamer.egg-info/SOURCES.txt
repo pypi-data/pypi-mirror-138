@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/bulk_file_renamer.egg-info/PKG-INFO
+src/bulk_file_renamer.egg-info/SOURCES.txt
+src/bulk_file_renamer.egg-info/dependency_links.txt
+src/bulk_file_renamer.egg-info/top_level.txt

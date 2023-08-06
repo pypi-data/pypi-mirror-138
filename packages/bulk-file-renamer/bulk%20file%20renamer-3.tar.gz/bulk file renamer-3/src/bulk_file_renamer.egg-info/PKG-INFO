@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: bulk-file-renamer
+Version: 3
+Summary: bulk file renamer
+Home-page: https://payhip.com/b/AlZBY
+Author: bulk file renamer
+Author-email: bulk-file@renamer.io
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/issues
+Description: <h1></h1>
+        <p>
+        <p></p><div class="separator" style="clear: both; text-align: center;"><div class="separator" style="clear: both; text-align: center;"><a href="-" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="352" data-original-width="1149" height="1" src="-" width="1" /></a></div><br /><a href="https://payhip.com/b/AlZBY" rel="" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="Auto" data-original-width="Auto" src="https://images.payhip.com/o_1fs1gqvos13krrluavn1vf81hiam.jpeg" /></a></div><br />&nbsp;<br /><br /><p></p>
+        
+        # bulk file renamer
+        ```bash
+        pip3 bulk file renamer
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
