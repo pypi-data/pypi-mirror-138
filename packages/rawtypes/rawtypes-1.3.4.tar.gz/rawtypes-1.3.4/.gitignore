@@ -1,0 +1,11 @@
+/_build/
+/.venv/
+/dist/
+*.egg-info
+MANIFEST
+*.pyc
+__pycache__/
+/src/rawtypes/clang
+_version.py
+.eggs
+/tmp/
