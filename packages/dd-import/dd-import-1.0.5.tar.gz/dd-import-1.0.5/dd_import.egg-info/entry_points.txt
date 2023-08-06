@@ -1,0 +1,4 @@
+[console_scripts]
+dd-import-languages = dd_import.dd_import_languages:dd_import_languages
+dd-reimport-findings = dd_import.dd_reimport_findings:dd_reimport_findings
+
