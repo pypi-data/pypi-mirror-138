@@ -1,0 +1,12 @@
+scann/__init__.py,sha256=UVTOAAyvFOXgB2youZeb-NjWf2f-EFNu14OMasR32I8,147
+scann/scann_ops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scann/scann_ops/cc/_scann_ops.so,sha256=R2lEoOcAowG5s6_oDtq0486KFlYVFDdL51b-87Om6IU,24436056
+scann/scann_ops/cc/python/scann_pybind.so,sha256=NHNeswRu2xyYakArd3iovGlb2NBmMyBfXrnYwxGFa5E,21713616
+scann/scann_ops/py/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scann/scann_ops/py/scann_builder.py,sha256=3C0O4tnIounUTZEzK3_fsPJVRApZS7E_6Z7wehUOngU,8307
+scann/scann_ops/py/scann_ops.py,sha256=hXKXUJPzQmbK043JQqA5s-Nv1u0YoJCpP5Mm7KnxH8I,6031
+scann/scann_ops/py/scann_ops_pybind.py,sha256=Lu1ehoEfwtOVNuxwOYHHLPrlugmCIutvcooLZfaG_4Q,4136
+scann-1.2.5.dist-info/METADATA,sha256=nKMX70VEENCuqezaGZQ7Bcahre09L69aAN9gu2ttb9w,4437
+scann-1.2.5.dist-info/WHEEL,sha256=2qRqmgRpP_uIyr-c9f5_lz_BAdFqI_Jq82iXqmMuUeU,111
+scann-1.2.5.dist-info/top_level.txt,sha256=216aK1eZkqI_Uhw2LYvpW1ry6-0pjaUu0lKbqkQj_1s,6
+scann-1.2.5.dist-info/RECORD,,
