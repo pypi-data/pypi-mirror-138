@@ -1,0 +1,305 @@
+{% if not standalone %}{% extends "base.html" %}{% else %}{% extends "base_standalone.html" %}{% endif %}
+
+{% block page_content %}
+
+    <div class="row ">
+        <div class="col-lg-9 bokeh order-2 pl-lg-0">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="prospect-tab" data-toggle="tab" href="#prospect" role="tab" aria-controls="prospect" aria-selected="false">Prospect</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="articles-tab" data-toggle="tab" href="#articles" role="tab" aria-controls="articles" aria-selected="false">Articles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="table-tab" data-toggle="tab" href="#table" role="tab" aria-controls="datatable" aria-selected="false">Table</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="fit-tab" data-toggle="tab" href="#fit" role="tab" aria-controls="fit" aria-selected="true">Fit</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="prospect" role="tabpanel" aria-labelledby="prospect-tab">
+                  {{ bokeh_divs['prospect']|safe }}
+
+              <figure class="container">
+              <figcaption class="figure-caption mt-3">
+                <ul class="pl-4">
+                    <li>
+                      'Open' journals are those included in the <a href="https://doaj.org/" target="_blank">
+                      Directory of Open Access Journals (DOAJ)</a>. All other journals are considered 'closed'.
+                    </li>
+                    <li>
+                      'Closed' journals may have open access pathways. For details,
+                        follow <i class="fas fa-registered fa-fw text-primary"></i>
+                        Sherpa Romeo links in the <a class="text-primary cite-table" type="button">Table</a> tab.
+                    </li>
+                    <li>
+                        See <a class="text-primary cite-explore-prospect" type="button">Exploring the Results</a> for more info
+                        on the Prospect metric.
+                    </li>
+                </ul>
+              </figcaption>
+              </figure>
+
+              </div>
+
+              <div class="tab-pane fade" id="articles" role="tabpanel" aria-labelledby="articles-tab">
+                  <figure class="container">
+                  <figcaption class="figure-caption mt-2 mb-2">
+                    <ul class="pl-4 mb-0">
+                        <li>Scatter markers link to an article's PubMed article entry.</li>
+                        <li>See <a class="text-primary cite-explore-articles" type="button">Exploring the Results</a> for more info.</li>
+                    </ul>
+                  </figcaption>
+                  </figure>
+                  {{ bokeh_divs['icats']|safe }}
+              </div>
+
+              <div class="tab-pane fade" id="table" role="tabpanel" aria-labelledby="table-tab">
+                  <figure class="container">
+                  <figcaption id="caption-prospect" class="figure-caption mt-2 mb-2">
+                    <ul class="pl-4 mb-0">
+                      <li>Icons provide external links to NLM <i class="fas fa-landmark fa-fw"></i>,
+                        Sherpa Romeo <i class="fas fa-registered fa-fw"></i> (for open access pathways),
+                          and the Directory of Open Access Journals (DOAJ)
+                          <i class="fab fa-creative-commons fa-fw"></i>.</li>
+                      <li>See <a class="text-primary cite-explore-table" type="button">Exploring the Results</a> for more info.
+                      </li>
+                    </ul>
+                  </figcaption>
+                  </figure>
+                  {{ bokeh_divs['table']|safe }}
+              </div>
+              <div class="tab-pane fade" id="fit" role="tabpanel" aria-labelledby="fit-tab">
+                  {{ bokeh_divs['fit']|safe }}
+                  <figure class="container">
+                  <figcaption class="figure-caption mt-3">
+                    <ul class="pl-4">
+                    <li>'Open' journals are those included in the <a href="https://doaj.org/" target="_blank">
+                      Directory of Open Access Journals (DOAJ)</a>. All other journals are considered 'closed'.</li>
+                    <li>
+                      'Closed' journals may have open access pathways. For details,
+                        follow <i class="fas fa-registered fa-fw text-primary"></i>
+                        Sherpa Romeo links in the <a class="text-primary cite-table" type="button">Table</a> tab.
+                    </li>
+                        <li>See <a class="text-primary cite-explore-fit" type="button">Exploring the Results</a> for more info.</li>
+                    </ul>
+                  </figcaption>
+                  </figure>
+              </div>
+            </div>
+
+        </div>
+        <div id="sidebar-cards" class="col-lg-3 order-1 pr-lg-0">
+
+          <div class="card order-2 order-lg-1">
+              <div class="card-header">
+                  <button id="prefs-button" class="btn" disabled>
+                    Preferences
+                  </button>
+              </div>
+              <div class="card-body" id="prefs-div">
+                  <div class="d-flex">
+                      {{ bokeh_divs['prefs_widgets']|safe }}
+                      <div style="align-items: flex-end; margin-top: auto; padding-bottom: 5px;">
+                          <span data-toggle="tooltip" data-placement="top"
+                      title="Weight is used in Prospect calculation.
+                      See 'Exploring the Results' for more info.">
+                        <i class="fas fa-info-circle text-"></i>
+                          </span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div id="sidebar-accordion" class="order-1 order-lg-2">
+
+            <div class="card">
+              <div class="card-header" id="inputs-header">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#inputs-collapse"
+                          aria-expanded="true" aria-controls="inputs-collapse">
+                    Inputs
+                  </button>
+              </div>
+              <div id="inputs-collapse" class="collapse show" aria-labelledby="inputs-header" data-parent="#sidebar-accordion">
+                  <div class="card-body">
+                    <div id="input-summary">
+                      <p class="text-dark font-weight-bold">{{ query_title }}</p>
+                      <p class="text-sm text-justify small font-weight-light">{{ query_abstract }}</p>
+
+                      <div id="ris-name-div">
+                          <label for="ris-name" class="text-muted">References file:</label>
+                          <span id="ris-name">{{ query_ris }}</span>
+                      </div>
+
+                      <div id="jane_links" class="mt-2">
+                        <div id="hidden-jane-forms" style="display: none">
+                            {% import 'macros.html' as macros %}
+                            {{ macros.jane_form_inputs('jane-title', query_title) }}
+                            {{ macros.jane_form_inputs('jane-abstract', query_abstract) }}
+                        </div>
+{#                        <span><i class="fas fa-external-link-alt"></i>Jane results</span>#}
+                        <label for="jane-link-buttons" class="form-label text-muted">Jane results:</label>
+                        <div id='jane-link-buttons' class="btn-group btn-group-sm" role="group" aria-label="Jane buttons">
+                            <button form='jane-title' class="btn btn-outline-secondary" type="submit"><i class="fas fa-external-link-alt mr-1"></i>Title</button>
+                            <button form='jane-abstract' class="btn btn-outline-secondary" type="submit"><i class="fas fa-external-link-alt mr-1"></i>Abstract</button>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <div class="card">
+              <div class="card-header" id="about-header">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#about"
+                          aria-expanded="false" aria-controls="about">
+                    About
+                  </button>
+              </div>
+              <div id="about" class="collapse" aria-labelledby="about-header" data-parent="#sidebar-accordion">
+                <div class="card-body">
+                    {% include "_info_jane.html" %}
+                </div>
+              </div>
+            </div>
+
+              <div class="card">
+                  <div class="card-header" id="tips-header">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tips"
+                              aria-expanded="false" aria-controls="tips">
+                        Exploring the results
+                      </button>
+                  </div>
+                  <div id="tips" class="collapse" aria-labelledby="tips-header" data-parent="#sidebar-accordion">
+                    <div class="card-body">
+
+                      {% include '_info_summary.html' %}
+
+                      <h6 id="info-prospect-header">
+                        1. <a class="collapsed" data-toggle="collapse" href="#info-prospect"
+                                aria-expanded="false" aria-controls="inputs-collapse">
+                          Prospect
+                        </a>
+                      </h6>
+                      <div id="info-prospect" class="collapse" aria-labelledby="info-prospect-header">
+                        {% include "_info_prospect.html" %}
+                      </div>
+
+                      <h6 id="info-articles-header">
+                        2. <a class="collapsed" data-toggle="collapse" href="#info-articles"
+                                aria-expanded="false" aria-controls="inputs-collapse">
+                          Articles
+                        </a>
+                      </h6>
+                      <div id="info-articles" class="collapse" aria-labelledby="info-articles-header">
+                        {% include "_info_icats.html" %}
+                      </div>
+
+                      <h6 id="info-table-header">
+                        3. <a class="collapsed" data-toggle="collapse" href="#info-table"
+                                aria-expanded="false" aria-controls="inputs-collapse">
+                          Table
+                        </a>
+                      </h6>
+                      <div id="info-table" class="collapse" aria-labelledby="info-table-header">
+                        {% include "_info_table.html" %}
+                      </div>
+
+                      <h6 id="info-fit-header">
+                        4. <a class="collapsed" data-toggle="collapse" href="#info-fit"
+                                aria-expanded="false" aria-controls="inputs-collapse">
+                          Fit
+                        </a>
+                      </h6>
+                      <div id="info-fit" class="collapse" aria-labelledby="info-fit-header">
+                        {% include "_info_fit.html" %}
+                      </div>
+
+                    </div>
+                  </div>
+              </div>
+
+              <div class="card">
+                  <div class="card-header" id="sources-header">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#sources"
+                              aria-expanded="false" aria-controls="sources">
+                        Data sources
+                      </button>
+                  </div>
+                  <div id="sources" class="collapse" aria-labelledby="sources-header" data-parent="#sidebar-accordion">
+                    <div class="card-body">
+                        {% include "_info_sources.html" %}
+                    </div>
+                  </div>
+              </div>
+
+            </div>
+
+
+        </div>
+    </div>  {#  end sidebar+plots row  #}
+
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+{{ bokeh_js|safe }}
+<script>
+    const scroll_fn = ($parent, $child) => {
+        const dist_from_header_top = $child.position().top;
+        const card_header_height = $child.offsetParent().children().first().height();
+        const dist_from_header = dist_from_header_top - card_header_height;
+        const hidden = $parent.scrollTop()
+        const scroll_dist = dist_from_header + hidden;
+        $parent.animate({scrollTop: scroll_dist}, 800, 'swing');
+        }
+
+    $(function () {
+        $('a.cite-table').click( e => {
+            $('#table-tab').click();
+        });
+        $('a.cite-explore-prospect').click( e => {
+            $('#tips').collapse('show');
+            $('#info-prospect').collapse('show');
+            scroll_fn($('#tips .card-body'), $('#info-prospect-header'));
+        });
+        $('a.cite-explore-table').click( e => {
+            $('#tips').collapse('show');
+            $('#info-table').collapse('show');
+            scroll_fn($('#tips .card-body'), $('#info-table-header'));
+        });
+        $('a.cite-explore-articles').click( e => {
+            $('#tips').collapse('show');
+            $('#info-articles').collapse('show');
+            scroll_fn($('#tips .card-body'), $('#info-articles-header'));
+        });
+        $('a.cite-explore-fit').click( e => {
+            $('#tips').collapse('show');
+            $('#info-fit').collapse('show');
+            scroll_fn($('#tips .card-body'), $('#info-fit-header'));
+        });
+
+        let timer = setInterval(function () {
+            let attempts = 0;
+            const table_cells = $('.slick-cell');
+            const tooltip_objs = $('[data-toggle="tooltip"]');
+            if (table_cells.length > 0) {
+                clearInterval(timer);
+                console.log("Initializing tooltips.");
+                tooltip_objs.tooltip();
+            } else {
+                attempts++;
+                if (attempts > 100) {
+                    clearInterval(timer);
+                    console.log("Giving up on tooltip initialization.");
+                    return;
+                }
+                console.log(`No table cell elements yet (attempt ${attempts}).`);
+            }
+        }, 1000)
+    })
+</script>
+{% endblock %}
