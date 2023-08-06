@@ -1,0 +1,13 @@
+README.md
+setup.py
+abstractTrade-simpleTrade/__init__.py
+abstractTrade-simpleTrade/lib/__init__.py
+abstractTrade-simpleTrade/lib/initialization.py
+abstractTrade-simpleTrade/lib/rates.py
+abstractTrade-simpleTrade/lib/tick.py
+abstractTrade-simpleTrade/lib/timeframe.py
+abstractTrade-simpleTrade/lib/trade.py
+abstractTrade_simpleTrade.egg-info/PKG-INFO
+abstractTrade_simpleTrade.egg-info/SOURCES.txt
+abstractTrade_simpleTrade.egg-info/dependency_links.txt
+abstractTrade_simpleTrade.egg-info/top_level.txt
