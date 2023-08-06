@@ -1,0 +1,13 @@
+beautifulsoup4==4.*
+requests==2.*
+woodchips==0.2.*
+
+[dev]
+black
+coveralls==3.*
+flake8
+isort
+mypy
+pytest==7.*
+pytest-cov==3.*
+types-requests
