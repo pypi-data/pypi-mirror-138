@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: calcalc-js
+Version: 1.0.1
+Summary: A package that serves as an all purpose calculator.
+Home-page: https://github.com/James11222/Astro250/tree/main/HW3
+Author: James Sunseri
+Author-email: jamessunseri@berkeley.edu
+License: MIT
+Project-URL: Bug Reports, https://github.com/James11222/Astro250/issues
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Check out my Website!, http://www.jamessunseri.com
+Project-URL: Source, https://github.com/James11222/Astro250/tree/main/HW3/calcalc/
+Keywords: calculator,simple,berkeley,cal,js
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests
+
+# CalCalc [![codecov](https://codecov.io/gh/James11222/Astro250/branch/main/graph/badge.svg?token=201P7AUCT9)](https://codecov.io/gh/James11222/Astro250)
+
+Welcome to the coolest calculator you have ever used in python! Ask it any question your heart desires. Start small with simple math, but feel free to branch out and ask it more difficult questions. You might be wondering what the mass of the moon is, or what the average life expectancy of people in Germany is, or maybe you might be wondering... what is the meaning of life? These can all be answered by CalCalc! 
+
+### Basic Usage:
+
+```python
+import calcalc.CalCalc as cal
+
+cal.calculate("7 * 4")
+28
+
+cal.calculate("abs(-10)")
+10
+
+cal.calculate("what is the mass of the moon in kg")
+"7.3459×10^22 kg (kilograms)"
+```
+
+
