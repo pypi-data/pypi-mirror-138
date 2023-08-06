@@ -1,0 +1,10 @@
+pydge/__init__.py,sha256=cZQxoObcypPtkOAelFmMjDgZLWieYZW8M02VJYLdd0s,749
+pydge/_version.py,sha256=GtPCdC8BWAOThkO0veepKgigfBRayg32aglm6zpt084,497
+pydge/converters.py,sha256=r9pB5ZcLYHDGtXByxUJM4N1A-MMLu98VkVOiEy2e43s,1335
+pydge/core.py,sha256=BQziA-bSFfaoMRrJoi5rZub7LtfBtSnW5iEhM8GXbr4,14567
+pydge/error_codes.py,sha256=gd1z6LJHC33wqfTk9sGpRsZFMB-MvyXxXzyadtEMdiA,4472
+pydge-0.0.0.dist-info/LICENSE,sha256=gQvVE_gsO7--5bqc-SKyv1-H72qYmqcSHMZC0kfxnzk,1067
+pydge-0.0.0.dist-info/METADATA,sha256=10M-nKbKE1zllMnBLGqydXXnUInYmnAMQNkf1KkLjeA,1379
+pydge-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pydge-0.0.0.dist-info/top_level.txt,sha256=NobWgG7mD7xz3Ph4KMXKYGzx_hB0SnpCe7S6BAjnIvo,6
+pydge-0.0.0.dist-info/RECORD,,
