@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ezhash
+Version: 1.0.0
+Summary: CLI tool which computes and compares file hash.
+License: MIT
+Author: Naffah Abdulla Rasheed
+Author-email: mail@naffah.me
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: tqdm (>=4.62.3,<5.0.0)
+Requires-Dist: typer[all] (>=0.4.0,<0.5.0)
+Description-Content-Type: text/markdown
+
+# EzHash
+CLI tool which computes and compares file hash.
+
+## Usage
+
+Basic:
+```
+ezh sha256 ~/Downloads/image.iso 
+```
+
+With comparison:
+```
+ezh sha256 ~/Downloads/image.iso 85dcd0455f6bb643c4ddd819a0b0c4737d850f6df3b9ec2686bc6b7cd71791f7
+```
+

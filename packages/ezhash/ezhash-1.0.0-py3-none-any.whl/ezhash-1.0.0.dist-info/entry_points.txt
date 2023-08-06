@@ -1,0 +1,3 @@
+[console_scripts]
+ezh=ezhash.main:app
+
