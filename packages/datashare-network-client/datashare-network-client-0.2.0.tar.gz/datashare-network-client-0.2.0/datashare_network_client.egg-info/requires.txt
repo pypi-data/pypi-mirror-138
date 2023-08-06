@@ -1,0 +1,4 @@
+aioconsole
+aiohttp
+click
+datashare-network-core==0.9.1
