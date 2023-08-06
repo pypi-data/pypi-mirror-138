@@ -1,0 +1,7 @@
+cogdl1/cogdl/oag/__init__.py
+from .oagbert import oagbert
+
+__all__ = [
+    "oagbert",
+]
+

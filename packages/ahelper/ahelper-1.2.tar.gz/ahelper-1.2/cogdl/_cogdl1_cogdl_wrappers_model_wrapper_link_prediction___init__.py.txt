@@ -1,0 +1,5 @@
+cogdl1/cogdl/wrappers/model_wrapper/link_prediction/__init__.py
+from .embedding_link_prediction_mw import EmbeddingLinkPredictionModelWrapper
+from .gnn_kg_link_prediction_mw import GNNKGLinkPredictionModelWrapper
+from .gnn_link_prediction_mw import GNNLinkPredictionModelWrapper
+

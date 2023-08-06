@@ -1,0 +1,8 @@
+include ogb/*.txt
+include refine/*.txt
+include Graph_Transformer_Networks/*.txt
+include pyhgt/*.txt
+include pygcl/*.txt
+include cogdl/*.txt
+include pyg_ogbn_mag/*.txt
+include tencent/*.txt

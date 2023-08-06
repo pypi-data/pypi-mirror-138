@@ -1,0 +1,3 @@
+cogdl1/cogdl/wrappers/model_wrapper/pretraining/__init__.py
+from .gcc_mw import GCCModelWrapper
+

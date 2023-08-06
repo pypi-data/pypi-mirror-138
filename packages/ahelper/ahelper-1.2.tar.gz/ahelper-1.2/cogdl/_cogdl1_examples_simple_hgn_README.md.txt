@@ -1,0 +1,11 @@
+cogdl1/examples/simple_hgn/README.md
+# Simple-HGN
+
+Simple-HGN code for heterogeneous node classification in cogdl [leaderboard](../../cogdl/tasks/README.md).
+
+```bash
+CUDA_VISIBLE_DEVICES=0 python run.py --seed 0 1 2 3 4 -dt gtn-acm -m simple_hgn --lr 0.001
+CUDA_VISIBLE_DEVICES=0 python run.py --seed 0 1 2 3 4 -dt gtn-dblp -m simple_hgn --lr 0.001
+CUDA_VISIBLE_DEVICES=0 python run.py --seed 0 1 2 3 4 -dt gtn-imdb -m simple_hgn --lr 0.001
+```
+

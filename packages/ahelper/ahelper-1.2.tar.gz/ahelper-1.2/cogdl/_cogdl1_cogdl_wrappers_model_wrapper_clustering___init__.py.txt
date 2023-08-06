@@ -1,0 +1,5 @@
+cogdl1/cogdl/wrappers/model_wrapper/clustering/__init__.py
+from .agc_mw import AGCModelWrapper
+from .daegc_mw import DAEGCModelWrapper
+from .gae_mw import GAEModelWrapper
+

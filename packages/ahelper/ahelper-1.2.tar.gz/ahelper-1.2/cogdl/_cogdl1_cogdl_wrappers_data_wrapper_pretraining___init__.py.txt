@@ -1,0 +1,3 @@
+cogdl1/cogdl/wrappers/data_wrapper/pretraining/__init__.py
+from .gcc_dw import GCCDataWrapper
+

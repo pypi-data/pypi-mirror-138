@@ -1,0 +1,3 @@
+ogb-master/examples/lsc/mag240m/root.py
+ROOT = '/dfs/user/weihuahu/ogb/ogb/lsc/dataset'
+

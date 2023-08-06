@@ -1,0 +1,5 @@
+cogdl1/cogdl/wrappers/data_wrapper/heterogeneous/__init__.py
+from .heterogeneous_embedding_dw import HeterogeneousEmbeddingDataWrapper
+from .heterogeneous_gnn_dw import HeterogeneousGNNDataWrapper
+from .multiplex_embedding_dw import MultiplexEmbeddingDataWrapper
+
