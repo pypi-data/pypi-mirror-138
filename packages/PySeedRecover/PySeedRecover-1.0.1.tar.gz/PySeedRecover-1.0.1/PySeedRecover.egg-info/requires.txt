@@ -1,0 +1,8 @@
+ecpy
+blockfrost-python
+
+[dev]
+pydocstyle
+pycodestyle
+mypy
+twine
