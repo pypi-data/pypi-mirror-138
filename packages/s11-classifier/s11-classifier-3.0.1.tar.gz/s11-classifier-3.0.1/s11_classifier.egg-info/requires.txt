@@ -1,0 +1,17 @@
+matplotlib<4.0.0,>=3.0.3
+numpy<2.0.0,>=1.17.5
+pylint<3.0.0,>=2.12.0
+pytest<6.0.0,>=5.2.0
+rasterio<2.0.0,>=1.1.8
+scikit_learn==1.0.2
+xgboost<2.0.0,>=1.1.1
+boto3<2.0.0,>=1.16.63
+folium<1.0.0,>=0.12.1
+geopandas<1.0.0,>=0.8.2
+geojson<3.0.0,>=2.5.0
+click<8.0.0,>=7.1.2
+rasterstats<1.0.0,>=0.15.0
+rtree<1.0.0,>=0.9.7
+xarray<1.0.0,>=0.12.3
+python-dateutil<3.0.0,>=2.8.1
+jinja2<3.0.0,>=2.11.3
