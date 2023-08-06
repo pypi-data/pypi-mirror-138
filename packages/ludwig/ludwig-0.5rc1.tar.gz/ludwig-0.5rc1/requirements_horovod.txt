@@ -1,0 +1,1 @@
+horovod[pytorch]>=0.20.0
