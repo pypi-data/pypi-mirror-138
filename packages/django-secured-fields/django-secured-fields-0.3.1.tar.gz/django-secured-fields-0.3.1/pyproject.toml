@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "django-secured-fields"
+version = "0.3.1"
+description = ""
+authors = ["CODIUM <support@codium.co>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/C0D1UM/django-secured-fields"
+keywords = ["django", "encrypted", "fields", "drf", "django-rest", "restframework", "search", "encryption", "hash"]
+packages = [
+    { include = "secured_fields" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = ">=3.1 || <4.1"
+cryptography = ">=35"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2"
+yapf = "^0"
+toml = "^0"
+ipdb = "^0"
+psycopg2-binary = "^2.9"
+mysqlclient = "^2.1"
+freezegun = "^1.1"
+django-environ = "^0.8"
+Pillow = "^9.0"
+django-extensions = "^3.0"
+coverage = "^6"
+"backports.zoneinfo" = { version = "^0.2", python = "~3.8" }
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+style = "semver"
+
+[tool.yapf]
+based_on_style = 'google'
+column_limit = 120
+coalesce_brackets = true
+dedent_closing_brackets = true
+split_arguments_when_comma_terminated = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
+build-backend = "poetry.core.masonry.api"
