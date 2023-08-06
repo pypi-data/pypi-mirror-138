@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ory-hydra-client
+Version: 1.11.4
+Summary: Ory Oathkeeper API
+Home-page: https://github.com/ory/sdk
+Author: OpenAPI Generator community
+Author-email: hi@ory.sh
+License: Apache 2.0
+Keywords: OpenAPI,OpenAPI-Generator,Ory Oathkeeper API
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+    Documentation for all of Ory Oathkeeper&#39;s APIs.   # noqa: E501
+    
+
