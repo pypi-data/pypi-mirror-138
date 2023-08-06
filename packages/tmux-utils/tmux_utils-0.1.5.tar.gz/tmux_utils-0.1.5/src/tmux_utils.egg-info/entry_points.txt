@@ -1,0 +1,4 @@
+[console_scripts]
+tm-session-root = tmux_utils.tm_session_root:main
+tm-sessions = tmux_utils.tm_sessions:main
+
