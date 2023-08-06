@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: statute-matcher
+Version: 0.0.1
+Summary: Generate list of Philippine statute designations from a text string.
+Author: Marcelino G. Veloso III
+Author-email: mars@veloso.one
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: statute-matcher-regex (>=0.0.1,<0.0.2)
