@@ -1,0 +1,11 @@
+jpcm/__init__.py,sha256=VaIgYJ5crewkrM7j2gsDkbL3L3S9zvqz4rtk36qZE3M,1035
+jpcm/core/core.py,sha256=q__DGkQFt43KIBVzV78D4TMPhOZ_eGNoWCOA_8PwCnE,5385
+jpcm/core/maps.py,sha256=SpBuK7zTeWcik0aLoX9KZsbsKBRKlDrvFhyNF_IC3Mk,2488
+jpcm/core/readme.py,sha256=5lcG9oBXNBRYcgb6lCkwBN4LrWPTYIrJi6AZogvsGN4,2583
+jpcm/core/savitzky_golay.py,sha256=Q4RDw82LILoUDj_Dx4Ohc2Z6J1srKhlMCZGxjxvavMc,3163
+jpcm/load/load.py,sha256=qcbPPfza7gZi-btF3EPYJT_oWseFXJlSkFR4drUxQ3I,580
+jpcm-0.0.5.dist-info/LICENSE,sha256=5b5XA82zQevmeuJVGl0t3eOX8pD_tPmvtQYaSaKz3-0,1072
+jpcm-0.0.5.dist-info/METADATA,sha256=Rfn5OZja3uOMHARfxjQgTrlqciofnaA8-pSF_VegpMA,4448
+jpcm-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+jpcm-0.0.5.dist-info/top_level.txt,sha256=wIPrvDUsJozotDK9Q_5sYFiBSw5EcDPvZBc0VhLhYwg,25
+jpcm-0.0.5.dist-info/RECORD,,
