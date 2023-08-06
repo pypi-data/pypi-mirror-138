@@ -1,0 +1,3 @@
+[console_scripts]
+pthost = pthost.pthost:main
+
