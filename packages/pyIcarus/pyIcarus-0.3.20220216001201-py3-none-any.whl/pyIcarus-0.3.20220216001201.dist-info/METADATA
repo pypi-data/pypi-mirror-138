@@ -1,0 +1,219 @@
+Metadata-Version: 2.1
+Name: pyIcarus
+Version: 0.3.20220216001201
+Summary: Tools library for Security Research
+Home-page: https://github.com/cessna85/Beaches
+Author: Mark Howerton
+Author-email: Mark.Howerton@me.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: wheel
+Requires-Dist: setuptools
+Requires-Dist: pygame
+Requires-Dist: profilehooks
+Requires-Dist: sphinx
+Requires-Dist: beautifulsoup4
+Requires-Dist: scrapy
+Requires-Dist: selenium
+Requires-Dist: nvidia-pyindex
+Requires-Dist: Automat
+Requires-Dist: Jinja2
+Requires-Dist: Mako
+Requires-Dist: MarkupSafe
+Requires-Dist: MonkeyType
+Requires-Dist: Pillow
+Requires-Dist: PyAutoGUI
+Requires-Dist: PyMsgBox
+Requires-Dist: PyNaCl
+Requires-Dist: PyScreeze
+Requires-Dist: PySocks
+Requires-Dist: PyTweening
+Requires-Dist: PyVISA
+Requires-Dist: PyYAML
+Requires-Dist: Pygments
+Requires-Dist: Twisted
+Requires-Dist: algorithms
+Requires-Dist: appdirs
+Requires-Dist: argh
+Requires-Dist: astroid
+Requires-Dist: asttokens
+Requires-Dist: atomicwrites
+Requires-Dist: attrs
+Requires-Dist: backcall
+Requires-Dist: backports.functools-lru-cache
+Requires-Dist: bcrypt
+Requires-Dist: bitarray
+Requires-Dist: bitstring
+Requires-Dist: black
+Requires-Dist: bokeh
+Requires-Dist: brotlipy
+Requires-Dist: cached-property
+Requires-Dist: certifi
+Requires-Dist: cffi
+Requires-Dist: charset-normalizer
+Requires-Dist: click
+Requires-Dist: click-plugins
+Requires-Dist: colorama
+Requires-Dist: conda-pack
+Requires-Dist: constantly
+Requires-Dist: construct
+Requires-Dist: coverage
+Requires-Dist: cryptography
+Requires-Dist: cuda-python
+Requires-Dist: cupy-cuda115
+Requires-Dist: cycler
+Requires-Dist: dataclasses
+Requires-Dist: debugpy
+Requires-Dist: decorator
+Requires-Dist: distro
+Requires-Dist: docutils
+Requires-Dist: entrypoints
+Requires-Dist: executing
+Requires-Dist: fastrlock
+Requires-Dist: flake8
+Requires-Dist: flake8-polyfill
+Requires-Dist: fonttools
+Requires-Dist: fs
+Requires-Dist: h5py
+Requires-Dist: hyperlink
+Requires-Dist: idna
+Requires-Dist: importlib-metadata
+Requires-Dist: importlib-resources
+Requires-Dist: incremental
+Requires-Dist: iniconfig
+Requires-Dist: ipykernel
+Requires-Dist: ipyparallel
+Requires-Dist: ipython
+Requires-Dist: isort
+Requires-Dist: jedi
+Requires-Dist: joblib
+Requires-Dist: jupyterlab
+Requires-Dist: voila
+Requires-Dist: jupyter-client
+Requires-Dist: jupyter-core
+Requires-Dist: kiwisolver
+Requires-Dist: lazy-object-proxy
+Requires-Dist: libcst
+Requires-Dist: llvmlite
+Requires-Dist: lxml
+Requires-Dist: mamba
+Requires-Dist: mando
+Requires-Dist: matplotlib
+Requires-Dist: matplotlib-inline
+Requires-Dist: mccabe
+Requires-Dist: metakernel
+Requires-Dist: monty
+Requires-Dist: munkres
+Requires-Dist: mypy-extensions
+Requires-Dist: nest-asyncio
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: oct2py
+Requires-Dist: octave-kernel
+Requires-Dist: packaging
+Requires-Dist: pandas
+Requires-Dist: paramiko
+Requires-Dist: parso
+Requires-Dist: pathlib2
+Requires-Dist: pathspec
+Requires-Dist: patsy
+Requires-Dist: pexpect
+Requires-Dist: pickleshare
+Requires-Dist: platformdirs
+Requires-Dist: pluggy
+Requires-Dist: ply
+Requires-Dist: portalocker
+Requires-Dist: prompt-toolkit
+Requires-Dist: psutil
+Requires-Dist: ptyprocess
+Requires-Dist: pure-eval
+Requires-Dist: pyOpenSSL
+Requires-Dist: pyadi-iio
+Requires-Dist: pyarrow
+Requires-Dist: pyasn1
+Requires-Dist: pyasn1-modules
+Requires-Dist: pycairo
+Requires-Dist: pycodestyle
+Requires-Dist: pycosat
+Requires-Dist: pycparser
+Requires-Dist: pycryptodome
+Requires-Dist: pycryptodomex
+Requires-Dist: pyface
+Requires-Dist: pyflakes
+Requires-Dist: pylibiio
+Requires-Dist: pylint
+Requires-Dist: pyparsing
+Requires-Dist: pypiwin32
+Requires-Dist: pyserial
+Requires-Dist: pyshark
+Requires-Dist: pyside2
+Requires-Dist: pysmi
+Requires-Dist: pysnmp
+Requires-Dist: pyspark
+Requires-Dist: pytest
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: pywin32
+Requires-Dist: pywin32-ctypes
+Requires-Dist: pyzmq
+Requires-Dist: radon
+Requires-Dist: requests
+Requires-Dist: ruamel-yaml
+Requires-Dist: scapy
+Requires-Dist: scikit-build
+Requires-Dist: scikit-learn
+Requires-Dist: scikit-rf
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: service-identity
+Requires-Dist: sip
+Requires-Dist: six
+Requires-Dist: stack-data
+Requires-Dist: statsmodels
+Requires-Dist: threadpoolctl
+Requires-Dist: toml
+Requires-Dist: tomli
+Requires-Dist: tornado
+Requires-Dist: tqdm
+Requires-Dist: traitlets
+Requires-Dist: traits
+Requires-Dist: traitsui
+Requires-Dist: twisted-iocpsupport
+Requires-Dist: typed-ast
+Requires-Dist: typing-inspect
+Requires-Dist: typing-extensions
+Requires-Dist: unicodedata2
+Requires-Dist: urllib3
+Requires-Dist: waiting
+Requires-Dist: watchdog
+Requires-Dist: wcwidth
+Requires-Dist: win-inet-pton
+Requires-Dist: wrapt
+Requires-Dist: zipp
+Requires-Dist: zope.interface
+
+Beaches
+------------------------
+To automatically install SRE related dependencies run:  
+`pip install pyicarus`
+
+The actual code in pyicarus is just some commonly used functions
+
+Interesting repos:  
+https://github.com/Nalen98/GhidraEmu.git  
+https://github.com/justfoxing/ghidra_bridge.git  
+https://github.com/justfoxing/jfx_bridge_ida.git  
+https://github.com/wtsxDev/reverse-engineering.git  
+https://github.com/OWASP/owasp-mstg.git  
+https://github.com/geohot/qira.git  
+https://github.com/pwndbg/pwndbg.git  
+
+
