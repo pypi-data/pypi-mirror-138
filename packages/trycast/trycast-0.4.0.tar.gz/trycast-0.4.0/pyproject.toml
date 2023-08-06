@@ -1,0 +1,75 @@
+[tool.poetry]
+name = "trycast"
+version = "0.4.0"
+description = ""
+authors = ["David Foster <david@dafoster.net>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/davidfstr/trycast"
+repository = "https://github.com/davidfstr/trycast"
+#documentation = "TODO"
+classifiers = [  # https://pypi.org/classifiers/
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development"
+]
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+# NOTE: coverage 6.3 requires Python 3.7+
+coverage = "<6.3"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.931"
+tox = "^3.23.1"
+black = "==22.1.0"
+isort = "^5.9.1"
+flake8 = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+# Type Checker: Mypy
+# 
+# Config Syntax Reference:
+# https://mypy.readthedocs.io/en/latest/config_file.html#using-a-pyproject-toml-file
+[tool.mypy]
+files = "trycast.py,tests.py"
+mypy_path = "."
+strict_optional = true
+
+# Formatter: Isort
+[tool.isort]
+profile = "black"
+atomic = true
+line_length = 88
+skip_glob = ["venv*"]
+
+# Formatter: Black
+[tool.black]
+line_length = 88
+
+# Tests
+[tool.tox]
+legacy_tox_ini = """
+
+[tox]
+envlist = py36,py37,py38,py39,py310
+isolated_build = True
+
+[testenv]
+deps = mypy
+commands =
+    python3 -m unittest
+
+"""
