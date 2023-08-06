@@ -1,0 +1,184 @@
+Metadata-Version: 2.1
+Name: rasam
+Version: 0.5.0
+Summary: Rasa Improved
+Home-page: https://github.com/roniemartinez/rasam
+License: MIT
+Keywords: URL extractor for Rasa,Regex entity extractor for Rasa,Placeholder importer for Rasa
+Author: Ronie Martinez
+Author-email: ronmarti18@gmail.com
+Requires-Python: >=3.7,<3.9
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Dist: Faker (>=8.1.4,<10.0.0)
+Requires-Dist: rasa (>=2.8.12,<3.0.0)
+Requires-Dist: urlextract (>=1.2.0,<2.0.0)
+Project-URL: Repository, https://github.com/roniemartinez/rasam
+Description-Content-Type: text/markdown
+
+# rasam
+
+Rasa Improved
+
+<table>
+    <tr>
+        <td>License</td>
+        <td><img src='https://img.shields.io/pypi/l/rasam.svg' alt="License"></td>
+        <td>Version</td>
+        <td><img src='https://img.shields.io/pypi/v/rasam.svg' alt="Version"></td>
+    </tr>
+    <tr>
+        <td>Github Actions</td>
+        <td><img src='https://github.com/roniemartinez/rasam/actions/workflows/python.yml/badge.svg' alt="Github Actions"></td>
+        <td>Coverage</td>
+        <td><img src='https://codecov.io/gh/roniemartinez/rasam/branch/master/graph/badge.svg' alt="CodeCov"></td>
+    </tr>
+    <tr>
+        <td>Supported versions</td>
+        <td><img src='https://img.shields.io/pypi/pyversions/rasam.svg' alt="Python Versions"></td>
+        <td>Wheel</td>
+        <td><img src='https://img.shields.io/pypi/wheel/rasam.svg' alt="Wheel"></td>
+    </tr>
+    <tr>
+        <td>Status</td>
+        <td><img src='https://img.shields.io/pypi/status/rasam.svg' alt="Status"></td>
+        <td>Downloads</td>
+        <td><img src='https://img.shields.io/pypi/dm/rasam.svg' alt="Downloads"></td>
+    </tr>
+</table>
+
+## Support
+If you like `rasam` or if it is useful to you, show your support by buying me a coffee.
+
+<a href="https://www.buymeacoffee.com/roniemartinez" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
+## Usage
+
+### Installation
+
+```bash
+pip install rasam
+```
+
+### Rasa `config.yml`
+
+```yaml
+importers:
+  - name: rasam.PlaceholderImporter
+    fake_data_count: 10  # default value is 1
+
+pipeline:
+  - name: rasam.RegexEntityExtractor
+  - name: rasam.URLEntityExtractor
+```
+
+### Rasa `nlu.yml`
+
+#### PlaceholderImporter
+
+The `PlaceholderImporter` removes the need to write unnecessary information (eg. name, address, numbers, etc.) and helps focus on writing test data.
+
+#### Using `{}` placeholder
+
+```yaml
+nlu:
+- intent: tell_name
+  examples: |
+    - My name is {name}
+    - I am {name} and he is {name}
+```
+
+#### Using `@` placeholder
+
+```yaml
+nlu:
+- intent: tell_address
+  examples: |
+    - I live in @address
+    - I stay at @address and @address
+```
+
+#### Mixing `{}` and `@` placeholders
+
+It is possible to mix both `{}` and `@` placeholders but it is recommended to use only one style for consistency.
+
+#### Available placeholders
+
+- any (if you need just any data)    
+- integer    
+- decimal    
+- number     
+- name       
+- first_name 
+- last_name  
+- text       
+- word       
+- paragraph  
+- uri        
+- url        
+- local_uri  
+- email      
+- date         
+- time         
+- month        
+- day          
+- timezone     
+- company      
+- license_plate
+- address
+- city
+- country
+- user_agent
+- password
+- user_name
+- file_path
+
+### Rasam decorators
+
+Rasa relies too heavily on classes to define objects like actions, forms, etc. 
+Rasam aims to remove these Rasa boilerplates to make writing chatbots easier.
+
+#### @action decorator
+
+The `@action` decorator converts function into an Action class. 
+Here is an example of how we can write custom classes in Rasa:
+
+```python
+class ActionHelloWorld(Action):
+
+    def name(self) -> Text:
+        return "action_hello_world"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message(text="Hello World!")
+
+        return []
+
+```
+
+The above code can be simplified using Rasam's `@action` decorator.
+
+```python
+from rasam import action
+
+
+@action
+def action_hello_world(
+    self: Action, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]
+) -> List[Dict[Text, Any]]:
+    dispatcher.utter_message(text="Hello World!")
+    return []
+```
+
+
+
+## Author
+[Ronie Martinez](ronmarti18@gmail.com) 
+
