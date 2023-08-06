@@ -1,0 +1,5 @@
+clacks/__init__.py,sha256=dz1FiAWWi1Kng9be5GCMu-HfpTv4G-ft3RBVs6eUmyY,144
+clacks/middleware.py,sha256=BNpYLKIlN0gjVXTCgh4swmDc6zHDf_COKyXyDLZFef8,968
+django_clacks-0.3.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+django_clacks-0.3.0.dist-info/METADATA,sha256=1VyBiCOyrcwW1wBDAJ2c9xVoZiEqOmZaRaP-ofv6Zu4,1686
+django_clacks-0.3.0.dist-info/RECORD,,
