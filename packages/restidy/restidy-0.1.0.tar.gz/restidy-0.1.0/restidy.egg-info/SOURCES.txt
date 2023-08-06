@@ -1,0 +1,7 @@
+README.md
+setup.py
+restidy.egg-info/PKG-INFO
+restidy.egg-info/SOURCES.txt
+restidy.egg-info/dependency_links.txt
+restidy.egg-info/requires.txt
+restidy.egg-info/top_level.txt

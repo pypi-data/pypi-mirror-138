@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: restidy
+Version: 0.1.0
+Summary: resfinder result tidy
+Home-page: https://github.com/hbucqp/restidy
+Author: Jake Cui
+Author-email: hbucqp1991@sina.cn
+License: MIT Licence
+Keywords: pip,wgs,resfinder
+Platform: any
+
+Organize resfinder result to tabluar format
+
