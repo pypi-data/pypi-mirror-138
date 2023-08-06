@@ -1,0 +1,9 @@
+smartcare/Brain.py,sha256=yive0ytmTzErNEBAoAQUlYyUixBODlrnJKGaWCDBJj0,963
+smartcare/ConfigEnum.py,sha256=SqVwj1JQbGfgfl_yTn6GFXKwQrp-wvqZB5THQzZjs3w,391
+smartcare/Image.py,sha256=z4jc1xmTM3BiGD2NHPe_0SvxkFuOJf6-C3RrB-xK9Hw,1450
+smartcare/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+smartcare/model/modelCNN-1605022224.h5,sha256=4VBElede8DkB7K4o2n13WQnxddx67toXhQCW2xBmy0c,48838544
+smartcare-0.0.21.dist-info/METADATA,sha256=_S7ThPtJ2tDwFu84LpMZwWQFj8IQPFqRM9DVJuywHJs,918
+smartcare-0.0.21.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+smartcare-0.0.21.dist-info/top_level.txt,sha256=8V8AB7FU3Yz424YKlDMBM8OBCBDHONmY4DQF-j01jTA,10
+smartcare-0.0.21.dist-info/RECORD,,
