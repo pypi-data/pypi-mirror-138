@@ -1,0 +1,13 @@
+graphish/__init__.py,sha256=2bdxXpGTTJfzJO78e0t7iI4-C5nrf14Nu1xJvYGehLg,126
+graphish/connector.py,sha256=WVWhp3XeOa8i_W3OfbJ1Miahwg_vHY5tszLk3SaBu6o,4638
+graphish/delete.py,sha256=U0GqKGyUKC08CYHCavP3o2zOvDtnUbtWJ-uuA7JEUfQ,1440
+graphish/mailfolder.py,sha256=Lql629-97m80B8LbpIa-J-EpJDF6AsQ4JrRmOHFYdmU,1881
+graphish/message.py,sha256=qnYzI50pe_XVRdz_sS1WBwBAHZiWfp5AD3HZUEgB4dU,4888
+graphish/rules.py,sha256=j_FORwlSFbA-yrqMQeUtuzHfP3cJYo6YsXudMvW461Q,1727
+graphish/search.py,sha256=oDUhGWuK5wvXhJGMzi-t5uV7UPA7A66Rsvxu4Pg38Ew,5815
+graphish/users.py,sha256=0jh8UuqPjc1vpO56ih9A8nlKFEZP8EElltwjV2_5z-o,909
+graphish-2.0.0.dist-info/LICENSE,sha256=IxaN9x5-BQvpqPVa0qdQBkqBQ5-KWgLmqu7Pwp71PdU,1065
+graphish-2.0.0.dist-info/METADATA,sha256=i9dDbkUwc7gaUWXJdBr4FWUzRYMYdghqaY2oZJIu9xI,11844
+graphish-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+graphish-2.0.0.dist-info/top_level.txt,sha256=SqDgk3cjaRjt_uZOTVeZ9XAceTTJrWh4sgd2OQ1BWfw,9
+graphish-2.0.0.dist-info/RECORD,,
