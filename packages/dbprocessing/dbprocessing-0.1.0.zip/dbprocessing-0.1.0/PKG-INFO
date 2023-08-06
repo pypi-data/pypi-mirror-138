@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: dbprocessing
+Version: 0.1.0
+Summary: database-driven Heliophysics processing controller
+Home-page: https://spacepy.github.io/dbprocessing/
+Author: dbprocessing team
+Author-email: Jonathan.Niehof@unh.edu
+Maintainer: Jonathan Niehof, Denis Nadeau
+Maintainer-email: Jonathan.Niehof@unh.edu
+License: BSD
+Keywords: Heliophysics,data.processing
+Platform: Linux
+Platform: Unix
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires: python (>=2.7, !=3.0)
+Requires: python_dateutil
+Requires: sqlalchemy
+Provides: dbprocessing
+
+database-driven Heliophysics processing controller
+
