@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/jaketest/__init__.py
+src/jaketest/adders.py
+src/jaketest/subtracters.py
+src/jaketest_jakedesantis.egg-info/PKG-INFO
+src/jaketest_jakedesantis.egg-info/SOURCES.txt
+src/jaketest_jakedesantis.egg-info/dependency_links.txt
+src/jaketest_jakedesantis.egg-info/top_level.txt
