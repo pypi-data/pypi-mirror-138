@@ -1,0 +1,10 @@
+CalcalcTT.egg-info/PKG-INFO
+CalcalcTT.egg-info/SOURCES.txt
+CalcalcTT.egg-info/dependency_links.txt
+CalcalcTT.egg-info/requires.txt
+CalcalcTT.egg-info/top_level.txt
+calcalc/CalCalc.py
+calcalc/__init__.py
+calcalc/setup.py
+calcalc/tests/__init__.py
+calcalc/tests/test_calculate.py
