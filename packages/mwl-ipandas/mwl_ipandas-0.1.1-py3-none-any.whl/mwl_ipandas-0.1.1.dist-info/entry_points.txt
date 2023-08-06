@@ -1,0 +1,3 @@
+[console_scripts]
+ipandas=mwl_ipandas.main:app
+
