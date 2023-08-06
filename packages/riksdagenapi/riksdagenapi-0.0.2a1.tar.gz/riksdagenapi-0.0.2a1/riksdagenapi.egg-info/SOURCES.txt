@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+riksdagenapi/__init__.py
+riksdagenapi/dokument.py
+riksdagenapi/dokumentlista.py
+riksdagenapi/exceptions.py
+riksdagenapi/riksdagen.py
+riksdagenapi.egg-info/PKG-INFO
+riksdagenapi.egg-info/SOURCES.txt
+riksdagenapi.egg-info/dependency_links.txt
+riksdagenapi.egg-info/top_level.txt
