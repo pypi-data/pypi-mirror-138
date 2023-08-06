@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: cuda-checker
+Version: 0.1.0
+Summary: NVIDIA CUDA checker for pythonn deeplearning project.
+Home-page: https://github.com/kagemeka/cuda-checker#readme
+License: MIT
+Keywords: cuda,python,deeplearning,tensorflow,pytorch
+Author: Hiroshi Tsuyuki
+Author-email: kagemeka1@gmail.com
+Maintainer: Hiroshi Tsuyuki
+Maintainer-email: kagemeka1@gmail.com
+Requires-Python: >=3.9,<3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: furo; extra == "docs"
+Requires-Dist: myst-parser; extra == "docs"
+Requires-Dist: pdoc3; extra == "docs"
+Requires-Dist: pydata-sphinx-theme; extra == "docs"
+Requires-Dist: python-docs-theme; extra == "docs"
+Requires-Dist: sphinx-book-theme; extra == "docs"
+Requires-Dist: sphinx-theme-pd; extra == "docs"
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx_rtd_theme (<=2.0.0); extra == "docs"
+Requires-Dist: sphinxcontrib-mermaid; extra == "docs"
+Requires-Dist: tensorflow (==2.7.0)
+Requires-Dist: torch
+Project-URL: Documentation, https://cuda-checker.readthedocs.io
+Project-URL: Repository, https://github.com/kagemeka/cuda-checker
+Project-URL: Twitter, https://twitter.com/kagemeka
+Description-Content-Type: text/markdown
+
+# Cuda Checker
+
+[![Python package](https://github.com/kagemeka/python-project-template/actions/workflows/python-package.yml/badge.svg)](https://github.com/kagemeka/python-project-template/actions/workflows/python-package.yml)
+[![readthedocs build status](https://readthedocs.org/projects/python-project-templates/badge/?version=latest)](https://python-project-templates.readthedocs.io/en/latest/?badge=latest)
+[![PyPI version](https://badge.fury.io/py/python-project-templates.svg)](https://badge.fury.io/py/python-project-templates)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[`Cuda Checker`'s documentation](https://python-project-templates.readthedocs.io/)
+---
+
