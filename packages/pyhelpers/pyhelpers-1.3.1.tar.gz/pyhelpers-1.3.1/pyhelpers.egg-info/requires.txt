@@ -1,0 +1,8 @@
+numpy
+pyproj
+scipy
+Shapely
+pandas
+requests
+SQLAlchemy
+psycopg2
