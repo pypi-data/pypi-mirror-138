@@ -1,0 +1,12 @@
+gast
+beniget
+nbformat
+nbconvert
+pyyaml
+frilouz
+
+[dev]
+pytest
+
+[test]
+pytest
