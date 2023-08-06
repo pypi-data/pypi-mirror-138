@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pba-client/__init__.py
+src/pba-client/main.py
+src/pba_client.egg-info/PKG-INFO
+src/pba_client.egg-info/SOURCES.txt
+src/pba_client.egg-info/dependency_links.txt
+src/pba_client.egg-info/top_level.txt
