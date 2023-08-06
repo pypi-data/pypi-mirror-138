@@ -1,0 +1,16 @@
+pyaudio
+SpeechRecognition
+gtts
+lazyme
+torch
+joblib
+phonetics
+fuzzywuzzy
+requests
+librosa
+transformers
+lazyme
+playsound
+pyttsx3
+python-Levenshtein
+shutup
