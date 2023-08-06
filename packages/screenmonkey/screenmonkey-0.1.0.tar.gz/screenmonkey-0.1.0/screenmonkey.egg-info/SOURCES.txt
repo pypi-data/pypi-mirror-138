@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+screenmonkey/__init__.py
+screenmonkey/screenmonkey.py
+screenmonkey.egg-info/PKG-INFO
+screenmonkey.egg-info/SOURCES.txt
+screenmonkey.egg-info/dependency_links.txt
+screenmonkey.egg-info/requires.txt
+screenmonkey.egg-info/top_level.txt
