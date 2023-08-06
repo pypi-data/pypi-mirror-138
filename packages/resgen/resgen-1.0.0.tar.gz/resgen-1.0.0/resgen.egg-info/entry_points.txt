@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        resgen=resgen:main
+    
