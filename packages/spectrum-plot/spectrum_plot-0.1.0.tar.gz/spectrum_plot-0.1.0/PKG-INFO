@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: spectrum_plot
+Version: 0.1.0
+Summary: Interactive spectrum plot. Update FFT plot on every new sampled data
+Home-page: https://github.com/lisrael1/spectrum_plot
+Author: Lior Israeli
+Author-email: israelilior@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/lisrael1/spectrum_plot/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## spectrum plot
+
+### plotting FFT of 1D data, with live plot update
+
+usage example:
+```
+    import numpy as np
+    from spectrum_plot import create_fft_plot
+    
+    
+    plot = create_fft_plot()
+    n = 200
+    seconds = 0.1
+    t = np.linspace(0, seconds, n)
+    nyquist = n / seconds / 2
+    for freq in np.linspace(100, nyquist, 100):
+        sine = np.sin(2 * np.pi * t * freq)
+        plot.update_raw_data(sine, seconds=seconds)
+```
+![](src/spectrum_plot_examples/animated_fft.gif)
+

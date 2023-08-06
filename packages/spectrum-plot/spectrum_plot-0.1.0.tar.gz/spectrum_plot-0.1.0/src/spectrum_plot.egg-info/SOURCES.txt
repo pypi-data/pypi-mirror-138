@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/spectrum_plot/__init__.py
+src/spectrum_plot/plotting.py
+src/spectrum_plot.egg-info/PKG-INFO
+src/spectrum_plot.egg-info/SOURCES.txt
+src/spectrum_plot.egg-info/dependency_links.txt
+src/spectrum_plot.egg-info/requires.txt
+src/spectrum_plot.egg-info/top_level.txt
