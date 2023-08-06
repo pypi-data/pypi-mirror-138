@@ -1,0 +1,7 @@
+click
+PyYAML
+requests
+web3>=5.26.0
+clamfig
+chained-accounts
+boto3
