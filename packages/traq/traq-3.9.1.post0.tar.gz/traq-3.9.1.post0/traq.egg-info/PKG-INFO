@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: traq
+Version: 3.9.1.post0
+Summary: traQ v3
+Home-page: https://github.com/motoki317/traq-py
+Author: traP
+Author-email: info@trap.jp
+License: MIT
+Keywords: OpenAPI,OpenAPI-Generator,traQ v3
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+    traQ v3 API  # noqa: E501
+    
+
