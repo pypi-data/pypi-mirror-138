@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+Kern_Rowduction.egg-info/PKG-INFO
+Kern_Rowduction.egg-info/SOURCES.txt
+Kern_Rowduction.egg-info/dependency_links.txt
+Kern_Rowduction.egg-info/requires.txt
+Kern_Rowduction.egg-info/top_level.txt
+kern_rowduction/__init__.py
+kern_rowduction/rowduction.py
+kern_rowduction/version.py
+tests/__init__.py
+tests/test_rowduction.py
