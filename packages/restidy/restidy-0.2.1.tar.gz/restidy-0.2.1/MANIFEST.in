@@ -1,0 +1,3 @@
+include db/gene_db_mapping.tsv
+include gene_db_mapping.tsv
+recursive-include restidy *
