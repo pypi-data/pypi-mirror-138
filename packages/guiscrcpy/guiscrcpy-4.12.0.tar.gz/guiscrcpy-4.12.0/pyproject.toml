@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "guiscrcpy"
+version = "4.12.0"
+description = "A simple, pluggable, graphical user interface for the fastest Android screen mirroring software"
+authors = ["Srevin Saju <srevinsaju@sugarlabs.org>"]
+license = "GPLv3"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/srevinsaju/guiscrcpy/issues"
+
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.11"
+psutil = "^5.8.0"
+pynput = "1.6.8"
+colorama = "^0.4.4"
+click = "^8.0.1"
+QtPy = "^2.0.0"
+PyQt6 = {version = "^6.2.3", optional = true}
+PyInstaller = {version = "*", optional = true}
+pywin32 = {version = "302", markers = "platform_system == 'Windows'" }
+PySide6 = {version = "^6.2.1", optional = true}
+CairoSVG = {version = "^2.5.2", optional = true}
+coloredlogs = "^15.0.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.7b0"
+
+[tool.poetry.extras]
+PyQt6 = ["pyqt6"]
+PySide6 = ["pyside6"]
+PyInstaller = ["pyinstaller"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+guiscrcpy = "guiscrcpy.cli:cli"
