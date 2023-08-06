@@ -1,0 +1,320 @@
+{
+    "linkDataArray": [
+        {
+            "from": -2,
+            "fromPort": "47c421b8-5cdc-4ff7-ab7e-b75140f2d951",
+            "loop_aware": "0",
+            "to": -4,
+            "toPort": "c05689f4-6c5a-47dc-b3b1-fcbdfa09e4df"
+        }
+    ],
+    "modelData": {
+        "eagleCommitHash": "dce847d911db5b8d2245775bb6d5c719eb4aa061",
+        "eagleVersion": "v4.1.0",
+        "filePath": "test-20190830-110556.graph",
+        "fileType": "Graph",
+        "gitUrl": "",
+        "lastModifiedDatetime": 0,
+        "lastModifiedEmail": "",
+        "lastModifiedName": "",
+        "readonly": true,
+        "repo": "",
+        "repoBranch": "",
+        "repoService": "Unknown",
+        "schemaVersion": "OJS",
+        "sha": ""
+    },
+    "nodeDataArray": [
+        {
+            "applicationArgs": [],
+            "category": "BashShellApp",
+            "collapsed": true,
+            "color": "#0059a5",
+            "description": "",
+            "drawOrderHint": 0,
+            "expanded": false,
+            "fields": [
+                {
+                    "defaultValue": "",
+                    "description": "",
+                    "name": "execution_time",
+                    "precious": false,
+                    "readonly": false,
+                    "text": "Execution time",
+                    "type": "Unknown",
+                    "value": "5"
+                },
+                {
+                    "defaultValue": "",
+                    "description": "",
+                    "name": "num_cpus",
+                    "precious": false,
+                    "readonly": false,
+                    "text": "Num CPUs",
+                    "type": "Unknown",
+                    "value": "1"
+                },
+                {
+                    "defaultValue": "",
+                    "description": "",
+                    "name": "group_start",
+                    "precious": false,
+                    "readonly": false,
+                    "text": "Group start",
+                    "type": "Unknown",
+                    "value": "0"
+                },
+                {
+                    "defaultValue": "",
+                    "description": "",
+                    "name": "Arg01",
+                    "precious": false,
+                    "readonly": false,
+                    "text": "Arg01",
+                    "type": "Unknown",
+                    "value": ""
+                },
+                {
+                    "defaultValue": "",
+                    "description": "",
+                    "name": "Arg02",
+                    "precious": false,
+                    "readonly": false,
+                    "text": "Arg02",
+                    "type": "Unknown",
+                    "value": ""
+                },
+                {
+                    "defaultValue": "",
+                    "description": "",
+                    "name": "Arg03",
+                    "precious": false,
+                    "readonly": false,
+                    "text": "Arg03",
+                    "type": "Unknown",
+                    "value": ""
+                },
+                {
+                    "defaultValue": "",
+                    "description": "",
+                    "name": "Arg04",
+                    "precious": false,
+                    "readonly": false,
+                    "text": "Arg04",
+                    "type": "Unknown",
+                    "value": ""
+                },
+                {
+                    "defaultValue": "",
+                    "description": "",
+                    "name": "Arg05",
+                    "precious": false,
+                    "readonly": false,
+                    "text": "Arg05",
+                    "type": "Unknown",
+                    "value": ""
+                },
+                {
+                    "defaultValue": "",
+                    "description": "",
+                    "name": "Arg06",
+                    "precious": false,
+                    "readonly": false,
+                    "text": "Arg06",
+                    "type": "Unknown",
+                    "value": ""
+                },
+                {
+                    "defaultValue": "",
+                    "description": "",
+                    "name": "Arg07",
+                    "precious": false,
+                    "readonly": false,
+                    "text": "Arg07",
+                    "type": "Unknown",
+                    "value": ""
+                },
+                {
+                    "defaultValue": "",
+                    "description": "",
+                    "name": "Arg08",
+                    "precious": false,
+                    "readonly": false,
+                    "text": "Arg08",
+                    "type": "Unknown",
+                    "value": ""
+                },
+                {
+                    "defaultValue": "",
+                    "description": "",
+                    "name": "Arg09",
+                    "precious": false,
+                    "readonly": false,
+                    "text": "Arg09",
+                    "type": "Unknown",
+                    "value": ""
+                },
+                {
+                    "defaultValue": "",
+                    "description": "",
+                    "name": "Arg10",
+                    "precious": false,
+                    "readonly": false,
+                    "text": "Arg10",
+                    "type": "Unknown",
+                    "value": ""
+                },
+                {
+                    "defaultValue": "echo Hello",
+                    "description": "just a dummy command",
+                    "name": "command",
+                    "precious": false,
+                    "readonly": false,
+                    "text": "command",
+                    "type": "String",
+                    "value": "echo Hello"
+                }
+            ],
+            "flipPorts": false,
+            "git_url": "",
+            "height": 72,
+            "inputAppFields": [],
+            "inputApplicationKey": null,
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputLocalPorts": [],
+            "inputPorts": [
+                {
+                    "Id": "c12aa833-43a9-4c1e-abaa-c77396010a31",
+                    "IdText": "event",
+                    "description": "",
+                    "event": false,
+                    "text": "",
+                    "type": ""
+                }
+            ],
+            "isGroup": false,
+            "key": -2,
+            "outputAppFields": [],
+            "outputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputLocalPorts": [],
+            "outputPorts": [
+                {
+                    "Id": "47c421b8-5cdc-4ff7-ab7e-b75140f2d951",
+                    "IdText": "event",
+                    "description": "",
+                    "event": false,
+                    "text": "",
+                    "type": ""
+                }
+            ],
+            "precious": false,
+            "readonly": true,
+            "sha": "",
+            "streaming": false,
+            "subject": null,
+            "text": "Enter label",
+            "width": 200,
+            "x": 400,
+            "y": 200
+        },
+        {
+            "applicationArgs": [],
+            "category": "File",
+            "collapsed": true,
+            "color": "#2c2c2c",
+            "description": "",
+            "drawOrderHint": 0,
+            "expanded": false,
+            "fields": [
+                {
+                    "defaultValue": "",
+                    "description": "",
+                    "name": "data_volume",
+                    "precious": false,
+                    "readonly": false,
+                    "text": "Data volume",
+                    "type": "Unknown",
+                    "value": "5"
+                },
+                {
+                    "defaultValue": "",
+                    "description": "",
+                    "name": "group_end",
+                    "precious": false,
+                    "readonly": false,
+                    "text": "Group end",
+                    "type": "Unknown",
+                    "value": "0"
+                },
+                {
+                    "defaultValue": "",
+                    "description": "",
+                    "name": "check_filepath_exists",
+                    "precious": false,
+                    "readonly": false,
+                    "text": "Check file path exists",
+                    "type": "Unknown",
+                    "value": "1"
+                },
+                {
+                    "defaultValue": "",
+                    "description": "",
+                    "name": "filepath",
+                    "precious": false,
+                    "readonly": false,
+                    "text": "File path",
+                    "type": "Unknown",
+                    "value": ""
+                },
+                {
+                    "defaultValue": "",
+                    "description": "",
+                    "name": "dirname",
+                    "precious": false,
+                    "readonly": false,
+                    "text": "Directory name",
+                    "type": "Unknown",
+                    "value": ""
+                }
+            ],
+            "flipPorts": false,
+            "git_url": "",
+            "height": 72,
+            "inputAppFields": [],
+            "inputApplicationKey": null,
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputLocalPorts": [],
+            "inputPorts": [
+                {
+                    "Id": "c05689f4-6c5a-47dc-b3b1-fcbdfa09e4df",
+                    "IdText": "event",
+                    "description": "",
+                    "event": false,
+                    "text": "",
+                    "type": ""
+                }
+            ],
+            "isGroup": false,
+            "key": -4,
+            "outputAppFields": [],
+            "outputApplicationKey": null,
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputLocalPorts": [],
+            "outputPorts": [],
+            "precious": false,
+            "readonly": true,
+            "sha": "",
+            "streaming": false,
+            "subject": null,
+            "text": "Enter label",
+            "width": 200,
+            "x": 800,
+            "y": 400
+        }
+    ]
+}

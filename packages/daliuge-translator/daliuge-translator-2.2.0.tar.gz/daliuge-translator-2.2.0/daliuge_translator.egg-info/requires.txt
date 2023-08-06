@@ -1,0 +1,10 @@
+wheel
+bottle
+daliuge-common==2.2.0
+jsonschema
+metis>=0.2a3
+networkx
+numpy
+psutil
+pyswarm
+ruamel.yaml.clib<=0.2.2
