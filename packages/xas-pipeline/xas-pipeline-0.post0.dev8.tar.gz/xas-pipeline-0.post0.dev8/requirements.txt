@@ -1,0 +1,8 @@
+# List required packages in this file, one per line.
+numpy
+matplotlib
+scipy
+pandas
+sklearn
+Ipython
+h5py
