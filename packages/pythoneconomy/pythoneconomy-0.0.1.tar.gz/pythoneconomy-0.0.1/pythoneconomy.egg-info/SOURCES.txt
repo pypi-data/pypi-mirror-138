@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+economy/__init__.py
+economy/economy.py
+pythoneconomy.egg-info/PKG-INFO
+pythoneconomy.egg-info/SOURCES.txt
+pythoneconomy.egg-info/dependency_links.txt
+pythoneconomy.egg-info/top_level.txt
