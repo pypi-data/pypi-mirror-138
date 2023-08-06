@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyduinocoin/__init__.py
+pyduinocoin/dict_obj.py
+pyduinocoin/exceptions.py
+pyduinocoin/pyduinocoin.py
+pyduinocoin.egg-info/PKG-INFO
+pyduinocoin.egg-info/SOURCES.txt
+pyduinocoin.egg-info/dependency_links.txt
+pyduinocoin.egg-info/top_level.txt
