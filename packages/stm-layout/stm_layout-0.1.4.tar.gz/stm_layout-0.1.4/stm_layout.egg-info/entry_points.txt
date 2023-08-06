@@ -1,0 +1,4 @@
+[console_scripts]
+stm_layout = stm_layout.stm_layout:_main
+stm_layout_tk = stm_layout.stm_layout_tk:_main
+
