@@ -1,0 +1,15 @@
+ponders/__init__.py,sha256=mPADG69mcszeFWLJzUC1lKgd5Bux9qnqn86XisKK9rw,329
+ponders/_version.py,sha256=dDQleO1WCSqgEQeqqbuHGdIi5UnXRthhYzILngZqYeQ,496
+ponders/ponders.py,sha256=KvtTnZJpC67B2hxAqI2t8XSuMo99z7JI2edtzXItW7A,29181
+ponders/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ponders/tests/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ponders/tests/test_examples.py,sha256=Hm1x01HZ9BiYYw4dS44uo0o_ku16oFRwSMjIh8_Uu-s,99
+ponders/tests/test_pca.py,sha256=v2Y-GJjhV3POOAT__n9ZjwoxdHP3qjmbY81NN4V59T8,11442
+ponders/tests/utils.py,sha256=Uo336ywvuwj9rahbJn-ZIeWqV4Un5BkFCOChKuf_Pqc,704
+ponders-0.2.0.dist-info/AUTHORS.rst,sha256=Y6vkXYuvVEMM7DnlLNclSgv2vuRJ6QvJ-MTUrWoS91M,173
+ponders-0.2.0.dist-info/LICENSE,sha256=oip5SEzYQ523S3ylIXdE0cXPWihRCNUuHKw3_ysfMlI,1068
+ponders-0.2.0.dist-info/METADATA,sha256=4uWFa_yE04qB7wKmGu55KbNOsy3YNnZ1WuRJWEwW7ak,1060
+ponders-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ponders-0.2.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+ponders-0.2.0.dist-info/top_level.txt,sha256=dgruLNvjATYsA-bhgMavwNGGtOCySiPo6WglLVlu5YY,8
+ponders-0.2.0.dist-info/RECORD,,
