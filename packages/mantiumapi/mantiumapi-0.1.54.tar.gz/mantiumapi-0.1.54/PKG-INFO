@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: mantiumapi
+Version: 0.1.54
+Summary: Python Client for the Mantium API
+Home-page: https://github.com/mantiumai/mantiumclient-py
+Author: Mantium
+Author-email: support@mantiumai.com
+License: Apache 2.0
+Keywords: security,ai,nlp
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+This software is provided as a way to include the Mantium API functionality in your own Python software. You can read about the Mantium API at https://developer.mantiumai.com/
+
