@@ -1,0 +1,11 @@
+eqsolvcarlover101/__init__.py,sha256=eU-v4ceBnVgDf_cQR3JnYCDBbkeqr7PeyK1sp7pRZTw,23
+eqsolvcarlover101/setup.py,sha256=6m04x6G4TbjHH_BSkC_ZvLar0PJNmZLOWUxbZHZElX0,735
+eqsolvcarlover101/equation/__init__.py,sha256=xvAN9k7orgywj1Df1MB5EoLR5CjGSYx5apOpVObDR1c,117
+eqsolvcarlover101/equation/commands.py,sha256=v4DFfvGt1nHBeF6wE4cgnaFAk2TDjVLetGigVQzR6dk,312
+eqsolvcarlover101/equation/help.py,sha256=Ep1CWIxDqZH9-oNAIg2mtuT1MfthZZ04J8SQ5GGDC3I,192
+eqsolvcarlover101/equation/quadsolve.py,sha256=OZSiMJGVj1h0qt-J7xwkfnwGwPP8WXailz0Jy4YxIrM,1663
+eqsolvcarlover101/equation/slopeint.py,sha256=Q4Cstg8W00nmqheUlqf38jc4f-MCdK_GpdhyEtWbw-s,4335
+eqsolvcarlover101-1.1.dist-info/METADATA,sha256=jgWIvz-9pMrYXfFWWAtwDlz1BIgANhQ5ri1vo267h2o,2308
+eqsolvcarlover101-1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+eqsolvcarlover101-1.1.dist-info/top_level.txt,sha256=KfY066lElFkAOMvKsnsgAv9UWF92I8UQPefZ_vGdjeM,45
+eqsolvcarlover101-1.1.dist-info/RECORD,,
