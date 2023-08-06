@@ -1,0 +1,14 @@
+imppkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imppkg/data.json,sha256=41ZrOgZDCGjXHpKH39bGxSCj2gJ6q-oBlR1AfuEx3C8,4
+imppkg/harmonic_mean.c,sha256=j9FrouzavtsxPck1q0moD68iq_ho12NOEsD9PjcWWpo,200458
+imppkg/harmonic_mean.cp310-win_amd64.pyd,sha256=2sJsSdTTMl7KqaWtGH670Ri8rOK_zqIVcwQPFUOmwDE,37888
+imppkg/harmonic_mean.pyi,sha256=KTktWjFP972bD7ye1Rmmdopevx5MbXSi0KPFH7mgx-Q,108
+imppkg/harmonic_mean.pyx,sha256=ad2BNx9STwfjgtxjgZdi1c0jyDpxmPl0d4hkNPHXbkE,286
+imppkg/harmony.py,sha256=qrcFbCOlyEp5ke5Q9s6qz-fueKFMVBKdsLxQgZGMg74,725
+imppkg/hello.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imppkg/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pubpypack_harmony_sourcedelica-0.0.4.dist-info/METADATA,sha256=ndQJpZtNRChSWlut43tgmW-um_HLhw9LRVbxpg_UDQs,174
+pubpypack_harmony_sourcedelica-0.0.4.dist-info/WHEEL,sha256=W26pYN7HLsBT1jrDSL9udgf_mdNKJmYmL23sIP-FcgM,102
+pubpypack_harmony_sourcedelica-0.0.4.dist-info/entry_points.txt,sha256=feiUFKolyjyA-i9QN-YuipocWPVf07pii8AbrEjvfW8,48
+pubpypack_harmony_sourcedelica-0.0.4.dist-info/top_level.txt,sha256=I91hjGcw_F0H8zGbV0bRxPlcQJVwYHLtIyAPaQ9x-hE,7
+pubpypack_harmony_sourcedelica-0.0.4.dist-info/RECORD,,
