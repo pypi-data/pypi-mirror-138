@@ -1,0 +1,6 @@
+[colcon_core.argument_parser]
+alias = colcon_alias.argument_parser.alias:AliasArgumentParserDecorator
+
+[colcon_core.verb]
+alias = colcon_alias.verb.alias:AliasVerb
+

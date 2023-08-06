@@ -1,0 +1,16 @@
+colcon_alias/__init__.py,sha256=2zTrVkZc96zTznVhZZ1H3XNXPyta-eeI6Zo17G7GuZk,136
+colcon_alias/config.py,sha256=oqicC_G1ZlvXV33_wIcv_jz7bHnJV4dx9PzL_dOI1jM,1640
+colcon_alias/logging.py,sha256=NTvoCdAMWHQ0mGQIJuCkj6lq_wfAMDu0jIj_tCNJAdE,541
+colcon_alias/argument_parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colcon_alias/argument_parser/alias.py,sha256=lp7DmEgpwcjhk2d7u5G09hAqbkBYPDqnoq0BdvCA5WM,3190
+colcon_alias/verb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colcon_alias/verb/alias.py,sha256=gAdl1jvXOwEMbddCARf3d9C-lNZQVQ6ydAHYv7vzWJU,1377
+colcon_alias/verb/alias_invocation.py,sha256=pXWL2KTnYqqVAL5u_bxvap3sZcdnlkzfEVYtP09_vNU,2628
+colcon_alias-0.0.2.dist-info/DESCRIPTION.rst,sha256=7BIL1_mEOSakVpjM8FM4priWp3GV3g-tUvdWMRvnH0A,139
+colcon_alias-0.0.2.dist-info/METADATA,sha256=fhcZzttUK2dMKI8UX9yUhkfQ75Y6Xlqp0k-lVOKPoYk,1818
+colcon_alias-0.0.2.dist-info/RECORD,,
+colcon_alias-0.0.2.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+colcon_alias-0.0.2.dist-info/entry_points.txt,sha256=i0Qd5EoDWVibYjH_AUzbCgBdtQ_n5tvTQTlwBSPIEGg,165
+colcon_alias-0.0.2.dist-info/metadata.json,sha256=LQR33GBz_eywrxTrXe2QHvssLbQ8cz_AJoep17VCx6A,1578
+colcon_alias-0.0.2.dist-info/top_level.txt,sha256=EixBYdE2MgAn-olgMl1h1_tQkGBopc1w6KVtI9ovBKs,13
+colcon_alias-0.0.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
