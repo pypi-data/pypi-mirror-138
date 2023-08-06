@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cairocffi-stubs
+Version: 0.1.0
+Summary: Stubs for cairocffi. 
+Author: 忘忧北萱草
+Author-email: wybxc@qq.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
