@@ -1,0 +1,7 @@
+more-itertools
+numpy
+pandas
+petab
+pyyaml
+click
+dill
