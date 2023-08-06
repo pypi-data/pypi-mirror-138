@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+src/merge_csv/__init__.py
+src/merge_csv/__main__.py
+src/merge_csv/merge_dataframes.py
+src/merge_csv/merge_files.py
+src/merge_csv/validate_options.py
+src/merge_csv_xjg.egg-info/PKG-INFO
+src/merge_csv_xjg.egg-info/SOURCES.txt
+src/merge_csv_xjg.egg-info/dependency_links.txt
+src/merge_csv_xjg.egg-info/entry_points.txt
+src/merge_csv_xjg.egg-info/requires.txt
+src/merge_csv_xjg.egg-info/top_level.txt
