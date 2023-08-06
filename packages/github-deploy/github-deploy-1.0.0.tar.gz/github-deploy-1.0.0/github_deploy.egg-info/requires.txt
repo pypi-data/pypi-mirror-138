@@ -1,0 +1,11 @@
+asyncclick
+asyncio
+aiohttp
+certifi
+colorama
+aiofiles
+anyio
+
+[deploy]
+bump2version
+readme_renderer[md]
