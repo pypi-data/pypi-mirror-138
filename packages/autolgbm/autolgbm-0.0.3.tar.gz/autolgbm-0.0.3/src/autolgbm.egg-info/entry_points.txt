@@ -1,0 +1,3 @@
+[console_scripts]
+autolgbm = autolgbm.cli.autolgbm:main
+
