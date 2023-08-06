@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: odoo14-addon-stock-inventory-line-product-cost
+Version: 14.0.1.0.1.dev8
+Summary: Stock Adjustment Cost
+Home-page: https://github.com/OCA/stock-logistics-warehouse
+Author: Open Source Integrators,Odoo Community Association (OCA)
+Author-email: support@odoo-community.org
+License: AGPL-3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 14.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Requires-Python: >=3.6
+Requires-Dist: odoo (<14.1dev,>=14.0a)
+
+.. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
+    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
+    :alt: License: AGPL-3
+
+=====================
+Stock Adjustment Cost
+=====================
+
+Adds product cost field to inventory adjustment line view.
+
+Usage
+=====
+
+* Go to Inventory > Operations > Inventory Adjustments
+* Create or open an existing inventory adjustment
+* On the list view you should see the Product Cost field and it should show the cost of the product.
+
+Contributors
+------------
+
+* Open Source Integrators <contact@opensourceintegrators.com>
+
+
