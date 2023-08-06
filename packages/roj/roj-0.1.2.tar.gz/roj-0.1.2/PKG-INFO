@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: roj
+Version: 0.1.2
+Summary: roj (run on jail) runs a command on a local or remote jail.
+Author-email: "Eugene M. Kim" <astralblue@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Project-URL: Bug Tracker, https://github.com/astralblue/roj/issues
+Project-URL: Home, https://github.com/astralblue/roj
+
+roj (Run On Jail)
+=================
+
+roj is a simple command-line tool that runs a command (login shell by default)
+in the given jail, either locally or remotely over SSH.
+
+The given jail name is tried verbatim, and if not found, with an `ioc-` prefix
+for compatibility with iocage.
+
+Examples:
+
+```sh
+roj abc
+```
+
+Runs a login shell in the local jail named `abc` (or if not found, `ioc-abc`).
+
+```sh
+roj -Hhy abc ps axl
+```
+
+Runs `ps axl` in the jail named `abc` or `ioc-abc` on a remote host `hy`.  The
+hostname is provided verbatim to
+[`ssh(1)`](https://www.freebsd.org/cgi/man.cgi?query=ssh&sektion=1) so usual
+[`ssh_config(5)`](https://www.freebsd.org/cgi/man.cgi?query=ssh_config&sektion=5)
+settings can be applied, e.g. in the `Host hy` section.
+

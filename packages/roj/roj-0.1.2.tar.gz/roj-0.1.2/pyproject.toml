@@ -1,0 +1,30 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "roj"
+readme = "README.md"
+requires_python = "~=3.7"
+authors = [{name = "Eugene M. Kim", email = "astralblue@gmail.com"}]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+]
+dynamic = ["version", "description"]
+
+[project.urls]
+"Home" = "https://github.com/astralblue/roj"
+"Bug Tracker" = "https://github.com/astralblue/roj/issues"
+
+[project.scripts]
+roj = "roj:main"
