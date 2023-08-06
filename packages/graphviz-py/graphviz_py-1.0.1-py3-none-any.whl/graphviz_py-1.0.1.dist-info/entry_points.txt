@@ -1,0 +1,3 @@
+[console_scripts]
+graphviz-py=graphviz_py.cli:main
+
