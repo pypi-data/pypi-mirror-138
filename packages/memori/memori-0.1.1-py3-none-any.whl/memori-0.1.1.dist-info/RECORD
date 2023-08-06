@@ -1,0 +1,11 @@
+memori/__init__.py,sha256=buMx6WEu9XBTdRXnKr9go_uXABeTE81l6t9bJvQsqSA,77
+memori/helpers.py,sha256=8WaJDZ6gkGVTEyYQTC8D5bIDBlMymBXnDMYNu8Ppmiw,9654
+memori/pathman.py,sha256=1SslIUzYyKrMCJ0g4JBUnB-SWxOA3IkTBI99XX3WmZk,5732
+memori/pipeline.py,sha256=wuxP6dahLSMF0yC4BTkJWx1COhy3g2Y9MT_nfbQ0EXc,5628
+memori/stage.py,sha256=c2WiOving3a_KSpwqIwsXEVWYY-JUFnQMCsHXyzRKgQ,23297
+memori-0.1.1.dist-info/LICENSE,sha256=jynZE8tkm5UIdxqL6yUUf83mWHowLzawcNTtBuB8eqk,1067
+memori-0.1.1.dist-info/METADATA,sha256=UC-4xPXTcF65kyxUwbnn_MMwFzpd830ZMU1xEETkNkY,7893
+memori-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+memori-0.1.1.dist-info/top_level.txt,sha256=Nm3ad0isbJYBzTEce-O_gmkAEiTbAbyilgAhRt8IoGA,7
+memori-0.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+memori-0.1.1.dist-info/RECORD,,
