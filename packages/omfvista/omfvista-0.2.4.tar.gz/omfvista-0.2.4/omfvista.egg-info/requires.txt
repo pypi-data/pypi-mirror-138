@@ -1,0 +1,5 @@
+omf>=1.0.0
+vectormath>=0.2.2
+pyvista>=0.20.1
+numpy
+matplotlib
