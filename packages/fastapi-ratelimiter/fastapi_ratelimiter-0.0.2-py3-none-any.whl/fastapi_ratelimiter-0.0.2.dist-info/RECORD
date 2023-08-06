@@ -1,0 +1,10 @@
+fastapi_ratelimiter/__init__.py,sha256=lZB3SyYMZA2u5Epm8JU5xS-K5ZwMsXG2pjyjdEC8YXQ,164
+fastapi_ratelimiter/depends.py,sha256=w8ar8GpdBfVOqoZzcQTSWkoGJM5Lt_Zs3-U8foaWs_o,2476
+fastapi_ratelimiter/middlewares.py,sha256=9O-Y2-q2iWPiw_ICsPQSFYP51E0s6d_cGlJ3fYkPcMQ,2287
+fastapi_ratelimiter/strategies.py,sha256=oECtOCoQCeS5nqF0POC6VaCjuXwPL95qiHyTPcaCS4U,5505
+fastapi_ratelimiter/types.py,sha256=8wrQSXCrrY2vv8ibMHpCv0C4dsyzKAoFN2tXfBIJ0ys,1209
+fastapi_ratelimiter/utils.py,sha256=3YT4hT36E7OeAKE2xYakTdu4ujxTqrJMn79KN0YuL7Q,250
+fastapi_ratelimiter-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+fastapi_ratelimiter-0.0.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+fastapi_ratelimiter-0.0.2.dist-info/METADATA,sha256=hlH41jKwWzB7rkhWEHa-tlrOrXcYYCAvC_c02hfnJrk,1676
+fastapi_ratelimiter-0.0.2.dist-info/RECORD,,
