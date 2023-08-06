@@ -1,0 +1,14 @@
+dask[array]
+netCDF4
+numpy
+pynmea2
+pytz
+scipy
+xarray
+zarr
+fsspec
+# https://github.com/fsspec/s3fs/pull/554
+s3fs==2021.11.0
+requests
+aiohttp
+typing-extensions~=3.10
