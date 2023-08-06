@@ -1,0 +1,13 @@
+asciifx/__init__.py,sha256=LGGc6Qh3fnyP_CQOCkyfuRpjN0jZ_Zq7aOiVUGUmXbg,106
+asciifx/__main__.py,sha256=qZUXDUxh_K69cOQrNJrHXGZerghFLxY6SfaLmqd0f1o,2742
+asciifx/animator.py,sha256=pBoHJjcC1HeLZ_Vst9wLAzBNTw9N-zGOjNa6Ru1KjFg,12877
+asciifx/event.py,sha256=_897CIgZRhQyK4oZ8bIUMFRK8_vjPMF1S7d5JfdlZHQ,3724
+asciifx/perform.py,sha256=UulkyVF3P0f5roI3ormLL0u2DI7vbGMHYWVpMVo65lM,901
+asciifx/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asciifx/repl.py,sha256=KjOeeMpQNiEHUQUMx2mZ4bPBOdk-K8XOxC70XOQdZNc,1834
+asciifx/util.py,sha256=tZUl_6BXcdecCFm68BygYYuMjjQlk119rhHzT2yN0Aw,587
+asciifx-0.1.0.dist-info/entry_points.txt,sha256=8MEk_EGg9ws-kuUJmsMakozAoCrarzQPw7-XOLndBCY,35
+asciifx-0.1.0.dist-info/LICENSE,sha256=psuoW8kuDP96RQsdhzwOqi6fyWv0ct8CR6Jr7He_P_k,10173
+asciifx-0.1.0.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+asciifx-0.1.0.dist-info/METADATA,sha256=TuEN8A0gQuOh-8imWUBQi1fNk_CIVKAg4eYewF0uQZM,5989
+asciifx-0.1.0.dist-info/RECORD,,
