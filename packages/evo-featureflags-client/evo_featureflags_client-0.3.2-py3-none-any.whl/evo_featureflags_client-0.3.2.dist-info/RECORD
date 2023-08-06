@@ -1,0 +1,15 @@
+featureflags/__init__.py,sha256=G-d438vPx7m_ks5e9XTtM3u7LDRO5dSSukibukWmyPM,56
+featureflags/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+featureflags/client/compat.py,sha256=HXP493iyBJRK94Rf7J1UZQSHqWEHzt7zbH8xM1CPXDM,567
+featureflags/client/conditions.py,sha256=9nDEdruI0bnj4120G6YkK9x-NbGyu05wfWdIwhgE3Ms,5361
+featureflags/client/flags.py,sha256=DHxgQ-5CZmolQ20CGz2CVyKpytxk1smXEz-DppqNhuw,6278
+featureflags/client/state.py,sha256=W9Bo1f52wtHPOMR_8HJkd5wMn-pxPW_4b7QmBIMeUBE,1776
+featureflags/client/utils.py,sha256=hdzB-DS5tP8JSlc097UnyNjm3LRODVc6iHIuyHNXGTo,420
+featureflags/client/managers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+featureflags/client/managers/asyncio.py,sha256=oK_FjMZ23-3PofRkgsBUlymEJZTkHDtm6QJokmAevO4,3939
+featureflags/client/managers/dummy.py,sha256=yYOnaASpsmaviJRC1jYO6462UAnSYKojOXN4ZqcH5SM,541
+featureflags/client/managers/sync.py,sha256=WTvssPX_4-RCh4OqxhSVRSlXwzyhSzQBjjD3LUhgPS0,2535
+evo_featureflags_client-0.3.2.dist-info/METADATA,sha256=uP3OResjDZeMDOyBVSGW8NFDtn2aktHLGD4nQ30uFyk,297
+evo_featureflags_client-0.3.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+evo_featureflags_client-0.3.2.dist-info/top_level.txt,sha256=fA_afApzPDOjuwjfRhYSMGCLYyppRzxZqZyTUy6UXio,13
+evo_featureflags_client-0.3.2.dist-info/RECORD,,

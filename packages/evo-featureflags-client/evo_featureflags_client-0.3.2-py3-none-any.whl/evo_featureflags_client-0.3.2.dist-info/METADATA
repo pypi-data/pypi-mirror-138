@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: evo-featureflags-client
+Version: 0.3.2
+Summary: Feature flags client
+Home-page: UNKNOWN
+Author: Vladimir Magamedov
+Author-email: vladimir@magamedov.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: hiku
+Requires-Dist: evo-featureflags-protobuf (>=0.2.0)
+
+UNKNOWN
+
+
