@@ -1,0 +1,3 @@
+[console_scripts]
+remove_github_repos = github_repo_deleter.repo_deleter:main
+
