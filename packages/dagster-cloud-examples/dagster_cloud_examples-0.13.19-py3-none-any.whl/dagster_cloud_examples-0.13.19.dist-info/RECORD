@@ -1,0 +1,8 @@
+dagster_cloud_examples/__init__.py,sha256=sgFYg90RC6u_kTijedPtRHrsy4gEXrkQthSnEkKi2q0,39
+dagster_cloud_examples/version.py,sha256=CyujeK6aXpvzuhWNkfoB3-oxpMrA8P2aB1Grs2Lp4h4,24
+dagster_cloud_examples/cereals/__init__.py,sha256=X65jYlGMSkec1EHmm3d2KD3RDm94AG_Z9rezsLSl5DA,165
+dagster_cloud_examples/cereals/process_cereals.py,sha256=8stNJLYmqYMNryidLNP8OeIfaB9jWodVERIXgO4sDoc,994
+dagster_cloud_examples-0.13.19.dist-info/METADATA,sha256=TeoeGeFazPkW1wyFp22-bzsgIRPRhOPSVh6GiYjrOIQ,557
+dagster_cloud_examples-0.13.19.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+dagster_cloud_examples-0.13.19.dist-info/top_level.txt,sha256=wQie4unTDNMd52fNf57nLbigoYo3kNcYyrhccnJZyjM,23
+dagster_cloud_examples-0.13.19.dist-info/RECORD,,
