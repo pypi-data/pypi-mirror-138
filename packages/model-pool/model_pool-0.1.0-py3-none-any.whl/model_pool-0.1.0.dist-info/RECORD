@@ -1,0 +1,10 @@
+LICENSE,sha256=2Z4g7Eq1bQRfTQoryBnNsyhlWBpAGylKyp1KFJMlTWU,1085
+model_pool/__init__.py,sha256=2n6DXeH_RwMwaXf6qcmlINeprlxtrw7xtd_Mi2mFCzE,282
+model_pool/fetch_check_aux.py,sha256=qVxGBHQ7UFWf_jJt34OFzp0R6TDD0sjf2HsI-UKF6b8,2036
+model_pool/load_model.py,sha256=QjX6ugYhgnsYuualor_pS-om7ZqwMt9W_jNmn6oQUoM,2715
+model_pool/model_pool.py,sha256=2TtbvREC56udhleW3cnk1BJSerJ2rY5c3O3-L37b8CA,125
+model_pool/model_s.py,sha256=aiheWT3ToXjLWfzirFURsPf-2gyh7HQzfB1szen-QIQ,1899
+model_pool-0.1.0.dist-info/LICENSE,sha256=2Z4g7Eq1bQRfTQoryBnNsyhlWBpAGylKyp1KFJMlTWU,1085
+model_pool-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+model_pool-0.1.0.dist-info/METADATA,sha256=tTL5rz25asL38yEphH7mjT5E1C3JHnqUjeule2qUa-8,1653
+model_pool-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: model-pool
+Version: 0.1.0
+Summary: pack_name descr 
+Home-page: https://github.com/ffreemt/align-model-pool
+License: MIT
+Author: ffreemt
+Requires-Python: >=3.7.3,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: icecream (>=2.1.1,<3.0.0)
+Requires-Dist: install (>=1.3.5,<2.0.0)
+Requires-Dist: logzero (>=1.7.0,<2.0.0)
+Project-URL: Repository, https://github.com/ffreemt/align-model-pool
+Description-Content-Type: text/markdown
+
+# align-model-pool
+[![pytest](https://github.com/ffreemt/align-model-pool/actions/workflows/routine-tests.yml/badge.svg)](https://github.com/ffreemt/align-model-pool/actions)[![python](https://img.shields.io/static/v1?label=python+&message=3.7%2B&color=blue)](https://www.python.org/downloads/)[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![PyPI version](https://badge.fury.io/py/model_pool.svg)](https://badge.fury.io/py/model_pool)
+
+Various alignment models for colab and hf-spaces
+
+## Install it
+
+```shell
+pip install model_pool
+# or poetry add model_pool
+# pip install git+htts://github.com/ffreemt/align-model-pool
+# poetry add git+htts://github.com/ffreemt/align-model-pool
+
+# To upgrade
+pip install model_pool -U
+# or poetry add model_pool@latest
+```
+
+## Use it
+```python
+import model_pool
+
+```
+
