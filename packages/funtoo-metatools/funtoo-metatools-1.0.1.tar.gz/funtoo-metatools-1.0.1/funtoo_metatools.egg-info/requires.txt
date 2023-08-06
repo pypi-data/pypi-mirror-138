@@ -1,0 +1,14 @@
+subpop>=2.0.0
+aiodns
+aiofiles
+aiohttp
+beautifulsoup4
+dict_toolbox
+Jinja2>=3
+packaging
+pymongo
+PyYAML
+tornado
+toml
+xmltodict
+colorama
