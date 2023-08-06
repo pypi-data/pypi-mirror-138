@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: python-ramzinex-api
+Version: 0.1.13
+Summary: Ramzinex Python Library
+Home-page: https://python_ramzinex_api.readthedocs.io/
+Author: Mohammadreza Mirzaei
+Author-email: mirzaeimohammadreza98@gmail.com
+License: MIT
+Requires-Dist: cloudscraper
+Requires-Dist: datetime
+Requires-Dist: pandas
+
+# Ramzinex
+
+
