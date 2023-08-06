@@ -1,0 +1,15 @@
+{
+    "environments": {
+        "dev": {
+            "kube_config": "dev_kube_config",
+            "output_dir": "dev_output_dir"
+        },
+        "ci": {
+            "output_dir": "ci_output_dir"
+        }
+    },
+    "defaults": {
+        "output_dir": "defaults_output_dir",
+        "working_dir": "defaults_working_dir"
+    }
+}

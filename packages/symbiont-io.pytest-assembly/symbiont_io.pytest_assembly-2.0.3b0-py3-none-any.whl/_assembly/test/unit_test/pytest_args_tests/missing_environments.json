@@ -1,0 +1,6 @@
+{
+    "defaults": {
+        "output_dir": "defaults_output_dir",
+        "working_dir": "defaults_working_dir"
+    }
+}
