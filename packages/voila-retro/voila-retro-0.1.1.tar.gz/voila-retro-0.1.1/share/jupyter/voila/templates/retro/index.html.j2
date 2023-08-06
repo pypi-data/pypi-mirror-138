@@ -1,0 +1,31 @@
+{%- extends 'voila/templates/lab/index.html.j2' -%}
+{% import "spinner.macro.html.j2" as spinner %}
+{% from 'voila_setup.macro.html.j2' import voila_setup_helper_functions with context %}
+
+{%- block html_head_css -%}
+{{ super() }}
+
+{# Load retrolab CSS #}
+<link rel="stylesheet" href="https://unpkg.com/@retrolab/application@latest/style/index.css">
+<link rel="stylesheet" href="https://unpkg.com/@retrolab/notebook-extension@latest/style/index.css">
+
+<style>
+body[data-retro='notebooks'] .jp-Notebook > div:first-of-type {
+    padding-top: var(--jp-notebook-padding-offset);
+    margin-top: var(--jp-notebook-toolbar-margin-bottom);
+}
+</style>
+{%- endblock html_head_css -%}
+
+{%- block body_header -%}
+{# This is a shameless copy of super, as we can't overwrite it properly can we? #}
+{% if resources.theme == 'dark' %}
+<body data-retro="notebooks" data-jp-theme-light="false" data-jp-theme-name="JupyterLab Dark">
+{% else %}
+<body data-retro="notebooks" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
+{% endif %}
+
+{{ spinner.html() }}
+{{ voila_setup_helper_functions() }}
+<div class="jp-Notebook" id="rendered_cells" style="display: none">
+{%- endblock body_header -%}
