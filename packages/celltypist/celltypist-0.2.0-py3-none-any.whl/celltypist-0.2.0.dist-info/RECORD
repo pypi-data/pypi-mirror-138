@@ -1,0 +1,17 @@
+celltypist/__init__.py,sha256=XruWmacLtJqzlQcjPXUplYNdfBCwn3Yj6GK0Wvtm3G4,138
+celltypist/annotate.py,sha256=JHszLFtvcVXLJxiF21YwqoE7B7MCYaYeUGpq4h0sDqg,5832
+celltypist/classifier.py,sha256=ipVX9QlSglq_mqIUsp8T8NyPRnMONoHvp-zA6vblkqc,25590
+celltypist/command_line.py,sha256=x7Q3XTHLyqpZ2_iwEYd255qbGkVVsgsLEvebpQEyu60,7421
+celltypist/logger.py,sha256=YHwi6JruMUdYhsqMc4KHutLGkX2zuJ7W2H3VEm3xIrU,226
+celltypist/models.py,sha256=Djqww5B9W_puzcqnbM2tODbBTYk4xLDQTR19ZtFU_qk,17689
+celltypist/plot.py,sha256=ccYwWEHpX7MNVLj4TxQ6BjFd3kwHec14WpluMvtNj2I,8597
+celltypist/samples.py,sha256=mYHTn-c68LpIPis3u62AfCq0481L-M0mkQPm70a9JYE,4060
+celltypist/train.py,sha256=l1YCPXf6TCXVAloNMbyKKAnebyJ0WRFWbGBMrc9g-9g,17727
+celltypist/data/samples/Ensembl105_Human2Mouse_Genes.csv,sha256=ShdMg8-nCq18Rw2ORT_alNj7XXD4ovCuGW1UyeMTafE,557901
+celltypist/data/samples/sample_cell_by_gene.csv,sha256=DXKb16nk2PWozMFn8iJTD07OjTNLk50ht5a9d9r5Z_I,53473636
+celltypist-0.2.0.dist-info/LICENSE,sha256=JwOsUaVPtRnplHbwsX1StIUi1UuyGG88HmbDUnoq1Pw,1056
+celltypist-0.2.0.dist-info/METADATA,sha256=dTqcngLwEx1AYQ_DXb9Dx9cnX5M5OY1mVMYBFJlX_vA,38598
+celltypist-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+celltypist-0.2.0.dist-info/entry_points.txt,sha256=murf4ibbFYZ0w-4eRff1w0wKQtK-dRTqSmgAxyAtRNs,61
+celltypist-0.2.0.dist-info/top_level.txt,sha256=bgGVimuLg37fmvYvGzyHRXUCshNejuonMV6NdqMZ7fs,11
+celltypist-0.2.0.dist-info/RECORD,,
