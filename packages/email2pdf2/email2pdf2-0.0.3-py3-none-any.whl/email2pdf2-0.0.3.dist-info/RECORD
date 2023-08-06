@@ -1,0 +1,11 @@
+email2pdf2/__init__.py,sha256=cIIu-UGiMSR3pYCvuPBlon3qBqyAojS6E-DbhPbRrhA,214
+email2pdf2/__main__.py,sha256=X9yWZKs3-ceuG7WzSMnxOVr28u-0kKm06goUxl8fhLA,72
+email2pdf2/_version.py,sha256=0p_B7ddXBll3NHDE0UkE_bir6_n09qJb50acj-rSkk0,18492
+email2pdf2/cmd.py,sha256=FgYPRAMLb9oLoluzbdKVUSLhMul4zlRNfOiqZVtt0sA,1580
+email2pdf2/email2pdf2.py,sha256=tZr2XEAMUzBvkppOZCbTUGFrinD9UZTpFnHf3U6DG74,29415
+email2pdf2-0.0.3.dist-info/LICENSE.txt,sha256=N4QcbotCnIV7mbSyEMn3UBXzYrUmqmL8twfL_LneT-k,1117
+email2pdf2-0.0.3.dist-info/METADATA,sha256=sv4z68qY2A915dB6-SNmahkN4uGT8g-ITFWIh_41jSQ,444
+email2pdf2-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+email2pdf2-0.0.3.dist-info/entry_points.txt,sha256=0HQHYL23DMYAo-FT3WQ9aiPZk8WdmUbRwv8EtxpGBnA,51
+email2pdf2-0.0.3.dist-info/top_level.txt,sha256=Fno1nVY_nXsjXqIaQzScYxoGCniDtoXhKf5F3KtBMHw,11
+email2pdf2-0.0.3.dist-info/RECORD,,
