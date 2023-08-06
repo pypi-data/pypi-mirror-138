@@ -1,0 +1,15 @@
+homework_checker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+homework_checker/check_homework.py,sha256=6Azz8xak8XZfoAJQEXc-k5R16SdWhlumjvWHBjAtNTY,1266
+homework_checker/checker.py,sha256=RZ4tTd20CDgC7_5Kgf39DLkNMsUxFoP3c1D0ITSmvKw,2434
+homework_checker/md_writer.py,sha256=elDX_BnNZ4lA5fKwKKMyDqenB_yk1uN1PdH9cz_M9b0,4182
+homework_checker/print_repo_name.py,sha256=3SrWRJpcKwQKc5fE6-p2aNaG4qPu_LhVixmZfNixPoA,1501
+homework_checker/schema_manager.py,sha256=rmrMuplVEXzBaWZCdbMIWHslUHlTOs63wtPIPK9sOc8,6565
+homework_checker/schema_tags.py,sha256=fnPOVmFTqbhOCgfSnoDrfwQ7D0IeoyDfiOryGqVxXqI,1616
+homework_checker/tasks.py,sha256=RQWfOzA1-NOwWZ6DqJ4Fl4afRVHLSwPtEPR3W2blQy8,12280
+homework_checker/tools.py,sha256=gdqGpU8-BU2aO5fRrL1z5FoQVIZky_3T9EzSNA0G_rY,9557
+homework_checker-0.1.1.dist-info/LICENCE.txt,sha256=eFp_W9evIWkDq75rZSMW4JY_O1F7BDctJs3AWeRUgyY,11351
+homework_checker-0.1.1.dist-info/METADATA,sha256=Xhd4KWHrz82sz3httkfs-Tk9zgu3F2aLod2PyCNp0MM,884
+homework_checker-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+homework_checker-0.1.1.dist-info/entry_points.txt,sha256=wQCW7OoVXdLVV5VUxS4ds0K_xS81fNQurQ_np5KIkAU,129
+homework_checker-0.1.1.dist-info/top_level.txt,sha256=RhyixeNCnsS_oj3pvy6msPHvWXsI06P48ZIL6z4kL4M,17
+homework_checker-0.1.1.dist-info/RECORD,,
