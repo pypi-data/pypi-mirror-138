@@ -1,0 +1,26 @@
+Werkzeug
+aio-pika
+click
+docker
+flask
+jsonschema
+protobuf
+requests
+rich
+ruamel.yaml
+tenacity
+sqlalchemy
+semver
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov
+pytest-asyncio
+pytest-mock
+pytest-rabbitmq
+pytest-timeout
+requests_mock
