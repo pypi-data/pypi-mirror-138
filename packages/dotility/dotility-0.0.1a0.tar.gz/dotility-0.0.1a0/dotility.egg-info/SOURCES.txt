@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+docs/dotility.1.md
+dotility/__init__.py
+dotility/argparser.py
+dotility/configparser.py
+dotility/main.py
+dotility/texts.py
+dotility.egg-info/PKG-INFO
+dotility.egg-info/SOURCES.txt
+dotility.egg-info/dependency_links.txt
+dotility.egg-info/not-zip-safe
+dotility.egg-info/top_level.txt
