@@ -1,0 +1,11 @@
+delicatessen/__init__.py,sha256=6w6caa7k_qC-ah8vX4yRZ5NI4jcTBs0F0qoPQM2RIEc,547
+delicatessen/data.py,sha256=Zdsvs_nQkb6GCIyNRC6zvbnZ0qB2YNfEqLJvPsm5rUI,3169
+delicatessen/estimating_equations.py,sha256=GbT0oJSYQEXOGTyYUzzqyvCCIOcl-f5G_huY5pzBR74,89913
+delicatessen/mestimation.py,sha256=biD1xGDykwDP3KnAk1841Bw1EB5alTf7Ix787mlIqG8,23467
+delicatessen/utilities.py,sha256=1l696nxi1pz9CagSn8dlLtiUAjDz4N0DTeL3l66DgGE,2303
+delicatessen/version.py,sha256=TNAodMIaRrN_OXwgLnud2YcSl_63z3RuUuMxCoPeOfk,21
+delicatessen-0.1.dist-info/LICENSE,sha256=xP7a4iE-59MWBKokWDp5JGpI2odWIp7azTO2Hzs2GD4,1087
+delicatessen-0.1.dist-info/METADATA,sha256=C3l6KzO6lcZdrQr0GHSL_3O47WU38kwEOnEqHCFt6Vs,581
+delicatessen-0.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+delicatessen-0.1.dist-info/top_level.txt,sha256=xsfqebqCiL1l4jy9QH0mXSAPJ6GTDyyzzo5zmDqSUf4,13
+delicatessen-0.1.dist-info/RECORD,,
