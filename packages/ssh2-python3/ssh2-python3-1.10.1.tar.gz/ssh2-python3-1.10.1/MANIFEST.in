@@ -1,0 +1,6 @@
+recursive-include libssh2 *
+include versioneer.py
+include ssh2/_version.py
+include LICENSE
+include ssh2/*.pyx
+include ssh2/*.pxd
