@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pyjjy/__init__.py
+pyjjy/__main__.py
+pyjjy/pyjjy.py
+pyjjy.egg-info/PKG-INFO
+pyjjy.egg-info/SOURCES.txt
+pyjjy.egg-info/dependency_links.txt
+pyjjy.egg-info/requires.txt
+pyjjy.egg-info/top_level.txt
