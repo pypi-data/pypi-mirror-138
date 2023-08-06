@@ -1,0 +1,2 @@
+[console_scripts]
+branch-detective = branch_detective.__main__:main
