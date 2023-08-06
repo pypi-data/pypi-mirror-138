@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+aicspylibczi/CziFile.py
+aicspylibczi/__init__.py
+aicspylibczi/_version.py
+aicspylibczi/types.py
+aicspylibczi.egg-info/PKG-INFO
+aicspylibczi.egg-info/SOURCES.txt
+aicspylibczi.egg-info/dependency_links.txt
+aicspylibczi.egg-info/not-zip-safe
+aicspylibczi.egg-info/requires.txt
+aicspylibczi.egg-info/top_level.txt
