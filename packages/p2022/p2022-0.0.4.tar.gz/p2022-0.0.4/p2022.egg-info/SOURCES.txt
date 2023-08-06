@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+p2022.egg-info/PKG-INFO
+p2022.egg-info/SOURCES.txt
+p2022.egg-info/dependency_links.txt
+p2022.egg-info/requires.txt
+p2022.egg-info/top_level.txt
