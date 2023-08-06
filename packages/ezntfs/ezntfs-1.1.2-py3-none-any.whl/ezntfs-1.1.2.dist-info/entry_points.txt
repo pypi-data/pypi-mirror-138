@@ -1,0 +1,6 @@
+[console_scripts]
+ezntfs=ezntfs.cli:main
+
+[gui_scripts]
+ezntfs-app=ezntfs.app:main
+
