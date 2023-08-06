@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+dinamopy/__init__.py
+dinamopy/dinamo.py
+dinamopy/dinamo_hooks.py
+dinamopy.egg-info/PKG-INFO
+dinamopy.egg-info/SOURCES.txt
+dinamopy.egg-info/dependency_links.txt
+dinamopy.egg-info/top_level.txt
