@@ -1,0 +1,13 @@
+jpcm/__init__.py,sha256=XCoW5FcQOpJacgkl9qEunnjNZJkziIjuLComekkSNOk,995
+jpcm/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jpcm/core/core.py,sha256=q__DGkQFt43KIBVzV78D4TMPhOZ_eGNoWCOA_8PwCnE,5385
+jpcm/core/maps.py,sha256=SpBuK7zTeWcik0aLoX9KZsbsKBRKlDrvFhyNF_IC3Mk,2488
+jpcm/core/readme.py,sha256=5lcG9oBXNBRYcgb6lCkwBN4LrWPTYIrJi6AZogvsGN4,2583
+jpcm/core/savitzky_golay.py,sha256=Q4RDw82LILoUDj_Dx4Ohc2Z6J1srKhlMCZGxjxvavMc,3163
+jpcm/load/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jpcm/load/load.py,sha256=qcbPPfza7gZi-btF3EPYJT_oWseFXJlSkFR4drUxQ3I,580
+jpcm-0.0.2.dist-info/LICENSE,sha256=5b5XA82zQevmeuJVGl0t3eOX8pD_tPmvtQYaSaKz3-0,1072
+jpcm-0.0.2.dist-info/METADATA,sha256=2ZNUqdf3j_lakv-WcXEFqDLSNwsqPJ7wazEqEOdoyXI,4448
+jpcm-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+jpcm-0.0.2.dist-info/top_level.txt,sha256=WOI5qVeHWU8g52HRqxAK2RU0fue57bfnoWTNprVmWXI,5
+jpcm-0.0.2.dist-info/RECORD,,
