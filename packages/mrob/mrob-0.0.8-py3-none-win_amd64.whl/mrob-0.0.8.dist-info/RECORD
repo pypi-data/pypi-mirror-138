@@ -1,0 +1,15 @@
+mrob/FGraph.dll,sha256=pXd5sRjkuev0MneCGIddoKqU49eIxpGHKIbIyHb2gUU,292864
+mrob/PCRegistration.dll,sha256=nUveYx5ubtkVaSUDVVsrJyHgxA1KAdZPD3iPIAL7zLc,435712
+mrob/SE3.dll,sha256=YdfVNGJqr6iXpczNMZ-e0HtHgtjijrhxO4WndaOFTe8,116224
+mrob/__init__.py,sha256=1rOrx7V0pYO3fuw0IvQN0Zg3BLgukMjFU9z4K-kMysQ,1680
+mrob/common.dll,sha256=fJ0JVObVLzRmXoOs_6ghIOcOpYniFktXqjBZePkGU6Q,105472
+mrob/mrob.cp310-win_amd64.pyd,sha256=dFgQ_bMd2VGvQzorOYqVaaVFHIhGK87qfkKY2FQHtAs,389120
+mrob/mrob.cp36-win_amd64.pyd,sha256=PzGBapTO1-7lGj098i-EITjslLsbARyL6OfD2dS7y6o,396288
+mrob/mrob.cp37-win_amd64.pyd,sha256=5LnuwOdjv36RqjzhscgX39h0_2EKKgCJEUbxxDk8ENg,396288
+mrob/mrob.cp38-win_amd64.pyd,sha256=N9xugpU3bMoDAWCI2QPMjk9TDbPIbgC0QPDWeO6LZtk,389120
+mrob/mrob.cp39-win_amd64.pyd,sha256=5vz1AIOiKHxKhb-thQhfqwSdOduMrPigFN8dqXb0J5w,346112
+mrob-0.0.8.dist-info/LICENSE,sha256=ZyPTO4RxxZhHut65H4WpKxKtKOY1ovG-pwLniJX2hJ0,9310
+mrob-0.0.8.dist-info/METADATA,sha256=WPt5SBzRgr18akxC4NVgkXpDhNYtRk3gqZ3WzDPMIkU,3822
+mrob-0.0.8.dist-info/WHEEL,sha256=i9qQj8KaD8_YEW0Vc2oS56fKju23RkQ-FVz-QmzVakQ,98
+mrob-0.0.8.dist-info/top_level.txt,sha256=UM0gF3Ckgl4wRuKrIEqaitvgo2I9oUaFbzdsd4X1CcY,5
+mrob-0.0.8.dist-info/RECORD,,
