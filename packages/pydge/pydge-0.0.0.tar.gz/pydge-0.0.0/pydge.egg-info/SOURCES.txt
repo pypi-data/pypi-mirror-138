@@ -1,0 +1,15 @@
+MANIFEST.in
+setup.cfg
+setup.py
+versioneer.py
+pydge/__init__.py
+pydge/_version.py
+pydge/converters.py
+pydge/core.py
+pydge/error_codes.py
+pydge.egg-info/PKG-INFO
+pydge.egg-info/SOURCES.txt
+pydge.egg-info/dependency_links.txt
+pydge.egg-info/requires.txt
+pydge.egg-info/top_level.txt
+test/test_pydg.py

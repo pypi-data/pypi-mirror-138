@@ -1,0 +1,35 @@
+Metadata-Version: 1.2
+Name: pydge
+Version: 0.0.0
+Summary: EdgeDB client library
+Home-page: https://github.com/tlocke/pgydge
+Author: The Contributors
+License: MIT
+Description: 
+        
+        Pydge
+        -----
+        Pydge is a pure-Python EdgeDB client. It is tested on Python versions 3.6+, on
+        CPython and PyPy, and EdgeDB versions 1.0+. Pydg is distributed under the
+        MIT Licence.
+        
+Keywords: EdgeDb client driver
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: Jython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
