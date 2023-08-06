@@ -1,0 +1,3 @@
+[console_scripts]
+cuda-checker=cuda_checker.cli:check
+
