@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: clintl
+Version: 1.0
+Summary: Timeline figures from json or yaml-formatted input
+Author: Rainer Strotmann
+Author-email: rainer.strotmann@mailbox.org
+License: GPL-3.0-or-later
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: COPYING
+Requires-Dist: typer
+Requires-Dist: pycairo
+Requires-Dist: python-dateutil
+Requires-Dist: DateTime
+
+# TL - Timeline Figures
+
+TL is a command line tool to create beautiful Timeline figures for clinical studies.
+
+The input describing the study design is expected as a json- or yaml-formatted text file.
+
+The output is provided in vector graphic form (as a .svg file) that can be easily included in Office documents or websites.
+
+
