@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: openalexapi
+Version: 0.0.1a0
+Summary: Libray for accessing the OpenAlex API
+Home-page: https://github.com/dpriskorn/OpenAlexAPI
+Author: Dennis Priskorn
+Author-email: dp_public@riseup.net
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/dpriskorn/OpenAlexAPI/issues
+Keywords: riksdagen
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# OpenAlex API
+This is a Python library used to access information from the OpenAlex JSON API
+
+For details see https://docs.openalex.org/api
+## License
+GPLv3+
+
