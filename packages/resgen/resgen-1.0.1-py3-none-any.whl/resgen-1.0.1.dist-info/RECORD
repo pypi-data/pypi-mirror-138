@@ -1,0 +1,10 @@
+resgen.py,sha256=utVT2Z_wo0DNnN4fMX_xot-QvkmF44O6ZvG_W91RVms,1430
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/application.py,sha256=WVExfnWXJX52hdieKVlpJmuOTaba7WudxhYQ6fmLp0M,1947
+resgen-1.0.1.dist-info/LICENSE.txt,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+resgen-1.0.1.dist-info/METADATA,sha256=mvciJ3gHaMJvYMLxwa7uGLuPrlc3lsWalrtM1fpvnmY,4281
+resgen-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+resgen-1.0.1.dist-info/entry_points.txt,sha256=kMSXrUMvnC0ysJVKUySGZAQ6h4TvzSjXEkgoJMM_tCs,58
+resgen-1.0.1.dist-info/top_level.txt,sha256=AWQ5Llq91cX0XNbtkA1024K6lyznFJRlanOMY7_GAzk,11
+resgen-1.0.1.dist-info/RECORD,,
