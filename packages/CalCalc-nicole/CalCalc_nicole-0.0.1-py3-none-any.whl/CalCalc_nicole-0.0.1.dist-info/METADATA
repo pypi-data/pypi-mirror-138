@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: CalCalc-nicole
+Version: 0.0.1
+Summary: Calculator, locally or using Wolfram API
+Home-page: http://github.com/NicoleGreene/python-ay250-homeworks/NicoleGreene_hw3
+Author: Nicole Greene
+Author-email: nsgreene@berkeley.edu
+License: BSD
+Keywords: sample setuptools eduction data-science
+Platform: any
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3
+Description-Content-Type: text/x-rst
+
+Calculator, locally or using Wolfram API
+
+
