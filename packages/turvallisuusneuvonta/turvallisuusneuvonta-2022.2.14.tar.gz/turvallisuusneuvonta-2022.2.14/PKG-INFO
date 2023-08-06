@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: turvallisuusneuvonta
+Version: 2022.2.14
+Summary: Security advisory (Finnish: turvallisuusneuvonta) audit tool.
+Home-page: https://github.com/sthagen/turvallisuusneuvonta
+Author: Stefan Hagen
+Author-email: stefan@hagen.link
+Maintainer: Stefan Hagen
+Maintainer-email: stefan@hagen.link
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/sthagen/turvallisuusneuvonta/issues
+Project-URL: Documentation, https://sthagen.github.io/turvallisuusneuvonta
+Project-URL: Source Code, https://github.com/sthagen/turvallisuusneuvonta
+Keywords: csaf,developer-tools,validation,verification
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# turvallisuusneuvonta
+
+[![license](https://img.shields.io/github/license/sthagen/turvallisuusneuvonta.svg?style=flat)](https://github.com/sthagen/turvallisuusneuvonta/blob/default/LICENSE)
+[![version](https://img.shields.io/pypi/v/turvallisuusneuvonta.svg?style=flat)](https://pypi.python.org/pypi/turvallisuusneuvonta/)
+[![downloads](https://pepy.tech/badge/turvallisuusneuvonta/month)](https://pepy.tech/project/turvallisuusneuvonta)
+[![wheel](https://img.shields.io/pypi/wheel/turvallisuusneuvonta.svg?style=flat)](https://pypi.python.org/pypi/turvallisuusneuvonta/)
+[![supported-versions](https://img.shields.io/pypi/pyversions/turvallisuusneuvonta.svg?style=flat)](https://pypi.python.org/pypi/turvallisuusneuvonta/)
+[![supported-implementations](https://img.shields.io/pypi/implementation/turvallisuusneuvonta.svg?style=flat)](https://pypi.python.org/pypi/turvallisuusneuvonta/)
+
+Security advisory (Finnish: turvallisuusneuvonta) audit tool.
+
+## Status
+
+Experimental.
+
+**Note**: The default branch is default.
+
+
