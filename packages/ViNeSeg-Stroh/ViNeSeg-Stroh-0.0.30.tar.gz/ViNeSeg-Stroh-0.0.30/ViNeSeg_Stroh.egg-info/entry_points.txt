@@ -1,0 +1,3 @@
+[console_scripts]
+vineseg_Stroh = vineseg_Stroh.__main__:main
+
