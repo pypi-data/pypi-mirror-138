@@ -1,0 +1,27 @@
+<main_tag>
+    <row_tag>
+        <name_tag>name 1</name_tag>
+        <info_tag>info 1</info_tag>
+        <filter_tag>filter_1, filter_2</filter_tag>
+    </row_tag>
+    <row_tag>
+        <name_tag>name 2</name_tag>
+        <info_tag>info 2</info_tag>
+        <filter_tag>filter_2, filter_3</filter_tag>
+    </row_tag>
+    <row_tag>
+        <name_tag>name 3</name_tag>
+        <info_tag>info 3</info_tag>
+        <filter_tag>filter_2</filter_tag>
+    </row_tag>
+    <row_tag>
+        <name_tag>name 4</name_tag>
+        <info_tag>info 4</info_tag>
+        <filter_tag>filter_1, filter_3</filter_tag>
+    </row_tag>
+    <row_tag>
+        <name_tag>name 5</name_tag>
+        <info_tag>info 5</info_tag>
+        <filter_tag>filter_1</filter_tag>
+    </row_tag>
+</main_tag>
