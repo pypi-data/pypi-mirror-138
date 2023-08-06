@@ -1,0 +1,8 @@
+jupyter_core <= 4.8.2
+docutils <= 0.17.1
+sphinx
+sphinx_rtd_theme
+nbsphinx
+matplotlib
+ipython
+m2r2
