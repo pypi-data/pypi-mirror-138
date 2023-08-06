@@ -1,0 +1,7 @@
+setup.py
+neospy/neospy.py
+neospy.egg-info/PKG-INFO
+neospy.egg-info/SOURCES.txt
+neospy.egg-info/dependency_links.txt
+neospy.egg-info/requires.txt
+neospy.egg-info/top_level.txt
