@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: em4-datastore-py3
+Version: 0.0.2
+Summary: A google cloud datastore package for em4 projects
+Home-page: https://github.com/4-0-analytics/em4-datastore-py3
+Author: Steve H.
+Author-email: hwuang@aim.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/4-0-analytics/em4-datastore-py3/issues
+Keywords: example project
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Installing
+
+pip install em4-datastore-py3
+
+Usage
+
+>>> from src.methods import Em4DataStore
+>>> db = Em4DataStore()
+>>> message, client_id = ds.upsertClient(name=client_name,
+                                         lastname=lastname,
+                                         phone=phone,
+                                         email=email,
+                                         address1=address1,
+                                         address2=address2,
+                                         city=city,
+                                         state=state,
+                                         zipcode=zipcode)
+
+
