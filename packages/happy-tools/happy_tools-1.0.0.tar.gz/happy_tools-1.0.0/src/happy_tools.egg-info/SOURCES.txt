@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/happy/__init__.py
+src/happy/io.py
+src/happy/local_config.py
+src/happy/misc.py
+src/happy/ndarray.py
+src/happy/plots.py
+src/happy_tools.egg-info/PKG-INFO
+src/happy_tools.egg-info/SOURCES.txt
+src/happy_tools.egg-info/dependency_links.txt
+src/happy_tools.egg-info/requires.txt
+src/happy_tools.egg-info/top_level.txt
