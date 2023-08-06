@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "srv_hijacker_aws_service_discovery"
+version = "0.1.0beta1"
+description = ""
+authors = ["Andrei Shabanski <shabanski.andrei@gmail.com>"]
+packages = [
+    { include = "srv_hijacker" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dnspython = "^2.2.0"
+asyncpg = "^0.25.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["setuptools", "poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
