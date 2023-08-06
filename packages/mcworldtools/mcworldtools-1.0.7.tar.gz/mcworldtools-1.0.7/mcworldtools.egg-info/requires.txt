@@ -1,0 +1,6 @@
+nbt>=1.5.1
+pathlib
+tqdm
+argparse
+json
+yaml
