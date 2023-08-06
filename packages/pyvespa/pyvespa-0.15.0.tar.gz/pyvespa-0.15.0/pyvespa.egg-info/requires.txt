@@ -1,0 +1,16 @@
+requests
+pandas
+docker
+jinja2
+cryptography
+aiohttp
+tenacity
+
+[full]
+transformers==4.10.3
+torch
+onnxruntime
+
+[ml]
+transformers==4.10.3
+torch
