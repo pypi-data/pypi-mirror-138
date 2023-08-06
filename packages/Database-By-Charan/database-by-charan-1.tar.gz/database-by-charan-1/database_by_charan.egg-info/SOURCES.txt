@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+database_by_charan.egg-info/PKG-INFO
+database_by_charan.egg-info/SOURCES.txt
+database_by_charan.egg-info/dependency_links.txt
+database_by_charan.egg-info/top_level.txt
+db/__init__.py
