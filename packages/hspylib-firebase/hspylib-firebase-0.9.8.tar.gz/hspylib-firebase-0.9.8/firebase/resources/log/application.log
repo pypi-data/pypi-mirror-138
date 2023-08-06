@@ -1,0 +1,19 @@
+2022-02-12 00:19:18,513 [MainThread] INFO  commons.py::log_init(@Line:73) Logger init. filename=application.log level=10 mode=a append=False 
+2022-02-12 00:19:18,514 [MainThread] INFO  properties.py::_parse(@Line:144) Successfully loaded 5 properties from:
+	=>/Users/hjunior/GIT-Repository/GitHub/hspylib/modules/firebase/src/main/firebase/resources/application.properties 
+2022-02-12 00:19:18,514 [MainThread] INFO  app_config.py::__init__(@Line:61) 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+AppConfigs
+  |-SourceDir = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/firebase/src/main/firebase
+  |-ResourceDir = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/firebase/src/main/firebase/resources
+  |-LogFile = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/firebase/src/main/firebase/resources/log/application.log
+  |-AppProperties:
+   \-firebase.project.id=homesetup-37970
+   |-firebase.database=firebase-test
+   |-firebase.project.uuid=2c67adfa-b03f-4fb3-b089-9dc836b40a9d
+   |-firebase.username=hjunior
+   |-firebase.passphrase=MTIzNDU=
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+2022-02-12 00:19:18,514 [MainThread] INFO  application.py::run(@Line:89) Run started 2022-02-12 00:19:18.514317 
+2022-02-12 00:19:18,514 [MainThread] INFO  application.py::run(@Line:99) Run finished 2022-02-12 00:19:18.514754 
+2022-02-12 00:19:18,519 [MainThread] INFO  application.py::_cleanup(@Line:137) cleanup was not overridden 
