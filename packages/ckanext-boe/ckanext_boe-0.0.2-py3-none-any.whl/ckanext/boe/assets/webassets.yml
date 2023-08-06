@@ -1,0 +1,14 @@
+# boe-js:
+#   filter: rjsmin
+#   output: ckanext-boe/%(version)s-boe.js
+#   contents:
+#     - js/boe.js
+#   extra:
+#     preload:
+#       - base/main
+
+# boe-css:
+#   filter: cssrewrite
+#   output: ckanext-boe/%(version)s-boe.css
+#   contents:
+#     - css/boe.css
