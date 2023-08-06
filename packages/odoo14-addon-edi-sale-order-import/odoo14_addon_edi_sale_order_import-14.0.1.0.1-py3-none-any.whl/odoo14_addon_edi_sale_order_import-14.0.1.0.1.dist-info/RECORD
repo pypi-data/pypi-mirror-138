@@ -1,0 +1,14 @@
+odoo/addons/edi_sale_order_import/README.rst,sha256=yaJ1lZJ7E5FWwniniilHa_TPMsXuvYTAIWM1XdvOCfs,3483
+odoo/addons/edi_sale_order_import/__init__.py,sha256=4hzzdr5iZgGdG1B-358VNgNjQRKLDc3R6FIeRKC8Bbw,25
+odoo/addons/edi_sale_order_import/__manifest__.py,sha256=qnVXdTYItCTVYZwdCXBcwf3Fa1u4QNcijAD083FtPlk,557
+odoo/addons/edi_sale_order_import/components/__init__.py,sha256=sc_wKYKt_8D9cmvfpJzjdZtCmwVbvp_Jd1TS6tODJcc,22
+odoo/addons/edi_sale_order_import/components/process.py,sha256=WVhFa8XmyLoBughJWHEMAz-9Mw3F3pDp32_URFBE6s8,2217
+odoo/addons/edi_sale_order_import/i18n/edi_sale_order_import.pot,sha256=ewH0xlA96iQ83MDBjK7XVc-GA_VNZW_LKOIjPwKFu1Q,874
+odoo/addons/edi_sale_order_import/readme/CONTRIBUTORS.rst,sha256=1ADhmOLCMAtDVg9t5Fstl0AwYHMzEiFSenM8tO5AtqY,43
+odoo/addons/edi_sale_order_import/readme/DESCRIPTION.rst,sha256=iqaUMQi7O6pPTjfXh0C9XAS16e6oL8OANkp685ej57M,445
+odoo/addons/edi_sale_order_import/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/edi_sale_order_import/static/description/index.html,sha256=xfCaUbi5uKIuTT6N8q9JmjDXhwokE7O4nzkQN7TfEUo,12437
+odoo14_addon_edi_sale_order_import-14.0.1.0.1.dist-info/METADATA,sha256=CT5I9zU9y_GyY3u4aWf3d7Hqjt-rqB8kHdnWCvYylgE,4161
+odoo14_addon_edi_sale_order_import-14.0.1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo14_addon_edi_sale_order_import-14.0.1.0.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_edi_sale_order_import-14.0.1.0.1.dist-info/RECORD,,
