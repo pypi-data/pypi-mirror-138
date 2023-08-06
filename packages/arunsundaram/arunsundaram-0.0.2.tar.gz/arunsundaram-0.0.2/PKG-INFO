@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: arunsundaram
+Version: 0.0.2
+Summary: A very basic adder
+Home-page: UNKNOWN
+Author: Joshua Lowe
+Author-email: arun_co@yahoo.com
+License: MIT
+Description: # Adds two numbers
+        This is just a simple try
+        
+        
+        Change Log
+        ==========
+        
+        0.0.1 (02/11/2022)
+        ------------------
+        Initial implementation
+        
+Keywords: adder
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: MacOS 
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
