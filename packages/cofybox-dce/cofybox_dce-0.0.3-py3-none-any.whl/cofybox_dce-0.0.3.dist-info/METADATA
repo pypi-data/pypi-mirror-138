@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: cofybox-dce
+Version: 0.0.3
+Summary: COFYCloud Data Collector Engine python code
+Home-page: https://docs.cofybox.io
+Author: Jan Pecinovsky
+Author-email: jan@energieid.be
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitlab.com/rescoopvpp/cofybox-dce/-/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: octopusagile (==0.0.6)
+Requires-Dist: pandas (==1.4.0)
+
+# cofybox-dce
+
+COFYbox Data Collector Engine.
+Collects data from external sources, outputs DataFrames
+
