@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: matprops
+Version: 0.0.3
+Summary: Python library written on top of matplotlib library for customizable area proportional charts
+Home-page: https://github.com/sharajmohamars/matprops
+Author: Mohammed Shammeer
+Author-email: sharajmohamars@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# matprops
+Python library built on top of matplotlib for area proportional charts with better customizations.
+Currently, on the test version 
+
+
