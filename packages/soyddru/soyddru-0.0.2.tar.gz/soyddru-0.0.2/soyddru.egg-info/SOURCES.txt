@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+soyddru/__init__.py
+soyddru.egg-info/PKG-INFO
+soyddru.egg-info/SOURCES.txt
+soyddru.egg-info/dependency_links.txt
+soyddru.egg-info/entry_points.txt
+soyddru.egg-info/requires.txt
+soyddru.egg-info/top_level.txt
