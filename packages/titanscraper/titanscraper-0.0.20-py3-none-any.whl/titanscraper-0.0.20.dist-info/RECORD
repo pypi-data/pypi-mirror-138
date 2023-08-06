@@ -1,0 +1,10 @@
+titanscraper/__init__.py,sha256=Rq5gd1H8tYgDXl774_7_XQm-mY1SZodKOhIZU9fhCDs,180
+titanscraper/config.py,sha256=v9waSkVTh9TgGSNa-RTG-Uw-nYA6hwM4-0mOzhXyQ84,743
+titanscraper/processors.py,sha256=88l6ARNiFiijeHeFif-oc027W89xthqOKa6-HJFeEXA,4123
+titanscraper/titanscraper.py,sha256=st7YqpiwqB8Bl-ZcSh7tC0-w0MQg3R2RkZijHhGCqko,11454
+titanscraper/utils.py,sha256=l05NTWYzDRObLOEjZRcCnGBqEUmH-utHYNFsCkxi6RE,500
+titanscraper-0.0.20.dist-info/LICENSE,sha256=Fr1eGB5suxlEA3DyDSPFQBuuBeUz8T1_6XLBI1iSxP0,1060
+titanscraper-0.0.20.dist-info/METADATA,sha256=_mt-kCiF6fuyeD8qOEPqS80TqOY-HnBuYuE-VMU2x4E,3503
+titanscraper-0.0.20.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+titanscraper-0.0.20.dist-info/top_level.txt,sha256=HtsC8Khu11zw_Bg3nphCHd0SlD36LEOSqYYjwvLKu3w,13
+titanscraper-0.0.20.dist-info/RECORD,,
