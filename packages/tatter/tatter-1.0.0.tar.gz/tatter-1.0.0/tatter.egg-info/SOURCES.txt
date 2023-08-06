@@ -1,0 +1,15 @@
+setup.py
+./tatter/KL_estimator.py
+./tatter/TST_estimators.py
+./tatter/__init__.py
+./tatter/posterior_predictive_check.py
+./tatter/test_module.py
+./tatter/tests/__init__.py
+./tatter/tests/cluster_catalog_comp.py
+./tatter/tests/gaussian_vs_lognormal.py
+./tatter/tests/mnist_test.py
+tatter.egg-info/PKG-INFO
+tatter.egg-info/SOURCES.txt
+tatter.egg-info/dependency_links.txt
+tatter.egg-info/requires.txt
+tatter.egg-info/top_level.txt
