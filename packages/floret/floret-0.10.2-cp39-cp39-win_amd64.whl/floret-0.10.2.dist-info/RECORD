@@ -1,0 +1,17 @@
+floret_pybind.cp39-win_amd64.pyd,sha256=5lWVHuWoAO-eqalqmUwrTa6vsJenMGbvh8kVi8iXEOg,469504
+floret/__init__.py,sha256=IoxwzWdfMbjfiM1Z4iW7Gxgrj_s5juaTq031i0BPJ1g,661
+floret/floret.py,sha256=Wk34ZK7BAEty_oT2hSKN_i4hknTuxZI93QSeBjloWMg,20661
+floret/tests/README.md,sha256=qO_dGR7OFAWQfw3ZmHSx7sZBf-k2z6rjXWB6XfdUInE,105
+floret/tests/__init__.py,sha256=bJ05CkRwiZ-AQVyUCz_pJYRdytH4oPYKbbN_RVdFYbw,489
+floret/tests/data.txt,sha256=6MN7OHmKeWAZfSpEC6h0OJ-HcJ6H5COpuRMle940YNU,11014
+floret/tests/test_configurations.py,sha256=kMPVNw42mxcx_0t9xoQRA87YGv0gzObc0oacTYwjV_M,7299
+floret/tests/test_script.py,sha256=NygeqMl-xiskN5AIU565lyh8-K-VcpcLbXWQnpcbUhc,22394
+floret/tests/test_tokenize.py,sha256=RKqNZgFBNqkx3OeGSCeJM9W0wknWwkjhJTIOG4fIMq4,101
+floret/tests/test_train.py,sha256=5hJB0LqbB-zuTryCc6QPWVEjikWcTx4Cs-H_8NVH3LE,2185
+floret/util/__init__.py,sha256=wC96nb-dmniJ7odaDhfh5vr0ldUdpY4HSTLB04e1MmQ,487
+floret/util/util.py,sha256=07ykMjxCQ_O_eLMZ0UV-R2rk5ofbV_3-DHKyWRp-JM0,7699
+floret-0.10.2.dist-info/LICENSE,sha256=4whtAWwNeJBVrhSgG_IjSyGOxLQTaw3lCAvCHgjpKkU,1132
+floret-0.10.2.dist-info/METADATA,sha256=j1bp0VKxQd2JgZxQaU4h6Rlm_UtUyodBhT1gR2xAEqA,3004
+floret-0.10.2.dist-info/WHEEL,sha256=fVcVlLzi8CGi_Ul8vjMdn8gER25dn5GBg9E6k9z41-Y,100
+floret-0.10.2.dist-info/top_level.txt,sha256=HhkQl8RLJROs_xOrLLdU_ZJYIpzTvdLh13jRodqqfpk,21
+floret-0.10.2.dist-info/RECORD,,
