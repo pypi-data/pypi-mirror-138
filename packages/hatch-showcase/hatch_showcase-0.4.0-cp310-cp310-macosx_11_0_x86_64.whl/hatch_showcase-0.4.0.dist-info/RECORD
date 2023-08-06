@@ -1,0 +1,15 @@
+8308bdc8a49463f40810__mypyc.cpython-310-darwin.so,sha256=wlCnlcUr2qmsvXIPHTqStv5MCzgz_anDzvODlT_qz1U,125056
+hatch_showcase/__init__.cpython-310-darwin.so,sha256=fXRGNDihbHN0YR-lsZqHdRM7LCKIOrpo3lhkH0QdBXY,33768
+hatch_showcase/__init__.py,sha256=SnqyexerOAwtyoBgJiHYrEEn5N-QRT1miZRN1pkADP0,96
+hatch_showcase/__main__.cpython-310-darwin.so,sha256=70n1pUXMZ0c-b8Zvoosv07eT8bLIEkvtxTYaHm3IU_Q,33760
+hatch_showcase/__main__.py,sha256=o-PTw3c2gFgKqWT_-7NRGi8egP5S3hSe70suX_Zpml8,203
+hatch_showcase/_version.py,sha256=LXsVgL30inwYURXgt8agwHpCAGkWqXpMAmFq8N7WB4Q,142
+hatch_showcase/fib.cpython-310-darwin.so,sha256=QirATAp5KTthKlEAalw0sNhL2hTWzGcKG5h_xiMylHA,33736
+hatch_showcase/fib.py,sha256=-WKhQkBHMsfdGNx6Xiogb2kqgZE9gFk6SeEbcY3sQMo,221
+hatch_showcase/cli/__init__.cpython-310-darwin.so,sha256=O15qPA-mwIULKI7m88wjZyt_Vo1vJPxR5cW48DJCtks,33736
+hatch_showcase/cli/__init__.py,sha256=p8pHzARwFTjMLGN160ImlYDo6xDOZFd8jbQ3qn9bcPk,572
+hatch_showcase-0.4.0.dist-info/METADATA,sha256=otoCPnBJgrG6tjGZ94LnxJQr4XJ0EJDM3uzqiY2O4c8,3786
+hatch_showcase-0.4.0.dist-info/WHEEL,sha256=CzHc6KXhOAhj3K2Q-8rGnNfKJU_72zQ6dsoTLfkhzUc,102
+hatch_showcase-0.4.0.dist-info/entry_points.txt,sha256=ZMEd-F4fCgY-HDAJC2nFvmtuk2_4p0dPcLzIOAppqCM,69
+hatch_showcase-0.4.0.dist-info/license_files/LICENSE.txt,sha256=fxQ6gSetSHOGLXCFS1vSq9AIWqc-ZP0rCHBKO59cB_w,1088
+hatch_showcase-0.4.0.dist-info/RECORD,,
