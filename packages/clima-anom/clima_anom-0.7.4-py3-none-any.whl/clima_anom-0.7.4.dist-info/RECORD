@@ -1,0 +1,15 @@
+clima_anom/__init__.py,sha256=K15giyc0DoWsf5gu2mL3gkzl5pUc8OV_2J9NUMFYOTw,123
+clima_anom/geometries/__init__.py,sha256=oW_vk3DGsLnREBQ5v3fGEnr4Fssm7Lh0ycqN1hpcEGg,18
+clima_anom/geometries/geo.py,sha256=FmMbIK6ekD_ank6Nb0xBqekdIvSKOFHXeWhlecUt0aY,7455
+clima_anom/others/__init__.py,sha256=M4bU2T-DUdGaT1N4PH9NZyrYesSRW5ezd_96UcYnLVY,22
+clima_anom/others/mixture.py,sha256=qZC4dIKLrBl8g59Umaey_ubha1WOrkmpA0IOeMt3TUw,8003
+clima_anom/processing/__init__.py,sha256=IHIofQsJyk2Y72CYeavf_yabXoXfjggP5xyZaqsa96w,25
+clima_anom/processing/preprocess.py,sha256=EVkGHPtOcGalRyfGbfZGNF48IGlxdyCT7VUUZ1jJPL0,10556
+clima_anom/reading/__init__.py,sha256=mAncN72fESePWej0FI1vyRcwMnY7s5DKqmLxEx85vS0,24
+clima_anom/reading/prenetcdf.py,sha256=mUA5FS1FtDYrpg8E5mVlFMS0Aibyno80pv09bpR3LLE,9367
+clima_anom/statistic/__init__.py,sha256=Jk4ODFvbeCgS9ecmD1lftfaRNoL72q4Ek8VvWr5Nw6k,22
+clima_anom/statistic/metrics.py,sha256=5Da4qPlw552DalRjxfPni7SuZCifSzXwdncd5-GdIfg,5919
+clima_anom-0.7.4.dist-info/METADATA,sha256=EPpsgNGwtL6GCNnD27bceecUIhq0sdzmgy-ETedo3lc,3919
+clima_anom-0.7.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+clima_anom-0.7.4.dist-info/top_level.txt,sha256=1SqdvrxnWoj6QidUozqqrLyPWGjA-j4CVr2ielZ8tB8,11
+clima_anom-0.7.4.dist-info/RECORD,,
