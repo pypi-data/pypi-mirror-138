@@ -1,0 +1,9 @@
+DIRAC~=7.3
+six
+
+[server]
+DIRAC[server]
+
+[testing]
+mock
+pytest
