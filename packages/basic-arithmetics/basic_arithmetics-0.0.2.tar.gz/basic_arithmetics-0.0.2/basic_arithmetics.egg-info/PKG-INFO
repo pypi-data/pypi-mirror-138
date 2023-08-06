@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: basic-arithmetics
+Version: 0.0.2
+Summary: A very basic arithmetic operations
+Home-page: UNKNOWN
+Author: Ofir Moshe
+Author-email: ofirmoshe1996@gmail.com
+License: MIT
+Description: This is a simple arithmetic package, it takes two numbers (a,b) and supports 'add' or 'substract' operations.
+        
+        Change Log
+        ==========
+        0.0.1 - 13/02/2022
+        ------------------
+        First Release
+Keywords: arithmetics
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

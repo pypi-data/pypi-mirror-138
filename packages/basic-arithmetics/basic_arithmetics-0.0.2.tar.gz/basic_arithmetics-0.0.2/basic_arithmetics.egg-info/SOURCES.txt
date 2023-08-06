@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+arithmetics.py
+setup.py
+basic_arithmetics.egg-info/PKG-INFO
+basic_arithmetics.egg-info/SOURCES.txt
+basic_arithmetics.egg-info/dependency_links.txt
+basic_arithmetics.egg-info/top_level.txt
