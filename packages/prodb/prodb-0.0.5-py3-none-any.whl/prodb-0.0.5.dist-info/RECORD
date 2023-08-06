@@ -1,0 +1,11 @@
+prodb/__init__.py,sha256=iZG2h_6DoKeozkRT4mWkbITtUYBra-KU2huc5oCA1uw,23
+prodb/_nbdev.py,sha256=sPTG4-CFC2Pm02TclNv8wfR7biis6mlaAd2D27AFc-4,728
+prodb/card.py,sha256=guSYa4rvPxPil_K1qeIcoiiTL784A75FEbbAjqHJ2DI,3432
+prodb/core.py,sha256=DAfXmwwVTh9DR0pAZ4KrC2O_qOP_VCz2Bm4Gho7kTQ8,2646
+prodb/examples.py,sha256=tUnBl6aE7tYUjBDszSQJQdGsGaTOuikB6pfhbGYs2JQ,2089
+prodb-0.0.5.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+prodb-0.0.5.dist-info/METADATA,sha256=syInlFQ3KlUe9W6hp87ZtRJEukWYMshY_hNFJhWyEac,1822
+prodb-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+prodb-0.0.5.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+prodb-0.0.5.dist-info/top_level.txt,sha256=NP34QPg45TSzFJCHF5OIlB4xQZgaoBdWwt0uqNkJBKg,6
+prodb-0.0.5.dist-info/RECORD,,
