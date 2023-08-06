@@ -1,0 +1,9 @@
+Version 5.2.7
+* Permission model removed: it causes substantial trouble in multicompany
+  setups and access permissions should be solved with Tryton standard access 
+  permissions.
+* Pricelist on channels was factored out to sale_channel_pricelist for the
+  reason to get out of the way in multicompany setups with pricelists per company.
+Version 4.0
+* Default account revenue and expense fields has been removed from sale
+  channel. One should ask for these while importing products.

@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_not_implemented">
+            <field name="text">This feature has not been implemented for channel %(channel)s yet.</field>
+        </record>
+        <record model="ir.message" id="msg_channel_identifier_unique">
+            <field name="text">Channel identifiers must be unique per channel.</field>
+        </record>
+        <record model="ir.message" id="no_tax_found">
+            <field name="text">%s (tax) of rate %f was not found.</field>
+        </record>
+        <record model="ir.message" id="no_order_states_to_import">
+            <field name="text">No importable order state found.
+
+HINT: Import order states from Order States tab in Channel.</field>
+        </record>
+        <record model="ir.message" id="unique_tax_rate_per_channel">
+            <field name="text">Tax rate and name must be unique per channel</field>
+        </record>
+        <record model="ir.message" id="channel_missing">
+            <field name="text">First go to user preferences and select a current_channel for "%s".</field>
+        </record>
+        <record model="ir.message" id="channel_not_allowed">
+            <field name="text">You cannot work on orders of this channel because you do not have the required permissions.</field>
+        </record>
+        <record model="ir.message" id="channel_exception">
+            <field name="text">You missed some unresolved exceptions in sale %s.</field>
+        </record>
+        <record model="ir.message" id="no_active_listing">
+            <field name="text">There are no active listings to import images for.</field>
+        </record>
+        <record model="ir.message" id="checkbox_required">
+            <field name="text">At least one checkbox need to be ticked.</field>
+        </record>
+        <record model="ir.message" id="msg_wizard_export_start">
+            <field name="text">
+This wizard will export all order status or products placed on %(name)s channel(%(source)s).
+
+Checking checkboxes below, you may choose to export products or order status or product prices or all.
+
+* Items will be exported only for records which are updated / modified after the Last Export Time. If Last Export Time is missing, then it will export all items from beginning of time (this might be slow depending on the number of records).
+
+At least one checkbox need to be ticked.</field>
+        </record>
+        <record model="ir.message" id="msg_wizard_export_success">
+            <field name="text">Data have been exported successfully to %(source)s.</field>
+        </record>
+        <record model="ir.message" id="msg_wizard_export_number_status">
+            <field name="text">Number of order status exported: %(number)s.</field>
+        </record>
+        <record model="ir.message" id="msg_wizard_export_number_products">
+            <field name="text">Number of products exported: %(number)s.</field>
+        </record>
+        <record model="ir.message" id="msg_wizard_export_number_prices">
+            <field name="text">Number of product prices exported: %(number)s.</field>
+        </record>
+        <record model="ir.message" id="msg_wizard_export_number_inventory">
+            <field name="text">Number of inventories exported: %(number)s.</field>
+        </record>
+
+        <record model="ir.message" id="msg_wizard_import_start">
+            <field name="text">
+This wizard will import all orders or products placed on %(name)s channel(%(source)s).
+
+Checking checkboxes below, you may choose to import products or orders or all.
+
+* Items will be imported only for records which are updated / modified after the Last Import Time. If Last Import Time is missing, then it will import all items from beginning of time (this might be slow depending on the number of records).
+
+At least one checkbox need to be ticked.</field>
+        </record>
+        <record model="ir.message" id="msg_wizard_import_success">
+            <field name="text">Data have been imported successfully for %(source)s.</field>
+        </record>
+        <record model="ir.message" id="msg_wizard_import_number_orders">
+            <field name="text">Number of orders imported: %(number)s.</field>
+        </record>
+        <record model="ir.message" id="msg_wizard_import_number_products">
+            <field name="text">Number of products imported: %(number)s.</field>
+        </record>
+        <record model="ir.message" id="msg_wizard_import_number_prices">
+            <field name="text">Number of product prices imported: %(number)s.</field>
+        </record>
+    </data>
+</tryton>
