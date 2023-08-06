@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: binjector
+Version: 0.1.6
+Summary: Inject your data into an image
+Home-page: https://github.com/dev4hobby/image-steganography/tree/release
+Author: Seongchuel Ahn
+Author-email: aciddust20@gmail.com
+License: MIT
+Keywords: steganography,forensic
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: Pillow
+Requires-Dist: click
+
+# Binjector
+
+Binjector a.k.a Binary Injector makes your text inject into image easily.  
+[Web version](https://image-steganography.vercel.app/)  
+[Git: main](https://github.com/dev4hobby/image-steganography)  
+
+## Usage
+
+### Instalation
+
+```bash
+pip install binjector
+```
+
+### Hide
+
+```bash
+binjector hide -i image.png -m text.txt [-o output.png]
+```
+
+### Seek
+
+```bash
+binjector seek -i image.png
+```
+
+Have Fun
+
+
