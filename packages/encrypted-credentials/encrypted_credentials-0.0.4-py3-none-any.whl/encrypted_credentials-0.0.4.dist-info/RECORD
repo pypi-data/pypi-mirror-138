@@ -1,0 +1,8 @@
+encrypted_credentials/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+encrypted_credentials/django_credentials.py,sha256=CjCVcRtjkbNWDDYEcobaetxwp3wZvUfIBt2cyDthwUk,3883
+encrypted_credentials/encrypted_file.py,sha256=q3PY_jHPcUvosd_g6V-mLlpHwQoj7qoFsMj-ruTmdsc,1601
+encrypted_credentials-0.0.4.dist-info/LICENSE,sha256=nI6nZcOEycbhwRZ-NGyn6N05NoKxrCBq4cBc-FZ3gpc,1085
+encrypted_credentials-0.0.4.dist-info/METADATA,sha256=OkmzAr97EWH5-b8Qro4emDrZYHTguKGf_mCjicr6OOI,2971
+encrypted_credentials-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+encrypted_credentials-0.0.4.dist-info/top_level.txt,sha256=VMg_pur0FuoUo9zByZM6bI7VkWpcoLeYT6gOHDXFcIY,22
+encrypted_credentials-0.0.4.dist-info/RECORD,,
