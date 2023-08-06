@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+minigun/__init__.py
+minigun/arbitrary.py
+minigun/domain.py
+minigun/maybe.py
+minigun/quantify.py
+minigun/stream.py
+minigun/testing.py
+minigun/trim.py
+minigun/util.py
+minigun_soren_n.egg-info/PKG-INFO
+minigun_soren_n.egg-info/SOURCES.txt
+minigun_soren_n.egg-info/dependency_links.txt
+minigun_soren_n.egg-info/requires.txt
+minigun_soren_n.egg-info/top_level.txt
