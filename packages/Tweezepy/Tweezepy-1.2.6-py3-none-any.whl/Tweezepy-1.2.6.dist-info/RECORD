@@ -1,0 +1,16 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_allanvar.py,sha256=Fkj2r-Wq7yaaO_9ylm280NQQjuQSsgEzmAXAeszICz8,2134
+tests/test_calibration.py,sha256=qh8FlydhoqrtQFubS3tXdwDvH1WVnTuH8Vvem2uXY1U,2053
+tests/test_simulations.py,sha256=HUOjjeJXR0p8c9nD0MlXaXFVQFiBmRftRD4rWAr9vZQ,558
+tweezepy/MLE.py,sha256=oSTPpYNTtJGcH74ED5JT734DvM2qr0litwNBg1A73dw,14792
+tweezepy/__init__.py,sha256=co8lhEAMamuzIG3nqTcBCdzSowrLVPC9WtaPsFSNY-U,803
+tweezepy/allanvar.py,sha256=rCprLOslFpC92UzVACBcVm0EAveRLqDT0gAyUY3ouIg,22028
+tweezepy/expressions.py,sha256=e3J9q0Rw5TNbc0aoiXFHWW8gyQncIXD7rbtZ275_wNE,2148
+tweezepy/simulations.py,sha256=my0AA3ixo58AijWQW1zH5I5Pu9peSumZ9nXJZgL9meY,2977
+tweezepy/smmcalibration.py,sha256=kfX2nKEGuAp33CvWd4Ho7BD8gFd08VFIzMSx94b_cLI,14530
+tweezepy/data/trajectory.csv,sha256=PG0-y7cTrqnhkJqxpwZyGZXByPtQkh1TWTQNdyjS_wQ,2611037
+Tweezepy-1.2.6.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+Tweezepy-1.2.6.dist-info/METADATA,sha256=TspWAP2klW2mJ3oQ2t1wDt-czGQp3M-Grme4LiH_tuM,2514
+Tweezepy-1.2.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Tweezepy-1.2.6.dist-info/top_level.txt,sha256=zsji2255ANUuR6YmB3OmkxyYLaje-lpwV8td-mvwKT0,15
+Tweezepy-1.2.6.dist-info/RECORD,,
