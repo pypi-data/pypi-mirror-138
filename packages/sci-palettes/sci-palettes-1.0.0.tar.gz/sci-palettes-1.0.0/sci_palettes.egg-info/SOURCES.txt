@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+sci_palettes/__init__.py
+sci_palettes/palettes.py
+sci_palettes/register.py
+sci_palettes/version.json
+sci_palettes/version.py
+sci_palettes.egg-info/PKG-INFO
+sci_palettes.egg-info/SOURCES.txt
+sci_palettes.egg-info/dependency_links.txt
+sci_palettes.egg-info/requires.txt
+sci_palettes.egg-info/top_level.txt
