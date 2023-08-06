@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+connector_db_tools/__init__.py
+connector_db_tools.egg-info/PKG-INFO
+connector_db_tools.egg-info/SOURCES.txt
+connector_db_tools.egg-info/dependency_links.txt
+connector_db_tools.egg-info/requires.txt
+connector_db_tools.egg-info/top_level.txt
+connector_db_tools/functions/__init__.py
+connector_db_tools/functions/main.py
+examples/__init__.py
