@@ -1,0 +1,12 @@
+halo_infinite/__init__.py,sha256=BTGNjogYlI1Y0ygHM0-F9cdyCFA-q0uOS5JzhWuWvVM,333
+halo_infinite/const.py,sha256=GnzxCRQm2fhXlqmUim6-303J3DyJlgHm9DL8aBOskhs,17
+halo_infinite/csr.py,sha256=oO_UbWDbNa78Bcj-crfXIzJlNhtdaVxbOYyNo5cl4ws,1212
+halo_infinite/game_mode.py,sha256=5ml4wtpq0ZJkmTuvF1k99KzMvRSe_bLiRFssRehwDak,2340
+halo_infinite/halo_infinite.py,sha256=oNA2daEzRiiHFcx2Fz_8b4GcCS_G2z_OceL2Jq4t3Tk,3259
+halo_infinite/match.py,sha256=a-kFfqwXF9awoJPtKng2_LAbprVbvuiqgxF4JVyc4rw,3062
+halo_infinite/player.py,sha256=S4ZF63atqPxFR9Yi8HzipOE71ZM4L343ALec4Gr3Q2A,8024
+halo_infinite-0.0.7.dist-info/LICENSE,sha256=GSAKapQH5ZIGWlpQTA7v5YrfECyaxaohUb1vJX-qepw,1090
+halo_infinite-0.0.7.dist-info/METADATA,sha256=TLJwDQIdbdvKCvX4uoX3MnxrOipYalMCPR_OT4oxt7k,650
+halo_infinite-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+halo_infinite-0.0.7.dist-info/top_level.txt,sha256=9ZtLLGuuJ63_go-bMZXUH2YdcFXd8mrBp0ljRkWc-nM,14
+halo_infinite-0.0.7.dist-info/RECORD,,
