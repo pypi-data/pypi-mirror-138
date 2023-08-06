@@ -1,0 +1,8 @@
+setup.py
+asttodotbuilder/__init__.py
+asttodotbuilder/main.py
+asttodotbuilder.egg-info/PKG-INFO
+asttodotbuilder.egg-info/SOURCES.txt
+asttodotbuilder.egg-info/dependency_links.txt
+asttodotbuilder.egg-info/requires.txt
+asttodotbuilder.egg-info/top_level.txt
