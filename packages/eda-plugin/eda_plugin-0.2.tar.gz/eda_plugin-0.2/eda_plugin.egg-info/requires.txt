@@ -1,0 +1,6 @@
+pyqt5
+pycromanager
+pyqtgraph
+qimage2ndarray
+qdarkstyle
+tifffile
