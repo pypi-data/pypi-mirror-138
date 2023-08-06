@@ -1,0 +1,15 @@
+trytond/modules/carrier_api_ups/__init__.py,sha256=TB8c298G-5iQ40HYbNz6NHE-SgxWFxzJUGngvLNwIRc,678
+trytond/modules/carrier_api_ups/carrier.py,sha256=p0DBxgO2bvPNN48JKvyvDEmajYkV91cjILKCXX5gloY,1308
+trytond/modules/carrier_api_ups/checkout.py,sha256=x7Msfm6A751oqX13K0kjMoK0vL7f-qGN6DxnyTG6mqM,797
+trytond/modules/carrier_api_ups/sale.py,sha256=Q_d337kiULLg6iB89tUJXNGYQq4xA4G_K8shF4f6_Ls,13628
+trytond/modules/carrier_api_ups/sale.xml,sha256=lSTdLoj22nlfJibIg_HjgQ5lGon5q6syTB8kZ19TVxQ,399
+trytond/modules/carrier_api_ups/tryton.cfg,sha256=Xly2p6OlLKgURgJYMQSCObvxLUDWRA6HHPV82XmSk0Q,206
+trytond/modules/carrier_api_ups/locale/de.po,sha256=Wwe_08BJlM_c8RqhthoHRwNO4v_6W9CCNYaWKx_IxQ0,277
+trytond/modules/carrier_api_ups/tests/__init__.py,sha256=NtzEgmMLXFrtFwqswpSJBW-AF6-l48y_BbddWZk9RII,297
+trytond/modules/carrier_api_ups/tests/test_carrier_api_ups.py,sha256=-2qc3Aeup3Ad9BrvDiNXHYgs2fetfvoxyyDSbJQ8MYg,511
+m9s_carrier_api_ups-6.0.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+m9s_carrier_api_ups-6.0.0.dist-info/METADATA,sha256=md3icslJ0UYymLqh8dxdcVS6KdI9ZsZeyeTlJBkZj9o,3657
+m9s_carrier_api_ups-6.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+m9s_carrier_api_ups-6.0.0.dist-info/entry_points.txt,sha256=7o3BdUTpfSJG6_Wi1XMM1F7OAQY7dWkqd9A_s2IdSxQ,81
+m9s_carrier_api_ups-6.0.0.dist-info/top_level.txt,sha256=1UNriCfRfjRjutJbJ_B8i13huVUoV_Otp9RlW3mCfw4,8
+m9s_carrier_api_ups-6.0.0.dist-info/RECORD,,

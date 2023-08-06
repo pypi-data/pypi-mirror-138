@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    carrier_api_ups = trytond.modules.carrier_api_ups
+    
