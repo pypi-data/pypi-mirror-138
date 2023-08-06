@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+z7lfullecalculator.egg-info/PKG-INFO
+z7lfullecalculator.egg-info/SOURCES.txt
+z7lfullecalculator.egg-info/dependency_links.txt
+z7lfullecalculator.egg-info/top_level.txt

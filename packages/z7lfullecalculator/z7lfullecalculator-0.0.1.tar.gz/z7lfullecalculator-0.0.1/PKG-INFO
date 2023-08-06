@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: z7lfullecalculator
+Version: 0.0.1
+Summary: A Fulle Calculator
+Home-page: UNKNOWN
+Author: Z7L Dev
+Author-email: 9877ed98@gmail.com
+License: MIT
+Description: Fulle Calculator You Can You Add Number or Subtract or Multiply or Divide or Full Calculator That Give You To Subtract or Anyrhing else
+        
+        Change Log
+        ==========
+        
+        0.0.1 (02/12/2022)
+        ------------------
+        -First Release
+Keywords: z7calc
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
