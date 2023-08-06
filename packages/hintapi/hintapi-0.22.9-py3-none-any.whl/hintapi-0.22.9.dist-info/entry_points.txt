@@ -1,0 +1,3 @@
+[console_scripts]
+hintapi=hintapi.cli:index_cli
+
