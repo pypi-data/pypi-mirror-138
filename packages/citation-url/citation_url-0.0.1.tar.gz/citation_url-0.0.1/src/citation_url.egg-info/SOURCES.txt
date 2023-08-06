@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+docs/source/conf.py
+docs/source/index.rst
+src/citation_url/__init__.py
+src/citation_url/version.py
+src/citation_url.egg-info/PKG-INFO
+src/citation_url.egg-info/SOURCES.txt
+src/citation_url.egg-info/dependency_links.txt
+src/citation_url.egg-info/not-zip-safe
+src/citation_url.egg-info/requires.txt
+src/citation_url.egg-info/top_level.txt
+tests/__init__.py
+tests/test_version.py
