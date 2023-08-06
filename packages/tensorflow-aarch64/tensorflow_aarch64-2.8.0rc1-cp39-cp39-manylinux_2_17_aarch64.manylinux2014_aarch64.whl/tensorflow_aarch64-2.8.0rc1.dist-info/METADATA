@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: tensorflow-aarch64
+Version: 2.8.0rc1
+Summary: TensorFlow is an open source machine learning framework for everyone.
+Home-page: https://www.tensorflow.org/
+Author: Google Inc.
+Author-email: packages@tensorflow.org
+License: Apache 2.0
+Download-URL: https://github.com/tensorflow/tensorflow/tags
+Keywords: tensorflow tensor machine learning
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: GPU :: NVIDIA CUDA :: 11.2
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: absl-py (>=0.4.0)
+Requires-Dist: astunparse (>=1.6.0)
+Requires-Dist: flatbuffers (>=1.12)
+Requires-Dist: gast (>=0.2.1)
+Requires-Dist: google-pasta (>=0.1.1)
+Requires-Dist: h5py (>=2.9.0)
+Requires-Dist: keras-preprocessing (>=1.1.1)
+Requires-Dist: libclang (>=9.0.1)
+Requires-Dist: numpy (>=1.20)
+Requires-Dist: opt-einsum (>=2.3.2)
+Requires-Dist: protobuf (>=3.9.2)
+Requires-Dist: setuptools
+Requires-Dist: six (>=1.12.0)
+Requires-Dist: termcolor (>=1.1.0)
+Requires-Dist: typing-extensions (>=3.6.6)
+Requires-Dist: wrapt (>=1.11.0)
+Requires-Dist: tensorboard (<2.9,>=2.8)
+Requires-Dist: tf-estimator-nightly (==2.8.0.dev2021122109)
+Requires-Dist: keras (<2.9,>=2.8.0rc0)
+Requires-Dist: tensorflow-io-gcs-filesystem (>=0.23.1)
+Requires-Dist: grpcio (<2.0,>=1.24.3)
+
+[![Python](https://img.shields.io/pypi/pyversions/tensorflow.svg?style=plastic)](https://badge.fury.io/py/tensorflow)
+[![PyPI](https://badge.fury.io/py/tensorflow.svg)](https://badge.fury.io/py/tensorflow)
+
+TensorFlow is an open source software library for high performance numerical
+computation. Its flexible architecture allows easy deployment of computation
+across a variety of platforms (CPUs, GPUs, TPUs), and from desktops to clusters
+of servers to mobile and edge devices.
+
+Originally developed by researchers and engineers from the Google Brain team
+within Google's AI organization, it comes with strong support for machine
+learning and deep learning and the flexible numerical computation core is used
+across many other scientific domains.
+
+The below filter tags were used to build and select unit tests
+```
+-no_oss,-oss_serial,-gpu,-tpu,-benchmark-test,-v1only,-no_aarch64
+```
+
+The following unit test section(s) were run on this release
+```
+\\tensorflow\...
+```
+
+The following unit tests and sections were excluded from being run. This may
+have been due to build issues with Python 3.6, or are a known failure.
+```
+//tensorflow/lite/...
+//tensorflow/core/ir/...
+//tensorflow/python/tools/...
+//tensorflow/compiler/mlir/lite/tests:const-fold.mlir.test
+//tensorflow/compiler/mlir/lite/tests:prepare-tf.mlir.test
+//tensorflow/compiler/mlir/tensorflow:dump_graph_test
+//tensorflow/core/common_runtime:direct_session_test
+//tensorflow/core/common_runtime:direct_session_with_debug_test
+//tensorflow/core/kernels:quantized_bias_add_op_test
+//tensorflow/core/kernels:quantize_op_test
+//tensorflow/core/kernels:requantize_op_test
+//tensorflow/python/data/experimental/kernel_tests/service:fault_tolerance_test
+//tensorflow/python/eager:function_test
+//tensorflow/python/kernel_tests/linalg:linear_operator_circulant_test
+//tensorflow/python/kernel_tests/linalg:self_adjoint_eig_op_test
+//tensorflow/python/ops/ragged:ragged_dispatch_test
+//tensorflow/python:quantized_ops_test
+//tensorflow/tools/graph_transforms:transforms_test
+```
+
+
