@@ -1,0 +1,11 @@
+asgiref
+certifi
+charset-normalizer
+decorator
+idna
+pytz
+requests
+six
+soupsieve
+sqlparse
+urllib3

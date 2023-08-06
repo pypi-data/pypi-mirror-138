@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+moengage/__init__.py
+moengage/exceptions.py
+moengage/wrapper.py
+moengage.egg-info/PKG-INFO
+moengage.egg-info/SOURCES.txt
+moengage.egg-info/dependency_links.txt
+moengage.egg-info/requires.txt
+moengage.egg-info/top_level.txt
