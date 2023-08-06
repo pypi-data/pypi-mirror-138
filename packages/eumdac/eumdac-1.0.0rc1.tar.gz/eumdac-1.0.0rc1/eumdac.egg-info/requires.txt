@@ -1,0 +1,9 @@
+requests>=2.5.0
+
+[test]
+mypy
+pytest
+pytest-cov
+responses
+types-requests
+types-setuptools
