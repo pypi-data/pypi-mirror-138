@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+splatpy2/__init__.py
+splatpy2/auth.py
+splatpy2/utils.py
+splatpy2.egg-info/PKG-INFO
+splatpy2.egg-info/SOURCES.txt
+splatpy2.egg-info/dependency_links.txt
+splatpy2.egg-info/top_level.txt
+splatpy2.egg-info/zip-safe
