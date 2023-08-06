@@ -1,0 +1,6 @@
+slurmer/__init__.py,sha256=Fs59a4l0DhPpWnAe6l1O5NkE1YRD5eTESo8LCYvVhDg,318
+slurmer/task_runner.py,sha256=mz8RnEHnq4VIdH_ClNWBU1iAWr7LeLtLcxdPduhPnTU,10253
+slurmer-1.0.6.dist-info/LICENSE,sha256=EOn8rx4zGXEHbZlpxC1MgVCJ2dxL4U81DRso_mMoizs,1076
+slurmer-1.0.6.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+slurmer-1.0.6.dist-info/METADATA,sha256=416QdZ_2Jv52lXynZhcPN7KRIVEuTTL5Y6DUINnfkOU,2822
+slurmer-1.0.6.dist-info/RECORD,,
