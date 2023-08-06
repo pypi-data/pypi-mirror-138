@@ -1,0 +1,6 @@
+thumbor_plugins/optimizers/optipng/__init__.py,sha256=MJM9ic9jIfXKZY2zQJZjx4I9PcKTMrLpBQ4a0Vt1oqs,1439
+thumbor_plugins/optimizers/optipng/config.py,sha256=DhE9AxUSlS7DRrVXvvEQikOcDRCg85dRESQdMbiyHoY,225
+thumbor_plugins_optipng-0.1.0.dist-info/METADATA,sha256=PHPco25Xa67poDJIl_M-XCx8AR4AvrPUMWDRrxjN4VY,897
+thumbor_plugins_optipng-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+thumbor_plugins_optipng-0.1.0.dist-info/top_level.txt,sha256=ZEGICU2TxMFcSh4m3K_iSH08aBXskrNO20Mqk2ngbeU,16
+thumbor_plugins_optipng-0.1.0.dist-info/RECORD,,
