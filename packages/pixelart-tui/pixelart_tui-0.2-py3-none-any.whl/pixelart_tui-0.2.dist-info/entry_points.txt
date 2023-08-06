@@ -1,0 +1,2 @@
+[console_scripts]
+pixelart-tui = pixelart_tui.command_line:run
