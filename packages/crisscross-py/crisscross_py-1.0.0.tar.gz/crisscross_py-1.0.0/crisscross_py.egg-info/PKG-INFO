@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: crisscross-py
+Version: 1.0.0
+Summary: Python Client for CrissCross Network
+Home-page: https://github.com/SoCal-Software-Labs/crisscross_py
+Author: Kyle Hanson
+Author-email: kyle@statetrace.com
+License: MIT
+Description: # crisscross_py
+        Python Client for CrissCross Network
+        
+        ## CrissCross - Like IPFS... but with Redis Protocol, a SQL Layer, privacy and distribution as well as file downloads
+        
+        CrissCross is a new way to share immutable structures. Build a tree, get a hash and distribute it in your own private cluster. Connect with any language that has a redis client.
+        
+        # This package
+        
+        Client to access a Node on the CrissCross network: [https://github.com/SoCal-Software-Labs/CrissCross](https://github.com/SoCal-Software-Labs/CrissCross)
+        
+        # Usage
+        
+        Follow the instrustions on how to setup a CrissCross node: [https://github.com/SoCal-Software-Labs/CrissCross](https://github.com/SoCal-Software-Labs/CrissCross)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Erlang
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Distributed Computing
+Description-Content-Type: text/markdown
