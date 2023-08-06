@@ -1,0 +1,14 @@
+pytest_rabbitmq/__init__.py,sha256=9fUowRgtJk5FOzTzINNV3w0BgcwWp22mkajAmTxEpks,872
+pytest_rabbitmq/plugin.py,sha256=4xmgIBWwO47B4FpNfuKgvntIyFPOZ6gpVz-toX3vpyo,3125
+pytest_rabbitmq/factories/__init__.py,sha256=pxov7lfSWCE2HOU_xHPwoK_cV0k1VZU6YA17nYunUP4,979
+pytest_rabbitmq/factories/client.py,sha256=DO9hptS_3kyAGsEmMUg02FyeQikhSmM5w7lvfppMuHQ,4509
+pytest_rabbitmq/factories/executor.py,sha256=ryJR20cdf7ogRx99HnTudnxt4Q-3mhNk735bkSB9nrI,2729
+pytest_rabbitmq/factories/process.py,sha256=Xf8mGwTPxofJeeAjCgfwx6jCRkOuVHG2wsfip-SSBNY,4168
+pytest_rabbitmq-2.2.1.dist-info/AUTHORS.rst,sha256=1RnQqC_PfVsv4oFqr01S4fNQIfZVMT60EbQfhaygrGM,268
+pytest_rabbitmq-2.2.1.dist-info/COPYING,sha256=xTplwv1WHIfqq_EHLvXcq4ZTBCvBUwhGX1JBNYXrYnE,35146
+pytest_rabbitmq-2.2.1.dist-info/COPYING.lesser,sha256=6or154nLLU6bELzjh0mCreFjt0m2v72zLi3yHE0QbeE,7650
+pytest_rabbitmq-2.2.1.dist-info/METADATA,sha256=0uCDN98HZW2finCPLzk1WNbbtYgLPeshH_7s7m5damw,7456
+pytest_rabbitmq-2.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytest_rabbitmq-2.2.1.dist-info/entry_points.txt,sha256=5PfhldgSr9zaagy6ztAEE9Xg1MIhWPzSZl07dOoo2ew,53
+pytest_rabbitmq-2.2.1.dist-info/top_level.txt,sha256=3daOzsb3AE-tBfLvrTXHJ4cO1Ns2SKKYhwkmLxQOQYA,16
+pytest_rabbitmq-2.2.1.dist-info/RECORD,,
