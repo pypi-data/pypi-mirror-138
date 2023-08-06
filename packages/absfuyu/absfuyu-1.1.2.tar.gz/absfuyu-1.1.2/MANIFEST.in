@@ -1,0 +1,6 @@
+include images/repository-image-crop.png
+include extra_requirements.txt
+include src/absfuyu/config/*
+# include tests/
+
+global-exclude *tempCodeRunnerFile.py

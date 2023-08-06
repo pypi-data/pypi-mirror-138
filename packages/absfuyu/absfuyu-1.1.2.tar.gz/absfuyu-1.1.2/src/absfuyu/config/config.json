@@ -1,0 +1,13 @@
+{
+    "setting": {
+        "first-run": true,
+        "luckgod-mode": false
+    },
+    "version": {
+        "major": 1,
+        "minor": 1,
+        "patch": 2,
+        "release_level": "final",
+        "serial": 0
+    }
+}
