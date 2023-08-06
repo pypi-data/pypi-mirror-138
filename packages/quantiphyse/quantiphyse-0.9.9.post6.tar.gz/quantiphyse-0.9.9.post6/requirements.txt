@@ -1,0 +1,14 @@
+matplotlib
+nibabel
+numpy
+Pillow
+pyqtgraph>=0.11.1
+PySide2
+PyYAML
+scipy
+scikit-learn
+scikit-image
+setuptools
+six
+pandas
+cython
