@@ -1,0 +1,6 @@
+typing-inspect>=0.7.1
+marshy>=2.3.1
+validators>=0.18.2
+
+[GraphQL]
+graphene>=3.0
