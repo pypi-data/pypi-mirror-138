@@ -1,0 +1,3 @@
+[console_scripts]
+gopro-renamer = gopro_renamer.renamer:main
+

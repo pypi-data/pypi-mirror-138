@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/gopro_renamer/__init__.py
+src/gopro_renamer/renamer.py
+src/gopro_renamer.egg-info/PKG-INFO
+src/gopro_renamer.egg-info/SOURCES.txt
+src/gopro_renamer.egg-info/dependency_links.txt
+src/gopro_renamer.egg-info/entry_points.txt
+src/gopro_renamer.egg-info/top_level.txt
