@@ -1,0 +1,11 @@
+CHANGELOG.md
+LICENSE.txt
+MANIFEST.in
+README.rst
+lishoginet.py
+setup.py
+lishoginet.egg-info/PKG-INFO
+lishoginet.egg-info/SOURCES.txt
+lishoginet.egg-info/dependency_links.txt
+lishoginet.egg-info/requires.txt
+lishoginet.egg-info/top_level.txt
