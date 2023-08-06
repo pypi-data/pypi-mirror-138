@@ -1,0 +1,15 @@
+mrob/FGraph.dll,sha256=XSJfO_SwQ0C5hixd7M23tvagEu3xGwp6Mm1PsjidcVM,259584
+mrob/PCRegistration.dll,sha256=8sdhJ9kMJCUV9Zt4paIazVipOx7bw8UctyjL8rqmW68,402432
+mrob/SE3.dll,sha256=ntC9BtZKmJ595ffDm9fQ0M9THnZtrK0wiXtUCg-obp0,114688
+mrob/__init__.py,sha256=1rOrx7V0pYO3fuw0IvQN0Zg3BLgukMjFU9z4K-kMysQ,1680
+mrob/common.dll,sha256=_1ABLJGDbxN2J-aXS4n9cb9CRu9R0ZgOxWwGGw9wb2Q,89088
+mrob/mrob.cp310-win32.pyd,sha256=stcPbNgENBHfLGsQYeUOhyN0k26xvqUnqOHYVzF2T78,331264
+mrob/mrob.cp36-win32.pyd,sha256=dUoI4P9mY0tivHXA-UrSf4Pxbz5E0220PgB1QLshK6w,346624
+mrob/mrob.cp37-win32.pyd,sha256=h2UE82Ke5TBUzVwJcjPF5d7scw4w1VL18rf_tQgZoCk,346624
+mrob/mrob.cp38-win32.pyd,sha256=m1FyQt-Tqc9oqvqfjXvTiKV5lW840cgygiiiSRmRZOQ,331264
+mrob/mrob.cp39-win32.pyd,sha256=DRWtuPez-tHS2l5P3GTJj0G9XF6y4qG5Y5pZSZUw13w,331776
+mrob-0.0.8.dist-info/LICENSE,sha256=ZyPTO4RxxZhHut65H4WpKxKtKOY1ovG-pwLniJX2hJ0,9310
+mrob-0.0.8.dist-info/METADATA,sha256=WPt5SBzRgr18akxC4NVgkXpDhNYtRk3gqZ3WzDPMIkU,3822
+mrob-0.0.8.dist-info/WHEEL,sha256=-Ii4AvxI1xY6ei6edHf20sWJQxzkEjIQmkF7g6dYLTo,94
+mrob-0.0.8.dist-info/top_level.txt,sha256=UM0gF3Ckgl4wRuKrIEqaitvgo2I9oUaFbzdsd4X1CcY,5
+mrob-0.0.8.dist-info/RECORD,,
