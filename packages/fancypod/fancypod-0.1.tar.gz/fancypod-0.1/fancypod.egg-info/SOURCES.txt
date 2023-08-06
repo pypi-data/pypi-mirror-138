@@ -1,0 +1,6 @@
+fancypod
+setup.py
+fancypod.egg-info/PKG-INFO
+fancypod.egg-info/SOURCES.txt
+fancypod.egg-info/dependency_links.txt
+fancypod.egg-info/top_level.txt
