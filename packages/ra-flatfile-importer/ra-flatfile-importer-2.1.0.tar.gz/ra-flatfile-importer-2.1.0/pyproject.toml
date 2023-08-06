@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "ra-flatfile-importer"
+version = "2.1.0"
+description = "Flatfile importer for OS2mo"
+authors = ["Magenta <info@magenta.dk>"]
+license = "MPL-2.0"
+readme = "README.md"
+homepage = "https://magenta.dk/"
+repository = "https://git.magenta.dk/rammearkitektur/ra-flatfile-importer"
+keywords = ["os2mo"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.0.3"
+pydantic = "^1.9.0"
+ramodels = "^5.0.0"
+raclients = "^1.2.0"
+tqdm = "^4.60.0"
+ra-utils = "^0.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+black = "^21.12b0"
+flake8 = "^4.0.1"
+mypy = "^0.930"
+reorder-python-imports = "^2.6.0"
+pre-commit = "^2.16.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.autopub]
+git-username = "MagentaBot"
+git-email = "info@magenta.dk"
