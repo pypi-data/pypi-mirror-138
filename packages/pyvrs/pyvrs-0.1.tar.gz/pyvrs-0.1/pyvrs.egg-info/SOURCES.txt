@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+advanced_vrs/__init__.py
+advanced_vrs/constants.py
+advanced_vrs/preprocessing_presets.py
+advanced_vrs/vrs.py
+pyvrs.egg-info/PKG-INFO
+pyvrs.egg-info/SOURCES.txt
+pyvrs.egg-info/dependency_links.txt
+pyvrs.egg-info/requires.txt
+pyvrs.egg-info/top_level.txt
