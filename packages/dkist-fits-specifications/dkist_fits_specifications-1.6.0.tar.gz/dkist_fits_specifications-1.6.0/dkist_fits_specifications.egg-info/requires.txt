@@ -1,0 +1,17 @@
+yamale
+pyyaml
+astropy
+
+[docs]
+sphinx
+sphinx-automodapi
+sphinx-autodoc-typehints
+sphinx-changelog
+dkist-sphinx-theme
+
+[test]
+pytest
+pytest-doctestplus
+pytest-cov
+docutils
+sphinx
