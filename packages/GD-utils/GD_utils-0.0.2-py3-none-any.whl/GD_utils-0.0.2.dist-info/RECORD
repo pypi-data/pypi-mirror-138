@@ -1,0 +1,12 @@
+GDUs/__init__.py,sha256=5KBAE_daLxCpheZvUZgmmTOeyr4559WXAQDjmaS5Tm8,49
+GDUs/calc_return.py,sha256=deiA_xErrnjNBKb1ElJDJKeF8VW5UW7SNCaGJxGTXrE,149
+GDUs/get_data.py,sha256=jhPyblgy9pCNWLtF4N96exc3bMOI_oYqPClSD1mqqEc,3284
+GDUs/return_calculator.py,sha256=0JfSvMhxf7NiNhatZAsmr7QCDzoQPfaB1eGj7CR35Yo,2870
+GD_utils/__init__.py,sha256=5KBAE_daLxCpheZvUZgmmTOeyr4559WXAQDjmaS5Tm8,49
+GD_utils/calc_return.py,sha256=deiA_xErrnjNBKb1ElJDJKeF8VW5UW7SNCaGJxGTXrE,149
+GD_utils/get_data.py,sha256=jhPyblgy9pCNWLtF4N96exc3bMOI_oYqPClSD1mqqEc,3284
+GD_utils/return_calculator.py,sha256=0JfSvMhxf7NiNhatZAsmr7QCDzoQPfaB1eGj7CR35Yo,2870
+GD_utils-0.0.2.dist-info/METADATA,sha256=8AbDMcb-adtDApLomxk1xjuENTcDIjlCnCzq1ov0a1s,369
+GD_utils-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+GD_utils-0.0.2.dist-info/top_level.txt,sha256=E4T7a5REIitVLK3qkxmo4PRdrEkasUmb6AMNNUMiclQ,9
+GD_utils-0.0.2.dist-info/RECORD,,
