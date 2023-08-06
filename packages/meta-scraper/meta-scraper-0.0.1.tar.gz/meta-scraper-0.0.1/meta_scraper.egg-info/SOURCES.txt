@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.py
+meta_scraper/__init__.py
+meta_scraper/client.py
+meta_scraper/utils.py
+meta_scraper.egg-info/PKG-INFO
+meta_scraper.egg-info/SOURCES.txt
+meta_scraper.egg-info/dependency_links.txt
+meta_scraper.egg-info/not-zip-safe
+meta_scraper.egg-info/requires.txt
+meta_scraper.egg-info/top_level.txt
