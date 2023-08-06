@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/flake_rba/__init__.py
+src/flake_rba/plugin.py
+src/flake_rba/py.typed
+src/flake_rba.egg-info/PKG-INFO
+src/flake_rba.egg-info/SOURCES.txt
+src/flake_rba.egg-info/dependency_links.txt
+src/flake_rba.egg-info/entry_points.txt
+src/flake_rba.egg-info/not-zip-safe
+src/flake_rba.egg-info/requires.txt
+src/flake_rba.egg-info/top_level.txt

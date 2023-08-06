@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: flake_rba
+Version: 0.0.0
+Summary: Plugin to find referenced-before-assignment errors.
+Author: Mikhail Stepanov
+License: UNKNOWN
+Platform: unix
+Platform: linux
+Platform: osx
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Provides-Extra: testing
+License-File: LICENSE
+
+UNKNOWN
+
