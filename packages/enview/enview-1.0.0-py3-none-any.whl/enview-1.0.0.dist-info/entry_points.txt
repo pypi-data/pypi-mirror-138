@@ -1,0 +1,3 @@
+[console_scripts]
+enview = enview.enview:main
+
