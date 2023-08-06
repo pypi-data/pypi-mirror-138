@@ -1,0 +1,12 @@
+xmlasdict/__init__.py,sha256=GRXIVOKKPq_lc1Ff7vwPS10CKIOx6Mv6Cw0snR3LcqU,376
+xmlasdict/__main__.py,sha256=N2dsotkolnXle5NWLowQ-9ai-gD35DOlZJFhoTFXEJ4,1567
+xmlasdict/__version__.py,sha256=XtgBegfhm2OWshqz5syEpkeZQ5kqbBNK66gLAqKmTgE,62
+xmlasdict/exceptions.py,sha256=UcA5Ohsla_cLT3rYqAGm8Ku5bA0YtxdLfrRgq61kcDk,173
+xmlasdict/parser.py,sha256=EpRZRLJChF0HmFGarVVj9YKL1HPz6ZwHgN8n9wZLNCc,492
+xmlasdict/wrapper.py,sha256=j-FN1z0TNXZqkW67L1NfT_oKFYR4OyLokbx3JCYyTUw,6412
+xmlasdict-0.0.0.dist-info/LICENSE,sha256=Z6MGWlyS3MI1jny0t5IHEN_B1Nyz2JlWV4EzaaxfQns,1090
+xmlasdict-0.0.0.dist-info/METADATA,sha256=FobHC5vjmNKxxpdstJZifsFZWf3cCGBIGy-2rqRkp6k,1397
+xmlasdict-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xmlasdict-0.0.0.dist-info/entry_points.txt,sha256=Oc0pYMrgYMGPZBOgLt5iy4gjomFJSYRyQHovIybcuXE,54
+xmlasdict-0.0.0.dist-info/top_level.txt,sha256=lq6GyPv4N8RmcfWa_5v1KlA_bEPHV39GhqcZN1p5TC0,10
+xmlasdict-0.0.0.dist-info/RECORD,,
