@@ -1,0 +1,11 @@
+COPYING
+README.md
+pyproject.toml
+setup.cfg
+pcbcons/__init__.py
+pcbcons/pcons.py
+pcbcons/render_pcb.py
+pcbcons.egg-info/PKG-INFO
+pcbcons.egg-info/SOURCES.txt
+pcbcons.egg-info/dependency_links.txt
+pcbcons.egg-info/top_level.txt
