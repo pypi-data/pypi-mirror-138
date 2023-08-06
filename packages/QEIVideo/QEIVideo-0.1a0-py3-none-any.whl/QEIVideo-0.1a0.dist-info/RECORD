@@ -1,0 +1,13 @@
+gui/__init__.py,sha256=W3TBRm8lqrQPY8C_bCVd3EoimUy5bvqfDDaaB7YngC0,123
+gui/demo.py,sha256=LI3WPsu84ChLHX4JXgmD58qIvjxr25Cg4CvBT01mq4c,1781
+gui/ui_main_window.py,sha256=E62XYkJJr_aT8yctREG_qiRZmEXGZZbnCr1kgRCRBOU,7798
+tools/__init__.py,sha256=W3TBRm8lqrQPY8C_bCVd3EoimUy5bvqfDDaaB7YngC0,123
+ui/__init__.py,sha256=W3TBRm8lqrQPY8C_bCVd3EoimUy5bvqfDDaaB7YngC0,123
+ui/demo.py,sha256=4DR_ZB2TuZ9fhQRcy5GJoo2AYjWQIP7QCRhgSwDN6Wc,6299
+widget/PaintBoard.py,sha256=B1BFfvEyx785HXzTmG_L02dMvmzz-wBdJkYEl8sckZw,3649
+widget/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+QEIVideo-0.1a0.dist-info/METADATA,sha256=LlrzN-rdX1cqK5LuLZ7hN3sMRQG3YM57otF1Wr56-Xc,427
+QEIVideo-0.1a0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+QEIVideo-0.1a0.dist-info/entry_points.txt,sha256=RFtLoIf6wpmWEovjUg2MgKCiv3Ln98mSnqBvNhmhWuA,48
+QEIVideo-0.1a0.dist-info/top_level.txt,sha256=t8vixsfIqo2UA48NKQugCOg63x55IvT-RhHeMv3tWD0,20
+QEIVideo-0.1a0.dist-info/RECORD,,
