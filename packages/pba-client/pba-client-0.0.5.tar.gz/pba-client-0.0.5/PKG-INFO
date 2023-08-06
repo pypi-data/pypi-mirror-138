@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pba-client
+Version: 0.0.5
+Summary: Telegram Parking Bot (API Client)
+Home-page: https://github.com/Humu-Social-KP/tg-parking-api-client
+Author: Mykola Mozoliuk
+Author-email: mmi200212@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Humu-Social-KP/tg-parking-api-client/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# tg-parking-api-client
+## telegram_users.basic_operation:
+```commandline
+    def create_telegram_user(self, user: dict):
+        url = self.prepare_url()
+        return requests.post(url, json=user).json()
+        
+    def create_telegram_user(self, user: dict):
+        url = self.prepare_url()
+        return requests.post(url, json=user).json()
+
+    def get_telegram_user(self, user: dict):
+        url = self.prepare_url(f"{user.get('id')}")
+        return requests.get(url).json()
+
+    def update_telegram_user(self, user: dict):
+        url = self.prepare_url(f"{user.get('id')}")
+        return requests.put(url, json=user).json()
+```
+
+
