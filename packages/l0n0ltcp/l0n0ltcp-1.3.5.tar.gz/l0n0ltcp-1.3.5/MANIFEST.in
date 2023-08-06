@@ -1,0 +1,3 @@
+include lkcp/compat.h
+include lkcp/core.pyx
+include lkcp/ikcp.h
