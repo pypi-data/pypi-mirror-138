@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Insta_Spam.egg-info/PKG-INFO
+src/Insta_Spam.egg-info/SOURCES.txt
+src/Insta_Spam.egg-info/dependency_links.txt
+src/Insta_Spam.egg-info/top_level.txt
