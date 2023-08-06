@@ -1,0 +1,14 @@
+absl-py
+arviz
+frozendict
+jax>=0.2.21
+matplotlib==3.3.4
+numpy>=1.12
+numpyro>=0.8.0
+scipy
+seaborn
+sklearn
+tensorflow==2.4.1
+
+[:python_version < "3.7"]
+dataclasses
