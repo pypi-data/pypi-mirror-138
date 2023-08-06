@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: crossai
+Version: 0.0.0.3
+Summary: A library of high-level functionalities capable of building Artificial Intelligence processing pipelines for Time-Series and Natural Language Processing.
+Home-page: https://github.com/tzamalisp/cross-ai-lib/
+Author: Pantelis Tzamalis, Andreas Bardoutsos, Markantonatos Dimitrios
+Author-email: tzamalispantelis@gmail.com, anmp.ce@gmail.com, markantonatosdimitrios@gmail.com
+License: GNU General Public License v3.0
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
