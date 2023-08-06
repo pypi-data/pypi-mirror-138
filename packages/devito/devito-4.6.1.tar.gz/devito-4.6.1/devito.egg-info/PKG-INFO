@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: devito
+Version: 4.6.1
+Summary: Finite Difference DSL for symbolic computation.
+Home-page: http://www.devitoproject.org
+Author: Imperial College London
+Author-email: g.gorman@imperial.ac.uk
+License: MIT
+Platform: UNKNOWN
+Provides-Extra: extras
+License-File: LICENSE.md
+
+Devito is a new tool for performing
+      optimised Finite Difference (FD) computation from high-level
+      symbolic problem definitions. Devito performs automated code
+      generation and Just-In-time (JIT) compilation based on symbolic
+      equations defined in SymPy to create and execute highly
+      optimised Finite Difference kernels on multiple computer
+      platforms.
+
