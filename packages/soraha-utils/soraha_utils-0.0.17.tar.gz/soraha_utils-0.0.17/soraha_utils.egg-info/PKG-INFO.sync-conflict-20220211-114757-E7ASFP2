@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: soraha-utils
+Version: 0.0.15
+Summary: soraha_utils
+Home-page: https://www.github.com/LYshiying/soraha_utils
+Author: shiying
+Author-email: 839778960@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# soraha_utils
+## 这是什么?
+羽衣从杂物箱里翻出来的乱七八糟的工具们,但现在已经把这项轻松工作丢给精灵们了,真的很懒呢！
+## 内容
+- 装饰器sync_with_hook/async_with_hook
+  - 注册一个函数,然后就可以做到注册预处理函数和终止后函数啦！
+  - 示例: 注释很清楚了,直接去看就行
+  - 提供了同步异步两个方法
+- 彩色logger
+  - 对loguru的再次封装,变成了自己常用的样子了(笑)
+- uio[sync_uio|async_uio]
+  - 提供了文件的input(对,io指的是input object)
+  - 以下情况可以使用:
+    - 保存json|任意文本|二进制图片
+    - 传递url,保存响应json|image
+  - 并且提供了同步异步两种
+- uiclient
+  - 提供了基本的网络请求(post/get)
+  - 统一了logger的输出,以及增加了重试的功能
+  - 提供了基于requests的同步以及基于httpx的异步
+- uitry
+  - 无限重试！只要`@retry()`就可以重试到成功为止！
+    - 如果这样了都不能成功那祝你好运！
+- 同步转异步
+  - `@sync_to_async`
+  - 应该都懂什么意思吧（
+## 为什么要写这个
+- 重复的代码太多了呜呜呜,大家都有轮子,我也得造一个
+## 未来期望
+- 会逐渐把所有重复率高的代码加进去
+- 因为常用nonebot,可能加入相关内容,也可能单独开个wheel
+## LICENSE约定!
+请给我钱 License  
+版权所有(c) 2021 shiying  
+1. 任何人都可以使用、复制、修改、合并、发布、分发本软件的副本
+2. 用于商业化或修改后需要闭源请征得作者同意
+3. 禁止单独将该软件的副本出售
+4. 本软件不包含任何形式的明示或暗示
+5. 作者不对本软件的任何第三方修改版负责
+6. 作者对软件的可用性及稳定性不做任何保证(但应该会持续更新且debug！)
+7. 作者不清楚这个软件在干嘛,但是作者很可爱
+8. 由上：请给作者PR或issue！谢谢
+9. 祝你好运
+10. 大家一起开心的掉头发吧！
+## 更新日志
+发现好像没什么机会写更新日志,在这从0.0.7开始记一下吧！
+### 0.0.7 (2021/10/19)
+- 简化uio的save_file,减少了重复代码,用pathlib替代os.path
+### 0.0.8 (2021/10/20)
+- 修复uiclient的相关问题(headers加入过多无意义内容导致返回出现问题)
+### 0.0.9 (2021/11/2)
+- 修复由于打错字导致的bug(逃
+

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+soraha_utils/__init__.py
+soraha_utils.egg-info/PKG-INFO
+soraha_utils.egg-info/PKG-INFO.sync-conflict-20220211-114757-E7ASFP2
+soraha_utils.egg-info/SOURCES.sync-conflict-20220211-114757-E7ASFP2.txt
+soraha_utils.egg-info/SOURCES.txt
+soraha_utils.egg-info/dependency_links.txt
+soraha_utils.egg-info/requires.txt
+soraha_utils.egg-info/top_level.txt
