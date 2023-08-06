@@ -1,0 +1,11 @@
+snaptrade/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snaptrade/utils.py,sha256=dV9nTx4Bsbl_wDkm09xWw3KkDmzViZ_WafCqSLfB6S4,1025
+snaptrade/api_client/__init__.py,sha256=0wNqKVOSiqfkRJMajZurlxuyyBHCxCqo60hGbZ9eBkM,73
+snaptrade/api_client/endpoints.json,sha256=lNeGa9Qi76QJkOo89JrGJmZhn0r1fLIlp7g2Z375Qhc,15961
+snaptrade/api_client/snaptrade_api_client.py,sha256=9GLqpcHfiUQPWQg3nnILE3HspumBU1ohv13qsGO8o1c,16263
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snaptrade-0.0.1.dist-info/LICENSE,sha256=UTVK_lfboNrSwxNxAV72lTdrg7mSdQURslMSr30g-pE,548
+snaptrade-0.0.1.dist-info/METADATA,sha256=1DCbze3gfiWkgpf9o8ATM-XeaNeakhUHEOwiQD2eYLQ,3904
+snaptrade-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+snaptrade-0.0.1.dist-info/top_level.txt,sha256=WS_PwfYjofkVX_bsYO-7xyN_O2KojhszhsTFhYGaHNs,16
+snaptrade-0.0.1.dist-info/RECORD,,
