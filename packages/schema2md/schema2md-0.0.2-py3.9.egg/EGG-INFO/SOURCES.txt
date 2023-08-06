@@ -1,0 +1,16 @@
+setup.py
+schema2md/__init__.py
+schema2md/cli.py
+schema2md/contexts.py
+schema2md/declarations.py
+schema2md/format_funcs.py
+schema2md/parsers.py
+schema2md/reference.py
+schema2md/tab.py
+schema2md.egg-info/PKG-INFO
+schema2md.egg-info/SOURCES.txt
+schema2md.egg-info/dependency_links.txt
+schema2md.egg-info/entry_points.txt
+schema2md.egg-info/not-zip-safe
+schema2md.egg-info/requires.txt
+schema2md.egg-info/top_level.txt
