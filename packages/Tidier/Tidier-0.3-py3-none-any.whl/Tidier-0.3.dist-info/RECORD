@@ -1,0 +1,10 @@
+tidier/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tidier/cli.py,sha256=epGaUpaX-Kmdhx_pflUNGDkGrJh3FKqx9S3f9f7hWWM,2634
+tidier/core.py,sha256=sKnnEWBXlU0Kb1cA7QdtMSWFFnUcoWbvSqGNdgBGJFE,1572
+tidier/utils.py,sha256=rJOWQ1rtzTiqvob3_4QG4nLR8wtb7jnUoZpcaF3HoTY,396
+Tidier-0.3.dist-info/LICENSE.txt,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+Tidier-0.3.dist-info/METADATA,sha256=xRZInDIgGOjQW889Hn8NBQCZPYS3rlxL-dEx_tVEulk,393
+Tidier-0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Tidier-0.3.dist-info/entry_points.txt,sha256=p82WR6tsB250TzEP1B0eODUKx7GL4u2tMsufaq6T1v4,43
+Tidier-0.3.dist-info/top_level.txt,sha256=JIg9qI8lhavfw21piitYQNMsswcEHR-oH-Wdsem6tSM,7
+Tidier-0.3.dist-info/RECORD,,

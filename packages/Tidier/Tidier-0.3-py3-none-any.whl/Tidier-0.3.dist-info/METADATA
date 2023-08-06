@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Tidier
+Version: 0.3
+Summary: A tool for organizing files
+Home-page: https://github.com/itsamirhn/Tidier
+Download-URL: https://github.com/itsamirhn/Tidier/archive/refs/tags/v0.2.tar.gz
+Author: AmirMohammad Hosseini Nasab
+Author-email: awmirhn@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: Click
+Requires-Dist: jdatetime
+
+UNKNOWN
+
