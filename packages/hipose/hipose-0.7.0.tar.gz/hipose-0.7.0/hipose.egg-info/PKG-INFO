@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: hipose
+Version: 0.7.0
+Summary: Human whole-body pose estimation using MARG multi-sensor data.
+Home-page: https://github.com/ManuelPalermo/HumanInertialPose
+Author: ManuelPalermo
+Author-email: macpalermo@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Provides-Extra: parse
+Provides-Extra: plot
+Provides-Extra: vis3d
+Provides-Extra: doc
+Provides-Extra: test
+Provides-Extra: all
