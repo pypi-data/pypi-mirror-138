@@ -1,0 +1,7 @@
+setup.py
+jujube_pill/__init__.py
+jujube_pill_yayaya.egg-info/PKG-INFO
+jujube_pill_yayaya.egg-info/SOURCES.txt
+jujube_pill_yayaya.egg-info/dependency_links.txt
+jujube_pill_yayaya.egg-info/entry_points.txt
+jujube_pill_yayaya.egg-info/top_level.txt
