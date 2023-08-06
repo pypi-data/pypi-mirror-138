@@ -1,0 +1,4 @@
+[console_scripts]
+obs-manager = obs_manager.gui.__main__:main
+obsnipe = obs_manager.__main__:main
+
