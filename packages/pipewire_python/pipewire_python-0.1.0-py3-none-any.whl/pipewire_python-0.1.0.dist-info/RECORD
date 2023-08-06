@@ -1,0 +1,8 @@
+pipewire_python/__init__.py,sha256=kQQkMyEUdjaMQCzXovyA793Z-RwNkGopByISLyd6X6Q,2445
+pipewire_python/_constants.py,sha256=CPVry5lNcwuN2QxtMmrF3l1fOQzs1UwUJsBeqhK7jBo,466
+pipewire_python/_utils.py,sha256=WR49tyZbbr0LjRU8-pLNxRQK_kX6JoMEXuh9b909mNQ,8708
+pipewire_python/controller.py,sha256=TPmhGjpk8n9eTIoPLPVYi9Lu7-OFupZ5fU2Ep7ctUjw,20296
+pipewire_python-0.1.0.dist-info/LICENSE,sha256=aPJthLeCIP6R2rMKLV2F5WUF__177vve5oD5JgCAVwI,1089
+pipewire_python-0.1.0.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+pipewire_python-0.1.0.dist-info/METADATA,sha256=gArl6_jIxN0nMe9lKqju67UZOZu-U0q23WmgDxszimw,5249
+pipewire_python-0.1.0.dist-info/RECORD,,
