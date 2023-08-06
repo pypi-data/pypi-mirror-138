@@ -1,0 +1,18 @@
+id: a32c5d56-409e-11ec-973a-0242ac130003
+label: 'OData Copernicus Space Component'
+category: CONTAINER
+factory:
+  name: odata
+  classpath: 'drb_impl_odata.factory:OdataCscFactory'
+signatures:
+  - attributes:
+      - name: odata-version
+    python: |
+      import io
+      from drb_impl_http import DrbHttpNode
+      from defusedxml import ElementTree
+      n = DrbHttpNode(f'{node.path.name}/$metadata')
+      tree = ElementTree.parse(n.get_impl(io.BytesIO))
+      ns = tree.getroot()[0][0].get('Namespace', None)
+      return 'OData.CSC' == ns
+
