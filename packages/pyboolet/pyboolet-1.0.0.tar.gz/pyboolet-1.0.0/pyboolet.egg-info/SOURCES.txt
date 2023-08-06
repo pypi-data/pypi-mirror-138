@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyboolet/__init__.py
+pyboolet/constraint.py
+pyboolet/context.py
+pyboolet/default_physics_client_manager.py
+pyboolet/physics_client.py
+pyboolet/shape.py
+pyboolet/simulation_component.py
+pyboolet.egg-info/PKG-INFO
+pyboolet.egg-info/SOURCES.txt
+pyboolet.egg-info/dependency_links.txt
+pyboolet.egg-info/requires.txt
+pyboolet.egg-info/top_level.txt
