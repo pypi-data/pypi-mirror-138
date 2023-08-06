@@ -1,0 +1,11 @@
+chemicaldiagram/__init__.py,sha256=p-kdg121ojmiG0OGgTWZthgH0Fq9eJOGAP9keu6A8VU,117
+chemicaldiagram/converter.py,sha256=f62hhPcZX2dwUrCAx8FtwijopUQcuKrcLUpmM4wiKRQ,5895
+chemicaldiagram/diagram.py,sha256=K_5Gxz32LLI8mYnYmztCz6zlephRU0_64R493rsz9BY,12448
+chemicaldiagram/element_color_scheme.json,sha256=Zbh9PKJR1DWn3XuQAfKgxdEX4vjQ5ouDlxGweDMJ1D4,11929
+chemicaldiagram/filter.py,sha256=xaNAmwejTqnZBjbE1CV0MTWDAmF-yyvRPm9NKLbwEnY,8942
+chemicaldiagram/utils.py,sha256=bSK5ZRtYXp6f-mnP4SqrEiVu0j9W4icorrbWErnl4BI,1595
+chemicaldiagram-0.0.6.dist-info/LICENSE,sha256=ZRvBfhubmIeX9moUi92lYdTU4WX5ntST1hG_T1nCm3Y,1090
+chemicaldiagram-0.0.6.dist-info/METADATA,sha256=7ivPBqSMYLmZUPoBTr4dX3lzu8dnZgcpLJ8Hs2WAoSo,325
+chemicaldiagram-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+chemicaldiagram-0.0.6.dist-info/top_level.txt,sha256=WFqCR7nmhTnGBuVaXhFFHTydcM8OEmLLZ1ofUDxf82Q,16
+chemicaldiagram-0.0.6.dist-info/RECORD,,
