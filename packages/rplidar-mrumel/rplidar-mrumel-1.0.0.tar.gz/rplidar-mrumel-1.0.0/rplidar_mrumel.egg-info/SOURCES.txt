@@ -1,0 +1,10 @@
+LICENSE
+README.md
+rplidar.py
+setup.py
+rplidar_mrumel.egg-info/PKG-INFO
+rplidar_mrumel.egg-info/SOURCES.txt
+rplidar_mrumel.egg-info/dependency_links.txt
+rplidar_mrumel.egg-info/requires.txt
+rplidar_mrumel.egg-info/top_level.txt
+rplidar_mrumel.egg-info/zip-safe
