@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+rpa_olymp/Binomialdistribution.py
+rpa_olymp/Gaussiandistribution.py
+rpa_olymp/Generaldistribution.py
+rpa_olymp/__init__.py
+rpa_olymp.egg-info/PKG-INFO
+rpa_olymp.egg-info/SOURCES.txt
+rpa_olymp.egg-info/dependency_links.txt
+rpa_olymp.egg-info/not-zip-safe
+rpa_olymp.egg-info/top_level.txt
