@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+videofingerprint/__init__.py
+videofingerprint/__version__.py
+videofingerprint/downloader.py
+videofingerprint/exceptions.py
+videofingerprint/framesextractor.py
+videofingerprint/rlgdcf_videofingerprint.py
+videofingerprint/utils.py
+videofingerprint/videoduration.py
+videofingerprint.egg-info/PKG-INFO
+videofingerprint.egg-info/SOURCES.txt
+videofingerprint.egg-info/dependency_links.txt
+videofingerprint.egg-info/requires.txt
+videofingerprint.egg-info/top_level.txt
