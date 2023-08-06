@@ -1,0 +1,9 @@
+[console_scripts]
+vaby = vaby.main:main
+
+[vaby.models]
+biexp = vaby.models.exp:BiExpModel
+constant = vaby.models.misc:ConstantModel
+exp = vaby.models.exp:ExpModel
+poly = vaby.models.misc:PolyModel
+
