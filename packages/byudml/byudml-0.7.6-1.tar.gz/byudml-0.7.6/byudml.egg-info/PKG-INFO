@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: byudml
+Version: 0.7.6
+Summary: A collection of DARPA D3M primitives developed by BYU
+Home-page: https://gitlab.com/datadrivendiscovery/contrib/byu-d3m-primitives
+Author: Roland Laboulaye, Brandom Schoenfeld, Jarom Christensen
+Maintainer: Remi Rampin
+Maintainer-email: remi.rampin@nyu.edu
+License: MIT
+Description: UNKNOWN
+Keywords: metalearning,metafeature,machine learning,metalearn,d3m_primitive
+Platform: UNKNOWN
