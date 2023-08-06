@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+sql_manager/__init__.py
+sql_manager.egg-info/PKG-INFO
+sql_manager.egg-info/SOURCES.txt
+sql_manager.egg-info/dependency_links.txt
+sql_manager.egg-info/requires.txt
+sql_manager.egg-info/top_level.txt
+sql_manager/core/__init__.py
+sql_manager/core/manager.py
+sql_manager/core/model.py
+sql_manager/version/version.json
