@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: competitivetracker
+Version: 1.0.1
+Summary: Competitive Tracker Python API Library
+Home-page: https://github.com/darrensmith223/CompetitiveTracker
+Author: Darren Smith
+Author-email: darren.smith@sparkpost.com
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: requests (>=2.20.1)
+
+UNKNOWN
+
