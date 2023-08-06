@@ -1,0 +1,11 @@
+bibtools/formatters.py,sha256=MRsO0p1fgIUIiCjjBqGahTrCceY772iCVCUiTyglNT4,632
+bibtools/json2bibtex.py,sha256=6NtfiBLUhzMFEFrs8ONJ7LbJQLWcMs7LCTqdNuTDu6I,2562
+bibtools/pubmed.py,sha256=mVYtVpalSPnBMxE2Ot8nXCHwCwxe8TjbBYxqhVNE1X8,3659
+bibtools/scihub.py,sha256=MmG6xkxIv4DnMO6DfOk7f9SDj6uScu8gtnmHM7BQfOY,1847
+bibtools/utils.py,sha256=buOoT2L6PjEFb8-w3vVGUHXdDgvHFns4aU9jzokcl1A,2017
+bibtools_pkg-0.1.16.data/scripts/bibtools,sha256=znnnUWR2azPahbHMou3U41kPsaWIoz-JE34we762XXQ,1639
+bibtools_pkg-0.1.16.dist-info/LICENSE,sha256=_WHG9fL_EeFJMvWtfYIJg_rbkdalS6h_D9Z-85q0o4w,35147
+bibtools_pkg-0.1.16.dist-info/METADATA,sha256=DUHqTUGnG6wwPEV-cz_LXjgG9AuoqK-zv89UFJ0Fwp4,2167
+bibtools_pkg-0.1.16.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bibtools_pkg-0.1.16.dist-info/top_level.txt,sha256=4Tw0zOrUixL_XggngS95KkOLaTvKOF7k27GatdmQ3YE,9
+bibtools_pkg-0.1.16.dist-info/RECORD,,
