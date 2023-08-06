@@ -1,0 +1,14 @@
+finufft-2.0.4.dist-info/RECORD,,
+finufft-2.0.4.dist-info/WHEEL,sha256=Iuh0bPwfIJ3F9Bsr_Hd-395x8HJPnFDUJ4yj45l4BIY,114
+finufft-2.0.4.dist-info/top_level.txt,sha256=ad5NTT1JZwZ0C796YFJysnelEZTKz2fkNKRJ9_wVqUs,8
+finufft-2.0.4.dist-info/METADATA,sha256=4r1dZNko4-SJP4uoN0VS4o2Wnz3Nq0yHxGCC383cupc,1691
+finufft/finufftc.cpython-39-darwin.so,sha256=GfNIetUO2UmHg30fDMSYpelllKwmD-AJht03DmZxXaU,68416
+finufft/__init__.py,sha256=Cxl299-y2e554HS-kVByhmufH-gyGo_ArTKYsL5xC9o,887
+finufft/_interfaces.py,sha256=YD3Eq5X02B3BSV45W73t0IRn9utOdvENDUDC1PzEyfc,30864
+finufft/_finufft.py,sha256=19Q9G-_SOLI7k9NnIUVIM3bbmIomSzKiu1YbxH9L5d0,4489
+finufft/.dylibs/libfftw3f_threads.3.dylib,sha256=zpSGlWHnOVSsCXpkMYdftQZUl6Hahn_NN1JfqhWh7OI,91360
+finufft/.dylibs/libfftw3f.3.dylib,sha256=CgTkUm3jax6paXQJiqrrcvxZI1or_cvlPBI7Nsp64lc,3004656
+finufft/.dylibs/libfftw3_threads.3.dylib,sha256=sWlQh6i32eYTtKCwSSGTXP2d6MuY_4LRrthU3RetZGw,91264
+finufft/.dylibs/libfinufft.so,sha256=GCqahjJ4vaAHkoe73YHxp2br0rQclnp55R6S_QQC4cg,2859424
+finufft/.dylibs/libfftw3.3.dylib,sha256=acfdq7B-H56M0iuJIGyzkCE3ZDKW-l8B-oyRW0k57jU,2852432
+finufft/.dylibs/libgcc_s.1.dylib,sha256=xOnHnL4HBQ2-9SNZ_jqljHff69-SPDBI57MUrmVpVaM,188816
