@@ -1,0 +1,6 @@
+click<8,>=7
+virtualenv
+rich
+
+[:python_version < "3.7"]
+dataclasses
