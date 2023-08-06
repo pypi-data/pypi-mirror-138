@@ -1,0 +1,7 @@
+docs
+env
+examples
+inmanta_plugins
+irt
+irt@tmp
+tests
