@@ -1,0 +1,11 @@
+AUTHORS.rst
+LICENSE.txt
+README.rst
+setup.py
+django_showmequeries.egg-info/PKG-INFO
+django_showmequeries.egg-info/SOURCES.txt
+django_showmequeries.egg-info/dependency_links.txt
+django_showmequeries.egg-info/top_level.txt
+querycount/__init__.py
+querycount/middleware.py
+querycount/qc_settings.py
