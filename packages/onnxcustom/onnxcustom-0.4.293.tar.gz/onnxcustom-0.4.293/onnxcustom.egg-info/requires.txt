@@ -1,0 +1,12 @@
+fire
+numpy
+onnx>=1.10.1
+scipy
+
+[all]
+fire
+numpy
+onnx>=1.10.1
+scipy
+pandas_streaming>=0.3
+cxxfilt
