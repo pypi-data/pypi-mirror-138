@@ -1,0 +1,17 @@
+typertype/__init__.py,sha256=M7tNRhxhDEP9EQ00jPziQAbGiFjgSisxmeO6dwnSYo0,50
+typertype/main.py,sha256=Bpi7NwqsJIg6TNIgtgbB90maPgCLbCzZcUDKF10ryNo,537
+typertype/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typertype/src/general.py,sha256=vUwpV0-ht__UKdNq3gNq0W_ycZhCPZJqAEaJUweOzRo,169
+typertype/src/list_of_words.txt,sha256=yuIvMJpr_ypYrOg2KeE_4-W7n2ze6-uj9xurDDWuRQE,5839
+typertype/src/main.py,sha256=dqdOmhQDtKyuEidpTDxPRjjP24a1bQXR_Im4TqKpnoc,9553
+typertype/src/main_copy.py,sha256=j0QL279Za7hOMakjVvmTU26KydxgGyep4hPNLD27yo0,14271
+typertype/src/quotes_mode.py,sha256=fcMr0VUffdtKroJsOvxmA6k2J_mjrLJGo7bnMdWfEHU,3240
+typertype/src/read_settings.py,sha256=XZKQn2W_auouvtRfzHKhAyfxO7wirMEVtZOmSIWsoFE,512
+typertype/src/time_mode.py,sha256=hrDyEcO6BJFgn8tuXFwa3tEs4T_Pt11aZZRZ6HNGHrA,3373
+typertype/src/word_modification.py,sha256=RVqkMocPOmhklZlz9NkPicXyjYu0LNXPWICAF_C-9mM,458
+typertype/src/words_mode.py,sha256=kEuckO0idRaMP9LJbJPRg1rq4Dtx_ZrbjkRCQfCFRxk,3040
+typertype-1.1.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+typertype-1.1.3.dist-info/METADATA,sha256=5aeRBDECt2PbI4cJEGS3Kyq9_JCYQncxM8mNqBJwiaY,2838
+typertype-1.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+typertype-1.1.3.dist-info/top_level.txt,sha256=ETrR1D0o81wckAiC1drxaKmLeqRo9S3LldWoxi-LQ9U,10
+typertype-1.1.3.dist-info/RECORD,,
