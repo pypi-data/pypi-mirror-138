@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: bay-area-mashers-member-export
+Version: 1.0.0
+Summary: Tool to query Bay Area Mashers member list and return all current members' email addresses
+Home-page: https://github.com/bay-area-mashers/bay-area-mashers-member-export
+Author: Gene Wood
+Author-email: gene_wood@cementhorizon.com
+License: GPL-3.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: gspread
+
+# bay-area-mashers-member-export
+
+Tool to query Bay Area Mashers member list and return all current members' email addresses
+
+## Installation
+
+* [Provision Google credentials](https://docs.gspread.org/en/latest/oauth2.html#for-bots-using-service-account) to query the Google Sheet
+* Save the resulting Google API credential file in `~/.config/gspread/service_account.json`
+* Install the bay-area-mashers-member-export tool 
+
+      pip install bay-area-mashers-member-export
+
+## Usage
+
+```shell
+bay-area-mashers-member-export /secure/ > /etc/apache2/sites-available/secure-location.include
+sudo apachectl graceful
+```
+
+

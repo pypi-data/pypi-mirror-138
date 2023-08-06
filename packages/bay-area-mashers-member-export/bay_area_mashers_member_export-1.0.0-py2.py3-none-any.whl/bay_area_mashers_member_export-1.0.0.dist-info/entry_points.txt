@@ -1,0 +1,3 @@
+[console_scripts]
+bay-area-mashers-member-export = bay_area_mashers_member_export:main
+
