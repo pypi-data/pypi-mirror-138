@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bplsdk
+Version: 0.4.0
+Summary: An SDK for a more ergonomic use of the BPL protocol
+Author: Sindre Hansen
+Author-email: sindre.hansen@blueye.no
+Maintainer: Sindre Hansen
+Maintainer-email: sindre.hansen@blueye.no
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cobs (>=1.1.4,<2.0.0)
+Requires-Dist: construct (==2.9.52)
+Requires-Dist: crcmod (>=1.7,<2.0)
+Requires-Dist: pyserial (>=3.4,<4.0)
