@@ -1,0 +1,17 @@
+wilderness/__init__.py,sha256=LxEyQiEFyBE0KYxrHish5dDK-vtunc6uMTzUJKnTF3o,278
+wilderness/__version__.py,sha256=BR0HLcQ0Se_v52Lcg0UghNHBrBdusezORO0gSWAp_Po,88
+wilderness/application.py,sha256=-tUk0BOB6lPWzlasMo5QQWjAQ1LtiUlrSPq11iqdc-E,11339
+wilderness/command.py,sha256=kDCjWxAg2ijMvUhdRnnEW5AJ5VSZWNms5h0TxEbbFfQ,2550
+wilderness/documentable.py,sha256=r6a1a7drihU2qYyN31ZFwVeF0ZNSjQX3_ZwODoJhKx8,4949
+wilderness/formatter.py,sha256=GX0lz-KStQ-KgVlgo7-LR6nap1c7Y2MBk7SqsJwq4IM,5861
+wilderness/group.py,sha256=eNuBViQ8Xh7u4WiYpTG4kQCUVvqO1jZO_xi6EGzQfjk,1658
+wilderness/help.py,sha256=9ZpwNe8WmZfbHWjiELKgiy9KMOxkIOpZi0MQ5anKwc4,2645
+wilderness/manpages.py,sha256=RVj9h1TRYNvEJiMTiIdDNvne9M3s01k3g3ucCqbWiVg,6576
+wilderness/parser.py,sha256=LKyUo8AN-FZ4PCd-evTTYJZqpcVygAhPSubp2k9X7Ik,652
+wilderness/py.typed,sha256=bWew9mHgMy8LqMu7RuqQXFXLBxh2CRx0dUbSx-3wE48,27
+wilderness/tester.py,sha256=9PxqgEOwe9p2Jo3LPK-CTqidHcF5kXhQtduyyGLifwE,2253
+wilderness-0.1.3.dist-info/LICENSE,sha256=u8gjpA9XP19sfhLi8vTmWP29D88sq2v-dRaBfKod4p8,1071
+wilderness-0.1.3.dist-info/METADATA,sha256=sQ4ksIZ91_t0AyonBWMteK6ssjw4uDdYoJnAbo4U0SI,3635
+wilderness-0.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wilderness-0.1.3.dist-info/top_level.txt,sha256=NpGYPt4SUY_ThwTnuemdAcDkTxmCRiXzzh6WpQ_Tbpg,11
+wilderness-0.1.3.dist-info/RECORD,,
