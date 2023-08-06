@@ -1,0 +1,4 @@
+typer
+pycairo
+python-dateutil
+DateTime
