@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hw3-CalCalc-fm
+Version: 0.0.1
+Summary: Calcalc module for hw3
+Author: Fanhao Meng
+Author-email: fhmeng@berkeley.edu
+License: UNKNOWN
+Project-URL: Source, https://github.com/fanhao-meng/python-ay250-homework
+Keywords: calculate,ay250,wolfram,homework
+Platform: UNKNOWN
+Requires-Python: >=3.6, <4
+License-File: LICENSE.txt
+
+The module is created for homework-3 of course AY250 (Python Computing for Data Science) by Fanhao Meng. The main job that CalCalc.py does is to calculate your input string locally or from WolframAlpha API.
+
