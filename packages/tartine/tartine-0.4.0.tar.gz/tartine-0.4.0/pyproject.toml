@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tartine"
+version = "0.4.0"
+description = "Create dynamic spreadsheets using Python"
+authors = ["MaxHalford <maxhalford25@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+glom = "^22.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pygsheets = "^2.0.5"
+pandas = "^1.4.0"
+lxml = "^4.7.1"
+tabulate = "^0.8.9"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
