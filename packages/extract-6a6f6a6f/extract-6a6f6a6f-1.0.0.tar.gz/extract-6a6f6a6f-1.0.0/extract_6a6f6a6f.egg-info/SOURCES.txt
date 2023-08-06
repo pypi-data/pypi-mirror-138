@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+extract_6a6f6a6f.egg-info/PKG-INFO
+extract_6a6f6a6f.egg-info/SOURCES.txt
+extract_6a6f6a6f.egg-info/dependency_links.txt
+extract_6a6f6a6f.egg-info/entry_points.txt
+extract_6a6f6a6f.egg-info/requires.txt
+extract_6a6f6a6f.egg-info/top_level.txt
+lazy/__init__.py
+lazy/extract.py
