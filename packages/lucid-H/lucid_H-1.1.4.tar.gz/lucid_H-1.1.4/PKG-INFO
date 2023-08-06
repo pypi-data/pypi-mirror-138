@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: lucid_H
+Version: 1.1.4
+Summary: WORK_ENV emails
+Author: HemantDhanwar
+Author-email: <ashuhemantsingh@gmail.com>
+License: UNKNOWN
+Keywords: python,Email,directory size,dir size
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+
+# under testing
+	Under construction! still adding more functions!
+	this is Hemant's work intended to help other developers to develope 
+	It is easy to use.
+	
+# Examples of How To Use 
+
+
+from HemantDhanwar import EmailServices as es
+
+es.disk_usage('D:/','D:/')
+
+es.email_with_attachhment('HemantDhanwar@lucidmotors.com', 'D:\\H_Work_SPACE\\key.txt', 'HemantDhanwar@lucidmotors.com, kirankumarj@lucidmotors.com, shravankumar@lucidmotors.com', 'D:\\')
+
+disk_usage(path, output_path, SAVE = True)
+
+email_with_attachhment(username, path2key, mail_to, path)
+
+path is where i saved my csv data
+
+

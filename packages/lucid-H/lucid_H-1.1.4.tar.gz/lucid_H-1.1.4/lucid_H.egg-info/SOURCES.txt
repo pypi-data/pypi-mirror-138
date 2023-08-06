@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+lucid_H/EmailServices.py
+lucid_H/__init__.py
+lucid_H.egg-info/PKG-INFO
+lucid_H.egg-info/SOURCES.txt
+lucid_H.egg-info/dependency_links.txt
+lucid_H.egg-info/requires.txt
+lucid_H.egg-info/top_level.txt
