@@ -1,0 +1,12 @@
+figular/__init__.py,sha256=EgJZVdFSWiBhvsmLl4nRi-wHediyiaG5a7MumpDhivc,1088
+figular/command_line.py,sha256=krz8CFhapU3DvzKRRjGp9JcCEiTJQ00a0zjVkHkEe8M,2596
+figular/concept/circle.asy,sha256=kGxFjx9oCFoKe_7IP8zev-gkhyXmcj2iw6W5jtXTwPw,4390
+figular/org/orgchart.asy,sha256=e0WMDR4DZAgPoGEAfbN6NcZAxuo_GAeH4RAt2s5V9tE,15285
+figular-0.0.3.dist-info/AGPL-3.0-or-later.txt,sha256=cPTDMtpYDUSlxOGptbAy0VFTygpT_acCHHLGftnj6zg,33934
+figular-0.0.3.dist-info/CC-BY-4.0.txt,sha256=uJrrfCoWSgV2eG3SqLV_L7YosjmB8KBr134vmam--g8,16814
+figular-0.0.3.dist-info/CC-BY-SA-4.0.txt,sha256=8l9xX1LiqkzUrBB6u3RKJFG1ins5l2Psbi6jxvCMpI4,18109
+figular-0.0.3.dist-info/METADATA,sha256=C4xHeDArtiWZk_WmWXooUfzhspn-b2ZVtbe_aKZxQsE,6224
+figular-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+figular-0.0.3.dist-info/entry_points.txt,sha256=EZCpqkCGlPzQFUzJe0NVvlhZnyD1DNKg7znaKDBJm2U,50
+figular-0.0.3.dist-info/top_level.txt,sha256=nDiHJ8OhBzMgBU_igNnqNtzVLFZnOCPDMYEvCm0uGuo,8
+figular-0.0.3.dist-info/RECORD,,
