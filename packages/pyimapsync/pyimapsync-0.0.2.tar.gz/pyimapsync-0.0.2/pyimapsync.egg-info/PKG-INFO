@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyimapsync
+Version: 0.0.2
+Summary: Transfer emails between multiple IMAP servers.
+Home-page: https://github.com/pyscioffice/pysyncimap
+Author: Jan Janssen
+Author-email: jan.janssen@outlook.com
+License: BSD
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+

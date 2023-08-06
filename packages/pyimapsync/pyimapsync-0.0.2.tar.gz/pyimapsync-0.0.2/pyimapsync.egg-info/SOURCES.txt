@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+pyimapsync/__init__.py
+pyimapsync/__main__.py
+pyimapsync/_version.py
+pyimapsync/shared.py
+pyimapsync.egg-info/PKG-INFO
+pyimapsync.egg-info/SOURCES.txt
+pyimapsync.egg-info/dependency_links.txt
+pyimapsync.egg-info/entry_points.txt
+pyimapsync.egg-info/top_level.txt
