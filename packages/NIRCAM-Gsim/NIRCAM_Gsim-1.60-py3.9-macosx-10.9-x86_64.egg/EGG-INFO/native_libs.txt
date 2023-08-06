@@ -1,0 +1,1 @@
+NIRCAM_Gsim/polyclip/polyclip_c.cpython-39-darwin.so
