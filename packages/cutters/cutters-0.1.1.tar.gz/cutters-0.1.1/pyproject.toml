@@ -1,0 +1,19 @@
+[build-system]
+requires = ["maturin>=0.12,<0.13"]
+build-backend = "maturin"
+
+[project]
+name = "cutters"
+version = "0.1.1"
+authors = [
+    {name = "cyanic-selkie", email = "cyanic-selkie@protonmail.com"}
+]
+license = {text = "MIT"}
+description = "A rule based sentence segmentation library."
+repository = "https://github.com/cyanic-selkie/cutters"
+readme = "README.md"
+classifiers=[
+    "Natural Language :: Croatian",
+    "Natural Language :: English",
+    "Topic :: Text Processing",
+]
