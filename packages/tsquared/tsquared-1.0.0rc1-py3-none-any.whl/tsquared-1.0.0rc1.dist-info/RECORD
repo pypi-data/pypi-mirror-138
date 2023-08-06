@@ -1,0 +1,8 @@
+tsquared/__init__.py,sha256=mjWu8lqa_xYw31I4HIV2xpQixpzCqsFjfOhsTEqSp9U,102
+tsquared/hotelling_t2.py,sha256=uA269wDevJIH7ZZMkkDRzHmPhpbVwwUDC-R7KAV7xF4,24373
+tsquared/myt_decomposition.py,sha256=Mhww1__rZlhD65N1YtK7vc8sTKSszHGk_oI0dWQjF6E,8583
+tsquared-1.0.0rc1.dist-info/LICENSE,sha256=SLu6w6PCKT058lMs4-8Pfgs3e_1W52j490F-gwEpduo,1062
+tsquared-1.0.0rc1.dist-info/METADATA,sha256=xVgQloAejiYwxM0SPg2dFmpLd1_3W6tFwlAvstmW9vY,10091
+tsquared-1.0.0rc1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tsquared-1.0.0rc1.dist-info/top_level.txt,sha256=AXnuXXIDW6dHTfCrA2YrUy-t-xRwRcCYw4WlDHyX-uM,9
+tsquared-1.0.0rc1.dist-info/RECORD,,
