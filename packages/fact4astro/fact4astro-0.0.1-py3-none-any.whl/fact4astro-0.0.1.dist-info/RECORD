@@ -1,0 +1,11 @@
+fact/__init__.py,sha256=8Zs85pqLtv4W9j6V0a9N6h0nCisB41jYcSmosWeC27w,170
+fact/main.py,sha256=E1D1tEfRxkbRo9rE3fQwh4D7gmFJwsjseifcoXpg5_E,166
+fact4astro-0.0.1.data/data/my_data/data_file,sha256=EweZDmulyhRes16ZGCqb7EZTG8VN32VqYCx4D6AkDe4,9
+sample/__init__.py,sha256=eJUhUcyOxh8swfmDZgrUugpBVnbIWSkbZxcmwT5GmDw,111
+sample/package_data.dat,sha256=EweZDmulyhRes16ZGCqb7EZTG8VN32VqYCx4D6AkDe4,9
+sample/simple.py,sha256=jQxgMu2wujV5-EV7SIHDYnIfEhmJAzxyn2XKqYliCB0,43
+fact4astro-0.0.1.dist-info/METADATA,sha256=8DhZ6dpJyKHSyojAYFFcnhqI17HYjHreyEdFPSV3lxY,1092
+fact4astro-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fact4astro-0.0.1.dist-info/entry_points.txt,sha256=xPp6vFitqG85D-kOcIEWjIZmvD2l53YiMbrwjZFpjZw,39
+fact4astro-0.0.1.dist-info/top_level.txt,sha256=BmiZtd43JwUr7GAbsr-1gxT3PbiWLl6CwXilwT30_Eo,12
+fact4astro-0.0.1.dist-info/RECORD,,
