@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/baselooper/__init__.py
+src/baselooper/looper.py
+src/baselooper/module.py
+src/baselooper/run.py
+src/baselooper/state.py
+src/baselooper/utils.py
+src/baselooper.egg-info/PKG-INFO
+src/baselooper.egg-info/SOURCES.txt
+src/baselooper.egg-info/dependency_links.txt
+src/baselooper.egg-info/requires.txt
+src/baselooper.egg-info/top_level.txt
