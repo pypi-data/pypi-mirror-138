@@ -1,0 +1,40 @@
+[build-system]
+# Minimum requirements for the build system to execute. (see https://www.python.org/dev/peps/pep-0518/)
+requires = ["setuptools", "wheel"]  # PEP 508 specifications.
+
+[tool.black]
+line-length = 110
+target-version = ['py37']
+
+
+
+[tool.pylint.message_control]
+disable = [
+    "C",
+    "logging-format-interpolation",
+    "logging-fstring-interpolation",
+    "too-few-public-methods",
+    "E1124",
+    "fixme",
+	"E0611",
+	"E0401",
+    "too-many-locals",
+    "R1729",
+    "too-many-instance-attributes",
+    "super-init-not-called",
+    "attribute-defined-outside-init",
+    "too-many-public-methods",
+]
+
+[tool.pylint.typecheck]
+generated-members = "pyspark.*"
+extension-pkg-whitelist = "pyspark"
+ignored-modules = "pyspark.sql.functions"
+
+
+[tool.pylint.similarities]
+# Minimum lines number of a similarity.
+min-similarity-lines=8
+
+
+max-args = 7
