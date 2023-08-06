@@ -1,0 +1,8 @@
+igraph
+ipywidgets
+nbformat
+numpy
+pandas
+plotly
+tensorflow
+xgboost
