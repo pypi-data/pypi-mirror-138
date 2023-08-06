@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: lifespline-utils
+Version: 0.0.2
+Summary: Lifespline Utils
+Home-page: https://github.com/lifespline/lifespline-utils
+Author: diogo
+Author-email: lifespline@fastmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: 
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Lifespline-Utils
+
+Utils for the `lifespline` framework.
+
+
