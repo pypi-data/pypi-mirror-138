@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: investops
+Version: 0.3.0
+Summary: Tools for investing in Python
+Home-page: https://github.com/Hvass-Labs/InvestOps
+Author: Magnus Erik Hvass Pedersen
+Author-email: my-first-name@hvass-labs.org
+License: MIT
+Keywords: investing,portfolio optimization,hvass diversification
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: numba
+Requires-Dist: matplotlib
+
+InvestOps is a collection of Python tools for investing, including the fast and robust "Hvass Diversification" algorithm for diversifying an investment portfolio.
+
