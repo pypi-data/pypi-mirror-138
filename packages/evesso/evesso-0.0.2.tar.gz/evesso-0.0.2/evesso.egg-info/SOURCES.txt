@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+evesso/__init__.py
+evesso/authorize.py
+evesso/config.py
+evesso/esi.py
+evesso/files.py
+evesso/refresh.py
+evesso/server.py
+evesso.egg-info/PKG-INFO
+evesso.egg-info/SOURCES.txt
+evesso.egg-info/dependency_links.txt
+evesso.egg-info/requires.txt
+evesso.egg-info/top_level.txt
