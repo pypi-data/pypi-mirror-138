@@ -1,0 +1,14 @@
+name: Aluminium standard
+author: Elena Pascal, Yun Song (2021)
+license: CC-BY 4.0
+description: >
+  Powder diffraction data collected by Yun Song at DLS on eBIC's Talos Arctica (m12).
+  The sample is a polycrystalline aluminium standard.
+
+  Starting geometry was generated with dials.powder_calibrate_widget
+
+  Used for powder geometry calibration testing.
+
+data:
+  - url: https://github.com/dials/data-files/raw/f2292d77f44e8003b11fec6456654d343d7767ad/aluminium_standard/0p67_5s_0000.mrc
+  - url: https://github.com/dials/data-files/raw/8110c3addbbce2f436e2553da88a23bd72395663/aluminium_standard/eyeballed.geom
