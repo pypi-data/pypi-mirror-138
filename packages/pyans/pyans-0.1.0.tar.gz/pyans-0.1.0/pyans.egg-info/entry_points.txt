@@ -1,0 +1,3 @@
+[console_scripts]
+pyans = pyans.ans:main
+
