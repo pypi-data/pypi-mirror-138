@@ -1,0 +1,8 @@
+cpld_img_tools/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+cpld_img_tools/cpld2hpm.py,sha256=SJIxosK_6fLtidj7GpZvH2H-1y6uu-lSfirXr1sBlHU,3354
+cpld_img_tools/jed_conv.py,sha256=NT3q0X8JG7rC-VPZT4WQVIHHoF1CBVGSRg5IPvkgyJg,5341
+cpld_img_tools-0.0.1.dist-info/METADATA,sha256=80qhXcHJuXiQn4p-VEMGbLIyyCYYNBXFoRDgB9cTOq0,2751
+cpld_img_tools-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cpld_img_tools-0.0.1.dist-info/entry_points.txt,sha256=L9DLe_erOa6vJhsL0q1ctR-cp083_mOFZMnL0u3M33M,99
+cpld_img_tools-0.0.1.dist-info/top_level.txt,sha256=1iOeTYqSe2AwWX-vTKmfGMh6EWeSPa6Sc3n-JQpwvbs,15
+cpld_img_tools-0.0.1.dist-info/RECORD,,
