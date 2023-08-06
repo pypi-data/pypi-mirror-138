@@ -1,0 +1,2 @@
+[console_scripts]
+sta = sta.cli:cli
