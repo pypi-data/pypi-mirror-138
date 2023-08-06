@@ -1,0 +1,5 @@
+cubicweb<3.35.0,>=3.28.0
+cwtags
+elasticsearch<8.0.0,>=7.0.0
+elasticsearch-dsl<8.0.0,>=7.0.0
+beautifulsoup4
