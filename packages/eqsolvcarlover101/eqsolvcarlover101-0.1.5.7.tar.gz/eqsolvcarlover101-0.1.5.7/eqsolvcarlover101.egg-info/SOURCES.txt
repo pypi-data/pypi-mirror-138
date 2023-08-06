@@ -1,0 +1,11 @@
+pyproject.toml
+eqsolvcarlover101/setup.py
+eqsolvcarlover101.egg-info/PKG-INFO
+eqsolvcarlover101.egg-info/SOURCES.txt
+eqsolvcarlover101.egg-info/dependency_links.txt
+eqsolvcarlover101.egg-info/top_level.txt
+eqsolvcarlover101/eqsolvcarlover101/__init__.py
+eqsolvcarlover101/eqsolvcarlover101/commands.py
+eqsolvcarlover101/eqsolvcarlover101/help.py
+eqsolvcarlover101/eqsolvcarlover101/quadsolve.py
+eqsolvcarlover101/eqsolvcarlover101/slopeint.py
