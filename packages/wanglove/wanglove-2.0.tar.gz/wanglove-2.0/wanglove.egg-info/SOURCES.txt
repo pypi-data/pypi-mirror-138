@@ -1,0 +1,7 @@
+README.md
+setup.py
+wanglove.egg-info/PKG-INFO
+wanglove.egg-info/SOURCES.txt
+wanglove.egg-info/dependency_links.txt
+wanglove.egg-info/requires.txt
+wanglove.egg-info/top_level.txt
