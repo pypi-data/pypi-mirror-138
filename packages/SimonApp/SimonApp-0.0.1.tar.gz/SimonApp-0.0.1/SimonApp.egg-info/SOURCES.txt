@@ -1,0 +1,7 @@
+README.md
+license.txt
+setup.py
+SimonApp.egg-info/PKG-INFO
+SimonApp.egg-info/SOURCES.txt
+SimonApp.egg-info/dependency_links.txt
+SimonApp.egg-info/top_level.txt
