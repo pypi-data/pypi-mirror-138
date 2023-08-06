@@ -1,0 +1,4 @@
+fastapi
+starlette
+user_agents
+pydantic
