@@ -1,0 +1,10 @@
+pytaglib
+prompt-toolkit
+
+[testing]
+Cython>=0.29.0
+pytest>=6.0
+pytest-cov>=3.0
+mypy>=0.910
+flake8>=4.0
+tox>=3.24
