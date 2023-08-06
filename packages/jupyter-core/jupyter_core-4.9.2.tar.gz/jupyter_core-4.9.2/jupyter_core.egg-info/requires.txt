@@ -1,0 +1,4 @@
+traitlets
+
+[:sys_platform == "win32" and platform_python_implementation != "PyPy"]
+pywin32>=1.0
