@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: asciiqrcode
+Version: 1.1
+Summary: A library for processing ASCII representations of QR Codes.
+Home-page: https://github.com/MasterAge/asciiqrcode
+Author: Adrian Seddon
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/MasterAge/asciiqrcode/releases/download/v1.0/asciiqrcode-1.0.tar.gz
+Description: See: https://github.com/MasterAge/asciiqrcode
+Keywords: ASCII,QR,QRCODE,CTF,MISC
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Security
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
