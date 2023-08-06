@@ -1,0 +1,13 @@
+pylint-plugin-utils>=0.7
+pylint>=2.0
+
+[for_tests]
+django_tables2
+factory-boy
+coverage
+pytest
+wheel
+django-tastypie
+
+[with_django]
+Django
