@@ -1,0 +1,4 @@
+fabric
+openssh-wrapper
+paramiko>=2.4
+scp
