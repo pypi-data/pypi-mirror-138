@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: django-symkey
+Version: 0.0.1
+Summary: Symmetric encryption based keychain for Django projects
+Home-page: https://www.example.com
+Author: Somenath Sinha
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
