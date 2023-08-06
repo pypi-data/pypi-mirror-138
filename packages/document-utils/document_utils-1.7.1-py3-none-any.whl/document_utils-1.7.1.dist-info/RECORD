@@ -1,0 +1,12 @@
+doc_utils/__init__.py,sha256=YSQMHS9JfGc3IElM-wxgpgxtBcGvFSoVbJNEs1DaNlw,55
+doc_utils/chunk_doc_utils.py,sha256=5lG-19d-glgHgfKBGVerZYScI5LE3Si290D3bkPrNKQ,1740
+doc_utils/doc_utils.py,sha256=cSmEHzMkb5gq3xRKlChCPniDzHXVEr_20hrh34jyH8E,277
+doc_utils/errors.py,sha256=t0H5SHVXuFfxEZLPkzfHDOuIUhx8COD-lUg3hcG5FLU,112
+doc_utils/read_operator.py,sha256=z_fvwDFckwXz9MIkazbZwUaEWVm9DkB3-JzYdyorqUE,62
+doc_utils/read_utils.py,sha256=Bq53SDuiMowsoBw9j0p4gjCTHi1bKf3wKGn_S4hB90Q,10010
+doc_utils/write_utils.py,sha256=e2qe2JON1TellY3s3xkzUyHqSUmemaR7k7-xQc08_MU,3421
+document_utils-1.7.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+document_utils-1.7.1.dist-info/METADATA,sha256=mpf_sVqs-O2aycF_eW-gXuQiysU0ejs1AT4Ntp0gKrU,262
+document_utils-1.7.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+document_utils-1.7.1.dist-info/top_level.txt,sha256=KeCjW0XQZ4Qx_nIFjNLhIqrL5_mxHhGxSwsZglGWKDk,10
+document_utils-1.7.1.dist-info/RECORD,,
