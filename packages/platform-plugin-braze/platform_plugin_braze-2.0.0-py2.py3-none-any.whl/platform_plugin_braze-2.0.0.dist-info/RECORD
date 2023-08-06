@@ -1,0 +1,12 @@
+edx_braze/__init__.py,sha256=EwrWgC-8-82aEgbhCbOhQcyWGlH3nnCy1dPJ2bzWe3c,161
+edx_braze/apps.py,sha256=C0vDksNg0eUgTpqtiZMV7TUQyxTd6dhaxIsgLlM4HDA,1058
+edx_braze/signals.py,sha256=XPvRROAH9pesXwrFtrz3b0I4OLTBRCtxGr41Ol86ilY,2544
+edx_braze/settings/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edx_braze/settings/common.py,sha256=jb_0R8g4CJp84fJQeMANMWCSBaRMOJM7Xivxbfu-enk,182
+edx_braze/settings/production.py,sha256=W-Axu7CZVd2H8AuS0nM6VtqZEPDGHF3ckTIhpzSVEhg,297
+platform_plugin_braze-2.0.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+platform_plugin_braze-2.0.0.dist-info/METADATA,sha256=0N4M34Lk1hRth_-oWq8fd7gN1RaS0jW-f6SmbczNJkE,4315
+platform_plugin_braze-2.0.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+platform_plugin_braze-2.0.0.dist-info/entry_points.txt,sha256=nDd1J75ToiGXvgyU8a0IRktUyBHp5jScW8vCh7MeOLo,59
+platform_plugin_braze-2.0.0.dist-info/top_level.txt,sha256=IHWxg-MaN7Z5uZZM2dIxcGCESU-oQ3GRRxxNq7RfK9o,10
+platform_plugin_braze-2.0.0.dist-info/RECORD,,

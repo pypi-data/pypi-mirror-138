@@ -1,0 +1,3 @@
+[lms.djangoapp]
+edx_braze = edx_braze.apps:EdxBrazeConfig
+
