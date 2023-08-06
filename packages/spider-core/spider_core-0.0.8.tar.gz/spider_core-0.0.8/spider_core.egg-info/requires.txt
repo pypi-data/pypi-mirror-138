@@ -1,0 +1,4 @@
+pika
+elasticsearch_dsl
+sqlalchemy
+pymysql
