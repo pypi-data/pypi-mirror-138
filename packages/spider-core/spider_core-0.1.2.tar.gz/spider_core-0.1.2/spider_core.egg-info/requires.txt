@@ -1,0 +1,6 @@
+pika
+elasticsearch_dsl
+pymysql
+shortuuid
+redis
+threadpool
