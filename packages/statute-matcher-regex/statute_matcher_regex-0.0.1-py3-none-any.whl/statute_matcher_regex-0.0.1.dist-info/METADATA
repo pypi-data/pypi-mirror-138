@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: statute-matcher-regex
+Version: 0.0.1
+Summary: Raw regex strings and constructors to create Philippine statutory labels.
+Author: Marcelino G. Veloso III
+Author-email: mars@veloso.one
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: statute-serial-number (>=0.0.1,<0.0.2)

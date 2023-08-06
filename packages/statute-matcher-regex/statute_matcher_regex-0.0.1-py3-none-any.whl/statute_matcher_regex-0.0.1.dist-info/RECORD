@@ -1,0 +1,13 @@
+statute_matcher_regex/__init__.py,sha256=NrQilUgKvXPUPHEv5Q_UNIwMWGGzd9kx9ivE1XmNAbc,291
+statute_matcher_regex/__main__.py,sha256=zDrnm6RTK4Xywrf58Arx8pET4NZVj1PiQWeSiXUz8Oc,158
+statute_matcher_regex/assigner.py,sha256=OJEWvCFqQhpj8_MBsG4IRMNgijuZ_WjkkM2HCLXWs38,1138
+statute_matcher_regex/formula/__init__.py,sha256=dO7_S5kxDcCZJ9hfc99bBzfXJJEwgYyZR86OCs-CmLo,314
+statute_matcher_regex/formula/base.py,sha256=cP9wrM_-gexMXLu9ikHMn5BCEwhRj0IYpGmO9gL8_pk,5789
+statute_matcher_regex/formula/named.py,sha256=ulXiMi0egiJ2sBJnvOPwyTPlKIjlWM3MQa36Co8JYjM,17397
+statute_matcher_regex/formula/provisions.py,sha256=0wFROLwOjoE7orxOfdInTuFI6PIKp44ujES7MI2P18M,3344
+statute_matcher_regex/formula/serials.py,sha256=cjRp_iE_YsQCUas2o-o7JgbROVSahXVM_b9DTJ6cdKI,10451
+statute_matcher_regex/matcher.py,sha256=ADzP-kfQ1jEFTNVZYaPciQv6MUQdw03RMt4w34RqHgw,2669
+statute_matcher_regex/spanner.py,sha256=n2y-BCEGFUm0GwTh9A7qslmiBM_UJ9Xt6ZCXnyMcOMM,3204
+statute_matcher_regex-0.0.1.dist-info/WHEEL,sha256=FMw6u7Kp3jrdDDtJRZ3hkPV-9adLQT8pbM4iifKUGfw,85
+statute_matcher_regex-0.0.1.dist-info/METADATA,sha256=xfXzP18GoImRn1VIDCCcpwpYTyUm-18MAX3Hd3jj6uE,441
+statute_matcher_regex-0.0.1.dist-info/RECORD,,
