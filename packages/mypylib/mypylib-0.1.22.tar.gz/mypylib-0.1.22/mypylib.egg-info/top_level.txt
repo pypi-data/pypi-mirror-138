@@ -1,0 +1,3 @@
+mypylib
+pandas
+termcolor
