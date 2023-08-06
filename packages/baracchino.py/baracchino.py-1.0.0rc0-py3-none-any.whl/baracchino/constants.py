@@ -1,0 +1,1 @@
+API_URL="https://baracchino.starnumber.tk"
