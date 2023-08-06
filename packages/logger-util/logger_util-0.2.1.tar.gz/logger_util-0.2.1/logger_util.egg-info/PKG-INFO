@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: logger-util
+Version: 0.2.1
+Summary: Dead simple Python logger. Redirects stdout to a file while maintaining console printing.
+Home-page: https://github.com/wsarce/logger-util
+Author: Walker Arce (wsarce)
+Author-email: wsarcera@gmail.com
+License: MIT
+Keywords: logger_util logging python wsarce
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# logger_util
+Dead simple Python logger.
+
+This library redirects the stdout and stderr to a Log object that saves the text printed to the console to a file.  The file is auto-generated and is named based on the number of files in the log directory.  Adding simple LogLevel attributes at the start of your printed debug text allows the log to be parsed and separately into severity levels.
+
+Install using: `pip install logger-util==0.2`
+
+```py
+from logger_util import CreateLogger, log_startup
+
+if __name__ == "__main__":
+    CreateLogger()
+    log_startup()
+    print("INFO: This is a test message.")
+```
+
+Calling CreateLogger will instantiate all the necessary variables, files, and directories.  Nothing more needs to be done other than writing to the console.
+
+This library is licensed under the MIT license.
+
+
