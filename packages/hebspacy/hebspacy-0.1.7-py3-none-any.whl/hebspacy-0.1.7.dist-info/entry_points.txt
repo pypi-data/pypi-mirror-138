@@ -1,0 +1,4 @@
+[spacy_factories]
+consolidator = hebspacy.ner_head:consolidator
+ner_head = hebspacy.ner_head:NERHead
+

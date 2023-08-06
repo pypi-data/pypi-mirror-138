@@ -1,0 +1,13 @@
+hebspacy/__init__.py,sha256=07NzQXBgNlnw5kSN6ZYxE9By-_RuH3Jyy58Z74sIio0,21
+hebspacy/ner_head.py,sha256=CCcjrBayHIX7BG0ij1g0jHzYPfc7iZxSB41UzHnz8VI,5706
+hebspacy/version.py,sha256=bhZjOUDPJwwM5h3KsnthZ7AOVeTHP7om0WKh_DWYcP4,91
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=Cbkol6swpUk9z3InUtid0MMotVd-UPX-0DJ4tsw0oDE,136
+tests/test_consolidator.py,sha256=pZeu06_nYPoCbyRS1CZLGetuP1-QotSQCLpvMeZ_L28,3842
+tests/test_ner_head.py,sha256=-66ivxmdXq7LCbmCb3xt_igC92Hadf9-2kT50viwa7U,1918
+hebspacy-0.1.7.dist-info/LICENSE,sha256=6OkIkklKaC2LqNKA6ZDyikuDT3Khp4asL2wh0ApraDw,1098
+hebspacy-0.1.7.dist-info/METADATA,sha256=9LtY_2y_ARlKwAXmlDjwZsT4oJduczMWp3U7z8ZRy1I,4858
+hebspacy-0.1.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hebspacy-0.1.7.dist-info/entry_points.txt,sha256=jOoFhTtJUh0TwC5ZNAdlNQYmXf7NbChdlZ7q8vnaZl4,102
+hebspacy-0.1.7.dist-info/top_level.txt,sha256=pTlPLuZ18phwq3cUgjMI6-OlPERBKRdh6ssgkYfbSTQ,15
+hebspacy-0.1.7.dist-info/RECORD,,
