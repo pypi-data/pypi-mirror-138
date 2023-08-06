@@ -1,0 +1,8 @@
+ipython
+
+[test]
+nose
+jupyterlab
+tensorflow
+torch
+scikit-learn
