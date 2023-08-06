@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ezFraction/__init__.py
+ezFraction.egg-info/PKG-INFO
+ezFraction.egg-info/SOURCES.txt
+ezFraction.egg-info/dependency_links.txt
+ezFraction.egg-info/top_level.txt
