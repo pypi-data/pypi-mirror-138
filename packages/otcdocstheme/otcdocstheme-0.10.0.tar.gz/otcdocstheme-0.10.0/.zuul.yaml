@@ -1,0 +1,13 @@
+- project:
+    merge-mode: squash-merge
+    templates:
+      - publish-to-pypi
+      - publish-otc-docs-hc-pti
+      - release-notes-jobs
+    check:
+      jobs:
+        - otc-tox-pep8
+        - build-otc-api-ref
+    gate:
+      jobs:
+        - otc-tox-pep8
