@@ -1,0 +1,17 @@
+click>=7.0
+rich
+requests
+simplejson
+pyyaml
+joblib
+sklearn
+scikit-optimize
+
+[dev]
+flake8
+green
+mypy
+types-PyYAML
+types-simplejson
+types-requests
+types-setuptools
