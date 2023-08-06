@@ -1,0 +1,9 @@
+matchco/__init__.py,sha256=s4-fLgPbCpcpQ_HSCCYsz08hnWSZCEN1Qb_n860w8M8,149
+matchco/algorithms.py,sha256=1bnFZMsVKt_zbde425xyeikC2mDknSsBDt__Oe24bHI,1036
+matchco/matching.py,sha256=R7orFZq7qRk1WmjbNaMhxnIjpcsp2Ay-ZxUcTlHkz2s,5177
+matchco/util.py,sha256=1K9ZLVh471q6dk4qwDFVoYasBszVBHAu7T1epTfM6gM,1871
+matchco-1.2.4.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+matchco-1.2.4.dist-info/METADATA,sha256=UnVtvfbRHiXjMeqlelEPdCEP-PkSeM8v_yuh7MGaR7Y,1252
+matchco-1.2.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+matchco-1.2.4.dist-info/top_level.txt,sha256=yKh3i1kuLxJJg3zex_Jo_LxkyWJergjaL4jgdKhl5vs,8
+matchco-1.2.4.dist-info/RECORD,,
