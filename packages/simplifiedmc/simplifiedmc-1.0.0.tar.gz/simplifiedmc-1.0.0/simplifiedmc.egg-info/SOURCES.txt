@@ -1,0 +1,16 @@
+LICENSE.md
+README.md
+setup.py
+bin/smc-analyze
+bin/smc-emcee
+bin/smc-stan
+simplifiedmc/__init__.py
+simplifiedmc/emcee.py
+simplifiedmc/shared.py
+simplifiedmc/stan.py
+simplifiedmc.egg-info/PKG-INFO
+simplifiedmc.egg-info/SOURCES.txt
+simplifiedmc.egg-info/dependency_links.txt
+simplifiedmc.egg-info/not-zip-safe
+simplifiedmc.egg-info/requires.txt
+simplifiedmc.egg-info/top_level.txt
