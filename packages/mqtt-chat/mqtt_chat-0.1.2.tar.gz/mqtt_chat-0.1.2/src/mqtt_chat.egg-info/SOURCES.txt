@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/mqtt_chat/__init__.py
+src/mqtt_chat/__main__.py
+src/mqtt_chat/mqtt_chat.py
+src/mqtt_chat.egg-info/PKG-INFO
+src/mqtt_chat.egg-info/SOURCES.txt
+src/mqtt_chat.egg-info/dependency_links.txt
+src/mqtt_chat.egg-info/requires.txt
+src/mqtt_chat.egg-info/top_level.txt
