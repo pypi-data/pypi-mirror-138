@@ -1,0 +1,6 @@
+bplsdk/__init__.py,sha256=qu4QzXjLVp7HUT6KgrOZJD2mdBqwcJ4XxFd8fWOZppI,132
+bplsdk/bplprotocol.py,sha256=KrVEQ68tMXj9cCdcu-Br_TdkXW3Hzo0CGHBf5sPBSlE,8206
+bplsdk/reach.py,sha256=sLhQqgDqHoBspKduUU3HktY_ZpTje1Eqhp2K69vdDAQ,11036
+bplsdk-0.4.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+bplsdk-0.4.0.dist-info/METADATA,sha256=HS12okRdPXZLVwEMT_yJ9JxdVt8PLiReKTWCUNH53r4,561
+bplsdk-0.4.0.dist-info/RECORD,,
