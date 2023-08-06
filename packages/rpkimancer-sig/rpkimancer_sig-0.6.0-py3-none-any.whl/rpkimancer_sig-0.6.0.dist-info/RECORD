@@ -1,0 +1,11 @@
+rpkimancer_sig/__init__.py,sha256=L8dIYWN046XujrNmpQxaiUJyiHUYLztUV3txGEvO9Vg,642
+rpkimancer_sig/conjure.py,sha256=attnc9YU4wy0Og3RYGtswjAcERQ8J45MBnkbVt3ObUs,3398
+rpkimancer_sig/eecert.py,sha256=bnQc8OOV3wvPxZriJm1N-dGJ88o_5dM1plqUsbFkhDY,858
+rpkimancer_sig/sigobj.py,sha256=7b6FFk3EMh-f7-hhj2UybdxGlYPFI79p41zvfDsNzi4,4612
+rpkimancer_sig/asn1/RpkiSignedChecklist-2021.asn,sha256=Sc0Zenh3V-hdEF9h41eXCm6B__Qu2jYKU0pQd0nIp70,1798
+rpkimancer_sig/asn1/__init__.py,sha256=L8dIYWN046XujrNmpQxaiUJyiHUYLztUV3txGEvO9Vg,642
+rpkimancer_sig-0.6.0.dist-info/METADATA,sha256=-u4oWBJIfLQvddWHVQV5RF3c3wfPK8FvUPmKhMnKPKc,1595
+rpkimancer_sig-0.6.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rpkimancer_sig-0.6.0.dist-info/entry_points.txt,sha256=OMbFEtTXEfwJyKbpsCQh1yMwy_B5G_sUpQTsnZSDh_E,236
+rpkimancer_sig-0.6.0.dist-info/top_level.txt,sha256=mknDKqu7pP9sG72HaRNcoYBMMBjQaTCGwu45OWpY3so,15
+rpkimancer_sig-0.6.0.dist-info/RECORD,,
