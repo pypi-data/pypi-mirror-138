@@ -1,0 +1,17 @@
+openalexapi/__init__.py,sha256=QcDBScGmyIW246FaojiaWntyBzm0fhU6IJRLmVeiVMA,1429
+openalexapi/author.py,sha256=nmogoa0P_cd3SxaCGPI_M9dY_lRv-f8ts1D8s9nESHc,493
+openalexapi/authorship.py,sha256=PnoPRZIS8OdIbQuBlS_ZaAKH8t3jJAbV6mpfC65NZY8,337
+openalexapi/biblio.py,sha256=wEKvR1dgXSKwS2ff1ukdgE9GjBVUzYFuJAEpleWJb3Q,205
+openalexapi/concept.py,sha256=UG17WGrGerGlgGalDKDyqvljB3P9b9ENflL9X7oU-lA,586
+openalexapi/ids.py,sha256=JnJYZMrr32NbGTbPxU10aTVJPGDv3w7br7GzemcO1KM,600
+openalexapi/institution.py,sha256=C6qWRTtzkr45O9QPEZ8Xjyz9J4lPUGFaiy7CE6aoPQs,488
+openalexapi/mesh.py,sha256=QEd7QYAz70RfzJiefFrasGzQ_C5uhpKi_CMaWBZI-y8,68
+openalexapi/openaccess.py,sha256=TW5w-z-k17clUl9lvQ-kD8HmQD7KK8OPC8XP_zTpYlo,274
+openalexapi/venue.py,sha256=o6-CxTJSIjoJSIU_st-llQlV45h_Q_EUFrEFHMDSZks,528
+openalexapi/work.py,sha256=VfEJuhVUV6K2f701-c5N4Vrn0LyMJCmKbBEA0iFr3T8,1395
+openalexapi/year.py,sha256=gdDgJBdhpYgd7-o2-KAdZJMB2SIS1CYSzCUfjw42OxI,124
+openalexapi-0.0.1a0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+openalexapi-0.0.1a0.dist-info/METADATA,sha256=BZRncI4AWiRgbT73Vx5tGNX6uX_Zk_vNeXlk5C7sP0s,964
+openalexapi-0.0.1a0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+openalexapi-0.0.1a0.dist-info/top_level.txt,sha256=aAIhoP47m3fZbABtye0As4RdbfonbJJMSF4nuukUNBQ,12
+openalexapi-0.0.1a0.dist-info/RECORD,,
