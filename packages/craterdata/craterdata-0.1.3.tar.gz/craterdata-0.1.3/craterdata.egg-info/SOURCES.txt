@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+craterdata/__init__.py
+craterdata/__main__.py
+craterdata/mooncraterdataset.py
+craterdata.egg-info/PKG-INFO
+craterdata.egg-info/SOURCES.txt
+craterdata.egg-info/dependency_links.txt
+craterdata.egg-info/requires.txt
+craterdata.egg-info/top_level.txt
