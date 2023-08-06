@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: bgenv
+Version: 0.1.0
+Summary: 
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Shapely (>=1.8.0,<2.0.0)
+Requires-Dist: folium (>=0.12.1,<0.13.0)
+Requires-Dist: geopandas (>=0.10.2,<0.11.0)
+Requires-Dist: igraph (>=0.9.9,<0.10.0)
+Requires-Dist: networkx (==2.6.2)
+Requires-Dist: numpy (>=1.22.2,<2.0.0)
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
