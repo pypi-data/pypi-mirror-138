@@ -1,0 +1,17 @@
+setuptools
+Twisted[conch]>=16.2.0
+zope.component
+zope.event
+zope.interface
+
+[docs]
+Sphinx
+
+[test]
+fixtures
+flake8
+testtools
+zope.testrunner
+
+[test:python_version < "3.0"]
+bzr
