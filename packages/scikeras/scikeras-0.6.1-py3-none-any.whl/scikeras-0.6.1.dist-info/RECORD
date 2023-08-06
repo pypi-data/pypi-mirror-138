@@ -1,0 +1,12 @@
+LICENSE,sha256=LVE_pK7Rv7EeawytZiJI-tHp6ZZOFKx4Q70k1HEhwOE,1082
+scikeras/__init__.py,sha256=gSYhEFtOYyMOCv-CwUAnhYMCLlF-h71bSyQt0M1J-7U,1115
+scikeras/_saving_utils.py,sha256=ZoATLtWiHhsMvH0V4HV75kicwQlmSsNSyZFE53xISmc,5997
+scikeras/_utils.py,sha256=oWMYnyr6aiJQMIRlG1gM0lG08aiTaAAidxkM4qsQ-Ww,6564
+scikeras/utils/__init__.py,sha256=a7VEKEMLAYou4dycFmLk4Mh-m6ju63ZEJIyhVFC0Y1M,3542
+scikeras/utils/random_state.py,sha256=FKoxTJVeuaplfweD6cNOvlfOW4P96xS5Qgw_-nE0Lzs,1303
+scikeras/utils/transformers.py,sha256=EvLmLshdZBx3aCCUQ1bevJfBrzYv0aAo8hmlfhbQYUo,14531
+scikeras/wrappers.py,sha256=CVSet2nvhOdB4t3AwtrigTxMLnfDJE0TfF3pQMHKhUU,69383
+scikeras-0.6.1.dist-info/LICENSE,sha256=LVE_pK7Rv7EeawytZiJI-tHp6ZZOFKx4Q70k1HEhwOE,1082
+scikeras-0.6.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+scikeras-0.6.1.dist-info/METADATA,sha256=yXfwMnFLnWT26PMv59BX-K-pN6dWzEgeZG3ompdTjhw,3692
+scikeras-0.6.1.dist-info/RECORD,,
