@@ -1,0 +1,31 @@
+.. _whatsnew_103:
+
+.. py:currentmodule:: solarforecastarbiter
+
+
+1.0.3 (August 3, 2021)
+----------------------
+
+Fixed
+~~~~~
+* Fixed report summary statistics table always displaying event statistics.
+  (:issue:`694`, :pull:`701`)
+* Fixed inability of
+  :py:func:`~reference_forecasts.persistence.persistence_probabilistic_timeofday`
+  to account for ``interval_label='ending'`` and improper accounting for
+  observation interval label when resampling. (:issue:`700`, :pull:`703`)
+* Differentiated observations in report timeseries plot legend by adding
+  interval length and interval label of the resampled observation.
+  (:issue:`675`, :pull:`703`)
+
+Contributors
+~~~~~~~~~~~~
+
+* Will Holmgren (:ghuser:`wholmgren`)
+* Leland Boeman (:ghuser:`lboeman`)
+* Cliff Hansen (:ghuser:`cwhanse`)
+* Tony Lorenzo (:ghuser:`alorenzo175`)
+* Justin Sharp (:ghuser:`MrWindAndSolar`)
+* Aidan Tuohy
+* Adam Wigington (:ghuser:`awig`)
+* David Larson (:ghuser:`dplarson`)

@@ -1,0 +1,89 @@
+.. _whatsnew_102:
+
+.. py:currentmodule:: solarforecastarbiter
+
+
+1.0.2 (July 22, 2021)
+---------------------
+
+Enhancements
+~~~~~~~~~~~~
+
+* Added function to parse BSRN station-to-archive formatted data
+  (modified version of a pvlib python function). (:issue:`541`, :pull:`656`)
+* Added functions to fetch data from the NASA Langley BSRN site.
+  (:issue:`541`, :pull:`656`)
+* Added functions to parse data for the PNNL reference data site.
+  (:issue:`563`, :pull:`669`)
+* Report timezone may now be set by passing the ``timezone`` keyword
+  argument to :py:class:`~datamodel.ReportParameters`.
+  (:issue:`317`, :pull:`681`)
+* Report tables of observations, forecasts and reference forecasts now link
+  users to the date range of the data used in the report. 
+  (:issue:`679`, :pull:`688`)
+
+Fixed
+~~~~~
+
+* SRML and PVDAQ contained PV sites with positive temperature coefficients.
+  These temperature coefficients were multiplied by -1.
+  (:issue:`625`, :pull:`634`)
+* Added/removed requirements to make base, test, and fetch install options
+  work as expected. (:issue:`637`, :pull:`643`)
+* Updated PyPI classifiers. (:issue:`637`, :pull:`643`)
+* Updated :ref:`installation` page with instructions for PyPI, conda-forge,
+  and docker. (:issue:`635`, :pull:`649`)
+* Added the following flags to ``DISCARD_BEFORE_RESAMPLE``:
+  ``'STALE VALUES'``, ``'INTERPOLATED VALUES'``, ``'DAYTIME STALE VALUES'``,
+  ``'DAYTIME INTERPOLATED VALUES'``. (:issue:`626`, :pull:`653`)
+* If total metrics category was not selected, the report now displays warnings
+  instead of confusing blank tables. (:issue:`629`, :pull:`652`)
+* Removed the word "solar" from the report intro line for consistency with
+  other forecast analyses such as net load and wind power.
+  (:issue:`624`, :pull:`650`)
+* Removed the BSRN Granite Island MI site from reference database. This site
+  was added without realizing 2020 and newer data is not readily available
+  from the NASA web pages. (:issue:`541`, :pull:`656`)
+* Reports could not be created for event forecasts due to an issue with
+  validating event forecast data. (:issue:`660`, :pull:`661`)
+* Changed GFS fetch directory for compatibility with March 22, 2021, 12Z
+  model upgrade. (:issue:`662`, :pull:`663`)
+* Worked around data gaps during ``CLEARSKY`` GHI validation that cause uneven
+  frequencies which lead to skipping validation entirely (:pull:`673`)
+* Fixed issue with processed observations failing to be plotted due to a
+  missing forecast. Processed observations are now plotted for all
+  points for which there is a forecast. (:pull:`689`)
+* Fixed probabilistic persistence ensemble forecasts to use the last 30
+  days of data and
+  :py:func:`~reference_forecasts.persistence.persistence_probabilistic_timeofday`
+  rather than the last hour of data with
+  :py:func:`~reference_forecasts.persistence.persistence_probabilistic`.
+  Hour ahead reference forecasts are replaced with day ahead reference
+  forecasts. (:issue:`639`, :pull:`645`)
+* Clarified that automated generation of reference forecasts is currently
+  limited to privileged accounts. (:issue:`659`, :pull:`691`)
+* Fixed reference forecast links in report tables (:issue:`678`, :pull:`688`)
+
+Testing
+~~~~~~~
+
+* Clarified expectations for ``pandas.DatetimeIndex.freq`` attribute
+  throughout test suite. Improves compatibility with pandas >= 1.1.
+  (:issue:`641`)
+* Test configuration additions (:issue:`637`, :pull:`643`):
+
+    * Python 3.7, 3.8, 3.9 using the latest versions of the ``[all]`` dependencies
+    * Python 3.7 and 3.8 using the minimum version of the ``[all]`` dependencies. These are typically the values from the requirements file that the docker image uses.
+    * Python 3.7 using only the ``[test]`` dependencies
+
+Contributors
+~~~~~~~~~~~~
+
+* Will Holmgren (:ghuser:`wholmgren`)
+* Leland Boeman (:ghuser:`lboeman`)
+* Cliff Hansen (:ghuser:`cwhanse`)
+* Tony Lorenzo (:ghuser:`alorenzo175`)
+* Justin Sharp (:ghuser:`MrWindAndSolar`)
+* Aidan Tuohy
+* Adam Wigington (:ghuser:`awig`)
+* David Larson (:ghuser:`dplarson`)

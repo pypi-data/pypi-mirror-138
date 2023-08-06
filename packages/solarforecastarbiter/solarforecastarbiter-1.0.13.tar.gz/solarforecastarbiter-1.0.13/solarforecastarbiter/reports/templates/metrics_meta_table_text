@@ -1,0 +1,12 @@
+<p>
+  The Solar Forecast Arbiter calculates each metric for each forecast and observation pair
+  for each category. Pairs may have a normalization factor, deadband percentage, and
+  cost parameters which can be found in the table below.
+</p>
+<p>
+  A table of metrics over the entire study period and figures for the selected
+  categories are shown below.
+  Metrics may be downloaded in
+  <a href="javascript:download_metrics_as_csv('{{ report_name }}')">CSV format</a>
+  or <a href="javascript:download_metrics_as_json('{{ report_name }}')">JSON format</a>.
+</p>

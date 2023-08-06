@@ -1,0 +1,54 @@
+.. _whatsnew_105:
+
+.. py:currentmodule:: solarforecastarbiter
+
+
+1.0.5 (September 22, 2021)
+--------------------------
+
+Enhancements
+~~~~~~~~~~~~
+* Added ability to limit persistence forecasts to maximum number of points
+  by environment varable. This was motivated by timeouts caused when an
+  observation was suddenly provided a large amount of data and we attempted
+  to create catch up forecasts. (:issue:`727`, :pull:`727`)
+* Replace ARM GHI observation with ARM Best Estimate GHI observation. The
+  best estimate is derived from DNI and DHI observations, GHI observations,
+  and a rotating shadow band observation. (:pull:`716`)
+
+Fixed
+~~~~~
+* Plane of array irradiance was not correctly calculated in
+  :py:func:`~.pvmodel.calculate_poa_effective_explicit`. Function
+  failed to project DNI into the plane of the array. Affected code
+  includes reference forecasts for PV power plants and persistence of
+  clear sky index for PV power plants.
+  (:issue:`718`, :issue:`522`, :pull:`719`)
+* Added missing ``jinja2`` and ``pytz`` dependencies. We got away with
+  it because other dependencies pulled in these packages.
+  (:issue:`715`, :pull:`720`)
+* Fixed incorrect time indices in CSV downloads for report timeseries
+  for reports including multiple time intervals. Reports now provide
+  one file per observation or forecast. (:issue:`707`, :issue:`713`, :pull:`722`)
+* Removed html line break tags from report timeseries csv headers.
+  (:issue:`706`, :pull:`722`)
+* Handle files with a single time from ARM that cause NetCDF to crash.
+  (:pull:`716`)
+* Handle duplicated times from ARM files by keeping only the last point.
+  (:pull:`716`)
+* Handle duplicated times when posting reference data to API by keeping
+  only the last point. This is known to occur in ARM and NREL MIDC data
+  feeds. (:pull:`716`)
+* Fix season order in metrics plots. (:issue:`725`, :pull:`729`)
+* Fixed handling of quality flag resampling thresholds to exclude intervals
+  where thresholds are matched or exceeded. A threshold of 0 indicates that
+  intervals containing any flags should be discarded. (:issue:`723`, :pull:`728`)
+* Add missing requirements for building documentation to ``doc`` and ``all``
+  installation options. (:pull:`731`)
+
+Contributors
+~~~~~~~~~~~~
+
+* Will Holmgren (:ghuser:`wholmgren`)
+* Leland Boeman (:ghuser:`lboeman`)
+* Will Hobbs (:ghuser:`williamhobbs`)
