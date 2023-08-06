@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/pubwords/__init__.py
+src/pubwords/words.py
+src/pubwords/words.txt
+src/pubwords.egg-info/PKG-INFO
+src/pubwords.egg-info/SOURCES.txt
+src/pubwords.egg-info/dependency_links.txt
+src/pubwords.egg-info/top_level.txt
