@@ -1,0 +1,8 @@
+requests
+websockets
+websocket-client
+httpx
+orjson
+
+[uvloop]
+uvloop
