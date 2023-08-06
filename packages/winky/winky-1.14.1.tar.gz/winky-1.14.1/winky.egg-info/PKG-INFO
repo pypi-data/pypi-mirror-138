@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: winky
+Version: 1.14.1
+Summary: API Test Framework
+Home-page: https://bitbucket.org/alborov/winky
+Author: Zaur Alborov
+Author-email: alborov.z@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Hello! I am Winky!
+
