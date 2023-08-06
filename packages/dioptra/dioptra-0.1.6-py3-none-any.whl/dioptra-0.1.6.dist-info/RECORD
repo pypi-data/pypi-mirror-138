@@ -1,0 +1,11 @@
+dioptra/__init__.py,sha256=kBM8jwQ9r_ZMq7P43-SvMT6w6DhdPd9jFFTBA3HEZdg,21
+dioptra/api.py,sha256=A0YU0fvobALa9Kf1DJM24XavtMjX1WsVK7BmfE_ytDM,8839
+dioptra/client.py,sha256=wDXwcEQ86A07IRimGUDKmYCQ8B36RqvqA6mVixIrd5A,947
+dioptra/schemas.py,sha256=JieySZRFgsppKDxWhG_Myf_aPropbRqzKmP7vw7gB0w,2397
+dioptra/supported_types.py,sha256=YztYBqNkEiaJpWSLpUfeTL5v6-wGeXE1rRvBxtuMuSM,1663
+dioptra/utils.py,sha256=kwvikmotUZLlydwibufJEwi781jwl5zxP5JnuPGtnpA,2832
+dioptra-0.1.6.dist-info/LICENSE.md,sha256=79IbygDS12grHpb37YBOJCQm96w3U2Xty36nnwNWNu0,1471
+dioptra-0.1.6.dist-info/METADATA,sha256=XTtnUYzQDf6KXZ9sQ7fJQXdzeOXWZcE3Hp59CEBMkkU,1831
+dioptra-0.1.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dioptra-0.1.6.dist-info/top_level.txt,sha256=36OmQnY3mXlBD-XOse1JLVamIgg97Ca0MifzO0L4Jek,8
+dioptra-0.1.6.dist-info/RECORD,,
