@@ -1,0 +1,26 @@
+[project]
+name = "lazyaml"
+version = "6.0.1"
+description = "pyyaml for lazy version"
+authors = [
+    { name = "teeaz", email = "teeaz@github.com" },
+]
+dependencies = []
+requires-python = ">=3.6"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/teeaz/lazyaml"
+
+[tool.pdm]
+includes = [
+    "README.md",
+]
+
+[build-system]
+requires = [
+    "pdm-pep517",
+]
+build-backend = "pdm.pep517.api"
