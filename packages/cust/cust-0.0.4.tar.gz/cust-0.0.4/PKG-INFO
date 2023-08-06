@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: cust
+Version: 0.0.4
+Summary: Utils
+Home-page: UNKNOWN
+Author: Miguel Malgarezi
+Author-email: miguelmalgarezi@gmail.com
+License: MIT
+Description: # Cust
+        
+        ## Installing:
+        ```bash
+        pip install cust
+        ```
+        
+        ***
+        ## Classes:
+        
+        - `math_`
+        - `utils`
+        
+        ***
+        ## How to use example:
+        
+        
+        ```python
+        import cust
+        
+        cust.math_.percentage(100, 10)
+        
+        # Returns 10.0
+        ```
+        
+        ***
+        Made by mi66mc
+        
+        This is a simple library with utils commands!
+Keywords: utils
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
