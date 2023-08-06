@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fakepdftk/WatermarkUtils.py
+fakepdftk/__init__.py
+fakepdftk/command_line.py
+fakepdftk.egg-info/PKG-INFO
+fakepdftk.egg-info/SOURCES.txt
+fakepdftk.egg-info/dependency_links.txt
+fakepdftk.egg-info/entry_points.txt
+fakepdftk.egg-info/requires.txt
+fakepdftk.egg-info/top_level.txt
+fakepdftk.egg-info/zip-safe
