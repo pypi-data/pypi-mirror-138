@@ -1,0 +1,36 @@
+[tool.black]
+line-length = 88
+target-version = ['py36', 'py37', 'py38']
+include = '\.pyi?$'
+
+[[tool.mypy.overrides]]
+module = ['pikepdf',]
+ignore_missing_imports = true
+
+[tool.pylint.'MESSAGES CONTROL']
+disable=[
+  'too-few-public-methods',
+  'line-too-long',
+  'consider-using-set-comprehension',
+  'missing-class-docstring',
+  'missing-module-docstring',
+  'too-many-instance-attributes',
+  'too-many-locals',
+  'too-many-arguments',
+  'duplicate-code',
+  'arguments-differ',
+  'super-init-not-called',
+  'consider-iterating-dictionary',
+  'unspecified-encoding',
+  'consider-using-f-string',
+]
+
+[tool.pylic]
+safe_licenses = [
+  "Apache Software License",
+  "MIT License",
+  "GNU Library or Lesser General Public License (LGPL)",
+  "Mozilla Public License 2.0 (MPL 2.0)",
+  "BSD License",
+  "Historical Permission Notice and Disclaimer (HPND)",
+]
