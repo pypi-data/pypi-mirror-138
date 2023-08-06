@@ -1,0 +1,11 @@
+LOGSAPI/Dataset.py,sha256=WHOheEj_ozwnECTw74B_b3SqMYo3dI0KoqUINFduOF0,5294
+LOGSAPI/DatasetPage.py,sha256=NdS_-4FVaIT_5oASbH5hVdH3cY5gCY7hadTa9hF7lRw,4480
+LOGSAPI/Instrument.py,sha256=sIFFaa1ll4l9ZhCAPKsiRNwId-ArURSNesnibkjYICs,886
+LOGSAPI/LOGSAPI.py,sha256=UfnQ1BJLYNRulYnRwvFztXrLWZNLuwxO8XF2VtEAUPw,15308
+LOGSAPI/Sample.py,sha256=MVmZBUBhz4lA0c4TKN_g86YQC2vqndO-eN0yrOwJICY,973
+LOGSAPI/Track.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+LOGSAPI/__init__.py,sha256=6eGKA8vUcChvz2SSxAOu1jix9YWi-EuakDOdCMp2a94,198
+logs_python_client-0.1.1b0.dist-info/METADATA,sha256=kZONYufzcA4nHY5LWLxLM62DQ_faGoS17brcBi8Y9Fc,570
+logs_python_client-0.1.1b0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+logs_python_client-0.1.1b0.dist-info/top_level.txt,sha256=qruTAqjlDDFahjH5QEhpj7DpRWhKK1EbE4anjUhhYAY,8
+logs_python_client-0.1.1b0.dist-info/RECORD,,

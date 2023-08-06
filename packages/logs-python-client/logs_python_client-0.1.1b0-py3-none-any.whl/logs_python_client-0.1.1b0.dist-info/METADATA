@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: logs-python-client
+Version: 0.1.1b0
+Summary: A python interface for the LOGS public API
+Home-page: https://logs-repository.com
+Author: Sina Kazemi
+Author-email: Sina.Kazemi@signals.company
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.6
+Requires-Dist: regex
+Requires-Dist: requests
+
+UNKNOWN
+
+
