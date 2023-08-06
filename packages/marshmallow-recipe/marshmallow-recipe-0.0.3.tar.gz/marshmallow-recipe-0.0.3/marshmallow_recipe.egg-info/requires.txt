@@ -1,0 +1,2 @@
+marshmallow<3,>2
+typing_inspect>=0.7.1
