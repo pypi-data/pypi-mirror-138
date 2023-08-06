@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: shakhs
+Version: 0.0.2
+Summary: this package generate personal details of fake iranian person
+Home-page: https://pypi.org/project/shakhs/
+Author: samrand majnooni
+Author-email: sammajnoni@gamil.com
+License: MIT
+Project-URL: HomePage, https://github.com/samrand-majnooni/IR-fake-person-generator
+Keywords: fake,persian,name,person,id,lastname
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+This is a fake  Iranina person generator that can generate:
+random full name,
+random boy name,
+random girl name,
+random last name,
+random full boy name,
+rando, full girl name,
+national id(code meli),
+...
+
+
+CHANGE LOG
+===============
+
+0.0.1 (14/02/2022)
+-------------------
+- First Release
+
+
+#shakhs library creted by Samrand Majnooni
+
+##install:
+```python
+
+pip install shakhs
+```python
+import:
+```python
+import shakhs
+import shakhs.codemelli as codemelli
+```python
+##use:
+
+to generate man first name:
+```python
+x=shakhs.randomBoyName()
+print(x)
+```python
+---------------------
+to generate girl first name:
+```python
+
+x=shakhs.randomGirlName()
+print(x)
+```python
+----------------------
+to generate lastname:
+```python
+
+x=shakhs.randomLastName()
+print(x)
+```python
+----------------------
+to generate first name + lastname(boy):
+```python
+x=shakhs.randomFullBoyName()
+print(x)
+```python
+----------------------
+to generate first name + last name (girl)
+```python
+x=shakhs.randomFullGirlName()
+print(x)
+```python
+----------------------
+to generate random name(girl or boy):
+```python
+x=shakhs.randomName()
+print(x)
+```python
+----------------------
+to generate random fake iranian Id:
+
+# Validate a real codemelli
+>>> codemelli.validator(2833411839)
+True
+
+# Validate a fake codemelli
+>>> codemelli.validator(3235632189)
+False
+
+# Generate a random valid codemelli
+>>> codemelli.generator()
+6615365987
+
+# Generate a random codemelli with a defined city code
+>>> codemelli.generator(223)
+2239832630
+
+# Lookup city and state of a valid codemelli
+>>> codemelli.lookup(2239832630)
+{'city': 'Ø¨Ù†Ø¯Ø±ØªØ±Ú©Ù…Ù†', 'state': 'Ú¯Ù„Ø³ØªØ§Ù†'}
+
+##Samrand Majnooni 
+

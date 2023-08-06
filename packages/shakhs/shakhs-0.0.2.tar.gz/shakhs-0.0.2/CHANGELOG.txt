@@ -1,0 +1,83 @@
+CHANGE LOG
+===============
+
+0.0.1 (14/02/2022)
+-------------------
+- First Release
+
+
+#shakhs library creted by Samrand Majnooni
+
+##install:
+```python
+
+pip install shakhs
+```python
+import:
+```python
+import shakhs
+import shakhs.codemelli as codemelli
+```python
+##use:
+
+to generate man first name:
+```python
+x=shakhs.randomBoyName()
+print(x)
+```python
+---------------------
+to generate girl first name:
+```python
+
+x=shakhs.randomGirlName()
+print(x)
+```python
+----------------------
+to generate lastname:
+```python
+
+x=shakhs.randomLastName()
+print(x)
+```python
+----------------------
+to generate first name + lastname(boy):
+```python
+x=shakhs.randomFullBoyName()
+print(x)
+```python
+----------------------
+to generate first name + last name (girl)
+```python
+x=shakhs.randomFullGirlName()
+print(x)
+```python
+----------------------
+to generate random name(girl or boy):
+```python
+x=shakhs.randomName()
+print(x)
+```python
+----------------------
+to generate random fake iranian Id:
+
+# Validate a real codemelli
+>>> codemelli.validator(2833411839)
+True
+
+# Validate a fake codemelli
+>>> codemelli.validator(3235632189)
+False
+
+# Generate a random valid codemelli
+>>> codemelli.generator()
+6615365987
+
+# Generate a random codemelli with a defined city code
+>>> codemelli.generator(223)
+2239832630
+
+# Lookup city and state of a valid codemelli
+>>> codemelli.lookup(2239832630)
+{'city': 'بندرترکمن', 'state': 'گلستان'}
+
+##Samrand Majnooni 
