@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/MR_Package/__init__.py
+src/MR_Package/file_io.py
+src/MR_Package/logger.py
+src/MR_Package/mail_log.py
+src/MR_Package/math.py
+src/MR_Package.egg-info/PKG-INFO
+src/MR_Package.egg-info/SOURCES.txt
+src/MR_Package.egg-info/dependency_links.txt
+src/MR_Package.egg-info/top_level.txt
+src/MR_Sidepackage/__init__.py
