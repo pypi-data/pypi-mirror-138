@@ -1,0 +1,11 @@
+.gitignore
+README.md
+build.sh
+data.tsv
+setup.py
+tsvkit/__init__.py
+tsvkit.egg-info/PKG-INFO
+tsvkit.egg-info/SOURCES.txt
+tsvkit.egg-info/dependency_links.txt
+tsvkit.egg-info/entry_points.txt
+tsvkit.egg-info/top_level.txt
