@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/Pyserva/JupyterNotebookHelper.py
+src/Pyserva/SampleReport.py
+src/Pyserva/StandaloneApiHelper.py
+src/Pyserva/__init__.py
+src/Pyserva.egg-info/PKG-INFO
+src/Pyserva.egg-info/SOURCES.txt
+src/Pyserva.egg-info/dependency_links.txt
+src/Pyserva.egg-info/top_level.txt

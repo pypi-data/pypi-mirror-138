@@ -1,0 +1,12 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "azure",
+    "pandas",
+    "ipywidgets",
+    "networkx",
+    "bokeh",
+    "jsonpickle",
+    "pygeohash",
+]
+build-backend = "setuptools.build_meta"
