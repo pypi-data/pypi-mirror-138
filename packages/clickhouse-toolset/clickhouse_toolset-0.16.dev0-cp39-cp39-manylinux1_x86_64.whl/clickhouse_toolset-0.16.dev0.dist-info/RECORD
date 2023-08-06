@@ -1,0 +1,8 @@
+clickhouse_toolset-0.16.dev0.dist-info/RECORD,,
+clickhouse_toolset-0.16.dev0.dist-info/top_level.txt,sha256=wk9pWxqAkPFAf8tJy86marVPKIcd_zuADCyt9pMFqjQ,10
+clickhouse_toolset-0.16.dev0.dist-info/WHEEL,sha256=XGG5hFQRBvPg_AbQ9Tz-vXqq83wWYxtnoPYl6-1tPj4,108
+clickhouse_toolset-0.16.dev0.dist-info/METADATA,sha256=gwT7wq6nk_58vTMSZ20NyoGwONKNtOJ_xLKX9_AvaEs,353
+clickhouse_toolset-0.16.dev0.dist-info/LICENSE,sha256=ErVqngkpgE88AZI3kII2t1KImK5_B4OZwuSB2VBme14,1518
+chtoolset/query.py,sha256=IeRaNUb9UvcXsA3EgO0Q_omKOeASAf8fry-tWAmxoRU,102
+chtoolset/_query.cpython-39-x86_64-linux-gnu.so,sha256=8KvHguJpKlPowKUN-P3SCY0PMt6O5CCbeMZw-N2914Q,6610088
+chtoolset/__init__.py,sha256=v5PevgvE2s54rod6TZnXN7XPp0ZiwxjxE9cScAMVHFo,20
