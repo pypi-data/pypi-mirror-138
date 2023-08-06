@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+nepali_municipalities/__init__.py
+nepali_municipalities/nepali_municipalities.py
+nepali_municipalities/test.py
+nepali_municipalities/data/__init__.py
+nepali_municipality.egg-info/PKG-INFO
+nepali_municipality.egg-info/SOURCES.txt
+nepali_municipality.egg-info/dependency_links.txt
+nepali_municipality.egg-info/top_level.txt
