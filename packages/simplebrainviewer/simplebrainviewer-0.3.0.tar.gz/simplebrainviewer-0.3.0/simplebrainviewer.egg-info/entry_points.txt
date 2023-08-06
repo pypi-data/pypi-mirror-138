@@ -1,0 +1,3 @@
+[console_scripts]
+sbv = simplebrainviewer.scripts.sbv:main
+
