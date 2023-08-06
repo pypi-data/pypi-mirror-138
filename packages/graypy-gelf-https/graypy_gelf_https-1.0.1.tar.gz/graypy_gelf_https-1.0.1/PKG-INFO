@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: graypy_gelf_https
+Version: 1.0.1
+Summary: graypy extension with GELF HTTPS handler
+Home-page: https://github.com/smpio/graypy-gelf-https
+Author: Dmitrii Don
+Author-email: dondmitriys@gmail.com
+License: MIT
+Keywords: logging gelf graylog https
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: System :: Logging
+License-File: LICENSE
+
+UNKNOWN
+
