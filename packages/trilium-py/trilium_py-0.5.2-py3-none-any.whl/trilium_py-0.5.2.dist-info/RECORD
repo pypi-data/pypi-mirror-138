@@ -1,0 +1,10 @@
+trilium_py/__init__.py,sha256=63QmMVSiNaMDHM12l8KXe3q6zVHjoSwp0pXoxVs1IZE,132
+trilium_py/client.py,sha256=4DG3eJnF05ZnHyMK4CcJCg9MK8yHwW4aSIgeeUIIAWo,8541
+trilium_py/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trilium_py/utils/param_util.py,sha256=BOiblP1F-jMgggx8L_QxCH3s8-FIdG1kAM-4ykSbZ5E,675
+trilium_py/utils/url_util.py,sha256=U1Qn5UFzQO-Bi9DGjq2OEiVzCi6x5KXsyRKF-AOJV64,470
+trilium_py-0.5.2.dist-info/LICENSE.txt,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+trilium_py-0.5.2.dist-info/METADATA,sha256=46Eo9hTeh8ucz1Q9uGcIWy-mLcme6JYeLdTATGwwSZc,3324
+trilium_py-0.5.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+trilium_py-0.5.2.dist-info/top_level.txt,sha256=nm0WM9tsACU6iD5bbVQgo-LgS3xkDUFPK87VYZfaToo,11
+trilium_py-0.5.2.dist-info/RECORD,,
