@@ -1,0 +1,6 @@
+sigma/pipelines/sysmon/__init__.py,sha256=fPtqIyf9HPgrWA_pjsSIyEujI8O5humSzHL6UJcOzts,46
+sigma/pipelines/sysmon/sysmon.py,sha256=YTw_NKinlQc7t2FufBd2OPTu-rsHMIywRnF0D3cs1c0,3335
+pysigma_pipeline_sysmon-0.1.0.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+pysigma_pipeline_sysmon-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pysigma_pipeline_sysmon-0.1.0.dist-info/METADATA,sha256=qeMn0c5eJ1AtHlTul1mlxroFXK335EZtD1xIQoCG_zM,492
+pysigma_pipeline_sysmon-0.1.0.dist-info/RECORD,,
