@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: neural-admixture
+Version: 1.1.0
+Summary: Population clustering with autoencoders
+Home-page: https://github.com/AI-sandbox/neural-admixture
+Author: Albert Dominguez Mantes
+Author-email: adomi@stanford.edu
+License: CC BY-NC 4.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
