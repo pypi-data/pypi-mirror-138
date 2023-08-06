@@ -1,0 +1,16 @@
+numpy>=1.16
+scipy
+
+[with_all_extras]
+netCDF4
+spotpy>=1.5.14
+smartcpp
+
+[with_netcdf]
+netCDF4
+
+[with_smartcpp]
+smartcpp
+
+[with_spotpy]
+spotpy>=1.5.14
