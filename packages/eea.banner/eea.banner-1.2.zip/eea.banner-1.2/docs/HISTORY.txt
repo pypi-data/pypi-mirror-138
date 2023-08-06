@@ -1,0 +1,22 @@
+Changelog
+=========
+
+1.2 - (2022-02-16)
+---------------------------
+* Change: Banner can be enabled from env
+  [razvanMiu]
+
+1.1 - (2022-02-16)
+---------------------------
+* Change: Check if dynamic_banner_enabled before getting rancher state.
+  [razvanMiu]
+
+1.0 - (2022-02-14)
+---------------------------
+* Change: [Feature #142078] Volto banner enhancements [razvanMiu]
+
+1.0 - (2022-02-14)
+-----------------------
+
+* Initial release.
+  [eea]
