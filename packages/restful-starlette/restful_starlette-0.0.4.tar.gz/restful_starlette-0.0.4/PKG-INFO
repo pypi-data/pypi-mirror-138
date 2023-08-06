@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: restful_starlette
+Version: 0.0.4
+Summary: A restful API kit for starlette
+Author: TianMa Chen
+Author-email: 819252022@qq.com
+License: BSD-3-Clause
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Restful Starlette
+
+#### A restful API kit for starlette
+
