@@ -1,0 +1,8 @@
+keklib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+keklib/ast_visitor.py,sha256=lqBSdFk2q44xX8OZ_6vC-VqxSYIVDjWNNBctrA4qdFE,3591
+keklib/fib_numbers.py,sha256=Zhk80wE4SMK0qctCuEQ4TF0kIj0LSx9-8Y27PNeSy3A,230
+keklib/main.py,sha256=tQ6We0pKl4RriZV4TxiK36y-Sv5t8wqNgTix8T0QuWQ,403
+keklib-0.5.dist-info/METADATA,sha256=9coJ2Ci3vUwVy3zxn1mqE7UuueHCX7NsApuWV0hIwCI,142
+keklib-0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+keklib-0.5.dist-info/top_level.txt,sha256=VorbFTSrzq8rpoTak2vAC9q7WlhjgzsDW82v-xowc04,7
+keklib-0.5.dist-info/RECORD,,
