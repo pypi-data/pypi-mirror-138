@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/hse_python_hw_1_avushakova.egg-info/PKG-INFO
+src/hse_python_hw_1_avushakova.egg-info/SOURCES.txt
+src/hse_python_hw_1_avushakova.egg-info/dependency_links.txt
+src/hse_python_hw_1_avushakova.egg-info/requires.txt
+src/hse_python_hw_1_avushakova.egg-info/top_level.txt
+src/hw_1/__init__.py
+src/hw_1/build_ast.py
