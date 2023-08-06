@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: marshmallow-recipe
+Version: 0.0.1
+Summary: Bake marshmallow schemas based on dataclasses
+Home-page: https://github.com/Pliner/marshmallow-recipe
+Author: Yury Pliner
+Author-email: yury.pliner@gmail.com
+License: MIT
+Platform: macOS
+Platform: POSIX
+Platform: Windows
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: marshmallow (<3,>2)
+Requires-Dist: typing-inspect (>=0.7.1)
+
+# marshmallow-recipe
+
+## v0.0.1 (2022-02-13)
+
+* A first version
+
+
