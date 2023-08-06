@@ -1,0 +1,10 @@
+civet/__init__.py,sha256=bEz04Fac3zOgCEcSg1vQbZoV-sg0q0n0fewQX_d1Ai4,837
+civet/abstract_data.py,sha256=A-lH-MXSGf1MkPRcFaY9PwfZhU0QsE46l5dTx2KpLHc,1905
+civet/minc.py,sha256=ORUESWVBbOoDA5uqOmYFPtzIea-P8CXEtBLAh42ujdc,1314
+civet/surface.py,sha256=5kk-dsrtTpniYhs3IcaAgYOPwy48EWYOE0NamEmLiQE,1586
+civet/xfm.py,sha256=p2ffgxF1l5F5DZPP-zGF2RPdaAgpZUDJw8FBu6vbt_g,1061
+pycivet-0.0.1a1.dist-info/LICENSE,sha256=01bKTe3BatnFk_jfHq-1B_jwBkpCBW5H-VjwqjsojQ8,1080
+pycivet-0.0.1a1.dist-info/METADATA,sha256=t4PspmZr4PF3Z64GWwBoL6YtYjdzgnyAXBrA-dBMckM,2075
+pycivet-0.0.1a1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pycivet-0.0.1a1.dist-info/top_level.txt,sha256=av-pkwPjkD0DPwZs4NUkhryNT3kcWlr4l1-AykhX9Iw,6
+pycivet-0.0.1a1.dist-info/RECORD,,
