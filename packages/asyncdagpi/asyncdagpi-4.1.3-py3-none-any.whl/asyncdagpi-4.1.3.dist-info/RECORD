@@ -1,0 +1,12 @@
+asyncdagpi/__init__.py,sha256=pkmRi7pJTB1gAWCF3ebK849qQiO-oTMPD6FOiBLWVFc,924
+asyncdagpi/client.py,sha256=9N6CBN67_etUxdzWJuFGaAnq5kv569nKQE_rDEqimZU,7697
+asyncdagpi/errors.py,sha256=_96Rcpdi5eZsAiEtK0ObR-KXSPNQPcXH13HlARw7WJo,2582
+asyncdagpi/http.py,sha256=XJS7EAIedgWCS1B2tCw8IxlMczwVbyUZtqJAUfSJYaA,6338
+asyncdagpi/image.py,sha256=8buaVSC-WJeUN0uGabjtupVN3r3NZkbNtHjNXcLHqRA,1907
+asyncdagpi/image_features.py,sha256=Nlg3404rfZf3O86ICCTqW2mlf4lGLYs8DhYC_We_aBA,16787
+asyncdagpi/objects.py,sha256=ukufav5tLdlY-NyD6CwmNv7iJu4qhIkDbFRoyaDS-P8,7582
+asyncdagpi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asyncdagpi-4.1.3.dist-info/LICENSE,sha256=ir6fMUGwI75yyr8mQqP5lpT7hrZyBe4SNP58Jh8MzFA,1103
+asyncdagpi-4.1.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+asyncdagpi-4.1.3.dist-info/METADATA,sha256=Iy8CA64lmE-4uRxRL06IAy9M92Xr5FEjgFnnF_6e-ao,4268
+asyncdagpi-4.1.3.dist-info/RECORD,,
