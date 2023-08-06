@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pyyes"
+version = "0.2.0"
+description = "yes® Relying Party/Client Implementation in Python 3"
+authors = ["Daniel Fett <danielf@yes.com>"]
+license = "MIT License"
+packages = [
+    {include = "yes"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+PyJWT = "^2.2.0"
+furl = "^2.1.3"
+pyHanko = {extras = ["pkcs11"], version = "=0.8.0"}
+cryptography = "^35.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+selenium = "^4.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
