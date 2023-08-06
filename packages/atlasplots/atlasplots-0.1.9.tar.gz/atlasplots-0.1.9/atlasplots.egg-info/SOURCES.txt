@@ -1,0 +1,14 @@
+README.md
+setup.py
+atlasplots/__init__.py
+atlasplots/__version__.py
+atlasplots/api.py
+atlasplots/atlasstyle.py
+atlasplots/core.py
+atlasplots/root_helpers.py
+atlasplots.egg-info/PKG-INFO
+atlasplots.egg-info/SOURCES.txt
+atlasplots.egg-info/dependency_links.txt
+atlasplots.egg-info/not-zip-safe
+atlasplots.egg-info/requires.txt
+atlasplots.egg-info/top_level.txt
