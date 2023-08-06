@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: DiscordDB
+Version: 0.0.6
+Summary: A simple database which uses a Discord channel to store data.
+Home-page: https://github.com/thec0sm0s/DiscordDB
+Author: □ | The Cosmos
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet
+Classifier: Topic :: Utilities
+Provides-Extra: docs
+License-File: LICENSE
+
+
+DiscordDB
+---------
+
+A simple database which uses a Discord channel to store data.
+
+
+

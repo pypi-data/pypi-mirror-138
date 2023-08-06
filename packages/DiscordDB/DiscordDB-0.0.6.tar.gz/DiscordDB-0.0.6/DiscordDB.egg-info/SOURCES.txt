@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+DiscordDB.egg-info/PKG-INFO
+DiscordDB.egg-info/SOURCES.txt
+DiscordDB.egg-info/dependency_links.txt
+DiscordDB.egg-info/requires.txt
+DiscordDB.egg-info/top_level.txt
+discordDB/__init__.py
+discordDB/db.py
+discordDB/models/__init__.py
+discordDB/models/types.py
