@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+src/factly.egg-info/PKG-INFO
+src/factly.egg-info/SOURCES.txt
+src/factly.egg-info/dependency_links.txt
+src/factly.egg-info/top_level.txt
+src/standard_names/__init__.py
+src/standard_names/states.py
