@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: x2c
+Version: 1.0.0
+Summary: A simple cli app to convert XML files to CSV, with user-defined columns.
+Home-page: https://github.com/slonki/x2c
+Author: Martin Valter
+Author-email: martin@circo.dev
+License: GPLv3+
+Project-URL: Bug Tracker, https://github.com/slonki/x2c/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+
+# x2c - XML to CSV
+A simple cli app to convert XML files to CSV, with user-defined columns.
+
+## Usage
+It takes three arguments:
+```
+    -i --infile     input file
+    -o --outfile    output file
+    -c --column     columns
+```
+
+Example:
+```
+    x2c -i example.xml -o example.csv -c col1,col2,col3
+```
+
+The column names must match the xml tags.
+
+
+## Installation
+
+The script can be installed with `pip`:
+```
+    pip install x2c
+```
+
+Or from source (deprecated):
+```
+    python -m setup.py install
+```
+
+
+
