@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pypi-publish-amash
+Version: 0.1
+Summary: Empty package to test the GitHub Action `coveooss/pypi-publish-with-poetry`
+Home-page: https://github.com/iaanimashaun/pypi-publish.git
+License: Apache-2.0
+Author: Jonathan Piché
+Author-email: tools@coveo.com
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/iaanimashaun/pypi-publish.git
+Description-Content-Type: text/markdown
+
+This package is used to validate the functionality of the "coveooss/pypi-publish-with-poetry" GitHub action.
+
+You can read more about the action [here](https://github.com/coveooss/pypi-publish-with-poetry).
+
