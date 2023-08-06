@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: nhentaidevs
+Version: 1.1.11
+Summary: Mini Nhentai Doujins Scraper/Downloader.
+Home-page: https://pypi.org/project/nhentaidevs
+Author: John Lester Dev :>
+Author-email: johnlesterincbusiness@gmail.com
+License: UNKNOWN
+Description: ### NhentaiDevs - Nhentai Scraper - 1.1.3
+        
+        ---
+        
+        This is my basic Nhentai Scraper for downloading images and fetching
+        information from [nhentai.net](https://nhentai.net)
+        using bs4, requests and other required modules.
+        
+        ---
+        
+        >Installation and Single Code Use (replace pip and python with pip3 and python3 for linux):
+        ```shell
+        pip install --upgrade nhentaidevs
+        python -m nhentaidevs your_code
+        ```
+        
+        ---
+        
+        #### For Multi-Code Use
+        
+        ---
+        
+        >For Windows and Linux (replace python with python3 for Linux):
+        ```shell
+        python -m nhentaidevs init
+        ```
+        
+        This will create CodesHere.code file, where you can put all
+        your codes for multi-download purposes.
+        
+        ```toml
+        [Nhentai]
+        codes=[] # Insert your code/s in the 'codes' block (Use ',' for multi-codes)
+        
+        # Example:
+        # codes=[177013, 228922, 4299]
+        ```
+        
+        Finally, download your codes in the CodesHere.code file by simply running:
+        
+        >For Windows and Linux (replace python with python3 for Linux):
+        ```shell
+        python -m nhentaidevs
+        ```
+        
+        > Note: Please update to the latest version as possible :>
+Keywords: nhentai,download,images,doujinshi,cli,scraper
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

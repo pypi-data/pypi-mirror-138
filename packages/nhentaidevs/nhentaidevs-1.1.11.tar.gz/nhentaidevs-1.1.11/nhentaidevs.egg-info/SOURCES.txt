@@ -1,0 +1,10 @@
+README.md
+setup.py
+nhentaidevs/__init__.py
+nhentaidevs/__main__.py
+nhentaidevs/browgine.py
+nhentaidevs.egg-info/PKG-INFO
+nhentaidevs.egg-info/SOURCES.txt
+nhentaidevs.egg-info/dependency_links.txt
+nhentaidevs.egg-info/requires.txt
+nhentaidevs.egg-info/top_level.txt
