@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: etyping
+Version: 2.0.0
+Summary: Sushida API for Python
+Home-page: https://github.com/kagemeka/etyping-python#readme
+License: MIT
+Keywords: etyping,python,API,RPA,CLI
+Author: Hiroshi Tsuyuki
+Author-email: kagemeka1@gmail.com
+Maintainer: Hiroshi Tsuyuki
+Maintainer-email: kagemeka1@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: PyYAML
+Requires-Dist: furo; extra == "docs"
+Requires-Dist: myst-parser; extra == "docs"
+Requires-Dist: pdoc3; extra == "docs"
+Requires-Dist: pydata-sphinx-theme; extra == "docs"
+Requires-Dist: python-docs-theme; extra == "docs"
+Requires-Dist: selenium
+Requires-Dist: sphinx-book-theme; extra == "docs"
+Requires-Dist: sphinx-theme-pd; extra == "docs"
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx_rtd_theme (<=2.0.0); extra == "docs"
+Requires-Dist: sphinxcontrib-mermaid; extra == "docs"
+Requires-Dist: webdriver-manager
+Project-URL: Documentation, https://etyping.readthedocs.io
+Project-URL: Repository, https://github.com/kagemeka/etyping-python
+Description-Content-Type: text/markdown
+
+# Etyping Python
+A etyping tool for Python
+
+
+
+
