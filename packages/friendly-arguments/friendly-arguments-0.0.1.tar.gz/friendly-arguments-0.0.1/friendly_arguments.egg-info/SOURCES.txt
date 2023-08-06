@@ -1,0 +1,6 @@
+README.md
+setup.py
+friendly_arguments.egg-info/PKG-INFO
+friendly_arguments.egg-info/SOURCES.txt
+friendly_arguments.egg-info/dependency_links.txt
+friendly_arguments.egg-info/top_level.txt
