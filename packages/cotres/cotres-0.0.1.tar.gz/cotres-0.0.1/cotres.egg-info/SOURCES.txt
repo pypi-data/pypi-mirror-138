@@ -1,0 +1,7 @@
+README.md
+setup.py
+cotres.egg-info/PKG-INFO
+cotres.egg-info/SOURCES.txt
+cotres.egg-info/dependency_links.txt
+cotres.egg-info/requires.txt
+cotres.egg-info/top_level.txt
