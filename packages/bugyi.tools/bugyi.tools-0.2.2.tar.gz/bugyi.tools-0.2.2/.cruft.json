@@ -1,0 +1,23 @@
+{
+  "template": "https://github.com/python-boltons/cc-python",
+  "commit": "d08ae8243ef75603e4ccc0af0cbcdfdcaccc550a",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "author": "Bryan M Bugyi",
+      "email": "bryanbugyi34@gmail.com",
+      "github_username": "bbugyi200",
+      "git_org_name": "python-boltons",
+      "git_repo_name": "python-tools",
+      "package_name": "bugyi.tools",
+      "pypi_package_name": "bugyi.tools",
+      "read_the_docs_domain": "bugyi-tools",
+      "package_description": "Miscellaneous tools / executable scripts.",
+      "package_type": "application",
+      "_template": "https://github.com/python-boltons/cc-python",
+      "package_path": "bugyi/tools",
+      "package_module": "bugyi_tools"
+    }
+  },
+  "directory": null
+}
