@@ -1,0 +1,135 @@
+Metadata-Version: 2.1
+Name: cfflatten
+Version: 22.2.11a0
+Summary: Flatten and Create SPF records in CloudFlare zones
+Home-page: https://github.com/Glocktober/cfflatten
+Author: gunville
+Author-email: rk13088@yahoo.com
+License: UNKNOWN
+Project-URL: repo, https://github.com/Glocktober/cfflatten.git
+Project-URL: overview, https://github.com/Glocktober/cfflatten/blob/master/README.md
+Keywords: 'spf cloudflare'
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: cloudflare (>=2.8.15)
+Requires-Dist: sender-policy-flattener (>=0.3.1)
+
+## cfflatten - CloudFlare SPF Flattener
+
+This project implements Sender Policy Framework (SPF) record flattening for CloudFlare managed DNS zones.  This includes creating and updating these records.
+
+If you are looking for an SPF flattening tool you already know what SPF flattening is. If you don't, you probably don't need one yet. It's goal is to minimize the DNS lookups (to under 10) for a mailer to gather all approved senders. In this day and age of SaaS apps many organizations run into this limit, and may not even be aware of it. An SPF flattener trades dns lookups for the risk of missing changes in the records of approved senders. `cfflatten` automates the updating of these records - at least for CloudFlare managed DNS zones. 
+
+### Relationship between `cfflatten` and `sender-policy-framework`
+
+This project depends on and uses the [sender-policy-flattener](https://github.com/cetanu/sender_policy_flattener) `spflat` tool to do the heavy lifting. Not wanting to reinvent the wheel it was easier to use parts from that project here.
+
+`spflat` is a great tool to track and monitor SPF record changes. To that end we also use the same configuration file format, expecting you will probably use both.
+
+What `cfflatten` adds is the ability to generate the SPF records without the email, and to (optionally) automatically update these records in CloudFlare managed DNS zones. (As the question may come up, I plan on adding Route-53 support as well.)
+
+If you are a trusting person, you can run `cfflatten` in `cron` and automatically update your SPF records periodically. (Probably once a week or month is adequate.)
+
+If you are less trusting you can run `spflat` in `cron` to monitor changes in your senders; it will send you an email notifying you a record has changed.  You can then make the updates by running `cfflatten`.
+
+### Installation
+
+Install using `pip`, ideally in its own `venv`
+```bash
+% python3 -m venv cfspf
+% source cfspf/bin/activate
+% pip install cf-spf-flatten 
+```
+This will install
+* `cf-spf-flatten` as well as 
+* `sender-policy-flattener`
+* `python-cloudflare`
+* prerequisite libraries for these
+
+The program executable is `cfflatten`
+
+### Anchor SPF record
+To use the automated updates you will need to first create the anchor SPF record manually. 
+
+This anchor is a **TXT** record with the name of your domain (here we'll use **example.com**). This is what you normally would do for any SPF record.
+
+At the end of the anchor entry add an `"include:spf0.example.com -all"` to link to the chain of **TXT** entries created and updated by `cfflatten`.
+
+`cfflatten` will never modify the anchor entry itself, only the linked chain.
+
+Our **example.com** entry will look like this (I generally include **mx** and and on-prem **ip4** SPF entries in the anchor.):
+```bash
+"v=spf1 mx ip4:130.223.20.181 ... ip4:100.10.20.11 include:spf0.example.com -all"
+```
+
+As mentioned, the anchor record remains the same and is not updated by `cfflatten`.  Howevever `cfflatten` will update the link chain starting with `spf0.example.com`. `spf0` then links to `spf1.example.com`, etc. until the last required entry - but this is all created and maintained by `cfflatten`.
+
+### Create the configuration file
+Here is an example configuration file for `example.com`, for sending domains of `example.com` and `campaign.example.com`. 
+Except for one entry (`cf_zone`) the JSON file format is identical to the configuration file used by `spflat`. Hence I'll refer you to that [documentatation] for details on the fields.  
+
+Actually only `"cf_zone"`, `"sending domains"` and `"resolvers"` are used by `"cfflatten"`. 
+
+The `"email"` and `"output"` stanzas are ignored (neither required or used) by `cfflatten`.
+
+```json
+{
+    "cf_zone" : "example.com",
+    "sending domains": {
+        "example.com": {
+                "amazonses.com": "txt",
+                ... Other senders...
+                "spf.protection.outlook.com": "txt"
+        },
+        "campaign.example.com" {
+            "amazonses.com": "txt"
+        }
+    },
+    "resolvers": [
+            "1.1.1.1", "1.0.0.1"
+    ],
+    "email": {
+        "to": "dnsadmins@example.com",
+        "from": "SPF-checker@example.com",
+        "subject": "[Change Detected] SPF Records for {zone} have changed.",
+        "server": "mail.example.com"
+    },
+    "output": "example_com-status.json"
+}
+```
+The `cf_zone` entry is the name of the actual CloudFlare registered zone. It is included because you may be using subdomains to send mail. In this example, `campaign.example.com` is such a subdomain, but it is still managed in CloudFlare within the `example.com` zone.
+
+The `"resolvers"` list - though required for `spflat` - can be empty for `cfflatten`, in which case the default resolver will be used.
+### CloudFlare Credentials file
+If you want to automate the updated records you will also need a `.cloudflare.cfg` credentials file with the appropriate api keys.  
+
+There are a couple of API key formats described in detail in the [python-cloudflare](https://github.com/cloudflare/python-cloudflare) documentation. Check there for details on format, location, environmental variables, etc.  We'll use a simple example here of one format:
+```
+[CloudFlare]
+email = dnsadmins@example.com
+token = 0123456789abcdef0123456789abcdef01234
+```
+### Running `cfflatten`
+```bash
+% cfflatten -h
+usage: cfflatten [-h] [-u] -c CONFIG
+
+Flatten and update Cloudflare SPF records
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -u, --update          Update the Cloudflare zone SPF records
+  -c CONFIG, --config CONFIG
+                        Config filename
+
+cfflatten 0.1 copyright 2022 gunville
+```
+* note the config file option is **required**.
+* using the `-u` or `--update` option will actually attempt to update the SPF records.  You will want to run this first without update mode to get an idea of what changes will be made.
+
+
