@@ -1,0 +1,7 @@
+kpds_pkg/__init__.py,sha256=3N6CwGgNeliMfP7V2ssycYCtR9R-SEVK3uHLhWlLYrg,31
+kpds_pkg/config.py,sha256=_bP4hPwNr3HZZ2qc04X6FaSSafTV9vEO17gglurMqgc,22
+kpds_pkg/kpds_api.py,sha256=iynHKDsGHLSIeaPjQqtZE0q50SOtCLsKlCp1YwOx5fg,7719
+kpds_pkg-1.0.dist-info/METADATA,sha256=PSk5idFIuP8RJwl_GL1G1RwmExbJ0GUnVIJx2WYkwI4,756
+kpds_pkg-1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+kpds_pkg-1.0.dist-info/top_level.txt,sha256=poDQiDuvIn0j9e0FrOyeCRt6BQT1GMH_9g_AAui6nS8,9
+kpds_pkg-1.0.dist-info/RECORD,,
