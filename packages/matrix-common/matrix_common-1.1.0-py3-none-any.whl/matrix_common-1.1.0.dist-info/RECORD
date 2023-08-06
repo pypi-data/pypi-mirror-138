@@ -1,0 +1,9 @@
+matrix_common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+matrix_common/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+matrix_common/regex.py,sha256=4qoKJ9DtOZ5crxDZXS1vKzbIYOnmVW-Y4lF8P1ZfAgI,3529
+matrix_common/versionstring.py,sha256=cgIFj8KvkihVfAlzEUTFNtdpbP3KEX_qo44CV09PLXw,3396
+matrix_common-1.1.0.dist-info/LICENSE,sha256=DVQuDIgE45qn836wDaWnYhSdxoLXgpRRKH4RuTjpRZQ,10174
+matrix_common-1.1.0.dist-info/METADATA,sha256=mA5I0vdOPQVOax-D7lG0fmqxlVO_waAJGLzaeR9bq1k,2361
+matrix_common-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+matrix_common-1.1.0.dist-info/top_level.txt,sha256=eAgn4dUUHOH3fPsGaiyoVezekxOT80bQbLIOLQ8yC_0,14
+matrix_common-1.1.0.dist-info/RECORD,,
