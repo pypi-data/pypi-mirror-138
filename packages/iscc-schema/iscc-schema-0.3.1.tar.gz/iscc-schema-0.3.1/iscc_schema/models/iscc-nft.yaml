@@ -1,0 +1,21 @@
+title: iscc-nft
+type: object
+description: Metadata for NFT Marketplaces
+properties:
+  external_url:
+    description: This is the URL that will appear below the asset's image on some NFT Marketplaces
+      and will allow users to leave the site and view the item on your site.
+    type: string
+    format: uri
+    x-iscc-context: http://purl.org/iscc/terms/#external_url
+  animation_url:
+    description: A URL to a multi-media attachment for the item.
+    type: string
+    format: uri
+    x-iscc-context: http://purl.org/iscc/terms/#animation_url
+  properties:
+    description: Arbitrary properties. Values may be strings, numbers, object or arrays. Properties
+      defined here may show up on NFT marketplaces. See [ERC-1155](https://eips.ethereum.org/EIPS/eip-1155#metadata)
+    type: object
+    minProperties: 1
+    x-iscc-context: http://purl.org/iscc/terms/#properties
