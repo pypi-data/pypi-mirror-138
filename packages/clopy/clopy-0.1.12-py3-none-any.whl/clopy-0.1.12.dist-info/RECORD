@@ -1,0 +1,12 @@
+clopy/__init__.py,sha256=BHsIyI9wdFRULQG-JGLQndJFUsXyAlzALhJO9LUAhcI,24
+clopy/clopy.py,sha256=b4zrqUNwj4Z8bzHi3Y3a39_txtgNZgi3bec9MCCk8lw,1048
+clopy/tmpl.py,sha256=EgSb3J-LbqvSVM3nrJTGDdhdyAM9lI0NE62l7-DsXWA,2831
+clopy-0.1.12.data/data/share/doc/glances/LICENSE,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+clopy-0.1.12.data/data/share/doc/glances/README.md,sha256=wUGxF9u3i1u-oAfdnHSOX0n-IhOziHCzZ3acCO4l4kY,639
+clopy-0.1.12.data/data/share/man/man1/clopy.1,sha256=ZIxUdyewiPogvpcyjG1TUeeMD_xRBPK8kF0ytZzXDs0,5331
+clopy-0.1.12.dist-info/LICENSE,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+clopy-0.1.12.dist-info/METADATA,sha256=80GvI_ykb5bK71zC4lKOqOb5r54WgABquN85s_Ge-78,1121
+clopy-0.1.12.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+clopy-0.1.12.dist-info/entry_points.txt,sha256=LVxsR1_mOazGeFOpaGozfrBkzfAnW5OKgZTWOlhK-cI,44
+clopy-0.1.12.dist-info/top_level.txt,sha256=ItlqKLPW2F-EmBjaJo4qyNOwr5p8UU01FWq3ONqm6uM,6
+clopy-0.1.12.dist-info/RECORD,,
