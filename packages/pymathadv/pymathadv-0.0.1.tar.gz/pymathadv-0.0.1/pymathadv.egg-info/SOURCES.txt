@@ -1,0 +1,5 @@
+setup.py
+pymathadv.egg-info/PKG-INFO
+pymathadv.egg-info/SOURCES.txt
+pymathadv.egg-info/dependency_links.txt
+pymathadv.egg-info/top_level.txt
