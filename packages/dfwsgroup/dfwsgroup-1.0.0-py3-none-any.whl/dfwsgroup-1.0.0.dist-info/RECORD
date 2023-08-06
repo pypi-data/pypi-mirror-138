@@ -1,0 +1,14 @@
+dfwsgroup/__init__.py,sha256=5SPrTyJDowPZZr4fSdKjapgEBiElDv1W_BG_KPJBcC0,203
+dfwsgroup/main.py,sha256=sYySxr0Kz9INw6avXrIwNR0JsregPeZO5qogMaCiO3U,795
+dfwsgroup/android/__init__.py,sha256=bbf-ijVl83uM-7m-pe5J4IVSV0c-ZiqvTsUM_QZwLLY,164
+dfwsgroup/android/handle.py,sha256=0IykHGBoPTEOT2EJXRhUgFKZwVkjYJOos6uC1dkSdrQ,1195
+dfwsgroup/android/script.py,sha256=sgI8u5YOfZHnf3var3lWK5BuBvkrF-kqSXHhcvpVDLs,1300
+dfwsgroup/android/Fastbot_Android/fastbot-thirdpart.jar,sha256=0SZ_OoZFWDGMnazgXKceHgKvXdUDoIa3Gb2bcifaikk,85664
+dfwsgroup/android/Fastbot_Android/framework.jar,sha256=rTluOJJKj2DFwh7ascXso1udYdWv00BxBwSQ3Vmv-fw,1149240
+dfwsgroup/android/Fastbot_Android/monkeyq.jar,sha256=pnKwnkk6TjoMxrpuVIoHYconyIp0xqBINEoyWrQbxpQ,77976
+dfwsgroup/data/command.yml,sha256=p8obE4QmyDp-8JUxz5165piYdhhFR8hmA8yNYIGNagI,1965
+dfwsgroup-1.0.0.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+dfwsgroup-1.0.0.dist-info/METADATA,sha256=P_ZKmCTD4JyQGlxCKgnYznty6L0-ktS5SWjjbPqCdAY,2046
+dfwsgroup-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dfwsgroup-1.0.0.dist-info/top_level.txt,sha256=NCVj04FhKbvfL83sbwdf7X-uIkHfIvbApN4X7nbX76Y,10
+dfwsgroup-1.0.0.dist-info/RECORD,,
