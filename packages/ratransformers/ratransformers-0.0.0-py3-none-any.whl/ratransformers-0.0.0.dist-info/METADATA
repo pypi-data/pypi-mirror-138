@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ratransformers
+Version: 0.0.0
+Summary: RATransformer - make a transformer model learn implicit relations passed in the input
+Home-page: https://github.com/JoaoLages/RATransformers
+Author: Joao Lages
+Author-email: joaop.glages@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (~=1.19.1)
+Requires-Dist: transformers (~=4.6.1)
+Requires-Dist: setuptools (~=49.6.0)
+Requires-Dist: pytest (~=7.0.1)
+
+# RATransformers 🐭
+
+⚠👷‍♀👷‍♂  This package is WIP. Currently we only support the T5 model. Feel free to contribute with PRs!️👷‍♂👷‍♀⚠
+
+**RATransformers**, short for Relation-Aware Transformers, is a package built on top of [transformers](https://github.com/huggingface/transformers)
+that enables the training/fine-tuning of multiple models with some extra relation-aware weights. 
+These extra weights enable the model to **encode explicit relations between different parts of the input data**.  
+
+
