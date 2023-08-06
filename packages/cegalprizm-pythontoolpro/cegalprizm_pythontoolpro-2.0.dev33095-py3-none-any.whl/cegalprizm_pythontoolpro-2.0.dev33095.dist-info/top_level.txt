@@ -1,0 +1,4 @@
+cegalprizm
+cegalprizm-pythontoolpro-hubenv
+cegalprizm-pythontoolpro-petreltestinstall
+insguide-releasenotes-archive
