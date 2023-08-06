@@ -1,0 +1,2 @@
+include requirements.txt
+recursive-include restful_starlette/apps/swagger/statics *
