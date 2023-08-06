@@ -1,0 +1,8 @@
+README.md
+setup.py
+sqlserver/__init__.py
+sqlserver.egg-info/PKG-INFO
+sqlserver.egg-info/SOURCES.txt
+sqlserver.egg-info/dependency_links.txt
+sqlserver.egg-info/requires.txt
+sqlserver.egg-info/top_level.txt
