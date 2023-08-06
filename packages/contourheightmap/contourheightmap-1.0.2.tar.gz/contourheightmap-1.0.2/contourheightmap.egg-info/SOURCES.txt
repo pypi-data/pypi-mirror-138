@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+contourheightmap/__init__.py
+contourheightmap.egg-info/PKG-INFO
+contourheightmap.egg-info/SOURCES.txt
+contourheightmap.egg-info/dependency_links.txt
+contourheightmap.egg-info/requires.txt
+contourheightmap.egg-info/top_level.txt
