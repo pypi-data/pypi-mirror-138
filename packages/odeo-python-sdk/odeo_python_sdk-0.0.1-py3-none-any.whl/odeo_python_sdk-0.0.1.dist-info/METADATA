@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: odeo-python-sdk
+Version: 0.0.1
+Summary: Python library for Odeo For Business API
+Home-page: https://docs.odeo.co.id
+License: MIT
+Author: Rudi
+Author-email: rudi@odeo.co.id
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Requires-Dist: requests-oauthlib (>=1.3.0,<2.0.0)
+Project-URL: Documentation, https://odeo-python-sdk.readthedocs.io
+Project-URL: Repository, https://github.com/odeoteknologi/odeo-python-sdk
+Description-Content-Type: text/markdown
+
+# Odeo Python SDK
+
+Python library for calling Odeo For Business API with [Requests](https://docs.python-requests.org/en/latest/).
