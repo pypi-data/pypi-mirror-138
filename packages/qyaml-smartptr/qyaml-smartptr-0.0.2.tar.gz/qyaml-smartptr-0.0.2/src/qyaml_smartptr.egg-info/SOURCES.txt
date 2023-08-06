@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/fyaml/__init__.py
+src/fyaml/__main__.py
+src/fyaml/fyaml.py
+src/qyaml/__init__.py
+src/qyaml/__main__.py
+src/qyaml/qyaml.py
+src/qyaml_smartptr.egg-info/PKG-INFO
+src/qyaml_smartptr.egg-info/SOURCES.txt
+src/qyaml_smartptr.egg-info/dependency_links.txt
+src/qyaml_smartptr.egg-info/entry_points.txt
+src/qyaml_smartptr.egg-info/requires.txt
+src/qyaml_smartptr.egg-info/top_level.txt

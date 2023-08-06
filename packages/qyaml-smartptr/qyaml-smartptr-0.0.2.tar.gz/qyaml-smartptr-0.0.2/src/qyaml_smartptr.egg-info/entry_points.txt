@@ -1,0 +1,4 @@
+[console_scripts]
+fyaml = fyaml.__main__:main
+qyaml = qyaml.__main__:main
+
