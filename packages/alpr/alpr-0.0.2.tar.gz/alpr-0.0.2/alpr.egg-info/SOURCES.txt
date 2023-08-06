@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+ALPR/__init__.py
+ALPR/license_recognition.py
+ALPR/test.jpg
+alpr.egg-info/PKG-INFO
+alpr.egg-info/SOURCES.txt
+alpr.egg-info/dependency_links.txt
+alpr.egg-info/top_level.txt
