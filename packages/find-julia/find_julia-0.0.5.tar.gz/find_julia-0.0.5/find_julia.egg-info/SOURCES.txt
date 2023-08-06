@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+find_julia/__init__.py
+find_julia/_find_julia.py
+find_julia/_jill_install.py
+find_julia/_version.py
+find_julia.egg-info/PKG-INFO
+find_julia.egg-info/SOURCES.txt
+find_julia.egg-info/dependency_links.txt
+find_julia.egg-info/requires.txt
+find_julia.egg-info/top_level.txt

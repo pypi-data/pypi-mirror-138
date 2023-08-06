@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: find-julia
+Version: 0.0.5
+Summary: Manage a Julia project inside a Python package
+Home-page: https://github.com/jlapeyre/find_julia.git
+Author: John Lapeyre
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE.md
+
+UNKNOWN
+
