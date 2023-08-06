@@ -1,0 +1,4 @@
+[console_scripts]
+camera-matting = video_matting.camera:camera
+video-matting = video_matting.video_matting_cli:cmd
+
