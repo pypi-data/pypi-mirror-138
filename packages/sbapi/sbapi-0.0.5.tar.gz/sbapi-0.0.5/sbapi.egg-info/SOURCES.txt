@@ -1,0 +1,7 @@
+setup.py
+sbapi/__init__.py
+sbapi.egg-info/PKG-INFO
+sbapi.egg-info/SOURCES.txt
+sbapi.egg-info/dependency_links.txt
+sbapi.egg-info/requires.txt
+sbapi.egg-info/top_level.txt
