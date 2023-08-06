@@ -1,0 +1,8 @@
+README.md
+setup.py
+viperdb/__init__.py
+viperdb/db.py
+viperdb.egg-info/PKG-INFO
+viperdb.egg-info/SOURCES.txt
+viperdb.egg-info/dependency_links.txt
+viperdb.egg-info/top_level.txt
