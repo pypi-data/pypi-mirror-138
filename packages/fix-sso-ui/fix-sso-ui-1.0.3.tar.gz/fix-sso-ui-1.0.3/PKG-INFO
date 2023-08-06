@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: fix-sso-ui
+Version: 1.0.3
+Summary: Forked from https://github.com/RistekCSUI/django-sso-ui originally made by fatanugraha, temp. uploaded fix for public access
+Home-page: https://github.com/stevensim226/django-sso-ui
+Author: Fata Nugraha
+Author-email: fatanugraha@outlook.com
+License: MIT
+Download-URL: https://github.com/stevensim226/django-sso-ui/archive/refs/tags/v1.0.1.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
