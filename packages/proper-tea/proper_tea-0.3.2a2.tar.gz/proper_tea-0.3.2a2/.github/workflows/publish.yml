@@ -1,0 +1,62 @@
+name: Upload Python Package
+
+on:
+  release:
+    types: [created]
+  workflow_dispatch:
+
+jobs:
+  publish_pypi:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install build
+
+    - name: Build
+      run: |
+        python -m build --sdist --wheel
+
+    - name: Publish
+      uses: pypa/gh-action-pypi-publish@master
+      with:
+        password: ${{ secrets.PYPI_API_TOKEN }}
+
+  publish_conda:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Set up conda
+      run: |
+        conda init bash
+        conda activate
+        conda install anaconda-client conda-build
+        conda config --set anaconda_upload no
+
+    - name: Conda build
+      run: |
+        conda build .
+
+    - name: Upload
+      run: |
+        anaconda upload $($CONDA/bin/conda build . --output)\
+          -t ${{ secrets.ANACONDA_TOKEN }}
+
