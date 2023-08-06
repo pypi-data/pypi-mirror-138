@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+./np/__init__.py
+np_alias.egg-info/PKG-INFO
+np_alias.egg-info/SOURCES.txt
+np_alias.egg-info/dependency_links.txt
+np_alias.egg-info/top_level.txt
