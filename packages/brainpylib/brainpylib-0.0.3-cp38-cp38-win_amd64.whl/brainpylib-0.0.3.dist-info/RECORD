@@ -1,0 +1,14 @@
+brainpylib/__init__.py,sha256=XsMZgaNJC0Iv-5XYNI5HUbxSwWIlmWycHElWjxNb5xw,253
+brainpylib/atomic_prod.py,sha256=ZRwnUNr_Sn48RCfR0BLeQuDyaQefk0drfsdE3zOOLik,5420
+brainpylib/atomic_sum.py,sha256=gpqnZ2NgawmsDj4dKz2zrqY8zntXfMj_xuwHPPD3_a8,5402
+brainpylib/cpu_ops.cp38-win_amd64.pyd,sha256=6ZFldk_o-8ZYfxX90vSYUl_XChlFynqKgENvzsRh6jk,126464
+brainpylib/event_prod.py,sha256=dKe5WVyy3796MdvkrJW7GfnpekjehbqiKN2Zb5WSr7I,4569
+brainpylib/event_sum.py,sha256=j5tGAFYiWIJy2ZH6bBjhmNuvFa12YZB0xaCpOfdYF-s,18369
+brainpylib/msvcp140d.dll,sha256=qbImBwcGU3zQqKQDtRcIxpAFpV3DUFucMfFagQt9H0c,919928
+brainpylib/register_custom_calls.py,sha256=nGRvd8cqqk4v_di_CVZyOvykmm9qaZJdr2qPGCYSuuE,565
+brainpylib/vcruntime140_1d.dll,sha256=hSBBCtw_cEP2fq4tcAQplfcWqd7WMK1Ev6StlOU_Cwk,53136
+brainpylib/vcruntime140d.dll,sha256=-COVu21hDNDCOKAPm-PLsdj17c6IiGG-KwBZ36BJYX4,164728
+brainpylib-0.0.3.dist-info/METADATA,sha256=H_y9T3C72Df7xBc7GMbAVqV5S5pCRVifFGUr5pzSuRI,410
+brainpylib-0.0.3.dist-info/WHEEL,sha256=M2GQ3lde8oJhlQPj2wbRvnqE3cuovPJasri5X5aCmck,100
+brainpylib-0.0.3.dist-info/top_level.txt,sha256=YQsJGyIteid0gvfxhHzrTKbdqVTs-qRRhMDKN2vPB2g,30
+brainpylib-0.0.3.dist-info/RECORD,,
