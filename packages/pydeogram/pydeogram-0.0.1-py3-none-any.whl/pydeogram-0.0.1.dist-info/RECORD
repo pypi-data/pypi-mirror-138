@@ -1,0 +1,15 @@
+pydeogram/__init__.py,sha256=1E3-6fYYBN5q7on7EdtDjaVWuMZ3uwXu2pU3lwxhVhc,206
+pydeogram/__main__.py,sha256=SN6axUmhCOV0V6tRvPQDufsy-gWzf0EBoH1EBAKbjQI,326
+pydeogram/api.py,sha256=GqbpWp9AX3PD5tbPnUU0-tRkoxUtedcP1k_foA_b43I,1256
+pydeogram/cli.py,sha256=CsN8Ui2nr49Ve-YwUGuLBD-N4jjwpQpLhOtMH2eT9T4,1353
+pydeogram/constants.py,sha256=V4GnzJhsV9UVIMJIJxT-A0zQzwfESYyR8OaxoUDkJvA,587
+pydeogram/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pydeogram/utils.py,sha256=LGicVJoJSKVTc3HawWsdE_7vmTdNVmhSVcQRtLbbzVc,3434
+pydeogram/version.py,sha256=8BTi59Ys6R-sIjLovg7EAk3-v7Ly0RFCO5UjnG1fD5U,1012
+pydeogram/templates/ideogram_template.html,sha256=Gr-oCG2_DB7F77qalX2QfBaQ9kX6jVna8FZJq91f_y4,445
+pydeogram-0.0.1.dist-info/LICENSE,sha256=ve6WiK7DUzD7fEkZ_ddqaiBSMNj9ib93QYZG5UsOAH0,1076
+pydeogram-0.0.1.dist-info/METADATA,sha256=INHCyQ-yRvr4fCraltVLpJIVN1R9k2LRr2X8ZJTUpE0,7238
+pydeogram-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pydeogram-0.0.1.dist-info/entry_points.txt,sha256=UmDoass_dFO56MRoVwyTC5vAP5J98VcaITzrNJlHCrg,50
+pydeogram-0.0.1.dist-info/top_level.txt,sha256=ZIi4LD7XJjPz4yUZqUvr90hmAXdMf0sfMnyK2DzSZ_c,10
+pydeogram-0.0.1.dist-info/RECORD,,
