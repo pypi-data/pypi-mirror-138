@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: oneNeuron_pypi-dipdregan
+Version: 0.0.2
+Summary: It's implementation of perceptron
+Home-page: https://github.com/dipdregan/oneNeuron_pypi
+Author: Dipendra Pratap
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/dipdregan/oneNeuron_pypit/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# oneNeuron_pypi
+## create direcotry inside directory
+```bash
+mkdirs src/oneNeuron
+```
+## create direcotry inside directory the directory create another directory
+```bash
+mkdirs -p src/oneNeuron
+```
+### create file inside directory 
+```bash
+touch src/oneNeuron/perceptron.py
+```
+
