@@ -1,0 +1,14 @@
+README.md
+setup.py
+gtfs_aggregator_checker/__init__.py
+gtfs_aggregator_checker/__main__.py
+gtfs_aggregator_checker/cache.py
+gtfs_aggregator_checker/config.py
+gtfs_aggregator_checker/transitfeeds.py
+gtfs_aggregator_checker/transitland.py
+gtfs_aggregator_checker/utils.py
+gtfs_aggregator_checker.egg-info/PKG-INFO
+gtfs_aggregator_checker.egg-info/SOURCES.txt
+gtfs_aggregator_checker.egg-info/dependency_links.txt
+gtfs_aggregator_checker.egg-info/requires.txt
+gtfs_aggregator_checker.egg-info/top_level.txt
