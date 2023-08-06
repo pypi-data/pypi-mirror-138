@@ -1,0 +1,4 @@
+six
+requests
+setuptools
+yk-utils<1,>=0.2.0
