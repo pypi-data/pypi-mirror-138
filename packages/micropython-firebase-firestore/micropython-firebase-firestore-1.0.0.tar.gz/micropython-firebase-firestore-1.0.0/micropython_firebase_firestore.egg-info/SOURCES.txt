@@ -1,0 +1,9 @@
+README.md
+setup.py
+micropython_firebase_firestore.egg-info/PKG-INFO
+micropython_firebase_firestore.egg-info/SOURCES.txt
+micropython_firebase_firestore.egg-info/dependency_links.txt
+micropython_firebase_firestore.egg-info/top_level.txt
+ufirestore/__init__.py
+ufirestore/json.py
+ufirestore/ufirestore.py
