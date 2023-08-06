@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+aerospike_rest/__init__.py
+aerospike_rest/api.py
+aerospike_rest/exceptions.py
+aerospike_rest.egg-info/PKG-INFO
+aerospike_rest.egg-info/SOURCES.txt
+aerospike_rest.egg-info/dependency_links.txt
+aerospike_rest.egg-info/requires.txt
+aerospike_rest.egg-info/top_level.txt
+aerospike_rest/tests/__init__.py
+aerospike_rest/tests/test_api.py
