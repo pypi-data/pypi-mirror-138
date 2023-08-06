@@ -1,0 +1,61 @@
+image: python:3.8
+
+definitions:
+  steps:
+    - step: &lint
+        caches:
+          - pip
+        name: Lint
+        script:
+          - pip install pre-commit
+          - pre-commit install
+          - pre-commit run --all-files
+    - step: &changelog
+        caches:
+          - pip
+        name: Changelog
+        script:
+          - pip install towncrier
+          # We need to fetch the main branch to compare against
+          - git remote set-branches --add origin main
+          - git fetch origin main
+          - towncrier check --compare-with origin/main
+    - step: &test
+        name: Test
+        script:
+          - pip install tox
+          - tox -e py38
+    - step: &docs
+        name: Docs
+        script:
+          - pip install tox
+          - tox -e build_docs
+    - step: &scan
+        caches:
+          - pip
+        name: Scan
+        script:
+          - pip install .
+          - pip install safety
+          - safety check --full-report ${SAFETY_IGNORE}
+    - step: &publish
+        name: Publish
+        script:
+          - pip install -U pip
+          - pip install twine build
+          - python -m build --wheel --sdist --outdir wheelhouse .
+          - python -m twine upload --skip-existing wheelhouse/*
+
+pipelines:
+  default:
+    - step: *lint
+    - step: *test
+    - step: *docs
+    - step: *changelog
+    - step: *scan
+  tags:
+    'v*':
+      - step: *lint
+      - step: *test
+      - step: *scan
+      - step: *publish
