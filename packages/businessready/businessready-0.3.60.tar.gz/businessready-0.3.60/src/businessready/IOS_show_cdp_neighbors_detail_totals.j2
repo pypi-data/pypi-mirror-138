@@ -1,0 +1,31 @@
+{%- if filetype_loop == 0 %}Total CDP Neighbors
+{{ to_parse_cdp_neighbors }}
+{%- else %}
+{%-     if filetype_loop == 1 %}
+# Total CD Neighbors
+| Local Interface | 
+| --------------- |
+| {{ to_parse_cdp_neighbors }} |
+{%-     else %}
+{%-         if filetype_loop == 2 %}
+<html><body>
+<h1>Total CDP Neighbors</h1>
+<table>
+  <thead>
+  <tr>
+    <th>Total CDP Neighbors</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>{{ to_parse_cdp_neighbors }}</td>
+  </tr>
+  </tbody>
+</table>
+</body></html>
+{%-         else %}
+# Show CDP Neighbors Details Totals
+## Total CDP Neighbors: {{ to_parse_cdp_neighbors }}
+{%-         endif %}
+{%-     endif %}
+{%- endif %}
