@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+confpars.egg-info/PKG-INFO
+confpars.egg-info/SOURCES.txt
+confpars.egg-info/dependency_links.txt
+confpars.egg-info/requires.txt
+confpars.egg-info/top_level.txt
