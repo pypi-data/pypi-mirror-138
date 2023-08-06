@@ -1,0 +1,14 @@
+imppkg/harmonic_mean.pyi,sha256=ldpvP8oL0s6qdTlyYE9L8Q3FlfSyi3pAM8wJgPkJ7BI,105
+imppkg/harmony.py,sha256=CoY4RiYkPzHy3OMIeN5xTpTsLdEz6lHrslBvxgpqNDw,691
+imppkg/harmonic_mean.pyx,sha256=MZx0_G-Ws2NXPaa6fCpeH2nfrowQXYVVfp959UuaqM8,277
+imppkg/hello.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imppkg/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imppkg/harmonic_mean.c,sha256=V_mr_vBkxFR5X8mY6aCcDmNkRI97rPHdQvGrdQQqczM,200454
+imppkg/harmonic_mean.cpython-310-x86_64-linux-gnu.so,sha256=aV0AsyWXFHwMpcWJd_l-UlqEjgAFMqMtYgNTSjsvq5s,261320
+imppkg/data.json,sha256=yj0WO6sFU4GCciYUBWjzvvfqrBh869doeOC2Pp5EI1Y,3
+imppkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pubpypack_harmony_sourcedelica-0.0.4.dist-info/METADATA,sha256=ndQJpZtNRChSWlut43tgmW-um_HLhw9LRVbxpg_UDQs,174
+pubpypack_harmony_sourcedelica-0.0.4.dist-info/top_level.txt,sha256=I91hjGcw_F0H8zGbV0bRxPlcQJVwYHLtIyAPaQ9x-hE,7
+pubpypack_harmony_sourcedelica-0.0.4.dist-info/RECORD,,
+pubpypack_harmony_sourcedelica-0.0.4.dist-info/entry_points.txt,sha256=feiUFKolyjyA-i9QN-YuipocWPVf07pii8AbrEjvfW8,48
+pubpypack_harmony_sourcedelica-0.0.4.dist-info/WHEEL,sha256=Ti9SXxRhD2A7sSJ6_NquJXKHehk9vD0kuf_oco9X6vo,225
