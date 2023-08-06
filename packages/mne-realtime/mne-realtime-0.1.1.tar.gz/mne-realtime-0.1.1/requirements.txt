@@ -1,0 +1,14 @@
+numpy
+scipy
+matplotlib
+pyqt5
+pyqt5-sip
+sip
+scikit-learn
+pytest
+pytest-cov
+numpydoc
+pydocstyle
+flake8
+pylsl>=1.12
+mne[data]
