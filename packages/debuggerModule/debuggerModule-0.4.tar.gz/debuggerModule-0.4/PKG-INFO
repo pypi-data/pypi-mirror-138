@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: debuggerModule
+Version: 0.4
+Summary: A package for create debug modules
+Home-page: UNKNOWN
+Author: Wayne Shang
+Author-email: wayne18308@gmail.com
+License: MIT
+Description: # Python Debug Module
+        
+        ### Install
+        ``` 
+        pip install debuggerModule
+        ```
+        
+        ### Example
+        ```python
+        from debugger import getLogger
+        #log filename option
+        DEBUG = getLogger('filename')
+        DEBUG.INFO("log")
+        ```
+        
+        ### Types
+        1. DEBUG.DEBUG: green
+        2. DEBUG.INFO: blue
+        3. DEBUG.WARNING: yellow
+        4. DEBUG.ERROR: red
+        5. DEBUG.CRITICAL: bold red
+        
+        PyPi page: (https://pypi.org/project/debuggerModule/)
+        
+        Change Log
+        ==========
+        
+        0.1 (14/02/2022)
+        -------------------
+        - First Release
+        
+        0.3 (15/02/2022)
+        -------------------
+        - Add new feature save to log file
+        
+        0.4 (15/02/2022)
+        -------------------
+        - Update setup.py README format
+Keywords: debug
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
