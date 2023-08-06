@@ -1,0 +1,12 @@
+boba_fetch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+boba_fetch/cli.py,sha256=2vz-90sx12mCsWWsy-FwX3Gb5JKSb98IqjZDFIv2c_w,6239
+boba_fetch/log.py,sha256=zn4qrbQDvBf2-OWWUjoqqMCHhfttf8SpTC6WAhtUXgE,1604
+boba_fetch/poller.py,sha256=ch2gQNZ4_NRWHsat8pAdpfcXZTchfF81pIM9eMYhoys,2582
+boba_fetch/process.py,sha256=dDII7nCCTfMKpsYEBC2_xph_0yp9mIuymy8Aerm0ay8,1235
+boba_fetch/rpc.py,sha256=i-cDMsk7zNc18KQoPKzlMe_9ekVTT-XS6zYpAnT_GmY,4507
+boba_fetch/syncer.py,sha256=1JJYYeHHEsTyeBrBpo7RvrO7uEiDYpfHwz6gOl6OFMc,5221
+boba_fetch/tracker.py,sha256=tnXy_zkuvGOFClH-SBrow7bHo5zhKGkoOkp_3_pJrHs,2630
+boba_fetch-0.2.2.dist-info/entry_points.txt,sha256=jf-pSltxQNXO1s7GEbs6XHV50LNXwe84oQeLTVI8qZk,50
+boba_fetch-0.2.2.dist-info/WHEEL,sha256=H68pkwFXYiPcYQggWGQrteqYmGEtEbAhNbB9JPX9hZ4,88
+boba_fetch-0.2.2.dist-info/METADATA,sha256=V9UR--lwOXku2Pr7vUz3RXtWP2fHqjZqyDjXvc1GecE,3951
+boba_fetch-0.2.2.dist-info/RECORD,,
