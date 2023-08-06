@@ -1,0 +1,3 @@
+cython>=0.29
+requests
+setuptools>=60.5
