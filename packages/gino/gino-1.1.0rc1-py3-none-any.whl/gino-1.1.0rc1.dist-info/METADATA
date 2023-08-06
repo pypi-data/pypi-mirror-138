@@ -1,0 +1,139 @@
+Metadata-Version: 2.1
+Name: gino
+Version: 1.1.0rc1
+Summary: GINO Is Not ORM - a Python asyncio ORM on SQLAlchemy core.
+Home-page: https://python-gino.org
+License: BSD-3-Clause
+Keywords: orm,asyncio,sqlalchemy,asyncpg,python3
+Author: Fantix King
+Author-email: fantix.king@gmail.com
+Maintainer: Tony Wang
+Maintainer-email: tony@initialcommit.net
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: aiohttp
+Provides-Extra: aiomysql
+Provides-Extra: asyncpg
+Provides-Extra: mysql
+Provides-Extra: pg
+Provides-Extra: postgres
+Provides-Extra: postgresql
+Provides-Extra: quart
+Provides-Extra: sanic
+Provides-Extra: starlette
+Provides-Extra: tornado
+Requires-Dist: SQLAlchemy (>=1.3,<1.4)
+Requires-Dist: aiomysql (>=0.0.22,<0.0.23); extra == "mysql" or extra == "aiomysql"
+Requires-Dist: asyncpg (>=0.18,<1.0); extra == "postgresql" or extra == "postgres" or extra == "pg" or extra == "asyncpg"
+Requires-Dist: contextvars (>=2.4,<3.0); python_version < "3.7"
+Requires-Dist: gino-aiohttp (>=0.2.0,<0.3.0); (python_version >= "3.6" and python_version < "4.0") and (extra == "aiohttp")
+Requires-Dist: gino-quart (>=0.1.0,<0.2.0); (python_version >= "3.7" and python_version < "4.0") and (extra == "quart")
+Requires-Dist: gino-sanic (>=0.1.0,<0.2.0); (python_version >= "3.6" and python_version < "4.0") and (extra == "sanic")
+Requires-Dist: gino-starlette (>=0.1.1,<0.2.0); (python_version >= "3.6" and python_version < "4.0") and (extra == "starlette")
+Requires-Dist: gino-tornado (>=0.1.0,<0.2.0); (python_full_version >= "3.5.2" and python_full_version < "4.0.0") and (extra == "tornado")
+Requires-Dist: importlib_metadata (>=2.0.0,<3.0.0); python_version < "3.8"
+Project-URL: Documentation, https://python-gino.org/docs/
+Project-URL: Repository, https://github.com/python-gino/gino
+Description-Content-Type: text/x-rst
+
+======
+|GINO|
+======
+
+.. image:: https://img.shields.io/pypi/v/gino?logo=python&logoColor=white
+        :alt: PyPI Release Version
+        :target: https://pypi.python.org/pypi/gino
+
+.. image:: https://img.shields.io/pypi/dm/gino?logo=pypi&logoColor=white
+        :alt: PyPI Monthly Downloads
+        :target: https://pypi.python.org/pypi/gino
+
+.. image:: https://img.shields.io/github/workflow/status/python-gino/gino/CI?label=CI&logo=github
+        :alt: GitHub Workflow Status for CI
+        :target: https://github.com/python-gino/gino/actions?query=workflow%3ACI
+
+.. image:: https://img.shields.io/codacy/grade/b6a59cdf5ca64eab9104928d4f9bbb97?logo=codacy
+        :alt: Codacy Code Quality
+        :target: https://app.codacy.com/gh/python-gino/gino/dashboard
+
+.. image:: https://img.shields.io/codacy/coverage/b6a59cdf5ca64eab9104928d4f9bbb97?logo=codacy
+        :alt: Codacy coverage
+        :target: https://app.codacy.com/gh/python-gino/gino/dashboard
+
+
+GINO - GINO Is Not ORM - is a lightweight asynchronous ORM built on top of
+SQLAlchemy_ core for Python asyncio_. GINO 1.1 supports PostgreSQL_ with asyncpg_,
+and MySQL with aiomysql_.
+
+* Free software: BSD license
+* Requires: Python 3.6
+* GINO is developed proudly with |PyCharm|.
+
+
+Home
+----
+
+`python-gino.org <https://python-gino.org/>`__
+
+
+Documentation
+-------------
+
+* English_
+* Chinese_
+
+
+Installation
+------------
+
+.. code-block:: console
+
+    $ pip install gino
+
+
+Features
+--------
+
+* Robust SQLAlchemy-asyncpg bi-translator with no hard hack
+* Asynchronous SQLAlchemy-alike engine and connection
+* Asynchronous dialect API
+* Asynchronous-friendly CRUD objective models
+* Well-considered contextual connection and transaction management
+* Reusing native SQLAlchemy core to build queries with grammar sugars
+* Support SQLAlchemy ecosystem, e.g. Alembic_ for migration
+* `Community support <https://github.com/python-gino/>`_ for Starlette_/FastAPI_, aiohttp_, Sanic_, Tornado_ and Quart_
+* Rich PostgreSQL JSONB support
+
+
+.. _SQLAlchemy: https://www.sqlalchemy.org/
+.. _asyncpg: https://github.com/MagicStack/asyncpg
+.. _PostgreSQL: https://www.postgresql.org/
+.. _asyncio: https://docs.python.org/3/library/asyncio.html
+.. _Alembic: https://bitbucket.org/zzzeek/alembic
+.. _Sanic: https://github.com/channelcat/sanic
+.. _Tornado: http://www.tornadoweb.org/
+.. _Quart: https://gitlab.com/pgjones/quart/
+.. _English: https://python-gino.org/docs/en/
+.. _Chinese: https://python-gino.org/docs/zh/
+.. _aiohttp: https://github.com/aio-libs/aiohttp
+.. _Starlette: https://www.starlette.io/
+.. _FastAPI: https://fastapi.tiangolo.com/
+.. _aiomysql: https://github.com/aio-libs/aiomysql
+.. |PyCharm| image:: ./docs/images/pycharm.svg
+        :height: 20px
+        :target: https://www.jetbrains.com/?from=GINO
+
+.. |GINO| image:: ./docs/theme/static/logo.svg
+        :alt: GINO
+        :height: 64px
+        :target: https://python-gino.org/
+
