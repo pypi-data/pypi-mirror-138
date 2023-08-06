@@ -1,0 +1,11 @@
+django_slots/__init__.py,sha256=WFfh-FJEsq5XRCTzQ1Zza2Hor0n-2FqD-2QnIN_9z6U,43
+django_slots/apps.py,sha256=mjQFk1r-cEigEt_dCgc9eHSbhsXKOEDMw6TsKDLn7HU,98
+django_slots/components.py,sha256=LH5Br0ianaa4NjO3EgujKY3yzBVgcfqhHuVuAKnfyVI,4957
+django_slots/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_slots/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+django_slots/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_slots/templatetags/slot_tags.py,sha256=tM8DGtHTusx_Md6JDfFj_FvC8QPrZjnuSjUwoyEokRs,925
+django_slots/utils.py,sha256=Zdz1Qobj6Rl9wI9XrULemKAnKpAd_Tk1LfosTtkdhVU,185
+django_slots-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+django_slots-0.1.0.dist-info/METADATA,sha256=xk2HehO6mnqrEkyfYOFk0iQkDIfPBb2yDhp-r-sx4qM,6290
+django_slots-0.1.0.dist-info/RECORD,,
