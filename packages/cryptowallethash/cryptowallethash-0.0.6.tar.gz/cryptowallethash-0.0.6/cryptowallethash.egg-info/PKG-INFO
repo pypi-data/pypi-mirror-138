@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: cryptowallethash
+Version: 0.0.6
+Summary: crypto hash
+Home-page: https://github.com/akioguru/cryptowallethash
+Download-URL: https://github.com/akioguru/cryptowallethash/archive/refs/tags/0.0.5.tar.gz
+Author: akiyo
+Author-email: jamesdream0724@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/akioguru/cryptowallethash/issues
+Keywords: python,crypto,hash,mnemonic,seed phrase,ethereum,wallet,private key,public key
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Documentation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# CryptoHash
+
+Functions to be used for hashing of cryptocurrency 
+
