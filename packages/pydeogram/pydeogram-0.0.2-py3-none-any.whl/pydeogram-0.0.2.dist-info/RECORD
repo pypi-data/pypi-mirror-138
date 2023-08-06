@@ -1,0 +1,17 @@
+pydeogram/__init__.py,sha256=WrPEJdJLyiJi9a9eM6rwdw_kPyC9MKec4bUTyFJ8nzc,287
+pydeogram/__main__.py,sha256=SN6axUmhCOV0V6tRvPQDufsy-gWzf0EBoH1EBAKbjQI,326
+pydeogram/api.py,sha256=GqbpWp9AX3PD5tbPnUU0-tRkoxUtedcP1k_foA_b43I,1256
+pydeogram/cli.py,sha256=CsN8Ui2nr49Ve-YwUGuLBD-N4jjwpQpLhOtMH2eT9T4,1353
+pydeogram/constants.py,sha256=V4GnzJhsV9UVIMJIJxT-A0zQzwfESYyR8OaxoUDkJvA,587
+pydeogram/jupyter_api.py,sha256=s8Yp9UZmtDObkVo69w69T_pdOzAGHGDwnvab3loFDSA,1379
+pydeogram/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pydeogram/utils.py,sha256=LGicVJoJSKVTc3HawWsdE_7vmTdNVmhSVcQRtLbbzVc,3434
+pydeogram/version.py,sha256=HFJhppdqgI3IMc4IeEscP5bTojLodJ4r1YXSW7H_rns,1012
+pydeogram/templates/ideogram_jupyter.js,sha256=oMcAHade0dlmcDsD5PbHTlAIGP-ziq6Hk4ahxiHj10E,389
+pydeogram/templates/ideogram_template.html,sha256=Gr-oCG2_DB7F77qalX2QfBaQ9kX6jVna8FZJq91f_y4,445
+pydeogram-0.0.2.dist-info/LICENSE,sha256=ve6WiK7DUzD7fEkZ_ddqaiBSMNj9ib93QYZG5UsOAH0,1076
+pydeogram-0.0.2.dist-info/METADATA,sha256=Url-zEme1C4HxJsRaMyeyEQMvONWOjq9WzvJN6KP-I4,7493
+pydeogram-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pydeogram-0.0.2.dist-info/entry_points.txt,sha256=UmDoass_dFO56MRoVwyTC5vAP5J98VcaITzrNJlHCrg,50
+pydeogram-0.0.2.dist-info/top_level.txt,sha256=ZIi4LD7XJjPz4yUZqUvr90hmAXdMf0sfMnyK2DzSZ_c,10
+pydeogram-0.0.2.dist-info/RECORD,,
