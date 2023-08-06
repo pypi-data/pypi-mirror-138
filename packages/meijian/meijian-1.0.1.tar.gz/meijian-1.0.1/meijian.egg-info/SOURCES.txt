@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+meijian/__init__.py
+meijian/convert.py
+meijian/translate.py
+meijian.egg-info/PKG-INFO
+meijian.egg-info/SOURCES.txt
+meijian.egg-info/dependency_links.txt
+meijian.egg-info/top_level.txt
