@@ -1,0 +1,9 @@
+README.md
+pysoserial.py
+setup.py
+pysoserial.egg-info/PKG-INFO
+pysoserial.egg-info/SOURCES.txt
+pysoserial.egg-info/dependency_links.txt
+pysoserial.egg-info/entry_points.txt
+pysoserial.egg-info/requires.txt
+pysoserial.egg-info/top_level.txt
