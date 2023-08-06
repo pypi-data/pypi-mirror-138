@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: email2pdf2
+Version: 0.0.2
+Summary: email2pdf2 is a Python script to convert emails to PDF.
+Home-page: https://github.com/pyscioffice/email2pdf2
+Author: Andrew Ferrier
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: beautifulsoup4 (>=4.6.3)
+Requires-Dist: html5lib
+Requires-Dist: lxml
+Requires-Dist: pypdf2
+Requires-Dist: python-magic
+Requires-Dist: reportlab
+
+UNKNOWN
+
