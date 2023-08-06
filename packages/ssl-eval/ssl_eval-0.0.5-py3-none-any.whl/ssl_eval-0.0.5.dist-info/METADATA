@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ssl-eval
+Version: 0.0.5
+Summary: A plug & play evaluator for self-supervised image classification.
+Home-page: https://github.com/gergopool/ssl_eval
+Author: Gergely Papp
+Author-email: gergopool@gmail.com
+License: LICENSE
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: pkbar
+
+UNKNOWN
+
