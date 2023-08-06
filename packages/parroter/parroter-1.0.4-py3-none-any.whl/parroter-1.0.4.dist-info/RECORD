@@ -1,0 +1,13 @@
+parroter/Library/kojimaBot.py,sha256=QzIZ05kRPOtohoSAZe03O20wbf6kaiKH8PFmstesUEI,18313
+parroter/Library/parroterBase.py,sha256=2O1zewGC7m5KrQEvMLLmGIhSxUjrOVG9_qrOOuffitU,18307
+parroter/Library/parroterConfig.py,sha256=5GQaASMIzxzQy0Z_hpDSK5tzI3-ZTuOGXcXynVIRvOs,6036
+parroter/Library/parroterGlobals.py,sha256=P728qJZy_fr4AyDYvjfF1ooKWvjehBYZuAAcJfxbZhc,422
+parroter/Library/kojima/kojimaConfig.py,sha256=9Jpwtc7MBA86TkJ_ARQI-RDDTjwJTArlfctNP47ocyY,3577
+parroter/Library/kojima/kojimaGlobals.py,sha256=Pt0WK9r7DaTv6OJ_A-cCtOyJMbIPVRJyl0MQ-k419-E,593
+parroter/Library/kojima/lastNameListController.py,sha256=JsglPpDH_7AcNV5lBZns-0RTfxuxQG-nIqUh96boktk,621
+parroter/Library/kojima/Getter/lastNameList.py,sha256=tL8CuC8OgacdUri7DX00PpfQTiQORcF_kNCpmbNbQf8,5956
+parroter/Models/trn_last_name.py,sha256=TBAY-Kx3ZLX4NTXGrRYkb1gfvSKsJ-ICW6FfVVpkDhM,442
+parroter-1.0.4.dist-info/METADATA,sha256=_d9S552wn7V8CeA5JALcniR0yZGTWdf8YJb60vV1jDo,1017
+parroter-1.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+parroter-1.0.4.dist-info/top_level.txt,sha256=Unpn5mHCYRMg619ufOXWQzMK6Hznqdwy5HKrMqSaBMc,88
+parroter-1.0.4.dist-info/RECORD,,
