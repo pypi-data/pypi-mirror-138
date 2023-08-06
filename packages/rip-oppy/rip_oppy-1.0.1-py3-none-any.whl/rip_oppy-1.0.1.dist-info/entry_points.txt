@@ -1,0 +1,3 @@
+[console_scripts]
+rip_oppy_comm = rip_oppy.__main__:main
+
