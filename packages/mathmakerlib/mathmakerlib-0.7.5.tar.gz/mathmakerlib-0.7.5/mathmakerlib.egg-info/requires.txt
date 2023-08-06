@@ -1,0 +1,4 @@
+microlib>=1.7
+
+[testing]
+pytest
