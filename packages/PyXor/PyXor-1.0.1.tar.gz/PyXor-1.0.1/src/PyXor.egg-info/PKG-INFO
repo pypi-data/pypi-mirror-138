@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: PyXor
+Version: 1.0.1
+Summary: A xor encryption module
+Home-page: https://github.com/LeRatGondin/PyXor
+Author: LeRatGondin
+Author-email: leratgondin1@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/LeRatGondin/PyXor/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyXor
+<a href="https://pypi.org/project/PyXor/" target="_blank">
+  <img alt="Install" src="https://img.shields.io/badge/ModulePage-pypi-brightgreen.svg" />
+  
+## Langage
+  Python 3.9.4
+
+## Install
+
+```sh
+pip install pyXor
+```
+  
+## How To Use
+  `XorEncode(key,string)`
+  
+  `XorDecode(key,string)`
+  
+## Encode
+  ```python
+  import pyXor
+  print(pyXor.XorEncode("I'm A Key","I'm A String"))
+  ```
+  <br>
+  <p>Output:</p>
+  <br>
+
+  ```
+  110101001110110010100011101110111101110011101101100101001011111011101111101000011010010010100001
+  ```
+## Decode
+  ```python
+  import pyXor
+  print(pyXor.XorDecode("I'm A Key","110101001110110010100011101110111101110011101101100101001011111011101111101000011010010010100001"))
+  ```
+  <br>
+  <p>Output:</p>
+  <br>
+  
+  ```
+  I'm A String
+  ```
+

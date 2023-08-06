@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/PyXor.egg-info/PKG-INFO
+src/PyXor.egg-info/SOURCES.txt
+src/PyXor.egg-info/dependency_links.txt
+src/PyXor.egg-info/top_level.txt
+src/pyXor/__init__.py
