@@ -1,0 +1,246 @@
+.\" Man page generated from reStructuredText.
+.
+.TH "CLOPY" "1" "Feb 10, 2022" "" "clopy"
+.SH NAME
+clopy \- clopy 0.1.12
+.
+.nr rst2man-indent-level 0
+.
+.de1 rstReportMargin
+\\$1 \\n[an-margin]
+level \\n[rst2man-indent-level]
+level margin: \\n[rst2man-indent\\n[rst2man-indent-level]]
+-
+\\n[rst2man-indent0]
+\\n[rst2man-indent1]
+\\n[rst2man-indent2]
+..
+.de1 INDENT
+.\" .rstReportMargin pre:
+. RS \\$1
+. nr rst2man-indent\\n[rst2man-indent-level] \\n[an-margin]
+. nr rst2man-indent-level +1
+.\" .rstReportMargin post:
+..
+.de UNINDENT
+. RE
+.\" indent \\n[an-margin]
+.\" old: \\n[rst2man-indent\\n[rst2man-indent-level]]
+.nr rst2man-indent-level -1
+.\" new: \\n[rst2man-indent\\n[rst2man-indent-level]]
+.in \\n[rst2man-indent\\n[rst2man-indent-level]]u
+..
+.sp
+Clopy is a general purpose templating program designed to quickly setup projects and files.
+It is highly customizable right down to the prompts used to generate the files.
+.SH INSTALL
+.sp
+To install Clopy from \fBPyPI\fP use \fBpip\fP:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+pip install clopy
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.SH QUICKSTART
+.sp
+To use Clopy, you must define a \fBtemplate.py\fP file in your template directory.
+This file is used by Clopy to hook into your template to allow you to specify prompts and files
+that will be copied over to the new directory.
+.sp
+Here is a sample file:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+# template.py
+
+def bang(fp, cmd):
+    license = input(\(aqWhat license will you use? [MIT or GPLv3]? : \(aq)
+    licensedict = {
+        \(aqlicense\(aq: license
+    }
+    tmpls = {
+    \(aqLICENSE\(aq: licensedict
+    }
+
+
+    # Initialize all templates
+    outputs = init_all(fp, tmpls)
+
+    # Output all files
+    for name, out in outputs.items():
+        output(path, name, out)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+The only requirements for the \fBtemplate.py\fP file are that:
+.INDENT 0.0
+.IP \(bu 2
+The template file is named exactly \fBtemplate.py\fP
+.IP \(bu 2
+There exists the following function in \fBtemplate.py\fP:
+.UNINDENT
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+def bang(fp, cmd)
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+The template file is a Jinja template that is initialized with the values
+of the user input at runtime.
+.SH COMMANDS
+.sp
+To use a template to create a new project run:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+clopy new [filepath/to/template]
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+To initialize a template into the current directory run:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+clopy init [filepath/to/template]
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.SH CONFIG
+.sp
+Clopy can be configured to use a \fBtemplates.json\fP file to read template file paths from as a shorthand.
+This file is stored in the \fB~/.config/clopy/templates\fP directory.
+An example config file is given in the root project directory.
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+{
+    "templates": {
+        "python": "~/Templates/python\-template"
+    }
+}
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Now instead of doing this:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+clopy new ~/Templates/python\-template
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+You can run
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+clopy new python
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+And Clopy will look up the directory associated with the directory keyword.
+.SS Configuring Templates
+.sp
+Templates can also have configuration files.
+These files are located in \fB~/.config/clopy/templates/\(ga\fP\&.
+These configuration files are stored in TOML format that you can use to define your own configuration variables
+for your templates.
+.SH API
+.SS Clopy.Tmpl
+.INDENT 0.0
+.TP
+.B clopy.tmpl.init_all(fp:  str, tmpls:  dict) -> dict
+Renders all file templates, and returns the output files
+.UNINDENT
+.INDENT 0.0
+.TP
+.B clopy.tmpl.loadcfg(cfp:  str, cfg:  dict) -> dict
+Loads the given config file for a template
+cfp: Config file path
+cfg: Default/Empty config file dictionary
+.sp
+\fIloadcfg\fP reads the contents of cfp into a dictionary, and returns
+the config file as a dict if it exists, and returns cfg if the dict doesn\(aqt exist.
+.UNINDENT
+.INDENT 0.0
+.TP
+.B clopy.tmpl.match(s:  str, choices:  list) -> bool
+Checks if a str matches the given choices
+.UNINDENT
+.INDENT 0.0
+.TP
+.B clopy.tmpl.mkdest(path:  pathlib.Path, cmd:  str)
+Initializes or overwrites the destination directory
+.UNINDENT
+.INDENT 0.0
+.TP
+.B clopy.tmpl.output(dest:  str, tmpl_name:  str, tmpl:  str)
+Outputs the rendered template contents to the destination
+dest: File path/directory of the template output
+tmpl_name: Name of the destination file where the output will be written to
+tmpl: The contents of the file
+.UNINDENT
+.INDENT 0.0
+.TP
+.B clopy.tmpl.promptf(prompt:  str, val=\(aq\(aq) -> str
+Prompts the user with the given message and defaults to a set value if null
+.UNINDENT
+.INDENT 0.0
+.TP
+.B clopy.tmpl.render(src:  str, tmpl_name:  str, vardict:  dict) -> str
+Renders the template file
+src: File path/directory of the template source
+tmpl_name: Name of the template file source
+vardict: A dictionary that contains the template variable names as keywords with.
+.UNINDENT
+.INDENT 0.0
+.TP
+.B clopy.tmpl.to_path(fp:  str) -> pathlib.Path
+Convert str to Path
+.UNINDENT
+.INDENT 0.0
+.IP \(bu 2
+genindex
+.IP \(bu 2
+modindex
+.IP \(bu 2
+search
+.UNINDENT
+.SH AUTHOR
+Joseph Diza
+.SH COPYRIGHT
+2022, Joseph Diza
+.\" Generated by docutils manpage writer.
+.
