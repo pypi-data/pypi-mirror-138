@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: schemarecomb
+Version: 0.0.5
+Summary: Design recombinant protein libraries for Golden Gate Assembly.
+Author: Bennett Bremer
+Author-email: bennettjamesbremer@gmail.com
+Requires-Python: >=3.9.0,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: biopython (>=1.79,<2.0)
+Requires-Dist: scipy (>=1.6.3,<2.0.0)
+Project-URL: Download, https://pypi.org/project/schemarecomb
+Project-URL: Documentation, https://schemarecomb.readthedocs.io/en/latest
+Project-URL: Source Code, https://github.com/RomeroLab/schemarecomb
