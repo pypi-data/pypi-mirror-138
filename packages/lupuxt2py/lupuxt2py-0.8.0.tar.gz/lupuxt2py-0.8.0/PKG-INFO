@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: lupuxt2py
+Version: 0.8.0
+Summary: Python project for interacting with Lupusec XT2 (Plus)
+Home-page: https://github.com/ChrisKeck/lupuxt2py
+Author: ChrisKeck
+Author-email: keckchris@outlook.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/chriskeck/lupuxt2py/issues
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Source, https://github.com/chriskeck/lupuxt2py/
+Keywords: alarm,security,iot
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE.txt
+
+# LUPUSEC XT2 (Client)
+
+[![Test](https://github.com/ChrisKeck/lupuxt2py/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/ChrisKeck/lupuxt2py/actions/workflows/test.yml)
+
+Python-Library to communicate and interface with Lupusec X2 System.
+
+API-CALLs to Lupusec XT2 with LupusecSevice:
+
+* GET /action/deviceGet -> return dictionary with device class as key and lists of specific type as value
+* GET /action/systemGet -> return system information
+* GET /action/panelCondGet -> return alarm panels and updates
+* POST /action/panelCondPost -> activate/deactivate alarm mode
+* POST /action/deviceSwitchPSSPost -> switch on/off something
+
+
+Poll Lupusec XT2 in a timeloop with LupusecStateMachine
+
+# Attention
+I can only support devices, which I have on my own! Todos if anyone would like to add a device:
+
+* Add a sample response to folder tests/responses
+* Add unit-tests to folder tests 
+
+
