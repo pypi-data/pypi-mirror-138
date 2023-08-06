@@ -1,0 +1,3 @@
+[console_scripts]
+danmuutils = danmu_utils.common.cmd_interface:main
+
