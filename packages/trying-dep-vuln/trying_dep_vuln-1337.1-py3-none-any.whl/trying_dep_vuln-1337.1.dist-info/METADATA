@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: trying-dep-vuln
+Version: 1337.1
+Summary: hacked dep
+Home-page: https://www.github.com/ungps
+Author: hacker
+Author-email: hacker@1337.lol
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+UNKNOWN
+

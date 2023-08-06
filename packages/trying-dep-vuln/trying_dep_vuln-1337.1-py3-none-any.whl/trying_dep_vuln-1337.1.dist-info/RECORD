@@ -1,0 +1,8 @@
+trying_dep_vuln/__init__.py,sha256=DbUh10nyKqpqaezaWeWiC8CfzeIV7zXly5bWgpYKgm0,28
+trying_dep_vuln/command_line.py,sha256=r9NZJx3LDY_0l23EzxCsT0JRapMSXpQCF_Sopnw52O0,67
+trying_dep_vuln/greet.py,sha256=1dQYAXMYkJzTZ_k9QtLsbzOk3Fj2diHuaCxfNChMw0U,54
+trying_dep_vuln-1337.1.dist-info/METADATA,sha256=AbHm_s1TAyle-IgF3Ld76pX504InSMQKnOBKBynLQc0,375
+trying_dep_vuln-1337.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+trying_dep_vuln-1337.1.dist-info/entry_points.txt,sha256=S5YvhpE3lKCc73q7VWXO5yyDDt-9ilgxvJHzMYEBv6A,71
+trying_dep_vuln-1337.1.dist-info/top_level.txt,sha256=akCm9OfvR1k0hn3fe8b2ibeTJKsooq-m2vsD1V8oChE,16
+trying_dep_vuln-1337.1.dist-info/RECORD,,
