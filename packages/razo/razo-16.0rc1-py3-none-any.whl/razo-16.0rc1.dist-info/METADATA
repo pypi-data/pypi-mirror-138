@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: razo
+Version: 16.0rc1
+Summary: Run command system
+Home-page: https://github.com/fredongit/razo
+Author: Fred Dumb
+Author-email: vmuonline@126.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+License-File: LICENSE
+
+This is razo 16.0rc1,codenamed 'turtle_7'.
+
+
+[SOFTWARE WANTED]
+
+We want module apps that can run just by import it.
+
+You can tell me by email if you have.
+
+My email is:vmuonline@126.com
+
+Most be used of every kind of software numbers:
+
+Games:12
+
+Desktop envionment:3(BE DIFFRRENT)
+
+Browser:5
+
+Office software set:2
+
+later it will be changed~
+
+
+[About]
+
+Run command system by Python.
+
+Now in alpha.
+
+To run after install,execute:
+
+py -m razo(for Windows)
+
+python3 -m razo(for Unix/Linux/MacOS)
+
+
+[History]
+
+
+[15.0]
+
+1.Add codename,SOFTWARE WANTED,and useable url.
+
+2.Add command sudo.
+
+[1.0.0a5]
+
+1.Fix readme.
+
+[1.0.0a4]
+
+1.Fix Do Error.
+
+2.Add command settings,time.
+
+3.Use time.sleep() to wait to start and shut.
+
+[1.0.0a3] 
+
+1.Fix ImportError.
+
+
+[1.0.0a2]
+
+1.Fix unimportable.
+
+
+[1.0.0a1]
+
+1.Usable.
+
+
+
