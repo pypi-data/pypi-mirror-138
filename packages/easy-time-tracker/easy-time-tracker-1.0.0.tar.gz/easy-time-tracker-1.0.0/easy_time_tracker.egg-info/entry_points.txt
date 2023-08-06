@@ -1,0 +1,3 @@
+[console_scripts]
+ett = easy_time_tracker.cli:cli
+
