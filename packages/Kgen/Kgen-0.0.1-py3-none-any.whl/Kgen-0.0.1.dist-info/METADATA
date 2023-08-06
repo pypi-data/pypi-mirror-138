@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Kgen
+Version: 0.0.1
+Summary: Python functions for calculating stoichiometric speciation constants for seawater.
+Home-page: https://github.com/PalaeoCarb/Kgen
+Author: Oscar Branson
+Author-email: ob266@cam.ac.uk
+License: UNKNOWN
+Project-URL: PalaeoCarb Project, https://github.com/PalaeoCarb
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+UNKNOWN
+

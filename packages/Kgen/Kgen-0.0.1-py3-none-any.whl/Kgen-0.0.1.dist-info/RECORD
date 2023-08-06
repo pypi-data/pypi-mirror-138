@@ -1,0 +1,13 @@
+kgen/K_functions.py,sha256=qoNag-tg-QSkU1TJljQXtvamZK6nwEsLMYqNW_eqdc8,9299
+kgen/__init__.py,sha256=1lb07gHYcL1TG1SuWnM35jOvk32dDY5y4y1K-DQHUUE,40
+kgen/coefs.py,sha256=IPAkbwcdY6OnmPYN8SNi4K5LNGw6hkRhhnpNYu0PJ8I,355
+kgen/MyAMI_LUT/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kgen/coefficients/K_calculation.json,sha256=3GaCCkOvlmV4qS-9kZ7CdUVuhJs-xG4rZOtEWyp7r2Q,1378
+kgen/coefficients/K_pressure_correction.json,sha256=fc4dkLtH3kkX8OvRxAPHeX0rn5RUZExmRJXcZcjY0LY,1053
+kgen/coefficients/conservative_ions.json,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kgen/coefficients/fundamental_constants.json,sha256=ugHJQWeHxAl7gdjr8Y1BwT1BJQjJ1yi0QSpHdSrc8gk,202
+Kgen-0.0.1.dist-info/METADATA,sha256=zqBN79VXC1QXatxBe2Oxq5Qqw80RMbVt7Aam5Uh2K9E,434
+Kgen-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Kgen-0.0.1.dist-info/top_level.txt,sha256=eWHdlfzZyRCy4pgNXhYocClXTBeKweEdzCX5hVc2CXo,5
+Kgen-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+Kgen-0.0.1.dist-info/RECORD,,
