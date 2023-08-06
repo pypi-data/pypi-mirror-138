@@ -1,0 +1,67 @@
+---
+# List of repositories owned by SIGs
+Ansible:
+  - repo: openstack/ansible-collections-openstack
+  - repo: openstack/ansible-plugin-container-connection
+API:
+  - repo: openstack/api-sig
+Automation:
+  - repo: openstack/auto-scaling-sig
+  - repo: openstack/self-healing-sig
+First Contact:
+  - repo: openstack/contributor-guide
+  - repo: openstack/training-guides
+  - repo: openstack/upstream-institute-virtual-environment
+Hardware Vendor:
+  - repo: openstack/python-dracclient
+i18n:
+  - repo: openstack/i18n
+    extra-atcs:
+    - name: suhartono
+      email: cloudsuhartono@gmail.com
+      expires-in: Feb 2022
+      comment: suhartono (id)
+    - name: Alberto Molina Coballes
+      email: alb.molina@gmail.com
+      expires-in: Feb 2022
+      comment: albertomolina (es)
+Meta:
+  - repo: openstack/governance-sigs
+Multi-Arch:
+  - repo: openstack/multi-arch-sig
+Operation Docs and Tooling:
+  - repo: openstack/arch-design
+  - repo: openstack/ha-guide
+  - repo: openstack/operations-guide
+  - repo: openstack/osops
+Packaging:
+  - repo: openstack/rpm-packaging
+  - repo: openstack/rpm-packaging-tools
+  - repo: openstack/pymod2pkg
+  - repo: openstack/renderspec
+PowerVMStackers:
+  - repo: openstack/ceilometer-powervm
+  - repo: openstack/networking-powervm
+  - repo: openstack/nova-powervm
+Public Cloud SIG:
+  - repo: openstack/publiccloud-sig
+Security:
+  - repo: openstack/ossa
+  - repo: openstack/security-analysis
+  - repo: openstack/security-doc
+Testing and Collaboration Tools:
+  - repo: openstack/bugdaystats
+  - repo: openstack/ci-log-processing
+  - repo: openstack/devstack-gate
+    deprecated: xena
+  - repo: openstack/diskimage-builder
+  - repo: openstack/logstash-filters
+  - repo: openstack/nose-html-output
+  - repo: openstack/openstack-nose
+  - repo: openstack/openstack-planet
+  - repo: openstack/openstack-zuul-jobs
+  - repo: openstack/openstack-zuul-roles
+  - repo: openstack/project-config
+  - repo: openstack/ptgbot
+  - repo: openstack/reviewday
+  - repo: openstack/reviewstats
