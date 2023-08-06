@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pyTaguchi/__init__.py
+pyTaguchi/taguchi.py
+pyTaguchi.egg-info/PKG-INFO
+pyTaguchi.egg-info/SOURCES.txt
+pyTaguchi.egg-info/dependency_links.txt
+pyTaguchi.egg-info/requires.txt
+pyTaguchi.egg-info/top_level.txt

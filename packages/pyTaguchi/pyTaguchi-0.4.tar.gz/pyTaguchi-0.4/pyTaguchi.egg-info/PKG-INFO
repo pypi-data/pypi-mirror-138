@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pyTaguchi
+Version: 0.4
+Summary: Taguchi designs made easy
+Home-page: https://github.com/rbngpp/pyTaguchi
+Author: Giuseppe Rubino
+Author-email: giusepperubino@hotmail.co.uk
+License: MIT
+Download-URL: https://github.com/rbngpp/pyTaguchi/archive/refs/tags/v0.4.tar.gz
+Description: UNKNOWN
+Keywords: DOE,TAGUCHI,DESIGN,EXPERIMENT,R&D
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
