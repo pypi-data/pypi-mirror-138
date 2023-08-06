@@ -1,0 +1,4 @@
+[console_scripts]
+check_repo = jutge.check_repo:main
+grade_repo = jutge.grade_repo:main
+
