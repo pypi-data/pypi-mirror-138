@@ -1,0 +1,12 @@
+etyping/__init__.py,sha256=RRmpMHQ_CuZzoOiSHc8ATSPmyWh0iW5OpPbqmVNOvrw,79
+etyping/_constants.py,sha256=g7QGTdF9C-SzrcN-44GFxAIGmmdGFOIq-x5oerMD3NA,44
+etyping/_site.py,sha256=wtln46v3JVD2W6lOtP7HmiKdNPxVGj-PMwPMT6yNb6k,191
+etyping/category.py,sha256=lr5GHskgv_jVi9annTGu0bC0k9_ispM-Ds9V2sXsyng,266
+etyping/cli.py,sha256=0rKiA-j-J6hsf6IZOH1Q7VZBJPSq3BwQ_hDpm0vW_Qs,2693
+etyping/game.py,sha256=piSDU7oT0bTWCcB0qESpmNURplsqvwwCAnA792CDM68,4133
+etyping/webdriver.py,sha256=GMknQooWA12US6MhLKorRxX5IfaE__gc8Z5DeHs8AyM,1099
+etyping-2.0.0.dist-info/entry_points.txt,sha256=XR5Yw1xOFCkvmOA9m0-vnhj_sgaWSTuHLoDhpb-y9So,44
+etyping-2.0.0.dist-info/LICENSE,sha256=va2Ebbos-_yEJLJvWfbCHhbXv36lt94dg97ZGdRcaSQ,1065
+etyping-2.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+etyping-2.0.0.dist-info/METADATA,sha256=PZv2VCUHRHLazFu6SJ8A8l9k5U1POr4TZpq-uz53yzo,1430
+etyping-2.0.0.dist-info/RECORD,,
