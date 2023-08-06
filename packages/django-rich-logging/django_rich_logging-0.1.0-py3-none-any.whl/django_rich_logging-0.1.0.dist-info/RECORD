@@ -1,0 +1,9 @@
+django_rich_logging/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_rich_logging/logging.py,sha256=cHq8hPeKtTKOLZtcuqmnkpvGuQxCUME7rN213-m-H9M,2830
+django_rich_logging/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_rich_logging/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_rich_logging/management/commands/runserver_rich.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_rich_logging-0.1.0.dist-info/LICENSE,sha256=K1mO8lfhL1Q7AIOxVaIdS0c0bmvf6lloUhwn9GSGzjM,1066
+django_rich_logging-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+django_rich_logging-0.1.0.dist-info/METADATA,sha256=N5wIvLjs9a-8ISTiXlNiooFmXeWQ6WtrjRk2Ulkdlio,2698
+django_rich_logging-0.1.0.dist-info/RECORD,,
