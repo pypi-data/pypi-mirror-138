@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: minimalKB
+Version: 1.1.1
+Summary: A SQLite-backed minimalistic knowledge based for robotic application
+Home-page: https://github.com/severin-lemaignan/minimalkb
+Author: Séverin Lemaignan
+Author-email: severin.lemaignan@pal-robotics.com
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Requires: pysqlite
+Requires: rdflib
