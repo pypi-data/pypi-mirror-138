@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block header %}
+<div style="position:fixed; background-color:#AAFFAA; width:100%; top:0;">
+	<div style ="width:50%;display:inline-block;float:left;" >
+	&nbsp
+	</div>
+
+	<div style ="width:50%;display:inline-block;float:left;" >
+		<div style="float: right;padding: 4px;">
+			<a href="/home" style="color:red"><b>✖</b></a> 
+		</div>
+	</div>
+</div>
+
+
+<div style="position:static; background-color:#AAFFAA; width:100%; top:0;">
+	<div style ="width:50%;display:inline-block;float:left;" >
+	&nbsp
+	</div>
+
+	<div style ="width:50%;display:inline-block;float:left;" >
+		<div style="float: right;padding: 4px;">
+			<a href="/home" style="color:red"><b>✖</b></a> 
+		</div>
+	</div>
+</div>
+{% endblock %}
+
+
+{% block content %}
+
+
+<div class="divTable">	
+		<div class='divTableHeading'>
+		{% for key in header %}
+				<div class="divTableCell"><a href="/{{page.name}}?sort=1&key={{key}}">▲</a> <a href="/{{page.name}}?sort=-1&key={{key}}">▼</a> {{key}} </div>
+		{% endfor %}
+		</div>
+	
+		
+		{% if data is iterable %}
+		<div class="divTableBody">	
+		{% for item in data %}
+			<div class="divTableRow">
+			{% for key in header %}
+				<div class="divTableCell"><a>{{item[key]}}</a></div>
+{#				<div class="divTableCell"><a {% if item[f"{key}_href"] !=None %}  href="{{item[f"{key}_href"]}}" {% endif %}>{{item[key]}}</a></div> #}
+
+			{% endfor %}
+			</div>
+		{% endfor %}
+		</div>
+		{% endif %}
+		
+		
+</div>
+	
+	
+{% endblock %}
+

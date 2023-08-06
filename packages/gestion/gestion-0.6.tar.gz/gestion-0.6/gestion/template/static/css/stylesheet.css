@@ -1,0 +1,72 @@
+html {
+
+}
+
+body {
+	padding: 	0;
+	margin: 	0;
+	overflow-y: scroll;
+	font-family: monospace;
+}
+}
+
+a {
+	padding: 4;
+	text-decoration:none;
+}
+
+/* unvisited link */
+a:link {
+	color: #000000;
+	text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+	color: #000000;
+	text-decoration:none;
+}
+
+/* mouse over link */
+a:hover {
+	color: #4A4A4A;
+	text-decoration:none;
+}
+
+
+
+.current{
+	background-color: #ffffff;
+}
+
+.divTable{
+	overflow-y:scroll;
+	display: table;
+	width: 100%;
+}
+
+.divTableBody {
+	display: table-row-group;
+}
+
+.divTableRow {
+	display: table-row;
+}
+
+.divTableCell, .divTableHead {
+	border-bottom: 1px solid #D4D4D4;
+	display: table-cell;
+	padding: 4px;
+}
+
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
