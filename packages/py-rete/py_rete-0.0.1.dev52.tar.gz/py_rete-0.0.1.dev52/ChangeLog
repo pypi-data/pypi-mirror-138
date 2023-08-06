@@ -1,0 +1,53 @@
+CHANGES
+=======
+
+* fixed bug in how linking/unlinking is handled when adding a production to an active network
+* changed order of wmes that come from facts to speed matching performance; also updated graph rendering to be directional
+* fixed bugs with using for loop where items being iterated over are deleted in subcalls, switched to while
+* fixed bug where using for loop to iterate over items that are being deleted
+* fixed bug in how tokens are deleted from network, also added ablilty to render network using networkx for debugging
+* Update production.py
+* Fixes Fact method resolution order for \_\_or\_\_
+* made some fixes based on type checking. Excluded type checking imports case from coverage
+* added new tests and sure productions with each component beta node work
+* added in ability to use bind nodes with variables used in pattern matching
+* working verion that uses bindings to do join tests
+* rewrote how join tests are done to use bindings instead of tests
+* adjusted pnode management
+* updated readme
+* simplifed bound facts
+* removed print
+* working version of filter and bind at root, but shifting to use beta memory
+* working version with empty productions
+* working minimal version
+* removed assert False
+* working version with fact binding with right shift operator
+* working version that supports disjuncts
+* disabled mypy to get tests running, will turn on next
+* Update .travis.yml
+* incremented to 3.8'
+* removed print
+* refactored to use production decorator class and to support adding and removing of Facts
+* updated badges
+* updating readme
+* updated readme, using facts and productions
+* updated readme from rst to md
+* extending documentation
+* extending documentation
+* extending documentation
+* extending documentation
+* extending documentation
+* extending documentation
+* extending documentation
+* added effects for productions and ability to fire them all at once
+* removed constant test node, now we use alpha hashing
+* got pep8 errors fixed. tox passes locally
+* version that passes all tests
+* fixed bug in update\_nearest\_ancestor\_with\_same\_amem, to start with parent rather than self
+* found bug in pnodes not getting their tokens removed
+* worked through final pseudocode from doorenbos thesis, still have errors though. Stuff isn't getting properly deactivated
+* still going, stuff not removing properly
+* working, still adding unlinking
+* implemented alpha hashing approach. tests passing. going throug and comparing with doorenbois thesis to implement unlinking
+* modified alpha mem to us hashing, but still in process of refactoring. Also adding unlinking
+* some refactoring, also shutting off pypy for travis
