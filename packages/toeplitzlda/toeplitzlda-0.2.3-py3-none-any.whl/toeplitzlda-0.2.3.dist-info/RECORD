@@ -1,0 +1,13 @@
+LICENSE,sha256=Ch-rPKUD4taHO_Tftk9WS7uopLU8u6IJtE5Ed60UbiE,1635
+toeplitzlda/__init__.py,sha256=PpMH0zTMIHFWCTNCJA-IetmlnIVR-pc8gxWxFLiaGoM,76
+toeplitzlda/benchmark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toeplitzlda/classification/__init__.py,sha256=dp7HLgqLNP6Ck1hyGBXcn2MOvxVtAi0ZS3JCQUlbH-c,134
+toeplitzlda/classification/covariance.py,sha256=er_fn2IXzlTmtlkaNBxDj6M4F4mfww3EPbUjwsxNz-8,5600
+toeplitzlda/classification/toeplitzlda.py,sha256=3rac4is-qBpQMs2ep-jyokAmVY_AIXR1H-19Xa-nCr8,14946
+toeplitzlda/usup_replay/__init__.py,sha256=Yzl8vfNf1ki0GF0k4aa9KmfLZDAzp0MKr0lLrLwLj-Y,86
+toeplitzlda/usup_replay/llp.py,sha256=NuXWRfMwPqJOeuQswXe7SzThtrI_Fy9g2WjCxPDrePg,4351
+toeplitzlda/usup_replay/visual_speller.py,sha256=Lixz2L8Muk0cnSU4LN9MPSzTqIlFmT9NTE8_LB-smEk,23738
+toeplitzlda-0.2.3.dist-info/LICENSE,sha256=Ch-rPKUD4taHO_Tftk9WS7uopLU8u6IJtE5Ed60UbiE,1635
+toeplitzlda-0.2.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+toeplitzlda-0.2.3.dist-info/METADATA,sha256=fmq0Boz7dtE30ECX20kblF-xU4p6az5-1o_wGTWWzUM,6734
+toeplitzlda-0.2.3.dist-info/RECORD,,
