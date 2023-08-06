@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+mrh/mrh.egg-info/PKG-INFO
+mrh/mrh.egg-info/SOURCES.txt
+mrh/mrh.egg-info/dependency_links.txt
+mrh/mrh.egg-info/top_level.txt
