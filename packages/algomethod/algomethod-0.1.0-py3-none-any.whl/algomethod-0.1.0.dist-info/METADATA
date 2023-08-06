@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: algomethod
+Version: 0.1.0
+Summary: This is a template for python projects.
+Home-page: https://github.com/kagemeka/algomethod/#readme
+License: MIT
+Keywords: algomethod
+Author: Hiroshi Tsuyuki
+Author-email: kagemeka1@gmail.com
+Maintainer: Hiroshi Tsuyuki
+Maintainer-email: kagemeka1@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: aiohttp
+Requires-Dist: beautifulsoup4
+Requires-Dist: furo; extra == "docs"
+Requires-Dist: myst-parser; extra == "docs"
+Requires-Dist: optext-python (==0.1.1)
+Requires-Dist: pdoc3; extra == "docs"
+Requires-Dist: pydata-sphinx-theme; extra == "docs"
+Requires-Dist: python-docs-theme; extra == "docs"
+Requires-Dist: requests
+Requires-Dist: selenium
+Requires-Dist: selext (==0.2.0)
+Requires-Dist: sphinx-book-theme; extra == "docs"
+Requires-Dist: sphinx-theme-pd; extra == "docs"
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx_rtd_theme (<=2.0.0); extra == "docs"
+Requires-Dist: sphinxcontrib-mermaid; extra == "docs"
+Project-URL: Documentation, https://algomethod.readthedocs.io
+Project-URL: Repository, https://github.com/kagemeka/algomethod
+Project-URL: Twitter, https://twitter.com/kagemeka
+Description-Content-Type: text/markdown
+
+# Algomethod
+
+algo-method API for Python
+
