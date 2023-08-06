@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: algpros
+Version: 0.0.2
+Summary: 奥利给高效编程库pycharm版，这里汇集了许多高效模块，由奥利给硬件科技工作室制作，主要作者：于泽
+Home-page: https://github.com/pypa/sampleproject
+Author: algfwq
+Author-email: huibubu2022@163.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 库介绍
+
+----------
+这是由ALG工作室研发的一个函数库，这里有不少高效模块，欢迎您的使用
+
+----------
+
+# 开发方
+
+------------
+
+ALG工作室
+
+Lanpasby工作室
+
+作者：于泽
+
+发布者：HuiBuBu
+
+-------------------
+
+
