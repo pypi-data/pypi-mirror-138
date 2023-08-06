@@ -1,0 +1,9 @@
+LICENSE,sha256=Ch-rPKUD4taHO_Tftk9WS7uopLU8u6IJtE5Ed60UbiE,1635
+blockmatrix/__init__.py,sha256=TgYP8gOv7HNHPBvJQdtOkZ-Ql3ZA7zJcPMOsmmxAMRE,85
+blockmatrix/blockmatrix.py,sha256=2TKMv4aQi7vAT2GVU--PeacJRkcXgtiNnHw9HK-pW1U,30939
+blockmatrix/utils.py,sha256=73uilJ_moQdM9Z9yXzWjX2pI8h8Yvb0Ou0aPPF0x_U0,316
+blockmatrix/visualization.py,sha256=aiB4pDwZoi1WmXHh1wJMgoAaHWfmPwDkFQptBmcua0w,6945
+blockmatrix-0.2.1.dist-info/LICENSE,sha256=Ch-rPKUD4taHO_Tftk9WS7uopLU8u6IJtE5Ed60UbiE,1635
+blockmatrix-0.2.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+blockmatrix-0.2.1.dist-info/METADATA,sha256=S3Vdz_cHr8YeW0siZhltL1ccdPPFUIhhqYaEtDty9Rs,1771
+blockmatrix-0.2.1.dist-info/RECORD,,
