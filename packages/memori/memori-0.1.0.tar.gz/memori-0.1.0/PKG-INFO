@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: memori
+Version: 0.1.0
+Summary: A python library for creating memoized data and code for neuroimaging pipelines
+Home-page: https://github.com/vanandrew/memori
+Author: Andrew Van
+Author-email: vanandrew@wustl.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: all
+License-File: LICENSE
+
+# memori
+[![CircleCI](https://circleci.com/gh/vanandrew/memori/tree/main.svg?style=svg)](https://circleci.com/gh/vanandrew/memori/tree/main)
+[![Python package](https://github.com/vanandrew/memori/actions/workflows/python-package.yml/badge.svg?branch=main)](https://github.com/vanandrew/memori/actions/workflows/python-package.yml)
+[![codecov](https://codecov.io/gh/vanandrew/memori/branch/main/graph/badge.svg?token=DSVJMHTVLE)](https://codecov.io/gh/vanandrew/memori)
+
+A python library for creating memoized data and code for neuroimaging pipelines
+
+## WIP
+
+
