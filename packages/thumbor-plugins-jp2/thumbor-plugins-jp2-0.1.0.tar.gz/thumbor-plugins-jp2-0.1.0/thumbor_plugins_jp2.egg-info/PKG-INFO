@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: thumbor-plugins-jp2
+Version: 0.1.0
+Summary: Thumbor optimizer to run jp2
+Home-page: https://thumbor.readthedocs.io/en/latest/index.html
+Author: Guilherme Souza
+Author-email: guilherme@souza.tech
+License: MIT
+Keywords: thumbor optimizers jp2
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Multimedia :: Graphics :: Presentation
+
+UNKNOWN
+

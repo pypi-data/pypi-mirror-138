@@ -1,0 +1,7 @@
+setup.py
+./__init__.py
+./config.py
+thumbor_plugins_jp2.egg-info/PKG-INFO
+thumbor_plugins_jp2.egg-info/SOURCES.txt
+thumbor_plugins_jp2.egg-info/dependency_links.txt
+thumbor_plugins_jp2.egg-info/top_level.txt
