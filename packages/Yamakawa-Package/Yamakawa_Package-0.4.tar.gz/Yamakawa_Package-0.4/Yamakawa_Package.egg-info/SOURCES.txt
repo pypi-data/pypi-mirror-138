@@ -1,0 +1,8 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+Yamakawa_Package.egg-info/PKG-INFO
+Yamakawa_Package.egg-info/SOURCES.txt
+Yamakawa_Package.egg-info/dependency_links.txt
+Yamakawa_Package.egg-info/top_level.txt
