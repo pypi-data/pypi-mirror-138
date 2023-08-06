@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/lsutil/__init__.py
+src/lsutil/lsutil.py
+src/lsutil.egg-info/PKG-INFO
+src/lsutil.egg-info/SOURCES.txt
+src/lsutil.egg-info/dependency_links.txt
+src/lsutil.egg-info/entry_points.txt
+src/lsutil.egg-info/requires.txt
+src/lsutil.egg-info/top_level.txt
