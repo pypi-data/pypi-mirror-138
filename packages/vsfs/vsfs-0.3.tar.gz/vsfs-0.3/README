@@ -1,0 +1,4 @@
+This is a pypi packaging of github.com/centreborelli/sfs
+Only glue code in this folder, the files with the main algorithms are symlinks.
+
+ILM = "inverse lambertian model"
