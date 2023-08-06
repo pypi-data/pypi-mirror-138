@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: zhouyuanzhen
+Version: 0.5.0
+Summary: A PyPI project of zhouyuanzhen
+Home-page: https://github.com/zhouyuanzhen/py-zhouyuanzhen
+Author: Yuanzhen Zhou
+Author-email: szrednick@gmail.com
+Maintainer: Yuanzhen Zhou
+Maintainer-email: szrednick@gmail.com
+License: Apache License 2.0
+Keywords: zyz,zhouyuanzhen,development
+Platform: UNKNOWN
+Requires-Python: >=3.5, <4
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+
+# py-zhouyuanzhen
+
+[<img src="https://avatars2.githubusercontent.com/u/54104471" align="right" width="200">](https://github.com/zhouyuanzhen)
+
+PyPI for zhouyuanzhen
+
+## QuickStart
+
+### Install Package
+
+    pip install zhouyuanzhen
+
+
+### Play with it
+
+    import zyz
+
+    zyz.sayhi()
+
+
+Enjoy it!
+
+
