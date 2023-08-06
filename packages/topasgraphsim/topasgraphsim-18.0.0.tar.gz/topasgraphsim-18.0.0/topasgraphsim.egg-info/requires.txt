@@ -1,0 +1,8 @@
+requests
+numpy
+scipy
+pynput
+opencv-python
+Pillow
+matplotlib
+topas2numpy
