@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+datasette_tiddlywiki/__init__.py
+datasette_tiddlywiki/tiddlywiki.html
+datasette_tiddlywiki.egg-info/PKG-INFO
+datasette_tiddlywiki.egg-info/SOURCES.txt
+datasette_tiddlywiki.egg-info/dependency_links.txt
+datasette_tiddlywiki.egg-info/entry_points.txt
+datasette_tiddlywiki.egg-info/requires.txt
+datasette_tiddlywiki.egg-info/top_level.txt

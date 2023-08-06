@@ -1,0 +1,2 @@
+[datasette]
+tiddlywiki = datasette_tiddlywiki
