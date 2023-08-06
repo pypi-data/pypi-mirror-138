@@ -1,0 +1,3 @@
+[console_scripts]
+peptdeep = peptdeep.cli:run
+
