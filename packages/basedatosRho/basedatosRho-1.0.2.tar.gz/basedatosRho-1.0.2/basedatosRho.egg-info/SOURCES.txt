@@ -1,0 +1,14 @@
+setup.py
+LibBaseDatos/__init__.py
+LibBaseDatos/uso_bd.py
+LibBaseDatos/BaseDatosRho/ConectorBD.py
+LibBaseDatos/BaseDatosRho/__init__.py
+basedatosRho.egg-info/PKG-INFO
+basedatosRho.egg-info/SOURCES.txt
+basedatosRho.egg-info/dependency_links.txt
+basedatosRho.egg-info/top_level.txt
+libbasedatos/__init__.py
+libbasedatos/uso_bd.py
+libbasedatos/basedatosRho/ConectorBD.py
+libbasedatos/basedatosRho/Equipo.py
+libbasedatos/basedatosRho/__init__.py
