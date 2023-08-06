@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/PHP_Form_Builder_Script.egg-info/PKG-INFO
+src/PHP_Form_Builder_Script.egg-info/SOURCES.txt
+src/PHP_Form_Builder_Script.egg-info/dependency_links.txt
+src/PHP_Form_Builder_Script.egg-info/top_level.txt
