@@ -1,0 +1,13 @@
+doki.cpython-39-x86_64-linux-gnu.so,sha256=j9aymQo0hrse41S9vgfqnijpUpDSVYYh1n3yLBw62jI,190600
+doki_Mowstyl.libs/libgomp-a34b3233.so.1.0.0,sha256=1GXGWfRf6XU3wOEAn66x6m5ApWQt3_3un8G3PAcyQh4,168192
+doki_Mowstyl-1.3.2.dist-info/METADATA,sha256=kGF1yCuQZ8m6L2qlnEoFGBDbFPMZzV7q4but7ThiLB4,1141
+doki_Mowstyl-1.3.2.dist-info/WHEEL,sha256=FNUt4eBsrBVn_Yc5KG3aXtKE40X3uNZrbGLNCbVxyFw,148
+doki_Mowstyl-1.3.2.dist-info/top_level.txt,sha256=HYbeHmvhDolnxvHWRF0Q2Mo0PfX0aL0jR6PNFLjrV4w,5
+doki_Mowstyl-1.3.2.dist-info/LICENSE,sha256=4Z9WgB7PhcXJnhNGAVTORYBb7Ht69b0ZL5YNyhFZAMI,1111
+doki_Mowstyl-1.3.2.dist-info/RECORD,,
+doki_Mowstyl-1.3.2.data/data/headers/qstate.h,sha256=OdRIvS1Io3pCzqdEu0SGfbt7JsSdnIKEPIVHwj099l4,2320
+doki_Mowstyl-1.3.2.data/data/headers/platform.h,sha256=T4mcXnGGGaDTtQKu3-j1KPWWytK4flEzfsKSUlV7E3A,7451
+doki_Mowstyl-1.3.2.data/data/headers/funmatrix.h,sha256=aTA1wMauEWSI3Gro13iiI3_WOGhZvNiCDsO41t9fy7w,4006
+doki_Mowstyl-1.3.2.data/data/headers/qops.h,sha256=3CGPtb_ExJUNvjutAkzMAbj4p20BlH2YzA9aJtJEiXI,2059
+doki_Mowstyl-1.3.2.data/data/headers/qgate.h,sha256=dfQtA9G0jAifLsxbWGVYFnjA061OJCoKFhi4IHdNfzA,313
+doki_Mowstyl-1.3.2.data/data/headers/arraylist.h,sha256=KPvgCn18HnET3FNdgLdZvkKV8b5HkJ5DHkdGXkP1YcM,1035
