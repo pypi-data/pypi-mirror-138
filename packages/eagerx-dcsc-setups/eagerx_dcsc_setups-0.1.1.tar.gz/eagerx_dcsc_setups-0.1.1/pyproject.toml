@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "eagerx_dcsc_setups"
+version = "0.1.1"
+description = "EAGERx interface to dcsc_setups."
+authors = ["Jelle Luijkx <j.d.luijkx@tudelft.nl>"]
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+eagerx = "^0.1.0"
+eagerx-gui = "^0.1.1"
+stable-baselines3 = "1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.1.0"
+eagerx = {path = "/home/bas/eagerx_dev/eagerx", develop = true}
+eagerx_gui = {path = "/home/bas/eagerx_dev/eagerx_packages/eagerx_gui", develop = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
