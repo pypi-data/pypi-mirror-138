@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: wordle-ebarbeary
+Version: 0.1.0
+Summary: A suite of tools to build, test and run algorithms that solve the popular web-game 'Wordle'
+Home-page: https://github.com/ebarbeary/wordle
+Author: Elliot Barbeary
+Author-email: e.barbeary@outlook.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ebarbeary/wordle/issues
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Wordle
+========
+
+A suite of tools to build, test and run algorithms that solve the popular web-game 'Wordle'
+
+Installation
+------------
+
+```bash
+pip install -r requirements.txt
+pip install -e
+```
+
+To run existing bots:
+
+```bash
+python -m pytest -s
+```
+
+License
+-------
+
+This project is licensed under the GNU GENERAL PUBLIC LICENSE Version 3
+
+

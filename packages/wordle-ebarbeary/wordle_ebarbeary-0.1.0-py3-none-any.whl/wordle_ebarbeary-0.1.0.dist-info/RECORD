@@ -1,0 +1,11 @@
+wordle/WordleGameMaster.py,sha256=WFBHuRa9O0BrIcvgifQ2MX5VnM46nzTxHO1WoOI3r_E,6304
+wordle/__init__.py,sha256=5rWk_d3zE8L3aFKOlRLvr9TF9Vfk9dXDslJUfHBtBYk,46
+wordle/bots/ModalLetter.py,sha256=lyP-fVBS5nUITJhD7HX9SQI2GjdPsRHkY-GZGnqMFlg,3159
+wordle/bots/Random.py,sha256=rfACowdkpI-v0_QGYMM4_TLEAl_O9gWED4lOsxzlCo8,375
+wordle/bots/WordleBot.py,sha256=nJyPSlLO-KnB-JbrTh_wubsSIH1VmzZG3PX6V27OzWI,5242
+wordle/bots/__init__.py,sha256=B9GdUyhmEmaBoqsVWXN7TuwMgyaNPQouWhVzAS3oDGc,165
+wordle_ebarbeary-0.1.0.dist-info/LICENSE,sha256=aFLFZg6LEJFpTlNQ8su3__jw4GfV-xWBmC1cePkKZVw,35802
+wordle_ebarbeary-0.1.0.dist-info/METADATA,sha256=8IvjivqcucvlzxFsa_2Itst5BM1Qp0X-o2SCkHB_jK8,803
+wordle_ebarbeary-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wordle_ebarbeary-0.1.0.dist-info/top_level.txt,sha256=adlsjdgkxm3Zc979l_4jIDyGfIKbXqk9WT4uoA41QfI,7
+wordle_ebarbeary-0.1.0.dist-info/RECORD,,
