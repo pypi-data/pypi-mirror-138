@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pyTelegramBotCAPTCHA/__init__.py
+pyTelegramBotCAPTCHA/telebot_captcha.py
+pyTelegramBotCAPTCHA.egg-info/PKG-INFO
+pyTelegramBotCAPTCHA.egg-info/SOURCES.txt
+pyTelegramBotCAPTCHA.egg-info/dependency_links.txt
+pyTelegramBotCAPTCHA.egg-info/requires.txt
+pyTelegramBotCAPTCHA.egg-info/top_level.txt
+pyTelegramBotCAPTCHA/data/languages.json
+pyTelegramBotCAPTCHA/data/fonts/Cute_Font.ttf
+pyTelegramBotCAPTCHA/data/fonts/Love.ttf
+pyTelegramBotCAPTCHA/data/fonts/My_Unprofessional_Handwriting.ttf
+pyTelegramBotCAPTCHA/data/fonts/PlainAndSimple-Regular.ttf
+pyTelegramBotCAPTCHA/data/fonts/WinterLandByJd-Bold.ttf

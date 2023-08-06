@@ -1,0 +1,2 @@
+recursive-include pyTelegramBotCAPTCHA/data *.json
+recursive-include pyTelegramBotCAPTCHA/data *.ttf
