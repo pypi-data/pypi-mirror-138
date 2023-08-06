@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: howitzer
+Version: 0.8.0
+Summary: Tool for analysing sports betting and stock markets and other financial markets.
+Home-page: https://github.com/aaaelite21/howitzer
+Author: Alexander Angelo Ali
+Author-email: downtocrypto@gmail.com
+License: GNU General Public License v3
+Keywords: howitzer
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+# Howitzer
+
+Research and data analysis hub for various topics.
+
+Eventualy providing datasets as well as tools for them.
+
+## Guid
+
+### Unit Tests
+
+`python -m unittest discover -p "test_*.py"`
+
+### Install Local
+
+`pip install -e .`
+
+### Build
+
+`python setup.py sdist bdist_wheel`
+
+### Publish
+
+`twine upload dist/*`
+
+
