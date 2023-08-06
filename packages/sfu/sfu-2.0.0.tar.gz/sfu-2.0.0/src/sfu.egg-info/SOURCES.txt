@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+src/sfu/__init__.py
+src/sfu/sfu.py
+src/sfu.egg-info/PKG-INFO
+src/sfu.egg-info/SOURCES.txt
+src/sfu.egg-info/dependency_links.txt
+src/sfu.egg-info/top_level.txt
