@@ -1,0 +1,3 @@
+[console_scripts]
+schema2md = schema2md.cli:main
+
