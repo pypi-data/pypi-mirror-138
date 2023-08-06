@@ -1,0 +1,16 @@
+django_pivot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_pivot/histogram.py,sha256=N2WM9fKB5Jts59V6GTQYvvCYh9GH4CrLanWRSn5w9rA,4206
+django_pivot/pivot.py,sha256=EldPt1JlidmqXErpEQDlIlRkPt34X2Zv2LgnWHzk7Ak,2692
+django_pivot/utils.py,sha256=AiMlnVOQrsAxGL1PG8k-f_x5pNb54GXM9cbifImMWQ8,1610
+django_pivot/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_pivot/tests/test_mysql_settings.py,sha256=gzs9IHXoje9MNEI1nGnbggyRwPRmZJlnCtc93znai4E,449
+django_pivot/tests/test_postgres_settings.py,sha256=fKypmy_EAnS8DA3buAFiKlU6ApseX_vbS46KqJJ5n2s,449
+django_pivot/tests/test_sqlite_settings.py,sha256=TqXRGSFYNWkliYBcpMnZfEju06gUoI-vkYlp03Xn3gs,350
+django_pivot/tests/pivot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_pivot/tests/pivot/models.py,sha256=H8cYI2yRoth7cuntv3DazskQ6qg0VHlyDQIQJ68-3kA,757
+django_pivot/tests/pivot/test.py,sha256=lKJFQuf-93XbeYtobBiUT8xB-8b2BlPro1UbQQ20D3I,12722
+django_pivot-1.9.0.dist-info/LICENSE,sha256=cMl1MH5HcK0Snd-lo8E3-tb1XO3gAwa_hgJPrrnBSNo,1073
+django_pivot-1.9.0.dist-info/METADATA,sha256=HE0NYZyVXa4g0GaW-fmTc8w12HUSnLrkFZoe9kxphzA,10863
+django_pivot-1.9.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_pivot-1.9.0.dist-info/top_level.txt,sha256=gRT0WUT7vI4hQtgs2MLVDMXD_7JcBVbzsEtWZiX-m4Y,13
+django_pivot-1.9.0.dist-info/RECORD,,
