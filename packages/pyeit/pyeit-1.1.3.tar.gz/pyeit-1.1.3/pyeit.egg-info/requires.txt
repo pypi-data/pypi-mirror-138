@@ -1,0 +1,8 @@
+pathspec>=0.5.3
+pyeit
+setuptools
+numpy
+scipy
+matplotlib-base
+pandas
+shapely

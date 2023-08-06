@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pyeit
+Version: 1.1.3
+Summary: A Python Package for EIT
+Home-page: https://github.com/liubenyuan/pyeit
+Author: Benyuan Liu
+Author-email: liubenyuan@gmail.com
+License: BSD
+Project-URL: Download, https://pypi.org/project/pyeit/#files
+Project-URL: Source Code, https://github.com/liubenyuan/pyeit
+Keywords: eit
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+
+A Python Package for EIT
+
