@@ -1,0 +1,3 @@
+[ansys.tools.protoc_helper.proto_provider]
+google.base_protos:=grpc_tools._proto
+

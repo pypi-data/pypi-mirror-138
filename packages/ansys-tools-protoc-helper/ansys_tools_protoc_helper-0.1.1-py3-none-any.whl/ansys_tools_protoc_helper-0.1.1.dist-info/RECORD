@@ -1,0 +1,9 @@
+ansys/tools/protoc_helper/__init__.py,sha256=VF9MkLW6neKZn2GZlFxIhW3aBePADWh4M52u4G-ZAPw,234
+ansys/tools/protoc_helper/_compile_protos.py,sha256=AZjKwloge_XvWZd2FBT3P34b5AmiF5BNWNSrnM-8TAk,3012
+ansys/tools/protoc_helper/_distutils_overrides.py,sha256=kRqAWInPP_ncNWUCHhsjWw6BsOl-5lmm0jvqfsZnBxU,1626
+ansys/tools/protoc_helper/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ansys_tools_protoc_helper-0.1.1.dist-info/entry_points.txt,sha256=MixUixDVAPuJSUETVJOcaKEn_UtOP0DUrbJcz4AFmlw,82
+ansys_tools_protoc_helper-0.1.1.dist-info/LICENSE,sha256=q2LY-0-hseAc1SDA7rBn96IDi2SHenCzygJda8-7AAU,1089
+ansys_tools_protoc_helper-0.1.1.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+ansys_tools_protoc_helper-0.1.1.dist-info/METADATA,sha256=_rzNERM-1tLuYnwo_Wkhhk6vZ0NeFNg4y30oNShUGyo,5970
+ansys_tools_protoc_helper-0.1.1.dist-info/RECORD,,
