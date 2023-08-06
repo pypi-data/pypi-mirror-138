@@ -1,0 +1,5 @@
+adjust_precision_for_schema/__init__.py,sha256=JHlfoEaVKRq7QXBcxF7P21cfB7WYFIPrUJkjc7gGvGI,144
+adjust_precision_for_schema/schema_adjuster.py,sha256=zRWZj4rHa41ncUTqxhOW9oRhMxm84vHPDz7aFaMsRXU,2623
+adjust_precision_for_schema-0.3.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+adjust_precision_for_schema-0.3.4.dist-info/METADATA,sha256=j6LBYp1pGloQCW5Kks-cT_hwZNFvn523cRSGRIt5aZ0,593
+adjust_precision_for_schema-0.3.4.dist-info/RECORD,,
