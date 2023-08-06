@@ -1,0 +1,5 @@
+py-cord
+
+[voice]
+py-cord[voice]
+youtube-dl

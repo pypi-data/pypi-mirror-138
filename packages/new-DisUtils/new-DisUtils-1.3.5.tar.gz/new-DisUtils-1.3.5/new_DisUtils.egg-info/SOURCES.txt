@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+DiscordUtils/InviteTracker.py
+DiscordUtils/Music.py
+DiscordUtils/Pagination.py
+DiscordUtils/__init__.py
+new_DisUtils.egg-info/PKG-INFO
+new_DisUtils.egg-info/SOURCES.txt
+new_DisUtils.egg-info/dependency_links.txt
+new_DisUtils.egg-info/requires.txt
+new_DisUtils.egg-info/top_level.txt
