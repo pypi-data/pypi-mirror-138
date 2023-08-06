@@ -1,0 +1,22 @@
+2022-02-14 16:57:50,471 [MainThread] INFO  commons.py::log_init(@Line:73) Logger init. filename=application.log level=10 mode=a append=False 
+2022-02-14 16:57:50,472 [MainThread] INFO  properties.py::_parse(@Line:144) Successfully loaded 0 properties from:
+	=>/Users/hjunior/GIT-Repository/GitHub/hspylib/modules/cfman/src/main/cfman/resources/application.properties 
+2022-02-14 16:57:50,472 [MainThread] INFO  app_config.py::__init__(@Line:61) 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+AppConfigs
+  |-SourceDir = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/cfman/src/main/cfman
+  |-ResourceDir = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/cfman/src/main/cfman/resources
+  |-LogFile = /Users/hjunior/GIT-Repository/GitHub/hspylib/modules/cfman/src/main/cfman/resources/log/application.log
+  |-AppProperties:
+   \-
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+2022-02-14 16:57:50,472 [MainThread] INFO  application.py::run(@Line:89) Run started 2022-02-14 16:57:50.472877 
+2022-02-14 16:57:50,473 [MainThread] INFO  __main__.py::_main(@Line:56) HSPyLib Cloud Foundry Manager v('0', '9', '5')
+
+Settings ==============================
+        STARTED: 2022-02-14 16:57:50
+ 
+2022-02-14 16:57:50,473 [MainThread] INFO  terminal.py::shell_exec(@Line:33) Executing shell command: cf orgs 
+2022-02-14 16:57:50,608 [MainThread] ERROR terminal.py::shell_exec(@Line:39) Failed => Command '['cf', 'orgs']' returned non-zero exit status 1. 
+2022-02-14 16:57:51,615 [MainThread] INFO  application.py::run(@Line:99) Run finished 2022-02-14 16:57:51.615835 
+2022-02-14 16:57:51,616 [MainThread] INFO  application.py::_cleanup(@Line:137) cleanup was not overridden 
