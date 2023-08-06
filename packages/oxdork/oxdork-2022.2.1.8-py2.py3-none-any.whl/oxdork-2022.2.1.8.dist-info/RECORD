@@ -1,0 +1,13 @@
+oxdork/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oxdork/banner.py,sha256=HjrFWWXqBNP7vDDbmK1AB_iKY01yYUnDC17pORZecVw,492
+oxdork/colors.py,sha256=dXGKXSBtSKIimhgzE-Dt5lQFPepqe-fqhXbePzlUnQE,362
+oxdork/default.py,sha256=8SdZBGqT4PbNtlLL_uDsd6Lnt8dvO4hHyf_HlGdNW6A,566
+oxdork/dump.py,sha256=ULb76U6BS02vmAHaKGOVslnnJP7rjqkpELWihTYM6u4,123
+oxdork/main.py,sha256=h49ykwXrjFgN9pTPnK2aj_ZeBHfPKHWHkD7cY_7aMyw,2494
+oxdork/minimal.py,sha256=rxcVs32V8vpYfcmyZrqc_upU_8ZjzYTQFViZbzFrD1U,216
+oxdork-2022.2.1.8.dist-info/LICENSE,sha256=4lVYgfcBf8v44_vhoqHWJiG9RZ2gGCmNYbUdYz4G10Q,1069
+oxdork-2022.2.1.8.dist-info/METADATA,sha256=QYUYwDPCa76O4u2PFgKpEFRX1-Xso_1_IRhITwb19fU,4239
+oxdork-2022.2.1.8.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+oxdork-2022.2.1.8.dist-info/entry_points.txt,sha256=ZFSgBNwkBfMSGOPewlNR0oIf3qPdR1WCM0araAsM0p0,45
+oxdork-2022.2.1.8.dist-info/top_level.txt,sha256=fDp2A0FyecRRF51BENKdtSs5T0e31fIKaPnI20tFofw,7
+oxdork-2022.2.1.8.dist-info/RECORD,,
