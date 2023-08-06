@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+fawoc/__init__.py
+fawoc/fawoc.py
+fawoc/terms.py
+fawoc/utils.py
+fawoc/version.py
+fawoc.egg-info/PKG-INFO
+fawoc.egg-info/SOURCES.txt
+fawoc.egg-info/dependency_links.txt
+fawoc.egg-info/entry_points.txt
+fawoc.egg-info/requires.txt
+fawoc.egg-info/top_level.txt
