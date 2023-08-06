@@ -1,0 +1,14 @@
+magna/__init__.py,sha256=XQJfIvniLX40cMHmFx3K18AnlcbLbrDAXSTvvWY9pew,479
+magna/config.py,sha256=j9sXsHblOJI3-cX2-r5hQlHMa6lk-l3omg62P3_kRFA,195
+magna/io.py,sha256=7h14y47I9FtO8pn28Aw9lro43KahJntqHtRSylZdS5k,2026
+magna/dataset/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magna/dataset/gunc/__init__.py,sha256=nrB35HaItdX7wlCcb2KlprEPBvCOmrukv3mjSUspI8c,2302
+magna/gtdb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magna/gtdb/enums.py,sha256=endnWkGni7nJcHySjbGpj-voMQeZnqg3zA8JzxKaRrY,141
+magna/gtdb/genome.py,sha256=KAy1mNdbh-RCw9iysFFMG-BRTtMSGmUI8_gzok0q0kE,1738
+magna/gtdb/metadata.py,sha256=fdsnLjIhihe-XDnx0rNqBS8PP6_637d_CJsXbWagDEc,3408
+magna-1.1.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+magna-1.1.0.dist-info/METADATA,sha256=LvNvhbC4D0-WMh8YE5BESS1GNMS_d9FKz2Y8qL01CAo,1205
+magna-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+magna-1.1.0.dist-info/top_level.txt,sha256=FQfDYlxnN64B7RY2XaKHmJlTVyE0_9jL2rTGdEaazms,6
+magna-1.1.0.dist-info/RECORD,,
