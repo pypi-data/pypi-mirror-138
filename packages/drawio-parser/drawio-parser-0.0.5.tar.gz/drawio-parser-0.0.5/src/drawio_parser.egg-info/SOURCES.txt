@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+src/drawio_parser/__init__.py
+src/drawio_parser/component.py
+src/drawio_parser/diagram.py
+src/drawio_parser/parser.py
+src/drawio_parser.egg-info/PKG-INFO
+src/drawio_parser.egg-info/SOURCES.txt
+src/drawio_parser.egg-info/dependency_links.txt
+src/drawio_parser.egg-info/top_level.txt
