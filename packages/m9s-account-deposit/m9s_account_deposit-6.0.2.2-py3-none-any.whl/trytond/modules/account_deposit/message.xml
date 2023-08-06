@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_erase_party_deposit">
+            <field name="text">You cannot erase party "%(party)s" while they have deposit at company "%(company)s".</field>
+        </record>
+        <record model="ir.message" id="msg_deposit_not_enough">
+            <field name="text">The account "%(account)s" has not enough deposit from party "%(party)s".</field>
+        </record>
+        <record model="ir.message" id="msg_missing_deposit_account">
+            <field name="text">No account for deposit settlement configured in the accounting configuration.</field>
+        </record>
+        <record model="ir.message" id="msg_deposit_settlement">
+            <field name="text">Deposit settlement</field>
+        </record>
+        <record model="ir.message" id="msg_deposit_changed">
+            <field name="text">The available deposit for party "%(party)s" is less than the deposit used.
+
+To re-calculate the used deposit set the invoice first back to draft. When proceeding the party will have an overdue deposit.</field>
+        </record>
+    </data>
+</tryton>
