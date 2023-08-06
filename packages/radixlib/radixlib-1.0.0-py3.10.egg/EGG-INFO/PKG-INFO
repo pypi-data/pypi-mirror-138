@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: radixlib
+Version: 1.0.0
+Summary: A Python API wrapper for the Gateway API of the Radix Blockchain.
+Home-page: https://github.com/0xOmarA/RadixLib
+Author: Omar Abdulla
+Author-email: OmarAbdulla7@hotmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/0xOmarA/RadixLib/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Natural Language :: English
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# RadixLib
+
+![](./images/frame1.svg)
+
+![](https://github.com/0xOmarA/RadixLib/actions/workflows/tests.yml/badge.svg "Tests Badge")
+[![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
+[![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
+[![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
+[![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/)
+
+## Introduction
+
+RadixLib is an API wrapper for the Radix Gateway API which allows for a quick, easy, and pythonic way to interact with the Radix blockchain directly from python. The following are some of the features offered in this python package:
+
+* Connecting to the Radix blockchain through the Gateway API.
+* Connecting to custom Radix networks (i.e. stokenet, localnet, devnets or any custom network.)
+* Querying the Gateway API for information (example: account balances, transactions, etc...)
+* Building, signing, and submitting transactions to the blockchain.
+* Creating signers to hold the seed phrase and derive public and private keys.
+* Loading signers from the mnemonic phrase, seed phrase or the `wallet.json` from the Radix desktop wallet.
+* Creating signers from random mnemonic phrases.
+* A powerful derivations module for all kinds of derivations needed in Radix.
+
+The features listed above are only a small subset of the features offered by this python package. This wrapper is fully compatible with the Gateway API which means that all of the operations that can be done through the Gateway API are supported by this package. This package offerers so much more and can in theory be used to build a python version of the [Radix desktop wallet](https://github.com/radixdlt/olympia-wallet).
+
+## Getting Started
+
+### Installing the Package
+
+The radixlib package is available on [pypi](https://pypi.org/project/RadixLib/) which means that it can be installed through pip. Alternatively, the package may be installed and setup from the source code. The sections below outline how these two methods may be carried out.
+
+#### Method 1: Setting up the package through pip
+The installation of this package through pip is as simple as running the following command
+```shell
+pip3 install radixlib
+```
+
