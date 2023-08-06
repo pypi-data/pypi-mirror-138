@@ -1,0 +1,13 @@
+LICENSE,sha256=Oeei1n4_A86z4bBHOSexuy74D-zquzdZ-g7OlLxJNbM,1069
+pytest_durations/__init__.py,sha256=rx57AdWN3wNf-gqV36qb_pdFLneVs7zJsFvi6mdxkjA,109
+pytest_durations/helpers.py,sha256=o4aN31154d5BNADzvNGg_E9ZKYgCd9ZeGqSdWKytz00,725
+pytest_durations/measure.py,sha256=KGRxemcTsd1XarM43OgP7eJy1wltkF9r1ARkSOv_0H0,866
+pytest_durations/options.py,sha256=sj0cMEgNspBYnHzyBbKYDCyq_e8i5H9Ij64UfFY82M8,1091
+pytest_durations/plugin.py,sha256=_xjLQBi6dawkT8zmlt3_xdVNlnk9l1NvEz6P76ce8Ek,6586
+pytest_durations/reporting.py,sha256=zYJCyghNmhtQJuddcOYKBrqk_2t94i1KAJk5UIQDgz4,3162
+pytest_durations/ticker.py,sha256=S2oOlxjof5mSrVifvildAiknzFZ7jrLc9_PPIOboji8,312
+pytest_durations-1.0.1.dist-info/entry_points.txt,sha256=4WlJWgfCLvwPzQ-pWnn7kZRG5PpDWWoqvhhuz_PTfQU,46
+pytest_durations-1.0.1.dist-info/LICENSE,sha256=Oeei1n4_A86z4bBHOSexuy74D-zquzdZ-g7OlLxJNbM,1069
+pytest_durations-1.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pytest_durations-1.0.1.dist-info/METADATA,sha256=OSu5-mn_b1BSNlIwWrZoxGSCSI6FlaoSnLdapJmrrOs,3753
+pytest_durations-1.0.1.dist-info/RECORD,,
