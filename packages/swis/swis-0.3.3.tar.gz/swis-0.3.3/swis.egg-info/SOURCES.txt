@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+swis.egg-info/PKG-INFO
+swis.egg-info/SOURCES.txt
+swis.egg-info/dependency_links.txt
+swis.egg-info/entry_points.txt
+swis.egg-info/requires.txt
+swis.egg-info/top_level.txt
