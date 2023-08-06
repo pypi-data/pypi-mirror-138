@@ -1,0 +1,18 @@
+adb_5:
+  "adb -s {{contents.0}} shell CLASSPATH=/sdcard/monkeyq.jar:/sdcard/framework.jar:/sdcard/fastbot-thirdpart.jar exec app_process /system/bin com.android.commands.monkey.Monkey -p {{contents.1}} --agent reuseq --running-minutes 5 --throttle 50 -v -v --bugreport --output-directory /sdcard/stabilityTest log/crash"
+
+adb_10:
+  "adb -s {{contents.0}} shell CLASSPATH=/sdcard/monkeyq.jar:/sdcard/framework.jar:/sdcard/fastbot-thirdpart.jar exec app_process /system/bin com.android.commands.monkey.Monkey -p {{contents.1}} --agent reuseq --running-minutes 10 --throttle 100 -v -v --bugreport --output-directory /sdcard/stabilityTest log/crash"
+
+adb_15:
+  "adb -s {{contents.0}} shell CLASSPATH=/sdcard/monkeyq.jar:/sdcard/framework.jar:/sdcard/fastbot-thirdpart.jar exec app_process /system/bin com.android.commands.monkey.Monkey -p {{contents.1}} --agent reuseq --running-minutes 15 --throttle 150 -v -v --bugreport --output-directory /sdcard/stabilityTest log/crash"
+
+adb_20:
+  "adb -s {{contents.0}} shell CLASSPATH=/sdcard/monkeyq.jar:/sdcard/framework.jar:/sdcard/fastbot-thirdpart.jar exec app_process /system/bin com.android.commands.monkey.Monkey -p {{contents.1}} --agent reuseq --running-minutes 20 --throttle 200 -v -v --bugreport --output-directory /sdcard/stabilityTest log/crash"
+
+adb_25:
+  "adb -s {{contents.0}} shell CLASSPATH=/sdcard/monkeyq.jar:/sdcard/framework.jar:/sdcard/fastbot-thirdpart.jar exec app_process /system/bin com.android.commands.monkey.Monkey -p {{contents.1}} --agent reuseq --running-minutes 25 --throttle 250 -v -v --bugreport --output-directory /sdcard/stabilityTest log/crash"
+
+adb_30:
+  "adb -s {{contents.0}} shell CLASSPATH=/sdcard/monkeyq.jar:/sdcard/framework.jar:/sdcard/fastbot-thirdpart.jar exec app_process /system/bin com.android.commands.monkey.Monkey -p {{contents.1}} --agent reuseq --running-minutes 30 --throttle 300 -v -v --bugreport --output-directory /sdcard/stabilityTest log/crash"
+

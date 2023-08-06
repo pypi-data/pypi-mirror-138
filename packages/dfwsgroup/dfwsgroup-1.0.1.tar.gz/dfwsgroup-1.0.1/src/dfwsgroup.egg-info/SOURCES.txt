@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/dfwsgroup/__init__.py
+src/dfwsgroup/main.py
+src/dfwsgroup.egg-info/PKG-INFO
+src/dfwsgroup.egg-info/SOURCES.txt
+src/dfwsgroup.egg-info/dependency_links.txt
+src/dfwsgroup.egg-info/top_level.txt
+src/dfwsgroup/android/__init__.py
+src/dfwsgroup/android/handle.py
+src/dfwsgroup/android/script.py
+src/dfwsgroup/android/Fastbot_Android/fastbot-thirdpart.jar
+src/dfwsgroup/android/Fastbot_Android/framework.jar
+src/dfwsgroup/android/Fastbot_Android/monkeyq.jar
+src/dfwsgroup/data/command.yml
