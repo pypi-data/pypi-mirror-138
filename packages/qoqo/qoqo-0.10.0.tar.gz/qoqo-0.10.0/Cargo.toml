@@ -1,0 +1,77 @@
+[build-dependencies]
+proc-macro2 = "1.0"
+quote = "1.0"
+
+[build-dependencies.syn]
+features = ["full", "visit"]
+version = "1.0"
+
+[dependencies]
+bincode = "1.3"
+ndarray = "0.15"
+num-complex = "0.4"
+numpy = "=0.15"
+serde_json = "1.0"
+thiserror = "1.0"
+
+[dependencies.pyo3]
+features = ["num-complex"]
+version = "0.15"
+
+[dependencies.qoqo-macros]
+path = "local_dependencies/qoqo-macros"
+version = "0.10"
+
+[dependencies.qoqo_calculator]
+version = "0.6"
+
+[dependencies.qoqo_calculator_pyo3]
+default-features = false
+version = "0.6"
+
+[dependencies.roqoqo]
+features = ["serialize", "overrotate"]
+path = "local_dependencies/roqoqo"
+version = "0.10"
+
+[dependencies.serde]
+features = ["derive"]
+version = "1.0"
+
+[dev-dependencies]
+nalgebra = "0.30"
+test-case = "1.1.0"
+
+[features]
+default = ["extension-module"]
+extension-module = ["pyo3/extension-module"]
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+doctest = false
+name = "qoqo"
+path = "src/lib.rs"
+
+[package]
+authors = ["HQS Quantum Simulations <info@quantumsimulations.de>"]
+categories = ["science", "simulation", "ffi"]
+description = "Quantum computing circuit toolkit. Python interface of roqoqo"
+documentation = "https://docs.rs/qoqo/"
+edition = "2021"
+exclude = ["tests*", "examples*", "docs*", "*.code-workspace"]
+homepage = "https://github.com/HQSquantumsimulations/qoqo"
+include = ["src*", "LICENSE", "qoqo*", "build.rs", "README.md", "pyproject.toml"]
+license = "Apache-2.0"
+name = "qoqo"
+readme = "README.md"
+repository = "https://github.com/HQSquantumsimulations/qoqo"
+rust-version = "1.56"
+version = "0.10.0"
+[package.metadata.docs.rs]
+no-default-features = true
+
+[package.metadata.maturin]
+maintainer = "HQS Quantum Simulations GmbH"
+maintainer-email = "info@quantumsimulations.de"
+requires-dist = ["numpy", "qoqo_calculator_pyo3>=0.6"]
+requires-python = ">=3.7"
