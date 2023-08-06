@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: tmd-layer
+Version: 0.0.2
+Summary: TMD Layer
+Home-page: https://github.com/shubham745/tmd-layer
+Author: Shubham Agarwal
+Author-email: shubham745@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: artificial intelligence,Stochastic Differential Equation,attention mechanism
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
