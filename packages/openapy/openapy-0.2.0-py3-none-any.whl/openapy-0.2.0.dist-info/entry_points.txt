@@ -1,0 +1,3 @@
+[console_scripts]
+openapy=openapy.main:main
+
