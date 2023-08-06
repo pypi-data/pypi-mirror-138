@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        strip-hidden-form-values=strip_hidden_form_values.cli:cli
+    
