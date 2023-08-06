@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+drf_social_auth.egg-info/PKG-INFO
+drf_social_auth.egg-info/SOURCES.txt
+drf_social_auth.egg-info/dependency_links.txt
+drf_social_auth.egg-info/top_level.txt
+rest_framework_social_auth/__init__.py
+rest_framework_social_auth/adapter.py
+rest_framework_social_auth/google.py
+rest_framework_social_auth/serializers.py
+rest_framework_social_auth/views.py
