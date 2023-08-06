@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: SmartPow
+Version: 0.0.0rc2
+Summary: An octoprint plugin for turning off and on your printers power supply
+Home-page: https://github.com/amitSA/OctoPrint-Smart-Pow
+Author: Amit Saxena
+Author-email: amitsax10@gmail.com
+License: AGPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev

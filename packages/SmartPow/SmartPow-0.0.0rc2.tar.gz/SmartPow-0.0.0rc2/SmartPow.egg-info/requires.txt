@@ -1,0 +1,11 @@
+OctoPrint
+python-kasa
+funcy
+
+[dev]
+pytest-mock
+pytest
+voluptuous
+pytest-asyncio
+black
+pylint
