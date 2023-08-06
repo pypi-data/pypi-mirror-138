@@ -1,0 +1,4 @@
+tensorflow
+keras
+pillow
+tensorboard_plugin_profile
