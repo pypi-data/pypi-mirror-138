@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: turvallisuusneuvonta
+Version: 2022.2.14
+Summary: Security advisory (Finnish: turvallisuusneuvonta) audit tool.
+Home-page: https://github.com/sthagen/turvallisuusneuvonta
+Author: Stefan Hagen
+Author-email: stefan@hagen.link
+Maintainer: Stefan Hagen
+Maintainer-email: stefan@hagen.link
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/sthagen/turvallisuusneuvonta/issues
+Project-URL: Documentation, https://sthagen.github.io/turvallisuusneuvonta
+Project-URL: Source Code, https://github.com/sthagen/turvallisuusneuvonta
+Keywords: csaf,developer-tools,validation,verification
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jmespath (>=0.10.0)
+Requires-Dist: langcodes (>=3.3.0)
+Requires-Dist: lazr.uri (>=1.0.6)
+Requires-Dist: orjson (>=3.6.5)
+Requires-Dist: pydantic (>=1.8.2)
+Requires-Dist: typer (>=0.4.0)
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: hypothesis ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-flake8 ; extra == 'dev'
+Requires-Dist: types-jmespath ; extra == 'dev'
+
+# turvallisuusneuvonta
+
+[![license](https://img.shields.io/github/license/sthagen/turvallisuusneuvonta.svg?style=flat)](https://github.com/sthagen/turvallisuusneuvonta/blob/default/LICENSE)
+[![version](https://img.shields.io/pypi/v/turvallisuusneuvonta.svg?style=flat)](https://pypi.python.org/pypi/turvallisuusneuvonta/)
+[![downloads](https://pepy.tech/badge/turvallisuusneuvonta/month)](https://pepy.tech/project/turvallisuusneuvonta)
+[![wheel](https://img.shields.io/pypi/wheel/turvallisuusneuvonta.svg?style=flat)](https://pypi.python.org/pypi/turvallisuusneuvonta/)
+[![supported-versions](https://img.shields.io/pypi/pyversions/turvallisuusneuvonta.svg?style=flat)](https://pypi.python.org/pypi/turvallisuusneuvonta/)
+[![supported-implementations](https://img.shields.io/pypi/implementation/turvallisuusneuvonta.svg?style=flat)](https://pypi.python.org/pypi/turvallisuusneuvonta/)
+
+Security advisory (Finnish: turvallisuusneuvonta) audit tool.
+
+## Status
+
+Experimental.
+
+**Note**: The default branch is default.
+
+
