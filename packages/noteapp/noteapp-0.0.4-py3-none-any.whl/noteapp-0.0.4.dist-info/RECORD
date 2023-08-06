@@ -1,0 +1,9 @@
+noteapp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+noteapp/games/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+noteapp/games/base/__init__.py,sha256=gzbC67MSdwZyRaysHZMHQhaXz9Z7pzeaZEqQPU-d-IQ,56
+noteapp/games/game2048/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+noteapp/games/game2048/core.py,sha256=DIqUaoF-hfHOp_QULZwcxBKtAJdnqhahYs0-tLn3x78,12807
+noteapp-0.0.4.dist-info/METADATA,sha256=y_fB3jkVhrmw8VbSLcQUCsZPFO-PM5NknuyaelauDQg,223
+noteapp-0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+noteapp-0.0.4.dist-info/top_level.txt,sha256=lhWIzLLemFf0tkBlqtem1e_BDpvhRMfjBjA0D1ReAew,8
+noteapp-0.0.4.dist-info/RECORD,,
