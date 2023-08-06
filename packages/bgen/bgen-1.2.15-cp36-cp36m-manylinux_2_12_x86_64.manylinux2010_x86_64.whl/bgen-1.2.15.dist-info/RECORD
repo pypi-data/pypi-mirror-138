@@ -1,0 +1,9 @@
+bgen/index.py,sha256=GO_MYDUl1uCU0t0bhTzPRdVUyd-V9vOUEeLuGQWu0iI,4188
+bgen/__init__.py,sha256=ZlAA18GglePROJMeJBq_03LiVvdXhhQ8SC-OA7r6v4k,91
+bgen/reader.cpython-36m-x86_64-linux-gnu.so,sha256=3ELzdmpWuwchG7hoXlZonUv7s6ZfptB04WSyFdNlJbg,6070520
+bgen.libs/libz-eb09ad1d.so.1.2.3,sha256=Occ38Rdxpnqlv4lgkj2inrjERnLkx0ig9Kb0Ce5GMQ4,92080
+bgen-1.2.15.dist-info/LICENSE.txt,sha256=8xqsNFTZC7SFBJM4k6bQw8tPn0zUKQJpZwdY6zSFBW0,1053
+bgen-1.2.15.dist-info/METADATA,sha256=viIH19wh1mTUagJbVKRZqbk9jVWBXEIWt971l9H0MOc,4167
+bgen-1.2.15.dist-info/top_level.txt,sha256=EoVKryxjZc0vkwDWjnOK0IP3dN4fg8YiKIkBcWB9pqw,5
+bgen-1.2.15.dist-info/RECORD,,
+bgen-1.2.15.dist-info/WHEEL,sha256=ms4WwfbDRLth-b9jYPIN7tUWkEjgGlaTOdogdRpChQA,150
