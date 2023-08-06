@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: superposed-pulses
+Version: 1.1
+Summary: Python scripts used by the fusion energy group at UiT The Arctic University of Norway.
+Home-page: https://github.com/uit-cosmo/filtered-point-process
+Download-URL: https://github.com/uit-cosmo/3ppy/archive/refs/tags/1.1.tar.gz
+Author: Juan Manuel Losada
+Author-email: juan.m.losada@uit.no
+License: MiT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Poisson point process
+Collection of tools designed to generate realizations of the Poisson point process.
+Examples of use are located under fppy/model/example.py
+
+
+
