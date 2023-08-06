@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+src/sdktestadd/__init__.py
+src/sdktestadd/main.py
+src/sdktestadd.egg-info/PKG-INFO
+src/sdktestadd.egg-info/SOURCES.txt
+src/sdktestadd.egg-info/dependency_links.txt
+src/sdktestadd.egg-info/requires.txt
+src/sdktestadd.egg-info/top_level.txt
+src/sdktestadd/core/__init__.py
+src/sdktestadd/core/get_len.py
+test/test.py
