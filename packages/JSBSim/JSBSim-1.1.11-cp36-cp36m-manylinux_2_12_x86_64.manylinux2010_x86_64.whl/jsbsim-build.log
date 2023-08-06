@@ -1,0 +1,4 @@
+building 'jsbsim' extension
+creating build/temp.linux-x86_64-3.6
+gcc -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isrc -I/opt/python/cp36-cp36m/include/python3.6m -c jsbsim.cxx -o build/temp.linux-x86_64-3.6/jsbsim.o -std=c++11
+g++ -pthread -shared build/temp.linux-x86_64-3.6/jsbsim.o -L../src -lJSBSim -lm -o build/lib.linux-x86_64-3.6/jsbsim.cpython-36m-x86_64-linux-gnu.so
