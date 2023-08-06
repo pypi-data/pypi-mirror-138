@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: dronecan-gui-tool
+Version: 1.2.5
+Summary: DroneCAN Bus Management and Diagnostics App
+Home-page: http://dronecan.org
+Author: DroneCAN Development Team
+Author-email: dronecan.devel@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Human Machine Interfaces
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: X11 Applications
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: MacOS X
+License-File: LICENSE
+Requires-Dist: setuptools (>=18.5)
+Requires-Dist: dronecan (>=1.0.10)
+Requires-Dist: pyserial (>=3.0)
+Requires-Dist: pymavlink (>=2.4.20)
+Requires-Dist: qtawesome (>=0.3.1)
+Requires-Dist: qtconsole (>=4.2.0)
+Requires-Dist: pyyaml (>=5.1)
+Requires-Dist: easywebdav (>=1.2)
+Requires-Dist: numpy
+Requires-Dist: pyqt5
+Requires-Dist: traitlets
+Requires-Dist: jupyter-client
+Requires-Dist: ipykernel
+Requires-Dist: pygments
+Requires-Dist: qtpy
+Requires-Dist: pyqtgraph
+
+UNKNOWN
+
