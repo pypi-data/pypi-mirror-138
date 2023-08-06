@@ -1,0 +1,10 @@
+serialmsgpacketizer/__init__.py,sha256=ext-axhIaoUeOqvoRF_hKP6rzXw3d2nsPaGGGsuMnHo,144
+serialmsgpacketizer/console.py,sha256=WrW76Us_6NAdvEqcff9Tl2NfjjFtyY6zLq58ZyxibR4,1621
+serialmsgpacketizer/defaultconfig.py,sha256=nAo1fgCB8dci1oY0H-TL7KMUlyVz1KJmtMTu2sH9bSE,354
+serialmsgpacketizer/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serialmsgpacketizer/service.py,sha256=BMbRz47duwi6C_bXl_Wss4qp9FB3Qf2eePZtjY5Wqz4,5847
+serialmsgpacketizer-0.3.1.dist-info/entry_points.txt,sha256=If8t3Rf5o4DFdCRuOcwULJdmhm6Fh7QMZ658tMHD68c,91
+serialmsgpacketizer-0.3.1.dist-info/LICENSE,sha256=QuAI2NmhykatoRKWM1V8ssD1qpWfaeI5ZuwJRjYCG9c,1072
+serialmsgpacketizer-0.3.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+serialmsgpacketizer-0.3.1.dist-info/METADATA,sha256=m6CK6pmYNdXRjNzaLPW_rGHJTDY3M9njEHRBEd6Nfvo,4373
+serialmsgpacketizer-0.3.1.dist-info/RECORD,,
