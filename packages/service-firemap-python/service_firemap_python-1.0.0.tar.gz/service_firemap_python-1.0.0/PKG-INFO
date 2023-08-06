@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: service_firemap_python
+Version: 1.0.0
+Summary: FireMap data microservice in Python
+Home-page: https://gitlab.com/eic-stopfires/service-firemap-python
+License: UNKNOWN
+Description: 
+        FireMap data microservice in Python
+        ----------------------
+        
+        
+Platform: any
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
