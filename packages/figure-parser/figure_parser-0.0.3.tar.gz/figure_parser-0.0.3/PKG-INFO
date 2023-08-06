@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: figure-parser
+Version: 0.0.3
+Summary: Parser for figure
+Home-page: https://github.com/FigureHook/figure_parser
+License: MIT
+Keywords: parser,figure
+Author: Elton Chou
+Author-email: plscd748@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: PyYAML (>=5.2,<6.0)
+Requires-Dist: Sphinx (>=4.0.3,<5.0.0); extra == "docs"
+Requires-Dist: aiohttp (>=3.7.4,<4.0.0)
+Requires-Dist: beautifulsoup4 (>=4.9.3)
+Requires-Dist: feedparser (>=6.0.8,<7.0.0)
+Requires-Dist: furo (>=2021.7.5-beta.38,<2022.0.0); extra == "docs"
+Requires-Dist: lxml (>=4.6.5)
+Requires-Dist: pytz (>=2021.1,<2022.0)
+Requires-Dist: requests (>=2.25.1)
+Requires-Dist: sphinx-autodoc-typehints (>=1.12.0,<2.0.0); extra == "docs"
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Project-URL: Repository, https://github.com/FigureHook/figure_parser
+Description-Content-Type: text/markdown
+
+[![Pypi](https://img.shields.io/pypi/pyversions/figure_parser.svg?style=flat-square)](https://pypi.org/project/figure_parser/)
+[![Pypi](https://img.shields.io/pypi/v/figure_parser.svg?style=flat-square)](https://pypi.org/project/figure_parser/)
+[![CI](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FFigureHook%2Ffigure_parser%2Fbadge%3Fref%3Dmain&style=flat-square)](https://actions-badge.atrox.dev/FigureHook/figure_parser/goto?ref=main)
+[![Coverage](https://img.shields.io/coveralls/github/FigureHook/figure_parser?style=flat-square)](https://coveralls.io/github/FigureHook/figure_parser)
+
+## Maker List
+|                                      | Product parser | Delay parser | Shipment parser |
+| ------------------------------------ | -------------- | ------------ | --------------- |
+| [GSC](https://www.goodsmile.info/)   | V              |              | V               |
+| [Alter](https://alter-web.jp/)       | V              |              |                 |
+| [native](https://www.native-web.jp/) | V              |              |                 |
+| [F:NEX](https://fnex.jp/) |                |              |                 |
+| [SKYTUBE](https://skytube.jp/) |                |              |                 |
+| [quesQ](https://www.quesq.net/) |                |              |                 |
+| [AMAKUNI](http://amakuni.info/) |                |              |                 |
+| [alphamax](https://alphamax.jp/) |                |              |                 |
+| [ORCATORYS](http://orcatoys.com/) |                |              |                 |
+| [FLARE](https://www.flare-web.jp/) |                |              |                 |
+| [spiritale](https://spiritale.jp/) |                |              |                 |
+| [TokyoFigure](https://tokyofigure.jp/) |                |              |                 |
+| [daikikougyou](https://daikikougyou.com/) |                |              |                 |
+| [OrchidSeed](http://www.orchidseed.co.jp/) |                |              |                 |
+| [union-creative](https://union-creative.jp/) |                |              |                 |
+| [alphaomega](https://www.alphaomega-web.jp/) |                |              |                 |
+| [PLUM](https://www.pmoa.co.jp/product/fi.html) |                |              |                 |
+| [WAVE](https://www.hobby-wave.com/products-cat/figure/) |                |              |                 |
+| [KOTOBUKIYA](https://www.kotobukiya.co.jp/product-category/figure/) |                |              |                 |
+| [MegaHouse](https://www.megahouse.co.jp/products/highqualityfigure/) |                |              |                 |
+
+## Shop List
+- [ ] HobbyJapan
+- [ ] amiami
+- [ ] toranoana
+- [ ] melonbooks
