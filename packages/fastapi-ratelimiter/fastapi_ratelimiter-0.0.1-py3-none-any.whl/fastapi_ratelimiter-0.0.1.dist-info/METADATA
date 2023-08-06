@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: fastapi-ratelimiter
+Version: 0.0.1
+Summary: Redis-based rate-limiting for FastAPI
+Home-page: https://github.com/GLEF1X/fastapi-ratelimit
+Keywords: python,fastapi,asgi,asyncio,aiohttp,ratelimit,redis
+Author: GLEF1X
+Maintainer: GLEF1X
+Maintainer-email: glebgar567@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aioredis (>=2.0.1,<3.0.0)
+Requires-Dist: fastapi (>=0.73.0,<0.74.0)
+Project-URL: Repository, https://github.com/GLEF1X/fastapi-ratelimit
+Description-Content-Type: text/markdown
+
+# FastAPI Ratelimiter
+
+[![PyPI version](https://img.shields.io/pypi/v/fastapi-ratelimiter.svg)]
+
+**Documentation**: https://fastapi-ratelimit.readthedocs.io/en/latest/ 
+
+## Quick start:
+
+```python
+
+import asyncio
+
+import aioredis
+import uvicorn
+from fastapi import FastAPI, Depends
+from starlette.responses import JSONResponse
+
+from fastapi_ratelimiter import RateLimited, RedisDependencyMarker
+from fastapi_ratelimiter.strategies import BucketingRateLimitStrategy
+
+app = FastAPI()
+redis = aioredis.from_url("redis://localhost", decode_responses=True, encoding="utf-8")
+
+
+@app.get(
+    "/some_expensive_call", response_class=JSONResponse,
+    dependencies=[
+        Depends(RateLimited(BucketingRateLimitStrategy(rate="10/60s")))
+    ]
+)
+async def handle_test_endpoint():
+    await asyncio.sleep(5)
+    return {"hello": "world"}
+
+
+app.dependency_overrides[RedisDependencyMarker] = lambda: redis
+
+uvicorn.run(app)
+
+```
