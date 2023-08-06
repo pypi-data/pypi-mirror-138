@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: ett
+Version: 0.0.2
+Summary: Efficient Torch Tools
+Home-page: https://pypi.org/project/ett/
+Author: ETT Developers
+Author-email: wellshark.net@gmail.com
+License: MIT-0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
