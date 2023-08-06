@@ -1,0 +1,10 @@
+
+{{ content_above }} 
+
+{{ action_button_text or "Link"}}: {{ action_link }}
+
+{{ content_below or "" }}
+
+{% if sender %}Best regards, {{sender}}{% endif %}
+{{ address or ""}}
+{% if unsub_link %}Unsubscribe: {{unsub_link}}{% endif %}

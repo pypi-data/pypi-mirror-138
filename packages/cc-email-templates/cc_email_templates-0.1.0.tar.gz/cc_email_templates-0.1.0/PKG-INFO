@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: cc-email-templates
+Version: 0.1.0
+Summary: 
+Author: peder2911
+Author-email: pglandsverk@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=3.0.3,<4.0.0)
+Requires-Dist: css-inline (>=0.8.1,<0.9.0)

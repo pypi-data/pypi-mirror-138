@@ -1,0 +1,15 @@
+{% extends "call-to-action.html.j2" %}
+
+{% block content_above %}
+   <p>
+      {{ content_above }}
+   </p>
+{% endblock %}
+
+{% block content_below %}
+   {% if content_below %}
+   <p>
+      {{ content_below }}
+   </p>
+   {% endif %}
+{% endblock %}
