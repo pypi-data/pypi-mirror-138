@@ -1,0 +1,12 @@
+tacv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tacv/fileUtils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tacv/fileUtils/fileutils.py,sha256=NsXs4Lsdni2Fw4V0EtJ7sN8MOF5dcT4WmaWgwHYhfJ4,923
+tacv/torch/__init__.py,sha256=cCS5comJ09ez55GieLYpkAdxr7ObdUcsglMfrVJnY8Y,26
+tacv/torch/model_utils.py,sha256=8wEGrGe3so96cWnOG1zxnGGbObw0A6moNjBPlrJspVc,1046
+tacv/visual/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tacv/visual/draw2d.py,sha256=OOLJ_VGONC9nf4uaTcpTCEkbQLsGAy7eDi18VNkt52E,558
+tacv-1.0.1.dist-info/LICENSE,sha256=ctUKZh1uH87QB-MT33uw-QlGm-ZTIyiccbiC_rC1dF4,1065
+tacv-1.0.1.dist-info/METADATA,sha256=IghI_CBmAeevBosik6zzanCb_wp6_UIG6_UtttUa_qI,1952
+tacv-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tacv-1.0.1.dist-info/top_level.txt,sha256=owi96jGdA5aDRKBJU5_6JMwTL8Bbp1Y42etDt0P9IeI,5
+tacv-1.0.1.dist-info/RECORD,,
