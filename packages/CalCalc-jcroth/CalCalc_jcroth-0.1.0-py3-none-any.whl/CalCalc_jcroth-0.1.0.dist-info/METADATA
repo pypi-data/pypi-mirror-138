@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: CalCalc-jcroth
+Version: 0.1.0
+Summary: Evaluates mathematical expressions in strings. Also can call WolframAlpha.
+Home-page: https://github.com/jc-roth/python-ay250-homework/tree/main/hw_3
+Author: Jack Roth
+Author-email: jack_roth@berkeley.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+The CalCalc package makes it easy to evaluate mathematical expressions in strings. For example:
+```python
+from CalCalc import calculate
+calculate('mass of the earth in lbs',  return_float=True) * calculate("3+4", return_float=True)
+9.219e+25
+```
+If `calculate` cannot evaluate the math expression locally, it will try to evaluate the expression using WolframAlpha.
+
+CalCalc can also be run from the command line. Make sure to use the `-s` flag.
+```bash
+$ python CalCalc.py -s '3*(100+8^2)'
+330
+```
+Using the `-w` flag the user can query WolframAlpha
+```bash
+$ python CalCalc.py -w 'mass of the earth in kg'
+5.97e+24
+```
+
