@@ -1,0 +1,3 @@
+[oremda.cli.plugin]
+engine=oremda.engine.cli:main
+
