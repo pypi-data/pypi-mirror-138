@@ -1,0 +1,180 @@
+# SPDX-License-Identifier: Apache-2.0
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+
+[project]
+name = "prometheus-async"
+authors = [{ name = "Hynek Schlawack", email = "hs@ox.cx" }]
+dynamic = ["version", "description"]
+requires-python = ">=3.7"
+# Keep in-sync with testenv:oldest!
+dependencies = [
+    "prometheus_client >= 0.8.0",
+    "typing_extensions >= 3.10.0; python_version<'3.10'",
+    "wrapt",
+]
+license = { file = "LICENSE" }
+readme = { content-type = "text/markdown", file = "README.md" }
+keywords = ["metrics", "prometheus", "twisted", "asyncio", "async"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Programming Language :: Python",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+Changelog = "https://prometheus-async.readthedocs.io/en/stable/changelog.html"
+Documentation = "https://prometheus-async.readthedocs.io/"
+"Source Code" = "https://github.com/hynek/prometheus-async/"
+Funding = "https://hynek.me/say-thanks/"
+Ko-fi = "https://ko-fi.com/the_hynek"
+
+[project.optional-dependencies]
+aiohttp = ["aiohttp>=3"]
+consul = ["aiohttp>=3"]
+twisted = ["twisted"]
+tests = ["coverage[toml]", "pytest", "pytest-asyncio"]
+docs = [
+    "aiohttp",
+    "furo",
+    "myst-parser",
+    "sphinx-notfound-page",
+    "sphinx",
+    "sphinxcontrib-asyncio",
+    "twisted",
+]
+
+# Combine tests and docs and a few more dev tools to a dev environment.
+# Refresh using `tox -e cog`
+
+dev = [
+    "pre-commit",
+    "pytest-twisted",
+    "tomli",
+    "cogapp",
+    "mypy",
+    # [[[cog
+    # import pathlib, tomli
+    # cfg = tomli.loads(pathlib.Path("pyproject.toml").read_text())
+    # opt = cfg["project"]["optional-dependencies"]
+    # for dep in opt["tests"] + opt["docs"]:
+    #     print(f'"{dep}",')
+    # ]]]
+    "coverage[toml]",
+    "pytest",
+    "pytest-asyncio",
+    "aiohttp",
+    "furo",
+    "myst-parser",
+    "sphinx-notfound-page",
+    "sphinx",
+    "sphinxcontrib-asyncio",
+    "twisted",
+    # [[[end]]]
+]
+
+[tool.flit.module]
+name = "prometheus_async"
+
+[tool.flit.sdist]
+include = [
+    ".pre-commit-config.yaml",
+    ".readthedocs.yml",
+    "*.ini",
+    "*.md",
+    "LICENSE.*",
+    "docs",
+    "tests",
+    ".github",
+]
+exclude = [
+    "docs/_build",
+    "tests/__pycache__",
+    "tests/.mypy_cache",
+]
+
+
+[tool.pytest.ini_options]
+addopts = "-ra --strict-markers"
+xfail_strict = true
+testpaths = "tests"
+filterwarnings = [
+    "once::Warning",
+    "ignore:::aiohttp[.*]",
+    "ignore:::importlib[.*]",
+    "ignore::DeprecationWarning:twisted.python.threadable",
+]
+asyncio_mode = "auto"
+
+
+[tool.coverage.run]
+parallel = true
+branch = true
+source = ["prometheus_async"]
+
+[tool.coverage.paths]
+source = ["src", ".tox/*/site-packages"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+exclude_lines = [
+    "pragma: no cover",
+    "if TYPE_CHECKING:",
+    "raise NotImplementedError",
+    # typing-related code
+    "^if (False|TYPE_CHECKING):",
+    ": \\.\\.\\.$",
+    "^ +\\.\\.\\.$",
+    "-> ['\"]?NoReturn['\"]?:",
+]
+omit = [
+    "src/prometheus_async/types.py"
+]
+
+
+[tool.black]
+line-length = 79
+
+
+[tool.isort]
+profile = "attrs"
+
+
+[tool.mypy]
+warn_unused_ignores = true
+follow_imports = "normal"
+ignore_missing_imports = true
+disallow_untyped_calls = true
+warn_no_return = true
+warn_redundant_casts = true
+disallow_untyped_defs = true
+check_untyped_defs = true
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+module = "conftest.*"
+ignore_errors = true
+
+# As of 2022-02-05, prometheus-client's type hints are spotty and lead to false
+# errors on production-style Mypy configurations.
+[[tool.mypy.overrides]]
+module = "prometheus_client.*"
+follow_imports = "skip"
