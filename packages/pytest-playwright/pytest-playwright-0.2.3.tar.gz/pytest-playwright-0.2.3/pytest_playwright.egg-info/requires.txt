@@ -1,0 +1,4 @@
+playwright>=1.13
+pytest
+pytest-base-url
+python-slugify
