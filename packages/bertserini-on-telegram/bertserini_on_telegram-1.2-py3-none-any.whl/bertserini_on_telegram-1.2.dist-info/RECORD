@@ -1,0 +1,17 @@
+bertserini_on_telegram/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bertserini_on_telegram/data/__init__.py,sha256=R-aORYNHaDOFFnUOTVgT6FggTqzBYrjaDOFtxN4IVkk,63
+bertserini_on_telegram/data/datamodules.py,sha256=bHw3_RtpMdfF9m5iMIuKdlzFsORBM57YHnu6XUy3K2w,9445
+bertserini_on_telegram/models/__init__.py,sha256=BaxPOr3RSWFAGRw7QB3BF_z3XtRn00zKXlSKVLbKHcg,32
+bertserini_on_telegram/models/modules.py,sha256=ujONYvcAKsjtXJcFUdreXBcKx97dtilkeiZ7BdcN_VQ,8382
+bertserini_on_telegram/utils/__init__.py,sha256=EdbZtj4bDBpItI-8jorV8kQ41zvGkcTKnpeceHwDofk,726
+bertserini_on_telegram/utils/base.py,sha256=qmsFdg3N5D5VytfnP0dWz5YsGWykc9lHvGn0tLaqcWE,3159
+bertserini_on_telegram/utils/constants.py,sha256=fuFrHdXSwfZxp9APB79zL8PL7DLRNSSagrVBNMpbLXQ,925
+bertserini_on_telegram/utils/io.py,sha256=5eSQzc5wt_W1PwhdEnlHn5MsDdElD_3ZWdRalIij8J4,285
+bertserini_on_telegram/utils/pyserini.py,sha256=wyOVw1C4nh0rRCGaIgBUSxJNEUkOkzLtJTIJAB21Kk4,3717
+bertserini_on_telegram/utils/translate.py,sha256=xniDKTPrny923Pue6pK-9PDADdYrPqjjBqQw_hIn9a8,3136
+bertserini_on_telegram/utils/utils_squad.py,sha256=itaHI-QeAhycpZA7SQI2cnr3X37OvigRgTdNk-YQBuo,24067
+bertserini_on_telegram-1.2.dist-info/LICENSE,sha256=2W0GAVKgqdymaOsZQQMWgQKdvM--vALMG-O3pR4wb8Y,1064
+bertserini_on_telegram-1.2.dist-info/METADATA,sha256=-I-WKEBGbIWJpzeCww_HPXqgJDQfN-V12jZaGsZn6ig,3000
+bertserini_on_telegram-1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bertserini_on_telegram-1.2.dist-info/top_level.txt,sha256=84SuQm0Eu8WucusIycpkeYeTtihusc7TwTJNw-XuoAc,23
+bertserini_on_telegram-1.2.dist-info/RECORD,,
