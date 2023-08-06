@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: QEIVideo
+Version: 0.1a0
+Summary: QEIVideo - 交互式智能视频标注工具前端交互支持
+Home-page: https://github.com/QPT-Family/EIVideo
+Author: GT-ZhangAcer
+Author-email: zhangacer@foxmail.com
+License: LGPL
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+[https://github.com/QPT-Family/EIVideo](https://github.com/QPT-Family/EIVideo)
+
