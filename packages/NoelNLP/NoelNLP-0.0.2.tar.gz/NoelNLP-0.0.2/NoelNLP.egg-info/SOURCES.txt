@@ -1,0 +1,7 @@
+README.txt
+setup.py
+NoelNLP/__init__.py
+NoelNLP.egg-info/PKG-INFO
+NoelNLP.egg-info/SOURCES.txt
+NoelNLP.egg-info/dependency_links.txt
+NoelNLP.egg-info/top_level.txt
