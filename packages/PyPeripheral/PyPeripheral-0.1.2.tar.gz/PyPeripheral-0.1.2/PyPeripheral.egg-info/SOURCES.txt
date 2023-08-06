@@ -1,0 +1,13 @@
+README.md
+setup.py
+PyPeripheral/All.py
+PyPeripheral/Corsair.py
+PyPeripheral/Errors.py
+PyPeripheral/Razer.py
+PyPeripheral/__init__.py
+PyPeripheral/abstractSDK.py
+PyPeripheral.egg-info/PKG-INFO
+PyPeripheral.egg-info/SOURCES.txt
+PyPeripheral.egg-info/dependency_links.txt
+PyPeripheral.egg-info/requires.txt
+PyPeripheral.egg-info/top_level.txt
