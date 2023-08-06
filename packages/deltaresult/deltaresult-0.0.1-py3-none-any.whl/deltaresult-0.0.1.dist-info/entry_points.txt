@@ -1,0 +1,2 @@
+[console_scripts]
+deltaresult = deltaresult:main.main
