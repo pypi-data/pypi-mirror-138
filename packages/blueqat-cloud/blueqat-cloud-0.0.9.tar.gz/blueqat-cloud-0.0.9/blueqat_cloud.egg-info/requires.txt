@@ -1,0 +1,4 @@
+blueqat>=0.4.3
+braket-backend-blueqat>=0.0.4
+amazon-braket-sdk>=1.5.13
+pandas>=1.2
