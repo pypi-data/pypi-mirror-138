@@ -1,0 +1,3 @@
+[console_scripts]
+plot_pahfit = pahfit.scripts.plot_pahfit:main
+run_pahfit = pahfit.scripts.run_pahfit:main
