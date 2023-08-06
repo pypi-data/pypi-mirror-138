@@ -1,0 +1,5 @@
+[console_scripts]
+rconclt = rcon.source.rconclt:main
+rcongui = rcon.source.gui:main
+rconshell = rcon.source.rconshell:main
+
