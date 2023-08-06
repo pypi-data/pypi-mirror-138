@@ -1,0 +1,6 @@
+#!/bin/python
+"""EUMETSAT Data Access Client"""
+
+from eumdac.cli import cli
+
+cli()
