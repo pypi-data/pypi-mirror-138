@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: github-webhooks-framework
+Version: 0.1.1
+Summary: GitHub Webhooks Framework
+Home-page: https://github.com/karech/github-webhooks
+License: GPL-3.0-only
+Keywords: github,webhooks,fastapi
+Author: karech
+Requires-Python: >=3.9,<4.0
+Classifier: Framework :: FastAPI
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Dist: fastapi (>=0.73.0,<0.74.0)
+Requires-Dist: pydantic[dotenv] (>=1.9.0,<2.0.0)
+Project-URL: Bug Tracker, https://github.com/karech/github-webhooks/issues
+Project-URL: Repository, https://github.com/karech/github-webhooks
