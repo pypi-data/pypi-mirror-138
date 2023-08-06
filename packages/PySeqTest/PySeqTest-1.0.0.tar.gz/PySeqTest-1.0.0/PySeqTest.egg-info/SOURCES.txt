@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+PySeqTest.egg-info/PKG-INFO
+PySeqTest.egg-info/SOURCES.txt
+PySeqTest.egg-info/dependency_links.txt
+PySeqTest.egg-info/top_level.txt
+pyseqtest/__init__.py
+pyseqtest/main.py
