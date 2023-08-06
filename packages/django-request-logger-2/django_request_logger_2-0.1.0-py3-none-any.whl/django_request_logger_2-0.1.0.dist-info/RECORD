@@ -1,0 +1,11 @@
+request_logger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+request_logger/admin.py,sha256=j8quR6BDt9_5qYsK8sROjjCCPj-f8vCLwSnw1fJBDSc,768
+request_logger/apps.py,sha256=E9GZ0gEo80CL2yrAUV_NlOBaQbUDDQBZb4M4t4yBy8c,145
+request_logger/decorators.py,sha256=lrNwQdEXHDih-kmTWpRBUHEPKZBRDttQHroDTgW-Who,2188
+request_logger/migrations/0001_initial.py,sha256=5sJeC1Xe6TZtnFa3Bkv6iAI-X3YEmZOr0UpIMuIxybw,3753
+request_logger/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+request_logger/models.py,sha256=GPcWFDOjlIIGKEN6v5JM-zoFRH41HW7e2m7fJVG7Fac,5654
+django_request_logger_2-0.1.0.dist-info/LICENSE,sha256=XcMr4wfRPB4azjmUBMix0LgtUsfDfDJGqxXH0sasHr0,1065
+django_request_logger_2-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+django_request_logger_2-0.1.0.dist-info/METADATA,sha256=bt88cLHnj5SYySIZ6xxP1LVBGXdTRWrI-e3eg7o9fM0,2481
+django_request_logger_2-0.1.0.dist-info/RECORD,,
