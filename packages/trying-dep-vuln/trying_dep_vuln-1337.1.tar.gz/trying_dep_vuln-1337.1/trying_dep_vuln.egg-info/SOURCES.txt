@@ -1,0 +1,10 @@
+setup.py
+trying_dep_vuln/__init__.py
+trying_dep_vuln/command_line.py
+trying_dep_vuln/greet.py
+trying_dep_vuln.egg-info/PKG-INFO
+trying_dep_vuln.egg-info/SOURCES.txt
+trying_dep_vuln.egg-info/dependency_links.txt
+trying_dep_vuln.egg-info/entry_points.txt
+trying_dep_vuln.egg-info/not-zip-safe
+trying_dep_vuln.egg-info/top_level.txt
