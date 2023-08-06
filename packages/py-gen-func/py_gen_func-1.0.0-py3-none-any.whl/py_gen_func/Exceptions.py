@@ -1,0 +1,3 @@
+
+class GenException(Exception):
+    pass
