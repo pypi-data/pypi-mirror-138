@@ -1,0 +1,3 @@
+[console_scripts]
+pypk_up = pypk.main:run
+
