@@ -1,0 +1,10 @@
+rest_framework_social_auth/__init__.py,sha256=fC2UJRCtEjy_cQr0GP4Is-nJtfTcfd2vLqmJiAUZGzs,47
+rest_framework_social_auth/adapter.py,sha256=O9dKkgeNqumwgCjc-piZbxdljA5i_MC2KPkWDDGYP60,962
+rest_framework_social_auth/google.py,sha256=6zWpkqtMRUIhNnUdpcm4soyU7CKD7jx7qeXBcJUAigI,2693
+rest_framework_social_auth/serializers.py,sha256=sAxPhkWetb0WQZlb45wKL9eOcziP7wxwZuFFBqtvJls,303
+rest_framework_social_auth/views.py,sha256=RY30feZf6h6GfYMu1wV2T2lG8kf4Z0OhH1UH73HUvEI,1813
+drf_social_auth-0.1.0.dist-info/LICENSE,sha256=-UtCAj21oNaXFPzAfihZq7UfK_Yy0vm1G9iqf8wSgJU,767
+drf_social_auth-0.1.0.dist-info/METADATA,sha256=b-N74pRsfQe26j293wm1bX_gnHjsUyGxG1KDbdHepS8,3059
+drf_social_auth-0.1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+drf_social_auth-0.1.0.dist-info/top_level.txt,sha256=9rQ2qep9Ac-hiZsXPQbcautFtjd9B7SfMsbjt-ViRkU,27
+drf_social_auth-0.1.0.dist-info/RECORD,,
