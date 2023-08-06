@@ -1,0 +1,3 @@
+[console_scripts]
+pndconf=pndconf.__main__:main
+

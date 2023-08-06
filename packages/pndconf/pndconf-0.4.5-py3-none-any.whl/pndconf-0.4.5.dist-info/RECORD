@@ -1,0 +1,17 @@
+pndconf/__init__.py,sha256=ErkLkI2TDBX1OIqi2GGa20CPeu4ZculEi-XffRbLU6M,22
+pndconf/__main__.py,sha256=f6KOhc4_glAV3QWTJekEvC0nrFgHfoOtT2EthwA4e-Q,66
+pndconf/colors.py,sha256=Ib9WonPrnbiUGeUlFljT9PQUBx2nCIBFWRq-YmIfhWE,410
+pndconf/compilers.py,sha256=xr2j0BylSSRm56mR8MoUHiL3Qsltc5LEbB_PUrhxaeg,10455
+pndconf/config.py,sha256=qqRZE5mZrMtVddw78KrEF4yTZY2F_n5kKEOA9fROH9w,22998
+pndconf/config_default.ini,sha256=OeCGFULC4n5E_b4T7FCPz8PvxboPpb_GR9lzhjwaEzw,935
+pndconf/pndconf.py,sha256=P-_MtnkBwEYCnWNQV0Co4bXcccEZw8nPkKD_Bdutw1Y,14658
+pndconf/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pndconf/table-filter.py,sha256=3N3QYxsKr5ott1poAu4e6xTQ_jOwVk8yOoo--_cIF4Y,1706
+pndconf/transforms.py,sha256=lxo8zg_yb9dBukiBBIV9daMLWGawpAW6H8y218vixuQ,13861
+pndconf/util.py,sha256=Outvydq6aqigjpDuM8ebhGjEINtJHQCUmqMJvLAmQZg,8783
+pndconf/watcher.py,sha256=Y0KsHQU3w11rXnUZR2RaiChar4Sf-9sY3KQF54LMomI,3189
+pndconf-0.4.5.dist-info/entry_points.txt,sha256=iwbGvB47sTc7mjgs4CQvk--BYab4dEUf5NYqpKVsb-Y,49
+pndconf-0.4.5.dist-info/LICENSE,sha256=0wjnWBlp27yncLmwjLS65gTg0nPBCyQQMELVmyKGFio,1070
+pndconf-0.4.5.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+pndconf-0.4.5.dist-info/METADATA,sha256=sKxzcksegdexm5QyGFErak1_33Ytzicig_BD4Np2C1U,709
+pndconf-0.4.5.dist-info/RECORD,,
