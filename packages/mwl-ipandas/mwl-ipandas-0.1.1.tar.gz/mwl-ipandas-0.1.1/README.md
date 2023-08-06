@@ -1,0 +1,1 @@
+# a shortcut to open a pandas dataframe in an interactive mode

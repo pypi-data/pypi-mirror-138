@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mwl-ipandas
+Version: 0.1.1
+Summary: 
+Author: David Lassner
+Author-email: lassner@tu-berlin.de
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ipdb (>=0.13.9,<0.14.0)
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
+Requires-Dist: typer[all] (>=0.4.0,<0.5.0)
+Description-Content-Type: text/markdown
+
+# a shortcut to open a pandas dataframe in an interactive mode
