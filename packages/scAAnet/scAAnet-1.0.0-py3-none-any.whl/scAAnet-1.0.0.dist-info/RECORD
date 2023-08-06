@@ -1,0 +1,11 @@
+scAAnet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scAAnet/api.py,sha256=maV8qSY5qcHmx2k9k8Fhk5g_hm2H1_wafAOa0wvEVcI,6606
+scAAnet/loss.py,sha256=Pw4X6Zqzi57gG_O3rimgLnXBVfssP4oiaiL_NnIw0fo,4803
+scAAnet/network.py,sha256=05zJpDs_xuYAF755Ovzs5onRB85UdrXLfphKGfsyxh0,23602
+scAAnet/tools.py,sha256=cK3Oopu2imwxdoinlcWUFxEECZ8NkbKDn4TYKccVfbE,16582
+scAAnet/train.py,sha256=G8jjDVlrZjAdy66jBqTSEPGRNZLAL5wBkdPVGqB-gS0,5373
+scAAnet-1.0.0.dist-info/LICENSE,sha256=ky1ipCtDzwIacpA7ZSk9RnA4WkL2p01Aeuyq4itA8VI,1087
+scAAnet-1.0.0.dist-info/METADATA,sha256=eeSEa-h0C0EsqCYkbK_DSzaiK-FwpPdLf2DLuvX76ZI,4252
+scAAnet-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scAAnet-1.0.0.dist-info/top_level.txt,sha256=KQ0LbGgA5TLc2v6EQ68cNIr0Cr0DJhRZyYrxVo2f_sk,8
+scAAnet-1.0.0.dist-info/RECORD,,
