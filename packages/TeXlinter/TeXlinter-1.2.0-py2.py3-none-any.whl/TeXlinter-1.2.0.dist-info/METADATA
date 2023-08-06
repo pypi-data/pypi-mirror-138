@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: TeXlinter
+Version: 1.2.0
+Summary: A small linter for LaTex
+Author: Marcus Björnbäck
+Author-email: smacke123b@gmail.com
+License: BSD 2-clause
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pyyaml (<4)
+
+## Make sure you have python3 and pip installed
+
+## To install pipx
+# Linux and Windows
+python3 -m pip install --user pipx; python3 -m pipx ensurepath
+
+# macOS
+brew install pipx; pipx ensurepath
+
+
+## How to install TeXlinter
+pipx install TeXlinter
+
+## How to use
+# Linux and Windows
+TeXlinter <your LaTex document>
+# If you have your own rules
+TeXlinter <your LaTex document> --rules=<your own rule .json or .yaml>
+
+# Windows
+# If you want to access TeXlinter.exe from anywhere copy the following command
+SETX PATH=%PATH%;C:\your\path\to\the\TeXlinter.exe
+# How to use the TeXlinter
+TeXlinter.exe <LaTex document>
+# If you have your own rules
+TeXlinter.exe <your LaTex document> --rules=<your own rule .json or .yaml>
+
