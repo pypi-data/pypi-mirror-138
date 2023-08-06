@@ -1,0 +1,10 @@
+cdk_keycloak/__init__.py,sha256=oVqCDl82fFXissGWaCUXlX_KP4JSzfZSj_zRYXkptvc,53504
+cdk_keycloak/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk_keycloak/_jsii/__init__.py,sha256=S7gDCgR-yEhCbQJPYrARGd98PJuQZtSdB-O_ejFQxAk,679
+cdk_keycloak/_jsii/cdk-keycloak@0.2.39.jsii.tgz,sha256=1C1b_p-T1fUo8xT5Xx6wIsYi47S3BBy3URH0XFATRPM,39698
+cdk_keycloak-0.2.39.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk_keycloak-0.2.39.dist-info/METADATA,sha256=sSv7pAUeRw2eJusrIvIaHfhSC-liV7CNotCURFWEFPw,6996
+cdk_keycloak-0.2.39.dist-info/NOTICE,sha256=1CkO1kwu3Q_OHYTj-d-yiBJA_lNN73a4zSntavaD4oc,67
+cdk_keycloak-0.2.39.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cdk_keycloak-0.2.39.dist-info/top_level.txt,sha256=OiPmisgaBX487Qm-Vbm0cXDkquuEv9oWZ4EQ2NvZCFQ,13
+cdk_keycloak-0.2.39.dist-info/RECORD,,
