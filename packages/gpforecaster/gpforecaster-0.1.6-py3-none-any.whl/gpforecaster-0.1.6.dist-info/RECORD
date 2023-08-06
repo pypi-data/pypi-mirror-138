@@ -1,0 +1,15 @@
+gpforecaster/__init__.py,sha256=My1w1cNUl_7P22pKPjPVw_erV3Tc76Wjw1U9Guy33QA,347
+gpforecaster/model/__init__.py,sha256=yq2cZfBnYveApbBHe1uP1pIKyebk4DBpuNYnigPI-9I,67
+gpforecaster/model/gp.py,sha256=ut3mnJczgOqlwEi2ah12OGeibWEQJ-AiGHdkxF81frY,508
+gpforecaster/model/gpf.py,sha256=pJAnL5lWAw02nVkVMv7yBtBHH2KPQw5jr-31uUK56Pc,7919
+gpforecaster/model/mean_functions.py,sha256=9dCyhrLv8Lj9zUwedQ6qfm1SELAyZX0IEFco22LT83M,1593
+gpforecaster/results/__init__.py,sha256=5AyWIrOA3tmpJhqgVyI025aYoe0un6AP-pp7JnUlArY,33
+gpforecaster/results/calculate_metrics.py,sha256=DHss6dk_w8JUkkzNAcU_Hl7xE3loNc6oBl0a9Y7EhkQ,6150
+gpforecaster/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpforecaster/tests/test_calculate_results.py,sha256=imMSqqnrSaY06y7AVfTXknDWdCQO2CzKdMIZoNqYYRI,825
+gpforecaster/tests/test_model_results_police.py,sha256=sgJKaS7QPV3fN43QvgfNhoC0n81SE0YcGZIgisCnqNI,845
+gpforecaster/tests/test_model_results_prison.py,sha256=YLzDV61QraFT9QtQRJWswHoiFSlAZxSvOF6jPeZKhws,1078
+gpforecaster-0.1.6.dist-info/METADATA,sha256=eK_Vyi6D3_6faBxkMD_FcVJfytV487IKwRf6ZUq2kgs,966
+gpforecaster-0.1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gpforecaster-0.1.6.dist-info/top_level.txt,sha256=15CqFDHNyVd-L7toWFrIot2d_5LtpMmu8H4AglHejxk,13
+gpforecaster-0.1.6.dist-info/RECORD,,
