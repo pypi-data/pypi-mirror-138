@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+calcalc/CalCalc.py
+calcalc/__init__.py
+calcalc_toy.egg-info/PKG-INFO
+calcalc_toy.egg-info/SOURCES.txt
+calcalc_toy.egg-info/dependency_links.txt
+calcalc_toy.egg-info/top_level.txt
+dist/calcalc-toy-1.0.tar.gz
+dist/calcalc-toy-1.1.tar.gz
