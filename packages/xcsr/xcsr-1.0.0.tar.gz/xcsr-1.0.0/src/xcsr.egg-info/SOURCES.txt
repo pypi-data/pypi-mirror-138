@@ -1,0 +1,12 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/xcsr/__init__.py
+src/xcsr/xcsr.py
+src/xcsr.egg-info/PKG-INFO
+src/xcsr.egg-info/SOURCES.txt
+src/xcsr.egg-info/dependency_links.txt
+src/xcsr.egg-info/entry_points.txt
+src/xcsr.egg-info/top_level.txt

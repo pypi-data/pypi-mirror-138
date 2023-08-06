@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: xcsr
+Version: 1.0.0
+Summary: A simple comic scraper.
+Home-page: https://github.com/nordic16/xcsr-git
+Author: xKyFal
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/nordic16/xcsr-git/issues
+Keywords: command-line,cli,comics,scraper
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# xcsr
+A simple comic scraper.
+
+
+# What's new?  
+Scraping from [getcomics.info](https://getcomics.info/) is now possible.
+
