@@ -1,0 +1,2 @@
+graft cowsay/lib
+graft cowsay/lib/cows
