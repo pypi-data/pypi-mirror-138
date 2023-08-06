@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: orm-mysql
+Version: 0.0.1
+Summary: An ORM for MySql.
+Home-page: https://github.com/hrushikeshj/mysql-orm
+Author: Hrushikesh J
+Author-email: hrushi2002j@gmail.com
+License: MIT
+Description: # MySql-orm
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
