@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/pypushdeer/__init__.py
+src/pypushdeer/pypushdeer.py
+src/pypushdeer.egg-info/PKG-INFO
+src/pypushdeer.egg-info/SOURCES.txt
+src/pypushdeer.egg-info/dependency_links.txt
+src/pypushdeer.egg-info/requires.txt
+src/pypushdeer.egg-info/top_level.txt
