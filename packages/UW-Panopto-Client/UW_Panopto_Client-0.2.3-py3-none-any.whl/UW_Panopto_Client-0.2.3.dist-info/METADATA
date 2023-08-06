@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: UW-Panopto-Client
+Version: 0.2.3
+Summary: An application providing access to the Panopto Video Platform SOAP API
+Home-page: https://github.com/uw-it-aca/uw-panopto-client
+Author: UW-IT AXDD
+Author-email: aca-it@uw.edu
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
+Requires-Dist: commonconf (>=1.0)
+Requires-Dist: suds-jurko (==0.6)
+Requires-Dist: mock
+
+
+See the README on `GitHub
+<https://github.com/uw-it-aca/uw-panopto-client>`_.
+
+
