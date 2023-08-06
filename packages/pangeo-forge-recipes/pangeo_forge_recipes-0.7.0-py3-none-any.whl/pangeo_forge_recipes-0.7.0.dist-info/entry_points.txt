@@ -1,0 +1,2 @@
+[console_scripts]
+pangeo-forge-recipes = pangeo_forge_recipes.cli:main
