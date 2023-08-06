@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/venvify/__init__.py
+src/venvify/venvify.py
+src/venvify.egg-info/PKG-INFO
+src/venvify.egg-info/SOURCES.txt
+src/venvify.egg-info/dependency_links.txt
+src/venvify.egg-info/entry_points.txt
+src/venvify.egg-info/top_level.txt
