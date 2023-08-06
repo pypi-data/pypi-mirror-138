@@ -1,0 +1,15 @@
+model:
+  class_path: bertserini_on_telegram.models.modules.BERTModule
+  init_args:
+    model_name: &bert_name rsvp-ai/bertserini-bert-base-squad
+    results_file: ../validation/tmp/results_.json
+    mu: 0.6
+    n_best: 10
+
+trainer:
+  default_root_dir: ./logs
+  max_epochs: &epochs 100
+  gpus: 1
+  strategy: dp
+  log_every_n_steps: 1
+  enable_progress_bar: True
