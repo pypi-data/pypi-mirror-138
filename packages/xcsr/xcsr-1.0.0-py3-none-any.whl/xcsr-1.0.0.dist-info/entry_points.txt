@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    xcsr=xcsr.xcsr:main
+    
