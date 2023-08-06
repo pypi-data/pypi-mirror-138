@@ -1,0 +1,201 @@
+Metadata-Version: 2.1
+Name: disnake
+Version: 2.2.3
+Summary: A Python wrapper for the Discord API
+Home-page: https://github.com/DisnakeDev/disnake
+Author: Rapptz, EQUENOS
+License: MIT
+Project-URL: Documentation, https://disnake.readthedocs.io/en/latest/
+Project-URL: Issue tracker, https://github.com/DisnakeDev/disnake/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.8.0
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: aiohttp (<3.8.0,>=3.6.0)
+Provides-Extra: discord
+Requires-Dist: discord-disnake ; extra == 'discord'
+Provides-Extra: docs
+Requires-Dist: sphinx (==4.0.2) ; extra == 'docs'
+Requires-Dist: sphinxcontrib-trio (==1.1.2) ; extra == 'docs'
+Requires-Dist: sphinxcontrib-websupport ; extra == 'docs'
+Provides-Extra: speed
+Requires-Dist: orjson (>=3.5.4) ; extra == 'speed'
+Requires-Dist: aiodns (>=1.1) ; extra == 'speed'
+Requires-Dist: Brotli ; extra == 'speed'
+Requires-Dist: cchardet ; extra == 'speed'
+Provides-Extra: voice
+Requires-Dist: PyNaCl (<1.5,>=1.3.0) ; extra == 'voice'
+
+.. image:: ./assets/banner.png
+    :alt: Disnake Banner
+
+disnake
+=======
+
+.. image:: https://discord.com/api/guilds/808030843078836254/embed.png
+   :target: https://discord.gg/gJDbCw8aQy
+   :alt: Discord server invite
+.. image:: https://img.shields.io/pypi/v/disnake.svg
+   :target: https://pypi.python.org/pypi/disnake
+   :alt: PyPI version info
+.. image:: https://img.shields.io/pypi/pyversions/disnake.svg
+   :target: https://pypi.python.org/pypi/disnake
+   :alt: PyPI supported Python versions
+.. image:: https://img.shields.io/github/commit-activity/w/DisnakeDev/disnake.svg
+   :target: https://github.com/DisnakeDev/disnake/commits
+   :alt: Commit activity
+
+A modern, easy to use, feature-rich, and async ready API wrapper for Discord written in Python.
+
+About disnake
+-------------
+
+All the contributors and developers, associated with disnake, are trying their best to add new features to the library as soon as possible. We strive to revive the greatest Python wrapper for Discord API and keep it up to date.
+
+Key Features
+------------
+
+- Modern Pythonic API using ``async`` and ``await``.
+- Added features for ease of coding
+- Proper rate limit handling.
+- Optimised in both speed and memory.
+
+Installing
+----------
+
+**Python 3.8 or higher is required**
+
+To install the library without full voice support, you can just run the following command:
+
+.. code:: sh
+
+    # Linux/macOS
+    python3 -m pip install -U disnake
+
+    # Windows
+    py -3 -m pip install -U disnake
+
+Otherwise to get voice support you should run the following command:
+
+.. code:: sh
+
+    # Linux/macOS
+    python3 -m pip install -U "disnake[voice]"
+
+    # Windows
+    py -3 -m pip install -U disnake[voice]
+
+
+To install the development version, do the following:
+
+.. code:: sh
+
+    $ git clone https://github.com/DisnakeDev/disnake
+    $ cd disnake
+    $ python3 -m pip install -U .[voice]
+
+
+Optional Packages
+~~~~~~~~~~~~~~~~~
+
+* `PyNaCl <https://pypi.org/project/PyNaCl/>`__ (for voice support)
+
+Please note that on Linux installing voice you must install the following packages via your favourite package manager (e.g. ``apt``, ``dnf``, etc) before running the above commands:
+
+* libffi-dev (or ``libffi-devel`` on some systems)
+* python-dev (e.g. ``python3.6-dev`` for Python 3.6)
+
+Quick Example
+-------------
+
+.. code:: py
+
+    import disnake
+
+    class MyClient(disnake.Client):
+        async def on_ready(self):
+            print('Logged on as', self.user)
+
+        async def on_message(self, message):
+            # don't respond to ourselves
+            if message.author == self.user:
+                return
+
+            if message.content == 'ping':
+                await message.channel.send('pong')
+
+    client = MyClient()
+    client.run('token')
+
+Bot Example
+~~~~~~~~~~~
+
+.. code:: py
+
+    import disnake
+    from disnake.ext import commands
+
+    bot = commands.Bot(command_prefix='>')
+
+    @bot.command()
+    async def ping(ctx):
+        await ctx.send('pong')
+
+    bot.run('token')
+
+Slash Commands Example
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: py
+
+    import disnake
+    from disnake.ext import commands
+
+    bot = commands.Bot(command_prefix='>', test_guilds=[12345])
+
+    @bot.slash_command()
+    async def ping(inter):
+        await inter.response.send_message('pong')
+
+    bot.run('token')
+
+Context Menus Example
+~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: py
+
+    import disnake
+    from disnake.ext import commands
+
+    bot = commands.Bot(command_prefix='>', test_guilds=[12345])
+
+    @bot.user_command()
+    async def avatar(inter):
+        embed = disnake.Embed(title=str(inter.target))
+        embed.set_image(url=inter.target.avatar.url)
+        await inter.response.send_message(embed=embed)
+
+    bot.run('token')
+
+You can find more examples in the examples directory.
+
+Links
+------
+
+- `Documentation <http://disnake.rtfd.io/>`_
+- `Official Discord Server <https://discord.gg/gJDbCw8aQy>`_
+- `Discord API <https://discord.gg/discord-api>`_
+
+
