@@ -1,0 +1,27 @@
+FROM bitnami/kubectl:latest
+# switch to root user to be able to install requierments
+USER 0
+# Install docker client cli
+COPY --from=docker:latest /usr/local/bin/docker /usr/local/bin/
+# RUN groupadd docker && useradd -u 1001 -g docker justaname
+# install python3
+RUN install_packages python3 python3-pip git
+
+#RUN install_packages software-properties-common && add-apt-repository ppa:deadsnakes/ppa && install_packages python3-9 python3-pip git
+
+# install required python modules
+RUN pip3 install setuptools
+
+# copy backupper python scripts
+COPY . /opt/CoDaBuddy
+RUN pip3 install -e /opt/CoDaBuddy
+# Switch back to non root user
+#USER 1001
+
+
+# Set config to "DOCKER"-Profile (see config.py)
+ENV CONFIGS_BACKUP_DIR="/backups"
+
+# Volume for backup dir
+ENTRYPOINT [ "/opt/CoDaBuddy/CoDaBuddy/cli.py" ]
+CMD [ "--help" ]
