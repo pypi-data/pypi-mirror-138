@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: python-clue
+Version: 0.1.0
+Summary: Python interface to the MDwalks CLUE.
+Home-page: https://github.com/linewalks/py-clue
+Author: Linewalks
+Author-email: jungwoo@linewalks.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: grpcio
+Requires-Dist: protobuf
+
+# py-clue
+The Python interface to the MDwalks CLUE.
+
+#### Description
+
+To be defined...
+
+## Getting Started
+
+To be defined...
+
+## Usage
+
+To be defined...
+
+## Contribution
+
+To be defined...
+
+## Contact
+
+* Chae Jungwoo - jungwoo@linewalks.com
+
+
+
+
