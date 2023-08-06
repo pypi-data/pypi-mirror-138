@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cdk-toolkit
+Version: 0.0.1
+Summary: AWS CDK Toolkit
+Home-page: http://pypi.python.org/pypi/cdk-toolkit/
+Author: Ryan Moos
+Author-email: ryan@moos.engineering
+License: LICENSE
+Platform: UNKNOWN
+License-File: LICENSE
+
+# cdk-toolkit
+AWS CDK Toolkit
+
+
