@@ -1,0 +1,4 @@
+minio
+
+[tryton]
+trytond>=5.0
