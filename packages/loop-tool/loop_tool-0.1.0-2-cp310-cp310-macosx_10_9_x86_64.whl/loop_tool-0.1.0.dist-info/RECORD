@@ -1,0 +1,10 @@
+libloop_tool.dylib,sha256=VS1esJ1IfnNvN9sH0nI8T_Lhv5rseX9HUprCkOX9DC4,928528
+loop_tool_py.cpython-310-darwin.so,sha256=P7HJP7ldykkGHbadnxE35bT4nboK5QI-K9Bk32yH_Es,516192
+loop_tool/__init__.py,sha256=l5MuNIVJsMrZwtsTRVrlv4EE9wdQvusRdgDEooAqo2A,63
+loop_tool/nn.py,sha256=o8RKGNtsQojNTyT9XvvDWMdSZjanF7-Db3rRCCh_rII,2269
+loop_tool/ui.py,sha256=b9q6UNC-9Z-ao-9zuH698cJmwEJCaxGWs7Cu4ogrj9s,8263
+loop_tool-0.1.0.dist-info/LICENSE,sha256=UkEte8fOQVfqYou6rLiCngqcs8WPV_mRdhJryM8r_IU,1086
+loop_tool-0.1.0.dist-info/METADATA,sha256=_m3pO6cvV3lkRT8oD7DYV7yHW1dhs5vrdaZO-bpDWvQ,275
+loop_tool-0.1.0.dist-info/WHEEL,sha256=QN3MNOFrRIeE9ccPTe5mH4Q_A2DBDdD7_qUigvuJeQU,111
+loop_tool-0.1.0.dist-info/top_level.txt,sha256=tz_yi3v_pzsli-d3aozAgXOVtSJuGOOdiU5apttYucA,23
+loop_tool-0.1.0.dist-info/RECORD,,
