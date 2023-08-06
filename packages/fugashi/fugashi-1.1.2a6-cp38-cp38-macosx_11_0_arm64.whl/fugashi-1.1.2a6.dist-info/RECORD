@@ -1,0 +1,10 @@
+fugashi/__init__.py,sha256=bBozNbcOG_tKMMWwONWRRiG1VosiDjE0YappT2KPcAk,24
+fugashi/cli.py,sha256=2qo9l7yqy9_hCUp9AULBlx5BmHkpHFlkKZacRDWZjh4,1506
+fugashi/fugashi.cpython-38-darwin.so,sha256=SLlO2UyXLOtnK3uRRhHeQiiq7te3ZUMECAJM0sR-tY0,129385
+fugashi-1.1.2a6.dist-info/LICENSE,sha256=5LkFbx-2Q0xAeg8Y4DVBmBkFBNfz3rvXTG6heUdwXac,1076
+fugashi-1.1.2a6.dist-info/LICENSE.mecab,sha256=YvSyNFCprUDk24Bj1FwdE8eNB8onya2mLEypwRwfPns,1602
+fugashi-1.1.2a6.dist-info/METADATA,sha256=iAs22ZzMGveYWRt9I_5gkMbE6m38dtbaI-wJEoueVcI,6500
+fugashi-1.1.2a6.dist-info/WHEEL,sha256=R_7e6VZsinL_ocUATcHjIkRbt2_KuTdRyQ1BvUtkws4,108
+fugashi-1.1.2a6.dist-info/entry_points.txt,sha256=PznvIRDnmiKApiyKSj51Usf0GJeauXbuk5LLmmT0APs,122
+fugashi-1.1.2a6.dist-info/top_level.txt,sha256=1CQTgPUFi4hjTQg2nHdIR-oH6EfyXtpLhiUglCmuOoM,8
+fugashi-1.1.2a6.dist-info/RECORD,,
