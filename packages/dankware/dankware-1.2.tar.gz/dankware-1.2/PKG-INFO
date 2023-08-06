@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: dankware
+Version: 1.2
+Summary: Python module with various features.
+Home-page: https://github.com/SirDankenstien/dankware
+Author: SirDank
+Author-email: SirDankenstein@protonmail.com
+License: MIT
+Project-URL: GitHub, https://github.com/SirDankenstien/dankware
+Project-URL: Bug Tracker, https://github.com/SirDankenstien/dankware/issues
+Keywords: dankware
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# dankware
+ Python module with various features
+
+
