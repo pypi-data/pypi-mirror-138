@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pdm-shell
+Version: 1.0.0
+Summary: Use `pdm shell` set PATH and PYTHONPATH in the current shell
+License: UNKNOWN
+Author-email: abersheeran <me@abersheeran.com>
+Requires-Python: >=3.7
+Requires-Dist: pdm~=1.8
+Project-URL: homepage, https://github.com/abersheeran/pdm-shell
