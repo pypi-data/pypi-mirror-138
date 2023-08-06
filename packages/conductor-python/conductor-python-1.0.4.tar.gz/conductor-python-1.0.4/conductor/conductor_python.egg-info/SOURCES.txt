@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+conductor/conductor_python.egg-info/PKG-INFO
+conductor/conductor_python.egg-info/SOURCES.txt
+conductor/conductor_python.egg-info/dependency_links.txt
+conductor/conductor_python.egg-info/top_level.txt
