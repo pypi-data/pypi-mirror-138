@@ -1,0 +1,4 @@
+m9s-trytond<6.1,>=6.0
+m9s_nereid<6.1,>=6.0
+m9s_nereid_image_transformation<6.1,>=6.0
+trytond_product<6.1,>=6.0
