@@ -1,0 +1,10 @@
+setup.py
+baracchino/__init__.py
+baracchino/classes.py
+baracchino/constants.py
+baracchino/files.py
+baracchino.py.egg-info/PKG-INFO
+baracchino.py.egg-info/SOURCES.txt
+baracchino.py.egg-info/dependency_links.txt
+baracchino.py.egg-info/requires.txt
+baracchino.py.egg-info/top_level.txt
