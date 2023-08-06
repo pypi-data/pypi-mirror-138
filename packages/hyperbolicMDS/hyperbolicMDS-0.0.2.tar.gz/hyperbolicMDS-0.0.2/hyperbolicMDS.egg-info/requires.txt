@@ -1,0 +1,6 @@
+numpy
+packaging
+scipy
+pathlib
+argparse
+datetime
