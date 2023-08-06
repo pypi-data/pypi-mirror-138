@@ -1,0 +1,193 @@
+Metadata-Version: 2.1
+Name: femmt
+Version: 0.2.0
+Summary: FEM Magnetics Toolbox
+Home-page: https://github.com/upb-lea/FEM_Magnetics_Toolbox
+Author: LEA - Uni Paderborn
+Author-email: upblea@mail.upb.de
+License: GNU General Public License v3
+Project-URL: Documentation, https://upb-lea.github.io/FEM_Magnetics_Toolbox/main/intro.html
+Project-URL: Source Code, https://github.com/upb-lea/FEM_Magnetics_Toolbox
+Keywords: femmt
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: MacOS X
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas (>=1.2.1)
+Requires-Dist: numpy (>=1.20.3)
+Requires-Dist: matplotlib (>=3.3.4)
+Requires-Dist: gmsh (>=4.8.4)
+Requires-Dist: onelab (>=1.0)
+Requires-Dist: scipy (>=1.7.2)
+Requires-Dist: pytest
+
+# FEM Magnetics Toolbox (FEMMT)
+Python toolbox to generate preconfigured figures for FEM simulation tools in power electronics
+
+Functionality examples
+ * work with pre-defined standard core structures [not implemented yet]
+ * use python to perform parametersweeps, e.g. perform several automated simulations of different air gap sizes
+ * read the results automated with python from the FEM simulation tool
+
+__Note: Alpha Version!__
+
+## 1. Detailed Documentation
+Can be found [here](https://upb-lea.github.io/FEM_Magnetics_Toolbox/main/intro.html).
+
+## 2. Installation
+
+### 2.1 ONELAB installation
+* Go to https://onelab.info/
+* Download the Desktop Version for your OS (Windows, Linux or macOS)
+* Unpack the software and remember the file path. This will be needed later when installing FEMMT.
+
+### 2.2 FEMM installation [for Windows User only]
+* Go to https://www.femm.info/wiki/Download
+* Install FEMM as described
+* FEMM can be used as an alternative FEM solver for 2D simulations
+
+### 2.3 install FEMMT
+Chose to install the development version of FEMMT or the release version.
+
+#### FEMMT development version (for developers)
+Note: You may need to install [git](https://git-scm.com/downloads).
+```
+cd /Documents/Folder/of/Interest   
+git clone git@github.com:upb-lea/FEM_Magnetics_Toolbox.git
+pip install -e .
+```
+#### FEMMT official releases (recommended)
+Coming soon.
+
+### 2.4 Minimal example and first run
+Run the example from here: [basic_example.py](/femmt/examples/basic_example.py).
+FEMMT will ask you for the installation path of ONELAB during first use.
+
+
+## 3. Examples
+![](https://github.com/upb-lea/FEM_Magnetics_Toolbox/blob/main/documentation/FEMMT_Screenshot.png?raw=true)
+
+See examples in [basic_example.py](/femmt/examples/)
+
+
+## 4. Roadmap
+Planned features in 2021
+* work with pre-defined standard core structures
+* work with pre-defined standard core materials
+* automated 2D FEM simulation controlled with python
+
+Planned features in 2022
+* software stability and general improvements
+* basic GUI implementation
+* implement basics for thermal simulation
+
+## 5. Bug Reports
+Please use the issues report button within github to report bugs.
+
+## 6. Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+For contributing, please refer to this [section](Contributing.md).
+
+## 7. Changelog
+Find the changelog [here](CHANGELOG.md)
+
+## 8. License
+[GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
+
+## 9. History and project status
+This project was initially written in matlab using femm simulation tool. It became clear that the project was no longer a small project. The project should be completely rewritten, because many new complex levels have been added. To place the project in the open source world, the programming language python is used.      
+
+
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [0.2.0] - 2022-02-14
+### Updated
+- updated the winding generation
+- updated the femm reference model
+- updated project structure
+- updated meshing to hybrid mesh
+- updated class structure
+### Added
+- add file Analytical_Core_Data.py
+- add example files DAB_Input_Data.py, DAB_trafo_optimization.py
+- add file mu_imag.pro
+- add folder femmt/thermal
+- add result_log_electro_magnetic
+- add horizontal interleaved winding scheme
+- add method write_log() to femmt.py
+- add thermal simulation with onelab
+- add femm heat flow validation with femm
+### Fixed
+- fix #5: changed typo to L_h_conc = self.M**2 / self.L_22
+- fix #11: rename femmt.py to femmt_classes.py due to package problems
+
+
+## [0.1.2] - 2021-08-08
+### Updated
+- updated strand approximation
+### Added
+- add option for dedicated stray path
+- add complex permeability and permitivity for core materials for Core Loss estimation
+- add iGSE and GSE for Core Loss estimation
+
+## [0.1.1] - 2021-08-11
+### Updated
+- updated inductance calculations
+- code clean up
+
+### Fixed
+- fix #2: config.json was not read correct
+- fix #3: Install pyfemm on windows machines in case of not installed pyfemm
+
+## [0.1.0] - 2021-07-28
+### Added
+#### Structure
+- add README.md
+- add CHANGELOG.md
+- add femmt/__init__.py
+
+#### Essentials
+- add femmt/FEMMT.py
+- add femmt/functions.py
+- add femmt/ind_axi_python_controlled.pro
+- add femmt/solver.pro
+- add femmt/BH.pro
+
+#### Examples
+- add femmt/FEMMT_geometric.py
+- add femmt/basic_example.py
+
+#### Additional/Experimental Code
+- add femmt/pandas_json.py
+- add femmt/femm_test.py
+- add femmt/SimComparison.py
+- add femmt/SolidComp.py
+- add femmt/CompRes.py
+
+[Unreleased]: https://github.com/upb-lea/transistordatabase/compare/0.2.0...HEAD
+[0.2.0]: https://github.com/upb-lea/transistordatabase/compare/0.1.2...0.2.0
+[0.1.2]: https://github.com/upb-lea/transistordatabase/compare/0.1.1...0.1.2
+[0.1.1]: https://github.com/upb-lea/transistordatabase/compare/0.1.0...0.1.1
+[0.1.0]: https://github.com/upb-lea/transistordatabase/compare/0.1.0...0.1.0
+
+
+
+
