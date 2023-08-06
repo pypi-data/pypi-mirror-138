@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+libpythonsrs/__init__.py
+libpythonsrs/api_github.py
+libpythonsrs.egg-info/PKG-INFO
+libpythonsrs.egg-info/SOURCES.txt
+libpythonsrs.egg-info/dependency_links.txt
+libpythonsrs.egg-info/not-zip-safe
+libpythonsrs.egg-info/requires.txt
+libpythonsrs.egg-info/top_level.txt
