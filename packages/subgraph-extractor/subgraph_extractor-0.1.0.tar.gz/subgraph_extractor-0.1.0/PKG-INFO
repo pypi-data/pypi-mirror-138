@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: subgraph_extractor
+Version: 0.1.0
+Summary: Pull data from graph-node databases into parquet files
+Home-page: http://github.com/cardstack/subgraph-extractor
+Author: Ian Calvert
+Author-email: ian.calvert@cardstack.com
+License: None
+Platform: UNKNOWN
+Provides-Extra: dev
+License-File: LICENSE
+
+UNKNOWN
+
