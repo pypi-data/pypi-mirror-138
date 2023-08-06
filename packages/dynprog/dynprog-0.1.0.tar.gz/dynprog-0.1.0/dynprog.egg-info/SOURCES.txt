@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+requirements.txt
+setup.py
+dynprog/__init__.py
+dynprog/general.py
+dynprog/sequential.py
+dynprog.egg-info/PKG-INFO
+dynprog.egg-info/SOURCES.txt
+dynprog.egg-info/dependency_links.txt
+dynprog.egg-info/top_level.txt
