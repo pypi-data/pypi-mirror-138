@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.cfg
+src/llq/__init__.py
+src/llq/util/__init__.py
+src/llq/util/data/__init__.py
+src/llq/util/data/fakeData.py
+src/llq/util/devices/GPU.py
+src/llq/util/devices/__init__.py
+src/llq/util/network/__init__.py
+src/llq/util/network/wifi.py
+src/llq_data.egg-info/PKG-INFO
+src/llq_data.egg-info/SOURCES.txt
+src/llq_data.egg-info/dependency_links.txt
+src/llq_data.egg-info/top_level.txt
