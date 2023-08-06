@@ -1,0 +1,10 @@
+giftmaster/__init__.py,sha256=pH5i4Fj1tbXLqLtTVIdoojiplZssQn0nnud8-HXodRE,577
+giftmaster/signtool.py,sha256=3jQkg_4VxjUUIffD-MneTWOffDymsf3GJpCwLOU44Go,3002
+giftmaster/skeleton.py,sha256=AayrPayMFPqPoHjBLUrY2z84G751BOeafobF0c485XE,5105
+giftmaster/timestamp.py,sha256=FsktZjxKIeSagMHjoz38s4-E2enBnRK2imnn8AXNpgE,456
+giftmaster-0.0.19.dist-info/LICENSE.txt,sha256=09btKnCai4LASlVvyTZUp9T0DVNyTY_awOppr_cIfB4,15922
+giftmaster-0.0.19.dist-info/METADATA,sha256=vK9HkYrKzKy8MMtqXg6aUHjJ6BKEyaPnRBpeazrSN-8,2939
+giftmaster-0.0.19.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+giftmaster-0.0.19.dist-info/entry_points.txt,sha256=yx22odHNELJqXMbUYnuDhfs5Pg500EpreUr4EoinNUg,56
+giftmaster-0.0.19.dist-info/top_level.txt,sha256=ZCFmgt31kHNIaljjJxTqnzv5U-Mkn9Jl2J0a2qM8x5k,11
+giftmaster-0.0.19.dist-info/RECORD,,
