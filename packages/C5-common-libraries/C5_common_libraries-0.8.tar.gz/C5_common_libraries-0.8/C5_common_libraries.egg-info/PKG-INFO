@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: C5-common-libraries
+Version: 0.8
+Summary: This library is for C5 team, here we have created some common functions that we use while coding. Note : this library is completely useless for the outside world
+Home-page: https://github.com/pprathamesh7
+Download-URL: https://github.com/pprathamesh7/C5_common_libraries/archive/refs/tags/v_01.0.5.tar.gz
+Author: Prathamesh Patil
+Author-email: prathamesh.patil@course5i.com
+License: MIT
+Keywords: C5,Course5,Course5i
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE.txt
+
+UNKNOWN
+
