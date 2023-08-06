@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ansible-gen
+Version: 1.0.0
+Summary: a tool can generate ansible api according yang modules and some input xml files
+Home-page: https://github.com/HuaweiDatacomm/ansible-gen
+Author: frank feng
+Author-email: frank.fengchong@huawei.com
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Requires-Dist: pyang (>=2.5.0)
+Requires-Dist: jinja2 (==2.11.0)
+Requires-Dist: xmltodict (==0.11.0)
+
+UNKNOWN
+
+

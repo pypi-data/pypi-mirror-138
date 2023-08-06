@@ -1,0 +1,3 @@
+[console_scripts]
+ansible-gen = ansible_gen.ansible_gen:main
+
