@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: gherkin-to-markdown
+Version: 0.0.1
+Summary: A converter from Gherkin feature files to markdown files.
+Home-page: https://github.com/LeandreArseneault/gherkin-to-markdown
+Author: Léandre Arseneault
+Author-email: arseneault.leandre@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# gherkin-to-markdown
+A converter from Gherkin feature files to markdown files.
+
+
