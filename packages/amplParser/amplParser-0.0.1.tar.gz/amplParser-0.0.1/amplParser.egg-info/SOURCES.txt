@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+amplParser/amplParser.py
+amplParser.egg-info/PKG-INFO
+amplParser.egg-info/SOURCES.txt
+amplParser.egg-info/dependency_links.txt
+amplParser.egg-info/top_level.txt
+static/master.run
