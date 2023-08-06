@@ -1,0 +1,9 @@
+setup.py
+funoptimze/__init__.py
+funoptimze/linearsys.py
+funoptimze/multidimension.py
+funoptimze/unidimension.py
+funoptimze.egg-info/PKG-INFO
+funoptimze.egg-info/SOURCES.txt
+funoptimze.egg-info/dependency_links.txt
+funoptimze.egg-info/top_level.txt
