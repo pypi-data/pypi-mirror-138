@@ -1,0 +1,14 @@
+setuptools
+wheel
+requests
+nltk
+feedparser
+certifi
+ShynaTime
+google_speech
+ShynaDatabase
+googlesearch-python
+wikipedia
+sox
+IMDbPY
+wget
