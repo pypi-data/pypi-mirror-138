@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="0">
+    <record id="email_template" model="mail.template">
+        <field name="name">Bi View Report Template</field>
+        <field name="email_from">carsharing@sommobilitat.coop</field>
+        <field name="model_id" ref="base.model_res_partner" />
+        <field name="email_to">${object.email}</field>
+        <field name="lang">${object.lang|safe}</field>
+        <field name="subject">Here is your report ${ctx.get('name')}</field>
+        <field name="body_html">
+            <![CDATA[
+                <p>Hi ${object.firstname or ""}</p>
+                <p>You can find your report attached</p>
+                <p>Odoo</p>
+            ]]>
+        </field>
+    </record>
+</odoo>

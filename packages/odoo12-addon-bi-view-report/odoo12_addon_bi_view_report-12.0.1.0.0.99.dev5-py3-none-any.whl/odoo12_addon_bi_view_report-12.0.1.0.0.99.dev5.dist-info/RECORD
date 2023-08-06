@@ -1,0 +1,10 @@
+odoo/addons/bi_view_report/__init__.py,sha256=nmmGcFDn0FhR-tWbL0IU94d5WUZxlBHV9RpZsWdFASU,22
+odoo/addons/bi_view_report/__manifest__.py,sha256=BwbBOmqC2UVt8sCvn-yia--4Tb3KF4Kp_V9Tj5Tdmaw,706
+odoo/addons/bi_view_report/reports/bi_view_report_email_template.xml,sha256=i_Y4GpgXra3KBuLPNn2cgDgK3ngyReTfj21Y3tf1h6U,740
+odoo/addons/bi_view_report/wizards/__init__.py,sha256=orz72CG9sQdQxcpHQuTIo_nudqclvgl6NQbYPotgpCE,36
+odoo/addons/bi_view_report/wizards/bi_view_report_wizard.py,sha256=AwuNfQFJn46QzOHbQfMTKW8nnhmOwE6rTwuAhUa6qIM,2994
+odoo/addons/bi_view_report/wizards/bi_view_report_wizard.xml,sha256=7E0YTDjAqUOYcMVg44LN5MauNnA0CDED5xiJtbEjENY,2437
+odoo12_addon_bi_view_report-12.0.1.0.0.99.dev5.dist-info/METADATA,sha256=-XAgNKhMw5LlvHO0opvlzrVlYzgd1kfD5zKiVjv3MNc,593
+odoo12_addon_bi_view_report-12.0.1.0.0.99.dev5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+odoo12_addon_bi_view_report-12.0.1.0.0.99.dev5.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_bi_view_report-12.0.1.0.0.99.dev5.dist-info/RECORD,,
