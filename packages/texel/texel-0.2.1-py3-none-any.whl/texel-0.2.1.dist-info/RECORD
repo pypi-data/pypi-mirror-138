@@ -1,0 +1,15 @@
+texel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+texel/__main__.py,sha256=HB0Al-5AjHW844MRaEbkLrG9qDnkruUmpNW93YZezDA,122
+texel/coordinate.py,sha256=jbImBQlEktP7m-uQ4UuRM1R_lbWl4R9zEnmuMdZBPlM,292
+texel/grid.py,sha256=-r_r954GVNLTdECaXibTPzsX2yquJYVxGR6s4cg7TYo,6788
+texel/keys.py,sha256=Ju768gkSqhCi1ncIy9dbss6YJDZmONJE0iBEcR9NMDI,906
+texel/reader.py,sha256=cr7MFTJfk9R63i9M9c1ouiJMKZkDL_qqmA1qwHbCCUY,4136
+texel/styles.py,sha256=vciovAMw1Efq3kKzG5ZKRTluV9AJ_sHS7S9S6hnFAWo,2359
+texel/texel.py,sha256=9RPOSr_cS4Ifhbr4ha6FHghMoXL9yrr6RS-rs8IMQAA,1871
+texel/utils.py,sha256=sNyrHKNRiPWASbDJUr_AMv5nAUydCE_eG8yhwpiG-og,1260
+texel-0.2.1.dist-info/LICENSE,sha256=3mpbr644fK9TqBS8p54vN00VZQ7cNELu_tdAsA-6y7Q,1064
+texel-0.2.1.dist-info/METADATA,sha256=Xs-Yp54tBzh7vqo7bcVjfHHrzy3Rl8rI4InAG_-Jt6U,2028
+texel-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+texel-0.2.1.dist-info/entry_points.txt,sha256=DBUqMJ6LJEwCYoFVMQjr6r__9LMKOOtVGrXDL3Xb0NQ,44
+texel-0.2.1.dist-info/top_level.txt,sha256=8ZL0rGj-rqspUZf4ErTintePmDVH9LjKVh2PQEtkMh8,6
+texel-0.2.1.dist-info/RECORD,,
