@@ -1,0 +1,7 @@
+frontend
+frontendOPCUA
+ipportdialog
+stdcom
+stdcomqt5
+stdcomqt5treeewidget
+stdcomqt5widget
