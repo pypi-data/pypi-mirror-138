@@ -1,0 +1,2 @@
+[distutils.commands]
+protobuf-custom-build = custom.build:Command

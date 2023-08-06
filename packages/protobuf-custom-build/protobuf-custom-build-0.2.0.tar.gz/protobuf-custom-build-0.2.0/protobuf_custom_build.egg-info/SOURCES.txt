@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+custom/build.py
+protobuf_custom_build.egg-info/PKG-INFO
+protobuf_custom_build.egg-info/SOURCES.txt
+protobuf_custom_build.egg-info/dependency_links.txt
+protobuf_custom_build.egg-info/entry_points.txt
+protobuf_custom_build.egg-info/top_level.txt
+venv/bin/activate_this.py

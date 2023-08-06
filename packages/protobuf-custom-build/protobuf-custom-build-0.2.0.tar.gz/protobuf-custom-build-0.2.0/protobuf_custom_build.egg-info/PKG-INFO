@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: protobuf-custom-build
+Version: 0.2.0
+Summary: Custom build step for protobuf packages
+Home-page: https://github.com/sbrother/protobuf-custom-build
+Author: Sam Brotherton
+Author-email: sam@cairnlabs.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# protobuf-custom-build
+
+This is a small package that allows a repository containing only protobuf
+definitions to be used in a Python project via `pip install`. Please see
+[python-protobuf-repo-examle](https://github.com/sbrother/python-protobuf-repo-example)
+for a full example of a protobuf repo using this package; it boils down to
+including the line
+
+```
+distutils.command.build.build.sub_commands.insert(0, ('protobuf-custom-build', None))
+```
+
+in your `setup.py`.
+
+
