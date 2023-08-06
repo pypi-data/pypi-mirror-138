@@ -1,0 +1,11 @@
+baselooper/__init__.py,sha256=CIG0hgyZudM345hjx_VgRAnwtNSSoRPKkaSlhZDg8Vw,328
+baselooper/looper.py,sha256=_rc6fI5561j7n-6tgLlLB9l5diu5Lc8cJYuw5eIVY20,12880
+baselooper/module.py,sha256=zR3JWzaeyiCz0KOrSCH5Zsntmi-xD1Vt8-uyRdKJUYo,9083
+baselooper/run.py,sha256=PflKVaeqe5Ze7gLneAF-tNeSJ6QB7WQIjfaEKv0GZuo,5097
+baselooper/state.py,sha256=Nsg2XIbem_yB1DA4nsU21NsnGexLrwml3lt0RR1FQC8,69
+baselooper/utils.py,sha256=nXNddHOaIt_bU4ochrdNapYtRrTktE0xJlAxtI3EP0A,111
+baselooper-0.0.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+baselooper-0.0.1.dist-info/METADATA,sha256=jXaI8uDbBfh46ilVlT6nDkOlpY9AlNpjK69DGAs6Q9I,1170
+baselooper-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+baselooper-0.0.1.dist-info/top_level.txt,sha256=_bl6mF-pNajxSKGKFloazBS4gfSJ0cJOIOdoknPYtz4,11
+baselooper-0.0.1.dist-info/RECORD,,

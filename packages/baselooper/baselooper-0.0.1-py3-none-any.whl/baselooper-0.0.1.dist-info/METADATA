@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: baselooper
+Version: 0.0.1
+Summary: Run stuff in loops
+Home-page: https://github.com/DominikMa/baselooper
+Author: Dominik Mairhöfer
+Author-email: dominik@mairhoefer.xyz
+License: GNU AGPLv3
+Project-URL: Documentation, https://baselooper.readthedocs.io
+Project-URL: Bug Tracker, https://github.com/DominikMa/baselooper/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pip
+Requires-Dist: pydantic
+Requires-Dist: pyyaml
+Requires-Dist: click
+Requires-Dist: yaloader
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: jupyter-server ; extra == 'docs'
+Requires-Dist: myst-nb ; extra == 'docs'
+Requires-Dist: furo ; extra == 'docs'
+Requires-Dist: autodoc-pydantic ; extra == 'docs'
+Requires-Dist: sphinx-remove-toctrees ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: coverage ; extra == 'tests'
+
+# baselooper
+
+The documentation will be [here](https://baselooper.readthedocs.io).
+
