@@ -1,0 +1,12 @@
+CHANGELOG.md,sha256=WSc5hjutGeABcN2l80YZPui619LHCd1qrQ9fTkb1mWY,374
+LICENSE,sha256=wRu41BIopSpBP8s53GslpNmT_URIksS65P8xOH-F8Aw,1082
+README.md,sha256=AeLYKJln3p3bk6cHRaMoIrVCufPnl0pjGcrH_SRk2CM,1584
+sus/__init__.py,sha256=9fVnXwMTY35kQRNKU-j6VkdKCsNKFEG4R9LGH1T-9uk,326
+sus/dumper.py,sha256=8sIA1c8_nihUtAeo4CxRwTRVK6D86VmSLTYr0Z6Qu9Q,5846
+sus/loader.py,sha256=s1B9mmp9CpUToK2hgEkrIVQG6K_gEMAZS_eUnthBgY4,6537
+sus/schemas.py,sha256=WakvVUsv8OR7MJm81z-ZCBR67EosgRqYYhmFbyTrB6E,1582
+sus_io-0.2.1.dist-info/entry_points.txt,sha256=E9POArMdhiklQEpvnoPHl3s7xRH2yzrKNwEuhwVJlsQ,40
+sus_io-0.2.1.dist-info/LICENSE,sha256=wRu41BIopSpBP8s53GslpNmT_URIksS65P8xOH-F8Aw,1082
+sus_io-0.2.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+sus_io-0.2.1.dist-info/METADATA,sha256=RUCGg6rg3Gk5-PNB3S3YZvEvIm2p2RCHmoZZUXd3sFk,2555
+sus_io-0.2.1.dist-info/RECORD,,
