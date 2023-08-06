@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+howdypdf/__init__.py
+howdypdf/pdf2image.py
+howdypdf/pdf2text.py
+howdypdf.egg-info/PKG-INFO
+howdypdf.egg-info/SOURCES.txt
+howdypdf.egg-info/dependency_links.txt
+howdypdf.egg-info/top_level.txt
