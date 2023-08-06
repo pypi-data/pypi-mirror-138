@@ -1,0 +1,6 @@
+dask
+shapely
+xarray
+pyproj
+netcdf4
+toolz
