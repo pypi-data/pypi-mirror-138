@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+pypk/__init__.py
+pypk/clear_console.py
+pypk/main.py
+pypk/pypi_update.py
+pypk/pypi_upload.py
+pypk_up.egg-info/PKG-INFO
+pypk_up.egg-info/SOURCES.txt
+pypk_up.egg-info/dependency_links.txt
+pypk_up.egg-info/entry_points.txt
+pypk_up.egg-info/requires.txt
+pypk_up.egg-info/top_level.txt
