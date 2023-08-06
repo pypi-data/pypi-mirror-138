@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: bilayer-letb
+Version: 0.0.2
+Summary: LETB model for twisted bilayer graphene
+Home-page: https://github.com/qmc-hamm/bilayer_tight_binding
+Author: Shivesh Pathak, Tawfiq Rakib, Run Hou, Andriy Nevidomskyy, Elif Ertekin, Harley T. Johnson, Lucas K. Wagner
+Author-email: shiveshapathak@gmail.com, lkwagner@illinois.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6, <4
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: h5py
+Requires-Dist: ase
+Requires-Dist: pythtb
+
+LETB model for twisted bilayer graphene
+
+
