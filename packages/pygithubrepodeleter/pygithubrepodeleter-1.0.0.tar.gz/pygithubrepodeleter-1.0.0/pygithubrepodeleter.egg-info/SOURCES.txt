@@ -1,0 +1,9 @@
+README.md
+setup.py
+github_repo_deleter/repo_deleter.py
+pygithubrepodeleter.egg-info/PKG-INFO
+pygithubrepodeleter.egg-info/SOURCES.txt
+pygithubrepodeleter.egg-info/dependency_links.txt
+pygithubrepodeleter.egg-info/entry_points.txt
+pygithubrepodeleter.egg-info/requires.txt
+pygithubrepodeleter.egg-info/top_level.txt
