@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: fastapi-sysunicorns-helper
+Version: 1.2.0
+Summary: Utility Package for FastApi Python Application
+Home-page: https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper
+Author: miragecentury
+Author-email: victorien.vanroye@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# fastapi_sysunicorns_helper
+
+This library as for purpose to help fastapi project in term of integration
+
+[Pypi](https://pypi.org/user/miragecentury/)
+[Github](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper)
+
+
