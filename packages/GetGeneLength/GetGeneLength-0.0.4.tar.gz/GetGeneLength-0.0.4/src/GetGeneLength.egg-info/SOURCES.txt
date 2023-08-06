@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/GetGeneLength/GetGeneLength.py
+src/GetGeneLength/__init__.py
+src/GetGeneLength.egg-info/PKG-INFO
+src/GetGeneLength.egg-info/SOURCES.txt
+src/GetGeneLength.egg-info/dependency_links.txt
+src/GetGeneLength.egg-info/entry_points.txt
+src/GetGeneLength.egg-info/top_level.txt
