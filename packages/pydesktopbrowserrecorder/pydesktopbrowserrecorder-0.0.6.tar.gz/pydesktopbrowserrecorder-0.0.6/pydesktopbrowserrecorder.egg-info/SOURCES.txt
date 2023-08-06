@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+selenium_browser_desktop_recorder.py
+setup.cfg
+pydesktopbrowserrecorder.egg-info/PKG-INFO
+pydesktopbrowserrecorder.egg-info/SOURCES.txt
+pydesktopbrowserrecorder.egg-info/dependency_links.txt
+pydesktopbrowserrecorder.egg-info/top_level.txt
