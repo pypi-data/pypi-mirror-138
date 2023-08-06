@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Instrument/PyMusic_Instrument.egg-info/PKG-INFO
+Instrument/PyMusic_Instrument.egg-info/SOURCES.txt
+Instrument/PyMusic_Instrument.egg-info/dependency_links.txt
+Instrument/PyMusic_Instrument.egg-info/requires.txt
+Instrument/PyMusic_Instrument.egg-info/top_level.txt
