@@ -1,0 +1,8 @@
+MANIFEST.in
+backend_shim.py
+setup.py
+datalogue.egg-info/PKG-INFO
+datalogue.egg-info/SOURCES.txt
+datalogue.egg-info/dependency_links.txt
+datalogue.egg-info/namespace_packages.txt
+datalogue.egg-info/top_level.txt
