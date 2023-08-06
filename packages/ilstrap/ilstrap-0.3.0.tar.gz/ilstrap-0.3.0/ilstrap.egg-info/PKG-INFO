@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ilstrap
+Version: 0.3.0
+Summary: IDA Loader Installer
+Home-page: https://github.com/kritantadev/ilstrap
+Author: kritanta
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+file: README.md
+

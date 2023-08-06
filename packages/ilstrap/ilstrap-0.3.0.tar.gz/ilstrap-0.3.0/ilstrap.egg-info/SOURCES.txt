@@ -1,0 +1,14 @@
+README.md
+setup.py
+bin/ilstrap
+ilstrap.egg-info/PKG-INFO
+ilstrap.egg-info/SOURCES.txt
+ilstrap.egg-info/dependency_links.txt
+ilstrap.egg-info/requires.txt
+ilstrap.egg-info/top_level.txt
+src/ilstrap/__init__.py
+src/ilstrap/installer.py
+src/ilstrap/shared.py
+src/ilstrap/windows.py
+src/ilstrap/ida_strap/istrapper.py
+src/ilstrap/sys_scripts/get_path.bat
