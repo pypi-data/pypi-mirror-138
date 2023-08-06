@@ -1,0 +1,3 @@
+[console_scripts]
+macad=macad.mac_changer:main
+
