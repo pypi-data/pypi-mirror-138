@@ -1,0 +1,17 @@
+ucm/Dialogs.py,sha256=jz9-O9KuKI-JXPLBZcXxbkUHuWSssl4yd2otp-K8RKk,4770
+ucm/DockerListView.py,sha256=e2DxSn0X0opp_LbeJkki6U3GZTdYrULhrBVND5HFUIQ,4725
+ucm/Registry.py,sha256=VjKKDONL60u9XEkSDTfmz_A8ICTF-lsv4G_yKg5ic2o,1248
+ucm/SshListView.py,sha256=xYKKIQiFJDdWWqMx5_FnOiwE7CIUn5RwdWe0GFv6LOo,4672
+ucm/SwarmListView.py,sha256=h_0tF-HWYZLX8VsEiCPzxq7ELiK2N0YH5pRGQHC86Ss,6637
+ucm/UserConfig.py,sha256=gwdpSlTn8miHeQrI-_-cOO6qAmK5zX-nLqhCdhhG4gc,4321
+ucm/Widgets.py,sha256=HfeiWk0ZjPDjunpnuHJn7_vKGXIvEFba_el_hjOO1yw,12691
+ucm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ucm/constants.py,sha256=bxCP8tsbUCTapQ70THLk--H5HtBKtxYCm9nA9BKd4pU,2266
+ucm/help.txt,sha256=PGqyn2fUuFc5mtzXpr758x9P6_A3mu4paSlBQ9FvtW8,3369
+ucm/ucm-swarmlisting.sh,sha256=FHIebSaCZun0I3WqlZXP0-cGYIW_JcvTTBoxI54UnCo,248
+ucm-0.0.11.data/scripts/ucm,sha256=lH3nGF0TE8pVDWRCVBaCxHo2NVy0is8mnnhHT7w_gUE,6727
+ucm-0.0.11.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ucm-0.0.11.dist-info/METADATA,sha256=Z-0P0mCJ5ATYLOQsZC-KAIsG5fwY88KlTB2euDjP8YU,5793
+ucm-0.0.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ucm-0.0.11.dist-info/top_level.txt,sha256=vAOXKZgg2ReUb7BELuE5zah-f0X8ULY1zEigDRQYies,4
+ucm-0.0.11.dist-info/RECORD,,
