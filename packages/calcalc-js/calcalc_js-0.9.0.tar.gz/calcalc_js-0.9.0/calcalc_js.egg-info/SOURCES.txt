@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+calcalc/CalCalc.py
+calcalc/__init__.py
+calcalc_js.egg-info/PKG-INFO
+calcalc_js.egg-info/SOURCES.txt
+calcalc_js.egg-info/dependency_links.txt
+calcalc_js.egg-info/requires.txt
+calcalc_js.egg-info/top_level.txt
