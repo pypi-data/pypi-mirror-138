@@ -1,0 +1,6 @@
+[console_scripts]
+
+
+[pr2modules]
+dhcp = pr2modules.dhcp
+
