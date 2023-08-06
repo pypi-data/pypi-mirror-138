@@ -1,0 +1,10 @@
+lawsql_cases_justices/__init__.py,sha256=J-87DKrAwPI4XshbfIWIfIEC8ak9uVrnvszumosAabo,436
+lawsql_cases_justices/__main__.py,sha256=nh_mEvT-MFrD7OJaBKxhPMs8CRO_wfyLZu3VPA53wzY,2803
+lawsql_cases_justices/api.py,sha256=g1Le-01t1QPWH4A9jSXF_S3sUXO7oRU6qEEI5oXkEX8,2371
+lawsql_cases_justices/config.py,sha256=W3gqZY1Y8ZtRQE1aNh9PeJiGsU4W5K60t5SWfP01AOw,2364
+lawsql_cases_justices/patterns.py,sha256=Pn7myu7YXA9Hro8mor6htIskl599CvTbpKobJfIImfs,851
+lawsql_cases_justices/surname.py,sha256=QhvKSPZVmxYUdMrC2myfxiD9mye3VAvUa6ulErCbXFE,613
+lawsql_cases_justices/typos.py,sha256=wl15Gf1fl_T5_OmluplwdIFIzbhsWqj7f3XH8Gh2iuw,1030
+lawsql_cases_justices-0.0.1.dist-info/WHEEL,sha256=FMw6u7Kp3jrdDDtJRZ3hkPV-9adLQT8pbM4iifKUGfw,85
+lawsql_cases_justices-0.0.1.dist-info/METADATA,sha256=mwuRpJPUbQAByi2fGPGAroAI-jk3klcaEGQRz3iHOQo,618
+lawsql_cases_justices-0.0.1.dist-info/RECORD,,
