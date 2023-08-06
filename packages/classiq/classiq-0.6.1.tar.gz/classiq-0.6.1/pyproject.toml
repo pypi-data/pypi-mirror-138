@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "classiq"
+version = "0.6.1"
+description = "Classiq SDK Package"
+authors = ["Classiq Technologies <support@classiq.io>"]
+readme = "README.md"
+license = "Proprietary"
+homepage = "https://classiq.io"
+documentation = "https://classiquantum.com/reference/"
+keywords = [
+    "quantum",
+    "sdk",
+    "QAD",
+    "QDL",
+    "circuit"
+]
+classifiers = [
+    "Environment :: Console",
+    "License :: Other/Proprietary License",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering"
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+importlib-metadata = { version = "^4.8.1", python = "<3.8" }
+ConfigArgParse = "^1.5"
+pydantic = "^1.9.0"
+keyring = "^23.0.1"
+websockets = "^10.0"
+Pyomo = "~6.0"
+httpx = "< 1, >= 0.21"
+nest-asyncio = "^1.5.1"
+semver = "^2.13.0"
+# This ensures classiq_interface isn't installed from PyPI when building the backend
+classiq-interface = {version = "^0.6.1", optional = true}
+
+
+[tool.poetry.extras]
+all = ["classiq-interface"]
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
