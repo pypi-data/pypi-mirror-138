@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+src/alphai/__init__.py
+src/alphai/alphai.py
+src/alphai_api.egg-info/PKG-INFO
+src/alphai_api.egg-info/SOURCES.txt
+src/alphai_api.egg-info/dependency_links.txt
+src/alphai_api.egg-info/requires.txt
+src/alphai_api.egg-info/top_level.txt
