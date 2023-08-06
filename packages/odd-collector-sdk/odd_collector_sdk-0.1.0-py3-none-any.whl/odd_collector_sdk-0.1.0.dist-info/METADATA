@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: odd-collector-sdk
+Version: 0.1.0
+Summary: ODD Collector
+Home-page: https://github.com/opendatadiscovery/odd-collector-sdk
+License: Apache-2.0
+Keywords: odd-collector-sdk,odd_collector_sdk,opendatadiscovery
+Author: Open Data Discovery
+Author-email: pypi@opendatadiscovery.org
+Requires-Python: ==3.8.12
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: APScheduler (>=3.8.1,<4.0.0)
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
+Requires-Dist: black (>=21.12b0,<22.0)
+Requires-Dist: odd-models (>=1.0.14,<2.0.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Project-URL: Repository, https://github.com/opendatadiscovery/odd-collector-sdk
+Description-Content-Type: text/markdown
+
+# ODD Collector SDK
+##### Root project for ODD collectors
+
+### Domain
+
+* CollectorConfig
+    Main model for collector
+
+* Plugin
+* AbstractAdapter
+
+
+### How to use
+The main class for using is Collector.
+
+__Args__
+config_path: str - path to collector_config.yaml ('/collector_config.yaml')
+root_package: str - root package for adapters which will be loaded ('aws_collector.adapters')
+plugins_union_type - needs to dynamicly create CollectorConfig model
