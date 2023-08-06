@@ -1,0 +1,10 @@
+marathon_matches_manager/__init__.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+marathon_matches_manager/const.py,sha256=Infan_X6mIBIeIG_wIT0_zbJZxcxoG265UNgbpbYuAE,253
+marathon_matches_manager/generate_template.py,sha256=vHohqf12oLX_NDdFOvY1FQeDj4HH2sLsSwILl1bnv1g,933
+marathon_matches_manager/m3.py,sha256=ete_2RkfeOgd2b4A6AKpUMCaSs9eCY1v_cdmKCwQjyc,774
+marathon_matches_manager/static/bundle.js,sha256=NVm3ivr7AjfpcoCyBxVrWns9FfY3sEBd69HosewGOZI,1039139
+marathon_matches_manager/templates/index.html,sha256=pkx7Rqclhk9Y_rWgtr0fiuXNRT3vN_mxu-aVx5eZNR0,370
+marathon_matches_manager-0.1.1.dist-info/entry_points.txt,sha256=kLO36a1s1OisQeQPEnw5rX6W82JlfWR1I3ciihrsdAw,55
+marathon_matches_manager-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+marathon_matches_manager-0.1.1.dist-info/METADATA,sha256=IPDjFkRqCxpX4HHIlRgQOV3DgbhcC1wNdpbdf1XdNJU,380
+marathon_matches_manager-0.1.1.dist-info/RECORD,,

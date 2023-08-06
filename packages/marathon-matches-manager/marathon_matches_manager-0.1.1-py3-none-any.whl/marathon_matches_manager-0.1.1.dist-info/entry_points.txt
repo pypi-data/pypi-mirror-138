@@ -1,0 +1,3 @@
+[console_scripts]
+m3=marathon_matches_manager.m3:main
+
