@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: tgbot-ping
+Version: 1.0.3
+Summary: A package to detect telegram bot status in docker.
+Home-page: https://github.com/tgbot-collection/tgbot_ping
+Author: BennyThink
+Author-email: benny.think@gmail.com
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
