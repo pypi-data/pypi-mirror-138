@@ -1,0 +1,10 @@
+restful_starlette_admin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+restful_starlette_admin/admin.py,sha256=W2T1t3fcYMqrxzUefeWDfE2DeB8GTNmBHXAqe1aac_Q,3231
+restful_starlette_admin/file_content.py,sha256=V5HcfttSxCc6Sxbinsb-i3EzZ7YG28Vu11P0ZuhJe-g,4731
+restful_starlette_admin/structure.py,sha256=4fZhT2eXg_b_sMcNivN1W1-LIDX-ezjAdxVSZDr-Dck,1769
+restful_starlette_admin-0.0.9.dist-info/LICENSE,sha256=JZ-TnQnNhbBrpYvXYAcZ3DnUG18MKIke7cE3kuSkoME,1535
+restful_starlette_admin-0.0.9.dist-info/METADATA,sha256=FBKLPoH7iHNnQCHPDO5ltlbpK6UgJEdpC3XUbWitqFA,1443
+restful_starlette_admin-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+restful_starlette_admin-0.0.9.dist-info/entry_points.txt,sha256=XbYp6s3_euD3TdEOyD8hkN_el7Rmhmp7vWqd5Ds9SHk,69
+restful_starlette_admin-0.0.9.dist-info/top_level.txt,sha256=A7dqdKSdCBtM-jP6uzJ4P6DEFkJH-tek4mkdkncZh8o,24
+restful_starlette_admin-0.0.9.dist-info/RECORD,,
