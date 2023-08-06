@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: pynars
+Version: 0.0.1.post6
+Summary: An implementation of Non-Axiomatic Reasoning System
+Home-page: https://github.com/bowen-xu/PyNARS
+Author: Bowen XU
+Author-email: xubowen@pku.edu.cn
+License: MIT
+Keywords: NARS,Non-Axiomatic Reasoning System,NAL,Non-Axiomatic Logic,Narsese
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyNARS
+
+#### Description
+Python implementation of NARS (Non-Axiomatic-Reasoning-System)
+
+Reference:
+ - OpenNARS 3.0.4, 
+ - The Design Report of OpenNARS 3.1.0
+
+
+#### Environments
+
+ - Python version: 3.7.10. 
+     - Only tested under this version, however, Python 3.7 and higher versions maybe acceptable.
+ - OS: Windows 10. 
+     - Only tested under this OS, however, other OS might be ok.
+ - Packages Requirements: see `requirements.txt`.
+     - It is noted that the version of the python package `tqdm` should be no higher than 3.1.4, otherwise the color display would be abnormal. This is because of a bug of `tqdm`, which leads to conflicts between `sty` and `tqdm` and cause unexpected color display of `sty`. However, this constraints is not necessary, i.e., higher version of `tqdm` is ok if you don't mind abnormal display occuring. The abnormal case only occur when you first run the PyNARS when SparseLUT (Sparse Look-Up Table) is built.
+
+#### Installation
+
+
+    pip install pynars
+
+
+#### Instructions
+
+1.  Copy the file `pynars/config.json` to your workspace-directory. *(Optional)*
+2.  In the workspace-directory, run cmd `python -m pynars.Console`. To execute an `*.nal` file, run cmd `python -m pynars.Console <your-file-name.nal>`
+3.  Input Narsese in the console, input an positive integer to run a number of cycles, or input a comment which is a string with `'` as the beginning, e.g. `' your comment`.
+4.  Press `ctrl`+`C` to exit.
+
+#### Contribution
+
+1.  Fork the repository
+2.  Create Feat_xxx branch
+3.  Commit your code
+4.  Create Pull Request
+
+
+**Note:** This document will be imporved in the future.
+
