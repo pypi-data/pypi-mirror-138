@@ -1,0 +1,8 @@
+authc/__init__.py,sha256=Aj0H2iwOWH_ZYRx4Q0oPAVxB2crzNahysQYVNUOtKYo,88
+authc/core.py,sha256=UojvaBdBpTR4gT4VIjyLIF7w1uKCQYH9AH1T2qdNOIs,3004
+authc/myredis.py,sha256=Ih2UcZ7K621VsU21G4AqTJph1x8uRwJC9PLIqrPuw8k,440
+authc-0.1.4.dist-info/METADATA,sha256=AlGy1s3EDJx1dBjLEolfGbY7YH10k419xkNJB_j4gUg,460
+authc-0.1.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+authc-0.1.4.dist-info/entry_points.txt,sha256=ts4P2oedV8161K6YIweAx1n37cxY5U5HZNVI8nzMia8,38
+authc-0.1.4.dist-info/top_level.txt,sha256=ME4fYzzdfspzO_9ymlP2Q50bFce2Hr2pxDgGtGKmpf4,6
+authc-0.1.4.dist-info/RECORD,,
