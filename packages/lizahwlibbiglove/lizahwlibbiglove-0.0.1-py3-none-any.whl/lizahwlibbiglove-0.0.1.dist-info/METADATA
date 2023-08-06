@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: lizahwlibbiglove
+Version: 0.0.1
+Summary: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: networkx (==2.5.1)
+Requires-Dist: pydot (==1.4.2)
+
+UNKNOWN
+
