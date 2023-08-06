@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: lupin
+Version: 2.0.0
+Summary: lupin is a document to object mapper
+Home-page: https://github.com/holinnn/lupin
+Author: Aurélien AMILIN
+Author-email: aurelien.amilin@gmail.com
+License: mit
+Description: UNKNOWN
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Provides-Extra: testing
