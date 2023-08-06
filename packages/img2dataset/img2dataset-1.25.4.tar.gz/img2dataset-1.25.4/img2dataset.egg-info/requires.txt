@@ -1,0 +1,12 @@
+tqdm
+opencv-python
+fire
+webdataset
+pandas
+pyarrow
+exifread-nocycle
+albumentations
+pyyaml
+dataclasses
+wandb
+fsspec
