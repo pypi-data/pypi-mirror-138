@@ -1,0 +1,9 @@
+[babel.extractors]
+ckan = ckan.lib.extract:extract_ckan
+
+[ckan.plugins]
+boe = ckanext.boe.plugin:BoePlugin
+
+[console_scripts]
+boe = ckanext.boe.cli:boe
+
