@@ -1,0 +1,995 @@
+PREFIX world: <https://flu-crew.org/geo/country/>
+PREFIX usa: <https://flu-crew.org/geo/country/usa/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX f: <https://flu-crew.org/term/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+f:locatedIn rdf:type owl:TransitiveProperty .
+
+f:state rdfs:subPropertyOf f:locatedIn .
+f:country rdfs:subPropertyOf f:locatedIn .
+
+f:state rdfs:range usa:State .
+
+# state links
+usa:AK f:name "Alaska" .
+usa:AK f:abbr "AK" .
+usa:AL f:name "Alabama" .
+usa:AL f:abbr "AL" .
+usa:AR f:name "Arkansas" .
+usa:AR f:abbr "AR" .
+usa:AZ f:name "Arizona" .
+usa:AZ f:abbr "AZ" .
+usa:CA f:name "California" .
+usa:CA f:abbr "CA" .
+usa:CO f:name "Colorado" .
+usa:CO f:abbr "CO" .
+usa:CT f:name "Connecticut" .
+usa:CT f:abbr "CT" .
+usa:DC f:name "District Of Columbia" .
+usa:DC f:abbr "DC" .
+usa:DE f:name "Delaware" .
+usa:DE f:abbr "DE" .
+usa:FL f:name "Florida" .
+usa:FL f:abbr "FL" .
+usa:GA f:name "Georgia" .
+usa:GA f:abbr "GA" .
+usa:HI f:name "Hawaii" .
+usa:HI f:abbr "HI" .
+usa:IA f:name "Iowa" .
+usa:IA f:abbr "IA" .
+usa:ID f:name "Idaho" .
+usa:ID f:abbr "ID" .
+usa:IL f:name "Illinois" .
+usa:IL f:abbr "IL" .
+usa:IN f:name "Indiana" .
+usa:IN f:abbr "IN" .
+usa:KS f:name "Kansas" .
+usa:KS f:abbr "KS" .
+usa:KY f:name "Kentucky" .
+usa:KY f:abbr "KY" .
+usa:LA f:name "Louisiana" .
+usa:LA f:abbr "LA" .
+usa:MA f:name "Massachusetts" .
+usa:MA f:abbr "MA" .
+usa:MD f:name "Maryland" .
+usa:MD f:abbr "MD" .
+usa:ME f:name "Maine" .
+usa:ME f:abbr "ME" .
+usa:MI f:name "Michigan" .
+usa:MI f:abbr "MI" .
+usa:MN f:name "Minnesota" .
+usa:MN f:abbr "MN" .
+usa:MO f:name "Missouri" .
+usa:MO f:abbr "MO" .
+usa:MS f:name "Mississippi" .
+usa:MS f:abbr "MS" .
+usa:MT f:name "Montana" .
+usa:MT f:abbr "MT" .
+usa:NC f:name "North Carolina" .
+usa:NC f:abbr "NC" .
+usa:ND f:name "North Dakota" .
+usa:ND f:abbr "ND" .
+usa:NE f:name "Nebraska" .
+usa:NE f:abbr "NE" .
+usa:NH f:name "New Hampshire" .
+usa:NH f:abbr "NH" .
+usa:NJ f:name "New Jersey" .
+usa:NJ f:abbr "NJ" .
+usa:NM f:name "New Mexico" .
+usa:NM f:abbr "NM" .
+usa:NV f:name "Nevada" .
+usa:NV f:abbr "NV" .
+usa:NY f:name "New York" .
+usa:NY f:abbr "NY" .
+usa:OH f:name "Ohio" .
+usa:OH f:abbr "OH" .
+usa:OK f:name "Oklahoma" .
+usa:OK f:abbr "OK" .
+usa:OR f:name "Oregon" .
+usa:OR f:abbr "OR" .
+usa:PA f:name "Pennsylvania" .
+usa:PA f:abbr "PA" .
+usa:RI f:name "Rhode Island" .
+usa:RI f:abbr "RI" .
+usa:SC f:name "South Carolina" .
+usa:SC f:abbr "SC" .
+usa:SD f:name "South Dakota" .
+usa:SD f:abbr "SD" .
+usa:TN f:name "Tennessee" .
+usa:TN f:abbr "TN" .
+usa:TX f:name "Texas" .
+usa:TX f:abbr "TX" .
+usa:UT f:name "Utah" .
+usa:UT f:abbr "UT" .
+usa:VA f:name "Virginia" .
+usa:VA f:abbr "VA" .
+usa:VT f:name "Vermont" .
+usa:VT f:abbr "VT" .
+usa:WA f:name "Washington" .
+usa:WA f:abbr "WA" .
+usa:WI f:name "Wisconsin" .
+usa:WI f:abbr "WI" .
+usa:WV f:name "West Virginia" .
+usa:WV f:abbr "WV" .
+usa:WY f:name "Wyoming" .
+usa:WY f:abbr "WY" .
+
+# define region 1
+usa:ME f:locatedIn usa:Region1 .
+usa:VT f:locatedIn usa:Region1 .
+usa:NH f:locatedIn usa:Region1 .
+usa:MA f:locatedIn usa:Region1 .
+usa:CT f:locatedIn usa:Region1 .
+usa:RI f:locatedIn usa:Region1 .
+usa:NY f:locatedIn usa:Region1 .
+usa:PA f:locatedIn usa:Region1 .
+usa:NJ f:locatedIn usa:Region1 .
+usa:DE f:locatedIn usa:Region1 .
+usa:MD f:locatedIn usa:Region1 .
+usa:DC f:locatedIn usa:Region1 .
+usa:VA f:locatedIn usa:Region1 .
+usa:WV f:locatedIn usa:Region1 .
+usa:NC f:locatedIn usa:Region1 .
+usa:SC f:locatedIn usa:Region1 .
+usa:TN f:locatedIn usa:Region1 .
+usa:AL f:locatedIn usa:Region1 .
+usa:GA f:locatedIn usa:Region1 .
+usa:FL f:locatedIn usa:Region1 .
+# define region 2
+usa:MN f:locatedIn usa:Region2 .
+usa:IA f:locatedIn usa:Region2 .
+usa:WI f:locatedIn usa:Region2 .
+usa:IL f:locatedIn usa:Region2 .
+usa:IN f:locatedIn usa:Region2 .
+usa:KY f:locatedIn usa:Region2 .
+usa:OH f:locatedIn usa:Region2 .
+usa:MI f:locatedIn usa:Region2 .
+# define region 3
+usa:MO f:locatedIn usa:Region3 .
+usa:AR f:locatedIn usa:Region3 .
+usa:MS f:locatedIn usa:Region3 .
+usa:LA f:locatedIn usa:Region3 .
+usa:OK f:locatedIn usa:Region3 .
+usa:TX f:locatedIn usa:Region3 .
+# define region 4
+usa:ID f:locatedIn usa:Region4 .
+usa:MT f:locatedIn usa:Region4 .
+usa:WY f:locatedIn usa:Region4 .
+usa:ND f:locatedIn usa:Region4 .
+usa:SD f:locatedIn usa:Region4 .
+usa:NE f:locatedIn usa:Region4 .
+usa:KS f:locatedIn usa:Region4 .
+# define region 5
+usa:WA f:locatedIn usa:Region5 .
+usa:OR f:locatedIn usa:Region5 .
+usa:CA f:locatedIn usa:Region5 .
+usa:NV f:locatedIn usa:Region5 .
+usa:UT f:locatedIn usa:Region5 .
+usa:AZ f:locatedIn usa:Region5 .
+usa:CO f:locatedIn usa:Region5 .
+usa:NM f:locatedIn usa:Region5 .
+# subclass these regions to the US
+usa:Region1 f:locatedIn world:USA .
+usa:Region2 f:locatedIn world:USA .
+usa:Region3 f:locatedIn world:USA .
+usa:Region4 f:locatedIn world:USA .
+usa:Region5 f:locatedIn world:USA .
+
+# list all the countries
+f:name rdfs:domain world:Country .
+f:code rdfs:domain world:Country .
+
+# none of these are really countries, but I include them since they can show up
+world:czechoslovakia  f:name "Czechoslovakia"  .
+world:gaza_strip      f:name "Gaza Strip"      .
+world:kosovo          f:name "Kosovo"          .
+world:northern_cyprus f:name "Northern Cyprus" .
+world:west_bank       f:name "West Bank"       .
+
+# countries indexed by 3-letter code
+world:ABW f:code "ABW" .
+world:ABW f:name "Aruba" .
+world:AFG f:code "AFG" .
+world:AFG f:name "Afghanistan" .
+world:AGO f:code "AGO" .
+world:AGO f:name "Angola" .
+world:AIA f:code "AIA" .
+world:AIA f:name "Anguilla" .
+world:ALA f:code "ALA" .
+world:ALA f:name "Aland Islands" .
+world:ALB f:code "ALB" .
+world:ALB f:name "Albania" .
+world:AND f:code "AND" .
+world:AND f:name "Andorra" .
+world:ARE f:code "ARE" .
+world:ARE f:name "United Arab Emirates" .
+world:ARG f:code "ARG" .
+world:ARG f:name "Argentina" .
+world:ARM f:code "ARM" .
+world:ARM f:name "Armenia" .
+world:ASM f:code "ASM" .
+world:ASM f:name "American Samoa" .
+world:ATA f:code "ATA" .
+world:ATA f:name "Antarctica" .
+world:ATF f:code "ATF" .
+world:ATF f:name "French Southern Territories" .
+world:ATG f:code "ATG" .
+world:ATG f:name "Antigua and Barbuda" .
+world:AUS f:code "AUS" .
+world:AUS f:name "Australia" .
+world:AUT f:code "AUT" .
+world:AUT f:name "Austria" .
+world:AZE f:code "AZE" .
+world:AZE f:name "Azerbaijan" .
+world:BDI f:code "BDI" .
+world:BDI f:name "Burundi" .
+world:BEL f:code "BEL" .
+world:BEL f:name "Belgium" .
+world:BEN f:code "BEN" .
+world:BEN f:name "Benin" .
+world:BES f:code "BES" .
+world:BES f:name "Bonaire" .
+world:BFA f:code "BFA" .
+world:BFA f:name "Burkina Faso" .
+world:BGD f:code "BGD" .
+world:BGD f:name "Bangladesh" .
+world:BGR f:code "BGR" .
+world:BGR f:name "Bulgaria" .
+world:BHR f:code "BHR" .
+world:BHR f:name "Bahrain" .
+world:BHS f:code "BHS" .
+world:BHS f:name "Bahamas" .
+world:BIH f:code "BIH" .
+world:BIH f:name "Bosnia and Herzegovina" .
+world:BLM f:code "BLM" .
+world:BLM f:name "Saint Barthélemy" .
+world:BLR f:code "BLR" .
+world:BLR f:name "Belarus" .
+world:BLZ f:code "BLZ" .
+world:BLZ f:name "Belize" .
+world:BMU f:code "BMU" .
+world:BMU f:name "Bermuda" .
+world:BOL f:code "BOL" .
+world:BOL f:name "Bolivia" .
+world:BRA f:code "BRA" .
+world:BRA f:name "Brazil" .
+world:BRB f:code "BRB" .
+world:BRB f:name "Barbados" .
+world:BRN f:code "BRN" .
+world:BRN f:name "Brunei Darussalam" .
+world:BTN f:code "BTN" .
+world:BTN f:name "Bhutan" .
+world:BVT f:code "BVT" .
+world:BVT f:name "Bouvet Island" .
+world:BWA f:code "BWA" .
+world:BWA f:name "Botswana" .
+world:CAF f:code "CAF" .
+world:CAF f:name "Central African Republic" .
+world:CAN f:code "CAN" .
+world:CAN f:name "Canada" .
+world:CCK f:code "CCK" .
+world:CCK f:name "Cocos (Keeling) Islands" .
+world:CHE f:code "CHE" .
+world:CHE f:name "Switzerland" .
+world:CHL f:code "CHL" .
+world:CHL f:name "Chile" .
+world:CHN f:code "CHN" .
+world:CHN f:name "China" .
+world:CIV f:code "CIV" .
+world:CIV f:name "Cote d'Ivoire" .
+world:CMR f:code "CMR" .
+world:CMR f:name "Cameroon" .
+world:COD f:code "COD" .
+world:COD f:name "Democratic Republic of Congo" .
+world:COG f:code "COG" .
+world:COG f:name "Republic of Congo" .
+world:COK f:code "COK" .
+world:COK f:name "Cook Islands" .
+world:COL f:code "COL" .
+world:COL f:name "Colombia" .
+world:COM f:code "COM" .
+world:COM f:name "Comoros" .
+world:CPV f:code "CPV" .
+world:CPV f:name "Cape Verde" .
+world:CRI f:code "CRI" .
+world:CRI f:name "Costa Rica" .
+world:CUB f:code "CUB" .
+world:CUB f:name "Cuba" .
+world:CUW f:code "CUW" .
+world:CUW f:name "Curaçao" .
+world:CXR f:code "CXR" .
+world:CXR f:name "Christmas Island" .
+world:CYM f:code "CYM" .
+world:CYM f:name "Cayman Islands" .
+world:CYP f:code "CYP" .
+world:CYP f:name "Cyprus" .
+world:CZE f:code "CZE" .
+world:CZE f:name "Czech Republic" .
+world:DEU f:code "DEU" .
+world:DEU f:name "Germany" .
+world:DJI f:code "DJI" .
+world:DJI f:name "Djibouti" .
+world:DMA f:code "DMA" .
+world:DMA f:name "Dominica" .
+world:DNK f:code "DNK" .
+world:DNK f:name "Denmark" .
+world:DOM f:code "DOM" .
+world:DOM f:name "Dominican Republic" .
+world:DZA f:code "DZA" .
+world:DZA f:name "Algeria" .
+world:ECU f:code "ECU" .
+world:ECU f:name "Ecuador" .
+world:EGY f:code "EGY" .
+world:EGY f:name "Egypt" .
+world:ERI f:code "ERI" .
+world:ERI f:name "Eritrea" .
+world:ESH f:code "ESH" .
+world:ESH f:name "Western Sahara" .
+world:ESP f:code "ESP" .
+world:ESP f:name "Spain" .
+world:EST f:code "EST" .
+world:EST f:name "Estonia" .
+world:ETH f:code "ETH" .
+world:ETH f:name "Ethiopia" .
+world:FIN f:code "FIN" .
+world:FIN f:name "Finland" .
+world:FJI f:code "FJI" .
+world:FJI f:name "Fiji" .
+world:FLK f:code "FLK" .
+world:FLK f:name "Falkland Islands" .
+world:FRA f:code "FRA" .
+world:FRA f:name "France" .
+world:FRO f:code "FRO" .
+world:FRO f:name "Faroe Islands" .
+world:FSM f:code "FSM" .
+world:FSM f:name "Federated States of Micronesia" .
+world:GAB f:code "GAB" .
+world:GAB f:name "Gabon" .
+world:GBR f:code "GBR" .
+world:GBR f:name "United Kingdom" .
+world:GEO f:code "GEO" .
+world:GEO f:name "Georgia" .
+world:GGY f:code "GGY" .
+world:GGY f:name "Guernsey" .
+world:GHA f:code "GHA" .
+world:GHA f:name "Ghana" .
+world:GIB f:code "GIB" .
+world:GIB f:name "Gibraltar" .
+world:GIN f:code "GIN" .
+world:GIN f:name "Guinea" .
+world:GLP f:code "GLP" .
+world:GLP f:name "Guadeloupe" .
+world:GMB f:code "GMB" .
+world:GMB f:name "Gambia" .
+world:GNB f:code "GNB" .
+world:GNB f:name "Guinea-Bissau" .
+world:GNQ f:code "GNQ" .
+world:GNQ f:name "Equatorial Guinea" .
+world:GRC f:code "GRC" .
+world:GRC f:name "Greece" .
+world:GRD f:code "GRD" .
+world:GRD f:name "Grenada" .
+world:GRL f:code "GRL" .
+world:GRL f:name "Greenland" .
+world:GTM f:code "GTM" .
+world:GTM f:name "Guatemala" .
+world:GUF f:code "GUF" .
+world:GUF f:name "French Guiana" .
+world:GUM f:code "GUM" .
+world:GUM f:name "Guam" .
+world:GUY f:code "GUY" .
+world:GUY f:name "Guyana" .
+world:HKG f:code "HKG" .
+world:HKG f:name "Hong Kong" .
+world:HMD f:code "HMD" .
+world:HMD f:name "Heard and Mc Donald Islands" .
+world:HND f:code "HND" .
+world:HND f:name "Honduras" .
+world:HRV f:code "HRV" .
+world:HRV f:name "Croatia" .
+world:HTI f:code "HTI" .
+world:HTI f:name "Haiti" .
+world:HUN f:code "HUN" .
+world:HUN f:name "Hungary" .
+world:IDN f:code "IDN" .
+world:IDN f:name "Indonesia" .
+world:IMN f:code "IMN" .
+world:IMN f:name "Isle of Man" .
+world:IND f:code "IND" .
+world:IND f:name "India" .
+world:IOT f:code "IOT" .
+world:IOT f:name "British Indian Ocean Territory" .
+world:IRL f:code "IRL" .
+world:IRL f:name "Ireland" .
+world:IRN f:code "IRN" .
+world:IRN f:name "Iran" .
+world:IRQ f:code "IRQ" .
+world:IRQ f:name "Iraq" .
+world:ISL f:code "ISL" .
+world:ISL f:name "Iceland" .
+world:ISR f:code "ISR" .
+world:ISR f:name "Israel" .
+world:ITA f:code "ITA" .
+world:ITA f:name "Italy" .
+world:JAM f:code "JAM" .
+world:JAM f:name "Jamaica" .
+world:JEY f:code "JEY" .
+world:JEY f:name "Jersey" .
+world:JOR f:code "JOR" .
+world:JOR f:name "Jordan" .
+world:JPN f:code "JPN" .
+world:JPN f:name "Japan" .
+world:KAZ f:code "KAZ" .
+world:KAZ f:name "Kazakhstan" .
+world:KEN f:code "KEN" .
+world:KEN f:name "Kenya" .
+world:KGZ f:code "KGZ" .
+world:KGZ f:name "Kyrgyzstan" .
+world:KHM f:code "KHM" .
+world:KHM f:name "Cambodia" .
+world:KIR f:code "KIR" .
+world:KIR f:name "Kiribati" .
+world:KNA f:code "KNA" .
+world:KNA f:name "Saint Kitts and Nevis" .
+world:KOR f:code "KOR" .
+world:KOR f:name "South Korea" .
+world:KWT f:code "KWT" .
+world:KWT f:name "Kuwait" .
+world:LAO f:code "LAO" .
+world:LAO f:name "Laos" .
+world:LBN f:code "LBN" .
+world:LBN f:name "Lebanon" .
+world:LBR f:code "LBR" .
+world:LBR f:name "Liberia" .
+world:LBY f:code "LBY" .
+world:LBY f:name "Libya" .
+world:LCA f:code "LCA" .
+world:LCA f:name "Saint Lucia" .
+world:LIE f:code "LIE" .
+world:LIE f:name "Liechtenstein" .
+world:LKA f:code "LKA" .
+world:LKA f:name "Sri Lanka" .
+world:LSO f:code "LSO" .
+world:LSO f:name "Lesotho" .
+world:LTU f:code "LTU" .
+world:LTU f:name "Lithuania" .
+world:LUX f:code "LUX" .
+world:LUX f:name "Luxembourg" .
+world:LVA f:code "LVA" .
+world:LVA f:name "Latvia" .
+world:MAC f:code "MAC" .
+world:MAC f:name "Macao" .
+world:MAF f:code "MAF" .
+world:MAF f:name "Saint Martin" .
+world:MAR f:code "MAR" .
+world:MAR f:name "Morocco" .
+world:MCO f:code "MCO" .
+world:MCO f:name "Monaco" .
+world:MDA f:code "MDA" .
+world:MDA f:name "Moldova" .
+world:MDA f:name "Republic of Moldova" .
+world:MDG f:code "MDG" .
+world:MDG f:name "Madagascar" .
+world:MDV f:code "MDV" .
+world:MDV f:name "Maldives" .
+world:MEX f:code "MEX" .
+world:MEX f:name "Mexico" .
+world:MHL f:code "MHL" .
+world:MHL f:name "Marshall Islands" .
+world:MKD f:code "MKD" . # as of Feb 2019 through the ratification of the Prespa agreement
+world:MKD f:name "North Macedonia" .
+world:MLI f:code "MLI" .
+world:MLI f:name "Mali" .
+world:MLT f:code "MLT" .
+world:MLT f:name "Malta" .
+world:MMR f:code "MMR" .
+world:MMR f:name "Myanmar" .
+world:MNE f:code "MNE" .
+world:MNE f:name "Montenegro" .
+world:MNG f:code "MNG" .
+world:MNG f:name "Mongolia" .
+world:MNP f:code "MNP" .
+world:MNP f:name "Northern Mariana Islands" .
+world:MOZ f:code "MOZ" .
+world:MOZ f:name "Mozambique" .
+world:MRT f:code "MRT" .
+world:MRT f:name "Mauritania" .
+world:MSR f:code "MSR" .
+world:MSR f:name "Montserrat" .
+world:MTQ f:code "MTQ" .
+world:MTQ f:name "Martinique" .
+world:MUS f:code "MUS" .
+world:MUS f:name "Mauritius" .
+world:MWI f:code "MWI" .
+world:MWI f:name "Malawi" .
+world:MYS f:code "MYS" .
+world:MYS f:name "Malaysia" .
+world:MYT f:code "MYT" .
+world:MYT f:name "Mayotte" .
+world:NAM f:code "NAM" .
+world:NAM f:name "Namibia" .
+world:NCL f:code "NCL" .
+world:NCL f:name "New Caledonia" .
+world:NER f:code "NER" .
+world:NER f:name "Niger" .
+world:NFK f:code "NFK" .
+world:NFK f:name "Norfolk Island" .
+world:NGA f:code "NGA" .
+world:NGA f:name "Nigeria" .
+world:NIC f:code "NIC" .
+world:NIC f:name "Nicaragua" .
+world:NIU f:code "NIU" .
+world:NIU f:name "Niue" .
+world:NLD f:code "NLD" .
+world:NLD f:name "Netherlands" .
+world:NOR f:code "NOR" .
+world:NOR f:name "Norway" .
+world:NPL f:code "NPL" .
+world:NPL f:name "Nepal" .
+world:NRU f:code "NRU" .
+world:NRU f:name "Nauru" .
+world:NZL f:code "NZL" .
+world:NZL f:name "New Zealand" .
+world:OMN f:code "OMN" .
+world:OMN f:name "Oman" .
+world:PAK f:code "PAK" .
+world:PAK f:name "Pakistan" .
+world:PAN f:code "PAN" .
+world:PAN f:name "Panama" .
+world:PCN f:code "PCN" .
+world:PCN f:name "Pitcairn" .
+world:PER f:code "PER" .
+world:PER f:name "Peru" .
+world:PHL f:code "PHL" .
+world:PHL f:name "Philippines" .
+world:PLW f:code "PLW" .
+world:PLW f:name "Palau" .
+world:PNG f:code "PNG" .
+world:PNG f:name "Papua New Guinea" .
+world:POL f:code "POL" .
+world:POL f:name "Poland" .
+world:PRI f:code "PRI" .
+world:PRI f:name "Puerto Rico" .
+world:PRK f:name "North Korea" .
+world:PRT f:code "PRT" .
+world:PRT f:name "Portugal" .
+world:PRY f:code "PRY" .
+world:PRY f:name "Paraguay" .
+world:PSE f:code "PSE" .
+world:PSE f:name "State of Palestine" .
+world:PYF f:code "PYF" .
+world:PYF f:name "French Polynesia" .
+world:QAT f:code "QAT" .
+world:QAT f:name "Qatar" .
+world:REU f:code "REU" .
+world:REU f:name "Reunion" .
+world:ROU f:code "ROU" .
+world:ROU f:name "Romania" .
+world:RUS f:code "RUS" . # give or take a few countries
+world:RUS f:name "Russia" .
+world:RWA f:code "RWA" .
+world:RWA f:name "Rwanda" .
+world:SAU f:code "SAU" .
+world:SAU f:name "Saudi Arabia" .
+world:SDN f:code "SDN" .
+world:SDN f:name "Sudan" .
+world:SEN f:code "SEN" .
+world:SEN f:name "Senegal" .
+world:SGP f:code "SGP" .
+world:SGP f:name "Singapore" .
+world:SGS f:code "SGS" .
+world:SGS f:name "South Georgia and the South Sandwich Islands" .
+world:SHN f:code "SHN" .
+world:SHN f:name "Saint Helena" .
+world:SJM f:code "SJM" .
+world:SJM f:name "Svalbard and Jan Mayen" .
+world:SLB f:code "SLB" .
+world:SLB f:name "Solomon Islands" .
+world:SLE f:code "SLE" .
+world:SLE f:name "Sierra Leone" .
+world:SLV f:code "SLV" .
+world:SLV f:name "El Salvador" .
+world:SMR f:code "SMR" .
+world:SMR f:name "San Marino" .
+world:SOM f:code "SOM" .
+world:SOM f:name "Somalia" .
+world:SPM f:code "SPM" .
+world:SPM f:name "Saint Pierre and Miquelon" .
+world:SRB f:code "SRB" .
+world:SRB f:name "Serbia" .
+world:SSD f:code "SSD" .
+world:SSD f:name "South Sudan" .
+world:STP f:code "STP" .
+world:STP f:name "Sao Tome and Principe" .
+world:SUR f:code "SUR" .
+world:SUR f:name "Suriname" .
+world:SVK f:code "SVK" .
+world:SVK f:name "Slovakia" .
+world:SVN f:code "SVN" .
+world:SVN f:name "Slovenia" .
+world:SWE f:code "SWE" .
+world:SWE f:name "Sweden" .
+world:SWZ f:code "SWZ" .
+world:SWZ f:name "Swaziland" .
+world:SXM f:code "SXM" .
+world:SXM f:name "Sint Maarten" .
+world:SYC f:code "SYC" .
+world:SYC f:name "Seychelles" .
+world:SYR f:code "SYR" .
+world:SYR f:name "Syria" .
+world:TCA f:code "TCA" .
+world:TCA f:name "Turks and Caicos Islands" .
+world:TCD f:code "TCD" .
+world:TCD f:name "Chad" .
+world:TGO f:code "TGO" .
+world:TGO f:name "Togo" .
+world:THA f:code "THA" .
+world:THA f:name "Thailand" .
+world:TJK f:code "TJK" .
+world:TJK f:name "Tajikistan" .
+world:TKL f:code "TKL" .
+world:TKL f:name "Tokelau" .
+world:TKM f:code "TKM" .
+world:TKM f:name "Turkmenistan" .
+world:TLS f:code "TLS" .
+world:TLS f:name "Timor-Leste" .
+world:TON f:code "TON" .
+world:TON f:name "Tonga" .
+world:TTO f:code "TTO" .
+world:TTO f:name "Trinidad and Tobago" .
+world:TUN f:code "TUN" .
+world:TUN f:name "Tunisia" .
+world:TUR f:code "TUR" .
+world:TUR f:name "Turkey" .
+world:TUV f:code "TUV" .
+world:TUV f:name "Tuvalu" .
+world:TWN f:code "TWN" .
+world:TWN f:name "Taiwan" .
+world:TZA f:code "TZA" .
+world:TZA f:name "Tanzania, United Republic of" .
+world:UGA f:code "UGA" .
+world:UGA f:name "Uganda" .
+world:UKR f:code "UKR" .
+world:UKR f:name "Ukraine" .
+world:UMI f:code "UMI" .
+world:UMI f:name "United States Minor Outlying Islands" .
+world:URY f:code "URY" .
+world:URY f:name "Uruguay" .
+world:USA f:code "USA" .
+world:USA f:name "United States" .
+world:UZB f:code "UZB" .
+world:UZB f:name "Uzbekistan" .
+world:VAT f:code "VAT" .
+world:VAT f:name "Vatican City" .
+world:VCT f:code "VCT" .
+world:VCT f:name "Saint Vincent and the Grenadines" .
+world:VEN f:code "VEN" .
+world:VEN f:name "Venezuela" .
+world:VGB f:code "VGB" .
+world:VGB f:name "British Virgin Islands" .
+world:VIR f:code "VIR" .
+world:VIR f:name "American Virgin Islands" .
+world:VNM f:code "VNM" .
+world:VNM f:name "Vietnam" .
+world:VUT f:code "VUT" .
+world:VUT f:name "Vanuatu" .
+world:WLF f:code "WLF" .
+world:WLF f:name "Wallis and Futuna" .
+world:WSM f:code "WSM" .
+world:WSM f:name "Samoa" .
+world:YEM f:code "YEM" .
+world:YEM f:name "Yemen" .
+world:ZAF f:code "ZAF" .
+world:ZAF f:name "South Africa" .
+world:ZMB f:code "ZMB" .
+world:ZMB f:name "Zambia" .
+world:ZWE f:code "ZWE" .
+world:ZWE f:name "Zimbabwe" .
+
+world:middle_east f:name "Middle East" .
+
+# ==== Africa ====
+world:Africa f:locatedIn world:Earth .
+world:EasternAfrica f:locatedIn world:Africa .
+world:EasternAfrica f:name "Eastern Africa" .
+world:BDI f:locatedIn world:EasternAfrica . # Burundi
+world:COM f:locatedIn world:EasternAfrica . # Comoros
+world:DJI f:locatedIn world:EasternAfrica . # Djibouti
+world:ERI f:locatedIn world:EasternAfrica . # Eritrea
+world:ETH f:locatedIn world:EasternAfrica . # Ethiopia
+world:KEN f:locatedIn world:EasternAfrica . # Kenya
+world:MDG f:locatedIn world:EasternAfrica . # Madagascar
+world:MOZ f:locatedIn world:EasternAfrica . # Mozambique
+world:MUS f:locatedIn world:EasternAfrica . # Mauritius
+world:MWI f:locatedIn world:EasternAfrica . # Malawi
+world:MYT f:locatedIn world:EasternAfrica . # Mayotte
+world:REU f:locatedIn world:EasternAfrica . # Reunion
+world:RWA f:locatedIn world:EasternAfrica . # Rwanda
+world:SOM f:locatedIn world:EasternAfrica . # Somalia
+world:SYC f:locatedIn world:EasternAfrica . # Seychelles
+world:TZA f:locatedIn world:EasternAfrica . # Tanzania, United Republic of
+world:UGA f:locatedIn world:EasternAfrica . # Uganda
+world:ZMB f:locatedIn world:EasternAfrica . # Zambia
+world:ZWE f:locatedIn world:EasternAfrica . # Zimbabwe
+
+# ----
+world:MiddleAfrica f:locatedIn world:Africa .
+world:MiddleAfrica f:name "Middle Africa" .
+world:AGO f:locatedIn world:MiddleAfrica . # Angola
+world:CAF f:locatedIn world:MiddleAfrica . # Central African Republic
+world:CMR f:locatedIn world:MiddleAfrica . # Cameroon
+world:COD f:locatedIn world:MiddleAfrica . # Democratic Republic of Congo
+world:COG f:locatedIn world:MiddleAfrica . # Republic of Congo
+world:GAB f:locatedIn world:MiddleAfrica . # Gabon
+world:GNQ f:locatedIn world:MiddleAfrica . # Equatorial Guinea
+world:STP f:locatedIn world:MiddleAfrica . # Sao Tome and Principe
+world:TCD f:locatedIn world:MiddleAfrica . # Chad
+
+# ----
+world:NorthernAfrica f:locatedIn world:Africa .
+world:NorthernAfrica f:name "Northern Africa" .
+world:DZA f:locatedIn world:NorthernAfrica . # Algeria
+world:EGY f:locatedIn world:NorthernAfrica . # Egypt
+world:ESH f:locatedIn world:NorthernAfrica . # Western Sahara
+world:LBY f:locatedIn world:NorthernAfrica . # Libya
+world:MAR f:locatedIn world:NorthernAfrica . # Morocco
+world:SDN f:locatedIn world:NorthernAfrica . # Sudan
+world:SSD f:locatedIn world:NorthernAfrica . # South Sudan
+world:TUN f:locatedIn world:NorthernAfrica . # Tunisia
+
+# ----
+world:SouthernAfrica f:locatedIn world:Africa .
+world:SouthernAfrica f:name "Southern Africa" .
+world:BWA f:locatedIn world:SouthernAfrica . # Botswana
+world:LSO f:locatedIn world:SouthernAfrica . # Lesotho
+world:NAM f:locatedIn world:SouthernAfrica . # Namibia
+world:SWZ f:locatedIn world:SouthernAfrica . # Swaziland
+world:ZAF f:locatedIn world:SouthernAfrica . # South Africa
+
+# ----
+world:WesternAfrica f:locatedIn world:Africa .
+world:WesternAfrica f:name "Western Africa" .
+world:BEN f:locatedIn world:WesternAfrica . # Benin
+world:BFA f:locatedIn world:WesternAfrica . # Burkina Faso
+world:CIV f:locatedIn world:WesternAfrica . # Cote d'Ivoire
+world:CPV f:locatedIn world:WesternAfrica . # Cape Verde
+world:GHA f:locatedIn world:WesternAfrica . # Ghana
+world:GIN f:locatedIn world:WesternAfrica . # Guinea
+world:GMB f:locatedIn world:WesternAfrica . # Gambia
+world:GNB f:locatedIn world:WesternAfrica . # Guinea-Bissau
+world:LBR f:locatedIn world:WesternAfrica . # Liberia
+world:MLI f:locatedIn world:WesternAfrica . # Mali
+world:MRT f:locatedIn world:WesternAfrica . # Mauritania
+world:NER f:locatedIn world:WesternAfrica . # Niger
+world:NGA f:locatedIn world:WesternAfrica . # Nigeria
+world:SEN f:locatedIn world:WesternAfrica . # Senegal
+world:SHN f:locatedIn world:WesternAfrica . # Saint Helena
+world:SLE f:locatedIn world:WesternAfrica . # Sierra Leone
+world:TGO f:locatedIn world:WesternAfrica . # Togo
+
+# ==== Asia ====
+world:Asia f:locatedIn world:Earth .
+world:Asia f:name "Asia" .
+world:AFG f:locatedIn world:Asia . # Afghanistan
+world:ARM f:locatedIn world:Asia . # Armenia
+world:AZE f:locatedIn world:Asia . # Azerbaijan
+world:BGD f:locatedIn world:Asia . # Bangladesh
+world:BRN f:locatedIn world:Asia . # Brunei Darussalam
+world:BTN f:locatedIn world:Asia . # Bhutan
+world:CHN f:locatedIn world:Asia . # China
+world:GEO f:locatedIn world:Asia . # Georgia
+world:HKG f:locatedIn world:Asia . # Hong Kong
+world:IDN f:locatedIn world:Asia . # Indonesia
+world:IND f:locatedIn world:Asia . # India
+world:JPN f:locatedIn world:Asia . # Japan
+world:KAZ f:locatedIn world:Asia . # Kazakhstan
+world:KGZ f:locatedIn world:Asia . # Kyrgyzstan
+world:KHM f:locatedIn world:Asia . # Cambodia
+world:KOR f:locatedIn world:Asia . # South Korea
+world:LAO f:locatedIn world:Asia . # Laos
+world:LKA f:locatedIn world:Asia . # Sri Lanka
+world:MAC f:locatedIn world:Asia . # Macao
+world:MDV f:locatedIn world:Asia . # Maldives
+world:MMR f:locatedIn world:Asia . # Myanmar
+world:MNG f:locatedIn world:Asia . # Mongolia
+world:MYS f:locatedIn world:Asia . # Malaysia
+world:NPL f:locatedIn world:Asia . # Nepal
+world:PAK f:locatedIn world:Asia . # Pakistan
+world:PHL f:locatedIn world:Asia . # Philippines
+world:PRK f:locatedIn world:Asia . # North Korea .
+world:SGP f:locatedIn world:Asia . # Singapore
+world:THA f:locatedIn world:Asia . # Thailand
+world:TJK f:locatedIn world:Asia . # Tajikistan
+world:TKM f:locatedIn world:Asia . # Turkmenistan
+world:TLS f:locatedIn world:Asia . # Timor-Leste
+world:TWN f:locatedIn world:Asia . # Taiwan
+world:UZB f:locatedIn world:Asia . # Uzbekistan
+world:VNM f:locatedIn world:Asia . # Vietnam
+
+# ==== Central America ====
+world:CentralAmerica f:locatedIn world:Earth .
+world:CentralAmerica f:name "Central America" .
+world:BLZ f:locatedIn world:CentralAmerica . # Belize
+world:CRI f:locatedIn world:CentralAmerica . # Costa Rica
+world:GTM f:locatedIn world:CentralAmerica . # Guatemala
+world:HND f:locatedIn world:CentralAmerica . # Honduras
+world:MEX f:locatedIn world:CentralAmerica . # Mexico
+world:NIC f:locatedIn world:CentralAmerica . # Nicaragua
+world:PAN f:locatedIn world:CentralAmerica . # Panama
+world:SLV f:locatedIn world:CentralAmerica . # El Salvador
+
+# ==== Europe ====
+world:Europe f:locatedIn world:Earth .
+world:Europe f:name "Europe" .
+world:ALB f:locatedIn world:Europe . # Albania
+world:AND f:locatedIn world:Europe . # Andorra
+world:AUT f:locatedIn world:Europe . # Austria
+world:BEL f:locatedIn world:Europe . # Belgium
+world:BGR f:locatedIn world:Europe . # Bulgaria
+world:BIH f:locatedIn world:Europe . # Bosnia and Herzegovina
+world:BLR f:locatedIn world:Europe . # Belarus
+world:CHE f:locatedIn world:Europe . # Switzerland
+world:CYP f:locatedIn world:Europe . # Cyprus
+world:CZE f:locatedIn world:Europe . # Czech Republic
+world:DEU f:locatedIn world:Europe . # Germany
+world:DNK f:locatedIn world:Europe . # Denmark
+world:ESP f:locatedIn world:Europe . # Spain
+world:EST f:locatedIn world:Europe . # Estonia
+world:FIN f:locatedIn world:Europe . # Finland
+world:FRA f:locatedIn world:Europe . # France
+world:FRO f:locatedIn world:Europe . # Faroe Islands
+world:GBR f:locatedIn world:Europe . # United Kingdom
+world:GGY f:locatedIn world:Europe . # Guernsey
+world:GIB f:locatedIn world:Europe . # Gibraltar
+world:GRC f:locatedIn world:Europe . # Greece
+world:HRV f:locatedIn world:Europe . # Croatia
+world:HUN f:locatedIn world:Europe . # Hungary
+world:IMN f:locatedIn world:Europe . # Isle of Man
+world:IRL f:locatedIn world:Europe . # Ireland
+world:ISL f:locatedIn world:Europe . # Iceland
+world:ITA f:locatedIn world:Europe . # Italy
+world:JEY f:locatedIn world:Europe . # Jersey
+world:LIE f:locatedIn world:Europe . # Liechtenstein
+world:LTU f:locatedIn world:Europe . # Lithuania
+world:LUX f:locatedIn world:Europe . # Luxembourg
+world:LVA f:locatedIn world:Europe . # Latvia
+world:MCO f:locatedIn world:Europe . # Monaco
+world:MDA f:locatedIn world:Europe . # Moldova
+world:MKD f:locatedIn world:Europe . # North Macedonia
+world:MLT f:locatedIn world:Europe . # Malta
+world:MNE f:locatedIn world:Europe . # Montenegro
+world:NLD f:locatedIn world:Europe . # Netherlands
+world:NOR f:locatedIn world:Europe . # Norway
+world:POL f:locatedIn world:Europe . # Poland
+world:PRT f:locatedIn world:Europe . # Portugal
+world:ROU f:locatedIn world:Europe . # Romania
+world:RUS f:locatedIn world:Europe . # Russia
+world:SJM f:locatedIn world:Europe . # Svalbard and Jan Mayen
+world:SMR f:locatedIn world:Europe . # San Marino
+world:SRB f:locatedIn world:Europe . # Serbia
+world:SVK f:locatedIn world:Europe . # Slovakia
+world:SVN f:locatedIn world:Europe . # Slovenia
+world:SWE f:locatedIn world:Europe . # Sweden
+world:TUR f:locatedIn world:Europe . # Turkey
+world:UKR f:locatedIn world:Europe . # Ukraine
+world:VAT f:locatedIn world:Europe . # Vatican City
+
+# ==== Middle East ====
+world:MiddleEast f:locatedIn world:Earth .
+world:MiddleEast f:name "Middle East" .
+world:ARE f:locatedIn world:MiddleEast . # United Arab Emirates
+world:BHR f:locatedIn world:MiddleEast . # Bahrain
+world:IRN f:locatedIn world:MiddleEast . # Iran
+world:IRQ f:locatedIn world:MiddleEast . # Iraq
+world:ISR f:locatedIn world:MiddleEast . # Israel
+world:JOR f:locatedIn world:MiddleEast . # Jordan
+world:KWT f:locatedIn world:MiddleEast . # Kuwait
+world:LBN f:locatedIn world:MiddleEast . # Lebanon
+world:OMN f:locatedIn world:MiddleEast . # Oman
+world:PSE f:locatedIn world:MiddleEast . # State of Palestine
+world:QAT f:locatedIn world:MiddleEast . # Qatar
+world:SAU f:locatedIn world:MiddleEast . # Saudi Arabia
+world:SYR f:locatedIn world:MiddleEast . # Syria
+world:YEM f:locatedIn world:MiddleEast . # Yemen
+
+# ==== North America ====
+world:NorthAmerica f:locatedIn world:Earth .
+world:NorthAmerica f:name "North America" .
+world:CAN f:locatedIn world:NorthAmerica . # Canada
+world:GRL f:locatedIn world:NorthAmerica . # Greenland
+world:SPM f:locatedIn world:NorthAmerica . # Saint Pierre and Miquelon
+world:USA f:locatedIn world:NorthAmerica . # United States
+
+# ==== Oceania ====
+world:Oceania f:locatedIn world:Earth .
+world:Oceania f:name "Oceania" .
+world:ASM f:locatedIn world:Oceania . # American Samoa
+world:AUS f:locatedIn world:Oceania . # Australia
+world:FJI f:locatedIn world:Oceania . # Fiji
+world:FSM f:locatedIn world:Oceania . # Federated States of Micronesia
+world:GUM f:locatedIn world:Oceania . # Guam
+world:IOT f:locatedIn world:Oceania . # British Indian Ocean Territory
+world:KIR f:locatedIn world:Oceania . # Kiribati
+world:MHL f:locatedIn world:Oceania . # Marshall Islands
+world:MNP f:locatedIn world:Oceania . # Northern Mariana Islands
+world:NCL f:locatedIn world:Oceania . # New Caledonia
+world:NFK f:locatedIn world:Oceania . # Norfolk Island
+world:NIU f:locatedIn world:Oceania . # Niue
+world:NRU f:locatedIn world:Oceania . # Nauru
+world:NZL f:locatedIn world:Oceania . # New Zealand
+world:PCN f:locatedIn world:Oceania . # Pitcairn
+world:PLW f:locatedIn world:Oceania . # Palau
+world:PNG f:locatedIn world:Oceania . # Papua New Guinea
+world:PYF f:locatedIn world:Oceania . # French Polynesia
+world:SLB f:locatedIn world:Oceania . # Solomon Islands
+world:TCA f:locatedIn world:Oceania . # Turks and Caicos Islands
+world:TKL f:locatedIn world:Oceania . # Tokelau
+world:TON f:locatedIn world:Oceania . # Tonga
+world:TUV f:locatedIn world:Oceania . # Tuvalu
+world:UMI f:locatedIn world:Oceania . # United States Minor Outlying Islands
+world:VUT f:locatedIn world:Oceania . # Vanuatu
+world:WLF f:locatedIn world:Oceania . # Wallis and Futuna
+world:WSM f:locatedIn world:Oceania . # Samoa
+
+# ==== South America ====
+world:SouthAmerica f:locatedIn world:Earth .
+world:SouthAmerica f:name "South America" .
+world:ARG f:locatedIn world:SouthAmerica . # Argentina
+world:BOL f:locatedIn world:SouthAmerica . # Bolivia
+world:BRA f:locatedIn world:SouthAmerica . # Brazil
+world:CHL f:locatedIn world:SouthAmerica . # Chile
+world:COL f:locatedIn world:SouthAmerica . # Colombia
+world:ECU f:locatedIn world:SouthAmerica . # Ecuador
+world:FLK f:locatedIn world:SouthAmerica . # Falkland Islands
+world:GUF f:locatedIn world:SouthAmerica . # French Guiana
+world:GUY f:locatedIn world:SouthAmerica . # Guyana
+world:PER f:locatedIn world:SouthAmerica . # Peru
+world:PRY f:locatedIn world:SouthAmerica . # Paraguay
+world:SUR f:locatedIn world:SouthAmerica . # Suriname
+world:URY f:locatedIn world:SouthAmerica . # Uruguay
+world:VEN f:locatedIn world:SouthAmerica . # Venezuela
+
+# ==== The Caribbean ====
+world:Caribbean f:locatedIn world:Earth .
+world:Caribbean f:name "Caribbean" .
+world:ABW f:locatedIn world:Caribbean . # Aruba
+world:AIA f:locatedIn world:Caribbean . # Anguilla
+world:ALA f:locatedIn world:Caribbean . # Aland Islands
+world:ATF f:locatedIn world:Caribbean . # French Southern Territories
+world:ATG f:locatedIn world:Caribbean . # Antigua and Barbuda
+world:BES f:locatedIn world:Caribbean . # Bonaire
+world:BHS f:locatedIn world:Caribbean . # Bahamas
+world:BLM f:locatedIn world:Caribbean . # Saint Barthélemy
+world:BMU f:locatedIn world:Caribbean . # Bermuda
+world:BRB f:locatedIn world:Caribbean . # Barbados
+world:BVT f:locatedIn world:Caribbean . # Bouvet Island
+world:CCK f:locatedIn world:Caribbean . # Cocos (Keeling) Islands
+world:COK f:locatedIn world:Caribbean . # Cook Islands
+world:CUB f:locatedIn world:Caribbean . # Cuba
+world:CUW f:locatedIn world:Caribbean . # Curaçao
+world:CXR f:locatedIn world:Caribbean . # Christmas Island
+world:CYM f:locatedIn world:Caribbean . # Cayman Islands
+world:DMA f:locatedIn world:Caribbean . # Dominica
+world:DOM f:locatedIn world:Caribbean . # Dominican Republic
+world:GLP f:locatedIn world:Caribbean . # Guadeloupe
+world:GRD f:locatedIn world:Caribbean . # Grenada
+world:HMD f:locatedIn world:Caribbean . # Heard and Mc Donald Islands
+world:HTI f:locatedIn world:Caribbean . # Haiti
+world:JAM f:locatedIn world:Caribbean . # Jamaica
+world:KNA f:locatedIn world:Caribbean . # Saint Kitts and Nevis
+world:LCA f:locatedIn world:Caribbean . # Saint Lucia
+world:MAF f:locatedIn world:Caribbean . # Saint Martin
+world:MSR f:locatedIn world:Caribbean . # Montserrat
+world:MTQ f:locatedIn world:Caribbean . # Martinique
+world:PRI f:locatedIn world:Caribbean . # Puerto Rico
+world:SGS f:locatedIn world:Caribbean . # South Georgia and the South Sandwich Islands
+world:SXM f:locatedIn world:Caribbean . # Sint Maarten
+world:TTO f:locatedIn world:Caribbean . # Trinidad and Tobago
+world:VCT f:locatedIn world:Caribbean . # Saint Vincent and the Grenadines
+world:VGB f:locatedIn world:Caribbean . # British Virgin Islands
+world:VIR f:locatedIn world:Caribbean . # American Virgin Islands
+
+# ==== Antarctica ====
+world:ATA f:locatedIn world:Earth . # "Antarctica" 
+world:ATA f:name "Antarctica" .

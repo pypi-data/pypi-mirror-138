@@ -1,0 +1,10 @@
+PREFIX f: <https://flu-crew.org/term/>
+
+delete {
+    ?s ?p ?motif .
+}
+where {
+    ?s f:seqid ?seqid .
+    ?s f:motif ?motif .
+    ?s ?p ?motif .
+}
