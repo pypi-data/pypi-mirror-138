@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/osmdiff/__init__.py
+src/osmdiff/config.py
+src/osmdiff/diff.py
+src/osmdiff.egg-info/PKG-INFO
+src/osmdiff.egg-info/SOURCES.txt
+src/osmdiff.egg-info/dependency_links.txt
+src/osmdiff.egg-info/requires.txt
+src/osmdiff.egg-info/top_level.txt
+src/osmdiff/osm/__init__.py
+src/osmdiff/osm/osm.py
