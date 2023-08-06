@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+vnpy_baostock/__init__.py
+vnpy_baostock/baostock_datafeed.py
+vnpy_baostock.egg-info/PKG-INFO
+vnpy_baostock.egg-info/SOURCES.txt
+vnpy_baostock.egg-info/dependency_links.txt
+vnpy_baostock.egg-info/not-zip-safe
+vnpy_baostock.egg-info/requires.txt
+vnpy_baostock.egg-info/top_level.txt
