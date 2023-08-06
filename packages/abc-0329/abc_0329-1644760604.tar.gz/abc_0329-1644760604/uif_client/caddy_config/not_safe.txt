@@ -1,0 +1,24 @@
+{
+   auto_https disable_redirects
+   auto_https off
+}
+
+http://{domain} {
+   reverse_proxy 127.0.0.1:4566
+}
+
+http://{domain}/handle {
+   reverse_proxy 127.0.0.1:9090
+}
+
+http://{domain}/uif {
+   reverse_proxy 127.0.0.1:10000
+}
+
+http://{domain}/uif_free {
+   reverse_proxy 127.0.0.1:10001
+}
+
+http://{domain}/main {
+   respond "Hello world!"
+}
