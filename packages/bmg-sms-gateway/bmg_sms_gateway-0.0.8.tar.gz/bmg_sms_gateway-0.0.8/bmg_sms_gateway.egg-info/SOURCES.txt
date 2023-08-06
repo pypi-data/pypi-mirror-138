@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+bmg_sms_gateway/__init__.py
+bmg_sms_gateway/description.png
+bmg_sms_gateway/gateway.py
+bmg_sms_gateway.egg-info/PKG-INFO
+bmg_sms_gateway.egg-info/SOURCES.txt
+bmg_sms_gateway.egg-info/dependency_links.txt
+bmg_sms_gateway.egg-info/requires.txt
+bmg_sms_gateway.egg-info/top_level.txt
