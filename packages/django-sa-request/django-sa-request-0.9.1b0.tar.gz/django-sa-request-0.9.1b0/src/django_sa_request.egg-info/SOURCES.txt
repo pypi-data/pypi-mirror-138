@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/django_sa_request.egg-info/PKG-INFO
+src/django_sa_request.egg-info/SOURCES.txt
+src/django_sa_request.egg-info/dependency_links.txt
+src/django_sa_request.egg-info/requires.txt
+src/django_sa_request.egg-info/top_level.txt
+src/sa_request/__init__.py
+src/sa_request/exceptions.py
+src/sa_request/helper.py
