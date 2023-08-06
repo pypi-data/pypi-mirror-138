@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: WeatherLookup
+Version: 1.0.2
+Summary: Look up live weather data from across the world
+Home-page: https://github.com/mustafaisnotsmart/WeatherLibrary
+Author: Mustafa A
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+
+Lookup the live weather data to any city!
+
+## Valid Queries
+
+- City name 
+- State name
+- Zipcode
+
+
+## Installation
+
+``` Bash
+pip install WeatherLookup
+```
+
+## Usage 
+
+```Python
+import WeatherLookup
+
+DubaiWeather = WeatherLookup.temperature('Dubai')
+print(DubaiWeather)
+
+```
+
+```Python
+import WeatherLookup
+
+DubaiCondition = WeatherLookup.condition('Dubai')
+print(DubaiCondition)
+
+```
+
