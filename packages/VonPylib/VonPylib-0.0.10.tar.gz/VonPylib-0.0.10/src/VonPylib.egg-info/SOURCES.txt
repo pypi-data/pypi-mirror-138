@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/VonPylib.egg-info/PKG-INFO
+src/VonPylib.egg-info/SOURCES.txt
+src/VonPylib.egg-info/dependency_links.txt
+src/VonPylib.egg-info/top_level.txt
+src/test/__init__.py
+src/test/test.py
