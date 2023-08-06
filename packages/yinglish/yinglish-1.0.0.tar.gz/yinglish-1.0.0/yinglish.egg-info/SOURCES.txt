@@ -1,0 +1,7 @@
+setup.py
+yinglish/__init__.py
+yinglish.egg-info/PKG-INFO
+yinglish.egg-info/SOURCES.txt
+yinglish.egg-info/dependency_links.txt
+yinglish.egg-info/requires.txt
+yinglish.egg-info/top_level.txt
