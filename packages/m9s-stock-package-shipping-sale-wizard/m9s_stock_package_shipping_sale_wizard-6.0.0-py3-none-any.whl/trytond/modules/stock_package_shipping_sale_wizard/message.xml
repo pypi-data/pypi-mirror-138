@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="already_shipped">
+            <field name="text">Shipment "%(shipment)s" was already shipped.
+
+Do you want to ship another package for it?</field>
+        </record>
+    </data>
+</tryton>
