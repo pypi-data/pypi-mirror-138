@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+slrkit_utils/__init__.py
+slrkit_utils/argument_parser.py
+slrkit_utils/version.py
+slrkit_utils.egg-info/PKG-INFO
+slrkit_utils.egg-info/SOURCES.txt
+slrkit_utils.egg-info/dependency_links.txt
+slrkit_utils.egg-info/top_level.txt
