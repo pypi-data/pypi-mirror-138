@@ -1,0 +1,5 @@
+Authlib==0.15.5
+grpcio==1.43.0
+pyOpenSSL==21.0.0
+grpc-interceptor==0.13.0
+google-api-python-client

@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: innotescus
+Version: 1.0.0
+Summary: Client for the Innotescus Platform
+Home-page: https://innotescus.io
+Author: Innotescus, LLC
+Author-email: support@innotescus.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+![Innotescus Logo](https://innotescus.io/wp-content/uploads/2021/02/logo-inno-tag-1.svg)
+
+This is the client library for Innotescus, a platform for annotating, curating, and refining computer vision data for machine learning.
+
+Use this library to programmatically interact with your Innotescus account, including project and team member management, and image, video, and annotation imports and exports.
+
+## Register An Account
+An Innotescus account is **required** for using this library.  Please visit
+[innotescus.app](https://innotescus.app) to register or request a free trial.
+
+## Documentation
+Client documentation is accessible from your account, once you've
+registered.
+
+
