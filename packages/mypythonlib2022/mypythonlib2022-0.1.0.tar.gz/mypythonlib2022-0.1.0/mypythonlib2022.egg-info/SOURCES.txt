@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+.eggs/README.txt
+.eggs/pytest_runner-5.3.1-py3.9.egg/ptr.py
+.eggs/pytest_runner-5.3.1-py3.9.egg/EGG-INFO/entry_points.txt
+.eggs/pytest_runner-5.3.1-py3.9.egg/EGG-INFO/requires.txt
+.eggs/pytest_runner-5.3.1-py3.9.egg/EGG-INFO/top_level.txt
+myfunctions/__init__.py
+mypythonlib2022.egg-info/PKG-INFO
+mypythonlib2022.egg-info/SOURCES.txt
+mypythonlib2022.egg-info/dependency_links.txt
+mypythonlib2022.egg-info/top_level.txt
