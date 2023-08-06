@@ -1,0 +1,14 @@
+nonebot_plugin_remake/__init__.py,sha256=WeUhiYaZLEwAzFtd7Ve7fNtfWI0q_Z5yA_bXJda4SWw,5593
+nonebot_plugin_remake/age.py,sha256=90q_qccPd4lG5L0GVf4aeTIbtZ11Ywnzu_q2cXYnI3A,664
+nonebot_plugin_remake/event.py,sha256=xG5DhyNqT7oOi0iGikzZl5IpDkC4YDsKbNMYJX3qX1c,3096
+nonebot_plugin_remake/life.py,sha256=FWycM0H0udKwyO3odYzHQ0gG8Tk8bmdfhUYq6fEraaw,1809
+nonebot_plugin_remake/property.py,sha256=LkdTYOeKCdPST3WxKyiFexf0bUODy9DrTocigaHoM80,5207
+nonebot_plugin_remake/resources/age.json,sha256=18hHHB5Sk4pecOVEXcBrbdQ2-xhRGi03rEdmNRZboNw,1967564
+nonebot_plugin_remake/resources/events.json,sha256=E0NKgXTtw6li0O-rMSUFXQhbz5OD44XH4URxkMdYBX8,365677
+nonebot_plugin_remake/resources/talents.json,sha256=6GRy621eRaidNNHeW132vsu2Tj8WRrPHq0XA6Lxr9BM,29583
+nonebot_plugin_remake/talent.py,sha256=yVfm93-cWL9cYeMxi3jeFjT8HIHXmTD2mPgp-iwax9w,3243
+nonebot_plugin_remake/utils.py,sha256=E4XbLPvr1UcBzqakdETecBOFEPkeMVshTmv5CQfuWt0,952
+nonebot_plugin_remake-0.1.4.dist-info/LICENSE,sha256=MB9kjv_MMzk3mfQT1djd80kgH9jSNxiT7KyaGXg2IY4,1063
+nonebot_plugin_remake-0.1.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+nonebot_plugin_remake-0.1.4.dist-info/METADATA,sha256=423XvriBmxMdNg8O7rjbFEce6W_RQ2oIcG7nzJ-__oM,593
+nonebot_plugin_remake-0.1.4.dist-info/RECORD,,
