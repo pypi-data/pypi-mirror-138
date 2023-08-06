@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: newfile
+Version: 0.1.0
+Summary: create files from preset template cli app
+License: MIT
+Author-email: teeaz <teeaz@github.com>
+Requires-Python: >=3.9
+Requires-Dist: click>=8.0.3
+Requires-Dist: lazyaml>=6.0.4
+Project-URL: homepage, https://github.com/teeaz/newfile
+Description-Content-Type: text/markdown
+
+# newfile
+create files from preset template cli app
+
+- [Docs](https://github.com/teeaz/newfile)
+- [Examples](https://github.com/teeaz/newfile/tree/main/example)
