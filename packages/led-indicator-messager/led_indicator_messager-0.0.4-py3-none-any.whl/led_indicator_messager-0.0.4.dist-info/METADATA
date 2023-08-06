@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: led-indicator-messager
+Version: 0.0.4
+Summary: Helper class to send messages to LED Website Indicator MQTT service
+Home-page: https://github.com/tomjuggler/led_indicator_messager
+Author: Tom Hastings
+Author-email: tom@devsoft.co.za
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/tomjuggler/led_indicator_messager/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
