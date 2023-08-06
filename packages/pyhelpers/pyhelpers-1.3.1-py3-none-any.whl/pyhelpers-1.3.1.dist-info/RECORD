@@ -1,0 +1,16 @@
+pyhelpers/__init__.py,sha256=ZQankR35m8YgsTX0fC4lZiaxZLTX8blcRITffuvjpao,557
+pyhelpers/_cache.py,sha256=DZCEphwISR6neWkDpN-l_iLYJZA8r-dhe9D8HV40Wqs,4199
+pyhelpers/dbms.py,sha256=WV2ftvQk5sQ3cymTG5tcfSsSt5b6-pwuM3Mevfg1Z7g,71413
+pyhelpers/dir.py,sha256=gJTcWnImI9ZGHCwwBYARvWzr6r5QttntJu79w3NTjpI,12009
+pyhelpers/geom.py,sha256=MrCHiD-s6mPJaG9DAGKpLnT0hCQM217KbsxpYd97wTw,37779
+pyhelpers/ops.py,sha256=1ZQ9OyKBGQMA4cAflLxtWAxzB88J172AODBl3rIjJUk,63430
+pyhelpers/settings.py,sha256=kJ-tnqN23aXGf5h-8RYCE78LYjntXnDa4HTl9agpN2U,17920
+pyhelpers/store.py,sha256=lzq__Us-BMb2RWt5XzsTq_6UmYllvsgvve49xa7h1eg,66123
+pyhelpers/text.py,sha256=jWf9nHZTc24qgv3bwP1_yqG_LiBoq_8tqO1KmXDQaEg,21479
+pyhelpers/data/metadata.json,sha256=1uBUKNeBCgidkNQu-fSa4z_Z4zK7OFPom7RA4c3m3MM,344
+pyhelpers/data/user-agent-strings.json,sha256=hka6TYngZcF5gj5Ktir6U-cwR2WE3JPlNgn-ns3HcOw,482209
+pyhelpers-1.3.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pyhelpers-1.3.1.dist-info/METADATA,sha256=HrBIjDcj1zTrVJmOtNDCtMWTIR3d1XZ0y7u6YUxDXPQ,3187
+pyhelpers-1.3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyhelpers-1.3.1.dist-info/top_level.txt,sha256=zBs0DfdTbN2B5BDTquDTgD8h-hFgln7yOr9DtSIJ7_A,10
+pyhelpers-1.3.1.dist-info/RECORD,,
