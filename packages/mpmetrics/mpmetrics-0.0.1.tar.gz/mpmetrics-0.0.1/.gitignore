@@ -1,0 +1,15 @@
+# Python bits
+**/__pycache__
+.eggs
+build
+dist
+*.egg-info
+
+# C bits
+*.d
+*.o
+*.so
+
+# Test bits
+.hypothesis
+.coverage*
