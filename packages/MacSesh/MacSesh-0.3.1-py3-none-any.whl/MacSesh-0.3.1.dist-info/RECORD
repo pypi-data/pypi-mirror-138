@@ -1,0 +1,13 @@
+macsesh/__init__.py,sha256=-Hp4NGAao64_PpGQ3xkIm90oTSl2sFrPnUyoXb9l90c,1295
+macsesh/injected_adapter.py,sha256=DBK5lfMrfR7BAL-0LKSQ0rPpMHUGEJl2BgzU-bo_uFk,1772
+macsesh/keychain.py,sha256=U-q_W1s4Sjfp14cS9KK6piw9hs_YSr_J6kLcjJD_lKs,1896
+macsesh/secure_transport_adapter.py,sha256=309hCz3t1UkwfmeDMxExOsm5dJ_-dUzwE4zSxwzQ6CI,3879
+macsesh/session.py,sha256=sGaAnBRPwGB-uzCF5gPUt4oQfldfBWqBv6zQSx-PLE8,907
+macsesh/simple_adapter.py,sha256=yhUPU1H6yNqzKfF6pDA8x5pDQ6K9OyxmAl2qU48eIXw,991
+macsesh/util.py,sha256=JUBJ1Qvpz2tpZ5Vm2dZvH5hdzzKeswCWHp6xV31_bRs,1888
+macsesh/version.py,sha256=2KwowXhmiT6-Bln7VPq9d9sRpAzJq9qLyclhp2KWmjA,21
+MacSesh-0.3.1.dist-info/LICENSE.txt,sha256=BNHEK7ZWgtgoWmR_cWj573DXxUyK5-n9qnsbqE1OEn0,583
+MacSesh-0.3.1.dist-info/METADATA,sha256=x0zRhqL6U7RCbtzKNGFwWMXgQL4XkB8WhB_zGV3gjFo,5908
+MacSesh-0.3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+MacSesh-0.3.1.dist-info/top_level.txt,sha256=hsWTP6ZmoCon0XNTnI9ejxV5O04ZBR9llDBOzbD1j6g,8
+MacSesh-0.3.1.dist-info/RECORD,,
