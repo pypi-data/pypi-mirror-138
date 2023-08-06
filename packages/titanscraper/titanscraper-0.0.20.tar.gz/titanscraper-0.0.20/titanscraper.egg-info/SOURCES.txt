@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+titanscraper/__init__.py
+titanscraper/config.py
+titanscraper/processors.py
+titanscraper/titanscraper.py
+titanscraper/utils.py
+titanscraper.egg-info/PKG-INFO
+titanscraper.egg-info/SOURCES.txt
+titanscraper.egg-info/dependency_links.txt
+titanscraper.egg-info/requires.txt
+titanscraper.egg-info/top_level.txt
