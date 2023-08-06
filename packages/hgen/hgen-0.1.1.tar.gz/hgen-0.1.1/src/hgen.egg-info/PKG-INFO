@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: hgen
+Version: 0.1.1
+Summary: a tool to inject prototypes into header from c files
+Home-page: https://github.com/youkim005/hgen
+Author: youkim
+Author-email: 42.4.youkim@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.8.2
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
