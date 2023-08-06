@@ -1,0 +1,13 @@
+apoc/__init__.py,sha256=gEjc65wdo3YLcMaSj-ilNrzI41wAJBTF279Y2p_pUuo,514
+apoc/_converter.py,sha256=U2yJkqw1tnOoHWYn49DpZYi6ZFWSnKvrPJrMFTdhwjE,4828
+apoc/_feature_sets.py,sha256=nyH_GbFqE6ng6Avo3r1A8YND08fJUXCIlAL2FAGSQJ0,2859
+apoc/_object_classifier.py,sha256=NI9CdNXbt9OI0hMEruVoVnpN7lTIau-WvfbLfq7h9uA,9210
+apoc/_object_segmenter.py,sha256=atqwHXt_h7b1eBPBOUivCPBwBjHMqOEihDrAcPrZ-kQ,2932
+apoc/_pixel_classifier.py,sha256=h7U6eBKe0FNzDZU4N2fGBOwInPTh6NzNB5H9fTaQaO0,13693
+apoc/_probability_mapper.py,sha256=W9c9NcUC0AgVLvInoIIcta5T1rd66bSvjavvJoaW4a4,1071
+apoc/_utils.py,sha256=sIgzRtR7uxJxePEHRETIbiQX6XmX9ecDNEmbGJj519U,7803
+apoc-0.6.5.dist-info/LICENSE,sha256=lyVduyunt0X0XOgFXP7XjJUkMDm36ptktLLYA77z1-g,1579
+apoc-0.6.5.dist-info/METADATA,sha256=uz7f2w6u7ZYTGNsDX_WmBWQPn-WETHtuar7T1Jt7XNI,5863
+apoc-0.6.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+apoc-0.6.5.dist-info/top_level.txt,sha256=7rjuy2naqhf_zF-4G9x47pvnET5UJrrLYm1EIZlqNlg,5
+apoc-0.6.5.dist-info/RECORD,,
