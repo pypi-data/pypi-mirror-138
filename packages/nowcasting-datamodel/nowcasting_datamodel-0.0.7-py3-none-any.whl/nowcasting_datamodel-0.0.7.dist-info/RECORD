@@ -1,0 +1,15 @@
+nowcasting_datamodel/__init__.py,sha256=HQ4k-9eSA1BJxoGG4wM_3E8w5EZw3zbgnkDCKQc5sck,53
+nowcasting_datamodel/connection.py,sha256=wwixdJKMCPWhpMbIfczj4U_DQUgzbR31uyF-mRYrn3c,1126
+nowcasting_datamodel/fake.py,sha256=ElCQsXM5dwvw1N8tpdzfEijfl-9eYIUS2rl4Jr-QAwM,3432
+nowcasting_datamodel/national.py,sha256=1OJyk895vThTuCbrnOIy84EpZIov0DpawZhedWigeGY,2466
+nowcasting_datamodel/read.py,sha256=2Q38MftU_cg0YcNWVajEM5ipSfMZXDB9c8elPCqvg4w,5518
+nowcasting_datamodel/save.py,sha256=ZUlm9TIX2RlRLn-cYeeVeCpYzDd4nVEK6zEuPA3b3yk,1685
+nowcasting_datamodel/utils.py,sha256=Z8kLSQuTQpdPeKSS34z4cWwwv6d484F14L8nbjwgAhk,631
+nowcasting_datamodel/models/__init__.py,sha256=IL1GA37zKxG7TrSFtJN2ujzfAmM69TD322EB5JjjbNk,948
+nowcasting_datamodel/models/models.py,sha256=LmzfQgTnoHgPokiJsbmI5fsPEKOafuBxJjOpRLKk6Uc,8473
+nowcasting_datamodel/models/pv.py,sha256=JxMkNKJebZPhvvu5s2ywyFZyIm1QOnUPo9PUTPusjig,3536
+nowcasting_datamodel/models/utils.py,sha256=2fIHm1CqOWenydR2QvXSpC3cvE3eSXsjPbpfIS6xM-c,777
+nowcasting_datamodel-0.0.7.dist-info/METADATA,sha256=seUYLGVQHg2GAjGqEr7xBZHKtYwze2pmqnbhQyyT-6U,3425
+nowcasting_datamodel-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nowcasting_datamodel-0.0.7.dist-info/top_level.txt,sha256=zOAT3QE6Id67QGdMIRsmdWNqbsf5MgSsEFjPLAMHilM,21
+nowcasting_datamodel-0.0.7.dist-info/RECORD,,
