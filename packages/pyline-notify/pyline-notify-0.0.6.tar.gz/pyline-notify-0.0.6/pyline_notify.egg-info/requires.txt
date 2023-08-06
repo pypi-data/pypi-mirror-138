@@ -1,0 +1,6 @@
+numpy
+pillow
+requests
+
+[:python_version < "3.0"]
+pathlib
