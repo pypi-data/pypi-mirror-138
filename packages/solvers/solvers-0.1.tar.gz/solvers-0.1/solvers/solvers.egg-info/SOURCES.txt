@@ -1,0 +1,8 @@
+README.rst
+setup.cfg
+setup.py
+solvers/solvers.egg-info/PKG-INFO
+solvers/solvers.egg-info/SOURCES.txt
+solvers/solvers.egg-info/dependency_links.txt
+solvers/solvers.egg-info/requires.txt
+solvers/solvers.egg-info/top_level.txt
