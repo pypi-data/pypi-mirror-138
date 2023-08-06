@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nicotine-plus
+Version: 3.2.1.post1
+Summary: Graphical client for the Soulseek peer-to-peer network
+Home-page: https://nicotine-plus.org/
+Author: Nicotine+ Team
+Author-email: nicotine-team@lists.launchpad.net
+License: GPLv3+
+Platform: any
+Requires-Python: >=3.5
+License-File: COPYING
+License-File: AUTHORS.md
+Requires-Dist: PyGObject (>=3.18)
+
+Nicotine+ is a graphical client for the Soulseek peer-to-peer
+network.
+
+Nicotine+ aims to be a pleasant, free and open source (FOSS)
+alternative to the official Soulseek client, providing additional
+functionality while keeping current with the Soulseek protocol.
+
