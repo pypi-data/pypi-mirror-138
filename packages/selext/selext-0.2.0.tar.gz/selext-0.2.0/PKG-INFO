@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: selext
+Version: 0.2.0
+Summary: Selenium Extension for Python
+Home-page: https://github.com/kagemeka/selext/#readme
+License: MIT
+Keywords: selenium,python,webdriver,extension
+Author: Hiroshi Tsuyuki
+Author-email: kagemeka1@gmail.com
+Maintainer: Hiroshi Tsuyuki
+Maintainer-email: kagemeka1@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: furo; extra == "docs"
+Requires-Dist: myst-parser; extra == "docs"
+Requires-Dist: pdoc3; extra == "docs"
+Requires-Dist: pydata-sphinx-theme; extra == "docs"
+Requires-Dist: python-docs-theme; extra == "docs"
+Requires-Dist: selenium
+Requires-Dist: sphinx-book-theme; extra == "docs"
+Requires-Dist: sphinx-theme-pd; extra == "docs"
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx_rtd_theme (<=2.0.0); extra == "docs"
+Requires-Dist: sphinxcontrib-mermaid; extra == "docs"
+Requires-Dist: webdriver-manager
+Project-URL: Documentation, https://selext.readthedocs.io
+Project-URL: Repository, https://github.com/kagemeka/selext
+Description-Content-Type: text/markdown
+
+# Selext
+Selenium extension for Python
+
+
+[![Python package](https://github.com/kagemeka/selext/actions/workflows/python-package.yml/badge.svg)](https://github.com/kagemeka/selext/actions/workflows/python-package.yml)
+[![Documentation Status](https://readthedocs.org/projects/selext/badge/?version=latest)](https://selext.readthedocs.io/en/latest/?badge=latest)
+[![PyPI version](https://badge.fury.io/py/selext.svg)](https://badge.fury.io/py/selext)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
