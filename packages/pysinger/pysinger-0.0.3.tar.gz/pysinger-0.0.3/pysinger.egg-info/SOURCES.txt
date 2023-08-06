@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pysinger/__init__.py
+pysinger/singer.py
+pysinger/tap.py
+pysinger/target.py
+pysinger.egg-info/PKG-INFO
+pysinger.egg-info/SOURCES.txt
+pysinger.egg-info/dependency_links.txt
+pysinger.egg-info/top_level.txt
