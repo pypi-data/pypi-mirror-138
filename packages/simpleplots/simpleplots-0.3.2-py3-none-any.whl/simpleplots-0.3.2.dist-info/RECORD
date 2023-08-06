@@ -1,0 +1,14 @@
+simpleplots/__init__.py,sha256=6m5EmjtTmr70CR2Bo940c2ZYBNPhGg9nknBejJkoJD8,477
+simpleplots/__version__.py,sha256=hPbZxDWCWQYHRNf1WNtP3JcPy5Q818tkC4aLbD8VAaE,277
+simpleplots/base.py,sha256=n1p1p_eey27l4_xS3KIHQYiY07LPyEEQsX3kAMM0blg,1457
+simpleplots/figure.py,sha256=xQVzHy5AaXYtighdK9wSYcPPWUxqZjB3eTw_rawrnUU,14133
+simpleplots/themes.py,sha256=6gfOganhAfvYIX5BcXtn68kGUFOcGtwkkgZNSmHpHHI,967
+simpleplots/ticker.py,sha256=uD6vQIOF5rPcKPkP6m8okRr9nyxAZcEMfEj-JjQCrfs,3709
+simpleplots/utils.py,sha256=pfm-W5UFAgmaxhnkS_3OsUti0FTegI9qecwNmNXXKck,3315
+simpleplots/visuals.py,sha256=coL84emoDvQDob4ygwTwdei5oWE7rmyiXdK0hmkJySc,4674
+simpleplots/fonts/arial.ttf,sha256=QTx4-RvTnhNPPAuyBLHVqQ8p35793I_SaVCheAWNXXQ,367112
+simpleplots-0.3.2.dist-info/LICENSE,sha256=9HliNNUe5ypeJg9Oeqd1TiEwmFrtgdPdJLjtQR_3IUQ,1074
+simpleplots-0.3.2.dist-info/METADATA,sha256=vn9D8Aqi6zTACxmmjTiPon4z4kV0jLnMiF5OSqcES9I,2766
+simpleplots-0.3.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+simpleplots-0.3.2.dist-info/top_level.txt,sha256=9KzZ8M2uEixlVCkWGTXuxWKyO8fwLzD4QkPGKc6St_w,52
+simpleplots-0.3.2.dist-info/RECORD,,
