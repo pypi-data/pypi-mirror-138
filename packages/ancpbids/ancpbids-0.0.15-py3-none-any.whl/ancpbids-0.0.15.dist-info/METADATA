@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: ancpbids
+Version: 0.0.15
+Summary: Read/write/validate/query BIDS datasets
+Home-page: https://github.com/ANCPLabOldenburg/ancp-bids
+Author: Erdal Karaca
+Author-email: erdal.karaca.de@gmail.com
+Maintainer: ANCP Lab, University of Oldenburg
+Maintainer-email: currentancp@listserv.uni-oldenburg.de
+License: MIT
+Platform: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: lxml (>=4.6)
+Requires-Dist: regex (>=2018.11)
+Requires-Dist: numpy (>=1.16.0)
+
+# About
+ancpBIDS is a lightweight Python library to read/query/validate/write BIDS datasets.
+It can be used in workflows or analysis pipelines to handle IO specific aspects without bothering much about low level file system operations.
+Its implementation is based on the BIDS schema and allows it to evolve with the BIDS specification in a generic way.
+Using a plugin mechanism, contributors can extend its functionality in a controlled and clean manner.
+
+
+
+Read more on [readthedocs.io](https://ancpbids.readthedocs.io)
+
