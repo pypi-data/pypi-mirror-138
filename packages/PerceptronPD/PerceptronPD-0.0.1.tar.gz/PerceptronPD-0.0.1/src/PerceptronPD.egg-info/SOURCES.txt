@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/PerceptronPD.egg-info/PKG-INFO
+src/PerceptronPD.egg-info/SOURCES.txt
+src/PerceptronPD.egg-info/dependency_links.txt
+src/PerceptronPD.egg-info/requires.txt
+src/PerceptronPD.egg-info/top_level.txt
