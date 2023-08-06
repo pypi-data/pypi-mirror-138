@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: fixedincome-analytics
+Version: 0.0.3
+Summary: Fixed Income Securities and Derivatives analytics package
+Home-page: https://github.com/shreysrins/FixedIncome
+Author: Shreyas V. Srinivasan
+Author-email: shreyass@alum.mit.edu
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/shreysrins/FixedIncome/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# FixedIncome
+Python Fixed Income Securities &amp; Derivatives analytics package, originally written for [15.438 Fixed Income Securities &amp; Derivatives](http://student.mit.edu/catalog/m15b.html#15.438) at the MIT Sloan School of Management.
+
+## Installation
+Installation is done through PIP; enter the following on the command line:
+```bash
+$ pip3 install fixedincome-analytics
+```
+
