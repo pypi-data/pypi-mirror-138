@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: swiss-army-keras
+Version: 0.1.14
+Summary: A collection of models and utilities for the development of edge deployable Keras models
+Home-page: http://github.com/desmoteo/swiss-army-keras
+Author: Matteo Ferrabone
+Author-email: matteo.ferrabone@gmail.com
+License: MIT
+Keywords: keras,segmentation,edge,quantization,augmentation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Multimedia :: Graphics
+Requires-Dist: numpy
+Requires-Dist: tensorflow
+
+UNKNOWN
+
+
