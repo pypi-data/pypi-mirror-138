@@ -1,0 +1,2 @@
+recursive-include redbrick_slicer *.py
+include setup.py
