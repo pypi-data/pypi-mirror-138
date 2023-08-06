@@ -1,0 +1,2 @@
+exclude startredis.bat
+include version.py
