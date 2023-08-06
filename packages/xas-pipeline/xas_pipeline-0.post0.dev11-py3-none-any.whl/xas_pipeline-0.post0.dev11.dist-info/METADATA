@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: xas-pipeline
+Version: 0.post0.dev11
+Summary: A data pipeline for processing XAS data
+Home-page: https://github.com/zhul9311/xas-data-pipeline
+Author: Zhu Liang
+Author-email: zliang@bnl.gov
+License: BSD (3-clause)
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: sklearn
+Requires-Dist: Ipython
+Requires-Dist: h5py
+
+=================
+XAS data pipeline
+=================
+
+.. image:: https://img.shields.io/travis/zhul9311/xas-data-pipeline.svg
+        :target: https://travis-ci.org/zhul9311/xas-data-pipeline
+
+.. image:: https://img.shields.io/pypi/v/xas-data-pipeline.svg
+        :target: https://pypi.python.org/pypi/xas-data-pipeline
+
+
+A data pipeline for processing XAS data
+
+* Free software: 3-clause BSD license
+* Documentation: (COMING SOON!) https://zhul9311.github.io/xas-data-pipeline.
+
+Features
+--------
+
+* TODO
+
+
