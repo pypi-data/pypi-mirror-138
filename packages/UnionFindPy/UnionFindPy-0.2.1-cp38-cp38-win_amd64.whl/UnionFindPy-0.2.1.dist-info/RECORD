@@ -1,0 +1,14 @@
+UnionFindPy/__init__.py,sha256=tUoDy1SVSgz3L-w1MMJj9tCJaXkgjb51zQsIlwSA73U,65
+UnionFindPy/_union_find_py.cp38-win_amd64.pyd,sha256=f23EqwVpr-KtnmoIW99K-FGMhht419J8RNLmaslrltc,186880
+UnionFindPy/_union_find_py.cp38-win_amd64.pyd.manifest,sha256=S7edzqCpAffZ6sWqBXKK6SrLQuDLIuXdFBNPRCGj2N8,381
+UnionFindPy/_version.py,sha256=zG7sZZDyoDNuSlsxy_e9-tAUzC31_y6Eyv45QaRHiGo,757
+UnionFindPy/decoder.py,sha256=pM8LvWsJPlMYWRnGVMAkMjxPt8HNIhS5PcuXruGUr30,2518
+UnionFindPy/cpp/CMakeLists.txt,sha256=q9Tc13ylSkBoDXsNij0WKS5SqBniV_dx0c5BzxOHqQ8,3689
+UnionFindPy/cpp/Makefile,sha256=xE7Ih-f7UcAXv9bUNXlTY7AigVRKoOfIcRAJLznv3Ew,247
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_decoder.py,sha256=Up2EPLCX5sNSbWjmAgVWreJ53ylQbukUBZaApG9CB00,1589
+UnionFindPy-0.2.1.dist-info/LICENSE,sha256=f_4ZVFh8d9-6HPjrmy6nQ2cfpuY_nnovJYEZ1C4U7v4,27030
+UnionFindPy-0.2.1.dist-info/METADATA,sha256=zI017QV5JAZJ-_LzgVVsNKXSfl8h2SvI25XNQ_NPwAw,3932
+UnionFindPy-0.2.1.dist-info/WHEEL,sha256=P24hRDQapckAvHvgBBzlH5uw6rQ_oZQtKbG6drGrqOM,100
+UnionFindPy-0.2.1.dist-info/top_level.txt,sha256=OXU-bAwIBW_cQGQUN8KiL2gi8-z0Cz-WRgw-JeTNL1s,33
+UnionFindPy-0.2.1.dist-info/RECORD,,
