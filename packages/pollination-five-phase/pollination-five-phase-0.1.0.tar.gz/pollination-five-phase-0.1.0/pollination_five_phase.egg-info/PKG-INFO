@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pollination-five-phase
+Version: 0.1.0
+Summary: Five phase recipe for Pollination.
+Home-page: https://github.com/pollination/five-phase
+Author: ladybug-tools
+Author-email: info@ladybug.tools
+Maintainer: ladybug-tools
+Maintainer-email: info@ladybug.tools
+License: PolyForm Shield License 1.0.0, https://polyformproject.org/wp-content/uploads/2020/06/PolyForm-Shield-1.0.0.txt
+Project-URL: icon, https://raw.githubusercontent.com/ladybug-tools/artwork/master/icons_components/honeybee/png/5phaserecipe.png
+Project-URL: docker, https://hub.docker.com/r/ladybugtools/honeybee-radiance
+Description: # five-phase
+        Five phase daylight simulation recipe for Pollination
+        
+Keywords: honeybee,radiance,ladybug-tools,daylight,five-phase
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
