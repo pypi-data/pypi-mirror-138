@@ -1,0 +1,5 @@
+[console_scripts]
+murfey = murfey.client.main:run
+murfey.client = murfey.client.main:run
+murfey.server = murfey.server:run
+

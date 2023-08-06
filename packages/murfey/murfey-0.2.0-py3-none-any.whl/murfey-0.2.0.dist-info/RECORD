@@ -1,0 +1,12 @@
+murfey/bootstrap/__main__.py,sha256=2KFVnWD0RMLNwdrlytvs6di2T-OSp1hYkALSr7zchMs,3825
+murfey/client/client_main_test.py,sha256=D3YRLtdVydVB4ERXkBowhgkeIaCDbv4NP4EcGFXhzJM,299
+murfey/client/main.py,sha256=ucEIKo0t8mMBof4pCMsSeUA2hjcaXI4vYs-T2CmAPnA,2431
+murfey/server/__init__.py,sha256=Lw_amKy_6LCDHcvZt2Vhox-ib2SijGsjTm0l1JHhIDU,989
+murfey/server/main.py,sha256=kD-5hPwKyjNXBKf4OeiybiTqZqh3nlChchcSeoCMXl4,9253
+murfey/server/run.py,sha256=PKUjhCA1H2ExdZHpdTHR5tReTzkiKNor_MZVUFKPl4Q,85
+murfey-0.2.0.dist-info/LICENSE,sha256=8DFPP47DKe5nEKTBeMEDElin5xHJ9JtDYTwqBDRMhEk,1481
+murfey-0.2.0.dist-info/METADATA,sha256=_RzNAL5icBx0C2f6Fb0S63BrAMgvmQuPxblAy92eqKk,1215
+murfey-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+murfey-0.2.0.dist-info/entry_points.txt,sha256=kYT5env3XNHbtrzwT4rt0eIFw-SJhEA_DaXDWKmCEbs,124
+murfey-0.2.0.dist-info/top_level.txt,sha256=Wyovry0bFJ1-CwtiemZ0wu4sbTvU0xA57-a3uHNFNxw,7
+murfey-0.2.0.dist-info/RECORD,,
