@@ -1,0 +1,62 @@
+#ifndef _SOCK_CONNECTION_H
+#define _SOCK_CONNECTION_H
+
+#include <atomic>
+#include <list>
+#include <string>
+#include <memory>
+#include <thread>
+#include <mutex>
+#include <functional>
+#include "connection.h"
+#include "socketutils.h"
+
+using namespace std;
+using namespace std::chrono;
+
+class SocketConnection : public Connection {
+public:
+//    struct SendPkt {
+//        size_t send_len;
+//        string buf;
+//
+//        SendPkt(size_t size)
+//            : send_len(0)
+//            , buf(size, '\0')
+//        {}
+//    };
+
+    SocketConnection();
+
+    virtual ~SocketConnection();
+
+    virtual bool connect(const std::string& addr, Connection_Callback* callback) override;
+    virtual void reconnect() override;
+    virtual void close() override;
+    virtual void send(const char* data, size_t size) override;
+    virtual void send(const std::string& data) override;
+    virtual bool is_connected() override;
+
+private:
+    void main_run();
+//    void do_send();
+    bool do_connect();
+    void do_recv();
+    void do_close(const char* reason=nullptr, bool should_notify=true);
+
+private:
+    shared_ptr<string>          m_addr;
+    mutex                       m_send_lock;
+    SOCKET                      m_socket = INVALID_SOCKET;
+    Connection_Callback*        m_callback = nullptr;
+    thread*                     m_main_thread = nullptr;
+    volatile bool               m_should_exit = false;
+    string                      m_recv_buf;
+    int32_t                     m_pkt_size = 0;
+    int32_t                     m_recv_size = 0;
+    //list<shared_ptr<SendPkt>>   m_send_list;
+//    atomic<int>                 m_send_count;
+};
+
+
+#endif
