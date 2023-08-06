@@ -1,0 +1,16 @@
+numpy
+rhino3dm
+Shapely
+
+[dep]
+twine
+build
+
+[dev]
+numpy==1.21.1
+rhino3dm==7.7.0
+Shapely==1.8.0
+matplotlib
+black
+isort
+flake8
