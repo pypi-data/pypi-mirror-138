@@ -1,0 +1,150 @@
+Metadata-Version: 1.2
+Name: platform-plugin-braze
+Version: 2.0.0
+Summary: Custom Braze integration for edx.org's edx-platform deployment
+Home-page: https://github.com/edx/platform-plugin-braze
+Author: edX
+Author-email: oscm@edx.org
+License: UNKNOWN
+Description: platform-plugin-braze
+        =====================
+        
+        |ci-badge| |codecov-badge|
+        
+        This is an edx-platform plugin designed to integrate with edx.org's Braze
+        account.
+        
+        One major thing it does is ``identify`` hubspot-alias-only accounts once a
+        user registers for an LMS account (thus merging the two Braze profiles into
+        one).
+        
+        It's unique to edx.org's specific deployment and services, and thus is not
+        part of Open edX releases.
+        
+        Overview
+        --------
+        
+        This repo holds a single ``edx_braze`` djangoapp module, meant to be
+        pip-installed during deployment of ``edx-platform`` and which will register
+        itself as an `edx platform plugin`_.
+        
+        .. _edx platform plugin: https://github.com/edx/edx-django-utils/tree/master/edx_django_utils/plugins
+        
+        Development Workflow
+        --------------------
+        
+        One Time Setup
+        ~~~~~~~~~~~~~~
+        .. code-block::
+        
+          # Clone the repository
+          git clone git@github.com:edx/platform-plugin-braze.git
+          cd platform-plugin-braze
+        
+          # Set up a virtualenv using virtualenvwrapper with the same name as the repo and activate it
+          mkvirtualenv -p python3.8 platform-plugin-braze
+        
+        
+        Every time you develop something in this repo
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        .. code-block::
+        
+          # Activate the virtualenv
+          workon platform-plugin-braze
+        
+          # Grab the latest code
+          git checkout master
+          git pull
+        
+          # Install/update the dev requirements
+          make requirements
+        
+          # Run the tests and quality checks (to verify the status before you make any changes)
+          make validate
+        
+          # Make a new branch for your changes
+          git checkout -b <your_github_username>/<short_description>
+        
+          # Using your favorite editor, edit the code to make your change.
+          vim …
+        
+          # Run your new tests
+          pytest ./path/to/new/tests
+        
+          # Run all the tests and quality checks
+          make validate
+        
+          # Commit all your changes
+          git commit …
+          git push
+        
+          # Open a PR and ask for review.
+        
+        Reporting Security Issues
+        -------------------------
+        
+        Please do not report security issues in public. Please email security@edx.org.
+        
+        .. |ci-badge| image:: https://github.com/edx/platform-plugin-braze/workflows/Python%20CI/badge.svg?branch=master
+            :target: https://github.com/edx/platform-plugin-braze/actions
+            :alt: CI
+        
+        .. |codecov-badge| image:: https://codecov.io/github/edx/platform-plugin-braze/coverage.svg?branch=master
+            :target: https://codecov.io/github/edx/platform-plugin-braze?branch=master
+            :alt: Codecov
+        
+        
+        Change Log
+        ----------
+        
+        ..
+           All enhancements and patches to edx_braze will be documented
+           in this file.  It adheres to the structure of https://keepachangelog.com/ ,
+           but in reStructuredText instead of Markdown (for ease of incorporation into
+           Sphinx documentation and the PyPI description).
+        
+           This project adheres to Semantic Versioning (https://semver.org/).
+        
+        .. There should always be an "Unreleased" section for changes pending release.
+        
+        Unreleased
+        ~~~~~~~~~~
+        
+        *
+        
+        [2.0.0] - 2022-02-16
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        * Dropped support for Django22, 30 and 31
+        * Added Django40 support
+        
+        [1.2.0] - 2021-12-14
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        * Support added for identifying alias-only ``save_for_later`` users in Braze,
+          when a user with a matching email registers in the LMS
+        
+        [1.1.0] - 2021-09-21
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        * Added support for Django 3.1 and 3.2
+        
+        [1.0.0] - 2021-06-04
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        * First release
+        * Supports identifying alias-only ``hubspot`` users in Braze, when a user
+          with a matching email registers in the LMS.
+        
+Keywords: Python edx
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8

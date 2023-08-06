@@ -1,0 +1,3 @@
+edx-django-utils
+Django>=2.2
+requests
