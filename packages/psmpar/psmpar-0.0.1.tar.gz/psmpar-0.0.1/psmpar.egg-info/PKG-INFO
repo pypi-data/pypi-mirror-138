@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: psmpar
+Version: 0.0.1
+Summary: psmpar: prediction of secondary metabolism potential using amplicons based on machine learning
+Home-page: https://github.com/BioGavin/ML-PSMPA.git
+Author: Zhen-Yi Zhou
+Author-email: gavinchou64@gmail.com
+License: GPL
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+
+UNKNOWN
+

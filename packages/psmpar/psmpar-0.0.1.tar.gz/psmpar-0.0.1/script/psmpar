@@ -1,0 +1,62 @@
+#!/usr/bin/env python
+
+
+import argparse
+from psmpar.main import full_pipeline
+import time
+from psmpar import __version__
+
+
+version=__version__
+
+parser = argparse.ArgumentParser(
+
+    description="Prediction of secondary metabolism potential using amplicons based on Machine Learning.",
+    epilog='''
+example:
+psmpar -s sequences.fasta -o psmpar_result
+psmpar -s sequences.fasta -i feature-table.biom -o psmpar_result
+           ''',
+    formatter_class=argparse.RawDescriptionHelpFormatter
+
+)
+
+parser.add_argument('-s', '--study_fasta', metavar='PATH', required=True,
+                    type=str, help='FASTA of study sequences (i.e. amplicons or 16S rRNA).')
+
+parser.add_argument('-i', '--input', metavar='PATH', type=str,
+                    help='Input table of sequence abundances (BIOM, TSV or mothur shared file format).')
+
+parser.add_argument('-o', '--output', metavar='PATH', required=True,
+                    type=str, help='Output folder for final files.')
+
+parser.add_argument('-f', '--force', default=False, action='store_true',
+                    help='Overwrite existed output folder (default: %(default)s)')
+
+parser.add_argument('--verbose', default=False, action='store_true',
+                    help='Print out details as commands are run.')
+
+parser.add_argument('-v', '--version', default=False, action='version',
+                    version="%(prog)s " + version)
+
+
+def main():
+
+    start_time = time.time()
+
+    args = parser.parse_args()
+
+    full_pipeline(study_fasta=args.study_fasta,
+                  input_table=args.input,
+                  output_folder=args.output,
+                  force=args.force,
+                  verbose=args.verbose)
+
+    if args.verbose:
+        elapsed_time = time.time() - start_time
+        print("Completed psmpar in " + "%.2f" % elapsed_time +
+              " seconds.")
+
+
+if __name__ == "__main__":
+    main()
