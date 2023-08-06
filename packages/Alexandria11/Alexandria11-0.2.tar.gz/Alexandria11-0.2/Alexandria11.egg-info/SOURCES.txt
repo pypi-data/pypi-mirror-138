@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+Alexandria11/alex_mods.py
+Alexandria11.egg-info/PKG-INFO
+Alexandria11.egg-info/SOURCES.txt
+Alexandria11.egg-info/dependency_links.txt
+Alexandria11.egg-info/not-zip-safe
+Alexandria11.egg-info/requires.txt
+Alexandria11.egg-info/top_level.txt
