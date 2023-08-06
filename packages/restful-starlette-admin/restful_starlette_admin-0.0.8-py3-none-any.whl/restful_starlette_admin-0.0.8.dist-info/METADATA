@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: restful-starlette-admin
+Version: 0.0.8
+Summary: Admin CLI for restful-starlette
+Author: TianMa Chen
+Author-email: 819252022@qq.com
+License: BSD-3-Clause
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click (~=8.0.3)
+Requires-Dist: restful-starlette (>=0.0.3)
+
+### Restful Starlette Admin
+
+#### Description : Admin CLI for restful-starlette
+
+-----
+
+#### 1、安装
+
+```shell
+
+# pip源安装
+> pip install restful-starlette-admin
+
+# git 仓库直接安装
+> pip install git+https://gitee.com/coldsunset/restful_starlette_admin.git
+
+# 使用
+> rs-admin
+
+Usage: admin.py [OPTIONS] COMMAND [ARGS]...
+
+  Admin CLI: provide actions to initial restful starlette project
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  init-env
+  start-app
+  start-project
+```
+
+#### 2、初始化项目 start-project
+```shell
+# 创建项目文件夹并进入
+> mkdir project_name && cd project_name
+
+# 初始化项目结构
+> rs-admin start-project project_name
+
+```
+
+#### 3、生成新应用 start-app
+```shell
+# 建议按照项目结构，进入modules包下创建新app
+> cd  modules
+
+# 初始化项目结构
+> rs-admin start-app app_name
+
+```
+
+#### 4、自动生成.env文件
+```shell
+# 根据指定的settings对象路径自动生成.env文件，格式
+> rs-admin init-env --setting_class restful_starlette.conf.base:GlobalSettings
+
+```
+
