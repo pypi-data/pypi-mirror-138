@@ -1,0 +1,8 @@
+include LICENSE
+include README.md
+recursive-include ckeditor5_django4/static *
+recursive-include ckeditor5_django4/templates *
+include package.json
+include package-lock.json
+include webpack.config.js
+include .gitignore

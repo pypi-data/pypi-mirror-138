@@ -1,0 +1,1 @@
+Simple edit to views.py and widget.py for new Django4 reqirements.
