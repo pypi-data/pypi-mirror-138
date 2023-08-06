@@ -1,0 +1,6 @@
+[babel.extractors]
+ckan = ckan.lib.extract:extract_ckan
+
+[ckan.plugins]
+dkan_harvester = ckanext.harvest_basket.harvesters:DKANHarvester
+harvest_basket = ckanext.harvest_basket.plugin:HarvestBasketPlugin
