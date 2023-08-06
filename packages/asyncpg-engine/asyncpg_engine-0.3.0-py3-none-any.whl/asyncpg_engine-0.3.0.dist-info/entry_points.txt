@@ -1,0 +1,3 @@
+[pytest11]
+asyncpg_engine=asyncpg_engine.pytest_plugin
+
