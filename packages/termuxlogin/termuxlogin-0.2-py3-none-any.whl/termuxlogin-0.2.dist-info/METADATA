@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: termuxlogin
+Version: 0.2
+Summary: Termux Login - Lock your Termux
+Home-page: https://bhai4you.blogspot.com
+Author: Parixit Sutariya
+Author-email: parixit1337@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+<!--
+https://pypi.org/project/termuxlogin/
+https://pypi.org/project/termuxlogin/
+-->
+
+[![](https://img.shields.io/pypi/pyversions/readme-generator.svg?longCache=True)](https://pypi.org/project/readme-generator/)
+
+#### Installation
+```bash
+$ pip install termuxlogin
+$ chmod +x $PREFIX/bin/*
+```
+
+#### Features
++   **`termuxlogin`**, **- Install Termux login**
++   **`termuxlogout`**, **- Uninstall termux login**
+
+
+#### How it works
+```
+$ termuxlogin
+$ Enter new password : bhai4you
+$ Repeat password : bhai4you
+$ Login installed
+$ Restart Termux and Enjoy ;)
+
+
+Created by Parixit Sutariya
+Github : github.com/Bhai4You
+Blog : bhai4you.blogspot.com
+
+```
+
+
