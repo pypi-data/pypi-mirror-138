@@ -1,0 +1,14 @@
+odata_server/__init__.py,sha256=8zyDLNzfVXEOy1p7e1MfCjp4ljUWsoJM9LaLeealOa0,25
+odata_server/edm.py,sha256=xr4KYYMhb5M3N8jPO41S5lrOANbP_ComKSQmD7bgF_E,20604
+odata_server/flask.py,sha256=YQqFHQA7GbBW9NlNWyrWTZUwT5hE7Y2lgWGDRT2wfvw,23271
+odata_server/meta.py,sha256=E9HCjn5ajhglVdtA41TbVWGTJ0LtiCz1JVRrPDXlXY0,1095
+odata_server/middleware.py,sha256=bK3uVm8B6aYURMtyK8PKYdif8Aj4YlgyeQaDNZoERd4,835
+odata_server/data/odata.abnf,sha256=SF4FvNWWm__srbvX0EvXb7iXDr8X-M2zOnRlDTJTqbI,58160
+odata_server/utils/__init__.py,sha256=ITQtzORvhLv4Mvf5kPXhfxnTaZNs8G6BNDFJzyP9Mjk,18707
+odata_server/utils/mongo.py,sha256=Zn3K9-QnZGYa4xtjYUpx_mdl6seKriHs7hpgvrCyuZA,670
+odata_server/utils/parse.py,sha256=4TP1finqjkZesHUF3ckF0BL-8sA-kTZzRaZ2RxG5aeE,3277
+odata_server-1.0.0a10.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+odata_server-1.0.0a10.dist-info/METADATA,sha256=MWz8lxiR9gsQi7n-ipfBAVDYqiHxSmH9vuYA5A7QdIs,869
+odata_server-1.0.0a10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odata_server-1.0.0a10.dist-info/top_level.txt,sha256=JlnU_kSygiVymL1hgF5Q2_tQ2-nGuv8GZ3uCHqAuoOY,13
+odata_server-1.0.0a10.dist-info/RECORD,,
