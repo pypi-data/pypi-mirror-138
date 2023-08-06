@@ -1,0 +1,3 @@
+[console_scripts]
+pyimapsync = pyimapsync.__main__:command_line_parser
+
