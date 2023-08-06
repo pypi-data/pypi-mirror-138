@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+IIAOptimize/Linearsys.py
+IIAOptimize/Onedim.py
+IIAOptimize/__init__.py
+IIAOptimize/multidim.py
+IIAOptimize.egg-info/PKG-INFO
+IIAOptimize.egg-info/SOURCES.txt
+IIAOptimize.egg-info/dependency_links.txt
+IIAOptimize.egg-info/requires.txt
+IIAOptimize.egg-info/top_level.txt

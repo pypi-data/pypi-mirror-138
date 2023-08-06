@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: IIAOptimize
+Version: 0.0.1
+Summary: Optimization of functions and Linear system solving
+Home-page: UNKNOWN
+Author: Nour Oulad Moussa & Aymane Hassoun
+Author-email: nour_ouladmoussa@um5.ac.ma
+License: MIT
+Description: UNKNOWN
+Keywords: Optimization
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.9
