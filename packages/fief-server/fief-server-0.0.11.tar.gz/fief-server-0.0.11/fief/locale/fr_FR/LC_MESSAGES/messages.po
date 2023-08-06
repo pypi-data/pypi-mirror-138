@@ -1,0 +1,149 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Fief\n"
+"Language: fr\n"
+
+#: fief/templates/auth_layout.html:38
+msgid "Powered by"
+msgstr "Propulsé et sécurisé par"
+
+#: fief/templates/login.html:3
+msgid "Login"
+msgstr "Connexion"
+
+#: fief/templates/login.html:5
+msgid "Welcome back!"
+msgstr "Ravi de vous revoir !"
+
+#: fief/templates/login.html:11 fief/templates/register.html:11
+msgid "Email address"
+msgstr "Adresse e-mail"
+
+#: fief/templates/login.html:18 fief/templates/register.html:18
+msgid "Password"
+msgstr "Mot de passe"
+
+#: fief/templates/login.html:30
+msgid "Sign in"
+msgstr "Connexion"
+
+#: fief/errors.py:29
+msgid "This field is required."
+msgstr "Ce champ est requis."
+
+#: fief/errors.py:30
+msgid "This email address is invalid."
+msgstr "Cette adresse e-mail est invalide."
+
+#: fief/apps/auth/routers/auth.py:99
+msgid "Invalid email or password"
+msgstr "L'e-mail ou le mot de passe est invalide"
+
+#: fief/apps/auth/routers/register.py:51
+msgid "A user with the same email address already exists."
+msgstr "Un utilisateur avec la même adresse e-mail existe déjà."
+
+#: fief/dependencies/auth.py:75
+msgid "response_type is missing"
+msgstr "response_type manquant"
+
+#: fief/dependencies/auth.py:83
+msgid "response_type should be \"code\""
+msgstr "response_type doit être \"code\""
+
+#: fief/dependencies/auth.py:40
+msgid "client_id is missing"
+msgstr "client_id manquant"
+
+#: fief/dependencies/auth.py:46
+msgid "Unknown client"
+msgstr "Client inconnu"
+
+#: fief/dependencies/auth.py:57
+msgid "redirect_uri is missing"
+msgstr "redirect_uri manquant"
+
+#: fief/dependencies/auth.py:100
+msgid "scope is missing"
+msgstr "scope manquant"
+
+#: fief/dependencies/auth.py:110
+msgid "scope should contain \"openid\""
+msgstr "scope doit contenir \"openid\""
+
+#: fief/dependencies/auth.py:154
+msgid "screen should either be \"login\" or \"register\""
+msgstr "screen doit être \"login\" ou \"register\""
+
+#: fief/dependencies/auth.py:169
+msgid "Invalid login session"
+msgstr "Session invalide"
+
+#: fief/dependencies/users.py:50
+msgid "The password should be at least 8 characters."
+msgstr "Le mot de passe doit avoir au moins 8 caractères."
+
+#: fief/templates/authorize.html:3 fief/templates/authorize.html:5
+msgid "Authorize"
+msgstr "Autoriser"
+
+#: fief/templates/register.html:3 fief/templates/register.html:5
+msgid "Register"
+msgstr "Inscription"
+
+#: fief/templates/register.html:28
+msgid "I already have an account"
+msgstr "J'ai déjà un compte"
+
+#: fief/templates/register.html:30
+msgid "Sign up"
+msgstr "S'inscrire"
+
+#: fief/errors.py:46
+msgid "type"
+msgstr "type"
+
+#: fief/apps/auth/routers/auth.py:191
+msgid "The user denied access to their data."
+msgstr "L'utilisateur a refusé l'accès à ses données."
+
+#: fief/dependencies/auth.py:129
+msgid "prompt should either be \"none\", \"login\" or \"register\""
+msgstr "prompt doit être \"none\", \"login\" ou \"register\""
+
+#: fief/dependencies/auth.py:137
+msgid "User is not logged in"
+msgstr "L'utilisateur n'est pas connecté"
+
+#: fief/dependencies/auth.py:192
+msgid "action should either be \"allow\" or \"deny\""
+msgstr "action doit être \"allow\" ou \"deny\""
+
+#: fief/dependencies/auth.py:232
+msgid "User consent is required for this scope"
+msgstr "Le consentement de l'utilisateur est requis pour ce scope"
+
+#: fief/templates/consent.html:3
+msgid "Consent"
+msgstr "Consentement"
+
+#: fief/templates/consent.html:5
+msgid "%(name)s wants to access your account"
+msgstr "%(name)s veut accéder à votre compte"
+
+#: fief/templates/consent.html:10
+msgid "This will allow %(name)s to:"
+msgstr "Cela permettra à %(name)s de :"
+
+#: fief/templates/consent.html:21
+msgid "Deny"
+msgstr "Refuser"
+
+#: fief/templates/consent.html:22
+msgid "Allow"
+msgstr "Autoriser"
+
