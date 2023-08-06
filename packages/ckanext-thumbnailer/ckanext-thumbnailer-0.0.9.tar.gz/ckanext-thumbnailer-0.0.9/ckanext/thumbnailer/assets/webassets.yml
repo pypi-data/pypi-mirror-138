@@ -1,0 +1,14 @@
+# thumbnailer-js:
+#   filter: rjsmin
+#   output: ckanext-thumbnailer/%(version)s-thumbnailer.js
+#   contents:
+#     - js/thumbnailer.js
+#   extra:
+#     preload:
+#       - base/main
+
+# thumbnailer-css:
+#   filter: cssrewrite
+#   output: ckanext-thumbnailer/%(version)s-thumbnailer.css
+#   contents:
+#     - css/thumbnailer.css
