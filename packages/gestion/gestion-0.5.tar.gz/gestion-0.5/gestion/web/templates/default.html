@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+<div class="divTable">
+		<div class='divTableHeading'>
+		{% for key in header %}
+				<div class="divTableCell"><a href="/{{page.name}}?sort={{key}}">{{key}}</a></div>
+		{% endfor %}
+		</div>
+		{% if data is iterable %}
+		<div class="divTableBody">
+		{% for item in data %}
+			<div class="divTableRow">
+			{% for key in header %}
+					{% if "_functions" in item.keys() %}
+						<div class="divTableCell"><a{% if key in item["_functions"].keys() %} href="{{item['_functions'][key]}}?id={{item['_id']}}&db={{item['_collection']}}" {% endif %}>{{item[key]}}</a></div>
+					{% else %}
+						<div class="divTableCell"><a>{{item[key]}}</a></div>
+					{%endif %}
+			{% endfor %}
+			</div>
+		{% endfor %}
+		</div>
+		{% endif %}
+</div>
+{% endblock %}
