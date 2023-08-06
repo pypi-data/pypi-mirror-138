@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="7" time="1.038" timestamp="2022-02-14T10:53:42.870923" hostname="OLI-OMEN"><testcase classname="bumpversion" name="FLAKE8" time="0.169" /><testcase classname="src.pyprocessors_afp_entities.__init__" name="FLAKE8" time="0.051" /><testcase classname="src.pyprocessors_afp_entities.afp_entities" name="FLAKE8" time="0.244" /><testcase classname="tests.__init__" name="FLAKE8" time="0.052" /><testcase classname="tests.test_afp_entities" name="FLAKE8" time="0.078" /><testcase classname="tests.test_afp_entities" name="test_model" time="0.001" /><testcase classname="tests.test_afp_entities" name="test_afp_entities_linker" time="0.038"><failure message="assert 0 == 1&#10; +  where 0 = len(RangeMap([]))">original_doc = Document(text='Après le rachat de Monsanto, Bayer promet la "transparence" sur le glyphosate\n\nUne fois que le rachat...ikipediaExternalRef': '292919'})], createdBy=None, createdDate=None, modifiedDate=None, status=None)], categories=None)
+
+    def test_afp_entities_linker(original_doc):
+        # linker
+        doc = original_doc.copy(deep=True)
+        processor = AFPEntitiesProcessor()
+        parameters = AFPEntitiesParameters(type=ConsolidationType.linker)
+        docs = processor.process([doc], parameters)
+        conso: Document = docs[0]
+        assert len(conso.annotations) &lt; len(original_doc.annotations)
+        conso_groups = group_annotations(conso, by_linking)
+        assert len(conso_groups['candidate']) == 8
+        assert len(conso_groups['person']) == 2
+        assert len(conso_groups['wikidata']) == 10
+&gt;       assert len(conso_groups['wikidata+location']) == 1
+E       assert 0 == 1
+E        +  where 0 = len(RangeMap([]))
+
+tests/test_afp_entities.py:48: AssertionError</failure></testcase></testsuite></testsuites>
