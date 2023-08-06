@@ -1,0 +1,160 @@
+name: Unit Tests
+# Not running coverage on this workflow, unit tests only
+
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+  schedule:
+    - cron: 0 7 * * 1  # 7 A.M. mon
+
+concurrency:
+  group: pytest-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  tests:
+    name: ${{ matrix.toxenv }}
+    runs-on: ubuntu-latest
+    if: "!(contains(github.event.head_commit.message, '[skip ci]') || contains(github.event.head_commit.message, '[ci skip]'))"
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: Python 3.10 with devdeps and online catalogs
+            python: '3.10'
+            toxenv: py310-test-devdeps-cat
+
+          - name: Python 3.7 with old deps
+            python: '3.7'
+            toxenv: py37-test-olddeps
+
+          - name: Python 3.7 with lts deps
+            python: '3.7'
+            toxenv: py37-test-ltsdeps
+
+          - name: Python 3.7 with astrometry (stable)
+            python: '3.7'
+            toxenv: py37-test-stabledeps
+
+          - name: Python 3.8 with lts deps
+            python: '3.8'
+            toxenv: py38-test-ltsdeps
+
+          - name: Python 3.8 with stable deps
+            python: '3.8'
+            toxenv: py38-test-stabledeps
+
+          - name: Python 3.9 with stable deps
+            python: '3.9'
+            toxenv: py39-test-stabledeps
+
+          - name: Python 3.10 with stable deps
+            python: '3.10'
+            toxenv: py310-test-stabledeps
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Set up Python ${{ matrix.python }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python }}
+    - name: Install base dependencies
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install tox
+    - name: Print Python, pip, setuptools, and tox versions
+      run: |
+        python -c "import sys; print(f'Python {sys.version}')"
+        python -c "import pip; print(f'pip {pip.__version__}')"
+        python -c "import setuptools; print(f'setuptools {setuptools.__version__}')"
+        python -c "import tox; print(f'tox {tox.__version__}')"
+    - name: Install graphviz dependency
+      if: "endsWith(matrix.toxenv, 'build_docs')"
+      run: sudo apt-get -y install graphviz
+    - name: Print package versions
+      run: pip list
+    - name: Run tests
+      run: tox -v -e ${{ matrix.toxenv }}
+
+  coverage:
+    name: "Conda/Coverage/Astrometry.net"
+    runs-on: ubuntu-latest
+    if: "!(contains(github.event.head_commit.message, '[skip ci]') || contains(github.event.head_commit.message, '[ci skip]'))"
+    env:
+      ASTROPOP_TEST_CATALOGS: 1
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.10"
+    - uses: conda-incubator/setup-miniconda@v2
+      with:
+        auto-activate-base: true
+        auto-update-conda: true
+        channels: conda-forge,defaults
+        python-version: "3.10"
+    - name: Install dependencies
+      shell: bash -l {0}
+      run: |
+        conda install -y -q astropy numpy scipy astroquery scikit-image scikit-learn pytz pyyaml astroscrappy astroalign sep reproject astrometry
+        conda install -y -q pytest pytest-astropy pytest-remotedata flaky
+        pip install coveralls
+    - name: Print versions
+      shell: bash -l {0}
+      run: |
+        conda info
+        conda list
+    - name: Install astropop
+      shell: bash -l {0}
+      run: |
+        python setup.py build
+        pip install -U --no-deps .
+    - name: Run Pytest and generate coverage
+      shell: bash -l {0}
+      run: |
+        pytest --pyargs ./tests ./docs --remote-data --cov astropop --cov-config=./setup.cfg
+        coverage xml -o ./coverage.xml
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v2
+      with:
+        file: ./coverage.xml
+    - name: Upload coverage to Coveralls
+      shell: bash -l {0}
+      env:
+        COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
+      run: coveralls
+
+  build_docs:
+    name: Documentation Building
+    runs-on: ubuntu-latest
+    if: "!(contains(github.event.head_commit.message, '[skip ci]') || contains(github.event.head_commit.message, '[ci skip]'))"
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Install base dependencies
+      shell: bash -l {0}
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install tox
+        python -m pip install pandoc
+    - name: Install apt-get dependency
+      shell: bash -l {0}
+      run: sudo apt-get -y install graphviz pandoc
+    - name: Print package versions
+      shell: bash -l {0}
+      run: pip list
+    - name: Run tests
+      shell: bash -l {0}
+      run: tox -v -e build_docs
