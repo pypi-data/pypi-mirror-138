@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+flatifylists/__init__.py
+flatifylists.egg-info/PKG-INFO
+flatifylists.egg-info/SOURCES.txt
+flatifylists.egg-info/dependency_links.txt
+flatifylists.egg-info/requires.txt
+flatifylists.egg-info/top_level.txt
