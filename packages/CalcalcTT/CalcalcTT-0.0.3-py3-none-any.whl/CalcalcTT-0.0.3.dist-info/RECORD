@@ -1,0 +1,9 @@
+calcalc/CalCalc.py,sha256=1vszf4jRLWcE5lynAhHYAVBthqeD1KoapBytB1j_U2w,3407
+calcalc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calcalc/setup.py,sha256=W2KVYHe02u_QRlv8UcOPtxQF-YAMid9-GC_SjS9Ao28,1297
+calcalc/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calcalc/tests/test_calculate.py,sha256=dS7A4574Yerh-ZDOsa1FhgrGMc3n6pJZm4-1hS-wPlw,768
+CalcalcTT-0.0.3.dist-info/METADATA,sha256=JkRyuArkwL3p9vjxSprTifSj2FQPnCynzKhstmGCtF0,1034
+CalcalcTT-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+CalcalcTT-0.0.3.dist-info/top_level.txt,sha256=hIdr2MlAVcWEvsqaeGhbEFdjs6qPYILaSFiWYNzmYdw,8
+CalcalcTT-0.0.3.dist-info/RECORD,,
