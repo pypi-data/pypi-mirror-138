@@ -1,0 +1,7 @@
+autograd
+corner
+emcee
+matplotlib
+numba
+numpy>=1.15
+scipy
