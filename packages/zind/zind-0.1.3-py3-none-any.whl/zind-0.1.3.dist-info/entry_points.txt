@@ -1,0 +1,3 @@
+[console_scripts]
+zind = zind.run.runner:main
+
