@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: bmkgdashboard
+Version: 0.8
+Summary: this package is src for BMKG indonesian earthquake live and last articlee
+Home-page: https://github.com/sencho-masteringpy/bmkg-dashboard
+Author: Sencho Parameswara
+Author-email: senchoparameswara@gmail.com
+License: UNKNOWN
+Project-URL: MyWeb, https://senchooo.com
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# bmkg-dashboard
+this package is dashboard for BMKG indonesian earthquake live and last article
+
+## How it work?
+this package will scarape in [BMKG](https://bmkg.go.id) to get latest earthquake and article, use BeautifulSoup4 and requests.
+and then produce output of JSON thats ready to use in your web or mobile apps
+
+
