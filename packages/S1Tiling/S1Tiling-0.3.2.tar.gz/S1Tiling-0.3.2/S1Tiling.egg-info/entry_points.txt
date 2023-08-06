@@ -1,0 +1,3 @@
+[console_scripts]
+S1Processor = s1tiling.S1Processor:run
+

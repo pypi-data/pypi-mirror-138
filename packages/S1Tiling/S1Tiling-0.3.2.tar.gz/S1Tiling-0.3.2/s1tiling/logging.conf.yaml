@@ -1,0 +1,59 @@
+version: 1
+disable_existing_loggers: true
+formatters:
+    brief:
+        format: '%(message)s'
+    simple:
+        format: '%(levelname)s - %(message)s'
+    full:
+        format: '%(asctime)s - %(name)-15s - %(levelname)-8s - %(message)s'
+
+handlers:
+    console:
+        class: logging.StreamHandler
+        level: INFO
+        formatter: simple
+        stream: ext://sys.stdout
+    file:
+        class: logging.FileHandler
+        level: DEBUG
+        formatter: full
+        # %s will be replaced by "main" or "worker-%d"
+        filename: S1Processor-%s.debug.log
+        mode: w # 'w' disable 'a'ppend
+    important:
+        class: logging.FileHandler
+        level: WARNING
+        formatter: full
+        # %s will be replaced by "main" or "worker-%d"
+        filename: S1Processor-%s.warning.log
+        mode: w # 'w' disable 'a'ppend
+    # email:
+    #     class: logging.handlers.SMTPHandler
+    #     mailhost: localhost
+    #     fromaddr: my_app@domain.tld
+    #     toaddrs:
+    #         - support_team@domain.tld
+    #         - dev_team@domain.tld
+    #     subject: Houston, we have a problem.
+
+loggers:
+    s1tiling:
+        level: DEBUG
+        propagate: yes
+    s1tiling.OTB:
+        # Logger that inherits s1tiling logger.
+        # Permits to have s1tiling in debug mode while OTB isn't and the other
+        # way around.
+        # OTB DEBUG logs are displayed iff level is DEBUG and configFile mode
+        # is debug as well.
+        level: INFO
+        propagate: yes
+    distributed.worker:
+        level: INFO
+        handlers: [console, file, important]
+        propagate: yes
+root:
+    level: INFO
+    handlers: [console, file, important]
+
