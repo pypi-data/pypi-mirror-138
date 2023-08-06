@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: lib-my-py-package
+Version: 0.1.1
+Summary: Print 'Hello World' and echos an argument
+Home-page: UNKNOWN
+Author: John May
+Author-email: 
+Maintainer: John May
+Maintainer-email: 
+License: MIT
+Keywords: terminal
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# lib\_my\_py\_package
+
+`lib_my_py_package` will print "Hello World!" and echos an argument
+
+
+* [lib\_my\_py\_package](#lib\_my\_py\_package)
+* [History](#history)
+
+
+### Developer Installation
+
+install requirements:
+
+```bash
+cd lib_my_py_package
+conda create -y -n lib_my_py_packageenv 'python>=3.6'
+conda activate lib_my_py_packageenv
+conda env update -n lib_my_py_packageenv -f requirements.txt
+```
+
+
+to test while devloping the package
+```
+python setup.py develop
+```
+
+
+
+  -  #### develop errors
+
+    >
+    Traceback (most recent call last):
+      File "/home/user/anaconda3/envs/lib_my_py_packageenv/bin/hello", line 33, in <module>
+        sys.exit(load_entry_point('my-py-package', 'console_scripts', 'hello')())
+      File "/home/user/anaconda3/envs/lib_my_py_packageenv/bin/hello", line 25, in importlib_load_entry_point
+        return next(matches).load()
+    StopIteration
+    >
+
+    try:
+    ```bash
+    pip uninstall lib_my_py_package
+    python setup.py develop
+
+    ```
+
+## History
+   * [lib\_my\_py\_package](#my\_py\_package)
+   * 0.1.0 - Initial commit
+   * 0.1.1 - add long_description
+
+

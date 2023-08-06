@@ -1,0 +1,10 @@
+lib_my_py_package/__init__.py,sha256=EjFE6Q-zimOxN-zqIJHffJwGt7n7vGlS-oKJGm2CTIU,32
+lib_my_py_package/__main__.py,sha256=Uc4V5G57Q6bJ8fsfQhh21a7mDrtp3xevI-WDCfGh4A0,115
+lib_my_py_package/sub_dir/__init__.py,sha256=A_C8fqZX7IZdHP3CkkiWQQ7XWXt2T1rCLne-zGH4Ctk,36
+lib_my_py_package/sub_dir/hello_world.py,sha256=e5a6BT4A6kSqt6Sez_kKK_BOAdj8zncuSL4elpGJ6vc,608
+lib_my_py_package-0.1.1.dist-info/LICENSE.txt,sha256=_wb90W1oAR-ZAOEn7pQAiqMzjqi4HUb-RoWR42lmBHY,1069
+lib_my_py_package-0.1.1.dist-info/METADATA,sha256=BD__JGuYWA7pmJM6SYaq_iQEsuK9vEr2cC3EgwXp7zw,1674
+lib_my_py_package-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lib_my_py_package-0.1.1.dist-info/entry_points.txt,sha256=BnL7-vnL_7PfvokNuWZ-8NJtRcesCDmZF5Zy5c70EP0,59
+lib_my_py_package-0.1.1.dist-info/top_level.txt,sha256=smY-s2S_TQ00o4RcqFTcrEIsYQmnvYobqT_TpPyUaBE,18
+lib_my_py_package-0.1.1.dist-info/RECORD,,
