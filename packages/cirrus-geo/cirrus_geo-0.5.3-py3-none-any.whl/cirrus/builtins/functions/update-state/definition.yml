@@ -1,0 +1,38 @@
+description: update the cirrus database with the execution state
+lambda:
+  memorySize: 128
+  timeout: 15
+  events:
+    - eventBridge:
+        pattern:
+          source:
+            - aws.states
+          detail-type:
+            - Step Functions Execution Status Change
+          detail:
+            stateMachineArn:
+              - prefix: "arn:aws:states:#{AWS::Region}:#{AWS::AccountId}:stateMachine:#{AWS::StackName}-"
+            status:
+              - SUCCEEDED
+              - FAILED
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DescribeTable
+      Resource:
+        - !GetAtt StateTable.Arn
+        - !Join ['', [!GetAtt StateTable.Arn, '/index/*']]
+    - Effect: Allow
+      Action:
+        - states:GetExecutionHistory
+      Resource:
+        - arn:aws:states:#{AWS::Region}:#{AWS::AccountId}:execution:#{AWS::StackName}-*
+    - Effect: "Allow"
+      Action:
+        - SNS:Publish
+      Resource: arn:aws:sns:#{AWS::Region}:#{AWS::AccountId}:*
