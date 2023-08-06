@@ -1,0 +1,35 @@
+<form action='/teslaAccount/login' method='POST'>
+  <p>Enter your email and password to allow TWCManager to start and 
+     stop Tesla vehicles you own from charging. These credentials are 
+     sent once to Tesla and are not stored. Credentials must be entered 
+     again if no cars are connected to this charger for over 45 days.
+  </p>
+
+  <input type=hidden name='page' value='tesla-login' />
+  <p>
+    <table>
+      <tr>
+        <td>Tesla Account E-Mail:</td>
+        <td><input type='text' name='email' value='' class='form-control'></td>
+      </tr>
+      <tr>
+        <td>Password:</td>
+        <td><input type='password' name='password' class='form-control'></td>
+      </tr>
+      <tr>
+        <td>
+          {{ addButton(
+              ["submit", "Log In"],
+              "class='btn btn-outline-success' name='submit'",
+          )|safe }}
+        </td>
+        <td>
+          {{ addButton(
+              ["later", "Ask Me Later"],
+              "class='btn btn-outline-info' name='later'",
+          )|safe }}
+        </td>
+      </tr>
+    </table>
+  </p>
+</form>
