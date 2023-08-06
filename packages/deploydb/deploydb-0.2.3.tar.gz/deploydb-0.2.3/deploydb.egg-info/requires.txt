@@ -1,0 +1,4 @@
+pyodbc
+GitPython
+pydantic
+tqdm
