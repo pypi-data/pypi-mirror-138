@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: astDrawer
+Version: 0.0.3
+Summary: Draw image of ast of fibbonacci numbers code
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: networkx (>=2.0)
+Requires-Dist: matplotlib (>=3)
+
+UNKNOWN
+
