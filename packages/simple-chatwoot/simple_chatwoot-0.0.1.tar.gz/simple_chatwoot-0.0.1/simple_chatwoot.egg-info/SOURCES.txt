@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+simple_chatwoot/__init__.py
+simple_chatwoot/api.py
+simple_chatwoot/utils.py
+simple_chatwoot.egg-info/PKG-INFO
+simple_chatwoot.egg-info/SOURCES.txt
+simple_chatwoot.egg-info/dependency_links.txt
+simple_chatwoot.egg-info/requires.txt
+simple_chatwoot.egg-info/top_level.txt
