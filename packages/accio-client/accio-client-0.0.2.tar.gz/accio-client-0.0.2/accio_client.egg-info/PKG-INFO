@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: accio-client
+Version: 0.0.2
+Summary: Accessible IO Client Tool
+Home-page: https://github.com/simjay/accio-client
+Download-URL: https://github.com/simjay/accio-client/archive/refs/tags/v0.0.2.tar.gz
+Author: Jaehyun Sim
+Author-email: simjay@simjay.com
+License: Apache License 2.0
+Keywords: accio,accessible,io
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+License-File: LICENSE
+
+
+Accessible IO Client Tool
+
+

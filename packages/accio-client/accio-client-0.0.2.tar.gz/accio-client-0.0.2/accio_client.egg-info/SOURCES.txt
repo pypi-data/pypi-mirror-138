@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+accio/__init__.py
+accio/cli.py
+accio_client.egg-info/PKG-INFO
+accio_client.egg-info/SOURCES.txt
+accio_client.egg-info/dependency_links.txt
+accio_client.egg-info/entry_points.txt
+accio_client.egg-info/requires.txt
+accio_client.egg-info/top_level.txt
