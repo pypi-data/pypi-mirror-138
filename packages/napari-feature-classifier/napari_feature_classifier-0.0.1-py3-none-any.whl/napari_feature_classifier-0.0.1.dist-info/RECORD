@@ -1,0 +1,13 @@
+napari_feature_classifier/__init__.py,sha256=gYTlOVnHTWkXKPxQajJZUEKQzylbowUebHUhIJIZL_o,33
+napari_feature_classifier/classifier.py,sha256=zWal-Fc_ATpO80EZ1NDNv2h95lhb_iCQkX4-xwswpF8,15441
+napari_feature_classifier/classifier_widgets.py,sha256=oGjnniHUfT3TZxQ1wfmqg21-MGux67l4RaBIKBP-VNU,23861
+napari_feature_classifier/napari.yaml,sha256=zChzYrgv7HsPxWfCpeKL9yyfXyEim7GWhDT-7U1pv7M,654
+napari_feature_classifier/utils.py,sha256=ir4VvKdzVEgi5W-otTxf5rmMMmy3DwZk1SLr1WUtrT8,2538
+napari_feature_classifier/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_feature_classifier/_tests/test_dock_widget.py,sha256=9WFUIrCfKlmD7v0-FNWuNGO0ZCVHmEi1yoBDlBQTwLU,5471
+napari_feature_classifier-0.0.1.dist-info/LICENSE,sha256=ulUH4guFwAx9mRUSH2zy1vxLUml3d2d3GVw8l7JYYkA,1495
+napari_feature_classifier-0.0.1.dist-info/METADATA,sha256=0V2szqQUiMW8ACYu6jVs9ZnpFrW_EIXqfDrgp2NJyko,8662
+napari_feature_classifier-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+napari_feature_classifier-0.0.1.dist-info/entry_points.txt,sha256=wTOQ0HrYm8b1KJ70BaYhCh-wM9Qv2YOvXUNtvgg3qfY,85
+napari_feature_classifier-0.0.1.dist-info/top_level.txt,sha256=1OobbTjBFaHBRRtfYVSizQNtwg10XTPZlcKZnSyFEQw,26
+napari_feature_classifier-0.0.1.dist-info/RECORD,,

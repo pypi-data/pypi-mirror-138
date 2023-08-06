@@ -1,0 +1,15 @@
+name: napari-feature-classifier
+display_name: napari feature classifier
+contributions:
+  commands:
+    - id: napari-feature-classifier.initialize_classifier
+      python_name: napari_feature_classifier.classifier_widgets:initialize_classifier
+      title: Initialize a Classifier
+    - id: napari-feature-classifier.load_classifier
+      python_name: napari_feature_classifier.classifier_widgets:load_classifier
+      title: Load a Classifier
+  widgets:
+    - command: napari-feature-classifier.initialize_classifier
+      display_name: Initialize a Classifier
+    - command: napari-feature-classifier.load_classifier
+      display_name: Load Classifier
