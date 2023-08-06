@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: nertivia
+Version: 0.3.0
+Summary: Deprecated version of nertivia for python
+Home-page: UNKNOWN
+License: apache-2.0
+Keywords: API Wrapper,SIMPLE,PYTHON
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+
+<span style="color:red">**Nertivia is officially discontinued. 
+Please use `nertivia.py` instead. You can install this with `pip install nertivia.py` or `pip3 install nertivia.py`**</span>
+
+
+
