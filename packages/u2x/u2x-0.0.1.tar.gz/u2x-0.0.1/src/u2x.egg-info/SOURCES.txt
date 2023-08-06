@@ -1,0 +1,11 @@
+LICENSE
+README.md
+src/u2net/__init__.py
+src/u2net/data_loader.py
+src/u2net/model/__init__.py
+src/u2net/model/u2net.py
+src/u2net/model/u2net_refactor.py
+src/u2x.egg-info/PKG-INFO
+src/u2x.egg-info/SOURCES.txt
+src/u2x.egg-info/dependency_links.txt
+src/u2x.egg-info/top_level.txt
