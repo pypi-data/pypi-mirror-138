@@ -1,0 +1,11 @@
+setup.py
+rip_oppy/__init__.py
+rip_oppy/__main__.py
+rip_oppy/horizons.py
+rip_oppy/query.py
+rip_oppy.egg-info/PKG-INFO
+rip_oppy.egg-info/SOURCES.txt
+rip_oppy.egg-info/dependency_links.txt
+rip_oppy.egg-info/entry_points.txt
+rip_oppy.egg-info/requires.txt
+rip_oppy.egg-info/top_level.txt
