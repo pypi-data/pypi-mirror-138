@@ -1,0 +1,11 @@
+package_1/__init__.py,sha256=4sAxEX_-hJqm3_yUSIeIEC8m8nJ8_Pq70TolyEhNyRk,109
+package_1/__main__.py,sha256=yT5mlxU8aeQYQN__QGsFTTaUophRASUu1ZKfiCBe7gc,111
+package_1/arithmetic.py,sha256=zpFCJyDOu4pBazSFd40UulHWrRruCjcI3_QEHDgcRXo,210
+package_1/plugins.py,sha256=Jm6_PSfMv_J9xMX_uYBkqXWh08Edzr9UDr22IjbltGs,64
+package_2/__init__.py,sha256=qu38UCKZmkG5LPln95_mLh3vL1YzpWXD_S4nzsmXv0k,260
+package_2/__main__.py,sha256=vcjxfptKECMwSuP1RvGhZyoG56cniz2AK0uKbYVarN4,383
+python_project_templates-0.1.1.dist-info/entry_points.txt,sha256=XPhBiBphV_eus_2l3JKCXqIuVVuhKaXdK38Uic07Ih0,159
+python_project_templates-0.1.1.dist-info/LICENSE,sha256=yNhuw1EnltC3IHrYIS1iV_LSMNaTbdPuI-dhoLDWfoY,1072
+python_project_templates-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+python_project_templates-0.1.1.dist-info/METADATA,sha256=ZohTTqFxhNXzRQ3ZEMa0B_lStIskhcbMEIbvk4H2-SI,3800
+python_project_templates-0.1.1.dist-info/RECORD,,
