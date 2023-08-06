@@ -1,0 +1,12 @@
+podmena/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+podmena/cli.py,sha256=Tcax0PcYnb8v_jsVEM9jHhEg-r3vLU7cIdEXlNsp9bw,5871
+podmena/config.py,sha256=OxIlP_ki8uHL3w55UONLU5vQR9Ipvcm4Ilo-rn7rPPE,239
+podmena/group.py,sha256=d8C1C2bGCg2fLySPBzCkLyiKpnrJAoh9yE-ZUZ3BjyA,827
+podmena/resources/commit-msg,sha256=w45l8PNo8rsrZf-ZbRNFrHJrLzxKOqiVL3iBTGmKDcc,347
+podmena/resources/emoji-db,sha256=zhXBFKDD6jwVlk_xIJD46fgKJ8BTppdrI0yYNS_VEVE,8785
+podmena/utils.py,sha256=VLW7tu0UTBALiEzMacjRYMgGfJOd9Fgm2L4t1rz8DGc,1841
+podmena-0.6.0.dist-info/entry_points.txt,sha256=2L4XWXeePiXig8nSQJMPT3c79PECEPf-8LeW0ch_ujI,43
+podmena-0.6.0.dist-info/LICENSE.txt,sha256=iNm062BXnBkew5HKBMFhMFctfu3EqG2qWL8oxuFMm80,1210
+podmena-0.6.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+podmena-0.6.0.dist-info/METADATA,sha256=x72fQ7ngc1SgcMArGU5W2UE2HD3H2W2xCAAzsVkkAG4,3541
+podmena-0.6.0.dist-info/RECORD,,
