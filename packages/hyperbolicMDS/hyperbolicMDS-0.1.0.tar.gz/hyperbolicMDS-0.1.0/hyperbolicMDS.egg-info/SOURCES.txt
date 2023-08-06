@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+hyperbolicMDS/__init__.py
+hyperbolicMDS/_version.py
+hyperbolicMDS/mds.py
+hyperbolicMDS.egg-info/PKG-INFO
+hyperbolicMDS.egg-info/SOURCES.txt
+hyperbolicMDS.egg-info/dependency_links.txt
+hyperbolicMDS.egg-info/requires.txt
+hyperbolicMDS.egg-info/top_level.txt
