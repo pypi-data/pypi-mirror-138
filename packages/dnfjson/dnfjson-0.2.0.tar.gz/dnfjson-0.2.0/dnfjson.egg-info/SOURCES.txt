@@ -1,0 +1,8 @@
+LICENSE
+README.md
+dnfjson.py
+setup.py
+dnfjson.egg-info/PKG-INFO
+dnfjson.egg-info/SOURCES.txt
+dnfjson.egg-info/dependency_links.txt
+dnfjson.egg-info/top_level.txt
