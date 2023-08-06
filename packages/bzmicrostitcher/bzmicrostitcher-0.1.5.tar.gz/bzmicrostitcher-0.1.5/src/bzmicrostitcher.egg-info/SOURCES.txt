@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/bzmicrostitcher/ProcessData.py
+src/bzmicrostitcher/__init__.py
+src/bzmicrostitcher/__main__.py
+src/bzmicrostitcher.egg-info/PKG-INFO
+src/bzmicrostitcher.egg-info/SOURCES.txt
+src/bzmicrostitcher.egg-info/dependency_links.txt
+src/bzmicrostitcher.egg-info/requires.txt
+src/bzmicrostitcher.egg-info/top_level.txt
