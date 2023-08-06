@@ -1,0 +1,7 @@
+LICENCE
+README.md
+setup.py
+aayushpdf.egg-info/PKG-INFO
+aayushpdf.egg-info/SOURCES.txt
+aayushpdf.egg-info/dependency_links.txt
+aayushpdf.egg-info/top_level.txt
