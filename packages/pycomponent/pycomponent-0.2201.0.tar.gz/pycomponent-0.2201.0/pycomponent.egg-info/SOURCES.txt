@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pycomponent/__info__.py
+pycomponent/__init__.py
+pycomponent/data_collect.py
+pycomponent/dir_as_dict.py
+pycomponent/transport_pack.py
+pycomponent.egg-info/PKG-INFO
+pycomponent.egg-info/SOURCES.txt
+pycomponent.egg-info/dependency_links.txt
+pycomponent.egg-info/requires.txt
+pycomponent.egg-info/top_level.txt
