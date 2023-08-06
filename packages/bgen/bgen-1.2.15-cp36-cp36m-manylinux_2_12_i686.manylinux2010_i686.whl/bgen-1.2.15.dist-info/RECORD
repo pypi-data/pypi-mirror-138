@@ -1,0 +1,9 @@
+bgen/reader.cpython-36m-i386-linux-gnu.so,sha256=PCdAN2wOxDHkol0mNJpOdzVQl75ybeiOzHvhaANvdNE,4698560
+bgen/index.py,sha256=GO_MYDUl1uCU0t0bhTzPRdVUyd-V9vOUEeLuGQWu0iI,4188
+bgen/__init__.py,sha256=ZlAA18GglePROJMeJBq_03LiVvdXhhQ8SC-OA7r6v4k,91
+bgen.libs/libz-9f7255d3.so.1.2.3,sha256=4XNTSwxidfE5u042lZe5aN7zD6WPRGesxUOkMTCi3m8,79808
+bgen-1.2.15.dist-info/LICENSE.txt,sha256=8xqsNFTZC7SFBJM4k6bQw8tPn0zUKQJpZwdY6zSFBW0,1053
+bgen-1.2.15.dist-info/METADATA,sha256=viIH19wh1mTUagJbVKRZqbk9jVWBXEIWt971l9H0MOc,4167
+bgen-1.2.15.dist-info/top_level.txt,sha256=EoVKryxjZc0vkwDWjnOK0IP3dN4fg8YiKIkBcWB9pqw,5
+bgen-1.2.15.dist-info/RECORD,,
+bgen-1.2.15.dist-info/WHEEL,sha256=Hp9YkCGGCfuN351EtloZ52--FHyb2SJ8-a0P6IH8Wpw,146
