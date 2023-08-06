@@ -1,0 +1,8 @@
+fat_macho-0.4.11.dist-info/METADATA,sha256=3Kyq2G9ChmrPunOsWb4VlSjm8ZhGfUmRWMr2s1i-j0Q,1306
+fat_macho-0.4.11.dist-info/WHEEL,sha256=AtsvSMRaf9WauPy9E0XUU348poxhep3kmQ_hisYB3J0,104
+fat_macho.libs/libgcc_s-08f7558e.so.1,sha256=133vri02on_6hdhIVqGYS2QYq8a0TTgYXsKOOJXe6sE,728272
+fat_macho/__init__.py,sha256=2ZJupCcgE3y1uoC3ecXoWN1mZhuJ3QqPBxH_soTFMMg,54
+fat_macho/__init__.pyi,sha256=9TIu9urPFMht2lwnu8908x29z9kz6OOnBVnqqYHIrrw,288
+fat_macho/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fat_macho/fat_macho.abi3.so,sha256=D_u8KqfOtimSKnqtPsheaGzsEKGTtCfEvIgugTx6E30,3811576
+fat_macho-0.4.11.dist-info/RECORD,,
