@@ -1,0 +1,9 @@
+kenallclient/__init__.py,sha256=Qyzp20_PN_gBuM4xcbtfA50UEskfZ1SqiKIjcMKARwY,456
+kenallclient/__main__.py,sha256=BZ7SapON2HZQleGRTfcKyVeBkLgv6Gu7L100voQJhgQ,41
+kenallclient/client.py,sha256=qrJVTbR2vDtZS1_rJ3XZaU4ga__33RuvrM1naJDrTsU,1114
+kenallclient/model.py,sha256=jFbmvAWkOLB1b05iWNfjInyUWeZoEXinaKUNT4Oj6NQ,1319
+kenallclient-0.1.1.dist-info/LICENSE,sha256=nPLLpbvGGRCahTHtq9WuV3ExEa8pYyQ_ZUWSzgcfwro,1060
+kenallclient-0.1.1.dist-info/METADATA,sha256=I6vUiwRbd74p2Z-Cq-GxR_yVus5205KuWcRN90PIH3k,2809
+kenallclient-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kenallclient-0.1.1.dist-info/top_level.txt,sha256=hzM05i4a8aUbXozv7MtvjGG19WCQHNEX-t8X9VQFo70,13
+kenallclient-0.1.1.dist-info/RECORD,,
