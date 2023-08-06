@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: powerschool
+Version: 3.1.3
+Summary: Python client for the PowerSchool API
+License: GPL-3.0-or-later
+Author-email: Charlie Bini <5003326+cbini@users.noreply.github.com>
+Requires-Python: >=3.6.2
+Project-URL: homepage, https://github.com/TEAMSchools/powerschool
+Project-URL: repository, https://github.com/TEAMSchools/powerschool
