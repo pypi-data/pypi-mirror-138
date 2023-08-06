@@ -1,0 +1,13 @@
+aiohttp>=3.7.4
+
+[dev]
+aiohttp-devtools
+black
+ruamel.yaml
+pytest
+pytest-env
+pytest-cov
+pytest-mock
+pytest-aiohttp
+requests
+psutil
