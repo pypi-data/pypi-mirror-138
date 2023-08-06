@@ -1,0 +1,14 @@
+django_inertia/__init__.py,sha256=5eL8NRhPXR6AHAk7djuWiQeMKosiiT8ia2BGrjKJuQ0,129
+django_inertia/apps.py,sha256=9Bsv72ztfjaipO_a6YUBeb1SGU8NlJai4TdI-Ks9IkM,138
+django_inertia/assertions.py,sha256=RAzSWnTLiZ8VnrayIE1J150hM4z9GMdpq8kLhbBS_C8,367
+django_inertia/core.py,sha256=FmBIzYEgTKlEp5VKGyxHlb8yH4RSP5FCE6ms2QGodvY,5404
+django_inertia/middleware.py,sha256=L_YPO4cnzkKI2ftcmToPn_tQh0pc3lyJK-4K24sLEd0,2592
+django_inertia/props.py,sha256=MbjPcSNCuzykfRS4tPajIaJJZO-Ywr6UjSlMTRjYoTI,689
+django_inertia/settings.py,sha256=OJVEvv9-9n23R32f44nWW0k9PY6hS0wLD1EIl6mQ_q4,344
+django_inertia/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_inertia/templatetags/inertia_tags.py,sha256=z-eB-knHzr9bCARoIg1NYrAdV7M8dXjRLhm9GL5xprs,350
+django_inertia-1.0.1.dist-info/LICENSE,sha256=8qNGmBNaP9wH6tgrm1SoQ5G7PmNupvOdHXveW7RD5f4,1073
+django_inertia-1.0.1.dist-info/METADATA,sha256=cWOY-F38Q5_2GFYOEui0u85LUo_JlaxF4vCqE89YMZQ,4130
+django_inertia-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_inertia-1.0.1.dist-info/top_level.txt,sha256=9Rjbv-e69XmqN0tQd8t62L7t1ShuCzYS1ujiAK6jWfc,15
+django_inertia-1.0.1.dist-info/RECORD,,
