@@ -1,0 +1,10 @@
+numpy
+pyzmq
+zeromq-pyre
+
+[dev]
+black
+build
+bump2version
+pre-commit
+pytest
