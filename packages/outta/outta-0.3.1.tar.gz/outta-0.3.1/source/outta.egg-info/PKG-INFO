@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: outta
+Version: 0.3.1
+Summary: ANSI control code parsing
+Home-page: http://github.com/abingham/outta
+Author: Austin Bingham
+Author-email: austin.bingham@protonmail.com
+License: LGPL
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE
+
+=====
+outta
+=====
+
+A tool for parsing terminal control codes and escape sequences from a stream of 
+text.
+
+Outta was born out of a need to learn more about the control codes sent from terminal
+programs to the terminals that host them. The ``Parser`` class can parse a stream
+of text and produce a sequence of ``Element``\s that tell you what codes (and regular
+text) were in it. 
+
+Here's a quick example:
+
+.. code-block:: python
+
+  from outta.parser import Parser
+
+  # Here's the text to be parsed
+  text = "\x1b[4COut of\x1b[3Dta control!"
+  
+  # Construct a Parser and feed the text in.
+  parser = Parser()
+  elements = tuple(parser.feed(text))
+  
+  # Print each of the elements
+  for element in elements:
+      print(">", element)
+  
+  # Reconstruct the input text from the elements and print it
+  full_text = "".join(e.text for e in elements)
+  assert full_text == text
+  print(full_text)
+
+and here's how that look if you run it:
+
+.. code-block::
+
+  % python docs/example.py
+  > CursorForward(parameters=(4,), keywords={}, text='\x1b[4C')
+  > Out of
+  > CursorBack(parameters=(3,), keywords={}, text='\x1b[3D')
+  > ta control!
+      Outta control!
+
+

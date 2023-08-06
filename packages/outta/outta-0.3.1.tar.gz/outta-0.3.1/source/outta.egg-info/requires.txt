@@ -1,0 +1,9 @@
+pyte
+
+[dev]
+black
+bump2version
+flake8
+
+[test]
+pytest
