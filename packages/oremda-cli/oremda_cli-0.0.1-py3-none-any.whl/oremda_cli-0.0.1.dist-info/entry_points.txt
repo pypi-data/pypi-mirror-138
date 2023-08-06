@@ -1,0 +1,7 @@
+[console_scripts]
+oremda=oremda.cli:main
+
+[oremda.cli.plugin]
+pull=oremda.cli.pull:main
+run=oremda.cli.run:main
+
