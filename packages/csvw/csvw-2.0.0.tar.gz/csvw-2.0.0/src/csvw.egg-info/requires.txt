@@ -1,0 +1,15 @@
+attrs>=18.1
+isodate
+python-dateutil
+rfc3986<2
+uritemplate>=3.0.0
+
+[dev]
+flake8
+twine
+wheel
+
+[test]
+pytest-cov
+pytest-mock
+pytest>=5
