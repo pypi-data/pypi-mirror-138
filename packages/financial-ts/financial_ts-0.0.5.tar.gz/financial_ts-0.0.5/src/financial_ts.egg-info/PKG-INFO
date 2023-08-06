@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: financial-ts
+Version: 0.0.5
+Summary: Python module for loading time series data.
+Home-page: https://github.com/gilberto-BE/financial_ts
+Author: Gilberto Batres-Estrada
+Author-email: g.batres.estrada@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/gilberto-BE/financial_ts/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python module for downloading time series data
+This repository gets data from the Alpha Vantage API: https://www.alphavantage.co/.
+You need an API key in order to use the utilities in this repo. 
+
+You can retrieve price data from many stocks traded in stock markets.
+
+## Load Data
+To use this module, you will need to have your own
+Alpha Vantage API key.
+```
+from financial_ts.src.loaders import loader
+
+data_loader = loader.TimeSeriesLoader(symbol="AAPL", interval=1)
+
+df = data_loader.ts_intraday()
+
+df_ext = data_loader.ts_intraday_extended(interval='5min&slice=year1month5')
+```
+
+
