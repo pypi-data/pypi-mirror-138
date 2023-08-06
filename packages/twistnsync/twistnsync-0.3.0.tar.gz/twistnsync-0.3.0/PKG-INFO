@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: twistnsync
+Version: 0.3.0
+Summary: Twist-n-Sync is time synchronization algorithm that employs IMU gyroscope data.
+Home-page: https://github.com/MobileRoboticsSkoltech/twistnsync-python
+License: Apache-2.0
+Author: Marsel Faizullin
+Author-email: marsel.faizullin@skoltech.ru
+Maintainer: Marsel Faizullin
+Maintainer-email: marsel.faizullin@skoltech.ru
+Requires-Python: >=3.6.1,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+Requires-Dist: black (==20.8b1); extra == "test"
+Requires-Dist: flake8 (==3.8.4); extra == "test"
+Requires-Dist: flake8-docstrings (>=1.6.0,<2.0.0); extra == "test"
+Requires-Dist: isort (==5.6.4); extra == "test"
+Requires-Dist: mkdocs (>=1.1.2,<2.0.0); extra == "doc"
+Requires-Dist: mkdocs-autorefs (==0.1.1); extra == "doc"
+Requires-Dist: mkdocs-include-markdown-plugin (>=1.0.0,<2.0.0); extra == "doc"
+Requires-Dist: mkdocs-material (>=6.1.7,<7.0.0); extra == "doc"
+Requires-Dist: mkdocs-material-extensions (>=1.0.1,<2.0.0)
+Requires-Dist: mkdocstrings (>=0.16.0,<0.17.0); extra == "doc"
+Requires-Dist: pip (>=20.3.1,<21.0.0); extra == "dev"
+Requires-Dist: pre-commit (>=2.12.0,<3.0.0); extra == "dev"
+Requires-Dist: pytest (==6.1.2); extra == "test"
+Requires-Dist: pytest-cov (==2.10.1); extra == "test"
+Requires-Dist: toml (>=0.10.2,<0.11.0); extra == "dev"
+Requires-Dist: tox (>=3.20.1,<4.0.0); extra == "dev"
+Requires-Dist: twine (>=3.3.0,<4.0.0); extra == "dev"
+Requires-Dist: virtualenv (>=20.2.2,<21.0.0); extra == "dev"
+Description-Content-Type: text/markdown
+
+# Twist-n-Sync. Time synchronization algorithm that employs IMU gyroscope data
+
+Imagine that you want to synchronize [two smartphones](https://www.mdpi.com/1424-8220/21/1/68)<sup>1</sup> for stereoscopic (or multiscopic) photo or video shutting with _microseconds accuracy and precision_.
+Or you need to synchronize Azure Kinect DK [depth frames](https://arxiv.org/abs/2111.03552)<sup>2</sup> with smartphone frames.
+
+Twist-n-Sync is a time synchronization algorithm that can solve the time sync issues by employing gyroscope chips widely available in millions of comsumer gadgets.
+
+Another benefical usage of the package is synchronization of diverse motion capture (mocap) systems (OptiTrack, Vicon) that provide ground truth data for robot navigation and state estimation algorithms (Wheeled, Visual, Visual-Inertial Odometry and SLAM).
+
+## Installation
+
+`pip install twistnsync`
+
+## Usage examples
+
+WIP: The python notebook examples in [`examples`](https://github.com/MobileRoboticsSkoltech/twistnsync-python/examples) folder provide comprehensive mini-tutorials how to use the code:
+- [two systems sync by gyroscope data](https://github.com/MobileRoboticsSkoltech/twistnsync-python/blob/master/examples/Smartphone_and_MCU-board_data_sync.ipynb);
+- TODO mocap data (position orientation) and robot data sync;
+- TODO clock drift evaluation of two independent systems;
+
+## References
+In case of usage of the materials, please, refer to the source and/or publications:
+
+<sup>1</sup>
+```
+@article{faizullin2021twist,
+  title={Twist-n-Sync: Software Clock Synchronization with Microseconds Accuracy Using MEMS-Gyroscopes},
+  author={Faizullin, Marsel and Kornilova, Anastasiia and Akhmetyanov, Azat and Ferrer, Gonzalo},
+  journal={Sensors},
+  volume={21},
+  number={1},
+  pages={68},
+  year={2021},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+```
+
+<sup>2</sup>
+```
+@ARTICLE{9709778,
+  author={Faizullin, Marsel and Kornilova, Anastasiia and Akhmetyanov, Azat and Pakulev, Konstantin and Sadkov, Andrey and Ferrer, Gonzalo},
+  journal={IEEE Sensors Journal}, 
+  title={SmartDepthSync: Open Source Synchronized Video Recording System of Smartphone RGB and Depth Camera Range Image Frames with Sub-millisecond Precision}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/JSEN.2022.3150973}
+}
+```
+
+## Credits
+
+This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and the [zillionare/cookiecutter-pypackage](https://github.com/zillionare/cookiecutter-pypackage) project template.
+
