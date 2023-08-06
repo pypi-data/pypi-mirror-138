@@ -1,0 +1,14 @@
+cryptography
+
+[:python_version > "3.0"]
+chardet
+
+[dev]
+pytest
+nox
+black
+mypy==0.931
+
+[docs]
+sphinx
+sphinx-argparse
