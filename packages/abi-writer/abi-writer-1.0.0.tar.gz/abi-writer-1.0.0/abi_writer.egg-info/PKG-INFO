@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: abi-writer
+Version: 1.0.0
+Summary: Documentation for Solidity ABI
+Home-page: https://github.com/subhasishgoswami/ABI-Documentation
+Author: Subhasish Goswami
+Author-email: subhasishgoswami00@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ABI-Documentation
+
+

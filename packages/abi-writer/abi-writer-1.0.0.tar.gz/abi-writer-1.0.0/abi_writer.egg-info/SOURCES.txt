@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+abi_writer.egg-info/PKG-INFO
+abi_writer.egg-info/SOURCES.txt
+abi_writer.egg-info/dependency_links.txt
+abi_writer.egg-info/top_level.txt
