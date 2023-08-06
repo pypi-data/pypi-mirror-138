@@ -1,0 +1,3 @@
+[console_scripts]
+grafana-snapshots = grafana_snapshots.cli:main
+
