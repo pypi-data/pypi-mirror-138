@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: Data4FAE
+Version: 0.0.1
+Summary: Python package for Satellogic interview
+Home-page: UNKNOWN
+Author: Gabriel Rosso
+Author-email: <rosso.gabriel1@gmail.com>
+License: UNKNOWN
+Description: # 2Data4FAE
+        
+        For this task, the developer has selected the [mc52-syum](https://data.nasa.gov/Space-Science/Fireball-And-Bolide-Reports/mc52-syum) database, whith contains information on the date and time of each fireball event, its geographic location, its altitude and velocity at peak brightness, its approximate total optical radiated energy and its calculated total impact energy.
+        (Fireballs and bolides are astronomical terms for exceptionally bright meteors that are spectacular enough to to be seen over a very wide area.)
+        
+        **Depencencies:**
+        
+         - [ ] [Pandas](https://pypi.org/project/pandas/) 
+         - [ ] [Seaborn](https://pypi.org/project/seaborn/)
+         - [ ] [matplotlib](https://pypi.org/project/matplotlib/)
+         - [ ] [folium](https://pypi.org/project/folium/)
+         - [ ] [dms2dec](https://pypi.org/project/dms2dec/)
+        
+        ## 2.1 Obtaining information and generating plots
+        
+        This part is focused on the data analysis and generating plots, maps and export the raw data to PDF. The sub-structure is as follows:
+        
+         1. Obtain the data
+         2. Create Pandas dataframe
+         3. inspect the dataframa
+         4. graph some variables
+         5. Plot points provided by the dataset in a map
+         6. Store some information in PDF to be acces by somebody.
+        
+        
+        ## 2.2 Project migration to Python package
+        The project was updated in order to be compliant with the pip structure. The files that needed to be packaged were created and added to this repository.
+        
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
