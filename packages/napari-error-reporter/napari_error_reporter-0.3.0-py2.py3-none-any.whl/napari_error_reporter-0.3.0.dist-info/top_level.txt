@@ -1,0 +1,1 @@
+napari_error_reporter
