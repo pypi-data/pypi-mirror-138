@@ -1,0 +1,3 @@
+[console_scripts]
+macro_counter=macro_counter:main
+
