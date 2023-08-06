@@ -1,0 +1,8 @@
+License.txt
+setup.py
+oDrive_calc/__init__.py
+oDrive_calc/odrive_calc.py
+oDrive_calc.egg-info/PKG-INFO
+oDrive_calc.egg-info/SOURCES.txt
+oDrive_calc.egg-info/dependency_links.txt
+oDrive_calc.egg-info/top_level.txt
