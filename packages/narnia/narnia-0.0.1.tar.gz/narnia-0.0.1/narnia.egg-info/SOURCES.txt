@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+narnia/__init__.py
+narnia/main.py
+narnia.egg-info/PKG-INFO
+narnia.egg-info/SOURCES.txt
+narnia.egg-info/dependency_links.txt
+narnia.egg-info/top_level.txt
+narnia.egg-info/zip-safe
