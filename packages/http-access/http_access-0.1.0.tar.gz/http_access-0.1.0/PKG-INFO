@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: http_access
+Version: 0.1.0
+Summary: http direct access django app
+Home-page: https://github.com/EOxServer/http_access
+Author: Nikola Jankovic
+Author-email: nikola.jankovic@eox.at
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# http_access
+
+An extension of `eoxserver` that allows direct http access and range requests to access
+raster data.
+
+## Install
+
+To add to a django instance, edit the following files:
+
+`settings.py`
+
+```python
+INSTALLED_APPS = (
+    ...
+    'http_access'
+)
+```
+
+`urls.py`
+
+```python
+
+urlpatterns = [
+    ...
+    re_path(r'^http/', include('http_access.urls'))
+]
+
+```
+
+## Usage
+
+The files can directly be accessed with http range requests with the `Range` header, the
+storage name (`STORAGE_NAME`) and the path to the file (`/PATH/TO/FILE`) in the storage.
+
+```shell
+curl -i -H "Range: bytes=15-60" http://host.com/http/storage/<STORAGE_NAME>/<PATH/TO/FILE>
+```
+
+When the file is not located on a storage, but on a local filesystem, the following request is to be used:
+
+```shell
+curl -i -H "Range: bytes=15-60" http://host.com/http/local/<PATH/TO/FILE>
+```
+
+
