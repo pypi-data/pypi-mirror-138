@@ -1,0 +1,14 @@
+numpy
+autopep8
+mako
+more_itertools
+regex
+colorama
+frozendict
+black
+
+[autopep8 linting]
+autopep8
+
+[black linting]
+black
