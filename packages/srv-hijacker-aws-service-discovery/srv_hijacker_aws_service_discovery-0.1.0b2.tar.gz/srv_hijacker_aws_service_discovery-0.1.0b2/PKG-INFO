@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: srv-hijacker-aws-service-discovery
+Version: 0.1.0b2
+Summary: 
+Author: Andrei Shabanski
+Author-email: shabanski.andrei@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: asyncpg (>=0.25.0,<0.26.0)
+Requires-Dist: dnspython (>=2.2.0,<3.0.0)
