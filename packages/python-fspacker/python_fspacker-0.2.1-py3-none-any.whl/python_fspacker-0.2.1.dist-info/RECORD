@@ -1,0 +1,9 @@
+fsPacker/__init__.py,sha256=kvjr3drVBeDkDBWAppF4xTNARWPd-B4SatOSJuxjGy0,1252
+fsPacker/_fspacker.pyi,sha256=u-qr_Z_fuhk8D6P1ZH-SMp1zfbBjeJqYDtWPQyjZvO0,648
+fsPacker/fallback.py,sha256=76N-bE-CMNOZTC0l_Ogz8lkFsYcBlJAHwvpbwjJ5HTk,18902
+fsPacker/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_fspacker-0.2.1.dist-info/LICENSE.md,sha256=bAqHgbR7UZwJloqhGVm8_K3Xmaq-SaedwDI6ebqFcGU,728
+python_fspacker-0.2.1.dist-info/METADATA,sha256=QRRl7bdqMCExJry1XW1dFikBTyn2wE-DObqJ6p6SFzw,9435
+python_fspacker-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_fspacker-0.2.1.dist-info/top_level.txt,sha256=0uPBwIeM4Vwqo223B_6O6Om5wxBuV-rayrRh_x2mt8c,9
+python_fspacker-0.2.1.dist-info/RECORD,,
