@@ -1,0 +1,17 @@
+setup.py
+evo_featureflags_client.egg-info/PKG-INFO
+evo_featureflags_client.egg-info/SOURCES.txt
+evo_featureflags_client.egg-info/dependency_links.txt
+evo_featureflags_client.egg-info/requires.txt
+evo_featureflags_client.egg-info/top_level.txt
+featureflags/__init__.py
+featureflags/client/__init__.py
+featureflags/client/compat.py
+featureflags/client/conditions.py
+featureflags/client/flags.py
+featureflags/client/state.py
+featureflags/client/utils.py
+featureflags/client/managers/__init__.py
+featureflags/client/managers/asyncio.py
+featureflags/client/managers/dummy.py
+featureflags/client/managers/sync.py
