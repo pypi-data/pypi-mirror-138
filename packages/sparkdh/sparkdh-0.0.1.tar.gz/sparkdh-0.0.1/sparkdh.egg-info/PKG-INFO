@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: sparkdh
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/mmutiso/spark-dh
+Author: Matthew Mutiso
+Author-email: UNKNOWN
+License: Apache License 2.0
+Description: UNKNOWN
+Keywords: spark pyspark dataframe hdfs hadoop data-science
+Platform: UNKNOWN
