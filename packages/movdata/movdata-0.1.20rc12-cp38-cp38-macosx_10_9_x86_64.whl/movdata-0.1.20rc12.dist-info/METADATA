@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: movdata
+Version: 0.1.20rc12
+Summary: Movement Ecology Tools For Python
+Home-page: https://github.com/wildlife-dynamics/movdata
+Author: Jake Wall
+Author-email: movementecologytools@gmail.com
+License: BSD 3-Clause
+Platform: Posix; MacOS X; Windows
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+Requires-Dist: geopandas
+Requires-Dist: gdal
+Requires-Dist: fiona
+Requires-Dist: geographiclib
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: geojson
+Requires-Dist: descartes
+Requires-Dist: python-dateutil
+Requires-Dist: rasterio
+Requires-Dist: rasterstats
+Requires-Dist: joblib
+Requires-Dist: pyOpenSSL
+Requires-Dist: google-api-python-client
+Requires-Dist: earthengine-api
+Requires-Dist: oauth2client
+Requires-Dist: astropy
+Requires-Dist: cython
+
+=======
+MovData
+=======
+
+MovData is a Python library that provides tools for analysing movement data within the
+fields of ecology and conservation.
+
+**Note**: MovData is a very young package. While the available tools should
+be stable and working correctly, it's still possible this API functions may change in upcoming
+releases. But we would love for you to try it out, give feedback or contribute!
+
+
+What is a Relocations?
+----------------------
+Relocations is a model for a set of fixes from a given subject.
+Because fixes are temporal, they can be ordered asc or desc. The additional_data dict can contain info
+specific to the subject and relocations: name, type, region, sex etc. These values are applicable to all
+fixes in the relocations array. If they vary, then they should be put into each fix's additional_data dict.
+
+
+Examples
+--------
+
+quickly create a geometry point
+
+.. code:: python
+
+  >>> import movdata
+  >>> geopoint = movdata.geopoint(x=1, y=1, crs=4326)
+  >>> geopoint.shapely_geometry
+
+      POINT Z (1 2 0)
+
+  >>> geopoint.to_crs(crs=3857)
+
+      POINT Z (111319.4907932736 222684.2085055441 0)
+
+Earth Engine Authentication
+---------------------------
+EE needs to be authenticated before using the eetools module in pymet. Here's how to authenticate:
+
+* Run the command 'earthengine authenticate' from a cmd window/shell which will provide a url to paste into a browser with the sign in page for your Google accounts. Choose the account whitelisted for earth engine
+* You will be given a code that should be pasted into the terminal
+* An authentication token will be stored locally indefinitely
+
+
+References
+----------
+- Geopandas: https://geopandas.org/en/stable/
+- GEOS: https://libgeos.org
+- Shapely: https://shapely.readthedocs.io/en/latest/
+- ArcMET: http://www.movementecology.net/arcmet_software.html
+
+Copyright & License
+-------------------
+
+MovData is licensed under BSD 3-Clause license. Copyright (c) 2021, wildlife-dynamics.
+
+
