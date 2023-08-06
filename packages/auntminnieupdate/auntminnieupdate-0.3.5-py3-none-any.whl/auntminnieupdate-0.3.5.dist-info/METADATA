@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: auntminnieupdate
+Version: 0.3.5
+Summary: this package for retirve auntminnie recent news and radiology conference
+Home-page: https://github.com/senchooo/auntminnnie-update
+Author: Sencho Parameswara
+Author-email: senchoparameswara@gmail.com
+License: UNKNOWN
+Project-URL: MyWeb, https://senchooo.com
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# auntminnnie-update
+this package for retirve auntminnie recent news and radiology conference
+
+# how it work?
+his package will scarape in [auntminnnie](https://www.auntminnie.com/) to get latest news and radiology conference.
+this package use BeautifulSoup4 and requests.
+and then produce output of JSON thats ready to use in your web or mobile apps.
+
+
