@@ -1,0 +1,102 @@
+[tool.poetry]
+name = "xml_dataclasses"
+version = "0.0.9"
+description = "(De)serialize XML documents into specially-annotated dataclasses"
+authors = ["Toby Fleming <tobywf@users.noreply.github.com>"]
+license = "MPL-2.0"
+readme = "README.md"
+homepage = "https://github.com/tobywf/xml_dataclasses"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Text Processing :: Markup :: XML",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+lxml = "^4.6.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.0"
+black = "^22.1.0"
+isort = "^5.10.1"
+pylint = "^2.12.2"
+pytest-cov = "^3.0.0"
+mypy = "^0.931"
+ipython = "^7.31.1"
+coverage = {extras = ["toml"], version = "^6.3.1"}
+pytest-random-order = "^1.0.4"
+taskipy = "^1.9.0"
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.coverage.run]
+branch = true
+
+[tool.coverage.report]
+fail_under = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = """
+--cov=xml_dataclasses \
+--cov-report term \
+--cov-report html \
+--random-order"""
+
+[tool.pylint.master]
+extension-pkg-whitelist = "lxml"
+ignore = "CVS"
+persistent = true
+jobs = 1
+
+[tool.pylint.message_control]
+
+disable= """,
+bad-continuation,
+line-too-long,
+ungrouped-imports,
+wrong-import-position,
+missing-docstring,
+fixme,
+too-few-public-methods,
+"""
+
+[tool.pylint.basic]
+good-names = "_,e,el,ex,f,tp,k,v,ns"
+
+[tool.pylint.format]
+indent-string = "    "
+
+[tool.mypy]
+show_error_codes = true
+
+[tool.taskipy.tasks]
+isort = "isort ."
+black = "black ."
+mypy = "mypy --strict src/xml_dataclasses/ functional/container_test.py"
+pylint = "pylint src/xml_dataclasses/"
+
+lint = "task isort && task black && task mypy && task pylint"
+
+test = "pytest"
+functional = "pytest --no-cov functional/"
+
+all = "task lint && task test && task functional"
+
+isort_check = "isort --check-only ."
+black_check = "black --check ."
+
+check = "task isort_check && task black_check && task mypy && task pylint && task test && task functional"
+
+[build-system]
+requires = ["poetry>=1.0.0"]
+build-backend = "poetry.masonry.api"
