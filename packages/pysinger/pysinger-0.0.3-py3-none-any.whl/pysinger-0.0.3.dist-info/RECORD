@@ -1,0 +1,9 @@
+pysinger/__init__.py,sha256=LIc39FMyjvXfz36mD1ms3SNhxTrPID3WATsRxJME_Yg,114
+pysinger/singer.py,sha256=vGAZWAaHWEvv1jjec9o4UqyayO6u_o50YCMdKzaRkRE,4208
+pysinger/tap.py,sha256=vQj3i14-yhdyC_oDIe8ielwX5xHU6fLqbDl8m0PDSnU,2799
+pysinger/target.py,sha256=WoI5VRwWY9KSl4G-hfcqzlBadlE2dwrjxOnkMLH1qYk,2376
+pysinger-0.0.3.dist-info/LICENSE,sha256=nVrY8zACLf1IYJq7sZr9J1UvO4sJCZqdq0r8IbMmGtE,1069
+pysinger-0.0.3.dist-info/METADATA,sha256=FsTz-g7dfLaoB2NCXZ3LOU42y6ctlMB40Zp8eu5W3yc,3348
+pysinger-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pysinger-0.0.3.dist-info/top_level.txt,sha256=kg6qjcAvWjjK0jQSmEB1At1RsT58wL22FaL4m2YrmCY,9
+pysinger-0.0.3.dist-info/RECORD,,
