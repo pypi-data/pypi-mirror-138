@@ -1,0 +1,9 @@
+music_artist/__init__.py,sha256=zm5NHNuY7p9e0wGBBcieDQ2YrrB00iP-s8etYQwyVe8,43
+music_artist/__main__.py,sha256=uOmOiA2pUsjtjPV6oi2OcIbSkDvrwRgXHshcUD-eFjw,634
+music_artist/__version__.py,sha256=w89zh1yThNx0TsIvHagtWJQMNos7uI5xMPD0aOwtneg,64
+music_artist/artist.py,sha256=STiNHRtZyRxoAaubHOFMWV2Y1ZMJbqzptmKLwcNo5Q4,5215
+music_artist-1.0.1.dist-info/LICENSE,sha256=ZEVBb73jkAnpqV_NoAPfygi_t8djl0amZUCkU2aQMhY,1084
+music_artist-1.0.1.dist-info/METADATA,sha256=q-SDdfQEByopw-ls1Wb2_9GIqrWkRNIy3n7ZoZ2MU28,4063
+music_artist-1.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+music_artist-1.0.1.dist-info/top_level.txt,sha256=SfyqAoAy-KywklY9hgSw_xqioFiQ1DGLqEYnP3OhMe4,13
+music_artist-1.0.1.dist-info/RECORD,,
