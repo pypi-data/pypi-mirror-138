@@ -1,0 +1,2 @@
+pytket==1.0.0rc0
+qiskit~=0.34.2
