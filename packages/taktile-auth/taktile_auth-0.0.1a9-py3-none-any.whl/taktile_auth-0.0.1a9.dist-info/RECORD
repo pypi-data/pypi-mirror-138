@@ -1,0 +1,17 @@
+assets/resources.yaml,sha256=OT-zWN6S5F1g9_-WwYNp6r2vs7WQ7Loe2cawU9TzRfo,397
+assets/roles.yaml,sha256=Xo6_FfGT5o0gzXGsjARgulsCkkkBX-AiaZ_9wu3IpMk,796
+taktile_auth/__init__.py,sha256=iLgFBOl0A2iyYqUZrZ8U7gr5OF2TnsTWQyiYl9pziNM,381
+taktile_auth/entities/__init__.py,sha256=UnU2fwMeePfukg7gXk2gwxGSQ88gBIYSkiDHNr4OvOg,210
+taktile_auth/entities/permission.py,sha256=Qo9Unx9s_IC2bZsggpwsHNM9jtYRX_sqjF35Z3zSPb4,1598
+taktile_auth/entities/resource.py,sha256=PQtLTRUStnUB7Z4OIxhiAA29pvCVysQbV-V8WTu-Cck,1289
+taktile_auth/entities/role.py,sha256=Gyz7rOqFBGUctNBs55pBs7v7r4_fk3Y0xly0jt8sPRc,2212
+taktile_auth/enums.py,sha256=oZpFSMRWTlS9Ji_JKrtA1kfMATRbz8ZRAX0qa8bRTHo,536
+taktile_auth/parser/__init__.py,sha256=WT43m7uRgBItRALtGC6hssbTXqJY9Fk-8spKk4cK8i4,261
+taktile_auth/parser/utils.py,sha256=dYLGTrtIFEYJIeEKs06r-wOiY5RbSMg2utUdNOqh7UQ,1166
+taktile_auth/parser/yaml_parsing.py,sha256=5CIWkHIkKZG7tdMxtJxRi8w8ZXPf-FQnq_m23yX8aUE,2240
+taktile_auth/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taktile_auth/settings.py,sha256=0p3iC6VZ1hzNsmnN7POMgRjC1-Z3Liqy1phIrTzohI0,254
+taktile_auth/utils.py,sha256=Zy1mLnzfS_vpDayTUCkdJOGya_W2N5s2_Ib5yxPXoOU,1322
+taktile_auth-0.0.1a9.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+taktile_auth-0.0.1a9.dist-info/METADATA,sha256=Tab40PV2y8VGyUPcFJKNhDUrmzGLdUYzqxb2X1iAun0,536
+taktile_auth-0.0.1a9.dist-info/RECORD,,
