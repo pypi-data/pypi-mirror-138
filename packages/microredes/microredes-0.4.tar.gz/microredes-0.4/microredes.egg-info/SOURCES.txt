@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+microredes/__init__.py
+microredes/calc_helper.py
+microredes/connection.py
+microredes/constants.py
+microredes/microredes.py
+microredes.egg-info/PKG-INFO
+microredes.egg-info/SOURCES.txt
+microredes.egg-info/dependency_links.txt
+microredes.egg-info/top_level.txt
