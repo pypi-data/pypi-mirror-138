@@ -1,0 +1,15 @@
+nsgi/__init__.py,sha256=SxntxUC9zARIyi13WrW61YFR-huofb1-vSB_DKBbw8c,1629
+nsgi/application.py,sha256=jXcnPU3L0myT7MYdv3q9ONBOQq1qW2u5ZKsg2iAjSdk,2120
+nsgi/logger.py,sha256=pj0ku4LssTpHzgKrvH0xBBye0Lsh9ejZCK4_M5SNjI0,1803
+nsgi/models.py,sha256=L-8-q74FlLQY4M5Op1W-f0mO-NfSnNdkpO2aR4ay_zE,2324
+nsgi/responses.py,sha256=--IiAstaZcpWfpTPZnPXYwiSeX2kVfU_0IBm9osqFoU,2914
+nsgi/route.py,sha256=CbjRKMkyjAC-vYEBwNsJqw9OCkrsAUf17DRC3AdKejs,1422
+nsgi/runner.py,sha256=5LLbz8hIqYLyNBqYVS3FpVC70E9j-rf_fyzqy6XlYcM,5126
+nsgi/plugins/__init__.py,sha256=GRwnibwrT1FsFOwZeB4zL_mAgGxb_ItyjkFe7QBdJV8,1147
+nsgi/plugins/discord_bot.py,sha256=okGdOgu_bxgMdDijFwhnSgcP8KXZmccOtRZHaTQNKng,1487
+nsgi/plugins/ratelimit.py,sha256=K_DeHLVkrgorQs8LQH-lu93XIHJtBduoa5NEaPl8ips,1341
+nsgi-1.0.4.dist-info/LICENSE,sha256=a_ZDaaf082wI0vNkfHcqBQ-D6fcEE94vVPCvXu0kykk,1074
+nsgi-1.0.4.dist-info/METADATA,sha256=hLzvP4yH-q7I-Xnk8e1x261ZHMkqFRlB2bbPXXEHNEs,1608
+nsgi-1.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nsgi-1.0.4.dist-info/top_level.txt,sha256=cu_27sdKuyo09VMehNy-JrmwumdwftyXNGX-okrem0g,5
+nsgi-1.0.4.dist-info/RECORD,,

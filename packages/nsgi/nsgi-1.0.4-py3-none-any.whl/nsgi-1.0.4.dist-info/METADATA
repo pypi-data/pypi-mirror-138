@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: nsgi
+Version: 1.0.4
+Summary: The newest contender in Server Gateway interface.
+Home-page: https://github.com/OpenRobot-Packages/nsgi
+Author: Alex Hutz
+Author-email: frostiitheweeb@outlook.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/OpenRobot-Packages/nsgi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp (==3.7.4.post0)
+Requires-Dist: discord.py (==1.7.3)
+
+# nsgi
+
+The newest contender in Server Gateway Interface.
+
+## Why use this webserver?
+
+This webserver is made with the newest version of `asyncio`, and `sockets`, it supports callablle-based interface and also class based. Not enough? Let me tell you how this project works.
+
+## How it works
+
+Basically, you create an application, let's say, an API, you run the api with our `Runner` class and want to visit it, you go to `http://development.com` (Go to your webserver IP), you will receive a response wich was triggerred from the `Response` you gave in the code.
+
+It's as simple as it sounds.
+
+### Example:
+
+Want an example? Here:
+```py
+from nsgi.application import AsyncServer
+from nsgi.runner import Runner
+from nsgi.responses import Response
+
+class Server(AsyncServer):
+	def __init__(self) -> None:
+		super().__init__()
+
+server = Server()
+runner = Runner(server)
+
+@server.get("/", method="GET")
+async def index(request):
+	response = Response("Hello.")
+	return await response() # or return response
+
+runner.run()
+```
+
