@@ -1,0 +1,9 @@
+zscli/__init__.py,sha256=LwNBYl2FzD8ZjtblaEEm3b64BRHfOuTUyoHZYFqnQ0U,198
+zscli/cli.py,sha256=NSAc0PFY5cc6yvMmO8byUTdeGWyKWyMev5bxoNppGDc,4709
+zscli/version.py,sha256=0mtv8MMgqHWJdrkWQoQyrFDGAKttn73iHCfs9nsTz5M,127
+zscli/zscli.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+zscli-0.1.0.dist-info/entry_points.txt,sha256=3grqydfAFjzrKYt_EsCQJC_vamjFeurRhSpg17awDkA,35
+zscli-0.1.0.dist-info/LICENSE,sha256=jckHDSsX1b_CdhJDNaLRfFvZV3iproIxckmg9uTfShQ,1071
+zscli-0.1.0.dist-info/WHEEL,sha256=j3d_2VkBU36k09xOc4O9RZyJJ8uFqn4BR2AtKD7MOp8,99
+zscli-0.1.0.dist-info/METADATA,sha256=qPQwi2uvyk8yJW8E9-eu6DYPq0Lvyc8jWQUJ4bEhCxg,1902
+zscli-0.1.0.dist-info/RECORD,,
