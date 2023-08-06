@@ -1,0 +1,18 @@
+attrs
+
+[:python_version < "3.8"]
+importlib_metadata>=1.4
+
+[dev]
+tox
+twisted
+aiounittest
+mypy==0.910
+black==21.9b0
+flake8==4.0.1
+isort==5.9.3
+
+[test]
+tox
+twisted
+aiounittest

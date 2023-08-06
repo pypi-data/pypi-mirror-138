@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+matrix_common/__init__.py
+matrix_common/py.typed
+matrix_common/regex.py
+matrix_common/versionstring.py
+matrix_common.egg-info/PKG-INFO
+matrix_common.egg-info/SOURCES.txt
+matrix_common.egg-info/dependency_links.txt
+matrix_common.egg-info/requires.txt
+matrix_common.egg-info/top_level.txt
+tests/__init__.py
+tests/test_regex.py
+tests/test_versionstring.py
