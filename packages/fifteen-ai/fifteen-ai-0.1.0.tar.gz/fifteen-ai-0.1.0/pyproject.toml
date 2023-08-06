@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "fifteen-ai"
+version = "0.1.0"
+description = "TTS by 15.ai"
+authors = ["Angelo Gladding <angelo@ragt.ag>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.27.1"
+playsound = "^1.3.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+isort = "^5.10.1"
+flake8 = "^4.0.1"
+flake8-docstrings = "^1.6.0"
+pep8-naming = "^0.12.1"
+radon = "^5.1.0"
+ipython = "^8.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
