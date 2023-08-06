@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.py
+MacSesh.egg-info/PKG-INFO
+MacSesh.egg-info/SOURCES.txt
+MacSesh.egg-info/dependency_links.txt
+MacSesh.egg-info/requires.txt
+MacSesh.egg-info/top_level.txt
+macsesh/__init__.py
+macsesh/injected_adapter.py
+macsesh/keychain.py
+macsesh/secure_transport_adapter.py
+macsesh/session.py
+macsesh/simple_adapter.py
+macsesh/util.py
+macsesh/version.py
