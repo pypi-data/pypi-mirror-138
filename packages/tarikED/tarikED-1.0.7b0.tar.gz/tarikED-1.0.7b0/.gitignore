@@ -1,0 +1,40 @@
+## projects data,binaries,etc...
+*/bin
+*/dat
+**/figures
+*/docs_fig
+**/dat/*
+**/sandbox/*
+**/old
+**/figures/*
+**/docs/build
+**/docs/source/reference
+
+## pytest
+**/tests/**/ref
+**/tests/**/out
+**/tests/**/report
+**/tests/report.md
+**/tests/report.html
+**/tests/EDutils/pets/bloch
+
+tests/dials
+tests/felix
+tests/*/dat
+#multislice/examples/dat
+multislice/temsim/makefile
+multislice/data_2D
+#blochwave/
+**/tiffs
+results/glycine/pets
+
+
+**.ipynb_checkpoints/
+notebooks/Untitled.ipynb
+notebooks/tests/
+
+## Python
+**/__pycache__
+*.egg-info
+**/.coverage
+**/htmlcov
