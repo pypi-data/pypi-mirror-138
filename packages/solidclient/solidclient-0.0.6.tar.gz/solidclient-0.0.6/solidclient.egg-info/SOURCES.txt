@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+openidc_client/__init__.py
+openidc_client/release.py
+openidc_client/requestsauth.py
+solidclient/__init__.py
+solidclient/solid_client.py
+solidclient.egg-info/PKG-INFO
+solidclient.egg-info/SOURCES.txt
+solidclient.egg-info/dependency_links.txt
+solidclient.egg-info/requires.txt
+solidclient.egg-info/top_level.txt
+solidclient/utils/__init__.py
+solidclient/utils/utils.py

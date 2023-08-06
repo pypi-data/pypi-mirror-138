@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: solidclient
+Version: 0.0.6
+Summary: A Solid client in Python
+Home-page: https://gitlab.com/arbetsformedlingen/individdata/oak/python-solid-client
+Author: Max Dzyuba
+Author-email: max.dzyuba@arbetsformedlingen.se
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >= 3.6
+License-File: LICENSE
+
+UNKNOWN
+

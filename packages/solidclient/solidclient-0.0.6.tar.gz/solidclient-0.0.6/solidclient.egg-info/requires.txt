@@ -1,0 +1,6 @@
+requests
+jwcrypto
+rdflib
+solid-file
+oic
+httpx==0.18.2
