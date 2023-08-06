@@ -1,0 +1,6 @@
+requests
+pyyaml
+
+[dev]
+pytest
+apache-superset==1.0.1
