@@ -1,0 +1,11 @@
+setup.py
+rikai/experimental/torchhub/__init__.py
+rikai/experimental/torchhub/torchhub_registry.py
+rikai_torchhub.egg-info/PKG-INFO
+rikai_torchhub.egg-info/SOURCES.txt
+rikai_torchhub.egg-info/dependency_links.txt
+rikai_torchhub.egg-info/requires.txt
+rikai_torchhub.egg-info/top_level.txt
+tests/conftest.py
+tests/test_resnet.py
+tests/test_torchhub_registry.py
