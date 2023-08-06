@@ -1,0 +1,6 @@
+zope.interface
+setuptools
+six
+
+[test]
+zope.testing
