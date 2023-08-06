@@ -1,0 +1,17 @@
+COPYING
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+test_base45.py
+test_base58.py
+base58grs/__init__.py
+base58grs/__main__.py
+base58grs/py.typed
+base58grs.egg-info/PKG-INFO
+base58grs.egg-info/SOURCES.txt
+base58grs.egg-info/dependency_links.txt
+base58grs.egg-info/entry_points.txt
+base58grs.egg-info/not-zip-safe
+base58grs.egg-info/requires.txt
+base58grs.egg-info/top_level.txt
