@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/data/__init__.py
+src/data/data.py
+src/llq_data.egg-info/PKG-INFO
+src/llq_data.egg-info/SOURCES.txt
+src/llq_data.egg-info/dependency_links.txt
+src/llq_data.egg-info/top_level.txt
