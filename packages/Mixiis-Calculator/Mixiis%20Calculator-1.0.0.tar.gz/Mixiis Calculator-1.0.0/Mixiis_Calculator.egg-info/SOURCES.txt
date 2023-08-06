@@ -1,0 +1,13 @@
+License.txt
+pyproject.toml
+setup.py
+Calculator/Calculator.py
+Calculator/__init__.py
+Mixiis_Calculator.egg-info/PKG-INFO
+Mixiis_Calculator.egg-info/SOURCES.txt
+Mixiis_Calculator.egg-info/dependency_links.txt
+Mixiis_Calculator.egg-info/top_level.txt
+mixiis_calculator.egg-info/PKG-INFO
+mixiis_calculator.egg-info/SOURCES.txt
+mixiis_calculator.egg-info/dependency_links.txt
+mixiis_calculator.egg-info/top_level.txt
