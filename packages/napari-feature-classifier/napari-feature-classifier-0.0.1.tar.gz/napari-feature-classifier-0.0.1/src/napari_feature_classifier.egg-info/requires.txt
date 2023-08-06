@@ -1,0 +1,6 @@
+numpy
+napari
+matplotlib
+magicgui
+pandas
+sklearn
