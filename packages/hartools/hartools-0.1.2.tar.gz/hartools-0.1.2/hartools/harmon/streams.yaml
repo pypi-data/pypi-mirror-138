@@ -1,0 +1,155 @@
+# List of streams, indicating beginning, end and start of production
+#     project_months=2*12*32 #2 domains, 12 months per year, 32 years from 1989
+#
+PROJECTS:
+  CARRA:
+    SIM_MONTHS: 894 # 2 domains, 12 months per year, 32 years from 1989 including warmup time
+    BEG_DATE: 20190326 #day project started
+    END_DATE: 20211031 #day project must end
+    DBASE: "/home/ms/dk/nhd/scripts/harmon/harmon/carra_daily_logs.db"
+    REPORT: "/home/ms/dk/nhd/scripts/harmon/harmon/current_state_sims.html"
+    STREAMS:
+      carra_NE_1:
+        BEG_DATE: 1996070100
+        END_DATE: 2006083121
+        BEG_PROD: 1997070100
+        USER: nhx
+        ACTIVE: False
+      carra_NE_2:
+        BEG_DATE: 2005090100
+        END_DATE: 2014083121
+        BEG_PROD: 2006090100
+        USER: nhx
+        ACTIVE: False
+      carra_NE_3:
+        BEG_DATE: 2013090100
+        END_DATE: 2021063021
+        BEG_PROD: 2014090100
+        USER: nhx
+        ACTIVE: True
+      carra_NE_4:
+        BEG_DATE: 1989090100
+        END_DATE: 1992083021
+        BEG_PROD: 1990090100
+        USER: nhx
+        ACTIVE: True
+      carra_NE_5:
+        BEG_DATE: 1991090100
+        END_DATE: 1994083021
+        BEG_PROD: 1992090100
+        USER: nhx
+        ACTIVE: True
+      carra_NE_6:
+        BEG_DATE: 1993090100
+        END_DATE: 1997063021
+        BEG_PROD: 1994090100
+        USER: nhx
+        ACTIVE: True
+      carra_IGB_1:
+        BEG_DATE: 1996070100
+        END_DATE: 2002083121
+        BEG_PROD: 1997070100
+        USER: nhx
+        ACTIVE: False
+      carra_IGB_1B:
+        BEG_DATE: 2001090100
+        END_DATE: 2006083121
+        BEG_PROD: 2002090100
+        USER: nhx
+        ACTIVE: False
+      carra_IGB_2:
+        BEG_DATE: 2005090100
+        END_DATE: 2010083121
+        BEG_PROD: 2006090100
+        USER: nhx
+        ACTIVE: False
+      carra_IGB_2B:
+        BEG_DATE: 2009090100
+        END_DATE: 2014083121
+        BEG_PROD: 2010090100
+        USER: nhx
+        ACTIVE: False
+      carra_IGB_3:
+        BEG_DATE: 2013090100
+        END_DATE: 2021063021
+        BEG_PROD: 2014090100
+        USER: nhx
+        ACTIVE: True
+      carra_IGB_4:
+        BEG_DATE: 1989090100
+        END_DATE: 1992083021
+        BEG_PROD: 1990090100
+        USER: nhx
+        ACTIVE: True
+      carra_IGB_5:
+        BEG_DATE: 1991090100
+        END_DATE: 1994083021
+        BEG_PROD: 1992090100
+        USER: nhx
+        ACTIVE: True
+      carra_IGB_6:
+        BEG_DATE: 1993090100
+        END_DATE: 1997063021
+        BEG_PROD: 1994090100
+        USER: nhx
+        ACTIVE: True
+  PANARCTIC:
+    SIM_MONTHS: 12  # 1 domain
+    BEG_DATE: 20210510
+    END_DATE: 20211031
+    DBASE: "/home/ms/dk/nhd/scripts/harmon/harmon/panarctic_daily_logs.db"
+    REPORT: "/home/ms/dk/nhd/scripts/harmon/harmon/current_state_sims.html"
+    STREAMS:
+      carra_pan:
+        BEG_DATE: 2017090100
+        END_DATE: 2018090100
+        BEG_PROD: 2017090100
+        USER: nhx
+        ACTIVE: False
+# Paths to copy observations
+# If LOCALPATH defined, it will use the local data and
+# not the ECFSPATH
+# Some definitions are just place holders for the moment
+OBS:
+  CONV:
+    ECFS:
+      PATH: "ec:/rml/precise/obs/obsoul/locobs/v11jun20"
+      SUBDIR: "{YYYY}/{MM}"
+      NAMINGCONV: "{YYYYMMDDHH}"
+      FILETYPE: ""
+      FPRE: "obsoul"
+      FEND: ""
+      LOCALPATH: ""
+    LOCALDIR:
+        OBSDIR: "LocalObsdata"
+  CRYO:
+    ECFS:
+      PATH: "ec:/nhx/CARRA/obs/CRYO"
+      SUBDIR:
+              - "CARRA_NE"
+              - "CARRA_SW"
+      NAMINGCONV: "{YYYYMMDDHH}"
+      FILETYPE: "dat"
+      FPRE: "snow_cryo_5-10km"
+      FEND: ""
+      LOCALPATH: ""
+    LOCALDIR:
+        OBSDIR: "SATSNOWdata"
+        SUBDIR:
+               - "CARRA_NE"
+               - "CARRA_SW"
+  OSISAF:
+    ECFS:
+      PATH: "ec:/nhx/CARRA/obs/OSISAF/osisaf_v5/"
+      SUBDIR:
+      NAMINGCONV: "{YYYYMMDD}"
+      FILETYPE: "nc"
+      FPRE: "carra_sst_iceconc"
+      FEND: "v5"
+      LOCALPATH: ""
+ARXIV:
+  DBASE: "/home/ms/dk/nhd/scripts/harmon/harmon/carra_daily_logs.db"
+  PKLDIR: "/home/ms/dk/nhd/scripts/harmon/harmon/pickles"
+  LOGDAY: "/home/ms/dk/nhd/scripts/harmon/harmon/logDaily"
+  LOGFINAL: "/home/ms/dk/nhd/scripts/harmon/harmon/log"
+  REPORT: "/home/ms/dk/nhd/scripts/harmon/harmon/current_state_sims.html"
