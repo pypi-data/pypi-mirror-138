@@ -1,0 +1,3 @@
+[console_scripts]
+ws_copy_policy = ws_copy_policy.copy_policy:main
+
