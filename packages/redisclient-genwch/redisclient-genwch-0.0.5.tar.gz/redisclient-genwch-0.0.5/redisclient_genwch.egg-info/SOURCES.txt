@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+redisclient/__init__.py
+redisclient/mediaredis.py
+redisclient_genwch.egg-info/PKG-INFO
+redisclient_genwch.egg-info/SOURCES.txt
+redisclient_genwch.egg-info/dependency_links.txt
+redisclient_genwch.egg-info/requires.txt
+redisclient_genwch.egg-info/top_level.txt
