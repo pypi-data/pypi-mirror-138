@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: boto3-oversize
+Version: 0.1.1
+Summary: Transparently stores oversize SNS messages in S3 and retrieves them when receiving messages using SQS.
+Author: roberthl
+Author-email: roberthl@users.noreply.github.com
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: boto3 (>=1.20.30)
+Requires-Dist: boto3-stubs[sqs,sns,s3] (>=1.20.30)
