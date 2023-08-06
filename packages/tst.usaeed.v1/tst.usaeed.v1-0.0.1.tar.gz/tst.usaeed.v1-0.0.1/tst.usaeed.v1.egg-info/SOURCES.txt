@@ -1,0 +1,5 @@
+setup.py
+tst.usaeed.v1.egg-info/PKG-INFO
+tst.usaeed.v1.egg-info/SOURCES.txt
+tst.usaeed.v1.egg-info/dependency_links.txt
+tst.usaeed.v1.egg-info/top_level.txt
