@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: zjktest
+Version: 2.1.4
+Summary: An feature extraction algorithm
+Home-page: UNKNOWN
+Author: zjk
+Author-email: 1966465337@qq.com
+License: UNKNOWN
+Description: An feature extraction algorithm, improve the FastICA
+Keywords: pip,23333,featureextraction
+Platform: any
