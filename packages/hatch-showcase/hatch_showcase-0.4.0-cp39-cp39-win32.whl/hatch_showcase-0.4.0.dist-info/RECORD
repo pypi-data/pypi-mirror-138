@@ -1,0 +1,15 @@
+8308bdc8a49463f40810__mypyc.cp39-win32.pyd,sha256=109iTmxZfgkPH1psPwm8ekVcIxgxc-HT5tRkmxIH6d4,25088
+hatch_showcase/__init__.cp39-win32.pyd,sha256=bMn8C7TKENndYsgsvRiN0NA-yQyMlRPS6Hy0Tk9ULK4,8704
+hatch_showcase/__init__.py,sha256=jQMl6U_vJOQTN2CAPOSEyK7JGrlxyraHXsoWZGswQNk,99
+hatch_showcase/__main__.cp39-win32.pyd,sha256=hv3CzE-i-S4UlGMkS0rkOLEnhK-LM1Ozo7iKxyieI_A,8704
+hatch_showcase/__main__.py,sha256=QC59azw69KeXomqtMKGIpLOgYyWRx_Vo0iKax_xHn9A,212
+hatch_showcase/_version.py,sha256=byHHow7z0fPOTsH2qLVxNJUAogf8YOAVmAvUGO5OnGo,147
+hatch_showcase/fib.cp39-win32.pyd,sha256=CsshVXxnQSFCB0i06CiHJVfJqwkTWflzfIry2NdRbuA,8704
+hatch_showcase/fib.py,sha256=mTrtQs9loQ_9YelrCD13ZeicNwlQ57QY-7HqzvotJCk,231
+hatch_showcase/cli/__init__.cp39-win32.pyd,sha256=bfEhg7QY4qrHK2rHvMJ7DVrF-9-O36o7vNIfjQOV8vk,8704
+hatch_showcase/cli/__init__.py,sha256=kIQYKyUpJmMkOxtkkrhOuJ4YrW8yAU8zWstL1lb1ops,594
+hatch_showcase-0.4.0.dist-info/METADATA,sha256=otoCPnBJgrG6tjGZ94LnxJQr4XJ0EJDM3uzqiY2O4c8,3786
+hatch_showcase-0.4.0.dist-info/WHEEL,sha256=MqxBMP2OZ5k5TifIzqb5E97xwOCVKFprUB6OADPj3Bs,87
+hatch_showcase-0.4.0.dist-info/entry_points.txt,sha256=ZMEd-F4fCgY-HDAJC2nFvmtuk2_4p0dPcLzIOAppqCM,69
+hatch_showcase-0.4.0.dist-info/license_files/LICENSE.txt,sha256=cEykyVwZycFp9ZTKjioWlsqCCMarYjnOd4WBnLufwAs,1097
+hatch_showcase-0.4.0.dist-info/RECORD,,
