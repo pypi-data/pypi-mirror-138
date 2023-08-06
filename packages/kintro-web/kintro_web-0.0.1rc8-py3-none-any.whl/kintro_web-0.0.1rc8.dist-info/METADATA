@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: kintro-web
+Version: 0.0.1rc8
+Summary: Simple web frontend for kintro cli tool for creating kodi compatible edl from plex
+Home-page: https://github.com/neckbeard-io/kintro-web
+Author: merc1031
+License: UNKNOWN
+Project-URL: Source Code, https://github.com/neckbeard-io/kintro-web
+Keywords: kodi,plex,intro,edl,kintro,flask
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >= 3.6
+Requires-Dist: flask (>=2.0.0)
+Requires-Dist: kintro
+
+UNKNOWN
+
+
