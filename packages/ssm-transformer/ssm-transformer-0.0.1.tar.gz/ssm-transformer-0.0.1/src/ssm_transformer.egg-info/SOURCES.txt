@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ssm_transformer/__init__.py
+src/ssm_transformer/ssm_transformer.py
+src/ssm_transformer.egg-info/PKG-INFO
+src/ssm_transformer.egg-info/SOURCES.txt
+src/ssm_transformer.egg-info/dependency_links.txt
+src/ssm_transformer.egg-info/top_level.txt
