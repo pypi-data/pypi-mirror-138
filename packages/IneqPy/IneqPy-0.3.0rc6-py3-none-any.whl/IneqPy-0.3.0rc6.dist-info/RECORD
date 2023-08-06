@@ -1,0 +1,14 @@
+ineqpy/__init__.py,sha256=UmMlbsxOyaAH4NvYC8Vj_eoLE9nVX--hbNjjN1CHpaA,359
+ineqpy/_statistics.py,sha256=JRgaW-axOs5WDB09nbqv0aqivffxbdSv0UtYT68Bexw,11506
+ineqpy/_version.py,sha256=GQ7ldvt2jsb4bkae9vcnH1Q5qRCwidGICbiGQLf2mPU,500
+ineqpy/api.py,sha256=3kmYusIIGVcoaqU-BV3TKtX1ZYussoyciWicImNLMD4,25162
+ineqpy/inequality.py,sha256=4bli728QPkDEt5GbzyYwGXlsuphSQKWPH2HpKYgJfuM,15144
+ineqpy/statistics.py,sha256=JHWdN-dYdzLHPkWX3735o7tFnDK39XxnMMOsUbMKd7s,8543
+ineqpy/utils.py,sha256=Mu8NsYj6dZCB2Y15_F2ou9gUoWZcKad_kuaMINpdymk,3907
+ineqpy/grouped/__init__.py,sha256=lDMLVJBbW7mZ8pPkALBKJxX02RuVkgPBKUMpR3ozrts,146
+ineqpy/grouped/inequality.py,sha256=A_ZH2oGS_HQJwrgsE4HlY5yooc9jI0eHNVx22L2Qw0A,2731
+ineqpy/grouped/stats.py,sha256=FZwynVNybyyl1kFYmXZVABfC6rY6HwS5ZWnmjwWC-Mg,5307
+IneqPy-0.3.0rc6.dist-info/METADATA,sha256=4XWFGsvrgKnfANGVZgSUjeoktWsl4sBQ5VfQC6RWXI0,6594
+IneqPy-0.3.0rc6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+IneqPy-0.3.0rc6.dist-info/top_level.txt,sha256=CtT1ORTa9t9EqkkPJAS8Ix7AaWY5T0yKZmOBw7USito,7
+IneqPy-0.3.0rc6.dist-info/RECORD,,
