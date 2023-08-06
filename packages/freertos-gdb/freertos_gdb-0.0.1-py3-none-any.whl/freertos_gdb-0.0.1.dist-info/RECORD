@@ -1,0 +1,9 @@
+freertos_gdb/__init__.py,sha256=Q-i4xPiutPmvwUad8hx5vNB3cn9WvpuUCf8V8UnjQpY,189
+freertos_gdb/common.py,sha256=erRj9bpKF1WeahKVkakM3cc8uOus_sWivX1Xz9x7KDs,3691
+freertos_gdb/queue.py,sha256=pmY28vhdTYizmQf3P6QZeJCQw1HsUVpCJNhCse1V_AU,7363
+freertos_gdb/task.py,sha256=Hr1A3pWwi96A-h78u0Lt2rT56H6rLMtuRfxan37KAeY,4311
+freertos_gdb/timer.py,sha256=kAD1hiDp8TRF7o1wcK5RRr91yi4tYCnavLihBoYA7AA,2774
+freertos_gdb-0.0.1.dist-info/METADATA,sha256=qt0FzRqTW6XPylTREHBY-YNLHmb0_AjZjSRnIzrnxmw,7440
+freertos_gdb-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+freertos_gdb-0.0.1.dist-info/top_level.txt,sha256=hNFUkQnN_DsSzdsQ730YP4eVBdgryTrGWl-Qg8t_Awk,13
+freertos_gdb-0.0.1.dist-info/RECORD,,
