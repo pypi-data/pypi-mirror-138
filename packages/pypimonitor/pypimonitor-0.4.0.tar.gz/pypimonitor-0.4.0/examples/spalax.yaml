@@ -1,0 +1,69 @@
+default:
+  CI:
+    cell: gitlabci
+    server: //framagit.org
+    user: spalax
+  Coverage:
+    cell: gitlabcoverage
+    server: //framagit.org
+    user: spalax
+cells:
+  - color
+  - homepage
+  - pypiversion
+  - pythonversions
+  - pypimdownloads
+  - pypiwdownloads
+  - pypiddownloads
+  - readthedocs
+  - CI
+  - Coverage
+packages:
+  argdispatch:
+  annales-math:
+    homepage:
+      homepage: //framagit.org/lpaternault/annales-math
+    CI:
+      cell: gitlabci
+      server: //framagit.org
+      user: lpaternault
+    Coverage:
+      cell: gitlabcoverage
+      server: //framagit.org
+      user: lpaternault
+  cahier:
+  clachievements:
+  devoir:
+  dummypdf:
+  evariste:
+  fullcoverage:
+  jouets:
+  mklog:
+  papersize:
+  paste2sms:
+  pdfautonup:
+  pdfimpose:
+  pypimonitor:
+  scal:
+  sphinxcontrib-packages:
+    readthedocs:
+      slug: packages
+  sphinxcontrib-proof:
+  sphinxcontrib-stuffcounter:
+    homepage:
+      homepage: //framagit.org/spalax/sphinxcontrib-stuffcounter
+  spix:
+  squelette:
+  toto2titi:
+    CI:
+      cell: gitlabci
+      server: //framagit.org
+      user: spalax
+      slug: paste2sms
+    Coverage:
+      cell: gitlabcoverage
+      server: //framagit.org
+      user: spalax
+      slug: paste2sms
+    readthedocs:
+      slug: paste2sms
