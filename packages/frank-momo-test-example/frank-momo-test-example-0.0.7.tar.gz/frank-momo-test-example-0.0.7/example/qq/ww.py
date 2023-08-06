@@ -1,0 +1,2 @@
+def ww():
+    print("ww")
