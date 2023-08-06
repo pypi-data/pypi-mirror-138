@@ -1,0 +1,12 @@
+LICENSE.rst
+README.rst
+setup.cfg
+setup.py
+src/sky-cli/__init__.py
+src/sky-cli/example/__init__.py
+src/sky-cli/example/custom_sky.py
+src/sky_cli.egg-info/PKG-INFO
+src/sky_cli.egg-info/SOURCES.txt
+src/sky_cli.egg-info/dependency_links.txt
+src/sky_cli.egg-info/requires.txt
+src/sky_cli.egg-info/top_level.txt
