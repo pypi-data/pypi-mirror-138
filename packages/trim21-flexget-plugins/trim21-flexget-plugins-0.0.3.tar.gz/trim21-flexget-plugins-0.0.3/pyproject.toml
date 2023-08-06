@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "trim21-flexget-plugins"
+version = "0.0.3"
+description = "A set of plugins for flexget"
+keywords = ['flexget', 'plugin']
+authors = ["Trim21 <i@trim21.me>"]
+readme = 'readme.md'
+license = "MIT"
+repository = 'https://github.com/Trim21/flexget-plugins'
+homepage = 'https://github.com/Trim21/flexget-plugins'
+classifiers = [
+  'Development Status :: 1 - Planning',
+  'Programming Language :: Python',
+  'Programming Language :: Python :: 3',
+  'Programming Language :: Python :: 3 :: Only',
+  'Programming Language :: Python :: 3.6',
+  'Programming Language :: Python :: 3.7',
+  'Programming Language :: Python :: 3.8',
+  'Programming Language :: Python :: 3.9',
+  'Programming Language :: Python :: Implementation :: PyPy',
+  'Programming Language :: Python :: Implementation :: CPython',
+]
+include = ["LICENSE", "readme.md"]
+packages = [{ include = "trim21_flexget_plugins" }]
+
+[tool.poetry.plugins."FlexGet.plugins"]
+"magnet_add_dn" = "trim21_flexget_plugins.modify.magnet_add_dn"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+# dependencies
+[tool.poetry.dev-dependencies]
+# lint
+pre-commit = "^2.17.0"
+flexget = "^3.3.0"
+pytest = "^7.0.1"
+coverage = "^6.3"
+mypy = "^0.910"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

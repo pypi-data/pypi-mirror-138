@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: trim21-flexget-plugins
+Version: 0.0.3
+Summary: A set of plugins for flexget
+Home-page: https://github.com/Trim21/flexget-plugins
+License: MIT
+Keywords: flexget,plugin
+Author: Trim21
+Author-email: i@trim21.me
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Project-URL: Repository, https://github.com/Trim21/flexget-plugins
+Description-Content-Type: text/markdown
+
+[![PyPI](https://img.shields.io/pypi/v/trim21-flexget-plugins)](https://pypi.org/project/trim21-flexget-plugins/)
+
+```bash
+pip install trim21-flexget-plugins
+```
+
+# Add Download Name to Magnet url
+
+```yaml
+tasks:
+  task name 1:
+    magnet_add_dn: true
+```
+
