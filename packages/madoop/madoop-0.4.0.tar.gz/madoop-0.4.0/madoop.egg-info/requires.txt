@@ -1,0 +1,12 @@
+
+[dev]
+pdbpp
+twine
+tox
+check-manifest
+freezegun
+pycodestyle
+pydocstyle
+pylint
+pytest
+pytest-cov
