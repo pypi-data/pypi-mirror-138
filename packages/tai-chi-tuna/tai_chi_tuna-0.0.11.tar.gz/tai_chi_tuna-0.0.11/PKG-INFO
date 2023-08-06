@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: tai_chi_tuna
+Version: 0.0.11
+Summary: UNKNOWN
+Home-page: https://github.com/tcengine/tai-chi-tuna
+License: GPLv3+
+Project-URL: Documentation, https://github/unpackai/tai-chi-tuna/
+Project-URL: Tracker, https://github.com/unpackAI/tai-chi-tuna/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# tai-chi-tuna 🐟
+> The driver part of tai-chi
+
+> 太极引擎 吐纳篇
+
+## Installation
+```bash
+pip install tai-chi-tuna
+```
+
