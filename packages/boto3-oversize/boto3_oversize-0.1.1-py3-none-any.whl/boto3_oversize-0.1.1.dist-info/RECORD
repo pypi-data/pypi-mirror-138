@@ -1,0 +1,9 @@
+boto3_oversize/__init__.py,sha256=fkR82V7zYItrdm2kaMjoIbZn598m0lhccLOnXzs314w,716
+boto3_oversize/oversize.py,sha256=2nv7xneVlgWhz9zdA5Gt7gjNn3GBuKQJAbP59G38a7k,2934
+boto3_oversize/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+boto3_oversize/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+boto3_oversize/tests/test_functional.py,sha256=iew6NlFYPvgHlooM5bcUx8-en4OdVp-SgVo9G_PdVw4,5896
+boto3_oversize/tests/test_unit.py,sha256=uQmtPZB_5sVqFl3MWfmzzAXY9ipaNhlml0Uu9ujeUQE,1052
+boto3_oversize-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+boto3_oversize-0.1.1.dist-info/METADATA,sha256=FAhX-XWSS8cHGBhvc4XmyUR-nCpwCF6tUdtzU1qeDEA,541
+boto3_oversize-0.1.1.dist-info/RECORD,,
