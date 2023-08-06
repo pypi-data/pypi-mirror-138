@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: zyz
+Version: 0.1.11
+Summary: Python Toolkit of Yuanzhen Zhou
+Home-page: https://github.com/zhouyuanzhen/zyztk
+Author: Yuanzhen Zhou
+Author-email: szrednick@gmail.com
+Maintainer: Yuanzhen Zhou
+Maintainer-email: szrednick@gmail.com
+License: Apache License 2.0
+Keywords: zyz,zyztk,zhouyuanzhen
+Platform: UNKNOWN
+Requires-Python: >=3.5, <4
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+
+
+Python Toolkit of Yuanzhen Zhou.
+
+
