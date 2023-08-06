@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: djpdfview
+Version: 1.0.0
+Summary: Working with pdf made easy
+Home-page: https://himelrana.com
+Author: Himel
+Author-email: contact@himelrana.com
+License: MIT
+Keywords: pdfview in django
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+
+# Private Project not documented yet
+packages:
+ weasyprint==54.1,
+ Django==4.0,
+
+Change Log
+==========
+
+1.0.0 (14/02/2022)
+-------------------
+- First Release
+

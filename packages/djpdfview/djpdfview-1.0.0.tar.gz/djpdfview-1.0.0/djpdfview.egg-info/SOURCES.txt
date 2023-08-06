@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+djpdfview/__init__.py
+djpdfview.egg-info/PKG-INFO
+djpdfview.egg-info/SOURCES.txt
+djpdfview.egg-info/dependency_links.txt
+djpdfview.egg-info/top_level.txt
