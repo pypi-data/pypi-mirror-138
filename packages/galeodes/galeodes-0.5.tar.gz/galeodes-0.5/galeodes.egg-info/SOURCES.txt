@@ -1,0 +1,11 @@
+README.rst
+setup.py
+galeodes/__init__.py
+galeodes/__main__.py
+galeodes/galeodes
+galeodes/galeodes.py
+galeodes.egg-info/PKG-INFO
+galeodes.egg-info/SOURCES.txt
+galeodes.egg-info/dependency_links.txt
+galeodes.egg-info/requires.txt
+galeodes.egg-info/top_level.txt
