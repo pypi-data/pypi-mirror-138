@@ -1,0 +1,11 @@
+[console_scripts]
+bb-build = bugbane.tools.builder.main:main
+bb-corpus = bugbane.tools.corpus.main:main
+bb-coverage = bugbane.tools.coverage.main:main
+bb-fuzz = bugbane.tools.fuzz.main:main
+bb-report = bugbane.tools.report.main:main [reporting]
+bb-reproduce = bugbane.tools.reproduce.main:main
+bb-screenshot = bugbane.tools.report.screenshot.main:main [reporting]
+bb-send = bugbane.tools.send.main:main [dd]
+bugbane = bugbane.__main__:main
+llvm-gcov-tool = bugbane.tools.coverage.llvm_gcov_tool:main
