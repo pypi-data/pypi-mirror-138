@@ -1,0 +1,3 @@
+[console_scripts]
+capice = molgenis.capice.capice:main
+
