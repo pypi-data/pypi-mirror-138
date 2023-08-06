@@ -1,0 +1,13 @@
+kiraak/__init__.py,sha256=X-9pZU7LtXgB_B86wTpkM4F2Xk3m6WZGGCt5rkPP3pE,141
+kiraak/__main__.py,sha256=TYY6cJnteUqCn_ubi-W_Gplrsb82Ht6s6KGFOp-V8aE,136
+kiraak/add_orders.py,sha256=2I4MWFC1e5-Mwn0dYFV8m_Q_axdcTHpLzlu1PIYVvmQ,4117
+kiraak/api.py,sha256=6f6gZAty9R1j7Yv_XTARPNpV5nozdWyMnt2eRZC4F_k,4283
+kiraak/cli.py,sha256=q4Jv2dGNk9z43Gkxt9ibqWXuvVKEBlQ8ULwpGMRb44A,639
+kiraak/config.py,sha256=MJzndJcAKEPNE668xH63s5ujs2-piyDQ1Ap2j5WkGp0,2968
+kiraak/get_catalog.py,sha256=DlVU8xA_aarmDgcYpZMt_d3PNALBFhR6WA-YFrL2QX8,1104
+kiraak/main.py,sha256=dxUKj6UrOJrP4KIdRGX8LB_IqasClqO4ssU5B-IkJRM,1643
+kiraakcli-0.1.0.dist-info/METADATA,sha256=ucbUMjfhjPzoLAhPXwUDgB-ROboJO1IJsPG9ylCbPIk,698
+kiraakcli-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kiraakcli-0.1.0.dist-info/entry_points.txt,sha256=WJE8w-KheND9AwZ0rLPNlrmuS8CUQ789oXIhtQf9tH4,42
+kiraakcli-0.1.0.dist-info/top_level.txt,sha256=LVEjiq5UJ1p7emh60sAMH0iHIqaKjohgN3xsMbme44Q,7
+kiraakcli-0.1.0.dist-info/RECORD,,
