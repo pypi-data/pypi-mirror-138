@@ -1,0 +1,13 @@
+blocksim_quadcopter/AttPilot.py,sha256=F4ygTI4kfEkBhSM8wSDFrSTF3pObuuydMusbIX0e3XY,3358
+blocksim_quadcopter/Motor.py,sha256=isP5X1NE9Xhf3rviq8SuKaqC4xwR-W-Rt_VrBGHJe08,1518
+blocksim_quadcopter/Quadri.py,sha256=ehXQuaPrEoIqgwyXAODe0apiVngQGJZZtfJ4BaA2Sbg,1916
+blocksim_quadcopter/VTOLPilot.py,sha256=Q7PafgFE-zicXe-6Vu5nrUrhXDnmgnvMZ3hgTB56WnM,2034
+blocksim_quadcopter/__init__.py,sha256=BYckG7jysHP-JbM8Ev6HC8l_81jaDoDNiULbtPS2zMY,947
+blocksim_quadcopter/constants.py,sha256=HUzho3p4wmUN7H9hqFE27QLrvXybzZyDhnJxqhvlmLg,55
+blocksim_quadcopter/exceptions.py,sha256=wwiKQw_kdldZcDOuR64zgatj2HALvHj2OcWcPkRNWqI,81
+blocksim_quadcopter-0.2.1.dist-info/AUTHORS.rst,sha256=v9E8CPTPaW6TSzEN0dWA6K9lU4gCyXwZ3DxmvX_JRQ0,159
+blocksim_quadcopter-0.2.1.dist-info/LICENSE,sha256=4_rAeJpZjmKNEvH2WkGnwO_OWs1JPyjPCLg5CXcOfUU,1068
+blocksim_quadcopter-0.2.1.dist-info/METADATA,sha256=avPpnhigK4l_Suo_LvJKvSfBKvpBmRntAJ5XCqkRkHM,1913
+blocksim_quadcopter-0.2.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+blocksim_quadcopter-0.2.1.dist-info/top_level.txt,sha256=xKyDwNwrNmzTItUBmYdwwN6P8ohdDKjGoLJG4lqRV7g,20
+blocksim_quadcopter-0.2.1.dist-info/RECORD,,
