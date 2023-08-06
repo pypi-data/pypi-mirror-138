@@ -1,0 +1,9 @@
+setup.py
+cxkParser/__init__.py
+cxkParser/main.py
+cxkParser.egg-info/PKG-INFO
+cxkParser.egg-info/SOURCES.txt
+cxkParser.egg-info/dependency_links.txt
+cxkParser.egg-info/entry_points.txt
+cxkParser.egg-info/requires.txt
+cxkParser.egg-info/top_level.txt
