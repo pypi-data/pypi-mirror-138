@@ -1,0 +1,4 @@
+[console_scripts]
+nmstate-autoconf = nmstatectl.nmstate_autoconf:main
+nmstatectl = nmstatectl.nmstatectl:main
+
