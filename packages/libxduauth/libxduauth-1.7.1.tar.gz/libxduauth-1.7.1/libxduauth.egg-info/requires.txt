@@ -1,0 +1,7 @@
+requests
+Pillow
+bs4
+pycryptodome
+pytesseract
+importlib-resources
+pycryptodome
