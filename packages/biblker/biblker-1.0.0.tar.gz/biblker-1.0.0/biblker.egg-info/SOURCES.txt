@@ -1,0 +1,9 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+biblker.egg-info/PKG-INFO
+biblker.egg-info/SOURCES.txt
+biblker.egg-info/dependency_links.txt
+biblker.egg-info/top_level.txt
+bibloker/__init__.py

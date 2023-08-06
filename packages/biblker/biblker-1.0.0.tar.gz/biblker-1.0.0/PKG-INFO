@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: biblker
+Version: 1.0.0
+Summary: dev test biblker
+Home-page: UNKNOWN
+Author: Kerso87
+Author-email: kerso8877@gmail.com
+License: MIT
+Keywords: biblker
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+UNKNOWN
+
