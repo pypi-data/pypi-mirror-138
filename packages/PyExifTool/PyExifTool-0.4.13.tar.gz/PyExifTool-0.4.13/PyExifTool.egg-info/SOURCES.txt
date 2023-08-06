@@ -1,0 +1,16 @@
+COPYING.BSD
+COPYING.GPL
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+PyExifTool.egg-info/PKG-INFO
+PyExifTool.egg-info/SOURCES.txt
+PyExifTool.egg-info/dependency_links.txt
+PyExifTool.egg-info/top_level.txt
+doc/Makefile
+doc/conf.py
+doc/index.rst
+exiftool/__init__.py
+exiftool/exiftool.py
