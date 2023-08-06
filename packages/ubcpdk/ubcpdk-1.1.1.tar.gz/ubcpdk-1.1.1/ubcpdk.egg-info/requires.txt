@@ -1,0 +1,13 @@
+lygadgets
+gdsfactory[full]>=4.1.0
+
+[basic]
+lygadgets
+gdsfactory[full]>=4.1.0
+
+[full]
+tqdm
+modes
+gdsfactory[full]>=4.1.0
+lygadgets
+gdslib==0.3.3
