@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: ccx-messaging
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/RedHatInsights/insights-ccx-messaging
+Author: Red Hat Inc.
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: attrs
+Requires-Dist: insights-core
+Requires-Dist: insights-core-messaging
+Requires-Dist: app-common-python
+Requires-Dist: requests
+Requires-Dist: s3fs
+Requires-Dist: retry
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: freezegun ; extra == 'dev'
+Requires-Dist: prometheus-client ; extra == 'dev'
+Requires-Dist: pycco ; extra == 'dev'
+Requires-Dist: pycodestyle ; extra == 'dev'
+Requires-Dist: pydocstyle ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+
+UNKNOWN
+
