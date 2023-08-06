@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: equanpy
+Version: 0.1.0
+Summary: Python packaging data school
+License: MIT
+Author: Didier SCHMITT
+Author-email: dschmitt@equancy.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
