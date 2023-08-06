@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: sha256
+Version: 0.2
+Summary: sha256 library with midstate
+Home-page: UNKNOWN
+Author: Mark Peek
+Author-email: mark@peek.org
+License: MIT
+Project-URL: Source, https://github.com/cloudtools/sha256
+Project-URL: Tracker, https://github.com/cloudtools/sha256/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/x-rst
+
+README.rst
+
