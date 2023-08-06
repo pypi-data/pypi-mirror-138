@@ -1,0 +1,7 @@
+sensirion-i2c-driver~=1.0.0
+
+[test]
+flake8~=3.9.2
+pytest-cov~=2.12.1
+pytest~=5.4.3
+sensirion-shdlc-sensorbridge~=0.1.1
