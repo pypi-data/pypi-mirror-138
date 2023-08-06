@@ -1,0 +1,13 @@
+SlyAPI/__init__.py,sha256=MKijYADWkIxHgqEZCvKSqbQDRtCifhjR_3naOBCuDII,152
+SlyAPI/__main__.py,sha256=9IiKYBzuNDVAiR6qRok7BKBmteCsO0aWvhzTIoWj3aw,957
+SlyAPI/asyncy.py,sha256=WYRzPkCWOb8rPFMxPwDzC8NL09Y1rYWCGyKJSRhHSh0,4044
+SlyAPI/auth.py,sha256=6gzHJYPbCpvEHWWruR-oPMdOu27u24gANxIe3lX46pc,1211
+SlyAPI/oauth1.py,sha256=n2cI9DjOtPdGFHDUZjL-wNGg5My-V7M7hC7i-Ndsrvs,247
+SlyAPI/oauth2.py,sha256=KtC6m9qIiJd9Io6mJsXliFKUI28Vq86-cm-ce9TU16Y,6597
+SlyAPI/ratelimit.py,sha256=kdWKtqbJxnkijV_NmvwD2BbXDSd2-b-rB8DxmVTsF_c,537
+SlyAPI/webapi.py,sha256=M9CaNnhfLz3Zd5yzj12FQN701hiUbKfh4VLph8VGeog,7540
+SlyAPI-0.1.1.dist-info/LICENSE,sha256=TA-kA5IgACsk-3_8R9oa9JmJAGYCbkUEt0Sqqhx4N2s,1086
+SlyAPI-0.1.1.dist-info/METADATA,sha256=_u8iyvUZ90LKsMWdCJLWP_Gy0NapCCwl6ZKG7o4jXp8,2634
+SlyAPI-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+SlyAPI-0.1.1.dist-info/top_level.txt,sha256=DcwL92zZVGFcJ9TZ32YNKMFhFsY1Zmk0EmPVwjRa-R4,7
+SlyAPI-0.1.1.dist-info/RECORD,,
