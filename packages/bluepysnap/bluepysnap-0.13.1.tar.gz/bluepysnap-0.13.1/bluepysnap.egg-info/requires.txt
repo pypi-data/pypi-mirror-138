@@ -1,0 +1,16 @@
+cached_property>=1.0
+h5py<4.0.0,>=3.0.1
+libsonata<1.0.0,>=0.1.6
+morphio<4.0.0,>=3.0.0
+morph-tool<3.0.0,>=2.4.3
+numpy<2.0.0,>=1.8
+pandas<2.0.0,>=1.0.0
+click>=7.0
+more-itertools>=8.2.0
+
+[docs]
+sphinx
+sphinx-bluebrain-theme
+
+[plots]
+matplotlib<4.0.0,>=3.0.0
