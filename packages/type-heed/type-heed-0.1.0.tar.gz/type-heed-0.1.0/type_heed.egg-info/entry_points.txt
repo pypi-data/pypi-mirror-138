@@ -1,0 +1,3 @@
+[console_scripts]
+type-heed = type_heed:main
+

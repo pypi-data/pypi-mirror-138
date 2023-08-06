@@ -1,0 +1,10 @@
+license
+setup.cfg
+setup.py
+type_heed.py
+type_heed.egg-info/PKG-INFO
+type_heed.egg-info/SOURCES.txt
+type_heed.egg-info/dependency_links.txt
+type_heed.egg-info/entry_points.txt
+type_heed.egg-info/requires.txt
+type_heed.egg-info/top_level.txt
