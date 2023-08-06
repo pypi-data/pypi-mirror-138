@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+psifi/__init__.py
+psifi.egg-info/PKG-INFO
+psifi.egg-info/SOURCES.txt
+psifi.egg-info/dependency_links.txt
+psifi.egg-info/top_level.txt
