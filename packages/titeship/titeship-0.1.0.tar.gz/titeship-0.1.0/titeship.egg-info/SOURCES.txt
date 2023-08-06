@@ -1,0 +1,9 @@
+README.rst
+setup.py
+titeship/__init__.py
+titeship/_version.py
+titeship.egg-info/PKG-INFO
+titeship.egg-info/SOURCES.txt
+titeship.egg-info/dependency_links.txt
+titeship.egg-info/requires.txt
+titeship.egg-info/top_level.txt

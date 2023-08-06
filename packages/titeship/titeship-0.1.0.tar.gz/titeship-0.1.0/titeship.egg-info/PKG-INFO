@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: titeship
+Version: 0.1.0
+Summary: Data app in box?
+Author: Lance Edgar
+Author-email: lance@edbob.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Pyramid
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Office/Business
+
+
+titeship
+========
+
+Hopefully some kind of generic data manipulation thingy, we'll see...
+
+
