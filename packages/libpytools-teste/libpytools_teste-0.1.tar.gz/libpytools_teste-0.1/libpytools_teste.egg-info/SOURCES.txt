@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+libpytools_teste/__init__.py
+libpytools_teste/github_api.py
+libpytools_teste.egg-info/PKG-INFO
+libpytools_teste.egg-info/SOURCES.txt
+libpytools_teste.egg-info/dependency_links.txt
+libpytools_teste.egg-info/not-zip-safe
+libpytools_teste.egg-info/requires.txt
+libpytools_teste.egg-info/top_level.txt
