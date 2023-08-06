@@ -1,0 +1,11 @@
+pytestsysstats/__init__.py,sha256=QdvQ7YiysBcAY8BCc6GuV8JicYpDeB2ndVpYbHpIls8,1898
+pytestsysstats/plugin.py,sha256=aUvKR4zNc-UQdqX0m1_NxL7V4tj8fu1NQcZoaDnjNfM,9665
+pytestsysstats/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytestsysstats/version.py,sha256=KlPn6nqVLxZu1GWO9XqTvJnBKYQRBJ5fRe3YBB2V9Ow,43
+pytest_system_statistics-1.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pytest_system_statistics-1.0.2.dist-info/METADATA,sha256=vniSFmJU63Bf0yjijieZ9HnnAWFD3zTtmf72-WNykVk,6260
+pytest_system_statistics-1.0.2.dist-info/NOTICE,sha256=FdwHEBqBXB_iAT6ktbh8DCtqbu3th6fif4uOmYI1p64,412
+pytest_system_statistics-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytest_system_statistics-1.0.2.dist-info/entry_points.txt,sha256=xnX5eNGeu_KjPkHLLSIGzpeIW3wM_Od8FNMABrp_dTs,53
+pytest_system_statistics-1.0.2.dist-info/top_level.txt,sha256=KTUvn8xL9-GgrYp1mvk_k_AFKBIJ0xjWApPfveiCjQI,15
+pytest_system_statistics-1.0.2.dist-info/RECORD,,
