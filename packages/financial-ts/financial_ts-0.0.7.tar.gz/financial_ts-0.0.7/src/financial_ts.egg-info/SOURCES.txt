@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/financial_ts.egg-info/PKG-INFO
+src/financial_ts.egg-info/SOURCES.txt
+src/financial_ts.egg-info/dependency_links.txt
+src/financial_ts.egg-info/top_level.txt
+src/loaders/__init__.py
+src/loaders/loader.py
+src/preprocessing/__init__.py
+src/preprocessing/preprocess.py
