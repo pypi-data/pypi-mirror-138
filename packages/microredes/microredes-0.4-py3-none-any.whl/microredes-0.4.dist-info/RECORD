@@ -1,0 +1,10 @@
+microredes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+microredes/calc_helper.py,sha256=4AGZr1HorsOYo6XzgZEkzTA5D9ReSQAnWvUaopQkiP0,5484
+microredes/connection.py,sha256=j5DOV48wLVA6i8-n_RgdJ-gsPxib7b_eSzuZVgNXCdA,2419
+microredes/constants.py,sha256=LkmP5rVTiDdyVrkqOAEBWmIATe4sYEEpt2i8JVbABQk,1108
+microredes/microredes.py,sha256=m2e5s75lps3qvofv34uG-W2DRUFzTYeVWGEsdJh-kWk,18082
+microredes-0.4.dist-info/LICENSE,sha256=JvNVqBvrgRXkrMFKvVPhBbDKLC4YEPHo1ZryNk9g85c,1075
+microredes-0.4.dist-info/METADATA,sha256=7Pw5M5xpUo0o2-mLi1EU8BOHlLDzCSjRgio9kCLat1w,8163
+microredes-0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+microredes-0.4.dist-info/top_level.txt,sha256=c7ROMLgM2oL3YZU_WRxfQcIP2XPOl0g8e6XJvBj0a6k,11
+microredes-0.4.dist-info/RECORD,,
