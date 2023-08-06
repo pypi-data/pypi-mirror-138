@@ -1,0 +1,10 @@
+Flask
+pyjwt>=2.0.0
+requests
+oauthlib
+cachetools
+setuptools
+requests_oauthlib
+
+[docs]
+sphinx==1.8.3
