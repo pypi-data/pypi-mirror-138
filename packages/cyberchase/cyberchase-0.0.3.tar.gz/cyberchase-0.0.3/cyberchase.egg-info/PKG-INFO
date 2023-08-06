@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: cyberchase
+Version: 0.0.3
+Summary: Game code for TAMU Spring 2022 Turing Games
+Home-page: https://github.com/smh3005/cyberchase
+Author: Seth Hamilton and Trevor Bolton
+Author-email: logistics@theturinggames.com
+License: BSD 2-clause
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
