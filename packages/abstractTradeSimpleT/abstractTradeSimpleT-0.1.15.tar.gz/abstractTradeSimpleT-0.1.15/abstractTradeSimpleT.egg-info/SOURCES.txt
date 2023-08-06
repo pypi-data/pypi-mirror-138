@@ -1,0 +1,13 @@
+README.md
+setup.py
+abstractTradeSimpleT/__init__.py
+abstractTradeSimpleT.egg-info/PKG-INFO
+abstractTradeSimpleT.egg-info/SOURCES.txt
+abstractTradeSimpleT.egg-info/dependency_links.txt
+abstractTradeSimpleT.egg-info/top_level.txt
+abstractTradeSimpleT/lib/__init__.py
+abstractTradeSimpleT/lib/initialization.py
+abstractTradeSimpleT/lib/rates.py
+abstractTradeSimpleT/lib/tick.py
+abstractTradeSimpleT/lib/timeframe.py
+abstractTradeSimpleT/lib/trade.py
