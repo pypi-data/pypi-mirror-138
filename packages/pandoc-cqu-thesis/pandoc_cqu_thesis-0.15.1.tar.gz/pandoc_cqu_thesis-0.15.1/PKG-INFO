@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pandoc-cqu-thesis
+Version: 0.15.1
+Summary: 用于重庆大学毕业论文的 pandoc filter
+Home-page: https://github.com/Hagb/pandoc_cqu_thesis
+License: MIT
+Keywords: cqu,Chongqing University,pandoc
+Author: Hagb Green
+Author-email: hagb@hagb.name
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: panflute (>=2.0)
+Requires-Dist: regex (>=2021.4.4,<2022.0.0)
+Project-URL: Repository, https://github.com/Hagb/pandoc_cqu_thesis
+Description-Content-Type: text/markdown
+
+# 用于重庆大学毕业论文的 pandoc filter
+
+配合 [cqu-thesis-markdown](https://github.com/ilcpm/cqu-thesis-markdown) 使用。
+
+## 安装
+
+``` shell
+pip3 install .
+```
+
+## TODO
+
+目前代码很混乱（各种意义上），质量也不好，待重构。不过能跑起来（逃）。
+
+其他 TODO 见于 [cqu-thesis-markdown](https://github.com/ilcpm/cqu-thesis-markdown).
+
