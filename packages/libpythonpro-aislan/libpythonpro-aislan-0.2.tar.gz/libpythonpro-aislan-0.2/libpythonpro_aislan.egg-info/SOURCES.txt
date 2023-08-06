@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+libpythonpro/__init__.py
+libpythonpro/github_api.py
+libpythonpro_aislan.egg-info/PKG-INFO
+libpythonpro_aislan.egg-info/SOURCES.txt
+libpythonpro_aislan.egg-info/dependency_links.txt
+libpythonpro_aislan.egg-info/not-zip-safe
+libpythonpro_aislan.egg-info/requires.txt
+libpythonpro_aislan.egg-info/top_level.txt
