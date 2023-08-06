@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+BLASTVERMIN = '2.10.0'
+MAFFTVERMIN = '7.487'
+IQTREEVERMIN = '2.1.1'
+BLASTVERCURR = '2.12.0'
+MAFFTVERCURR = '7.490'
+IQTREEVERCURR = '2.1.3'
