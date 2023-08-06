@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+fabio_libpypro.egg-info/PKG-INFO
+fabio_libpypro.egg-info/SOURCES.txt
+fabio_libpypro.egg-info/dependency_links.txt
+fabio_libpypro.egg-info/not-zip-safe
+fabio_libpypro.egg-info/requires.txt
+fabio_libpypro.egg-info/top_level.txt
+libpythonpro/__init__.py
+libpythonpro/github_api.py
