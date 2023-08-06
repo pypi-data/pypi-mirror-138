@@ -1,0 +1,3 @@
+[console_scripts]
+sweep = comb.__main__:cli
+
