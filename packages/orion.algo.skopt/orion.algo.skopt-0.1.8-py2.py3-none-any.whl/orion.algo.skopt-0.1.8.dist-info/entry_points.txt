@@ -1,0 +1,3 @@
+[BaseAlgorithm]
+skopt_bayes = orion.algo.skopt.bayes:BayesianOptimizer
+

@@ -1,0 +1,9 @@
+orion/algo/skopt/__init__.py,sha256=kTovPLeNSsA02rRsrTE3CE3BeIk2HdueJLQq2pbIdLw,410
+orion/algo/skopt/_version.py,sha256=cQcGH6G7ZPrlJJsmIxkWdbXCUdKiH5tps1evD779oPI,498
+orion/algo/skopt/bayes.py,sha256=4CltWlPZ-je8M6H4872bCCUSPVfARICR41KJTTW30is,10727
+orion.algo.skopt-0.1.8.dist-info/LICENSE,sha256=CO-FpwHrEhnK9nhGt608mf8EnG4PWSdY9pnQF9mvBlo,1555
+orion.algo.skopt-0.1.8.dist-info/METADATA,sha256=sH5yHDC2Bpbh9Jbh3Zesu20Iwim9xHVUk6yXXorn_Nk,3667
+orion.algo.skopt-0.1.8.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+orion.algo.skopt-0.1.8.dist-info/entry_points.txt,sha256=gnPXaqjwUl8cN5bAjCpD_auGmSJ-mnx08VzVv_U77Is,72
+orion.algo.skopt-0.1.8.dist-info/top_level.txt,sha256=l769l2bu6nhhTWB3Jmk6wLz59m7vaQ1kZQybOWxsiwM,6
+orion.algo.skopt-0.1.8.dist-info/RECORD,,
