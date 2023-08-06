@@ -1,0 +1,11 @@
+loyalicos/__init__.py,sha256=m8xNhjdCgimgvP2vowDP22zQoSHCozyvApj2d2aCeZg,51
+loyalicos/__version__.py,sha256=Qkdiz6Ybn1PE1SlWhKAQBmETf7pQ0yr5HmkqLVDxsqE,21
+loyalicos/exceptions.py,sha256=nUlP2XudWshy2rfMb0uXkCHj1pi07p26INEimlHSBdc,4606
+loyalicos/interface.py,sha256=lgK98Dq28a-tODvMtvUg1k2MtVT8nGGuaLG2gRC55Hw,2249
+loyalicos/loyalicos.py,sha256=Zx9WCgJk26zAdZCPtgl4WMvbBwUr0U5Gltk2L8oKSCU,31171
+loyalicos/simplified_http_client.py,sha256=RMxR_1jQF5kr50ruFzNKzIeVh4hUFnGkxjy68BPO3ho,2769
+loyalicos-1.0.0a7.post7.dist-info/LICENSE,sha256=8_9dqqiU2iMj5H3Qsyis-6vfFIluIWcMgPTiZCFHXg8,1066
+loyalicos-1.0.0a7.post7.dist-info/METADATA,sha256=e8JVPMqNosWIjVyG31GCCK0bTGcwuVedVETDbZL2xFM,603
+loyalicos-1.0.0a7.post7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+loyalicos-1.0.0a7.post7.dist-info/top_level.txt,sha256=bFB6Hb2aZjjS2o7Sn6rwMZ-kt6qrEKgQl661jC8CMOc,10
+loyalicos-1.0.0a7.post7.dist-info/RECORD,,
