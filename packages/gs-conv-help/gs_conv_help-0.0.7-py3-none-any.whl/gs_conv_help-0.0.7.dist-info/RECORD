@@ -1,0 +1,13 @@
+gs_conv_help/__init__.py,sha256=-3U4dGXJC4E0uqbebDOm3jfCaQbAd3e-YKI8jjqXN3M,368
+gs_conv_help/db_handler.py,sha256=4yDrWS5G2qW7IbV2fBV1KIay7vwMUir-5QBd1p-asMw,2557
+gs_conv_help/gs_global.py,sha256=SG1XcJruDpPUR0B5JIQTcIGDHcRiUvQQZOw51aDbb-0,359
+gs_conv_help/i18n.py,sha256=oeYpAEoLMwitqvcXs6eGMSeZab1UgS5E1gELhhPkfV8,2705
+gs_conv_help/menu_handler.py,sha256=vsYIN_N56HMgzAl4IyiP27jzIPzHmZx9NGn5Dv96i-g,9114
+gs_conv_help/post_handler.py,sha256=VBzLnBnLd2W-0RLUD0ibQV4rUJ2diUYuoRpOoO6B49k,480
+gs_conv_help/pre_handler.py,sha256=_d0jZkYHZXPRBkO-Lhkgv3jjDuJ1CQzXABJNybaJrnQ,1838
+gs_conv_help/response_cards.py,sha256=elwUUS2VzEPYevJmGEpvp1CA3dBOGdFsM9tXub4OtQw,38026
+gs_conv_help-0.0.7.dist-info/LICENSE,sha256=g58U2unr2ZqeVkFQ0uC0kZcJwmtemypkBCrQMteyasM,1067
+gs_conv_help-0.0.7.dist-info/METADATA,sha256=tz3TeJxFhds9-m1ijzSxMBXUp9sRl-e3U6QSCiJZVDU,10181
+gs_conv_help-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gs_conv_help-0.0.7.dist-info/top_level.txt,sha256=mr8pSe_hdrIzqyaeP_6lZQBvVc7B3G8ZpI-xhMV5Zqc,13
+gs_conv_help-0.0.7.dist-info/RECORD,,
