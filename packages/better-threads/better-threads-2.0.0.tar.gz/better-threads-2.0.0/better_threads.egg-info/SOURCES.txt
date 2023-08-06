@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+BetterThreads/Pipe.py
+BetterThreads/PooledThread.py
+BetterThreads/ThreadPool.py
+BetterThreads/__init__.py
+better_threads.egg-info/PKG-INFO
+better_threads.egg-info/SOURCES.txt
+better_threads.egg-info/dependency_links.txt
+better_threads.egg-info/top_level.txt
