@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Orf-callback
+Version: 0.0.7
+Summary: For persional use.
+Home-page: UNKNOWN
+Author: Brief
+Author-email: brf2053@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: Orf-sendMsg
+Requires-Dist: requests
+
+For persional use
+
