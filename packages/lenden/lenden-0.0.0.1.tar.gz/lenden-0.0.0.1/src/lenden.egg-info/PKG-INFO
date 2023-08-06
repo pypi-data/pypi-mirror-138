@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: lenden
+Version: 0.0.0.1
+Summary: Import and Export data for Radiomics Workflows.
+Home-page: https://github.com/radiomicsvhio/lenden
+Author: Camilo A. Monreal
+Author-email: camilomonreal@vhio.net
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/radiomicsvhio/lenden/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# lenden
+
+Exchange Workflow Data
+
+- 📙 *lenden  is a **hindi**  for  exchange*
+
+
+
+
+
