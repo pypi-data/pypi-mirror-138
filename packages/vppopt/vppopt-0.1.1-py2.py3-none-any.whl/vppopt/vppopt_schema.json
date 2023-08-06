@@ -1,0 +1,399 @@
+{
+    "$id":"http://json-schema.org/draft-04/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$ref":"#/definitions/Vppopt Workflow Schema",
+    "definitions": {
+        "Vppopt Workflow Schema":{
+            "description": "JSON Schema for vppopt scenario",
+            "type":"object",
+            "properties": {
+                "Version":{
+                    "description": "vppopt version info",
+                    "type":"string",
+                    "default":""
+                },
+                "ProjName":{
+                    "title": "Project Name",
+                    "description": "Name of project",
+                    "type":"string",
+                    "default":"Untitled Project"
+                },
+                "ProjDir":{
+                    "description": "Path to the project directory",
+                    "type":"string",
+                    "default":""
+                },
+                "WorkflowFile":{
+                    "description": "workflow file path",
+                    "type":"string",
+                    "default":"vppopt.json"
+                },
+                "NodesDataExcelFile":{
+                    "description": "Excel file contains nodes data",
+                    "type":"string",
+                    "default":""
+                },
+                "Scenario":{
+                    "description": "Scenario for vppopt",
+                    "type":"object",
+                    "properties": {
+                        "Site":{
+                            "$ref":"#/definitions/Site Data",
+                            "default":{}
+                        },
+                        "PV":{
+                            "$ref":"#/definitions/PV Data",
+                            "default":{}
+                        },
+                        "ElectricLoad":{
+                            "$ref":"#/definitions/Electric Load Data",
+                            "default":{}
+                        },
+                        "Financial":{
+                            "$ref":"#definitions/Financial Data",
+                            "default":{}
+                        }
+                    },
+                    "default":{}
+                },
+                "Nodes":{
+                    "description": "Nodes data",
+                    "type":"object",
+                    "properties": {
+                        "buses":{
+                            "description": "Buses data",
+                            "type":"array",
+                            "items": {
+                                "$ref":"#/definitions/Bus Data Definition"
+                            },
+                            "default":[{}]
+                        },
+                        "commodity_sources":{
+                            "description": "commodity sources data",
+                            "type":"array",
+                            "items": {
+                                "$ref":"#/definitions/Commodity Source Definition"
+                            },
+                            "default":[{}]
+                        },
+                        "transformers":{
+                            "description": "transformers data",
+                            "type":"array",
+                            "items": {
+                                "$ref":"#/definitions/Transformer Definition"
+                            },
+                            "default":[{}]
+                        }
+                        
+                    },
+                    "default":{}
+                },
+                "SimulationStep":{
+                    "$ref":"#/definitions/Simulation Step",
+                    "default":{}
+                },
+                "ExternalScript":{
+                    "$ref":"#/definitions/External Script Data",
+                    "default":{}
+                }
+            }
+        },
+        "Site Data":{
+            "description": "Site data for vppopt",
+            "type":"object",
+            "properties": {
+                "longitude":{
+                    "description": "longitude",
+                    "type":["string","number"],
+                    "default":""
+                },
+                "latitude":{
+                    "description": "latitude",
+                    "type":["string","number"],
+                    "default":""
+                }
+            }
+        },
+        "PV Data":{
+            "description": "PV data fro vppopt",
+            "type":"object",
+            "properties": {
+                "cost_per_kw":{
+                    "description": "cost per installed kw",
+                    "type":["string","number"],
+                    "default":""
+                },
+                "tilt":{
+                    "description": "tilt angle",
+                    "type":["null","number"],
+                    "default":null
+                }
+            },
+            "default":{}
+        },
+        "Electric Load Data":{
+            "description": "Electric load data fro vppopt",
+            "type":"object",
+            "properties": {
+                "loads_kw":{
+                    "description": "loads kw data",
+                    "type":["array"],
+                    "default":[]
+                }
+
+            },
+            "default":{}
+        },
+        "Financial Data":{
+            "description": "Financial data for vppopt",
+            "type":"object",
+            "properties": {
+                "analysis_years":{
+                    "description": "number of year for analysis period",
+                    "type":["null","integer"],
+                    "default":null
+                }
+            }
+        },
+        "Simulation Step":{
+            "description": "Simulation step setting",
+            "type":"object",
+            "properties": {
+                "start_date":{
+                    "description": "ISO8601 string defining a fully qualified date time, e.g. YYYY-MM-DD",
+                    "type":"string",
+                    "default":""
+                },
+                "end_date":{
+                    "description": "ISO8601 string defining a fully qualified date time, e.g. YYYY-MM-DD",
+                    "type":"string",
+                    "default":""
+                },
+                "time_step":{
+                    "description": "Number of time steps per hour",
+                    "type":"integer",
+                    "default":1
+                },
+                "solver_settings":{
+                    "$ref":"#/definitions/Solver Setttings",
+                    "default":{}
+                }
+            }
+        },
+        "External Script Data":{
+            "description": "External Python Script",
+            "type":"object",
+            "properties": {
+                "script_dir":{
+                    "description": "scripts dirname",
+                    "type":"string",
+                    "default":""
+                },
+                "scripts":{
+                    "description": "external python scripts",
+                    "type":"array",
+                    "items": {
+                        "#ref":"#/definitions/External Script Definition"
+                    },
+                    "default":[{}]
+                }
+            }
+        },
+        "External Script Definition":{
+            "description": "External Python Script",
+            "title": "External Python Script",
+            "type":"object",
+            "properties": {
+                "name":{
+                    "description": "name of python external script, i.e. update_schedule_electric_equipment",
+                    "type":"string",
+                    "default":""
+                },
+                "tag":{
+                    "description": "type of python external script, i.e. 'inputgen' or 'model' or 'reporting'",
+                    "type":"string",
+                    "enum": ["","inputgen","model","reporting"],
+                    "default":""
+                },
+                "arguments":{
+                    "description": "keyword argument with value, e.g. 'apart_list':['B02']",
+                    "type":"object",
+                    "default":{}
+                }
+            },
+            "default":{}
+        },
+        "Solver Setttings":{
+            "description": "Parameter for LP, MILP optimizer",
+            "type":"object",
+            "properties": {
+                "solver":{
+                    "description": "Name of LP, MILP solver, e.g. cbc",
+                    "type":"string",
+                    "default":"cbc"
+                },
+                "executable":{
+                    "description": "path to optimizer executable if optimizer can not be found in sytem paht",
+                    "type":"string",
+                    "default": ""
+                },
+                "solver_io":{
+                    "description": "solver io format, i.e. lp or nl",
+                    "type":"string",
+                    "default":"lp"
+                },
+                "solve_kwargs":{
+                    "description": "keyword arguments for solver",
+                    "type":"object",
+                    "default":{}
+                },
+                "cmdline_options":{
+                    "description": "command line option for solver",
+                    "type":"object",
+                    "default":{}
+                }
+            }
+        },
+        "Bus Data Definition":{
+            "description": "bus data definition",
+            "type":"object",
+            "properties": {
+                "label":{
+                    "description": "bus lable, e.g. bel, bgas",
+                    "type":["string"],
+                    "default":""
+                },
+                "active":{
+                    "description": "active or not",
+                    "type":["null","integer"],
+                    "enum": [null,1],
+                    "default":null
+                },
+                "excess":{
+                    "description": "accept or not excess flow",
+                    "type":["null","integer"],
+                    "enum": [null,1],
+                    "default":null
+                },
+                "shortage":{
+                    "description": "accept or not shortage",
+                    "type":["null","integer"],
+                    "enum": [null,1],
+                    "default":null
+                },
+                "excess costs":{
+                    "description": "cost for exceed flow",
+                    "type":["null","number"],
+                    "default":null
+                },
+                "shortage costs":{
+                    "description": "cost for exceed flow",
+                    "type":["null","number"],
+                    "default":null
+                }
+
+            },
+            "default":{}
+
+        },
+        "Commodity Source Definition":{
+            "description": "Commodity Source Definition",
+            "type":"object",
+            "properties": {
+                "label":{
+                    "description": "bus lable, e.g. bel, bgas",
+                    "type":["string"],
+                    "default":""
+                },
+                "active":{
+                    "description": "active or not",
+                    "type":["null","integer"],
+                    "enum": [null,1],
+                    "default":null
+                },
+                "to":{
+                    "description": "accept or not excess flow",
+                    "type":"string",
+                    "default":""
+                },
+                "variable costs":{
+                    "description": "variable cost",
+                    "type":["null","number"],
+                    "default":null
+                }
+            },
+            "default":{}
+        },
+        "Transformer Definition":{
+            "description": "",
+            "type":"object",
+            "properties": {
+                "label":{
+                    "description": "bus lable, e.g. bel, bgas",
+                    "type":["string"],
+                    "default":""
+                },
+                "active":{
+                    "description": "active or not",
+                    "type":["null","integer"],
+                    "enum": [null,1],
+                    "default":null
+                },
+                "from": {
+                    "description": "accept or not excess flow",
+                    "type":"string",
+                    "default":""
+                },
+                "to": {
+                    "description": "accept or not excess flow",
+                    "type":"string",
+                    "default":""
+                },
+                "efficiency": {
+                    "description": "efficiency",
+                    "type":["null","number"],
+                    
+                    "default":null
+                },
+                "capacity": {
+                    "description": "capacity",
+                    "type":["null","number"],
+                    
+                    "default":null
+                },
+                "variable input costs": {
+                    "description": "variable input cost",
+                    "type":["null","number"],
+                    
+                    "default":null
+                },
+                "capex inflow": {
+                    "description": "capital expenditure inflow",
+                    "type":["null","number"],
+                    
+                    "default":null
+                },
+                "max inflow": {
+                    "description": "capital expenditure inflow",
+                    "type":["null","number"],
+                    
+                    "default":null
+                },
+                "min inflow": {
+                    "description": "capital expenditure inflow",
+                    "type":["null","number"],
+                    
+                    "default":null
+                },
+                "existing inflow": {
+                    "description": "capital expenditure inflow",
+                    "type":["null","number"],
+                    
+                    "default":null
+                }
+            }
+        }
+    }
+
+    
+}

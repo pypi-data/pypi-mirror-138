@@ -1,0 +1,217 @@
+Metadata-Version: 2.1
+Name: vppopt
+Version: 0.1.1
+Summary: Virtual Power Plant Optimization Platform
+Home-page: https://github.com/cenaero-enb/h2cs-design
+Author: Long Le
+Author-email: vanlong.le@cenaero.be
+License: Apache Software License 2.0
+Keywords: vppopt
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyomo (==5.7.2)
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+Requires-Dist: xlrd
+Requires-Dist: matplotlib
+Requires-Dist: python-jsonschema-objects
+Requires-Dist: xlsxwriter
+Requires-Dist: loguru
+Requires-Dist: oemof.solph
+Requires-Dist: pymoo
+Requires-Dist: xmltodict
+
+
+# VPPopt - Virtual Power Plant Optimization Platform
+
+## The platform is current under development
+
+## Introduction
+
+VPPopt platform is developed within the framework of [H2 CoopStorage](https://h2coopstorage.eu) project (WP3). The objective of this WP is to develop a tool for (optimally) sizing a Community-based Virtual Power Plant with a hybrid solution of energy storage using electric batteries and hydrogen production.
+
+VPPopt used [oemof-solph](https://github.com/oemof/oemof-solph) for creating energy system and formulating optimization problem (Linear Program or Mixed Integer Linear Program). The latter is then solved by a LP or MILP solver such as CBC, GLPK, Cplex, Gurobi. More information for using oemof-solph could be found [here](https://oemof-solph.readthedocs.io/en/latest/usage.html). VPPopt is expected to recommend an optimally sized mix of **renewable energy**, and **energy storage technologies**; provides a **dispatch strategy** for operating the technology mix at **maximum economic efficiency**
+
+## Installation
+
+VPPopt has been developed using python 3 (higher or equal 3.6). A python 3 ([miniconda](https://docs.conda.io/en/latest/miniconda.html) is recommended) is therefore mandatory for the installation.
+
+The latest version of VPPopt could be downloaded or cloned (using git) from https://github.com/cenaero-enb/h2cs-design.git. Hereafter, some instruction for the installation of vppopt on Windows
+
+- Check if python 3 is installed (using CMD or Powershell): just type `python` in the termial as below.
+
+```bash
+python
+Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+```
+
+- vppopt could be installed in the default python environment or in a specific python virtual environment. A virtual python environment could be created as follows
+
+```bash
+python -m venv <path_to>\vppopt_env
+```
+
+- For activating python virtual environment in Windows: from terminal (cmd or powershell) type:
+
+```bash
+<path_to>\vppopt_env\Scripts\activate
+```
+
+- download or clone vppopt source code from github repository
+
+```bash
+git clone https://github.com/cenaero-enb/h2cs-design.git
+```
+
+- go directly to h2cs-design folder for installing vppopt and its dependencies on activated python environment
+
+```bash
+cd h2cs-design
+python setup.py install
+pip install -r requirements.txt
+```
+
+- Install pygraphviz on Windows using the instruction [here](https://github.com/pygraphviz/pygraphviz/blob/main/INSTALL.txt)
+
+### Installing a LP or MILP solver
+
+Various commercial and open-source solvers are available and can be used with vppopt, e.g. Cplex, Gurobi, CBC, GLPK, IPOPT, etc. As recommanded from oemof.solph, it worths sometime comparing the result of different solvers. More information about solvers supported by pyomo could be found [here](https://pyomo.readthedocs.io/en/stable/solving_pyomo_models.html#supported-solvers)
+
+Several opensource solvers could be found [here](https://ampl.com/products/solvers/open-source/) or [here](https://ampl.com/dl/open/). The instruction below describes the installation of a solver on Windows:
+
+1. Dowload CBC ([64](https://ampl.com/dl/open/cbc/cbc-win64.zip) or [32](https://ampl.com/dl/open/cbc/cbc-win32.zip) bit)
+2. Or download GLPK ([64/32 bit](https://sourceforge.net/projects/winglpk/))
+3. Unpack CBC/GLPK to any folder (e.g. C:/Users/Somebody/aml_solvers)
+4. Add the path of the executable files of both solvers to the PATH variable using this [tutorial](https://www.computerhope.com/issues/ch000549.htm)
+5. Restart Windows
+
+## Usage
+
+### Comand Line Interface
+
+```bash
+vppopt --version
+0.1.0
+```
+
+```bash
+vppopt --help
+usage: vppopt [-h] [--version] {init,run,excel_reader} ...
+
+Script for initilazing vppopt scenario
+
+positional arguments:
+  {init,run,excel_reader}
+                        sub-command help
+    init                Initializing vppopt scenario and more        
+    run                 run vppopt scenario and more
+    excel_reader        run vppopt with scenario read from excel file
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             version of vppopt
+```
+
+- initialize a project
+
+```bash
+vppopt init -pdir Project1
+```
+
+- run a project
+
+```bash
+vppopt run -wf vppopt.json
+```
+
+### vppopt project structure
+
+- after initialize a vppopt project, the following files/directory will be created inside project directory
+
+```
+Project1
+    |__Scripts (empty folder for external user python scripts)
+    |__vppopt.json (Editable vppopt json workflow file)
+    |__vppopt.xlsx (Template of vppopt Excel input file)
+```
+
+### vppopt json workflow file
+
+- vppopt json (editable) workflow file give vppopt program the necessary information on
+  - file and directory paths
+  - simulation settings
+  - external user scripts being used
+
+```json
+{
+    "Version": "2021.01",
+    "ProjName": "Untitled Project",
+    "ProjDir": "G:\\Workspace\\Cenaero\\Git\\vppopt-examples\\examples\\opnieuw",
+    "WorkflowFile": "G:\\Workspace\\Cenaero\\Git\\vppopt-examples\\examples\\opnieuw\\vppopt.json",
+    "NodesDataExcelFile": "G:\\Workspace\\Cenaero\\Git\\vppopt-examples\\examples\\opnieuw\\vppopt.xlsx",
+    "Scenario": {},
+    "Nodes": {},
+    "SimulationStep": {
+        "start_date": "2016-01-01",
+        "end_date": "2016-12-31",
+        "time_step": 4,
+        "solver_settings": {
+            "solver": "cbc",
+            "executable": "",
+            "solver_io": "lp",
+            "solve_kwargs": {},
+            "cmdline_options": {}
+        }
+    },
+    "ExternalScript": {
+        "script_dir": "G:\\Workspace\\Cenaero\\Git\\vppopt-examples\\examples\\opnieuw\\scripts",
+        "scripts": [
+            {
+                "name":"reporting_create_graph",
+                "tag":"reporting",
+                "arguments":{}
+            },
+            {
+                "name":"model_test_updating_nodes",
+                "tag":"model",
+                "arguments":{}
+            }
+        ]
+    }
+}
+```
+
+### Excel input file
+
+- After initializing the project using `vppopt init` an Excel template will be created to fill all necessary input for creating an (oemof-solph) energy system. Different Excel sheets will be used for different input, e.g. buses, demand, renewables, etc.
+
+### outputs
+
+- when the optimization process is finished, all results (scalars and timeseries data) will be saved in `out.xlsx`
+- advanced user could add external python scripts into Script folder for different post-processing just after optimization process.
+
+## Examples
+
+Several examples for using vppopt could be found [here](https://github.com/cenaero-enb/vppopt-examples)
+
+## Main developers
+
+|Name|Affiliation|Email|
+|-----|-----|-----|
+|Van long Lê|Cenaero|vanlong.le@cenaero.be|
+
