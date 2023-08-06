@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+hw_python_show_graph_lib.egg-info/PKG-INFO
+hw_python_show_graph_lib.egg-info/SOURCES.txt
+hw_python_show_graph_lib.egg-info/dependency_links.txt
+hw_python_show_graph_lib.egg-info/top_level.txt

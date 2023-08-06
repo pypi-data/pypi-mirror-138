@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hw-python-show-graph-lib
+Version: 1.0
+Summary: Python module for showing graph
+Home-page: https://github.com/Deuqz/hw_python_show_graph_lib
+Author: Deuqz
+Author-email: ddemon2002@mail.ru
+License: UNKNOWN
+Download-URL: https://github.com/Deuqz/hw_python_show_graph_lib/archive/v1.0.zip
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+
+Python module for hw1 that shows graph of fib function
+
