@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ganon
+Version: 0.0.1
+Summary: A Gan Medical Image Learning Framework
+Home-page: https://github.com/SagaraBattousai/ganon.git
+Author: James Calo
+Author-email: jamesafcalo@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Ganon
+=====
+Ganon is the core of Ganondorf; Ganondorf was getting too large so it's been
+split. Ganon stands for "Gan" "on", on what is up to you to decide.
+
+
