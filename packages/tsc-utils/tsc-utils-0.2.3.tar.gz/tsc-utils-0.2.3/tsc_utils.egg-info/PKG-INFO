@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: tsc-utils
+Version: 0.2.3
+Summary: A set of utility scripts for working with TSC, the scripting language used in Cave Story.
+Home-page: https://github.com/cave-story-randomizer/tsc-utils
+Author: duncathan salt
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# tsc-utils
+
+## Installation
+
+`pip install tsc-utils`
+
+## Usage
+
+```py
+>>> from tsc_utils.numbers import num_to_tsc_value
+>>> num_to_tsc_value(-1))
+b'000/'
+>>> from tsc_utils.flags import flag_to_address
+>>> flag_to_address(1234)
+0x49de3a, bit 2
+```
+
+
