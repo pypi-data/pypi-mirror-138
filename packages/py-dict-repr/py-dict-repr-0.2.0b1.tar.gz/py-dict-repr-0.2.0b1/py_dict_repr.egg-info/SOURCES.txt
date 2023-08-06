@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+py_dict_repr/__about__.py
+py_dict_repr/__init__.py
+py_dict_repr/py_dict_repr.py
+py_dict_repr/version.py
+py_dict_repr.egg-info/PKG-INFO
+py_dict_repr.egg-info/SOURCES.txt
+py_dict_repr.egg-info/dependency_links.txt
+py_dict_repr.egg-info/top_level.txt
