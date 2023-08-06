@@ -1,0 +1,146 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX f: <https://flu-crew.org/term/>
+
+# subClassOf - if r is type A, and A is a subClassOf B, then r has type B
+#
+# ?r rdf:type ?A
+# ?A rdf:subClassOf ?B
+# --------------
+# ?r rdf:type ?B
+
+# subPropertyOf - if p relates A to B, and if p is a subPropertyOf q, then q also relates A to B
+#
+# ?A ?p ?B
+# ?p rdf:subPropertyOf ?q
+# ----------------------
+# ?A ?q ?B
+
+f:collection_date rdfs:subPropertyOf f:date .
+
+f:h3_motif rdfs:subPropertyOf f:motif .
+f:cb_motif rdfs:subPropertyOf f:motif .
+f:sa_motif rdfs:subPropertyOf f:motif .
+f:sb_motif rdfs:subPropertyOf f:motif .
+f:ca1_motif rdfs:subPropertyOf f:motif .
+f:ca2_motif rdfs:subPropertyOf f:motif .
+
+rdfs:label rdfs:subPropertyOf f:name .
+
+f:h1 rdfs:subPropertyOf f:ha .
+f:h2 rdfs:subPropertyOf f:ha .
+f:h3 rdfs:subPropertyOf f:ha .
+f:h4 rdfs:subPropertyOf f:ha .
+f:h5 rdfs:subPropertyOf f:ha .
+f:h6 rdfs:subPropertyOf f:ha .
+f:h7 rdfs:subPropertyOf f:ha .
+f:h8 rdfs:subPropertyOf f:ha .
+f:h9 rdfs:subPropertyOf f:ha .
+f:h10 rdfs:subPropertyOf f:ha .
+f:h11 rdfs:subPropertyOf f:ha .
+f:h12 rdfs:subPropertyOf f:ha .
+f:h13 rdfs:subPropertyOf f:ha .
+f:h14 rdfs:subPropertyOf f:ha .
+f:h15 rdfs:subPropertyOf f:ha .
+f:h16 rdfs:subPropertyOf f:ha .
+f:h17 rdfs:subPropertyOf f:ha .
+f:h18 rdfs:subPropertyOf f:ha .
+
+f:n1 rdfs:subPropertyOf f:na .
+f:n2 rdfs:subPropertyOf f:na .
+f:n3 rdfs:subPropertyOf f:na .
+f:n4 rdfs:subPropertyOf f:na .
+f:n5 rdfs:subPropertyOf f:na .
+f:n6 rdfs:subPropertyOf f:na .
+f:n7 rdfs:subPropertyOf f:na .
+f:n8 rdfs:subPropertyOf f:na .
+f:n9 rdfs:subPropertyOf f:na .
+f:n10 rdfs:subPropertyOf f:na .
+f:n11 rdfs:subPropertyOf f:na .
+
+f:pb2 rdfs:subPropertyOf f:internalGene .
+f:pb1 rdfs:subPropertyOf f:internalGene .
+f:pa rdfs:subPropertyOf f:internalGene .
+f:np rdfs:subPropertyOf f:internalGene .
+f:m rdfs:subPropertyOf f:internalGene .
+f:ns1 rdfs:subPropertyOf f:internalGene .
+
+# Properties with the strain domain are not fields in the class object, using
+# them to describe a subject leads to the inference that the subject is a
+# strain. That is, these properties must only be used with subjects that are
+# strains. For this reason, terms such as "world", "state", "date", and
+# "host", which are all used to describe a strain, should not be listed has
+# having strain as a domain, since they could be used in other contexts.
+f:strain_name    rdfs:domain f:Strain .
+f:barcode        rdfs:domain f:Strain .
+f:epi_isolate rdfs:domain f:Strain .
+f:subtype        rdfs:domain f:Strain .
+f:constellation  rdfs:domain f:Strain .
+
+
+f:host rdfs:range f:Organism .
+
+
+# This is the doubly defining link between a strain and a segment. Its use is
+# sufficient to infer the class of both the subject and object. This rule,
+# along with the other domain statements, means that it should never be
+# necessary to explicitly state the type of an object.
+f:has_segment rdfs:domain f:Strain ;
+              rdfs:range f:Segment .
+
+# A segment is defined relative to a strain. The two unique properties it can
+# have are segment_name and segment_number. Other sequence traits, such as
+# having a genbank ID, could refer to classes other than a flu segment.
+f:segment_name   rdfs:domain f:Segment .
+f:segment_number rdfs:domain f:Segment .
+
+
+# Blast results are only between sequences
+f:sseqid rdfs:domain f:BlastResult ;
+         rdfs:range f:Sequence .
+f:qseqid rdfs:domain f:BlastResult ;
+         rdfs:range f:Sequence .
+
+f:ProteinSequence rdfs:subClassOf f:Sequence .
+f:NucleotideSequence rdfs:subClassOf f:Sequence .
+f:proseq rdfs:domain f:ProteinSequence .
+f:dnaseq rdfs:domain f:NucleotideSequence .
+# IDs used uniquely to identify sequences
+f:genbank_id rdfs:range f:Sequence .
+f:epi_id rdfs:range f:Sequence .
+
+f:genbank_id rdfs:subPropertyOf f:seqid .
+f:epi_id rdfs:subPropertyOf f:seqid .
+
+f:has_feature rdfs:range f:Feature .
+f:has_segment rdfs:subPropertyOf f:has_part .
+
+# ===== ANNOTATIONS ==========================================================================
+f:barcode        rdfs:comment "(property) an A0, TOSU or some other sequence identifier" .
+f:chksum         rdfs:comment "(property) the md5 checksum of some value" .
+f:constellation  rdfs:comment "(property) a 6 character identifier for internal gene clades" .
+f:world          rdfs:comment "(property) a world" .
+f:date           rdfs:comment "(property) a date" .
+f:dna_sequence   rdfs:comment "(property) link to DNA sequence" .
+f:gene           rdfs:comment "(property) the name of the primary gene on a segment" .
+f:epi_isolate    rdfs:comment "(property) the epi flu id for a strain" .
+f:global_clade   rdfs:comment "(property) the global clade for a strain" .
+f:ha_clade       rdfs:comment "(property) the HA clade for a strain" .
+f:has_segment    rdfs:comment "(property) link from a strain to a segment" .
+f:host           rdfs:comment "(property) the animal host of a virus" .
+f:segment_name   rdfs:comment "(property) the name of the primary gene on a segment" .
+f:segment_number rdfs:comment "(property) the segment number of a IAV (1-8)" .
+f:state          rdfs:comment "(property) one of the 50 states from the United States" .
+f:strain_name    rdfs:comment "(property) the name of the influenza strain" .
+f:subtype        rdfs:comment "(property) influenza A subtype" .
+# -- examples may be used as documentation or in tests/demos
+f:example rdfs:subPropertyOf rdfs:comment .
+# -----
+f:barcode f:example "A01444560", "13TOSU6273" .
+f:constellation f:example "TTTTTT", "TPVPPT" .
+f:world f:example "USA", "Canada", "Mexico" .
+f:host f:example "Swine", "Human" .
+f:segment_name f:example "HA", "NA", "PB1", "PB2", "M" .
+f:state f:example "New_York", "IA" .
+f:strain_name f:example "A/swine/Wyoming/A01445305/2013" .
+f:subtype f:example "H1N1" .
+# TODO: fill in examples for everything else
