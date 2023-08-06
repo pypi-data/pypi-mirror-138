@@ -1,0 +1,12 @@
+portilooplot/__init__.py,sha256=bLnlqiceBheYZDDVFQSGhPZy7ALghwsgc3MfQNHWOUA,302
+portilooplot/jupyter_plot.py,sha256=UztDEJRlvZPih9f7utnYv_Vcf4egqMsiZwhz1qxroDI,7989
+portilooplot/plot_learning_curve.py,sha256=l50ldNfJK6DxtdSps4TjOxhBAx5ciLRdd0xy-xCtJhA,9617
+portilooplot/web_assets/d3.bundle.js,sha256=QPz3YLimTQMI-LNjHf8DxlOzW2QXBBmS3uBL4gPyYcI,267186
+portilooplot/web_assets/d3.js,sha256=o7GwEUK5ZRolDdA5wuoZYP-guRtRI2KZLHjXInENZ4c,385
+portilooplot/web_assets/learning_curve.css,sha256=gKlfAzF5QvFyi9Z56s-m58M0GceKWg6l9S1U4bJP3RU,1036
+portilooplot/web_assets/learning_curve.js,sha256=DockCLow_k9NwrJ__zdWgeM3rMIATKYpHtF79x5eOQU,13875
+portilooplot-0.0.4.dist-info/LICENSE.txt,sha256=F5T-wyXljisxQ7x-1_Djz2sGCdXjbCgEGIxNAIuK8Oo,1073
+portilooplot-0.0.4.dist-info/METADATA,sha256=ASsp79dxJN-Pl5SWSejAPxi7fLuAwOD4h94rdi0sabw,1341
+portilooplot-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+portilooplot-0.0.4.dist-info/top_level.txt,sha256=dylQxtitFJJnbqm0hpxAcBIlG3fK8MKB0yYnXZMKLu8,13
+portilooplot-0.0.4.dist-info/RECORD,,

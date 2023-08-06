@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: portilooplot
+Version: 0.0.4
+Summary: Real-time learning curve for Jupiter notebooks
+Home-page: https://github.com/milo-sobral/python-lrcurve
+Author: Andreas Madsen, Milo Sobral, Yann Bouteiller
+License: MIT
+Keywords: learning,curve,pytorch,keras,tensorflow,jupyter,colab,interactive,live,real-time
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: ipython
+Provides-Extra: test
+Requires-Dist: nose ; extra == 'test'
+Requires-Dist: jupyterlab ; extra == 'test'
+Requires-Dist: tensorflow ; extra == 'test'
+Requires-Dist: torch ; extra == 'test'
+Requires-Dist: scikit-learn ; extra == 'test'
+
+# PortilooPlot
+
+**This fork adds the option to have a sliding window when displaying the data and adds code from [jupyterplot](https://github.com/lvwerra/jupyterplot) to allow for more general plots.**
+
+
+
