@@ -1,0 +1,14 @@
+connector: sfp
+allowed_parent_types:
+  - linecard
+  - supervisor
+  - module
+  - nic
+allowed_child_types:
+  - transceiver:
+      pid: sfp
+  - transceiver:
+      pid: sfp_plus
+
+capabilities: []
+supported_speeds: []

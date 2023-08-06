@@ -1,0 +1,13 @@
+connector: qsfp
+allowed_parent_types:
+  - linecard
+  - supervisor
+  - module
+  - nic
+allowed_child_types:
+  - transceiver:
+      pid: qsfp
+  - port:
+      pid: qsfp-breakout
+capabilities: []
+supported_speeds: []
