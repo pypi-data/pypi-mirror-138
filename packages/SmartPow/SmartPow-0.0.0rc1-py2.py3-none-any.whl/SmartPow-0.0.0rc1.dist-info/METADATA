@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: SmartPow
+Version: 0.0.0rc1
+Summary: An octoprint plugin for turning off and on your printers power supply
+Home-page: https://github.com/amitSA/OctoPrint-Smart-Pow
+Author: Amit Saxena
+Author-email: amitsax10@gmail.com
+License: AGPLv3
+Platform: UNKNOWN
+Requires-Dist: OctoPrint
+Requires-Dist: python-kasa
+Requires-Dist: funcy
+Provides-Extra: dev
+Requires-Dist: pytest-mock ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: voluptuous ; extra == 'dev'
+Requires-Dist: pytest-asyncio ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+
+UNKNOWN
+
+
