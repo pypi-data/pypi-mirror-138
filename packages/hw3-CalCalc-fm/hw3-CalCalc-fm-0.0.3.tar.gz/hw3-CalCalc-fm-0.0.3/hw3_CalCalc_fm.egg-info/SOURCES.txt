@@ -1,0 +1,9 @@
+LICENSE.txt
+README.txt
+setup.py
+calcalc/CalCalc.py
+calcalc/__init__.py
+hw3_CalCalc_fm.egg-info/PKG-INFO
+hw3_CalCalc_fm.egg-info/SOURCES.txt
+hw3_CalCalc_fm.egg-info/dependency_links.txt
+hw3_CalCalc_fm.egg-info/top_level.txt
