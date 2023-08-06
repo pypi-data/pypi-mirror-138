@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pymatflow
+Version: 0.1.1a4
+Summary: An emulation assistant, input generation and manage for DFT programs
+Home-page: https://gitlab.com/deqitang/pymatflow
+Author-email: pymatflow@163.com
+License: MIT
+Keywords: Ab intio,DFT,workflow,input generation
+Platform: any
+Requires-Python: >=3.0
+License-File: LICENSE
+Requires-Dist: atomsciflow
+Requires-Dist: ase
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
+UNKNOWN
+

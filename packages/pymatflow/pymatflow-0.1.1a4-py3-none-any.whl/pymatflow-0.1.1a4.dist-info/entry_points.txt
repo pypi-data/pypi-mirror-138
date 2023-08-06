@@ -1,0 +1,15 @@
+[console_scripts]
+elkflow = pymatflow.elk.elkflow:main
+excitingflow = pymatflow.exciting.excitingflow:main
+lflow = pymatflow.cmd.lmpflow:main
+lmpflow = pymatflow.cmd.lmpflow:main
+matflow = pymatflow.cmd.matflow:main
+mflow = pymatflow.cmd.matflow:main
+octoflow = pymatflow.octopus.octoflow:main
+pflow = pymatflow.cmd.postflow:main
+postflow = pymatflow.cmd.postflow:main
+psoflow = pymatflow.flow.calypso.psoflow:main
+sflow = pymatflow.cmd.structflow:main
+structflow = pymatflow.cmd.structflow:main
+xtbflow = pymatflow.xtb.xtbflow:main
+
