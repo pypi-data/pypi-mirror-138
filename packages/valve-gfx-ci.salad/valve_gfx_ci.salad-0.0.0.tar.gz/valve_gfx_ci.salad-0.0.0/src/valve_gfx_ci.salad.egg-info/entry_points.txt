@@ -1,0 +1,3 @@
+[console_scripts]
+salad = valve_gfx_ci.salad.app:run
+
