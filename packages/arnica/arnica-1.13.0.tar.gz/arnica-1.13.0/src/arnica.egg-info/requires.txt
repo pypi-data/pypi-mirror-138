@@ -1,0 +1,12 @@
+numpy
+scipy
+matplotlib
+h5py
+PyYAML>=3.13
+lxml
+satis
+click
+pandas
+kokiy
+showy
+h5cross
