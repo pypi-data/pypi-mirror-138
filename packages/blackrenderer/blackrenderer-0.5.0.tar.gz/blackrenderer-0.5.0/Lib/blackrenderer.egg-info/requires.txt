@@ -1,0 +1,14 @@
+fonttools>=4.27.0
+uharfbuzz>=0.16.0
+
+[cairo]
+pycairo
+
+[cg]
+
+[cg:sys_platform == "darwin"]
+pyobjc
+
+[skia]
+skia-python
+numpy
