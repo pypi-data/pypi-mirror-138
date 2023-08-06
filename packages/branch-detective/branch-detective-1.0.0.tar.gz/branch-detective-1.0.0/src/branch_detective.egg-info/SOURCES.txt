@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/branch_detective/__init__.py
+src/branch_detective/__main__.py
+src/branch_detective/commits.py
+src/branch_detective/compare.py
+src/branch_detective/repository.py
+src/branch_detective.egg-info/PKG-INFO
+src/branch_detective.egg-info/SOURCES.txt
+src/branch_detective.egg-info/dependency_links.txt
+src/branch_detective.egg-info/entry_points.txt
+src/branch_detective.egg-info/requires.txt
+src/branch_detective.egg-info/top_level.txt
