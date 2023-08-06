@@ -1,0 +1,11 @@
+proxlist/__init__.py,sha256=yNJLBmD_FVUnpI4NGEy__GJdoaXqU9q1NXQ22y4gzv4,111
+proxlist/proxies.py,sha256=dPB5aTf__ymWOTbtbuMQNvWbQH7g320qOzMkdhj5LTo,4349
+proxlist/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/unit/test_proxies.py,sha256=oBRtZbRNyIlxPVBmbLgXA4MiT0tM0kxwjeq_mIDBPp4,2842
+proxlist-0.4.0.dist-info/LICENSE,sha256=mq4Ki0I01VvUB-mByrPZUCjgFwhcxEg5Z8aNPKLozKQ,1071
+proxlist-0.4.0.dist-info/METADATA,sha256=x0JMEW8WhgBCHOo-VfA9M3CQ0LdmrhyaQzCKO1cZuVw,3315
+proxlist-0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+proxlist-0.4.0.dist-info/top_level.txt,sha256=6HuRz4FQZ7YSFs3bDF7YCSYPywz3rZBgmC7QloyVC5w,14
+proxlist-0.4.0.dist-info/RECORD,,
