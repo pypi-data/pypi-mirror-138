@@ -1,0 +1,6 @@
+NyaaPy
+rich
+textual
+textual_inputs
+appdirs
+anitopy
