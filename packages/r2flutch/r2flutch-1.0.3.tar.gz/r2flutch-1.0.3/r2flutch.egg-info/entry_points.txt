@@ -1,0 +1,3 @@
+[console_scripts]
+r2flutch = r2flutch.bin.run:main
+

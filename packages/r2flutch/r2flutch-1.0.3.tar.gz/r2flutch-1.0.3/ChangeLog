@@ -1,0 +1,45 @@
+CHANGES
+=======
+
+1.0.3
+-----
+
+* Ignoring specific files that are not part of the app logic during IPA build
+
+1.0.2
+-----
+
+* Increase BlockSize to 4MB
+* Giving base64 to support special encodings
+* Added info and troubleshooting to README.md
+
+1.0.1
+-----
+
+* Using base64: when listing content
+* Update README.md
+* Update gif
+* Add Demo to README
+* Update README.md
+* Update README
+* Update README.md
+* Minor changes
+* Minor changes
+* Update README
+
+1.0.0
+-----
+
+* Ready to release
+* Packaged to use pypi
+* Added pypi Setup
+* Prepared package to pypi
+* First app version
+* Add tests and code checks
+* Add LICENSE
+* Refactor code of r2f plugin
+* Some code refactor
+* Update gitignore
+* Remove files
+* First version
+* Initial commit
