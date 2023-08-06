@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+WordleGuesser/__init__.py
+WordleGuesser.egg-info/PKG-INFO
+WordleGuesser.egg-info/SOURCES.txt
+WordleGuesser.egg-info/dependency_links.txt
+WordleGuesser.egg-info/top_level.txt
+WordleGuesser/wordle/__init__.py
+WordleGuesser/wordle/guesser.py
+WordleGuesser/wordle/utils.py
+WordleGuesser/wordle/words.py
