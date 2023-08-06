@@ -1,0 +1,7 @@
+cairo-lang==0.4.2
+contextvars==2.4
+ipykernel==6.4.2
+jupyter==1.0.0
+jupyter_client==6.1.12
+pygments==2.11.2
+pytest==6.2.5
