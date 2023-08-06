@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: oeg-iv
+Version: 1.9.1
+Summary: Python package for communication with InspectionViewer app
+Home-page: https://github.com/vb64/oeg.iv
+Author: Vitaly Bogomolov
+Author-email: mail@vitaly-bogomolov.ru
+License: UNKNOWN
+Download-URL: https://github.com/vb64/oeg.iv/archive/v1.9.1.tar.gz
+Keywords: python,InspectionViewer,csv
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: py23 (==1.1)
+
+# oeg.iv
+
+Python package for communication with InspectionViewer app
+
+
