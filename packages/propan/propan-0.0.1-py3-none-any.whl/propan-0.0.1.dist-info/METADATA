@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: propan
+Version: 0.0.1
+Summary: 
+Author: PasNA6713
+Author-email: diementros@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: aio-pika (>=6.8.0,<7.0.0)
+Requires-Dist: aiohttp (>=3.7.4.post0,<4.0.0)
+Requires-Dist: loguru (>=0.5.3,<0.6.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Requires-Dist: uvloop (>=0.16.0,<0.17.0)
+Requires-Dist: watchgod (>=0.6,<0.7)
