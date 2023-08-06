@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: sushida
+Version: 0.1.0
+Summary: Sushida API for Python
+Home-page: https://github.com/kagemeka/sushida-python#readme
+License: MIT
+Keywords: sushida,python,api
+Author: Hiroshi Tsuyuki
+Author-email: kagemeka1@gmail.com
+Maintainer: Hiroshi Tsuyuki
+Maintainer-email: kagemeka1@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: Pillow (==8.3.1)
+Requires-Dist: PyYAML
+Requires-Dist: filesystem-python (==0.2.0)
+Requires-Dist: furo; extra == "docs"
+Requires-Dist: myst-parser; extra == "docs"
+Requires-Dist: optext-python (==0.1.1)
+Requires-Dist: pdoc3; extra == "docs"
+Requires-Dist: pyautogui
+Requires-Dist: pydata-sphinx-theme; extra == "docs"
+Requires-Dist: pytesseract (==0.3.7)
+Requires-Dist: python-docs-theme; extra == "docs"
+Requires-Dist: python-xlib
+Requires-Dist: selenium
+Requires-Dist: sphinx-book-theme; extra == "docs"
+Requires-Dist: sphinx-theme-pd; extra == "docs"
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx_rtd_theme (<=2.0.0); extra == "docs"
+Requires-Dist: sphinxcontrib-mermaid; extra == "docs"
+Requires-Dist: webdriver-manager
+Project-URL: Documentation, https://sushida.readthedocs.io
+Project-URL: Repository, https://github.com/kagemeka/sushida-python
+Description-Content-Type: text/markdown
+
+# sushida-py
+The RPA tool for Sushida with Python
+
+
+# Environment
+- ubuntu:20.04
+- [docker](https://www.docker.com/)
+- [docker-compose](https://docs.docker.com/compose/install/)
+
+
+# Usage
+## start
+```sh
+$ xhost + \
+  && cd ./env/docker/ \
+  && docker-compose up
+```
+
+## stop forcely
+```sh
+$ docker-compose down
+```
+
+
+## Sample result
+The screenshot of the result is saved as `data/result.png`
+after the program done successfly.
+![score](./docs/static/score.png)
+![rank](./docs/static/rank.png)
+
