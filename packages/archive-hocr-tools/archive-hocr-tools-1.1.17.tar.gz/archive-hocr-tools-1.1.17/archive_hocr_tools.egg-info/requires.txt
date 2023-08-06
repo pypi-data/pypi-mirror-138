@@ -1,0 +1,5 @@
+lxml
+
+[epub]
+ebooklib==0.17.1
+internetarchive-deriver-module==1.0.1
