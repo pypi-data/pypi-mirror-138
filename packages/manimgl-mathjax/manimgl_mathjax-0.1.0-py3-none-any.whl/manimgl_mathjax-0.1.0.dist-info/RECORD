@@ -1,0 +1,12 @@
+manimgl_mathjax/__init__.py,sha256=9J2VYHMJBaf3FBbui_1idmz1iyRVCGixuFEnoTrCOcg,120
+manimgl_mathjax/index.js,sha256=QVSzHpcWFt1HqrWommElIn_GVC39yozKadgJ2Vj_cDI,150
+manimgl_mathjax/installer.py,sha256=cjp_ellZlH_GUqse87wN2hHl68TvKN79xKTUQhxlr5M,886
+manimgl_mathjax/mathjax.py,sha256=_7sBc5ygS_oN6GIokJV0T3CIM6aINE5wfbAfEC-bjiw,2163
+manimgl_mathjax/package.json,sha256=bgTzPLbvXA0L2JUPHtpO4alj4PgNMDbidc4QnUdpSRE,237
+manimgl_mathjax/tex2svg.js,sha256=jhA1jW3o6Mw9Vf_oaYXDiX96lOqJvW0es4_jVKXCfjs,820
+manimgl_mathjax-0.1.0.dist-info/LICENSE.md,sha256=-o8Vv6lw4w-fFUMroux98jRDKhGTPnNwbQetK4ds5FU,1080
+manimgl_mathjax-0.1.0.dist-info/METADATA,sha256=7irBepzvY-djj2xv4CtRsnok1EX5eSNXrQMpCCQf9p0,1641
+manimgl_mathjax-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+manimgl_mathjax-0.1.0.dist-info/entry_points.txt,sha256=jqKwwTBxhCTQ3hwHM-7NA3tkEZu2c1bpMWKbhGXbTFI,68
+manimgl_mathjax-0.1.0.dist-info/top_level.txt,sha256=6UBl5CWecvm559FxpgGwzsmPnKDh69i8wHotCcw7808,16
+manimgl_mathjax-0.1.0.dist-info/RECORD,,

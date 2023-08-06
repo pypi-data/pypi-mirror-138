@@ -1,0 +1,3 @@
+[console_scripts]
+manimgl-mathjax = manimgl_mathjax.installer:main
+
