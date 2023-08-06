@@ -1,0 +1,15 @@
+mrob-0.0.8.data/purelib/mrob/__init__.py,sha256=Jy9ULQYFqrLwCLm8DZ_CIZZ3XebzcV_cw-haOHy_4RA,1631
+mrob-0.0.8.data/purelib/mrob/libFGraph.dylib,sha256=eYtSh1qEALikgPULs5a619myTpCYaNwHa67V_afexrk,331760
+mrob-0.0.8.data/purelib/mrob/libPCRegistration.dylib,sha256=rn3fo0gOB5TZ8T3r5Y2q07gBSqubPY9Vf6z7LBBwBu0,316776
+mrob-0.0.8.data/purelib/mrob/libSE3.dylib,sha256=34YqD1o2-8sxpsiQTuSiuas8klAzTS0wEx_SBkhnjhk,124176
+mrob-0.0.8.data/purelib/mrob/libcommon.dylib,sha256=vU-mW3DzFe1agDYHvWg47EcJfzLzJ67SXuOYBYKENWo,94736
+mrob-0.0.8.data/purelib/mrob/mrob.cpython-310-darwin.so,sha256=RNL_6GHC44Ih9b2D2PBaGUwntOeR3OR5Sj4DOyz1D8M,444616
+mrob-0.0.8.data/purelib/mrob/mrob.cpython-36m-darwin.so,sha256=mWWWEhfYXvufaeOawH6L0RsHrnic1UxwbK6_YjkKFlk,494560
+mrob-0.0.8.data/purelib/mrob/mrob.cpython-37m-darwin.so,sha256=R6Zxkp0C28B8hIVWgoGyY9qmlTr3oVR3c0poW6tW_Lg,494608
+mrob-0.0.8.data/purelib/mrob/mrob.cpython-38-darwin.so,sha256=YjRVQfmNUKa--ombZ8PysY0RKhwKSxNtnRhpqBxXPfQ,494624
+mrob-0.0.8.data/purelib/mrob/mrob.cpython-39-darwin.so,sha256=bauyJSIyEOss-N7QeiZuQJHg8RrNlgTk_kurkelwNE0,494608
+mrob-0.0.8.dist-info/LICENSE,sha256=TjwPGVIrjI9ExfDgBrMgxfU1AF2mwazV13qp2l9iDqM,9239
+mrob-0.0.8.dist-info/METADATA,sha256=WPt5SBzRgr18akxC4NVgkXpDhNYtRk3gqZ3WzDPMIkU,3822
+mrob-0.0.8.dist-info/WHEEL,sha256=2RPuuyK-ojSnZPD4PDGQU0e8QdWNlysyzv05dEOzyVU,108
+mrob-0.0.8.dist-info/top_level.txt,sha256=UM0gF3Ckgl4wRuKrIEqaitvgo2I9oUaFbzdsd4X1CcY,5
+mrob-0.0.8.dist-info/RECORD,,
