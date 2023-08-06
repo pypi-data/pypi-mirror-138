@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: samino
+Version: 1.9.3
+Summary: Amino Bots with python!
+Home-page: https://github.com/SirLez/SAmino
+Download-URL: https://github.com/SirLez/SAmino/archive/refs/heads/main.zip
+Author: SirLez
+Author-email: botsirlez@gmail.com
+License: MIT
+Keywords: api,python,python3,python3.x,SirLez,sirlez,srlz,سيرلزbovonos,TexazSmileBovo,Marshall Amino,Texaz Amino,a7rf,A7RF,A7rf,bovonus,Amino,samino,samino pyS-Amino,samino,samino,samino-bot,samino-bots,samino-bot,ndc,narvii.apps,aminoapps,samino-py,samino,samino-bot,narvii
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: JSON-minify
+Requires-Dist: setuptools
+Requires-Dist: requests
+Requires-Dist: websocket-client (==0.57.0)
+Requires-Dist: Amino-Socket
+
+<h1 align="center">
+  <br>
+  <a href="https://discord.gg/54E3j7eyDV"><img src="https://pysc.cf/static/images/img-1.jpg" width="600"></a>
+  <br>
+</h1>
+
+
+### What is this lib?
+Unofficial Amino API written in Python to easily connect Amino servers
+
+### How to install?
+`pip install SAmino`
+- **FOCUS!:** type `SAmino` **Not** `Amino`
+
+
+
+**CR**: Pysc Overall
+
+
