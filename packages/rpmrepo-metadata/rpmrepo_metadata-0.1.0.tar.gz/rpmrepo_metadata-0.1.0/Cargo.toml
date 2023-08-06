@@ -1,0 +1,50 @@
+[[bench]]
+harness = false
+name = "repository"
+
+[dependencies]
+digest = "0.10.2"
+hex = "0.4.3"
+indexmap = "1.7.0"
+sha1 = "0.10.0"
+sha2 = "0.10.1"
+thiserror = "1.0.28"
+
+[dependencies.niffler]
+default-features = false
+features = ["bz2", "xz", "gz"]
+version = "2.4.0"
+
+[dependencies.pyo3]
+features = ["extension-module"]
+optional = true
+version = "0.15.1"
+
+[dependencies.quick-xml]
+default-features = false
+path = "local_dependencies/quick-xml"
+
+[dev-dependencies]
+criterion = "0.3"
+once_cell = "1.8.0"
+pretty_assertions = "1.0.0"
+tempdir = "0.3.7"
+
+[features]
+python = ["pyo3"]
+
+[lib]
+crate-type = ["lib", "cdylib"]
+name = "rpmrepo_metadata"
+
+[package]
+authors = ["Daniel Alley <dalley@redhat.com>"]
+edition = "2021"
+name = "rpmrepo_metadata"
+version = "0.1.0"
+[profile.dev]
+opt-level = 1
+
+[profile.release]
+debuginfo = 1
+lto = "thin"
