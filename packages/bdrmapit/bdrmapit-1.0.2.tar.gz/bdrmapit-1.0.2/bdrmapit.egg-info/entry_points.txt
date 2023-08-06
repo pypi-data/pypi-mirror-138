@@ -1,0 +1,5 @@
+[console_scripts]
+bdrmapit = scripts.bdrmapit:main
+bm_addr = scripts.bm_addr:main
+bm_adj = scripts.bm_adj:main
+traceparser = scripts.traceparser:main
