@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+pypi_test_frank_momo.egg-info/PKG-INFO
+pypi_test_frank_momo.egg-info/SOURCES.txt
+pypi_test_frank_momo.egg-info/dependency_links.txt
+pypi_test_frank_momo.egg-info/top_level.txt
