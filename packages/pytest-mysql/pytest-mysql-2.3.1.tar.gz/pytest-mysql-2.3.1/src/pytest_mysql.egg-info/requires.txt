@@ -1,0 +1,8 @@
+pytest>=6.2
+port-for>=0.6.0
+mirakuru
+mysqlclient
+
+[tests]
+pytest-cov
+pytest-xdist
