@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/py_gen_func/Exceptions.py
+src/py_gen_func/__init__.py
+src/py_gen_func/functions.py
+src/py_gen_func.egg-info/PKG-INFO
+src/py_gen_func.egg-info/SOURCES.txt
+src/py_gen_func.egg-info/dependency_links.txt
+src/py_gen_func.egg-info/top_level.txt
