@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+rp_annot/__init__.py
+rp_annot.egg-info/PKG-INFO
+rp_annot.egg-info/SOURCES.txt
+rp_annot.egg-info/dependency_links.txt
+rp_annot.egg-info/requires.txt
+rp_annot.egg-info/top_level.txt
