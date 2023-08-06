@@ -1,0 +1,6 @@
+requests
+lark
+soupsieve>=2.3.1
+bs4
+nltk
+pyaml
