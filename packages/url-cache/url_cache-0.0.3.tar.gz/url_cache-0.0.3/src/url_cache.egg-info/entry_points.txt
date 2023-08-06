@@ -1,0 +1,3 @@
+[console_scripts]
+url_cache = url_cache.__main__:main
+
