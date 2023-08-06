@@ -1,0 +1,6 @@
+
+[:python_version >= "0.7.0"]
+build
+
+[:python_version >= "3.8.0"]
+twine

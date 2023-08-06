@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pypkggen/__init__.py
+src/pypkggen/files.py
+src/pypkggen/licenses.py
+src/pypkggen/pypkggen.py
+src/pypkggen/setup_file.py
+src/pypkggen.egg-info/PKG-INFO
+src/pypkggen.egg-info/SOURCES.txt
+src/pypkggen.egg-info/dependency_links.txt
+src/pypkggen.egg-info/requires.txt
+src/pypkggen.egg-info/top_level.txt
