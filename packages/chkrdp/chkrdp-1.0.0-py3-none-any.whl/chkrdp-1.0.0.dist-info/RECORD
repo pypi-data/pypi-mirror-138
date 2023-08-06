@@ -1,0 +1,10 @@
+packageTest1/__init__.py,sha256=WMfes1yzIUlQXIAcaJqw6EiTae9I-ZEBoEqg7ATFK5s,43
+packageTest1/packageTest1_1.py,sha256=T8v1GOpKxpmOp9kc1ZR3BmL-8-sQoxSFq1JNmfMOhKw,56
+packageTest1/packageTest1_2.py,sha256=ZZbjU3BbmHnlLFtZXVxQ2xT1osZUVXG5YU2OWMX4_pM,56
+packageTest2/__init__.py,sha256=hPl7CZtSoW3HAJghD71V-1_4glkk72YB75uFWrCbzCY,43
+packageTest2/packageTest2_1.py,sha256=sPxVSnye7vPW0cJOhvPpuXyQuVxdTD6Z_9IJpJMeso0,56
+packageTest2/packageTest2_2.py,sha256=Nxz0Zoctdi8GjegBfrQSUup5Jp2AXn7t1O5DWMEz3wo,56
+chkrdp-1.0.0.dist-info/METADATA,sha256=c_V85xr4DFXT-o4fJrVQGU-jdst_gW8KbekyHelvofo,201
+chkrdp-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+chkrdp-1.0.0.dist-info/top_level.txt,sha256=NVXL_2UrtCOO45WJpAbtVx9fSuo1pf-OWAIPsJeBZi4,26
+chkrdp-1.0.0.dist-info/RECORD,,
