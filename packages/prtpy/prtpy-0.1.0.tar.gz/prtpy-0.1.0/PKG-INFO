@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: prtpy
+Version: 0.1.0
+Summary: Number partitioning in Python
+Home-page: https://github.com/erelsgl/prtpy
+Author: Erel Segal-Halevi
+Author-email: erelsgl@gmail.com
+License: MIT
+Project-URL: Bug Reports, https://github.com/erelsgl/prtpy/issues
+Project-URL: Source Code, https://github.com/erelsgl/prtpy
+Keywords: optimization,partition
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# prtpy 
+
+![Pytest result](https://github.com/erelsgl/prtpy/workflows/pytest/badge.svg)
+[![PyPI version](https://badge.fury.io/py/prtpy.svg)](https://badge.fury.io/py/prtpy)
+
+Python code for multiway number partitioning.
+Supports several exact and approximate algorithms, with several input formats, optimization objectives and output formats.
+
+## Installation
+
+    pip install prtpy
+
+To use the integer-programming functions, you also need an ILP solver. On Windows, the simplest one to install is the [CBC solver](https://projects.coin-or.org/Cbc), which you can install by:
+
+    pip install cylp
+
+On Linux and Mac, you need to install the CBC binaries before that; see the [CyLP](https://github.com/coin-or/CyLP) documentation. For example, on Ubuntu 20.04 with Python 3.8 or 3.9, you can run:
+
+    sudo apt-get update
+    sudo apt-get install coinor-libcbc-dev
+    pip install cylp
+
+If you want a more efficient ILP solver, you need to manually install one.
+The supported solvers are the ones supported by `cvxpy`, which are:
+XPRESS, SCIP, GUROBI and MOSEK. GLPK_MI is also supported, but it is very slow.
+See the [CVXPY documentation](https://www.cvxpy.org/tutorial/advanced/index.html#mixed-integer-programs) for more information.
+
+## Usage
+
+The function `prtpy.partition` can be used to activate all algorithms. For example, to partition the values [1,2,3,4,5] into two bins using the greedy algorithm, do:
+
+    import prtpy
+    prtpy.partition(algorithm=prtpy.approx.greedy, numbins=2, items=[1,2,3,4,5])
+
+For more features and examples, see:
+
+1. [Algorithms](examples/algorithms.md);
+1. [Input formats](examples/input_formats.md);
+1. [Optimization objectives](examples/objectives.md);
+2. [Output formats](examples/output_formats.md).
+
+
+## Limitations
+
+The package is tested only on Python 3.8 and 3.9. Earlier versions, as well as 3.10, are not supported.
+
+
+
+
