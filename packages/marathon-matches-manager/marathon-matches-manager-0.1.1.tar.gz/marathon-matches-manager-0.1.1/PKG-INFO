@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: marathon-matches-manager
+Version: 0.1.1
+Summary: 
+Author: kryInit
+Author-email: kryinit@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Flask (>=2.0.3,<3.0.0)
+Requires-Dist: docopt (>=0.6.2,<0.7.0)
