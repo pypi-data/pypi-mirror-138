@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.cfg
+src/asdl_adt/__init__.py
+src/asdl_adt/adt.py
+src/asdl_adt/validators.py
+src/asdl_adt.egg-info/PKG-INFO
+src/asdl_adt.egg-info/SOURCES.txt
+src/asdl_adt.egg-info/dependency_links.txt
+src/asdl_adt.egg-info/requires.txt
+src/asdl_adt.egg-info/top_level.txt
+test/test_attributes.py
+test/test_immutability.py
+test/test_memoization.py
+test/test_ueq_grammar.py
+test/test_update.py
+test/test_validators.py
