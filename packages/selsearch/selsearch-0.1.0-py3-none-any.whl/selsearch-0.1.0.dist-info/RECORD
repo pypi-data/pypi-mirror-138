@@ -1,0 +1,11 @@
+selsearch/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+selsearch/environ.py,sha256=4dwCxK89Y6fT8e89l4LQNW59QDmxjwqN51qeI7dorUw,173
+selsearch/main.py,sha256=BNYNHBiLqEstM0_XXW2s9Vb6Kr3Ivcodxq1FPWJBnDE,1126
+selsearch/selection.py,sha256=toz9gpeQYP8zdJdHm0-RRaa8EmGt6yv_sm2TaTnBXLQ,635
+selsearch/where.py,sha256=MmbLSecaWkoHPQuo8NQAun3jbQI3gioBiTN7TXxPyag,823
+selsearch-0.1.0.dist-info/LICENSE.md,sha256=uJQLR_rUTKQEY2Aejug5Dg7b57kar4y6DWx8XQWPCRA,1067
+selsearch-0.1.0.dist-info/METADATA,sha256=8VM3A_MbhGLZpMcpcyOCCt62XYLYs-1iKyQR8IX4Bkc,2698
+selsearch-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+selsearch-0.1.0.dist-info/entry_points.txt,sha256=0KX7Ti8YJbe2BzQHV2a-chgkpOmn-Lnk8wtliv4RE94,69
+selsearch-0.1.0.dist-info/top_level.txt,sha256=lWlR-sxACr-otBBbKIC6LuK0j85BVZFLq2sPQGfFzi8,10
+selsearch-0.1.0.dist-info/RECORD,,
