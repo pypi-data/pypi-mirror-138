@@ -1,0 +1,7 @@
+beautifulsoup4>=4.6.3
+chardet
+html5lib
+lxml
+pypdf3
+python-magic
+reportlab
