@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: cs-sync
+Version: 0.0.19
+Summary: UNKNOWN
+Home-page: https://kyleldavis.com/
+Author: Kyle L. Davis
+Author-email: AceofSpades5757.github@gmail.com
+License:     Custom syncing library of local files.
+        
+            Copyright Â© 2022 Kyle L. Davis
+        
+            Permission is hereby granted, free of charge, to any person obtaining
+            a copy of this software and associated documentation files (the "Software"),
+            to deal in the Software without restriction, including without limitation
+            the rights to use, copy, modify, merge, publish, distribute, sublicense,
+            and/or sell copies of the Software, and to permit persons to whom the
+            Software is furnished to do so, subject to the following conditions:
+        
+            The above copyright notice and this permission notice shall be included
+            in all copies or substantial portions of the Software.
+        
+            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+            EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+            OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+            IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+            DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+            TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
+            OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+
+# Descriptions
+
+A custom syncing tool. Originally used to simply tasks such as checking on my local Git repositories and syncing to my Taskwarrior server. May someday add S3 support.
+
+## Current Support
+
+* Git
+* Taskwarrior
+
+# Usage
+
+Uses async operations, alongside package such as Click (what Typer is built upon) and blessed to create a pleasant experience checking on your local repos and syncing your tasks with your Taskwarrior server.
+
+The default is to check your config file, located at `~/.cssync`, and load up your configuration details. If this is not the case, then it will use reasonable defaults for your local configuration.
+
+

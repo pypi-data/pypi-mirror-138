@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        cssync=cs_sync.main:cli
+    
