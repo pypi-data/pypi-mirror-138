@@ -1,0 +1,16 @@
+munet/__init__.py,sha256=z6lGBDTAcgqXa4T3n-dzmxpgaKLPxEbIEyEr8qZGyIU,1494
+munet/__main__.py,sha256=6PXy-wAOtqz4_rth44rg8b0D6Kvp63yyqMCU2XJfhFI,5097
+munet/base.py,sha256=OzGu_clLiWunAT4slDz5yI1snjNLq57iHiOc1_kBytE,59397
+munet/cleanup.py,sha256=HtNTTgqcJM2851mSXpI3WIx4-EwbuAMb8qAaWMTKuQ0,4009
+munet/cli.py,sha256=xuoEgc_SM82pHaEGdgnRoduwHVzo9pjW5MjOygup9iU,19595
+munet/kinds.yaml,sha256=2CLIQTVwv6NROkcUOVLS8Ego4u6sbRqJyeN42FujBKI,2074
+munet/logconf.yaml,sha256=g2h4hHZRRf6TU4YvlZ_JnE_HmK2YvQGDj9i-jMzI0D0,507
+munet/mucmd.py,sha256=0WWMXbRdWUnCH8rgF8t0wfOBZ9WKo_ax48do1tWmSo8,2567
+munet/munet-schema.yaml,sha256=7b7l1nH_BUdhbf-FZyHTgKSlxoo9EtnWOvyvhBSEf-g,4797
+munet/native.py,sha256=ctN53pUK2zLkWz4kc_sEzaS5OJe3vdv1J3eXHbkiIBk,33329
+munet/parser.py,sha256=r_nQrPhmojqt-hdS60PnM1ASV0bMbm2XoKS8Pst4uWs,11912
+munet-0.8.8.dist-info/entry_points.txt,sha256=juPAp6l2N0U3v3CKQFQdVU-IOgYjYWp0y69lz3u9PcU,68
+munet-0.8.8.dist-info/LICENSE.md,sha256=rvi0Iit50Nv2vxfP_3HJCmpruJF6QWKr5Be0ae0i2i4,17895
+munet-0.8.8.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+munet-0.8.8.dist-info/METADATA,sha256=VUgW_4IE1HSLhoXNwbcyQ7kNNyA70RNe4RuipDNBQ5Y,14702
+munet-0.8.8.dist-info/RECORD,,
