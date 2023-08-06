@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/sm02eveldc/__init__.py
+src/sm02eveldc/__main__.py
+src/sm02eveldc.egg-info/PKG-INFO
+src/sm02eveldc.egg-info/SOURCES.txt
+src/sm02eveldc.egg-info/dependency_links.txt
+src/sm02eveldc.egg-info/top_level.txt
