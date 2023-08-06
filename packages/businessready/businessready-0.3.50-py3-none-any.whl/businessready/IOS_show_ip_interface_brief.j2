@@ -1,0 +1,37 @@
+{%- if filetype_loop == 0 %}Name,Entitlement,Count,Status
+{%- else %}
+{%-     if filetype_loop == 1 %}
+# Show License Summary
+| |
+| |
+
+|  |
+{%-     else %}
+{%-         if filetype_loop == 2 %}
+<html><body>
+<h1>Show License Summary</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Entitlement</th>
+      <th>Count</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+
+  <tr>
+    <td>{{ license.license_name }}</td>
+    <td>{{ license.entitlement }}</td>
+    <td>{{ license.count }}</td>
+    <td>{{ license.status }}</td>
+  </tr>
+{%-             endfor %}{% endfor %}
+  </tbody>
+</table>
+</body></html>
+{%-         else %}
+# Show License Summary
+
+{% endif %}{% endif %}{% endif %}
