@@ -1,0 +1,5 @@
+astropy
+gwpy
+h5py
+matplotlib
+numpy
