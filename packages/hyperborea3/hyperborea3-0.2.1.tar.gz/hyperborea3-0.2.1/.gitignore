@@ -1,0 +1,13 @@
+*__pycache__*
+*.ipynb_checkpoints*
+.pytest_cache/
+.python-version
+.vscode
+hyperborea3.egg-info
+settings.json
+*.pyc
+build/
+dist/
+local/
+.DS_Store
+.tox
