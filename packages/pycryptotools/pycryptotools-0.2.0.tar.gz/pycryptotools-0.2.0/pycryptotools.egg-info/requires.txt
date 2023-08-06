@@ -1,0 +1,5 @@
+requests
+pbkdf2
+eth-hash
+cashaddress
+pycryptodome
