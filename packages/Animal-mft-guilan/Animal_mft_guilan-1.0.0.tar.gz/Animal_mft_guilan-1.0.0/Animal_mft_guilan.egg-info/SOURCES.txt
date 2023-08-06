@@ -1,0 +1,8 @@
+README.md
+setup.py
+AnimalPackage/AnimalPackage.py
+AnimalPackage/__init__.py
+Animal_mft_guilan.egg-info/PKG-INFO
+Animal_mft_guilan.egg-info/SOURCES.txt
+Animal_mft_guilan.egg-info/dependency_links.txt
+Animal_mft_guilan.egg-info/top_level.txt
