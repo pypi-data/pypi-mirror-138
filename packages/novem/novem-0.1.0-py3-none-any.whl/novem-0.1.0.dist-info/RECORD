@@ -1,0 +1,14 @@
+novem/__init__.py,sha256=qjKDrHQxDT9o02KwPK2Q4gRnVBIYnkF_wzU7WnOEzjo,95
+novem/__main__.py,sha256=pW1Td4shY8BzcnWOf_WWpsHO6R6nX44WVpBNs3MyBJM,152
+novem/api.py,sha256=qMGL6mXn2JfAIiCoJkbhNFU2hzU5lyQ4CBBRiW4LPjY,3266
+novem/cli.py,sha256=FxI_LK6e62oZGzFVbrnK1q2BWr1Ces4zkDVYX8Dzq2A,4216
+novem/setup.py,sha256=XnSua7FzZVkOkMKI9OQaMk1eMxyKsDjfvGvhsh9JyLM,2122
+novem/utils.py,sha256=9qPMRVd0akOi5Hj5TiEE5vOifoDwVTkxofyEllpeoaU,2920
+novem/version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+novem/vis/__init__.py,sha256=WoFySqIgPiqsk3UCzuLH0FSk0fE9J_wmJohe2zt46ZU,4009
+novem/vis/plot.py,sha256=bab5MKTN3ZVuXm4YDIDXhaiQclv4JcuieLZx5S3J1dg,2342
+novem/vis/shared.py,sha256=OfyFA91C-SqSeqDO-TzkCh4odL4RNSW5DlXMzKQl0QE,1435
+novem-0.1.0.dist-info/LICENSE,sha256=vmHMjFrolPpwTkfAIidlAfEropNjrqpJxjjnDZNRJfY,1194
+novem-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+novem-0.1.0.dist-info/METADATA,sha256=RPiKA2sWlvdUIF82ByACAIsVGel2VHg6ihDuJ-qk-BM,589
+novem-0.1.0.dist-info/RECORD,,

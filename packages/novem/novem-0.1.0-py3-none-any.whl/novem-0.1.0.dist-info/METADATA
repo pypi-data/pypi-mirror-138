@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: novem
+Version: 0.1.0
+Summary: python library for the novem.no data visualisation platform
+Home-page: https://novem.no
+License: MIT
+Author: Sondov Engen
+Author-email: sondov@novem.no
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Repository, https://github.com/novem-no/novem
