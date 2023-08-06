@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: beyond-basic-calculator
+Version: 0.0.1
+Summary: simple calculator
+Home-page: UNKNOWN
+Author: Deme Xavier
+Author-email: dpk.williams@gmail.com
+License: MIT
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+Simple calulator - Add, Subtract, Multiply or Divide any numbers
+
+Change Log
+==========
+
+0.0.1 (11/02/2022)
+
+------------------
+
+- First release
+
+
+

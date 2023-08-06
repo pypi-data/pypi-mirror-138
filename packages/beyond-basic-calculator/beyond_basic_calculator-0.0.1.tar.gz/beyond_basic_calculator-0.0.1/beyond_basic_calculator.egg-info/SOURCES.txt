@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+beyond_basic/__init__.py
+beyond_basic_calculator.egg-info/PKG-INFO
+beyond_basic_calculator.egg-info/SOURCES.txt
+beyond_basic_calculator.egg-info/dependency_links.txt
+beyond_basic_calculator.egg-info/top_level.txt
