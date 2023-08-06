@@ -1,0 +1,8 @@
+setup.py
+nonebot-plugin-read_60s/__init__.py
+nonebot-plugin-read_60s/config.py
+nonebot_plugin_read_60s.egg-info/PKG-INFO
+nonebot_plugin_read_60s.egg-info/SOURCES.txt
+nonebot_plugin_read_60s.egg-info/dependency_links.txt
+nonebot_plugin_read_60s.egg-info/not-zip-safe
+nonebot_plugin_read_60s.egg-info/top_level.txt
