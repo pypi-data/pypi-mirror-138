@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: fifteen-ai
+Version: 0.2.0
+Summary: TTS by 15.ai
+License: MIT
+Author: Angelo Gladding
+Author-email: angelo@ragt.ag
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: playsound (>=1.3.0,<2.0.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Project-URL: Homepage, https://github.com/angelogladding/fifteen-ai
+Description-Content-Type: text/markdown
+
+# fifteen-ai
+TTS (text-to-speech) by 15.ai
+
+```shell
+pip install fifteen_ai
+```
+
+```python
+import fifteen_ai
+
+fifteen_ai.tts("I'm sorry Dave. You can't do that.", "Twilight Sparkle")
+```
+
+```shell
+python -m fifteen_ai "I'm sorry Dave. You can't do that."
+```
+
