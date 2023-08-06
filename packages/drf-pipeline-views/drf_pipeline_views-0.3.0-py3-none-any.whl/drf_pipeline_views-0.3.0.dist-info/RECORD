@@ -1,0 +1,16 @@
+LICENSE,sha256=aVX99MHe0Uow-2bjeqfTl5aEIdLgYWhrvYioTrZI_js,1090
+README.md,sha256=ClURrnwi-6OVzLAJCuUVQl8Yd2t3LMUmO_brs6tZUPE,3701
+pipeline_views/__init__.py,sha256=oHmKeDK00lHVp1l0Vv691pxNRKtRJ25yKMeA3J4BRwM,366
+pipeline_views/exceptions.py,sha256=zUAc9MZOZmRLfHMeP4Dn2xdu6y7pc9z4iSKPvAsj2UY,501
+pipeline_views/inference.py,sha256=RXmS7Ugk7A77nI_bpgrov4gZ3ZPiZi_XJlVzNBtXLMo,6121
+pipeline_views/mixins.py,sha256=xsBAScijlIDqCszVmBc55iZRuhosxM4yrCD7eVgQA5Y,3119
+pipeline_views/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pipeline_views/schema.py,sha256=-dn-YKkncM4ty1WxoDOR5urxfzvQ6h5u58w3Sa-yIvc,3083
+pipeline_views/serializers.py,sha256=zCx1qQBJHqJdQ3i3xk216Ay82vi1sezIIJJuwmrE4zc,618
+pipeline_views/typing.py,sha256=OIJDk9_hBeWc-LIEEdEN4mzmp8XUOxAFeNGEcpcDGKY,2389
+pipeline_views/utils.py,sha256=-T1kA4VW0-uSkFktJmizJ2iptV1CsKFtNIjWJFsGAdk,4053
+pipeline_views/views.py,sha256=L9EOS2FgkDcBxTPsCvZVqVEhBKId-eLECcKfygoSzOk,6038
+drf_pipeline_views-0.3.0.dist-info/LICENSE,sha256=aVX99MHe0Uow-2bjeqfTl5aEIdLgYWhrvYioTrZI_js,1090
+drf_pipeline_views-0.3.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+drf_pipeline_views-0.3.0.dist-info/METADATA,sha256=bul4HB60rskMXidSIhd850bwRHZcrMJBbADxmWoMQ_U,5077
+drf_pipeline_views-0.3.0.dist-info/RECORD,,
