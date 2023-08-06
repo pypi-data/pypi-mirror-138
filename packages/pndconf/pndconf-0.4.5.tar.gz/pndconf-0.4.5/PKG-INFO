@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pndconf
+Version: 0.4.5
+Summary: 
+License: MIT
+Author: Akshay
+Author-email: akshay.badola.cs@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: bibtexparser (>=1.2.0,<2.0.0)
+Requires-Dist: chardet (>=4.0.0,<5.0.0)
+Requires-Dist: common-pyutil (>=0.8.0,<0.9.0)
+Requires-Dist: pandoc-eqnos (>=2.5.0,<3.0.0)
+Requires-Dist: pandocfilters (>=1.5.0,<2.0.0)
+Requires-Dist: pyyaml (>=5.4.0,<6.0.0)
+Requires-Dist: watchdog (>=2.1.5,<3.0.0)
