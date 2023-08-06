@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: homework_checker
+Version: 0.1.1
+Summary: A generic homework checker.
+Home-page: https://github.com/niosus/homework_checker
+Download-URL: https://github.com/niosus/homework_checker/tarball/0.1.1
+Author: Igor Bogoslavskyi
+Author-email: igor.bogoslavskyi@gmail.com
+Maintainer: Igor Bogoslavskyi
+Maintainer-email: igor.bogoslavskyi@gmail.com
+License: Apache 2.0
+Keywords: homework-checker
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+License-File: LICENCE.txt
+
+# Homework checker #
+
+This is a python module and script that can be used to check homeworks.
+
+To be completed later
+
+
