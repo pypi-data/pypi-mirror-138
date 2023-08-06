@@ -1,0 +1,15 @@
+LICENSE
+README.md
+config.json
+pyproject.toml
+setup.py
+git_workon/__init__.py
+git_workon/cli.py
+git_workon/git.py
+git_workon/main.py
+git_workon/script.py
+git_workon.egg-info/PKG-INFO
+git_workon.egg-info/SOURCES.txt
+git_workon.egg-info/dependency_links.txt
+git_workon.egg-info/entry_points.txt
+git_workon.egg-info/top_level.txt
