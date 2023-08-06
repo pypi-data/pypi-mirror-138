@@ -1,0 +1,3 @@
+[console_scripts]
+pymov2gif = pymov2gif.__main__:command_line_parser
+
