@@ -1,0 +1,15 @@
+craft_store/__init__.py,sha256=4NrWTBdS0AQ3GD9SQ_Vn8q5gdIaxmNQ0wGjPDBoOp2o,1165
+craft_store/attenuations.py,sha256=O3qaLOaZ8z9MLdKt58-C1k6uVHuZFvOHXDGl4tj3Ktg,2551
+craft_store/auth.py,sha256=Jm-O1E62W2fbxM4dQgVdfnP-47iil0tbpVJzReoskfA,6654
+craft_store/base_client.py,sha256=dx3uaei8Mzro2zMhMNK45PzngaRvmvgbB4Z_FQGvND0,8985
+craft_store/endpoints.py,sha256=38QQ4FVT-g1LnXJSfs9Lrkq1YDF7vXk_1ukUa2-r8wM,5566
+craft_store/errors.py,sha256=8ooGeDFmlp9Fkx3g33J0EUrJL44bBbMFGzXfNIvXLjw,6084
+craft_store/http_client.py,sha256=6Z2ahUz34SI28dyxuaX-smvRv9GLoeMSiWYDEhemxE4,5609
+craft_store/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+craft_store/store_client.py,sha256=o0w2ewi7sH2h0GF3ozcKi37A7TZfvrZnB75F8Zm871g,4491
+craft_store/ubuntu_one_store_client.py,sha256=iz-dizsmTVv8rmOzty3UEmcRHZQ-9SfPx155H8PnbPQ,4993
+craft_store-2.0.1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+craft_store-2.0.1.dist-info/METADATA,sha256=DvOmEswAZdLFwNG2vykaHkuvEFmdNKGcHl3DgTbRbCk,4466
+craft_store-2.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+craft_store-2.0.1.dist-info/top_level.txt,sha256=ejyvuvJYhrLNA7W-Xo_yPHfIgJQX7yvGVIjx7DGmbXY,12
+craft_store-2.0.1.dist-info/RECORD,,
