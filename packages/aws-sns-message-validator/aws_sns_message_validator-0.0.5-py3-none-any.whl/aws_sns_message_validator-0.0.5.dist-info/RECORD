@@ -1,0 +1,9 @@
+sns_message_validator/__init__.py,sha256=cvpxlXS-5oPJb-__orOIM40bZFXdEJa601Yyvt7jrB0,126
+sns_message_validator/exceptions.py,sha256=haBv-yNsgmjI6nfy-RUoPR8YJpyCCuBQHOXe_gjRm38,237
+sns_message_validator/sns_message_type.py,sha256=ukQVuJmLKRn4BKP0m_NfeQ17vVlQb_LF6C1_Xf1PT1I,195
+sns_message_validator/sns_message_validator.py,sha256=FcASA9w8YBNV4LG6CP6-Ur_riRft8oCv9XkH46q5n4o,3537
+aws_sns_message_validator-0.0.5.dist-info/LICENSE,sha256=NsKdYadulSxvsdpeFsKCc2w8cBDBKR01TCZkGX9gcKA,1061
+aws_sns_message_validator-0.0.5.dist-info/METADATA,sha256=IaMV0aZtd7nSA632yTF8byJxUP3i3Mk2j78nCQw0l9A,2392
+aws_sns_message_validator-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_sns_message_validator-0.0.5.dist-info/top_level.txt,sha256=5ydtRlKS4QTFKYWPRApwZS5X01BjlgMHnO72TTDP5PY,22
+aws_sns_message_validator-0.0.5.dist-info/RECORD,,
