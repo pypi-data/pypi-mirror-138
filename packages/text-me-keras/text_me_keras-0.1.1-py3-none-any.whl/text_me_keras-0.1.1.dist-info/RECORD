@@ -1,0 +1,8 @@
+text_me_keras/callbacks/__init__.py,sha256=v-4lsPZ93Q7WacsdI44XcJFWiENvRbGvWsPIa7V82v0,35
+text_me_keras/callbacks/texting.py,sha256=mTsKuQTR5uiHPt3HpOB2GRvtzABZLUCLd5OSClwAZ5Y,2200
+text_me_keras/messaging/__init__.py,sha256=tj_nrD1TwvGbtqovIyhMIFOvQuexuWRJ51Ye25wRODs,28
+text_me_keras/messaging/sms.py,sha256=7P7o97cvMyf5rdIJRSFmEV6J9cR_oxrrCbKU9MmLItU,2403
+text_me_keras-0.1.1.dist-info/METADATA,sha256=BAmzsMR2z_bbvC1Lpd9kn97vY7dEn1za4K1duVzMWXw,4120
+text_me_keras-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+text_me_keras-0.1.1.dist-info/top_level.txt,sha256=ELi-CcxRMn9LACGZW8GZTspkkfEQZns5WVz0IXNM0Mc,14
+text_me_keras-0.1.1.dist-info/RECORD,,
