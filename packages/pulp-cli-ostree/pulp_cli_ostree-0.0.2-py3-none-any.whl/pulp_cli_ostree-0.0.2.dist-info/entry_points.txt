@@ -1,0 +1,3 @@
+[pulp_cli.plugins]
+ostree = pulpcore.cli.ostree
+

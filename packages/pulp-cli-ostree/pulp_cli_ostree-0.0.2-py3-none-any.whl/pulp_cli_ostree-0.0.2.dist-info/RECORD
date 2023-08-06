@@ -1,0 +1,11 @@
+pulpcore/cli/ostree/__init__.py,sha256=L2PGcx6Pagpamuc40TQAyGwKhFzdWEA0ym0ryaqZR7c,512
+pulpcore/cli/ostree/context.py,sha256=OPyrSXMdy48I-KQoHlI5caNUK0jO5tNC9fXz-YWeBVg,4060
+pulpcore/cli/ostree/distribution.py,sha256=BtVNqliKEzc_T-7D90ln4yXWNuM5Gu7rRol8j-3MWug,4905
+pulpcore/cli/ostree/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pulpcore/cli/ostree/remote.py,sha256=nwuYuBLe6snOB46cPqDO6lhbbucYy5HmMQ-LNV3lhvs,1521
+pulpcore/cli/ostree/repository.py,sha256=u0V3HPN7t0OtmIql9Ca1caRQ0PrVd5YySlgaIvdggsw,7761
+pulp_cli_ostree-0.0.2.dist-info/METADATA,sha256=DiE7JOf5TxqzJnFyONraM5N8cRjMz021ads40jLnUMQ,666
+pulp_cli_ostree-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pulp_cli_ostree-0.0.2.dist-info/entry_points.txt,sha256=ADTxwZNey54pvyD79B89vJS1Vr8HgqUdqyUzbSXyoHg,49
+pulp_cli_ostree-0.0.2.dist-info/top_level.txt,sha256=v1J0AeNxNhm8YE5-xQe1G1YbfoMRZ_u9DAg_Gi7omeY,9
+pulp_cli_ostree-0.0.2.dist-info/RECORD,,
