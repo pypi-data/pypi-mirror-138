@@ -1,0 +1,3 @@
+[console_scripts]
+regex-app = regexapp.application:execute
+
