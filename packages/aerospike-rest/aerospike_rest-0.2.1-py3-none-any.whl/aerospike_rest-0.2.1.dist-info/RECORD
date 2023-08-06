@@ -1,0 +1,10 @@
+aerospike_rest/__init__.py,sha256=vi6Ww_jrr67wVGhwzc6mjiQNsmQwB_1xXpK1lOsbIss,156
+aerospike_rest/api.py,sha256=IrCfNJKzFfjrKo2ORmYeC66AA29mVBPRAnR6U1eSYRU,6501
+aerospike_rest/exceptions.py,sha256=_s1d8P0yqlR6RkD21YCp3E7gck0h5BjPZpHQTEodOeU,2038
+aerospike_rest/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aerospike_rest/tests/test_api.py,sha256=uKp-1kGP99MinC5jqrc9On7NDcPFIXBjdOZsAQms9Ic,8782
+aerospike_rest-0.2.1.dist-info/LICENSE,sha256=NUtqIpAiZfEKcmWP59Gsw9Kbr9JywFknC-LwrqVkyVI,1059
+aerospike_rest-0.2.1.dist-info/METADATA,sha256=dmCWiwR1PrT2tGIe7fOGcLToCOfJBm7-0XNIGyWlcdE,2443
+aerospike_rest-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aerospike_rest-0.2.1.dist-info/top_level.txt,sha256=NrZs0dyy01bNX3v0n7aK4so6z1eoPKwMPFmKhK8fXBo,15
+aerospike_rest-0.2.1.dist-info/RECORD,,
