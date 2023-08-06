@@ -1,0 +1,3 @@
+[console_scripts]
+pgraphdb = pgraphdb.ui:main
+

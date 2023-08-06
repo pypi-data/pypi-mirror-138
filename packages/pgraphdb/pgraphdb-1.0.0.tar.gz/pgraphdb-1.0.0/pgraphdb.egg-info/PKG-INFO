@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pgraphdb
+Version: 1.0.0
+Summary: A wrapper around the GraphDB REST interface
+Home-page: https://github.com/arendsee/pgraphdb
+Author: Zebulun Arendsee
+Author-email: zbwrnz@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# pgraphdb
+
+A wrapper around the GraphDB REST interface.
+
+
