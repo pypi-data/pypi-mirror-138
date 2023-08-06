@@ -1,0 +1,16 @@
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx_autodoc_typehints
+
+[endnote]
+tqdm
+click
+defusedxml
+pystow
+wikidataintegrator
+
+[tests]
+pytest
+coverage
