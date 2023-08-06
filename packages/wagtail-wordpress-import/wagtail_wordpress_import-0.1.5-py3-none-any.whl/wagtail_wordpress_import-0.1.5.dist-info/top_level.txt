@@ -1,0 +1,2 @@
+example
+wagtail_wordpress_import
