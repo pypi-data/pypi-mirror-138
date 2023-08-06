@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: rikai-torchhub
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/eto-ai/rikai
+Author: Rikai authors
+Author-email: rikai-dev@eto.ai
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: rikai (>=0.1.1)
+Requires-Dist: torch
+Requires-Dist: torchvision
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
+UNKNOWN
+
