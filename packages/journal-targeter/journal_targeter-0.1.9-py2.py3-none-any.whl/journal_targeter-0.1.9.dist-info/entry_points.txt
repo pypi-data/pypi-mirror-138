@@ -1,0 +1,2 @@
+[console_scripts]
+journal_targeter = journal_targeter.journals:cli

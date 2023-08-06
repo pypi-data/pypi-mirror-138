@@ -1,0 +1,67 @@
+#upload-form #title-field {
+    min-height: 3rem;
+}
+
+#upload-form #abstract-field {
+    min-height: 8rem;
+}
+
+.journal-cell{
+    font-weight: bold;
+    color: black;
+}
+
+.bk-tool-icon-hover {
+    display: none;
+}
+
+.bk-tool-icon-tap-select {
+    display: none;
+}
+
+.icon-empty {
+    color: lightgray;
+}
+
+#sidebar-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+#sidebar-cards .card-header {
+    font-size: 1rem;
+    padding: 0rem;
+}
+
+#sidebar-cards .card-header .btn {
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-width: 0px;
+}
+
+#sidebar-cards .card-body {
+    padding: 0.75rem 1rem;
+}
+
+#prefs-div {
+    padding: 0.5rem 1rem;
+}
+
+#sidebar-accordion .card-body {
+    max-height: 375px;
+    overflow: auto;
+}
+
+/* Prevent vertical squeeze of Articles central tooltips  */
+.bk-root > div > div:nth-child(2) .bk-tooltip {
+	min-width: 350px;
+}
+
+figcaption {
+    margin-bottom: .5rem;
+}
+
+figcaption li {
+    font-size: small;
+}
