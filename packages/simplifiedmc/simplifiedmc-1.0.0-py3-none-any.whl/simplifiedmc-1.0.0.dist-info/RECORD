@@ -1,0 +1,12 @@
+simplifiedmc/__init__.py,sha256=2s6NTQtnl9Px1AguF3wo--bIJYCUcenhrs5CZX8irrI,157
+simplifiedmc/emcee.py,sha256=QPeX3opXCcdCO1FRQn0xRI7KZVwtKil0tAYrf1nxUvo,9291
+simplifiedmc/shared.py,sha256=jsfXGuQLyw2xd6BoR4NOTIOrCAA4VT64XCSFUSBNIoc,2334
+simplifiedmc/stan.py,sha256=q8Wpp0t8heeXariO80vXHCTIZ10Wi7x4koKYkevDmkE,7213
+simplifiedmc-1.0.0.data/scripts/smc-analyze,sha256=kr2OPfDAx8o3sXV8roXLCt80OfmTG6X-LZcqZtIrg6M,5887
+simplifiedmc-1.0.0.data/scripts/smc-emcee,sha256=hovE5LKohDOtn4xrhdzr8OnvZxzv2Y_weNiskA4i2UM,12348
+simplifiedmc-1.0.0.data/scripts/smc-stan,sha256=EU3gLRx8wj_sAXc5btKLKYsNnz-9aTAf8XVJ0zUL3CE,8761
+simplifiedmc-1.0.0.dist-info/LICENSE.md,sha256=sODrsLUWP1RDC9MiJV5tbKTwamF8UpWo2F7IM16-4JI,1071
+simplifiedmc-1.0.0.dist-info/METADATA,sha256=4eEdBbJf17VaqK30t23a2od3roSC2tQY4n4taQhePCc,20012
+simplifiedmc-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+simplifiedmc-1.0.0.dist-info/top_level.txt,sha256=bmLZZcPDfAhyZmwtf6sP6uTkgfDuOb9tFGnvAWpboJc,13
+simplifiedmc-1.0.0.dist-info/RECORD,,
