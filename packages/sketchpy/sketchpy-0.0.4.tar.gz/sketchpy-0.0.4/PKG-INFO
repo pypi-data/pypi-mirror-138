@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sketchpy
+Version: 0.0.4
+Summary: sketchpy
+Author: Mr Mystery
+Author-email: sriramanand23@gmail.com
+License: UNKNOWN
+Keywords: python,sketch,drawing,animation,code hub,pencil sketch,painting
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+A package to do sketching animation with many built in functions, a library is also availabe where you can play with different pre defined sketches, you can also create your own sketch and do the animation yourself
+
