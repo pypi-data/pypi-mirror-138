@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: arxiv-cloud-auth
+Version: 0.1.1
+Summary: Minimal auth for arxiv
+Author: Brian D. Caruso
+Author-email: bdc34@cornell.edu
+Requires-Python: >3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: CacheControl (>=0.12.10,<0.13.0)
+Requires-Dist: PyJWT (>=2.3,<3.0)
+Requires-Dist: SQLAlchemy (>=1.4,<2.0)
+Requires-Dist: fastapi (>=0.73,<0.74)
+Requires-Dist: google-auth (>=2.6.0,<3.0.0)
