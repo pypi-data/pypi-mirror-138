@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+text_me_keras.egg-info/PKG-INFO
+text_me_keras.egg-info/SOURCES.txt
+text_me_keras.egg-info/dependency_links.txt
+text_me_keras.egg-info/requires.txt
+text_me_keras.egg-info/top_level.txt
+text_me_keras/callbacks/__init__.py
+text_me_keras/callbacks/texting.py
+text_me_keras/messaging/__init__.py
+text_me_keras/messaging/sms.py
