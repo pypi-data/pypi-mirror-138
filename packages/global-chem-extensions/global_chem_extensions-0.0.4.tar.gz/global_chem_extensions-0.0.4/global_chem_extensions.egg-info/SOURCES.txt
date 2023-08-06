@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+global_chem_extensions/__init__.py
+global_chem_extensions/global_chem_extensions.py
+global_chem_extensions.egg-info/PKG-INFO
+global_chem_extensions.egg-info/SOURCES.txt
+global_chem_extensions.egg-info/dependency_links.txt
+global_chem_extensions.egg-info/not-zip-safe
+global_chem_extensions.egg-info/requires.txt
+global_chem_extensions.egg-info/top_level.txt
+global_chem_extensions/sunburster/__init__.py
+global_chem_extensions/sunburster/sunburster.py
