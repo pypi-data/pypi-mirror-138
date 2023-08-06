@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: tmdb-python
+Version: 0.0.1
+Summary: Asynchronous Python library for The Movie Database (TMDB) API v3
+Home-page: https://github.com/leandcesar/tmdb-python
+Author: Leandro César
+Author-email: ccleandroc@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: movie,movies,tv,tv show,tv shows,tmdb,themoviedb,moviedb,movie database,api,wrapper
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
