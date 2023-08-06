@@ -1,0 +1,16 @@
+mokkari/__init__.py,sha256=3RzURcUbT_02t3uUvskbI3RccKsYoKSPJykDRHs6eJM,940
+mokkari/arc.py,sha256=UNQV60qVxb0gWgjj_CkmP3HmrlK5ExU3OIH7Bs_QWVc,1944
+mokkari/character.py,sha256=fVaHhWUGqTY4tjOAoJJdX5Cmet7XCk7Blh-HP4JMjQg,2337
+mokkari/creator.py,sha256=2rQecDj467Axokc0VPUMBrScuqCGYFTsfDniW_6-Eyg,2237
+mokkari/exceptions.py,sha256=0c2Kbn9bieJPVTtisbZK08IYz_ZNlkcJVRXn2_OplL4,750
+mokkari/issue.py,sha256=XyPjXvSRGcD_FQpmb33YdOuqEYshBBUaj2D6gSLAzos,5590
+mokkari/publisher.py,sha256=pJxUf7bnQYjx32e9muHxeKxIkUcSmCQqcDl2edSDq54,2184
+mokkari/series.py,sha256=R6G3wiuNwo-5YJtbUwKIJzVzR7X8Wwqsx9DqIN_SMUI,4143
+mokkari/session.py,sha256=9oeU6g1Qg-zMHsjloFts2C-ULsqGP_OdHP064vxt88w,12350
+mokkari/sqlite_cache.py,sha256=o2r-MDK7dUwCVGDvxrq8-QpeETREc22AdMlIe9LKw0s,2101
+mokkari/team.py,sha256=M_6WAPX0E1ofVqz0kEBeGSTf92nOQWFI6XaXJk9yrXQ,2106
+mokkari/variant.py,sha256=sEo3RPKtWvShTyKQoWs-npqQzdMJ6dzWvaxHq92xUb8,980
+mokkari-2.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mokkari-2.0.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+mokkari-2.0.2.dist-info/METADATA,sha256=LqvbHJtBkR0DQn7A1CqishvdSArjQQJwsWN3WRYNHl4,3375
+mokkari-2.0.2.dist-info/RECORD,,
