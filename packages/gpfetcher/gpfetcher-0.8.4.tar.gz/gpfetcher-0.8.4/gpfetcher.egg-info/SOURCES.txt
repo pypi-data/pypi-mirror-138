@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+gpfetcher/__init__.py
+gpfetcher/scraper.py
+gpfetcher.egg-info/PKG-INFO
+gpfetcher.egg-info/SOURCES.txt
+gpfetcher.egg-info/dependency_links.txt
+gpfetcher.egg-info/requires.txt
+gpfetcher.egg-info/top_level.txt
