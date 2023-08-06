@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: anndata-sdk
+Version: 0.0.0
+Summary: anndata_sdk
+Home-page: UNKNOWN
+Author: Michael E. Vinyard - Harvard University - Massachussetts General Hospital - Broad Institute of MIT and Harvard
+Author-email: mvinyard@broadinstitute.org
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: anndata (>=0.7.8)
+Requires-Dist: pandas (>=1.3.5)
+Requires-Dist: licorice (>=0.0.2)
+
+# anndata_sdk
+Helper functions for AnnData
+
+
