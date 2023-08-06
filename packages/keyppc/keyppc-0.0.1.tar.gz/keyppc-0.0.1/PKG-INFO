@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: keyppc
+Version: 0.0.1
+Summary: A simple library to bind your mouse and keyboard.
+Home-page: https://github.com/keyywind/keyppc
+Author: Keywind
+Author-email: kevinwater127@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/keyywind/keyppc/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# keyppc Documentation
+
+##### _PFPC(password, savepath, exceptions)_
+
+|_argument_|_optional_|_default_|_available_|
+|---|---|---|---|
+|password|_no_| | [ string type ] |
+|savepath|_yes_|"./"| [ string type ]|
+|exceptions|_yes_|[]| [ list-pynput-key type ]|
+|penalty|_yes_|"start chrome.exe"| [ string type ]|
+
+##### Example of using this library
+
+    from keyppc.keyppc import PFPC
+    from pynput.keyboard import KeyCode, Key
+    exceptions = [Key.esc, Key.ctrl, Key.end, KeyCode(char = 'o')]
+    savepath = "./"
+    password = "abcdefg"
+    penalty = "start chrome.exe"
+    PFPC(
+      password = password,
+      savepath = savepath,
+      exceptions = exceptions,
+      penalty = penalty
+    ).run(chances = 5, verbose = True)
+
+
