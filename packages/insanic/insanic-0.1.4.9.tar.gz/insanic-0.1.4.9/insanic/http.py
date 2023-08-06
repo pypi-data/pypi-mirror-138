@@ -1,0 +1,21 @@
+from http import HTTPStatus as HTTP_STATUS
+from typing import Any
+
+from sanic.http import Request as SanicRequest
+from sanic.response import BaseHTTPResponse, HTTPResponse
+
+__all__ = (
+    'HTTP_STATUS',
+    'Request',
+    'Response',
+)
+
+class Request(SanicRequest):
+    pass
+
+class Response(HTTPResponse):
+    pass
+
+def response_json(body: Any, status: int = 200, headers: dict[str, str] | None = None, **kwargs: Any) -> Response:
+    json_data = BaseHTTPResponse._dumps(body, **kwargs)  # pylint: disable=protected-access
+    return Response(json_data, headers=headers, status=status, content_type='application/json')
