@@ -1,0 +1,7 @@
+loguricorn/__init__.py,sha256=W8NPzS2nKDDG4i0OJkNfBQyw12uVriN5aMVlyx8aDGY,53
+loguricorn/gunicorn.py,sha256=W9ZmfcnndbpfwMUA7ULnkU9tKMaVXZqAXl2nWIRkOgk,612
+loguricorn/intercept.py,sha256=TtsAWoQtuC2FYZYBAdSCio0C_-aua9WKHW78TcEh_RE,932
+loguricorn-0.1.0.dist-info/LICENSE,sha256=13MeH1H_O4U5mPTdExHcGHtL1LPBoDcl_Brhs6ggAeE,1052
+loguricorn-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+loguricorn-0.1.0.dist-info/METADATA,sha256=HfkYb5_8m4c1-dZEI6W7kRSL9ZEyhjehy8xVKLHH8lQ,2879
+loguricorn-0.1.0.dist-info/RECORD,,
