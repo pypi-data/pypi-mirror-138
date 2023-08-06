@@ -1,0 +1,25 @@
+qiskit-terra>=0.19.1
+scipy>=1.4
+numpy>=1.17
+docplex>=2.21.207
+setuptools>=40.1.0
+networkx<2.6,>=2.2
+
+[:python_version < "3.7"]
+dataclasses
+
+[cplex]
+
+[cplex:python_version < "3.10"]
+cplex
+
+[cvx]
+cvxpy
+
+[gurobi]
+
+[gurobi:python_version >= "3.7"]
+gurobipy
+
+[matplotlib]
+matplotlib
