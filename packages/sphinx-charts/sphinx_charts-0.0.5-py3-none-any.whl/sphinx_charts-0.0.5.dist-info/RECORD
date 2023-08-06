@@ -1,0 +1,9 @@
+sphinx_charts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sphinx_charts/charts.css,sha256=gjiukkZ4w2cVQ7eaVym6UT_WVx6TbkOgpwlR12663c4,1230
+sphinx_charts/charts.js,sha256=pVkmiuXBVwm-XbaSg7ckjmBzdnFJIWdg0o5Y9SEFMyg,2088
+sphinx_charts/charts.py,sha256=GTlXfOcv7S9TMgGoJRc1-Mqq-o3fySBGclxeXXK-t5U,9399
+sphinx_charts/plotly-1.55.1/plotly-1.55.1.min.js,sha256=J7xrzw_DT-evtXeF01KzluGmSMRih33ffjOVR4Ut-Bk,3447341
+sphinx_charts-0.0.5.dist-info/LICENSE,sha256=FRcFWXWJ1xWQ9Yul4KkOMdqGHodivewSvuw-lWA0Vus,1075
+sphinx_charts-0.0.5.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+sphinx_charts-0.0.5.dist-info/METADATA,sha256=qvC0daljr29u5Baq9Wn_cnJ8VmdXBWt2Z1foksFQyDE,7772
+sphinx_charts-0.0.5.dist-info/RECORD,,
