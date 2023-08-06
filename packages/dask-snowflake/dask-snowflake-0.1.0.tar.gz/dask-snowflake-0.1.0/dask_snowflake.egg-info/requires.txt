@@ -1,0 +1,4 @@
+dask
+distributed
+snowflake-connector-python[pandas]>=2.6.0
+snowflake-sqlalchemy
