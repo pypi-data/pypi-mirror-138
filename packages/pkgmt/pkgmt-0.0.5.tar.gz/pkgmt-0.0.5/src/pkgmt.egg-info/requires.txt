@@ -1,0 +1,10 @@
+toml
+requests
+click
+
+[dev]
+pytest
+yapf
+flake8
+invoke
+twine

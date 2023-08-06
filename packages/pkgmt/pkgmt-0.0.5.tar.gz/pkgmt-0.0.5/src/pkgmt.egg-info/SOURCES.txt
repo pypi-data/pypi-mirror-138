@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pkgmt/__init__.py
+src/pkgmt/changelog.py
+src/pkgmt/cli.py
+src/pkgmt/config.py
+src/pkgmt/links.py
+src/pkgmt/versioneer.py
+src/pkgmt.egg-info/PKG-INFO
+src/pkgmt.egg-info/SOURCES.txt
+src/pkgmt.egg-info/dependency_links.txt
+src/pkgmt.egg-info/entry_points.txt
+src/pkgmt.egg-info/requires.txt
+src/pkgmt.egg-info/top_level.txt
