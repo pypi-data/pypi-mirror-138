@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: easycrypto
+Version: 1.1.2
+Summary: Provides simple wrappers around Python's easycrypto implementation.
+Home-page: https://pypi.org/project/easycrypto/
+Download-URL: https://github.com/emartech/python-easy-crypto
+Author: Emarsys Security
+Author-email: security@emarsys.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Plugins
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Security :: Cryptography
+License-File: LICENSE
+Requires-Dist: cryptography (~=3.0)
+Provides-Extra: dev
+Requires-Dist: unittest-data-provider (==1.0.1) ; extra == 'dev'
+
+UNKNOWN
+
