@@ -1,0 +1,3 @@
+[console_scripts]
+rdflib-endpoint = rdflib_endpoint.__main__:cli
+
