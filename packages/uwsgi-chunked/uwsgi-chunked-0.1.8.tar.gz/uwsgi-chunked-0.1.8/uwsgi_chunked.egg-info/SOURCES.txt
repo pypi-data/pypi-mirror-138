@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+uwsgi_chunked/__init__.py
+uwsgi_chunked/chunked.py
+uwsgi_chunked/version.py
+uwsgi_chunked.egg-info/PKG-INFO
+uwsgi_chunked.egg-info/SOURCES.txt
+uwsgi_chunked.egg-info/dependency_links.txt
+uwsgi_chunked.egg-info/top_level.txt
