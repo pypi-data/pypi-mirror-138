@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pynodb
+Version: 0.2
+Summary: UNKNOWN
+Home-page: https://github.com/GeeseBumps/pynodb
+Author: GeeseBumps
+Author-email: pgb1227@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
