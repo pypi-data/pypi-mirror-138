@@ -1,0 +1,5 @@
+setup.py
+shamspd.egg-info/PKG-INFO
+shamspd.egg-info/SOURCES.txt
+shamspd.egg-info/dependency_links.txt
+shamspd.egg-info/top_level.txt
