@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+vaby_avb/__init__.py
+vaby_avb/_version.py
+vaby_avb/avb.py
+vaby_avb/posterior.py
+vaby_avb/prior.py
+vaby_avb.egg-info/PKG-INFO
+vaby_avb.egg-info/SOURCES.txt
+vaby_avb.egg-info/dependency_links.txt
+vaby_avb.egg-info/entry_points.txt
+vaby_avb.egg-info/requires.txt
+vaby_avb.egg-info/top_level.txt

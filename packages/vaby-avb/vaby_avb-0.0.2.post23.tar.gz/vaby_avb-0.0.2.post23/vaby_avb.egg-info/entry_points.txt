@@ -1,0 +1,3 @@
+[console_scripts]
+avb = vaby_avb.main:main
+
