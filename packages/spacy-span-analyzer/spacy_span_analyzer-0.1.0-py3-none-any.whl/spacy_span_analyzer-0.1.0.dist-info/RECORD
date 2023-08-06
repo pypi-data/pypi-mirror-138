@@ -1,0 +1,9 @@
+spacy_span_analyzer/__init__.py,sha256=IcM4oI_A9JHNm-ePMNYY4z8UGvfqLDlj6O0p33pbsHI,63
+spacy_span_analyzer/analyzer.py,sha256=2f1TANxp9dAR9X-0-b0Sk9Ocl9lA-vB2OqePW2xkmlU,7190
+spacy_span_analyzer/cli.py,sha256=qKTU3Z-YEYJYo99GttQKI2A95eA6rJdc5wFop99yDCw,2173
+spacy_span_analyzer-0.1.0.dist-info/LICENSE,sha256=slWGE4_d6o5HyHbKfgbIu5Qp92Nl5gr-ojwcQ-lR_bA,1050
+spacy_span_analyzer-0.1.0.dist-info/METADATA,sha256=lSXpOse3h_m0eEfdBCMn52sC71VT1m3AxsqIqgWedV8,2341
+spacy_span_analyzer-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+spacy_span_analyzer-0.1.0.dist-info/entry_points.txt,sha256=LhMWqEsIzo7JmuzoCYHi1BHJJMdhDjhxqFgk0u5nAL0,69
+spacy_span_analyzer-0.1.0.dist-info/top_level.txt,sha256=OlJzoB7N_Y2QFejnOSabHcLSSQ2SoHLNBl7jnZyHFSY,20
+spacy_span_analyzer-0.1.0.dist-info/RECORD,,
