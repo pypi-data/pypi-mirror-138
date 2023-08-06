@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+aerics/__init__.py
+aerics/client.py
+aerics/server.py
+aerics.egg-info/PKG-INFO
+aerics.egg-info/SOURCES.txt
+aerics.egg-info/dependency_links.txt
+aerics.egg-info/top_level.txt
