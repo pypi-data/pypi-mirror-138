@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+linda7pdf.egg-info/PKG-INFO
+linda7pdf.egg-info/SOURCES.txt
+linda7pdf.egg-info/dependency_links.txt
+linda7pdf.egg-info/top_level.txt
