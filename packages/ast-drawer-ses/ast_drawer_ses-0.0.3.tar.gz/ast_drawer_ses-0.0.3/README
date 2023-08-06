@@ -1,0 +1,2 @@
+This project provides some awesome functionality. To be exact, it lets you draw a AST of any function, that you wrote in python.
+To do it, just call draw_ast and pass there function you are interested in.
