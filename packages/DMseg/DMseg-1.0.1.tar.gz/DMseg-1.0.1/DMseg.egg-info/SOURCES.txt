@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+DMseg/DMseg.py
+DMseg/__init__.py
+DMseg.egg-info/PKG-INFO
+DMseg.egg-info/SOURCES.txt
+DMseg.egg-info/dependency_links.txt
+DMseg.egg-info/requires.txt
+DMseg.egg-info/top_level.txt
