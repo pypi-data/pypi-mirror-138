@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: htmlscraper
+Version: 0.0.3
+Summary: UNKNOWN
+Author: wysohn
+Author-email: wysohn2002@naver.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: bs4
+Requires-Dist: selenium
+Requires-Dist: html5lib
+Requires-Dist: pysocks
+
+UNKNOWN
+
