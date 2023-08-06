@@ -1,0 +1,68 @@
+Metadata-Version: 1.2
+Name: snowmicropyn
+Version: 1.1.0
+Summary: A python package to read, export and post process data (*.pnt files) recorded by SnowMicroPen, a snow penetration probe for scientific applications developed at SLF.
+Home-page: https://github.com/slf-dot-ch/snowmicropyn
+Author: WSL Institute for Snow and Avalanche Research SLF
+Author-email: snowmicropen@slf.ch
+License: GPL
+Description: snowmicropyn
+        ============
+        
+        A python package to read, export and post process data (``*.pnt`` files)
+        recorded by SnowMicroPen_, a snow penetration probe for scientifc applications
+        developed at SLF_.
+        
+        The software is open source and released under `GPL`_. Contributions are
+        welcome.
+        
+        Installing
+        ----------
+        
+        Install and update using ``pip``:
+        
+        .. code-block:: console
+        
+            pip install -U snowmicropyn
+        
+        A Simple Example
+        ----------------
+        
+        .. code-block:: python
+        
+            from snowmicropyn import Profile
+        
+            p = Profile.load('/examples/profiles/S37M0876.ini')
+        
+            ts = p.timestamp
+            coords = p.coordinates
+            samples = p.samples  # It's a pandas dataframe
+        
+        Documentation
+        -------------
+        
+        The project's documentation_ can be studied on *Read the Docs*.
+        
+        Contact
+        -------
+        
+        To get in touch, please write to snowmicropen@slf.ch.
+        
+        
+        .. _SLF: https://www.slf.ch
+        .. _SnowMicroPen: https://www.slf.ch/en/services-and-products/research-instruments/snowmicropen-r-smp4-version.html
+        .. _GPL: https://www.gnu.org/licenses/gpl-3.0.en.html
+        .. _documentation: https://snowmicropyn.readthedocs.io/
+        
+Keywords: SLF,SnowMicroPen,Snow Micro Pen,SMP,Snow,Science,Research
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Requires-Python: >=3.4

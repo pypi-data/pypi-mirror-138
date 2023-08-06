@@ -1,0 +1,6 @@
+PyQt5
+matplotlib>=2
+numpy
+pandas>=0.22
+pytz
+scipy>=1

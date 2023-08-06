@@ -1,0 +1,3 @@
+[gui_scripts]
+pyngui = snowmicropyn.pyngui.app:main
+
