@@ -1,0 +1,2 @@
+recursive-include jsoneditor/files/ *
+include requirements.txt
