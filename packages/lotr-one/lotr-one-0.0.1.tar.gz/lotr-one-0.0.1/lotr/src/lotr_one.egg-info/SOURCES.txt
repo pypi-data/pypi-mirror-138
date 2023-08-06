@@ -1,0 +1,6 @@
+README.md
+setup.py
+lotr/src/lotr_one.egg-info/PKG-INFO
+lotr/src/lotr_one.egg-info/SOURCES.txt
+lotr/src/lotr_one.egg-info/dependency_links.txt
+lotr/src/lotr_one.egg-info/top_level.txt
