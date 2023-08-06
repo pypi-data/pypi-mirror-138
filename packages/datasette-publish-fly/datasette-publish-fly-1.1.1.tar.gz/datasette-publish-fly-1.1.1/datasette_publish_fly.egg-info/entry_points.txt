@@ -1,0 +1,2 @@
+[datasette]
+publish_fly = datasette_publish_fly

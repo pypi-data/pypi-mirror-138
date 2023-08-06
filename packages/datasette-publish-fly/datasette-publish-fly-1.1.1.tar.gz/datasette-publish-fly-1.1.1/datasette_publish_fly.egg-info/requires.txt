@@ -1,0 +1,6 @@
+datasette>=0.60.2
+
+[test]
+pytest
+pytest-mock
+cogapp
