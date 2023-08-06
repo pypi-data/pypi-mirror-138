@@ -1,0 +1,10 @@
+nori_clone-1.0.0a0.data/purelib/nori/__init__.py,sha256=6-dddG5LX1FkPVkIjXHzv3-WyEsF53q6QacWYRcwpqE,48
+nori_clone-1.0.0a0.data/purelib/nori/bind.pyi,sha256=fyl1xdJ1ELDuZKpp7De2XWMgDPdKS-2RwcfQDnIQWr4,555
+nori_clone-1.0.0a0.data/purelib/nori/bind.so,sha256=muOUvhnKPxA3N_cke7Hvm5LFKtv16BK3p15ODJPbXM4,5123200
+nori_clone-1.0.0a0.data/purelib/nori/dictionary/latest-dictionary.nori,sha256=tq4c1qNNvteokjqnZ4ZpNeCr_x6l_hXioPDOMOVI6M8,26642819
+nori_clone-1.0.0a0.data/purelib/nori/dictionary/latest-userdict.txt,sha256=7v-_apha3gMePCxf9ke_lZc-mOn13Dh8Cj6raLHf0O0,144
+nori_clone-1.0.0a0.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+nori_clone-1.0.0a0.dist-info/METADATA,sha256=xdx96XXEVFPIBOcXWvyT8dMmycFmaQEHOv7q-FEy_Ac,2061
+nori_clone-1.0.0a0.dist-info/WHEEL,sha256=ZpcXDw8xvXnB95GzPuvGTblRFId_5hNBEGdWCY25bL4,111
+nori_clone-1.0.0a0.dist-info/top_level.txt,sha256=TWvdFbcapctPH008H8qXx7Mxqy5Z2LTm9vDk3gdN8KE,5
+nori_clone-1.0.0a0.dist-info/RECORD,,
