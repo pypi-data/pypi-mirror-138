@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: typing-environs
+Version: 0.1.0
+Summary: ### typing_environs add type hints support  for environs
+Home-page: https://github.com/Euraxluo/typing_environs
+License: The MIT LICENSE
+Author: Euraxluo
+Author-email: euraxluo@qq.com
+Requires-Python: >=3.6.5,<4.0.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: easydict (>=1.9,<2.0)
+Requires-Dist: environs (>=9.5.0,<10.0.0)
+Requires-Dist: pydantic (>=0.0.0,<0.0.1)
+Project-URL: Repository, https://github.com/Euraxluo/typing_environs
+Description-Content-Type: text/markdown
+
+### FastTask framework
+FastTask is simple to fast run task
+
+#### install
+`pip install fasttask`
+
