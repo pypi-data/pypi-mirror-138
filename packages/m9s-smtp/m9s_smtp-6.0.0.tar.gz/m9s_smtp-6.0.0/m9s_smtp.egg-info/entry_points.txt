@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    smtp = trytond.modules.smtp
+    
