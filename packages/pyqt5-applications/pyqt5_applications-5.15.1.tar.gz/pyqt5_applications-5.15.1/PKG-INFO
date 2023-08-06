@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyqt5_applications
+Version: 5.15.1
+Summary: PyQt5开发工具/PyQt5  development tool
+Home-page: https://yangguang-gongzuoshi.top/wry/
+Author: Ruoyu Wang
+Author-email: wry2022@outlook.com
+License: MIT License
+Platform: UNKNOWN
+Requires: pathlib
+
+PyQt5开发工具方便快捷地设计和研发Python的Qt5应用/Pyqt5 development tool can easily and quickly design and develop Qt5 applications of Python
+

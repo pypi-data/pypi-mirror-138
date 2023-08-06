@@ -1,0 +1,8 @@
+setup.py
+pyqt5_applications/__init__.py
+pyqt5_applications/_applications.py
+pyqt5_applications/_version.py
+pyqt5_applications.egg-info/PKG-INFO
+pyqt5_applications.egg-info/SOURCES.txt
+pyqt5_applications.egg-info/dependency_links.txt
+pyqt5_applications.egg-info/top_level.txt
