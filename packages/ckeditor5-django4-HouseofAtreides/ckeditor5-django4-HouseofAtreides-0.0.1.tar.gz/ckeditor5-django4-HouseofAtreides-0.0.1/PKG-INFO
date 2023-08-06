@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ckeditor5-django4-HouseofAtreides
+Version: 0.0.1
+Summary: Django 4 update of https://pypi.org/project/django-ckeditor-5/
+Home-page: https://github.com/HouseofAtreides/ckeditor5-django4
+Author: HouseofAtreides
+Author-email: author@example.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/HouseofAtreides/ckeditor5-django4
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Simple edit to views.py and widget.py for new Django4 reqirements.
+

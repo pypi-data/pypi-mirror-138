@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ckeditor5_django4_HouseofAtreides.egg-info/PKG-INFO
+src/ckeditor5_django4_HouseofAtreides.egg-info/SOURCES.txt
+src/ckeditor5_django4_HouseofAtreides.egg-info/dependency_links.txt
+src/ckeditor5_django4_HouseofAtreides.egg-info/top_level.txt
