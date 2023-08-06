@@ -1,0 +1,17 @@
+LICENSE.md
+README.md
+setup.py
+MyHeartCounts/__init__.py
+MyHeartCounts/demo.py
+MyHeartCounts/download_mindsetdata.py
+MyHeartCounts/myHeartCounts.py
+MyHeartCounts.egg-info/PKG-INFO
+MyHeartCounts.egg-info/SOURCES.txt
+MyHeartCounts.egg-info/dependency_links.txt
+MyHeartCounts.egg-info/requires.txt
+MyHeartCounts.egg-info/top_level.txt
+MyHeartCounts.egg-info/zip-safe
+MyHeartCounts/study/Study.py
+MyHeartCounts/study/__init__.py
+MyHeartCounts/user/User.py
+MyHeartCounts/user/__init__.py
