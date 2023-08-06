@@ -1,0 +1,14 @@
+[build-system]
+# Minimum requirements for the build system to execute.
+requires = ["setuptools", "wheel"]  # PEP 508 specifications.
+
+# [mypy]
+# ignore_missing_imports = True
+
+[tool.autopep8]
+# max_line_length = 220
+# ignore = "E501,W6"  # or ["E501", "W6"]
+ignore = ["E402"]
+in-place = true
+recursive = true
+aggressive = 3

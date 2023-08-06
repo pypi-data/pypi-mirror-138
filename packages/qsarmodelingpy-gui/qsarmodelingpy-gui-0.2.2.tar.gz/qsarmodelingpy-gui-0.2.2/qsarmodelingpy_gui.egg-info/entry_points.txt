@@ -1,0 +1,3 @@
+[console_scripts]
+qsarmodelingpy = qsarmodelingpy_gui.main:main
+
