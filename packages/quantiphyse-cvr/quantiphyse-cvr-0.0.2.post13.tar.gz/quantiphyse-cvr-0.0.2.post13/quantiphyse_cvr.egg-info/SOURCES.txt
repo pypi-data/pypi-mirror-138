@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+quantiphyse_cvr/__init__.py
+quantiphyse_cvr/_version.py
+quantiphyse_cvr/cvr.png
+quantiphyse_cvr/cvr.svg
+quantiphyse_cvr/process.py
+quantiphyse_cvr/widget.py
+quantiphyse_cvr.egg-info/PKG-INFO
+quantiphyse_cvr.egg-info/SOURCES.txt
+quantiphyse_cvr.egg-info/dependency_links.txt
+quantiphyse_cvr.egg-info/entry_points.txt
+quantiphyse_cvr.egg-info/requires.txt
+quantiphyse_cvr.egg-info/top_level.txt
