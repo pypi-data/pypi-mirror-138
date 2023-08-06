@@ -1,0 +1,8 @@
+df_io/__init__.py,sha256=5Z0zMIeaKgjFJg9XJCQLYbXKEQFyf5OawQUb2_5QOSo,7894
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_df_io.py,sha256=N6SjIm5tOVu6l3IwPxqq3UBI6QtFRARqUhO_E4VWxjI,5246
+df_io-0.0.12.dist-info/LICENSE,sha256=5HROaxnaoexP2eTiqT6Z6OUJyXzDnWq5NRdKg_cNzTw,1071
+df_io-0.0.12.dist-info/METADATA,sha256=EIMrRX-FEayuDg9VvNe1JEMsiEOZ2NFn76YFC-tmkLM,2248
+df_io-0.0.12.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+df_io-0.0.12.dist-info/top_level.txt,sha256=eZZSc1fh8E0k8DjybxISlxpQ2kt06v3ttn7JEKiPVkI,12
+df_io-0.0.12.dist-info/RECORD,,
