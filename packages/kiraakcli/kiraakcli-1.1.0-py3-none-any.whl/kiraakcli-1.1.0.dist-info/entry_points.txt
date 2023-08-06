@@ -1,0 +1,3 @@
+[console_scripts]
+kcli = kiarak.__main__
+
