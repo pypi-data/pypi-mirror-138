@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+Pyrics/Pyrics.py
+Pyrics/__init__.py
+Pyrics.egg-info/PKG-INFO
+Pyrics.egg-info/SOURCES.txt
+Pyrics.egg-info/dependency_links.txt
+Pyrics.egg-info/requires.txt
+Pyrics.egg-info/top_level.txt
