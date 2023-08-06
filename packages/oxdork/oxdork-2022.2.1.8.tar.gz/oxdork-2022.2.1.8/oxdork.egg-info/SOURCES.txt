@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+oxdork/__init__.py
+oxdork/banner.py
+oxdork/colors.py
+oxdork/default.py
+oxdork/dump.py
+oxdork/main.py
+oxdork/minimal.py
+oxdork.egg-info/PKG-INFO
+oxdork.egg-info/SOURCES.txt
+oxdork.egg-info/dependency_links.txt
+oxdork.egg-info/entry_points.txt
+oxdork.egg-info/requires.txt
+oxdork.egg-info/top_level.txt
