@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: torch-geometric-signed-directed
+Version: 0.1.1
+Summary: An Extension Library for PyTorch Geometric on signed and directed networks.
+Home-page: https://github.com/SherylHYX/pytorch_geometric_signed_directed
+Download-URL: https://github.com/SherylHYX/pytorch_geometric_signed_directed/archive/0.1.1.tar.gz
+Author: Yixuan He
+Author-email: He_YX@outlook.com
+License: MIT
+Keywords: machine-learning,deep-learning,deeplearning,deep learning,machine learning,signal processing,signed graph,graph,directed graph,embedding,clustering,graph convolution,graph neural network,representation learning,learning
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: torch-sparse
+Requires-Dist: torch-scatter
+Requires-Dist: sklearn
+Requires-Dist: torch-geometric
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+UNKNOWN
+
