@@ -1,0 +1,6 @@
+requests
+python
+click
+openpyxl
+colorama
+rich
