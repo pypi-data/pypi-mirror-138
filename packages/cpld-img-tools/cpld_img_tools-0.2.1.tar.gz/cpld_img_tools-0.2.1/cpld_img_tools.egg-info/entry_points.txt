@@ -1,0 +1,4 @@
+[console_scripts]
+cpld2hpm = cpld_img_tools.cpld2hpm:main
+jed_conv = cpld_img_tools.jed_conv:main
+
