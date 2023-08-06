@@ -1,0 +1,9 @@
+cfflatten/__init__.py,sha256=T17y4028K1J6F5H3vvm6gxvwEWxQD5pxKCm1PWmI3L0,30
+cfflatten/cf_dns.py,sha256=v6R06U3eswQXHbJ2m3HhqBhQ-GkodyL0LSFm-spa_5o,2839
+cfflatten/cf_spf_flat.py,sha256=e_8kVPweKTLsglnXVRBgkwPaxGZ3LGkjKvBCQn5PpJs,2383
+cfflatten-22.2.11.data/scripts/cfflatten,sha256=WR_XVcIngzybmrASVhLNgIlJNWf1rQe7iIIRJaa7v44,75
+cfflatten-22.2.11.dist-info/LICENSE.txt,sha256=IsKhNAExnuxGLWUOpUYTEH0JttGV2QexZXW-ttXs0YE,1067
+cfflatten-22.2.11.dist-info/METADATA,sha256=luU_fJZTQRZMKsSy6p9JbGERSvUEgdbyHiseW1vejH0,6328
+cfflatten-22.2.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cfflatten-22.2.11.dist-info/top_level.txt,sha256=0SF61-RRQ0vaYCDfKu9_E-9__ET0ObMwsvhzRAIK2og,10
+cfflatten-22.2.11.dist-info/RECORD,,
