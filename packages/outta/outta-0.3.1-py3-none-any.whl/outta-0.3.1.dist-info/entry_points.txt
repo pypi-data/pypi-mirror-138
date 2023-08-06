@@ -1,0 +1,2 @@
+[console_scripts]
+outta = outta.cli:main
