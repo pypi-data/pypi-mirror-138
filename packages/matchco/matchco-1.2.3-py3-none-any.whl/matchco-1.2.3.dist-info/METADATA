@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: matchco
+Version: 1.2.3
+Summary: Match company names against a database of names and variations
+Home-page: UNKNOWN
+Author: Petri Savolainen
+Author-email: petri@koodaamo.fi
+License: GPL
+Platform: UNKNOWN
+Classifier: Topic :: Office/Business
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+Requires-Dist: cleanco (>=2.2)
+Requires-Dist: distance
+Requires-Dist: jellyfish
+
+UNKNOWN
+
