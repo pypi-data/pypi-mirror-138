@@ -1,0 +1,5 @@
+deriva>=1.5.0
+nltk
+pyfpm
+pyparsing
+rdflib
