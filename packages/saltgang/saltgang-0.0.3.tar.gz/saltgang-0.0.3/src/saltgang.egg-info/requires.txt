@@ -1,0 +1,23 @@
+requests
+furl
+gdown
+jinja2
+pdfminer.six
+pyyaml
+requests[socks]
+xdgappdirs
+
+[:platform_system != "Windows"]
+python-magic
+
+[:platform_system == "Windows"]
+python-magic-bin
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov
+black
