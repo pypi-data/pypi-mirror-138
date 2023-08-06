@@ -1,0 +1,2 @@
+"use strict";(globalThis.webpackChunk=globalThis.webpackChunk||[]).push([["app_views_profiling_content_tsx"],{"./app/views/profiling/content.tsx":(e,n,t)=>{t.r(n),t.d(n,{default:()=>s});var i=t("../node_modules/@emotion/react/jsx-runtime/dist/emotion-react-jsx-runtime.browser.esm.js");function o(e){return(0,i.tZ)("h1",{children:"Profiling"})}o.displayName="ProfilingContent";const s=o}}]);
+//# sourceMappingURL=../sourcemaps/app_views_profiling_content_tsx.0e3c1962c15656d26546b2e0d49e60df.js.map
