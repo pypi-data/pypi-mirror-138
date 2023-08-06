@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/cloudformer.egg-info/PKG-INFO
+src/cloudformer.egg-info/SOURCES.txt
+src/cloudformer.egg-info/dependency_links.txt
+src/cloudformer.egg-info/top_level.txt
