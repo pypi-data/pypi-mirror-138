@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: sari-sparql-parser
+Version: 0.0.3
+Summary: A library for parsing SPARQL queries and updates
+Home-page: https://github.com/swiss-art-research-net/sari-sparql-parser.git
+Author: Florian Kräutli
+Author-email: florian.kraeutli@uzh.ch
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: rdflib
+Requires-Dist: pyparsing
+
+# SARI Sparql Parser
+
+A parser for SPARQL queries and updates
+
+## Installation
+
+install using pip
+
+
+```sh
+pip install sari-sparql-parser
+```
+
+## Usage
+
+Parse a SPARQL query:
+
+```python
+from sariSparqlParser import parser
+
+query = """PREFIX crm: <http://www.cidoc-crm.org/cidoc/crm>
+    SELECT ?subject ?identifier WHERE {
+        ?subject crm:P1_is_identified_by ?identifier .
+        ?identifier a ?type .
+        VALUES (?type) {
+            (crm:E41_Appellation)
+            (crm:E42_Identifier)
+        }
+    }
+"""
+p = parser()
+p.parseQuery(query)
+```
+
+
