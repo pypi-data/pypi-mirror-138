@@ -1,0 +1,4 @@
+babel
+m9s-trytond<6.1,>=6.0
+m9s_nereid_catalog<6.1,>=6.0
+m9s_product_attribute_strict<6.1,>=6.0
