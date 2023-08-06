@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nornir-rich
+Version: 0.1.1
+Summary: Collection of 'nice looking' functions with rich for nornir
+License: Apache-2.0
+Author: ubaumann
+Author-email: github@m.ubaumann.ch
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: nornir (>=3,<4)
+Requires-Dist: rich (>=11.2.0,<12.0.0)
