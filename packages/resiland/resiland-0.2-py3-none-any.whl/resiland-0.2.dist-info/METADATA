@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: resiland
+Version: 0.2
+Summary: A testbed that allows one to modify resilience of a multistable networked dynamical system in a controlled manner and to generate time series of observables
+Home-page: https://github.com/tobfischer/resiland
+Author: Tobias Fischer
+Author-email: tobias.fischer@uni-bonn.de
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/tobfischer/resiland/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Physics
+License-File: LICENCE
+
+Resiland is a testbed that allows one to modify resilience of a multistable networked dynamical system in a controlled manner and to generate time series of observables that may be used to evaluate the suitability of data-driven indicators of resilience. Resiland is a noval ansatz for simulation of a modification of system’s resilience (Resi-) in a potential landscape (-land). Self-induced transitions allow state changes without a change of resilience and distinguishable dynamics allow to simulate real-world systems with different functionings, structures and feedbacks. Furthermore, a change of the potential landscape influence resilience and simulations up to a system crises are possbile.
+
+- Examples: Take a look into the examples to get started and for reference.
+- Issue Tracker: Please report any bugs here. Also feel free to ask for new features.
+- Installation instructions: In most cases, pip3 install resiland or similar should do the job.
+
+
