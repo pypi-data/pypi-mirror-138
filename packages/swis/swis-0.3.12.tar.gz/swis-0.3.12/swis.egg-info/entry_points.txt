@@ -1,0 +1,3 @@
+[console_scripts]
+swis = swis.swis:main
+
