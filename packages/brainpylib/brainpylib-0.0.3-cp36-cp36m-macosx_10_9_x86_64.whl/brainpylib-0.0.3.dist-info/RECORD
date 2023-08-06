@@ -1,0 +1,12 @@
+brainpylib-0.0.3.dist-info/RECORD,,
+brainpylib-0.0.3.dist-info/WHEEL,sha256=ye8A2lA8pjGNe7-ueOpggarJAhczq3EZGqnLZzzfQYQ,110
+brainpylib-0.0.3.dist-info/top_level.txt,sha256=YQsJGyIteid0gvfxhHzrTKbdqVTs-qRRhMDKN2vPB2g,30
+brainpylib-0.0.3.dist-info/METADATA,sha256=Zh_62M3KWRdOVg7N-yi-Y-LEewr9gZ12WsjPF9L5IMU,411
+brainpylib/atomic_sum.py,sha256=8VJrzbRlcba_GLZz8bIdm3qL2nmNap1MJLaAGumEXMk,5266
+brainpylib/atomic_prod.py,sha256=zwORhikGsrLbjLFI-ybwS1NUhonr_e7qRPACIgbSEqw,5284
+brainpylib/__init__.py,sha256=gpF4b-6nFUXvFIY1ZWcIkS04dldOBYqiFJRWrhgm_ag,240
+brainpylib/cpu_ops.cpython-36m-darwin.so,sha256=BkfjNmzX4UUIulAKX-C1gPQLFS5OF883hU5ybt_JvcY,165904
+brainpylib/register_custom_calls.py,sha256=L3s3rbVkETgYYHemFiMkk26CrC2Bxd5q1wm0X6dSa7Q,544
+brainpylib/event_sum.py,sha256=yDo9HtwoxyFBO7kvUjoq8DjVnCTIgMOj-SYy-7cOMec,17946
+brainpylib/event_prod.py,sha256=4BLGbUlKez9HgGClQo39DYllZImq0o2i3zqf0e_z_JA,4450
+brainpylib/.dylibs/libc++.1.0.dylib,sha256=wUry55ER0sBJsZVtfSaxrRvdKZZYl9R2PG2aQH0al-0,880176
