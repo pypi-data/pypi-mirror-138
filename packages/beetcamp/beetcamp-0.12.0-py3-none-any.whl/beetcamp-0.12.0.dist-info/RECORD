@@ -1,0 +1,10 @@
+LICENSE,sha256=O9MNNIcnBK8NG8CHcu_GllYt3hkGYnq_1i_3L3E27Ss,18053
+README.md,sha256=_KI0tewr17Lx8WDj7LCeaji3qOwx2wlWqtEvV0aAxAg,13201
+beetsplug/bandcamp/__init__.py,sha256=FwGqhfwzIg431_otELufI7RIBUBPYu3zWfVtzUQp7Nw,10930
+beetsplug/bandcamp/_metaguru.py,sha256=V1D9eHWUdaJr-KRm6dqRJelGDCcKlB4VWU-mGRaumqI,29529
+beetsplug/bandcamp/genres_lookup.py,sha256=2axmxMSSCD2MpkOVoMLmnEFUnWhtBc4AAskxzyggCCo,14709
+beetcamp-0.12.0.dist-info/entry_points.txt,sha256=RoFNnt-i614v54ycIkOr-zOVR8emx8cOxE1sXC0qd5g,52
+beetcamp-0.12.0.dist-info/LICENSE,sha256=O9MNNIcnBK8NG8CHcu_GllYt3hkGYnq_1i_3L3E27Ss,18053
+beetcamp-0.12.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+beetcamp-0.12.0.dist-info/METADATA,sha256=oYMcBRMegowrngMRybea6AJsp2DqGPwqdQLUGdXnwyA,14094
+beetcamp-0.12.0.dist-info/RECORD,,
