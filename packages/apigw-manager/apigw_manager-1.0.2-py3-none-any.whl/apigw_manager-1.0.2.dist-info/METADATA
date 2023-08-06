@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: apigw-manager
+Version: 1.0.2
+Summary: 
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: cryptography
+Provides-Extra: django
+Requires-Dist: bkapi-bk-apigateway (>=1.0.3,<2.0.0)
+Requires-Dist: bkapi-client-core (>=1.0.8,<2.0.0)
+Requires-Dist: future (==0.18.2)
+Requires-Dist: pyjwt (>=1.6.4)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: pyyaml (>=5.4.1,<6.0.0)
+Requires-Dist: setuptools (>=21.0.0)
+Requires-Dist: urllib3 (>=1.25.3)
