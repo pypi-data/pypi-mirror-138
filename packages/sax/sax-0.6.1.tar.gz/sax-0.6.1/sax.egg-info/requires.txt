@@ -1,0 +1,10 @@
+fastcore
+flax
+h5py
+jax
+jaxlib
+natsort
+networkx
+numpy
+pyyaml
+tqdm
