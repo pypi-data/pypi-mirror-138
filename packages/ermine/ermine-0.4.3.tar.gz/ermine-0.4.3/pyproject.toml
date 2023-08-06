@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ermine"
+version = "0.4.3"
+description = "Nimble trough the web"
+authors = ["cheetahbyte <bernerdoodle@outlook.de>"]
+readme="README.md"
+[tool.poetry.dependencies]
+python = "^3.10"
+multidict = "^6.0.2"
+pydantic = "^1.9.0"
+wire-rxtr = "^0.2.2"
+wire-fuchs = "^0.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = {version = "^22.1.0", allow-prereleases = true}
+uvicorn = "^0.17.4"
+commitizen = "^2.20.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
