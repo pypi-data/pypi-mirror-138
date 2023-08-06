@@ -1,0 +1,14 @@
+pygconsole/__init__.py,sha256=xBbA2qa0Fn77U703GNp3f7nbNqgB1pjtf-WnYQvgJ_g,118
+pygconsole/console.py,sha256=qGroJ5w8CKgsZ9kh37hMW01et9tyu0aCgNn5_aOChjM,39158
+pygconsole/io.py,sha256=WVdDZqshWY7uL9sXH-2mEf__8vqKcKMbdNgqsgDieRU,19562
+pygconsole/resources/fonts/DejaVu/AUTHORS,sha256=kVp0LwskLqQ_y--TS20kNTtRNRRw9x2KjQDHUYkvrVA,842
+pygconsole/resources/fonts/DejaVu/DejaVuSansMono-Bold.ttf,sha256=vOYPG0QhrNnqUbpmI9cCTsvmgXqVPjZU32Kl5r3492k,331992
+pygconsole/resources/fonts/DejaVu/DejaVuSansMono-BoldOblique.ttf,sha256=kXE6cdVQu6IsKmsrsqmtj5oVnhLk6fClsmd5mLohIT4,253580
+pygconsole/resources/fonts/DejaVu/DejaVuSansMono-Oblique.ttf,sha256=dCCXhAxUGHDo1txcmze7HO7qbA3t0dR1-vkD7533NLA,251932
+pygconsole/resources/fonts/DejaVu/DejaVuSansMono.ttf,sha256=tKbD5Pqrh3P0_3YdVkUWRkCfKavt1o8F04wt9mfTxYI,340712
+pygconsole/resources/fonts/DejaVu/LICENSE,sha256=egg7E25k0GR5TDQZdR5cfdENL2TBCP5boWHq5eWVipM,8816
+pygconsole-0.1.3.dist-info/LICENSE.md,sha256=rqjP42iqRa_qA5w1O4hF4j00XDlfzNZyUZFc5UDMxVo,1099
+pygconsole-0.1.3.dist-info/METADATA,sha256=t-KoxU8JN-_cQqjGq-oz9MNyRq4iLluVyiwYSnC0svk,12746
+pygconsole-0.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pygconsole-0.1.3.dist-info/top_level.txt,sha256=tlCwSV-tnxVREwpzSApy1T5uehMqtrDWeQ9g0u9HyQo,11
+pygconsole-0.1.3.dist-info/RECORD,,
