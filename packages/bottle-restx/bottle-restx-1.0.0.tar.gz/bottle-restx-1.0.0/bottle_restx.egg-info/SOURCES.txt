@@ -1,0 +1,7 @@
+README.md
+bottle_restx.py
+setup.py
+bottle_restx.egg-info/PKG-INFO
+bottle_restx.egg-info/SOURCES.txt
+bottle_restx.egg-info/dependency_links.txt
+bottle_restx.egg-info/top_level.txt
