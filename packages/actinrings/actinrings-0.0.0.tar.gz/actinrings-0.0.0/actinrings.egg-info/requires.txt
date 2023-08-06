@@ -1,0 +1,5 @@
+matplotlib
+matplotlibstyles
+numpy
+pandas
+scipy
