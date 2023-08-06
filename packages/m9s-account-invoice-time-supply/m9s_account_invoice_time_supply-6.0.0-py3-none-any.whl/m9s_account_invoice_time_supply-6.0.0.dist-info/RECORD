@@ -1,0 +1,15 @@
+trytond/modules/account_invoice_time_supply/__init__.py,sha256=WtlFqLN4lqtbfjp-vNBCtlRc1SqodR20GGda9I6gktU,456
+trytond/modules/account_invoice_time_supply/invoice.py,sha256=BZgq1LD3u2e_p8OkiyQESJ20n2zBgJtFvNzhFah5OjM,821
+trytond/modules/account_invoice_time_supply/invoice.xml,sha256=OPFVqnoSufW8b8-rjG3izLJQiRirGsAApZZmOUJ6orM,444
+trytond/modules/account_invoice_time_supply/tryton.cfg,sha256=78OSdUpI-hUaNvME1cqnrEpDMpougVT-1HwDeOhL0BA,108
+trytond/modules/account_invoice_time_supply/work.py,sha256=-_b3B17Rde4Kc-vZYmuOeKITwJVU-OgC8V-KsAeDZfs,1267
+trytond/modules/account_invoice_time_supply/locale/de.po,sha256=C26Hfau1XCX_8olPMetM9lQe2Y0WShQeOAIG4o0rMRI,289
+trytond/modules/account_invoice_time_supply/tests/__init__.py,sha256=b3GSMZAnlXib99aZ-LHGcDlvOZD5ATkScZyzfwP8eYM,333
+trytond/modules/account_invoice_time_supply/tests/test_account_invoice_time_supply.py,sha256=iNvxUF4GF2S0XKgQPACA-5eEyqqM5zQ3Z4N92bXIHIA,557
+trytond/modules/account_invoice_time_supply/view/invoice_form.xml,sha256=PO9YdzJdYcYRNs3sOxtVoOilWtQXRSeVucq2jLl_Z08,582
+m9s_account_invoice_time_supply-6.0.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+m9s_account_invoice_time_supply-6.0.0.dist-info/METADATA,sha256=k2GR8EkCglRcxCT2sNrFUdV5JswBcdkLmvRvz1g29Q8,3587
+m9s_account_invoice_time_supply-6.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+m9s_account_invoice_time_supply-6.0.0.dist-info/entry_points.txt,sha256=Yz9QblWaw2QFrdW9WOH8Rho9GbOuLVsFdTjv-odTL4w,105
+m9s_account_invoice_time_supply-6.0.0.dist-info/top_level.txt,sha256=1UNriCfRfjRjutJbJ_B8i13huVUoV_Otp9RlW3mCfw4,8
+m9s_account_invoice_time_supply-6.0.0.dist-info/RECORD,,
