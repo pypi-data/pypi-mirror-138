@@ -1,0 +1,8 @@
+execredis/__init__.py,sha256=aKaZPX4LSJxRrDHrvhbLJk0x-Ue3zKYbYCCLUaMga9s,157
+execredis/connection.py,sha256=NUsR3NUJBltXlxMoN4pZgJg8rOgbbf1APCrwQw-o84I,563
+execredis/handler.py,sha256=hwOIzOCsRiD4xuc1D94bXltxV1nt9E3M6Xa8pUopgNo,1962
+exec_redis-0.0.20.dist-info/LICENSE,sha256=seDwvRV0I6FnD9Ot1tW62Fx-FldCl6zhhAqJgKQPtEI,1066
+exec_redis-0.0.20.dist-info/METADATA,sha256=5BirXO8AuqaQunR2SX0zFGp2XMopXKV-i0s0mpMSo1o,523
+exec_redis-0.0.20.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+exec_redis-0.0.20.dist-info/top_level.txt,sha256=4Wlgy7C7y1kQqh55um9SHEF8nz6U6YpW_47TG8MAHqs,10
+exec_redis-0.0.20.dist-info/RECORD,,
