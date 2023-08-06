@@ -1,0 +1,148 @@
+<odoo>
+  <data>
+
+    <record id="view_place_window" model="ir.actions.act_window">
+      <field name="name">Places</field>
+      <field name="res_model">crm.team</field>
+      <field name="view_mode">tree,kanban,form</field>
+      <field name="context">{
+        'default_team_type':'map'
+      }</field>
+      <field name="domain">[('team_type','=','map')]</field>
+    </record>
+
+    <!-- TODO: Tree and Form view. invisible attr is always true. Why? -->
+
+    <record id="view_place_tree" model="ir.ui.view">
+      <field name="name">cm.place.tree</field>
+      <field name="model">crm.team</field>
+      <field name="inherit_id" ref="sales_team.crm_team_view_tree"/>
+      <field name="arch" type="xml">
+        <xpath
+          expr="//tree"
+          position="replace">
+          <tree>
+            <field name="active" invisible="1"/>
+            <field name="team_type" invisible="1"/>
+            <field name="name"/>
+            <field name="user_id"
+              attrs="{'invisible': [('team_type', '=', 'map')]}"/>
+            <field name="status"
+              attrs="{'invisible': [('team_type', '!=', 'map')]}"/>
+            <field name="map_id"
+              attrs="{'invisible': [('team_type', '!=', 'map')]}"/>
+            <field name="slug_id"
+              attrs="{'invisible': [('team_type', '!=', 'map')]}"/>
+            <field name="lat"
+              attrs="{'invisible': [('team_type', '!=', 'map')]}"/>
+            <field name="lng"
+              attrs="{'invisible': [('team_type', '!=', 'map')]}"/>
+            <field name="place_category_id"
+              attrs="{'invisible': [('team_type', '!=', 'map')]}"/>
+            <field name="presenter_model_id"
+              attrs="{'invisible': [('team_type', '!=', 'map')]}"/>
+            <field name="form_model_id"
+              attrs="{'invisible': [('team_type', '!=', 'map')]}"/>
+            <field name="crowdfunding_type"
+              attrs="{'invisible': [('team_type', '!=', 'map')]}"/>
+          </tree>
+        </xpath>
+      </field>
+    </record>
+
+    <record id="view_place_form" model="ir.ui.view">
+      <field name="name">cm.place.form</field>
+      <field name="model">crm.team</field>
+      <field name="type">form</field>
+      <field name="inherit_id" ref="crm.sales_team_form_view_in_crm"/>
+      <field name="arch" type="xml">
+        <xpath
+          expr="//label[@for='alias_name']"
+          position="attributes">
+          <attribute name='invisible'>[('team_type','=','map')]</attribute>
+        </xpath>
+        <xpath
+          expr="//div[@name='alias_def']"
+          position="attributes">
+          <attribute name='invisible'>[('team_type','=','map')]</attribute>
+        </xpath>
+        <xpath
+          expr="//field[@name='alias_contact']"
+          position="attributes">
+          <attribute name='invisible'>[('team_type','=','map')]</attribute>
+        </xpath>
+        <xpath
+          expr="//field[@name='user_id']"
+          position="attributes" >
+          <attribute name='invisible'>[('team_type','=','map')]</attribute>
+        </xpath>
+        <xpath
+          expr="//page[@name='members']"
+          position="attributes" >
+          <attribute name='invisible'>[('team_type','!=','map')]</attribute>
+        </xpath>
+        <xpath
+          expr="//sheet"
+          position="before" >
+            <header>
+              <field name="status" widget="statusbar" attrs="{'invisible': [('team_type', '!=', 'map')]}"/>
+            </header>
+        </xpath>
+        <xpath
+          expr="//notebook"
+          position="before" >
+          <group string="Data" attrs="{'invisible': [('team_type', '!=', 'map')]}">
+            <field name="map_id" attrs="{'required': [('team_type', '=', 'map')]}"/>
+            <field name="slug_id" attrs="{'required': [('team_type', '=', 'map')]}"/>
+            <field name="has_active_service"/>
+            <field name="address_txt"/>
+            <field name="lat" attrs="{'required': [('team_type', '=', 'map')]}"/>
+            <field name="lng" attrs="{'required': [('team_type', '=', 'map')]}"/>
+            <field name="place_category_id"
+              attrs="{'invisible': [('map_id', '=', False)],'required': [('team_type', '=', 'map')]}"/>
+            <field name="presenter_model_id"
+              attrs="{'invisible': [('map_id', '=', False)],'required': [('team_type', '=', 'map')]}"/>
+            <field name="form_model_id" attrs="{'invisible': [('map_id', '=', False)]}"/>
+          </group>
+          <group string="Crowdfunding" attrs="{'invisible': [('team_type', '!=', 'map')]}">
+            <field name="crowdfunding_type"/>
+            <field name="completed_percentage"/>
+            <field
+              name="invoiced_target"
+              attrs="{'invisible': [('crowdfunding_type', '!=', 'invoicing_amount')],'required': True}" />
+            <field
+              name="submissions_target"
+              attrs="{'invisible': [('crowdfunding_type', '!=', 'submission_amount')],'required': True}" />
+          </group>
+        </xpath>
+        <xpath
+          expr="//page[@name='dashboard']"
+          position="before"
+        >
+          <page string="Presenter" attrs="{'invisible': ['|',('presenter_model_id', '=', False),('team_type', '!=', 'map')]}">
+            <group>
+              <field name="place_presenter_metadata_ids" widget="one2many_list">
+                <tree create="false" edit="true" delete="false" open="false" editable="top">
+                  <field name="sort_order" widget="handle"/>
+                  <field name="key" readonly="True"/>
+                  <field name="type" readonly="True"/>
+                  <field name="format" readonly="True"/>
+                  <field name="value" attrs="{'readonly': [('format', '=', 'progress')]}"/>
+                </tree>
+              </field>
+            </group>
+          </page>
+          <page string="Submissions" attrs="{'invisible': [('team_type', '!=', 'map')]}">
+            <group>
+              <field name="form_submission_ids"/>
+            </group>
+          </page>
+        </xpath>
+      </field>
+    </record>
+
+    <menuitem name="Places" id="community_maps.place"
+      parent="community_maps.menu_root" action="view_place_window" sequence="2"/>
+
+  </data>
+</odoo>
