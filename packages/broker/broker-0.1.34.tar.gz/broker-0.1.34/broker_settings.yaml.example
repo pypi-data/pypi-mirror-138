@@ -1,0 +1,50 @@
+# Broker settings
+debug: False
+inventory_file: "inventory.yaml"
+# Host Settings
+host_username: "root"
+host_password: "<password>"
+# Provider settings
+AnsibleTower:
+    instances:
+        - production:
+            base_url: "https://<ansible tower host>/"
+            # Username AND password, OR an OAUTH token can be used for authentication
+            username: "<username>"
+            password: "<plain text password>"
+            # token: "<AT personal access token>"
+            inventory: "inventory name"
+            default: True
+        - testing:
+            base_url: "https://<ansible tower host>/"
+            # Username AND password, OR an OAUTH token can be used for authentication
+            username: "<username>"
+            password: "<plain text password>"
+            # token: "<AT personal access token>"
+            inventory: "inventory name"
+    release_workflow: "remove-vm"
+    extend_workflow: "extend-vm"
+    new_expire_time: "+172800"
+    workflow_timeout: 3600
+    results_limit: 50
+TestProvider:
+    instances:
+        - test1:
+            foo: "bar"
+            default: True
+        - test2:
+            foo: "baz"
+        - bad:
+            nothing: False
+    config_value: "something"
+# You can set a nickname as a shortcut for arguments
+nicks:
+    rhel7:
+        workflow: "deploy-base-rhel"
+        rhel_version: "7.9"
+        notes: "Requested by broker"
+    test_nick:
+        test_action: "fake"
+        arg1: "abc"
+        arg2: 123
+        arg3: True
