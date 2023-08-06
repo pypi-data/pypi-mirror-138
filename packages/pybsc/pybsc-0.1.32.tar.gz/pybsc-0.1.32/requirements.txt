@@ -1,0 +1,5 @@
+coloredlogs
+numpy
+orjson
+pyperclip
+tqdm
