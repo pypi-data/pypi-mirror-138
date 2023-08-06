@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ssm-transformer
+Version: 0.1.0
+Summary: The package to transform ssm notification to events
+Home-page: https://git-codecommit.eu-west-1.amazonaws.com/v1/repos/ssm-transformer-package-App-Stack
+Author: Ben Elsen
+Author-email: elsen.be@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
