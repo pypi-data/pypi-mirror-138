@@ -1,0 +1,10 @@
+pypkggen/__init__.py,sha256=tO-gW797SZuwwj-TLxZLQ5v9oJluJ0g6NAHDO2HAzME,140
+pypkggen/files.py,sha256=JbRIuIDQOBMN-Q56bdN9kdAS4lCzRWqLkagkzzDrMY4,931
+pypkggen/licenses.py,sha256=NEvBnxwOxFR2PfnLaKtXDGS8D5g5qtWDv3elOD7lLVc,81264
+pypkggen/pypkggen.py,sha256=rA1LH2vTNeTOy3w2aE-gLmjKOYacr3fMpId4LakRLaY,10710
+pypkggen/setup_file.py,sha256=3T1tzWjN7i1KG00Gcjzkj6qGPzGOxkjCC05zQSh8ZrE,1963
+pypkggen-0.0.1.dist-info/LICENSE,sha256=Tu8Vcnvv-EeRHXfj-KToFkIQ-Ofz4BKa2b1TCzpzkXA,1097
+pypkggen-0.0.1.dist-info/METADATA,sha256=XMPlOo3lrsx8Z5cEs16mMPMZVr_31vameoGnR_9rEhM,3931
+pypkggen-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pypkggen-0.0.1.dist-info/top_level.txt,sha256=dX8Nm80cACgsPxkx8CVaklNQquX8BWVPVrsicfbhb24,9
+pypkggen-0.0.1.dist-info/RECORD,,
