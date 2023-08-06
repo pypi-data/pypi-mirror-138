@@ -1,0 +1,10 @@
+hipose/__init__.py,sha256=2KJZDSMOG7KS82AxYOrZ4ZihYxX0wjfUjDsIZh3L024,22
+hipose/imu.py,sha256=8fGuDrBRh_UVe10s_dLniiwdQfqhF7Lm3qsjs2tLWzM,22708
+hipose/metrics.py,sha256=Yv232SS6P-LZzfOcK0tK7vLdrwtwW7VHk2YDtWVQwXU,28632
+hipose/rotations.py,sha256=Itg8w2WhUG9YJC-bUpOaLK0cbDA8Q1BJPR-D7zPEH4o,6730
+hipose/utils.py,sha256=9DNC18Hp_KLJwNWnlYP-VOheqCIA5cqQf1vVEyPderE,11595
+hipose-0.7.1.dist-info/LICENSE,sha256=vYf8KKYDBhdZa5Y3rBOl8LKE8KcGxxhC_Im9kO9Hc8A,1064
+hipose-0.7.1.dist-info/METADATA,sha256=QdM35slwCmmgpEVEaLE5wtf3Y2fYEg4zA5SgsejbOyU,8560
+hipose-0.7.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hipose-0.7.1.dist-info/top_level.txt,sha256=JPXn021eL26hqFTFM8w5pG-2O4T_JzdAMV2Cosy8jdI,7
+hipose-0.7.1.dist-info/RECORD,,
