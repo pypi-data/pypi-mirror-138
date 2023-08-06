@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+tests/teste.py
+whatsappy/__init__.py
+whatsappy/error.py
+whatsappy/main.py
+whatsappy/message.py
+whatsappy/tool.py
+whatsappy_py.egg-info/PKG-INFO
+whatsappy_py.egg-info/SOURCES.txt
+whatsappy_py.egg-info/dependency_links.txt
+whatsappy_py.egg-info/requires.txt
+whatsappy_py.egg-info/top_level.txt
