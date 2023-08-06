@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mrmr-selection
+Version: 0.2.0
+Summary: minimum-Redundancy-Maximum-Relevance algorithm for feature selection
+Home-page: https://github.com/smazzanti/mrmr
+Author: Samuele Mazzanti
+Author-email: mazzanti.sam@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: jinja2
+Requires-Dist: tqdm
+Requires-Dist: joblib
+Requires-Dist: pandas (>=1.0.3)
+Requires-Dist: numpy (>=1.18.1)
+Requires-Dist: sklearn
+Requires-Dist: category-encoders
+
+UNKNOWN
+
