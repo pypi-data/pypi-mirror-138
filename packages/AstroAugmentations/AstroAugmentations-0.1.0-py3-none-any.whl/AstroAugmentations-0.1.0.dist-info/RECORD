@@ -1,0 +1,17 @@
+astroaugmentations/__init__.py,sha256=67BnftekOTK9xsYoetBYUBz0VsGIlBzE4b6b6B0YlxA,192
+astroaugmentations/augmentations.py,sha256=dfOBqPmtYDxMUcdVoVDa99ueBoq3v21JuQEC0m50Jvc,13597
+astroaugmentations/datasets/MiraBest_F.py,sha256=IVIkN6na-qJ6X9BNITK09W9WA22neQwYJAAjhoCzC5Y,17999
+astroaugmentations/datasets/__init__.py,sha256=A41IYxLmKraE_N4EmrAG3FS8VKw8hHfLJ9FN9wzJeEE,52
+astroaugmentations/datasets/galaxy_mnist.py,sha256=YyciYhks9Rqe6vVp7np7pnlB2n_knvECcl9s-eLZB-M,7442
+astroaugmentations/utils/__init__.py,sha256=Smvsmnm_J99xAuIdjzEAP1keSB0Xh37crwvBTbPfefU,30
+astroaugmentations/utils/kernel_creation.py,sha256=yAV_WVg8u6hTAEO_qJEBZaRaTaALx8j3anjrOiQFHvc,4538
+datasets/MiraBest_F.py,sha256=ys-CtqLJ5-qrk28fBAj5-chdBeBhAP3AMqUuL7zj-As,17984
+datasets/__init__.py,sha256=A41IYxLmKraE_N4EmrAG3FS8VKw8hHfLJ9FN9wzJeEE,52
+datasets/galaxy_mnist.py,sha256=NXANrIguNXsC7ve5N-ML5SGJMniWILJjBZEYnNJzwiM,7432
+utils/__init__.py,sha256=Smvsmnm_J99xAuIdjzEAP1keSB0Xh37crwvBTbPfefU,30
+utils/kernel_creation.py,sha256=yAV_WVg8u6hTAEO_qJEBZaRaTaALx8j3anjrOiQFHvc,4538
+AstroAugmentations-0.1.0.dist-info/LICENSE,sha256=53_I0okpl9MmdsanswkPmoYOZYxyfHZ2MRVQPFF9pcY,1062
+AstroAugmentations-0.1.0.dist-info/METADATA,sha256=L9qEwERPv18iY_kE5CnX6v6TPXoknR_IpNQDv8rl0s4,1198
+AstroAugmentations-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+AstroAugmentations-0.1.0.dist-info/top_level.txt,sha256=q3Odpnomw8M0K6fUF5rKfnF91jv9MDAUHnZombX-UkU,19
+AstroAugmentations-0.1.0.dist-info/RECORD,,
