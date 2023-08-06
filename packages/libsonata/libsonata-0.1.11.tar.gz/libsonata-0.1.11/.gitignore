@@ -1,0 +1,10 @@
+.cache
+.clangd
+build
+.eggs/
+.tox/
+libsonata.cpython-*.so
+python/__pycache__/
+*.pyc
+venv/
+cpp/
