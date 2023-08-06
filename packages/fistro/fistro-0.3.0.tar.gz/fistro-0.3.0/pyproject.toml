@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fistro"
+version = "0.3.0"
+description = "A fixture generator based on type annotations."
+readme = "README.md"
+authors = ["Pablo Cabezas <headsrooms@gmail.com>"]
+repository = "https://github.com/headsrooms/fistro"
+homepage = "https://github.com/headsrooms/fistro"
+license = "MIT"
+keywords = ["fixture", "testing", "tool", "dataclasses", "annotations"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.6"
+pytest-cov = "^2.5"
+pytest-mypy = "^0.3.2"
+coverage = "^4.5"
