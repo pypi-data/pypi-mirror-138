@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: cairo-placeholder
+Version: 0.0.2
+Summary: Example project for cairo-glyph
+License: MIT
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cairo-nile (>=0.3.0,<0.4.0)
+Description-Content-Type: text/markdown
+
+# cairo-placeholder
+
+An example library published to demonstrate the [cairo-glyph](https://github.com/sambarnes/cairo-glyph) package manager. See that repo for instructions/details.
+
+`pip install cairo-placeholder`
+
