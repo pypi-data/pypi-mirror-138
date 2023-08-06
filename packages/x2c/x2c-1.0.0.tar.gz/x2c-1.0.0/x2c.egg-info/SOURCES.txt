@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+./x2c/__init__.py
+./x2c/cmd.py
+x2c.egg-info/PKG-INFO
+x2c.egg-info/SOURCES.txt
+x2c.egg-info/dependency_links.txt
+x2c.egg-info/entry_points.txt
+x2c.egg-info/requires.txt
+x2c.egg-info/top_level.txt

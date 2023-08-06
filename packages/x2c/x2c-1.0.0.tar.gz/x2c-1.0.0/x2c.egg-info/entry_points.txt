@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        x2c=x2c.cmd:convert
+    
