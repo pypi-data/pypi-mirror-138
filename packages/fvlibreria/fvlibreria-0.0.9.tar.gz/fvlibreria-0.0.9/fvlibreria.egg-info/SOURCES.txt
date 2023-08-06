@@ -1,0 +1,9 @@
+README.md
+setup.py
+fv-libreria/__init__.py
+fv-libreria/hello.py
+fvlibreria.egg-info/PKG-INFO
+fvlibreria.egg-info/SOURCES.txt
+fvlibreria.egg-info/dependency_links.txt
+fvlibreria.egg-info/requires.txt
+fvlibreria.egg-info/top_level.txt
