@@ -1,0 +1,9 @@
+LICENSE
+README.md
+ipyvizzu.py
+setup.py
+ipyvizzu.egg-info/PKG-INFO
+ipyvizzu.egg-info/SOURCES.txt
+ipyvizzu.egg-info/dependency_links.txt
+ipyvizzu.egg-info/requires.txt
+ipyvizzu.egg-info/top_level.txt

@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: ipyvizzu
+Version: 0.4.1
+Summary: Jupyter notebook integration for vizzu
+Home-page: https://github.com/vizzuhq/ipyvizzu
+License: Apache 2
+Project-URL: Documentation, https://vizzuhq.github.io/ipyvizzu/index.html
+Project-URL: Source, https://github.com/vizzuhq/ipyvizzu
+Project-URL: Tracker, https://github.com/vizzuhq/ipyvizzu/issues
+Description: [![Makefile CI](https://github.com/nyirog/ipyvizzu/actions/workflows/makefile.yml/badge.svg?branch=main)](https://github.com/nyirog/ipyvizzu/actions/workflows/makefile.yml)
+        
+        # ipyvizzu
+        
+        Jupyter notebook integration for vizzu.
+        
+        ipyvizzu only works in jupiter notebook environment. A notebook cell may
+        contain the following code snippet.
+        
+        ```python
+        from ipyvizzu import Chart, Data, Config
+        
+        data = Data()
+        data.add_serie("Foo", ["Alice", "Bob", "Ted"])
+        data.add_serie("Bar", [15, 32, 12])
+        data.add_serie("Baz", [5, 2, 2])
+        
+        chart = Chart()
+        chart.animate(data)
+        
+        chart.animate(x="Foo", y="Bar", color="Foo")
+        chart.animate(geometry="circle")
+        chart.animate(x="Foo", y="Baz", color="Foo")
+        chart.animate(geometry="rectangle")
+        
+        chart.show()
+        ```
+        
+        ## Installation
+        
+        ipyvizzu requires only `IPython` package, but you can use it only in jupyter
+        notebook therefore `notebook` project has to be installed.
+        
+        ```sh
+        pip install ipyvizzu
+        pip install notebook
+        ```
+        
+        ## Documentation
+        
+        Documentation can be build with the `doc` make target.
+        
+        ```sh
+        make doc
+        ```
+        
+        Online version can be read at [vizzuhq.github.io/ipyvizzu](https://vizzuhq.github.io/ipyvizzu/index.html).
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
