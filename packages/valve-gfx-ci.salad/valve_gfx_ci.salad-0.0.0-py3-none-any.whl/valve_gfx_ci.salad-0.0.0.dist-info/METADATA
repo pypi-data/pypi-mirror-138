@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: valve-gfx-ci.salad
+Version: 0.0.0
+Summary: Valve GFX CI's serial multiplexer
+Home-page: https://gitlab.freedesktop.org/mupuf/valve-infra/-/tree/master/salad
+Author: Martin Roukala
+Author-email: martin.roukala@mupuf.org
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitlab.freedesktop.org/mupuf/valve-infra/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click (==7.1.2)
+Requires-Dist: Flask (==1.1.2)
+Requires-Dist: itsdangerous (==1.1.0)
+Requires-Dist: Jinja2 (==2.11.3)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: pyserial (==3.5)
+Requires-Dist: Werkzeug (==1.0.1)
+
+# TODO
+
+
