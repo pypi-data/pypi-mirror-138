@@ -1,0 +1,2 @@
+Product Attribute Strict Modul
+###############################
