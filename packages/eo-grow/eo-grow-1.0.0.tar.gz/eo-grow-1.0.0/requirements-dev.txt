@@ -1,0 +1,10 @@
+pytest>=4.0.0
+pytest-cov
+pytest-order
+moto
+twine
+codecov
+pylint
+black
+jupyter
+ipdb
