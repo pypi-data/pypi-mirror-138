@@ -1,0 +1,3 @@
+recursive-include django_http_log/common *
+recursive-include django_http_log/decorator *
+recursive-include django_http_log/serializers *
