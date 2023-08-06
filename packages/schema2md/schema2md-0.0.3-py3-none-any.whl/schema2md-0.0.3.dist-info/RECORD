@@ -1,0 +1,13 @@
+schema2md/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schema2md/cli.py,sha256=2rxdS-YtyFtJB42ByKwXQ7jkbqjW7Nfa9XHWOx1hzbw,1170
+schema2md/contexts.py,sha256=rN1lAh2iSD0ua5FN8eATTYwfXb1oqGiDqhLvCXEB-e0,3956
+schema2md/declarations.py,sha256=Nj0UGHFMsOYAS-65vzCxUWSbx5cNrrEHKxOSR-xBpIo,1657
+schema2md/format_funcs.py,sha256=3VzkOUBSLkYju0FtgXZKd52If6y_ML3VXqv09Hwpstw,205
+schema2md/parsers.py,sha256=y_HHO-A3LOT6iaLFYAN5XnoxNU602oAX35-0JuhYZY4,9580
+schema2md/reference.py,sha256=AlT5-2iCgXhqjIHHsqwERGCly4-GXQNORkwikbwYfYg,675
+schema2md/tab.py,sha256=V4x0MWD_7Ow-F_VWyYx0_8BTQ4_KwOKnXEp7CCNzBCk,297
+schema2md-0.0.3.dist-info/METADATA,sha256=OcTPX0oZZyVDyRDWh2ed2ITrYvZYW9TFTUwasV56KJM,576
+schema2md-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+schema2md-0.0.3.dist-info/entry_points.txt,sha256=rwQAsCOppZ7ZRz0cDidywOfIL-t1PoDDhDmhR6UlvL8,50
+schema2md-0.0.3.dist-info/top_level.txt,sha256=V5KEJxrvr07G7yUNlgawaHWzyL7ZlvfwbXyCyc4HODM,10
+schema2md-0.0.3.dist-info/RECORD,,
