@@ -1,0 +1,15 @@
+raclients/__init__.py,sha256=QV1zOP0XS7GZPehUPu8Oq0KiR6Fd0XAEZyRj7bYy6Uc,300
+raclients/auth.py,sha256=R_5xME97y5lYku3BqBE0fZBq9Y4Wd2oziB3TdMoEHJE,6574
+raclients/graph/__init__.py,sha256=pUnlTpk4-M3eqCdNoqYZ7IICQ9098UvVAr2cyN9UiWk,99
+raclients/graph/client.py,sha256=PZbAR7GaMdWhOWlipp3CfeP3ESVU3iT-LEwZ1PuGtbQ,7797
+raclients/graph/transport.py,sha256=E72PE3izfiVYTm1WU3c918nJhZ9Yg07k48et2r6rBvE,9271
+raclients/graph/util.py,sha256=9owCq2Ad8ddC9Gm10yeIFNN19_LIvAJAFtA2QmA0PZ8,1006
+raclients/modelclient/__init__.py,sha256=KB2xXqRe59N_24TiyzHkcoWRYg71eke6lxXLcJ2P3JI,99
+raclients/modelclient/base.py,sha256=1vbeIm4-a0KaoLKtUjN3mxD_QvCrIrcyIZ_PMGrnrHU,3950
+raclients/modelclient/lora.py,sha256=lkXbn1HJQnZz3EQYPX_3g_FgGBceMJ6V9KFOCsEnGNI,1842
+raclients/modelclient/mo.py,sha256=LbQqr-h0DFzr5NGy65VV1S3f0pFZdmUiUttzP9_zLt4,4320
+raclients-1.2.1.dist-info/LICENSES/MPL-2.0.txt,sha256=Xez-I9f_ECXfYKKwVpbPA25xYMNwv4McfGeH_1Y9DOI,15177
+raclients-1.2.1.dist-info/LICENSES/MIT.txt,sha256=uF3NPkU9BZglUsUrX8ngvdbSPG-OhEuYSoivMlcLDMA,1078
+raclients-1.2.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+raclients-1.2.1.dist-info/METADATA,sha256=thAGbuLg_cBBGgCXwQO-Okx0SMfOdGsJeU0u-ra0E1M,2124
+raclients-1.2.1.dist-info/RECORD,,
