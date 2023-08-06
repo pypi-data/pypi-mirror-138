@@ -1,0 +1,15 @@
+cc_email_templates/__init__.py,sha256=3O71ArLMFWibdoRXYsp2snRqXgHkdbiZLNh6jraw7I8,42
+cc_email_templates/render.py,sha256=7b9RD0nzZ2zh53r_wFGplc9I2mBgMI0pKqDVxDj0hhg,1976
+cc_email_templates/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cc_email_templates/templates/base-email-layout.html.j2,sha256=obZteh0_c2tGbovK2CzCtfyoyEtslt78Z5K0Kl1OumU,2170
+cc_email_templates/templates/base.html.j2,sha256=cajqnFtsvwzv56N1imUHseiZJo51b39OBRrQksGjjbU,304
+cc_email_templates/templates/call-to-action.html.j2,sha256=MA8RkwOpMA0aqy8my1DNv8xibwSkxcDrKza94CJUFJI,727
+cc_email_templates/templates/simple-call-to-action.html.j2,sha256=TcfWJsJ3nK6dfgz3KSKmOdrNKC8IdtO4LfNscoSJL7Q,246
+cc_email_templates/templates/simple-call-to-action.txt.j2,sha256=YKkXcX6UbA_bKX7b9jiqW5HRlK1AHzRNucVBUBkscAM,232
+cc_email_templates/templates/table-email.html.j2,sha256=McfqeMEUMFyY3HkEia4OPHQmFyOax1HXIkFSyVF3uqI,2602
+cc_email_templates/templates/table-style.css,sha256=9lulJyTk2FKn81b6ZotsCdsafs82xs1Li56ODYWYQqs,5859
+cc_email_templates/txt_processing.py,sha256=NS8XdXq79-Gp5F_SR32S75WWnFgDXyR5h9K4VkRsifM,501
+cc_email_templates-0.1.1.dist-info/LICENSE,sha256=nahosiH4OkhXnvpERbkq0Nv1EqIh1q8YBaw2FGQFg9U,1093
+cc_email_templates-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+cc_email_templates-0.1.1.dist-info/METADATA,sha256=SKWxTEHNOtJL_DAnmYNH8xJ1rz8i5jEb6gujG0SRJM4,1266
+cc_email_templates-0.1.1.dist-info/RECORD,,

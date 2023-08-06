@@ -1,0 +1,23 @@
+{% extends "base-email-layout.html.j2" %}
+
+{% block inner_content %}
+   {% block content_above %}
+   {% endblock %}
+   <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
+      <tbody>
+         <tr>
+            <td align="left">
+               <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                  <tbody>
+                     <tr>
+                        <td> <a href="{{ action_link }}" target="_blank">{{ action_button_text or "Link"}}</a> </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+   {% block content_below %}
+   {% endblock %}
+{% endblock %}
