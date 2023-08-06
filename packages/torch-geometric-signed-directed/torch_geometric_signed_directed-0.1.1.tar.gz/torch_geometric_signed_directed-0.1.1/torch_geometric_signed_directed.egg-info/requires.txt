@@ -1,0 +1,7 @@
+torch
+torch_sparse
+torch_scatter
+sklearn
+torch_geometric
+numpy
+scipy
